@@ -1,0 +1,17 @@
+'use strict';
+const fs=require('fs'),vm=require('vm'),assert=require('assert'),crypto=require('crypto'),path=require('path');
+const site=(process.env.SATB2_SITE_DIR||path.resolve(__dirname,'../site')),checks=[];
+class Element{constructor(tag){this.tagName=tag;this.children=[];this.value='';this.textContent='';}append(...x){this.children.push(...x);}replaceChildren(...x){this.children=[...x];}}
+const ids={};for(const id of ['release-link','asset-list','asset-search','asset-kind','asset-count','gallery-grid'])ids[id]=new Element('div');ids['asset-kind'].value='ALL';
+const c={window:{},document:{getElementById:id=>ids[id],createElement:tag=>new Element(tag)}};vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(site,'data/published_downloads.js'),'utf8'),c);c.window.SATB2_PUBLISHED_DOWNLOADS=c.window.SATB2_PUBLISHED_DOWNLOADS;
+vm.runInContext(fs.readFileSync(path.join(site,'catalog_pages.js'),'utf8'),c);
+function check(name,fn){fn();checks.push(name);console.log('PASS '+name);}
+check('All95 source assets have navigable links',()=>{assert.equal(ids['asset-list'].children.length,95);assert(ids['asset-list'].children.every(e=>e.children[0].href.startsWith('https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v2.1.0/')));});
+check('Six exact illustrated PDF thumbnails',()=>{assert.equal(ids['gallery-grid'].children.length,6);for(const card of ids['gallery-grid'].children){assert(card.children[1].children[0].src.startsWith('assets/gallery/'));assert.equal(card.children[1].children[0].loading,'lazy');assert.equal(card.children[1].href,card.children[3].href);}});
+ids['asset-kind'].value='archive';ids['asset-kind'].onchange();check('Archive filter isolates3complete packages',()=>assert.equal(ids['asset-list'].children.length,3));
+ids['asset-kind'].value='processed_object';ids['asset-kind'].onchange();check('Processed object filter isolates28 native objects',()=>{assert.equal(ids['asset-list'].children.length,28);assert(ids['asset-list'].children.every(e=>e.children[0].href.includes('/objects__')));});
+ids['asset-kind'].value='example_pdf';ids['asset-kind'].onchange();check('Example filter isolates6matching PDFs',()=>assert.equal(ids['asset-list'].children.length,6));
+ids['asset-kind'].value='ALL';ids['asset-search'].value='not-present-example-1234';ids['asset-search'].oninput();check('Empty search result has honest empty state',()=>{assert.equal(ids['asset-list'].children.length,1);assert.equal(ids['asset-list'].children[0].textContent,'No assets match these filters.');});
+ids['asset-search'].value='';c.window.SATB2_PUBLISHED_DOWNLOADS.assets[0].label='<test & label>';ids['asset-search'].oninput();check('Text labels remain literalDOMtext',()=>assert.equal(ids['asset-list'].children[0].children[0].textContent,'<test & label>'));
+check('Public inventory has bound archive hashes and no private machine paths',()=>{const raw=JSON.stringify(c.window.SATB2_PUBLISHED_DOWNLOADS);assert(!raw.includes('original_source_path'));assert(!raw.includes('/Users/'));assert(!raw.includes('/Volumes/'));for(const a of c.window.SATB2_PUBLISHED_DOWNLOADS.assets.filter(a=>a.kind==='archive')){assert(/^[0-9a-f]{64}$/.test(a.sha256));assert(a.bytes>0&&a.bytes<2*1024**3);}});
+const report={status:'PASS',scope:'PURE_VM_MOCK_DOM_NOT_BROWSER',checks:checks.length,check_names:checks,catalog_renderer_sha256:crypto.createHash('sha256').update(fs.readFileSync(path.join(site,'catalog_pages.js'))).digest('hex')};fs.writeFileSync(path.join(__dirname,'catalog_pages_acceptance.json'),JSON.stringify(report,null,2)+'\n');

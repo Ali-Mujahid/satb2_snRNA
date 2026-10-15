@@ -1,0 +1,36 @@
+'use strict';
+// Pure VM transport fixtures. No browser, server or network requests.
+const fs=require('fs'),vm=require('vm'),zlib=require('zlib'),crypto=require('crypto'),assert=require('assert'),path=require('path');
+const site=(process.env.SATB2_SITE_DIR||path.resolve(__dirname,'../site'));
+const checks=[],hash=b=>crypto.createHash('sha256').update(b).digest('hex');
+function check(name,fn){fn();checks.push(name);console.log('PASS '+name);}
+const fixtures=new Map(),requests=[];
+function fixture(name,value,{plain=false,remote=false}={}){
+ const raw=Buffer.from(JSON.stringify(value)),bytes=plain?raw:zlib.gzipSync(raw),p=remote?'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v2.1.0/data_downloads/'+name+'.json.gz':'data/shards/'+name+'.json.gz';
+ const desc={encoding:'gzip-bytes',path:p,sha256:hash(bytes),payload_sha256:hash(raw)};fixtures.set(new URL(p,'https://ali-mujahid.github.io/satb2_snRNA/').href,bytes);return desc;
+}
+const c={console,URL,Uint8Array,ArrayBuffer,TextEncoder,TextDecoder,atob,Blob,Response,DecompressionStream,setTimeout,clearTimeout,crypto:crypto.webcrypto,SATB2_NO_AUTO_INIT:true,location:{href:'https://ali-mujahid.github.io/satb2_snRNA/'},fetch:async(url,options)=>{requests.push({url,options});const data=fixtures.get(url);return {ok:!!data,status:data?200:404,arrayBuffer:async()=>data.buffer.slice(data.byteOffset,data.byteOffset+data.byteLength)};}};
+c.window=c;c.globalThis=c;vm.createContext(c);vm.runInContext(fs.readFileSync(path.join(site,'vendor/fflate.min.js'),'utf8'),c);vm.runInContext(fs.readFileSync(path.join(site,'v2_features.js'),'utf8'),c);vm.runInContext(fs.readFileSync(path.join(site,'app.js'),'utf8'),c);
+const app=c.SATB2_APP,h=app.helpers,plain=x=>JSON.parse(JSON.stringify(x));
+(async()=>{
+ const d=fixture('native',{rows:[{x:0,y:null,gene:'A',padj:0.12345678901234567}]});
+ check('Project prefix preserved',()=>assert.equal(h.shardURL(d).url,'https://ali-mujahid.github.io/satb2_snRNA/data/shards/native.json.gz'));
+ for(const p of ['https://example.com/a.json.gz','https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/main/data_downloads/a.json.gz','data/shards/../a.json.gz','/data/shards/a.json.gz','data/shards/a.json.gz?x=1','data/shards/a%2Fb.json.gz'])check('Reject disallowed path '+p,()=>assert.throws(()=>h.shardURL({...d,path:p})));
+ let encoded=await h.fetchBinary(d),decoded=await h.decode(encoded);check('Native gzip exact JSON/null/numeric roundtrip',()=>assert.deepEqual(plain(decoded),{rows:[{x:0,y:null,gene:'A',padj:0.12345678901234567}]}));
+ const remote=fixture('source',{text:'gene\tbaseMean\nA\t0.12345678901234567\n',filename:'exact.tsv'},{remote:true});
+ decoded=await h.decode(await h.fetchBinary(remote));check('Pinned raw text source bytes preserved',()=>assert.equal(decoded.text,'gene\tbaseMean\nA\t0.12345678901234567\n'));
+ check('Raw request omits credentials and rejects redirects',()=>{const r=requests.at(-1);assert.equal(r.options.mode,'cors');assert.equal(r.options.credentials,'omit');assert.equal(r.options.redirect,'error');});
+ await assert.rejects(h.fetchBinary({...d,sha256:'0'.repeat(64)}),/integrity/);checks.push('Corrupt compressed bytes rejected');
+ encoded=await h.fetchBinary(d);await assert.rejects(h.decode({...encoded,payload_sha256:'0'.repeat(64)}),/integrity/);checks.push('Corrupt decoded payload rejected');
+ await assert.rejects(h.fetchBinary({...d,sha256:null}),/SHA256/);checks.push('Missing binary hash rejected');
+ const keep=c.DecompressionStream;c.DecompressionStream=undefined;decoded=await h.decode(await h.fetchBinary(d));check('Vendored gzip fallback preserves nulls',()=>assert.equal(decoded.rows[0].y,null));c.DecompressionStream=keep;
+ const json=fixture('explicit_json',{rows:[0,null,'NA']},{plain:true});decoded=await h.decode(await h.fetchBinary(json));check('Explicit hash-bound JSON without gzip magic accepted',()=>assert.deepEqual(plain(decoded.rows),[0,null,'NA']));
+ const coords={nuclei:[{nucleus_id:'wt_1_B',cluster_id:'0',x_harmony:1,y_harmony:2,x_unintegrated:3,y_unintegrated:4}],clusters:[{cluster_id:'0',reviewed_label:'Test'}]};
+ const descriptors={a:fixture('a',coords),b:fixture('b',coords),extra:fixture('extra',{safe:true})};
+ const manifest={schema_version:'satb2-offline-1',defaults:{population:'CA1_ProS',branch:'original_full',marker_ids:[]},study:{source_fingerprint:'fixture'},genes:[],datasets:['scanpy','seurat'].map((tool,i)=>({tool,branch:'original_full',population:'CA1_ProS',cluster_scope:'original_frozen',coordinates_shard:i?'b':'a'})),shards:descriptors};
+ await app.init({manifest,catalog:{datasets:[],shards:{}},headless:true,ignoreSavedState:true});
+ const before=requests.length;await Promise.all([app.loadShard('extra'),app.loadShard('extra'),app.loadShard('extra')]);check('Pending requests deduplicated',()=>assert.equal(requests.length-before,1));
+ for(let i=0;i<9;i++){manifest.shards['e'+i]=fixture('e'+i,{i});await app.loadShard('e'+i);}check('Decoded cache stays at six',()=>assert.equal(app.cacheSize,6));
+ const safeCrypto=c.crypto;c.crypto={};await assert.rejects(h.fetchBinary(d),/Secure hash/);c.crypto=safeCrypto;checks.push('Unavailable WebCrypto fails closed');
+ const report={status:'PASS',checks:checks.length,check_names:checks,scope:'VM_ONLY_NO_BROWSER_NO_NETWORK',app_sha256:hash(fs.readFileSync(path.join(site,'app.js')))};fs.writeFileSync(path.join(__dirname,'hosted_transport_acceptance.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify(report));
+})().catch(err=>{console.error(err);process.exitCode=1;});

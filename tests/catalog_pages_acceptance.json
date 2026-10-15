@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "scope": "PURE_VM_MOCK_DOM_NOT_BROWSER",
+  "checks": 8,
+  "check_names": [
+    "All95 source assets have navigable links",
+    "Six exact illustrated PDF thumbnails",
+    "Archive filter isolates3complete packages",
+    "Processed object filter isolates28 native objects",
+    "Example filter isolates6matching PDFs",
+    "Empty search result has honest empty state",
+    "Text labels remain literalDOMtext",
+    "Public inventory has bound archive hashes and no private machine paths"
+  ],
+  "catalog_renderer_sha256": "9450855efce099daccf4a13fa986d284811985c7e4cc52a0234e398f2e726468"
+}

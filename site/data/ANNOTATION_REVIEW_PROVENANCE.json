@@ -1,0 +1,98 @@
+{
+  "status": "COMPLETED_READ_ONLY_PROVISIONAL_ANNOTATION_SUGGESTION_REVIEW",
+  "source_code_sha256": "1eba3f82e07449bbac9d0d89fd0e9bc6c7f3d78ab5eb237428fe47f2643d0fb2",
+  "input_sha256": {
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/cluster_annotations.tsv": "a84fb3ef8121f2860c849146fcc991f4b4cad0a0b0b5376c5623b22bf4758ee4",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/comparison/LABEL_RELIABILITY_REVIEW.tsv": "850de539dc07a1d6085bf7e28cdb9a4e8da23fa1e4bbf18627aa47d93a7a8e0f",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/marker_summaries/gene_cluster_summary.tsv": "5b538cdd178123b49609d5fd2adec05b9adbeec52bb13c4f7edd350717e536a9",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/marker_summaries/gene_cluster_summary_WT.tsv": "b320c350463cc05f91418c34fda9f6b06b659f0d4ca2f9dcd1ab533f75ce1617",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/marker_summaries/representative_markers.tsv": "96c2e00bd1188b0679a5f76c7ffce98c61c28fe74e315a56c98297c954ff75b9",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/source/annotation/annotate_clusters.py": "2ba47683bf2bdba0926eedc405a6d59032eaf99151aaf52679eabf588b76ecd7",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/COMPLETE.json": "e68a6ac38dea1d442c913e6198a16a0f829cdbab37376309376b0b310ca8d438",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/marker_summaries/COMPLETE.json": "c7bfe2505baa8b21acae1263700e7315ef46ce2bb9e9a254a4524f61a1b49dd1",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/comparison/COMPLETE.json": "79898bdc07da2548062c69ce0fe95e25486b1f85afb1581ce361851a118df982"
+  },
+  "count_summary": {
+    "n_original_clusters_reviewed": 163,
+    "n_native_fine_supported": 93,
+    "n_uncertain_before": 70,
+    "n_uncertain_after_provisional_suggestions": 70,
+    "n_explicit_mixed_low_or_conflicting_before": 66,
+    "n_explicit_mixed_low_or_conflicting_after": 66,
+    "n_affected_retained_main_clusters": 61,
+    "n_affected_excluded_audit_only_clusters": 9,
+    "n_suggestions": 70,
+    "n_promoted_to_validated_identity": 0,
+    "n_CA1_programme_options": 20,
+    "n_CA1_mixed_weak_or_conflicting_programmes_before": 11,
+    "n_CA1_mixed_weak_or_conflicting_programmes_after": 11,
+    "by_tool_population": [
+      {
+        "tool": "scanpy",
+        "population": "CA1_ProS",
+        "n_uncertain_before": 1,
+        "n_uncertain_after": 1
+      },
+      {
+        "tool": "scanpy",
+        "population": "Excitatory",
+        "n_uncertain_before": 7,
+        "n_uncertain_after": 7
+      },
+      {
+        "tool": "scanpy",
+        "population": "Inhibitory",
+        "n_uncertain_before": 6,
+        "n_uncertain_after": 6
+      },
+      {
+        "tool": "scanpy",
+        "population": "allcells",
+        "n_uncertain_before": 16,
+        "n_uncertain_after": 16
+      },
+      {
+        "tool": "seurat",
+        "population": "CA1_ProS",
+        "n_uncertain_before": 2,
+        "n_uncertain_after": 2
+      },
+      {
+        "tool": "seurat",
+        "population": "Excitatory",
+        "n_uncertain_before": 8,
+        "n_uncertain_after": 8
+      },
+      {
+        "tool": "seurat",
+        "population": "Inhibitory",
+        "n_uncertain_before": 6,
+        "n_uncertain_after": 6
+      },
+      {
+        "tool": "seurat",
+        "population": "allcells",
+        "n_uncertain_before": 24,
+        "n_uncertain_after": 24
+      }
+    ]
+  },
+  "output_sha256": {
+    "editor_label_suggestions.json": "56653c5a178b7236aa52f943bcd54081d74c20bd356b370c3ef435def8f5865a",
+    "cluster_label_suggestions.tsv": "6cb0532b9f5b7a6eb9116a9b6cddbe1c728eedc15d870d86d841a436a7430978",
+    "review.md": "fbe254c013c44f2420fc7147e8e1e9a9244ecccaccacd52cb42cad9c6104c669"
+  },
+  "scientific_fitting_performed": false,
+  "raw_nucleus_RNA_extraction_or_aggregation_performed": false,
+  "native_outputs_modified": false,
+  "native_confidence_or_model_eligibility_upgraded": false,
+  "manual_all70_label_wording_review_completed": true,
+  "peer_review_examples": [
+    "scanpy::Inhibitory::1",
+    "scanpy::Inhibitory::4",
+    "scanpy::Inhibitory::14",
+    "scanpy::Inhibitory::15",
+    "seurat::CA1_ProS::7"
+  ],
+  "all_scope_counts_and_provisional_flags_PASS": true
+}

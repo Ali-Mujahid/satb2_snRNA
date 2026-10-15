@@ -7,7 +7,7 @@ SITE=ROOT/'site'
 PREFIX='https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v2.1.0/data_downloads/'
 
 def main():
-    maps=[json.loads((SITE/'data'/name).read_text()) for name in ['manifest.json','de_catalog.json','MOUSE_CATALOG.json']]
+    maps=[json.loads((SITE/'data'/name).read_text()) for name in ['manifest.json','DE_CATALOG.json','MOUSE_CATALOG.json']]
     count=0
     for registry in maps:
         for key,d in registry['shards'].items():
