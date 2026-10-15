@@ -1,0 +1,59 @@
+{
+  "resource_budget_gib": 32,
+  "memory_probe_python": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/.venv_scanpy/bin/python",
+  "minimum_available_gib": 24,
+  "seed": 20261013,
+  "nfeatures": 3000,
+  "normalization_target": 10000,
+  "scale_max": 10,
+  "npcs": 30,
+  "k_neighbors": 20,
+  "umap_neighbors": 30,
+  "umap_min_dist": 0.3,
+  "resolutions": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "primary_resolution": 0.4,
+  "harmony_theta": 2,
+  "harmony_sigma": 0.1,
+  "harmony_lambda": 1,
+  "harmony_nclust": 100,
+  "harmony_max_iter": 10,
+  "harmony_ncores": 4,
+  "marker_max_cells_per_cluster": 1200,
+  "marker_max_total_cells": 30000,
+  "marker_min_pct": 0.1,
+  "marker_logfc_threshold": 0.25,
+  "run_partition_sensitivities": false,
+  "run_loo": false,
+  "loo_families": [
+    "ATLAS_TOTAL_ALL",
+    "ATLAS_TOTAL_EX",
+    "ATLAS_TOTAL_IN",
+    "ATLAS_TOTAL_CA1_PROS"
+  ],
+  "sample_manifest_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/samples_paired_original.tsv",
+  "roster_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/roster_paired_original.tsv",
+  "gene_manifest_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/gene_features.tsv",
+  "fixed_features_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_original/common_hvg_allcells.tsv",
+  "labels_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/labels_paired_original.tsv",
+  "marker_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/marker_review_panels.tsv",
+  "output_root": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/seurat/paired_original",
+  "count_source": "paired_original",
+  "expected_nuclei": 104298,
+  "subset_features_tsv": {
+    "EX": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_original/common_hvg_Excitatory.tsv",
+    "IN": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_original/common_hvg_Inhibitory.tsv",
+    "CA1_PROS_CANDIDATE": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_original/common_hvg_CA1_ProS.tsv"
+  },
+  "scanpy_metadata_paths": {
+    "allcells": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/allcells/nucleus_metadata.tsv",
+    "Excitatory": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/Excitatory/nucleus_metadata.tsv",
+    "Inhibitory": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/Inhibitory/nucleus_metadata.tsv",
+    "CA1_ProS": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/CA1_ProS/nucleus_metadata.tsv"
+  },
+  "cluster_metadata_root": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/seurat/original_full",
+  "prefilter_universe_root": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/seurat/original_full/pseudobulk"
+}

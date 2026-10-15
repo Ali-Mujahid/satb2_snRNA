@@ -1,0 +1,61 @@
+tool	cluster_id	leading_WT_score_threshold	sensitivity_programme_label	primary_programme_label	superficial_WT_score	deep_WT_score	primary_DE_membership_unchanged
+scanpy	0	0.2	Mixed/weak	Mixed/weak	-0.1840248245587389	-0.0051015791988723	True
+scanpy	1	0.2	Deep	Deep	-1.1346447924889989	1.575738798853819	True
+scanpy	2	0.2	Superficial	Mixed/weak	0.200175659650841	-0.4512248320857623	True
+scanpy	3	0.2	Superficial	Superficial	0.5944532583729499	-0.6906578005188881	True
+scanpy	4	0.2	Deep	Deep	-0.1917784857605196	0.603876711701545	True
+scanpy	5	0.2	Mixed/weak	Mixed/weak	-0.1842303321547523	0.2582628085271327	True
+scanpy	6	0.2	Mixed/weak	Mixed/weak	-0.2256110159772086	-0.5335724241943256	True
+scanpy	7	0.2	Superficial	Superficial	1.4116419040085464	-0.8221165844060834	True
+scanpy	8	0.2	Identity conflict	Identity conflict	-0.2859813710921183	0.0647949013214339	True
+seurat	1	0.2	Deep	Deep	-0.9920621224066332	1.7812327191233797	True
+seurat	2	0.2	Superficial	Superficial	0.3087449497821559	-0.4105171654135453	True
+seurat	3	0.2	Superficial	Superficial	0.6792958351614986	-0.5749360792761654	True
+seurat	4	0.2	Mixed/weak	Mixed/weak	0.0834807560194711	-0.2798763045799758	True
+seurat	5	0.2	Deep	Deep	-0.1450983261792949	0.5118517154115899	True
+seurat	6	0.2	Mixed/weak	Mixed/weak	-0.0524362583784756	0.2923763530792472	True
+seurat	7	0.2	Mixed/weak	Mixed/weak	-0.6875781893023702	-0.6723546403834348	True
+seurat	8	0.2	Superficial	Superficial	1.4653939818345418	-0.650743406330033	True
+seurat	9	0.2	Mixed/weak	Mixed/weak	-0.1308202230625334	-0.2791380145993496	True
+seurat	10	0.2	Mixed/weak	Mixed/weak	-0.254140606664374	-0.0490612775195099	True
+seurat	11	0.2	Identity conflict	Identity conflict	-0.2747797968039846	0.3311661004877965	True
+scanpy	0	0.3	Mixed/weak	Mixed/weak	-0.1840248245587389	-0.0051015791988723	True
+scanpy	1	0.3	Deep	Deep	-1.1346447924889989	1.575738798853819	True
+scanpy	2	0.3	Mixed/weak	Mixed/weak	0.200175659650841	-0.4512248320857623	True
+scanpy	3	0.3	Superficial	Superficial	0.5944532583729499	-0.6906578005188881	True
+scanpy	4	0.3	Deep	Deep	-0.1917784857605196	0.603876711701545	True
+scanpy	5	0.3	Mixed/weak	Mixed/weak	-0.1842303321547523	0.2582628085271327	True
+scanpy	6	0.3	Mixed/weak	Mixed/weak	-0.2256110159772086	-0.5335724241943256	True
+scanpy	7	0.3	Superficial	Superficial	1.4116419040085464	-0.8221165844060834	True
+scanpy	8	0.3	Identity conflict	Identity conflict	-0.2859813710921183	0.0647949013214339	True
+seurat	1	0.3	Deep	Deep	-0.9920621224066332	1.7812327191233797	True
+seurat	2	0.3	Superficial	Superficial	0.3087449497821559	-0.4105171654135453	True
+seurat	3	0.3	Superficial	Superficial	0.6792958351614986	-0.5749360792761654	True
+seurat	4	0.3	Mixed/weak	Mixed/weak	0.0834807560194711	-0.2798763045799758	True
+seurat	5	0.3	Deep	Deep	-0.1450983261792949	0.5118517154115899	True
+seurat	6	0.3	Mixed/weak	Mixed/weak	-0.0524362583784756	0.2923763530792472	True
+seurat	7	0.3	Mixed/weak	Mixed/weak	-0.6875781893023702	-0.6723546403834348	True
+seurat	8	0.3	Superficial	Superficial	1.4653939818345418	-0.650743406330033	True
+seurat	9	0.3	Mixed/weak	Mixed/weak	-0.1308202230625334	-0.2791380145993496	True
+seurat	10	0.3	Mixed/weak	Mixed/weak	-0.254140606664374	-0.0490612775195099	True
+seurat	11	0.3	Identity conflict	Identity conflict	-0.2747797968039846	0.3311661004877965	True
+scanpy	0	0.4	Mixed/weak	Mixed/weak	-0.1840248245587389	-0.0051015791988723	True
+scanpy	1	0.4	Deep	Deep	-1.1346447924889989	1.575738798853819	True
+scanpy	2	0.4	Mixed/weak	Mixed/weak	0.200175659650841	-0.4512248320857623	True
+scanpy	3	0.4	Superficial	Superficial	0.5944532583729499	-0.6906578005188881	True
+scanpy	4	0.4	Deep	Deep	-0.1917784857605196	0.603876711701545	True
+scanpy	5	0.4	Mixed/weak	Mixed/weak	-0.1842303321547523	0.2582628085271327	True
+scanpy	6	0.4	Mixed/weak	Mixed/weak	-0.2256110159772086	-0.5335724241943256	True
+scanpy	7	0.4	Superficial	Superficial	1.4116419040085464	-0.8221165844060834	True
+scanpy	8	0.4	Identity conflict	Identity conflict	-0.2859813710921183	0.0647949013214339	True
+seurat	1	0.4	Deep	Deep	-0.9920621224066332	1.7812327191233797	True
+seurat	2	0.4	Mixed/weak	Superficial	0.3087449497821559	-0.4105171654135453	True
+seurat	3	0.4	Superficial	Superficial	0.6792958351614986	-0.5749360792761654	True
+seurat	4	0.4	Mixed/weak	Mixed/weak	0.0834807560194711	-0.2798763045799758	True
+seurat	5	0.4	Deep	Deep	-0.1450983261792949	0.5118517154115899	True
+seurat	6	0.4	Mixed/weak	Mixed/weak	-0.0524362583784756	0.2923763530792472	True
+seurat	7	0.4	Mixed/weak	Mixed/weak	-0.6875781893023702	-0.6723546403834348	True
+seurat	8	0.4	Superficial	Superficial	1.4653939818345418	-0.650743406330033	True
+seurat	9	0.4	Mixed/weak	Mixed/weak	-0.1308202230625334	-0.2791380145993496	True
+seurat	10	0.4	Mixed/weak	Mixed/weak	-0.254140606664374	-0.0490612775195099	True
+seurat	11	0.4	Identity conflict	Identity conflict	-0.2747797968039846	0.3311661004877965	True

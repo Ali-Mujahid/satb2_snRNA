@@ -1,0 +1,359 @@
+{
+  "status": "COMPLETE",
+  "config_sha256": "c5b7d5a04dae46b164be3b6a2ef9e65a9cf319b11ecab260738eb39b7416d130",
+  "versions": {
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pandas": "2.3.3",
+    "harmonypy": "2.1.0",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "scikit-misc": "0.5.3",
+    "scikit-learn": "1.9.1"
+  },
+  "n_nuclei": 108062,
+  "n_genes": 32285,
+  "branch_counts_digest": "b4b1e82358b37a59389d7e98111377557c03cd04e310652c18c1a39bfa98f785",
+  "sources": [
+    {
+      "sample": "wt_1122",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1122_filtered_feature_bc_matrix.h5",
+      "sha256": "97b0b954a0b4c918441e49dc56cbb4bbf47f69f62101671b3b192c84f71eb7d8",
+      "n_nuclei": 8546,
+      "UMIs": 52372773,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "wt_1122",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1122/query_raw_counts.h5ad",
+        "query_sha256": "875aa461fef8c75d0656450303570512f00ce639eac00a8338a7255d2146af2a",
+        "mapper_config_sha256": "f8abf8dd7215f7981ed2afb42c1e291b0b5885a3bcfc26f0468d37ba9c46a1f1",
+        "old_completion_sha256": "2e1e9323cbe0887874388085a68f50546d3ca257114c497ec27bf22243a9f6c3",
+        "normalization": "raw",
+        "shape": [
+          8546,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1123",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1123_filtered_feature_bc_matrix.h5",
+      "sha256": "be5c2b40b0e7723d18d96fb49089c4e5c90ddb76817c4cbe6deea963421a3ffe",
+      "n_nuclei": 9201,
+      "UMIs": 65417615,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "wt_1123",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1123/query_raw_counts.h5ad",
+        "query_sha256": "ed3ff55d7057e4f66a42cd9b79f8b5eaa0a3ca78f7a3f694d72d141fb68990e5",
+        "mapper_config_sha256": "92b63392da77363066d1c6104658af19c74e304dd4f6a12f2feb3a8b7e9dc546",
+        "old_completion_sha256": "bfb8f2d5b0b2a93f7a420b5df8bdf46aae719b463ad1cdd716eb6d1ab5a690ca",
+        "normalization": "raw",
+        "shape": [
+          9201,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1178",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1178_filtered_feature_bc_matrix.h5",
+      "sha256": "967c134d8b27b0922a552c1f3af75b56f02fbdf65d1c5a6402826911c3a64933",
+      "n_nuclei": 6660,
+      "UMIs": 54179732,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "wt_1178",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1178/query_raw_counts.h5ad",
+        "query_sha256": "609d79afd04fe5d1f0db69b4064ae7466369de1a8fdc15b7d0ab8e65125b0593",
+        "mapper_config_sha256": "c3b64b3679406837729aef46f1bf8d18fafc677d5b999ad3a67336b03a0c99e9",
+        "old_completion_sha256": "c534ad5c632d1b67c4deac4cc26097f17a932bb49df1bd84396e7bffc2c4c511",
+        "normalization": "raw",
+        "shape": [
+          6660,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1220",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1220_filtered_feature_bc_matrix.h5",
+      "sha256": "e8b99a5e6b8beff0b43230b516017eb67b5dfcc6494fde0bde14549604fce610",
+      "n_nuclei": 10430,
+      "UMIs": 73264794,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "wt_1220",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1220/query_raw_counts.h5ad",
+        "query_sha256": "17206acf1dc36eaa6556cb10bfa13802f981f762a84df6cc5ff0f8d089b17076",
+        "mapper_config_sha256": "457d0f6c8d5455858fa56647329e218f8014a02f985d7b9594ad6c89acbefb93",
+        "old_completion_sha256": "d6603365aa3d2f3c992a6ecb990789f02cf6388e3329eb3d8f259d2dfeb50b09",
+        "normalization": "raw",
+        "shape": [
+          10430,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1226",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1226_filtered_feature_bc_matrix.h5",
+      "sha256": "421d6ac9271fb4a2315f7fadc816f31755c3d573ffac34f0282e29b4f83c497b",
+      "n_nuclei": 9733,
+      "UMIs": 72975566,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "wt_1226",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1226/query_raw_counts.h5ad",
+        "query_sha256": "9399ffc35bb3ad03f2a9d3ad77c36a7c0b52fb009307db5138c906fd593018ee",
+        "mapper_config_sha256": "ecdf4ade1b2faf79dbe2bcae23226bc7c53e9f9e7221e3ffc0cef1c0fda9ef32",
+        "old_completion_sha256": "93ea370e3b6d17e7ec8e7cd37fc7cc985e709868ba962258598866aada3d1ff1",
+        "normalization": "raw",
+        "shape": [
+          9733,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1228",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1228_filtered_feature_bc_matrix.h5",
+      "sha256": "a4f6ad6342c43d30bd3053b1111e99ba52bdff812c582a7e33342259489b7ce4",
+      "n_nuclei": 10361,
+      "UMIs": 69363759,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "wt_1228",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1228/query_raw_counts.h5ad",
+        "query_sha256": "b61d87d3184d22cf1572b40b54913821157f32b357e41b23018594f40916ae3a",
+        "mapper_config_sha256": "2a1b517a7a2084c1e202bc443ce8b362d610a6367139ffefdd22b28d45a8ab65",
+        "old_completion_sha256": "cbbf1d7d9970682553994f5a9a9e25ca8ea4c257bd962e206af8b8789960e8a7",
+        "normalization": "raw",
+        "shape": [
+          10361,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1138",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1138_filtered_feature_bc_matrix.h5",
+      "sha256": "d1ca738cd806a0255dc658d82623b9ecec708cbef3c8591265ff2baa67e41a49",
+      "n_nuclei": 7943,
+      "UMIs": 75529481,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "cKO_1138",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1138/query_raw_counts.h5ad",
+        "query_sha256": "dc427305ee4c34e46ab5b50a7add66fc162d9eb896b928a914d39d5fb0e1a8d4",
+        "mapper_config_sha256": "f1bd6e6a8bfaad013765912d88e9f6848aa290e7e1e5b0242bc2b7a20f9a5cc7",
+        "old_completion_sha256": "5a26fa27e17286bc49a1148f575aeba2f9c33b1cb25a2aee38f817a2ce542b7a",
+        "normalization": "raw",
+        "shape": [
+          7943,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1139",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1139_filtered_feature_bc_matrix.h5",
+      "sha256": "1ad0e732710009de73c8bb2d9267e51184bb17af4323d4b4cd955bc20e8c552f",
+      "n_nuclei": 9750,
+      "UMIs": 88447979,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "cKO_1139",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1139/query_raw_counts.h5ad",
+        "query_sha256": "c87cf47031b4e5c8323c1451a8ad28855aa220252e4809328e23ccd4128fb018",
+        "mapper_config_sha256": "17f8380d75d86f959a03a670d3ce7ef01d1112b7f0bad87af85f1485864911d4",
+        "old_completion_sha256": "da14197f54167df44812a6749081de7be51903f3877bc86edfb99dd3c377546f",
+        "normalization": "raw",
+        "shape": [
+          9750,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1160",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1160_filtered_feature_bc_matrix.h5",
+      "sha256": "e22d12a6441851ddbd5eb578944bacf00730e6baebc5f74616a8a0c723fd55cf",
+      "n_nuclei": 8221,
+      "UMIs": 76830435,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "cKO_1160",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1160/query_raw_counts.h5ad",
+        "query_sha256": "23a68869db7f1709c8b2889ef8ecd4db3736056181a752ecd1e542ca96a2e79d",
+        "mapper_config_sha256": "e55f20e1b73e6cf827a3331982bc8035a12cb8fc611a933f4ca10c0e0e90ecbd",
+        "old_completion_sha256": "a61577360357d132cc5f577b2bbdd8e5dd763da2fc985f9b1e69eb00e37e4186",
+        "normalization": "raw",
+        "shape": [
+          8221,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1165",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1165_filtered_feature_bc_matrix.h5",
+      "sha256": "da7abaa8a670d7a27f93195436e226308a7035f588edfec123fbb36f44a3402a",
+      "n_nuclei": 9851,
+      "UMIs": 76902409,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "cKO_1165",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1165/query_raw_counts.h5ad",
+        "query_sha256": "9dbde80dd6b9516f1460f87efa35d5b6db298dfd38d0bf633b07025f1cecfb28",
+        "mapper_config_sha256": "19a8e7a1e6d63e1498743d9db5265615fc7148c4925a1f9273ca67eaa92709fd",
+        "old_completion_sha256": "4cacf57092b1bb167fee2d6b3c171d8ccccf80ec79224fd94b88724f29724ed2",
+        "normalization": "raw",
+        "shape": [
+          9851,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_933",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_933_filtered_feature_bc_matrix.h5",
+      "sha256": "a13072de0bacef0f772d9a8c36212784664fcc1581e82fbc857f5deaa03844cb",
+      "n_nuclei": 8896,
+      "UMIs": 74900114,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "cKO_933",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_933/query_raw_counts.h5ad",
+        "query_sha256": "c468a52dc6a8faaa18603b3490c81ddb9b2bbfd7a287aa359b8282be4c4b140d",
+        "mapper_config_sha256": "6262506342bb9cf8c0ed32a72524db68ab8a52b3f050251a1eacde50e2242757",
+        "old_completion_sha256": "ba1810e2eb38e7831b195bdb28834025a389c552f4e01a20beb7151e70f7f328",
+        "normalization": "raw",
+        "shape": [
+          8896,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_991",
+      "source": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_991_filtered_feature_bc_matrix.h5",
+      "sha256": "0c03adb0125bd5557de281272d78953e24d58a6a1175bf9b63be6139dd574ad2",
+      "n_nuclei": 8470,
+      "UMIs": 68937480,
+      "mapmycells_query_verification": {
+        "status": "VERIFIED_EXACT_ORIGINAL_INTEGER_COUNTS",
+        "sample": "cKO_991",
+        "query_path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_991/query_raw_counts.h5ad",
+        "query_sha256": "551de52698971a62cdf2931eb949f01af050e094a6bf102e7d563d99dfe2e532",
+        "mapper_config_sha256": "8c71cfeefe938002e01d454782c350378b6363132b896292a7415882c7a9dc5a",
+        "old_completion_sha256": "e25e5642bcc46c0973acfe055041513b534f0150964a850a7fea3e594ee885de",
+        "normalization": "raw",
+        "shape": [
+          8470,
+          32285
+        ],
+        "gene_IDs_exact": true,
+        "nucleus_IDs_exact": true,
+        "unequal_sparse_count_entries": 0,
+        "mapper_fit_or_rerun_performed": false
+      }
+    }
+  ],
+  "populations": [
+    {
+      "population": "allcells",
+      "n_nuclei": 108062,
+      "n_hvg": 3000,
+      "hvg_sha256": "e413ea8bfc22177bf28df24798d7f3fd6d0e4f2444dd80044e3fee0abd5f50c7"
+    },
+    {
+      "population": "Excitatory",
+      "n_nuclei": 60985,
+      "n_hvg": 3000,
+      "hvg_sha256": "2ef135f5143f49e9c014f129c01de823cdca00f155ea5a2f8b2c513debc0014f"
+    },
+    {
+      "population": "Inhibitory",
+      "n_nuclei": 8911,
+      "n_hvg": 3000,
+      "hvg_sha256": "35a273ad7a4df1cf1ba963e06faea0a8c44c52d775e1083fb4fb3874c6efc77e"
+    },
+    {
+      "population": "CA1_ProS",
+      "n_nuclei": 27703,
+      "n_hvg": 3000,
+      "hvg_sha256": "20cbfe356fca644618d89acf2c5c9a0e802c12274a4d7690ff9376c92211f8af"
+    }
+  ],
+  "roster_sha256": "2993d5e8ad8dc9e34119b31f9938a1529ec0bef589f2faf79ac60e62e6dc2c71",
+  "mapmycells_prediction_sha256": "92ec4ab9b1e745df8f838dfa3a782153c986e887a516377a4e90fd784daf96e4",
+  "branch_counts_h5ad_sha256": "e1d33c0f5143789de53de56f4c2faab4e659663418a91c2f92077ec7204a7e3f",
+  "count_branch": "original_full",
+  "common_hvg_source_dir": "selected_from_this_branch",
+  "normalization_for_future_matched_branches": "counts/total_UMIs * 10000, natural log1p",
+  "reused_prepared_artifacts_from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_4/results/shared/original_full",
+  "reused_prepared_receipt_sha256": "fc62ed85d59fbf1c5296975ea5526b74b66e0d03877b234bf66004382dcc9acf",
+  "copied_artifact_sha256": {
+    "nucleus_metadata.tsv": "27870a3eeb687c723c1dc43b75572097589ccb33cf49c03b6b8df5b69ad0cdd5",
+    "common_hvg_Excitatory.tsv": "2ef135f5143f49e9c014f129c01de823cdca00f155ea5a2f8b2c513debc0014f",
+    "membership_CA1_ProS.tsv": "527a8246955937fc6c56d9da0cf2a7984f8252d9b665fa33676b9122082f5723",
+    "branch_counts.h5ad": "e1d33c0f5143789de53de56f4c2faab4e659663418a91c2f92077ec7204a7e3f",
+    "membership_allcells.tsv": "2f2e5e5f54d15562a6f9c71e7c3ff017a77fc1d488ecbc09928728426b262da1",
+    "common_hvg_Inhibitory.tsv": "35a273ad7a4df1cf1ba963e06faea0a8c44c52d775e1083fb4fb3874c6efc77e",
+    "membership_Excitatory.tsv": "9d7c51048dfc7c08f233ea4ee056bfda77d9b4ff082a7ecf460fc76ea3ef0c3d",
+    "common_hvg_CA1_ProS.tsv": "20cbfe356fca644618d89acf2c5c9a0e802c12274a4d7690ff9376c92211f8af",
+    "membership_Inhibitory.tsv": "cf1fbf80078f384bea1f32f536751279256beb7863d892f2c23865c8941e7560",
+    "common_hvg_allcells.tsv": "e413ea8bfc22177bf28df24798d7f3fd6d0e4f2444dd80044e3fee0abd5f50c7",
+    "gene_features.tsv": "b1cf704a6ff8261069abdddf27d5499a67d0ca939a0aefeb588088285b69dd99"
+  },
+  "scientific_preparation_refit_performed": false,
+  "raw_count_sources_reloaded": false
+}

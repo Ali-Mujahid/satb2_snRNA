@@ -1,0 +1,37 @@
+{
+  "status": "COMPLETED_READ_ONLY_CA1_PROGRAMME_SENSITIVITY",
+  "run_root": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0",
+  "registry_run_id": "30bef3d0-c984-4432-92c4-4059580c30b5",
+  "actual_final_annotation_receipt_sha256": "e68a6ac38dea1d442c913e6198a16a0f829cdbab37376309376b0b310ca8d438",
+  "input_sha256": {
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/cluster_annotations.tsv": "a84fb3ef8121f2860c849146fcc991f4b4cad0a0b0b5376c5623b22bf4758ee4",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/nucleus_annotations.tsv.gz": "e582eed6b1f6f067106107372ea9b3742c298659eb4e25ee2b0a8d806fbf70b7",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/annotation_program_scores_WT.tsv": "2e0a24176ad397dfb5cb0350f685c3b726b76bf55c3b5abeeb748b564223b4ac"
+  },
+  "original_nuclei": 27703,
+  "paired_nuclei": 27672,
+  "primary_DE_memberships_modified": false,
+  "primary0p3_nucleus_labels_reconstructed_exactly": true,
+  "scientific_fits_performed": false,
+  "raw_RNA_aggregation_performed": false,
+  "same_name_label_semantics_required": true,
+  "physical_layers_validated": false,
+  "PDF_visually_inspected": true,
+  "rendered_pages_visually_inspected": [
+    1,
+    2
+  ],
+  "final_render_readable_without_caption_or_legend_collisions": true,
+  "PDF_sha256": "e1e430d05355d0cd37cd36945bb2643e8febd050625db34de27a84446265ac0c",
+  "source_review_script_sha256": "e6089ade53d5e0bd50e625a89d8bb990a261d3e494b52fdb9bd3a3fc84847027",
+  "output_sha256": {
+    "same_named_programme_overlap.tsv": "b22bc535958674d731bd4d49df440e697ae476accd2082baa10061af9c78d0ca",
+    "cluster_threshold_assignments.tsv": "ca7732405c7afe74d5df3487012d0b603e35c95113bfb6193e395eb0a363e2b3",
+    "page-1.png": "4fd329bc9162acd7f77fb81c0c5b470085a61f8137d5377ba272c9376ed2d22d",
+    "page-2.png": "f244022bd137ed07ec3d6597c84a5494f3a63522c56eaf307d8d0e38ddf72fc6",
+    "CA1_programme_agreement_and_threshold_sensitivity.pdf": "e1e430d05355d0cd37cd36945bb2643e8febd050625db34de27a84446265ac0c",
+    "programme_semantic_agreement.tsv": "294ff6b46f177f61dc75d5ddfd3dbc6d7546c41cfb7456c33c9bdd3c2553ffbf",
+    "review.md": "88026ff534cda3f7fedfc6997be24a543c2e00ecc92f4bdfdc3916fae3fc1e47",
+    "programme_confusion_counts.tsv": "de244590fa1b2141afa15ad5fd4d9bcc1eb7d465f5bc47a56241ed83f1451113"
+  }
+}

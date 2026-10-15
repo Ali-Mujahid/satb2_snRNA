@@ -6,6 +6,7 @@ __pycache__/
 .env.*
 publication_build/
 release_staging/
+ADDITIONAL_GALLERY_ASSET_INDEX.tsv
 *.zip
 *.h5ad
 *.rds

@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTED_REVIEW_REQUIRED",
+  "stage": "pseudobulk",
+  "count_source": "paired_original",
+  "completed_utc": "2026-10-13T13:29:28Z",
+  "source_nuclei": 104298,
+  "scientific_acceptance": "NOT_ASSESSED"
+}

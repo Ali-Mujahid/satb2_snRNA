@@ -1,0 +1,119 @@
+from pathlib import Path
+SOURCE=Path(workflow.basedir).parent
+RUN=Path(config['run_root']);RES=RUN/'results';MASTER=str(Path(workflow.configfiles[-1]).resolve())
+PY=config['python_executable'];R=config['Rscript_executable'];BR=config['branches']
+ENV='OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 VECLIB_MAXIMUM_THREADS=4 NUMEXPR_NUM_THREADS=4 NUMBA_NUM_THREADS=4'
+
+rule all:
+    input: str(RES/'comparison/COMPLETE.json')
+
+rule freeze:
+    input: master=MASTER,script=str(SOURCE/'inputs/freeze_revision.py'),frozen=config['frozen_input_paths']
+    output: str(RES/'inputs/COMPLETE.json')
+    log: str(RUN/'logs/freeze.log')
+    threads: 4
+    resources: mem_mb=4096
+    params: py=PY,env=ENV,out=str(RES/'inputs')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.master:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule annotation_initial:
+    input: str(RES/'inputs/COMPLETE.json'),script=str(SOURCE/'annotation/annotate_clusters.py')
+    output: str(RES/'annotation_initial/COMPLETE.json')
+    log: str(RUN/'logs/annotation_initial.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY,env=ENV,cfg=MASTER,out=str(RES/'annotation_initial')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --stage initial --outdir {params.out:q} > {log:q} 2>&1'
+
+rule prepare:
+    input: str(RES/'annotation_initial/COMPLETE.json'),script=str(SOURCE/'seurat/run_deseq2_revision.R'),core=str(SOURCE/'seurat/deseq2_core.R'),io=str(SOURCE/'seurat/revision_io.R'),models=str(SOURCE/'seurat/revision_models.R')
+    output: str(RES/'prepared/{branch}/COMPLETE.json')
+    wildcard_constraints: branch='original_full|paired_original|paired_cellbender'
+    log: str(RUN/'logs/prepare_{branch}.log')
+    threads: 4
+    resources: mem_mb=16384
+    params: r=R,env=ENV,cfg=MASTER,out=lambda w:str(RES/'prepared'/w.branch)
+    shell: 'env {params.env} {params.r:q} --vanilla {input.script:q} --config {params.cfg:q} --stage prepare --branch {wildcards.branch:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule marker_summaries:
+    input: expand(str(RES/'prepared/{branch}/COMPLETE.json'),branch=BR),script=str(SOURCE/'plots/summarize_aggregates.py'),common=str(SOURCE/'plots/plot_common.py')
+    output: str(RES/'marker_summaries/COMPLETE.json')
+    log: str(RUN/'logs/marker_summaries.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY,env=ENV,cfg=MASTER,out=str(RES/'marker_summaries')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule annotation_final:
+    input: str(RES/'marker_summaries/COMPLETE.json'),script=str(SOURCE/'annotation/annotate_clusters.py')
+    output: str(RES/'annotation_final/COMPLETE.json')
+    log: str(RUN/'logs/annotation_final.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY,env=ENV,cfg=MASTER,out=str(RES/'annotation_final')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --stage final --outdir {params.out:q} > {log:q} 2>&1'
+
+rule populations:
+    input: str(RES/'annotation_final/COMPLETE.json'),lambda w:str(RES/'prepared'/w.branch/'COMPLETE.json'),script=str(SOURCE/'seurat/run_deseq2_revision.R'),core=str(SOURCE/'seurat/deseq2_core.R'),io=str(SOURCE/'seurat/revision_io.R'),models=str(SOURCE/'seurat/revision_models.R')
+    output: str(RES/'populations/{branch}/COMPLETE.json')
+    wildcard_constraints: branch='original_full|paired_original|paired_cellbender'
+    log: str(RUN/'logs/populations_{branch}.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: r=R,env=ENV,cfg=MASTER,out=lambda w:str(RES/'populations'/w.branch)
+    shell: 'env {params.env} {params.r:q} --vanilla {input.script:q} --config {params.cfg:q} --stage finalize_populations --branch {wildcards.branch:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule validate_counts:
+    input: expand(str(RES/'populations/{branch}/COMPLETE.json'),branch=BR),script=str(SOURCE/'diagnostics/validate_counts.py')
+    output: str(RES/'count_validation/COMPLETE.json')
+    log: str(RUN/'logs/validate_counts.log')
+    threads: 4
+    resources: mem_mb=16384
+    params: py=PY,env=ENV,cfg=MASTER,out=str(RES/'count_validation')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule ca1_graph_controls:
+    input: str(RES/'inputs/COMPLETE.json'),script=str(SOURCE/'diagnostics/export_ca1_graphs.R')
+    output: str(RES/'ca1_graphs/COMPLETE.json')
+    log: str(RUN/'logs/ca1_graphs.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: r=R,env=ENV,cfg=MASTER,out=str(RES/'ca1_graphs')
+    shell: 'env {params.env} {params.r:q} --vanilla {input.script:q} --config {params.cfg:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule ca1_diagnostics:
+    input: str(RES/'ca1_graphs/COMPLETE.json'),script=str(SOURCE/'diagnostics/diagnose_ca1.py')
+    output: str(RES/'ca1_diagnostics/COMPLETE.json')
+    log: str(RUN/'logs/ca1_diagnostics.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY,env=ENV,cfg=MASTER,graphs=str(RES/'ca1_graphs'),out=str(RES/'ca1_diagnostics')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --graphs {params.graphs:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule deseq2:
+    input: str(RES/'count_validation/COMPLETE.json'),lambda w: [] if w.branch!='paired_cellbender' else [str(RES/'deseq2/paired_original/COMPLETE.json')],script=str(SOURCE/'seurat/run_deseq2_revision.R'),core=str(SOURCE/'seurat/deseq2_core.R'),io=str(SOURCE/'seurat/revision_io.R'),models=str(SOURCE/'seurat/revision_models.R')
+    output: str(RES/'deseq2/{branch}/COMPLETE.json')
+    wildcard_constraints: branch='original_full|paired_original|paired_cellbender'
+    log: str(RUN/'logs/deseq2_{branch}.log')
+    threads: 4
+    resources: mem_mb=12288
+    params: r=R,env=ENV,cfg=MASTER,out=lambda w:str(RES/'deseq2'/w.branch)
+    shell: 'env {params.env} {params.r:q} --vanilla {input.script:q} --config {params.cfg:q} --stage deseq2 --branch {wildcards.branch:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule plots:
+    input: str(RES/'annotation_final/COMPLETE.json'),script=str(SOURCE/'plots/render_plots.py'),common=str(SOURCE/'plots/plot_common.py')
+    output: str(RES/'plots/COMPLETE.json')
+    log: str(RUN/'logs/plots.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY,env=ENV,cfg=MASTER,summary=str(RES/'marker_summaries'),annotation=str(RES/'annotation_final'),out=str(RES/'plots')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --summaries {params.summary:q} --annotations {params.annotation:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule compare:
+    input: expand(str(RES/'deseq2/{branch}/COMPLETE.json'),branch=BR),str(RES/'plots/COMPLETE.json'),str(RES/'ca1_diagnostics/COMPLETE.json'),script=str(SOURCE/'diagnostics/compare_revision.py')
+    output: str(RES/'comparison/COMPLETE.json')
+    log: str(RUN/'logs/comparison.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY,env=ENV,cfg=MASTER,out=str(RES/'comparison')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --outdir {params.out:q} > {log:q} 2>&1'

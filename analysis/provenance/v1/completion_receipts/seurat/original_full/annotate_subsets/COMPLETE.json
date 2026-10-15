@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTED_REVIEW_REQUIRED",
+  "stage": "annotate_subsets",
+  "count_source": "original_full",
+  "completed_utc": "2026-10-13T11:31:25Z",
+  "source_nuclei": 108062,
+  "scientific_acceptance": "NOT_ASSESSED"
+}

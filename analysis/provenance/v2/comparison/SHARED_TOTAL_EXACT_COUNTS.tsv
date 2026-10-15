@@ -1,0 +1,13 @@
+branch	population	same_nuclei	same_gene_ID_axis	integer_entries_compared	differing_integer_entries
+original_full	allcells	True	True	387420	0
+original_full	Excitatory	True	True	387420	0
+original_full	Inhibitory	True	True	387420	0
+original_full	CA1_ProS	True	True	387420	0
+paired_original	allcells	True	True	387420	0
+paired_original	Excitatory	True	True	387420	0
+paired_original	Inhibitory	True	True	387420	0
+paired_original	CA1_ProS	True	True	387420	0
+paired_cellbender	allcells	True	True	387420	0
+paired_cellbender	Excitatory	True	True	387420	0
+paired_cellbender	Inhibitory	True	True	387420	0
+paired_cellbender	CA1_ProS	True	True	387420	0

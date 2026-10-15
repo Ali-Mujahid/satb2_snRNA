@@ -1,0 +1,5 @@
+branch	population	iteration	n_nuclei_before	n_removed	n_nuclei_after
+original_full	allcells	1	108062	315	107747
+paired_original	allcells	1	104298	315	103983
+original_full	Excitatory	1	60985	77	60908
+paired_original	Excitatory	1	60849	77	60772

@@ -1,0 +1,21 @@
+{
+  "status": "COMPLETED_READ_ONLY_COUNT_RECEIPT_REVIEW",
+  "registry_run_id": "30bef3d0-c984-4432-92c4-4059580c30b5",
+  "receipt_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/count_validation/COMPLETE.json",
+  "receipt_sha256": "7e3163830aa58b17fe76d5852e587b0490a1a33f47d071cb88a7d177077f843a",
+  "exact_integer_counts_PASS": true,
+  "n_population_arrays": 1437,
+  "n_entries_checked": 556722540,
+  "n_differing_entries": 0,
+  "final_population_source_bindings": {
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/original_full/POPULATION_INDEX.tsv": true,
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/original_full/POPULATION_ATOMS.tsv": true,
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_original/POPULATION_INDEX.tsv": true,
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_original/POPULATION_ATOMS.tsv": true,
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_cellbender/POPULATION_INDEX.tsv": true,
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_cellbender/POPULATION_ATOMS.tsv": true
+  },
+  "heavy_count_validation_repeated": false,
+  "scientific_fitting_performed": false,
+  "raw_nucleus_count_aggregation_performed": false
+}

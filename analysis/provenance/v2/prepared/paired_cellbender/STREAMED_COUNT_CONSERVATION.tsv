@@ -1,0 +1,13 @@
+sample	branch	source_nuclei	source_UMIs	atomic_membership_UMIs	exact_population_library_conservation	note
+wt_1122	paired_cellbender	8184	48291948	221328550	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1123	paired_cellbender	8968	61452135	281378298	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1178	paired_cellbender	6407	51107301	235144698	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1220	paired_cellbender	10176	68020273	311039382	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1226	paired_cellbender	9362	68175575	311719434	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1228	paired_cellbender	10156	64438949	304425368	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1138	paired_cellbender	7687	70962062	335231186	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1139	paired_cellbender	9465	83306393	387857390	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1160	paired_cellbender	7874	72442176	329877132	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1165	paired_cellbender	9444	71632928	331575324	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_933	paired_cellbender	8625	69666186	297719680	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_991	paired_cellbender	7950	63804645	294926500	TRUE	tool/population partitions may overlap across tools or nested biological populations

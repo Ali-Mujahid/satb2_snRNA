@@ -1,0 +1,194 @@
+from pathlib import Path
+
+SOURCE = Path(workflow.basedir).parent
+RUN = Path(config["run_root"])
+RESULTS = RUN / "results"
+INPUTS = RESULTS / "inputs"
+MASTER = str(Path(workflow.configfiles[-1]).resolve())
+PYTHON = config["python_executable"]
+RSCRIPT = config["Rscript_executable"]
+BRANCHES = ["original_full", "paired_original", "paired_cellbender"]
+POPULATIONS = ["allcells", "Excitatory", "Inhibitory", "CA1_ProS"]
+R_STAGES = ["log_global", "annotate_subsets", "markers", "pseudobulk"]
+THREAD_ENV = "OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 MKL_NUM_THREADS=4 VECLIB_MAXIMUM_THREADS=4 NUMEXPR_NUM_THREADS=4 NUMBA_NUM_THREADS=4"
+
+rule all:
+    input:
+        str(RESULTS / "comparison" / "COMPLETE.json"),
+        str(RESULTS / "seurat" / "original_full" / "sct_global" / "COMPLETE.json"),
+        expand(str(RESULTS / "python_pseudobulk" / "{branch}" / "COMPLETE.json"), branch=BRANCHES)
+
+rule freeze_inputs:
+    input:
+        master=MASTER,
+        manifest=config["original_manifest"],
+        roster=config["original_roster"],
+        full_qc=config["full_called_qc"],
+        predictions=config["mapmycells_predictions"],
+        genes=config["gene_manifest"],
+        cb_manifest=config["cellbender_manifest"],
+        cb_receipt=config["cellbender_receipt"],
+        marker_cells=config["marker_cells"],
+        script=str(SOURCE / "scripts" / "freeze_inputs.py")
+    output: str(INPUTS / "COMPLETE.json")
+    log: str(RUN / "logs" / "freeze_inputs.log")
+    threads: 4
+    resources: mem_mb=8192
+    params: python=PYTHON, env=THREAD_ENV
+    shell: "env {params.env} {params.python:q} {input.script:q} --config {input.master:q} > {log:q} 2>&1"
+
+rule prepare_shared_original:
+    input:
+        str(INPUTS / "COMPLETE.json"),
+        script=str(SOURCE / "scanpy" / "prepare_common_inputs.py"),
+        common=str(SOURCE / "scanpy" / "common.py")
+    output: str(RESULTS / "shared" / "original_full" / "COMPLETE.json")
+    log: str(RUN / "logs" / "prepare_original_full.log")
+    threads: 4
+    resources: mem_mb=20480
+    params:
+        python=PYTHON, env=THREAD_ENV,
+        cfg=str(INPUTS / "scanpy_original_full.json"),
+        out=str(RESULTS / "shared" / "original_full")
+    shell: "env {params.env} {params.python:q} {input.script:q} --config {params.cfg:q} --outdir {params.out:q} > {log:q} 2>&1"
+
+rule prepare_shared_paired:
+    input:
+        str(INPUTS / "COMPLETE.json"),
+        str(RESULTS / "shared" / "original_full" / "COMPLETE.json"),
+        script=str(SOURCE / "scanpy" / "prepare_common_inputs.py"),
+        common=str(SOURCE / "scanpy" / "common.py")
+    output: str(RESULTS / "shared" / "{branch}" / "COMPLETE.json")
+    wildcard_constraints: branch="paired_original|paired_cellbender"
+    log: str(RUN / "logs" / "prepare_{branch}.log")
+    threads: 4
+    resources: mem_mb=20480
+    params:
+        python=PYTHON, env=THREAD_ENV,
+        cfg=lambda w: str(INPUTS / f"scanpy_{w.branch}.json"),
+        out=lambda w: str(RESULTS / "shared" / w.branch)
+    shell: "env {params.env} {params.python:q} {input.script:q} --config {params.cfg:q} --outdir {params.out:q} > {log:q} 2>&1"
+
+rule scanpy_representation:
+    input:
+        lambda w: str(RESULTS / "shared" / w.branch / "COMPLETE.json"),
+        script=str(SOURCE / "scanpy" / "run_scanpy.py"),
+        common=str(SOURCE / "scanpy" / "common.py")
+    output: str(RESULTS / "scanpy" / "{branch}" / "{population}" / "COMPLETE.json")
+    wildcard_constraints:
+        branch="original_full|paired_original|paired_cellbender",
+        population="allcells|Excitatory|Inhibitory|CA1_ProS"
+    log: str(RUN / "logs" / "scanpy_{branch}_{population}.log")
+    threads: 4
+    resources: mem_mb=20480
+    params:
+        python=PYTHON, env=THREAD_ENV,
+        cfg=lambda w: str(INPUTS / f"scanpy_{w.branch}.json"),
+        shared=lambda w: str(RESULTS / "shared" / w.branch),
+        out=lambda w: str(RESULTS / "scanpy" / w.branch / w.population)
+    shell: "env {params.env} {params.python:q} {input.script:q} --config {params.cfg:q} --shared-dir {params.shared:q} --population {wildcards.population:q} --outdir {params.out:q} > {log:q} 2>&1"
+
+rule seurat_log:
+    input:
+        lambda w: str(RESULTS / "shared" / w.branch / "COMPLETE.json"),
+        script=str(SOURCE / "seurat" / "run_seurat.R"),
+        pb_core=str(SOURCE / "seurat" / "pseudobulk_core.R")
+    output: str(RESULTS / "seurat" / "{branch}" / "log_global" / "COMPLETE.json")
+    wildcard_constraints: branch="original_full|paired_original|paired_cellbender"
+    log: str(RUN / "logs" / "seurat_{branch}_log_global.log")
+    threads: 4
+    resources: mem_mb=24576
+    params:
+        rscript=RSCRIPT, env=THREAD_ENV,
+        cfg=lambda w: str(INPUTS / f"seurat_{w.branch}.json")
+    shell: "env {params.env} {params.rscript:q} --vanilla {input.script:q} {params.cfg:q} log_global > {log:q} 2>&1"
+
+rule seurat_subsets:
+    input:
+        lambda w: str(RESULTS / "seurat" / w.branch / "log_global" / "COMPLETE.json"),
+        script=str(SOURCE / "seurat" / "run_seurat.R")
+    output: str(RESULTS / "seurat" / "{branch}" / "annotate_subsets" / "COMPLETE.json")
+    wildcard_constraints: branch="original_full|paired_original|paired_cellbender"
+    log: str(RUN / "logs" / "seurat_{branch}_annotate_subsets.log")
+    threads: 4
+    resources: mem_mb=24576
+    params:
+        rscript=RSCRIPT, env=THREAD_ENV,
+        cfg=lambda w: str(INPUTS / f"seurat_{w.branch}.json")
+    shell: "env {params.env} {params.rscript:q} --vanilla {input.script:q} {params.cfg:q} annotate_subsets > {log:q} 2>&1"
+
+rule seurat_markers:
+    input:
+        lambda w: str(RESULTS / "seurat" / w.branch / "annotate_subsets" / "COMPLETE.json"),
+        expand(str(RESULTS / "scanpy" / "original_full" / "{population}" / "COMPLETE.json"), population=POPULATIONS),
+        lambda w: [] if w.branch == "original_full" else [str(RESULTS / "seurat" / "original_full" / "annotate_subsets" / "COMPLETE.json")],
+        script=str(SOURCE / "seurat" / "run_seurat.R")
+    output: str(RESULTS / "seurat" / "{branch}" / "markers" / "COMPLETE.json")
+    wildcard_constraints: branch="original_full|paired_original|paired_cellbender"
+    log: str(RUN / "logs" / "seurat_{branch}_markers.log")
+    threads: 4
+    resources: mem_mb=24576
+    params:
+        rscript=RSCRIPT, env=THREAD_ENV,
+        cfg=lambda w: str(INPUTS / f"seurat_{w.branch}.json")
+    shell: "env {params.env} {params.rscript:q} --vanilla {input.script:q} {params.cfg:q} markers > {log:q} 2>&1"
+
+rule seurat_pseudobulk:
+    input:
+        lambda w: str(RESULTS / "seurat" / w.branch / "annotate_subsets" / "COMPLETE.json"),
+        expand(str(RESULTS / "scanpy" / "original_full" / "{population}" / "COMPLETE.json"), population=POPULATIONS),
+        lambda w: [] if w.branch == "original_full" else [str(RESULTS / "seurat" / "original_full" / "pseudobulk" / "COMPLETE.json")],
+        script=str(SOURCE / "seurat" / "run_seurat.R"),
+        pb_core=str(SOURCE / "seurat" / "pseudobulk_core.R")
+    output: str(RESULTS / "seurat" / "{branch}" / "pseudobulk" / "COMPLETE.json")
+    wildcard_constraints: branch="original_full|paired_original|paired_cellbender"
+    log: str(RUN / "logs" / "seurat_{branch}_pseudobulk.log")
+    threads: 4
+    resources: mem_mb=16384
+    params:
+        rscript=RSCRIPT, env=THREAD_ENV,
+        cfg=lambda w: str(INPUTS / f"seurat_{w.branch}.json")
+    shell: "env {params.env} {params.rscript:q} --vanilla {input.script:q} {params.cfg:q} pseudobulk > {log:q} 2>&1"
+
+rule seurat_sct:
+    input:
+        str(RESULTS / "shared" / "original_full" / "COMPLETE.json"),
+        script=str(SOURCE / "seurat" / "run_seurat.R")
+    output: str(RESULTS / "seurat" / "original_full" / "sct_global" / "COMPLETE.json")
+    log: str(RUN / "logs" / "seurat_original_full_sct.log")
+    threads: 4
+    resources: mem_mb=24576
+    params: rscript=RSCRIPT, env=THREAD_ENV, cfg=str(INPUTS / "seurat_original_full.json")
+    shell: "env {params.env} {params.rscript:q} --vanilla {input.script:q} {params.cfg:q} sct_global > {log:q} 2>&1"
+
+rule python_pseudobulk:
+    input:
+        lambda w: str(RESULTS / "shared" / w.branch / "COMPLETE.json"),
+        expand(str(RESULTS / "scanpy" / "original_full" / "{population}" / "COMPLETE.json"), population=POPULATIONS),
+        script=str(SOURCE / "scanpy" / "export_pseudobulk.py"),
+        common=str(SOURCE / "scanpy" / "common.py")
+    output: str(RESULTS / "python_pseudobulk" / "{branch}" / "COMPLETE.json")
+    wildcard_constraints: branch="original_full|paired_original|paired_cellbender"
+    log: str(RUN / "logs" / "python_pseudobulk_{branch}.log")
+    threads: 4
+    resources: mem_mb=16384
+    params:
+        python=PYTHON, env=THREAD_ENV,
+        shared=lambda w: str(RESULTS / "shared" / w.branch),
+        scanpy_root=str(RESULTS / "scanpy" / "original_full"),
+        out=lambda w: str(RESULTS / "python_pseudobulk" / w.branch)
+    shell: "env {params.env} {params.python:q} {input.script:q} --shared-dir {params.shared:q} --scanpy-root {params.scanpy_root:q} --branch {wildcards.branch:q} --label-branch original_full --outdir {params.out:q} > {log:q} 2>&1"
+
+rule compare:
+    input:
+        expand(str(RESULTS / "scanpy" / "{branch}" / "{population}" / "COMPLETE.json"), branch=BRANCHES, population=POPULATIONS),
+        expand(str(RESULTS / "seurat" / "{branch}" / "{stage}" / "COMPLETE.json"), branch=BRANCHES, stage=R_STAGES),
+        expand(str(RESULTS / "python_pseudobulk" / "{branch}" / "COMPLETE.json"), branch=BRANCHES),
+        str(RESULTS / "seurat" / "original_full" / "sct_global" / "COMPLETE.json"),
+        script=str(SOURCE / "scripts" / "compare_results.py")
+    output: str(RESULTS / "comparison" / "COMPLETE.json")
+    log: str(RUN / "logs" / "compare.log")
+    threads: 4
+    resources: mem_mb=8192
+    params: python=PYTHON, env=THREAD_ENV, out=str(RESULTS / "comparison"), run=str(RUN)
+    shell: "env {params.env} {params.python:q} {input.script:q} --run-root {params.run:q} --outdir {params.out:q} > {log:q} 2>&1"

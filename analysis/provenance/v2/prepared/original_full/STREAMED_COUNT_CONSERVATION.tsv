@@ -1,0 +1,13 @@
+sample	branch	source_nuclei	source_UMIs	atomic_membership_UMIs	exact_population_library_conservation	note
+wt_1122	original_full	8546	52372773	233818572	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1123	original_full	9201	65417615	293974998	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1178	original_full	6660	54179732	245510050	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1220	original_full	10430	73264794	328355462	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1226	original_full	9733	72975566	327164522	TRUE	tool/population partitions may overlap across tools or nested biological populations
+wt_1228	original_full	10361	69363759	321614066	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1138	original_full	7943	75529481	351036704	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1139	original_full	9750	88447979	405414370	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1160	original_full	8221	76830435	343857252	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_1165	original_full	9851	76902409	348758766	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_933	original_full	8896	74900114	314486990	TRUE	tool/population partitions may overlap across tools or nested biological populations
+cKO_991	original_full	8470	68937480	312250274	TRUE	tool/population partitions may overlap across tools or nested biological populations

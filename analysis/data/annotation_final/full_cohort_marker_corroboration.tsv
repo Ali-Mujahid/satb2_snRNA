@@ -1,0 +1,809 @@
+tool	branch	population	cluster_scope	cluster_id	full_cohort_marker_status	full_cohort_canonical_genes	full_cohort_conflicting_genes	atomic_cluster_ID_changed
+scanpy	original_full	allcells	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	allcells	original_frozen	10	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT			False
+scanpy	original_full	allcells	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Cldn5;Pdgfrb;Rgs5;Vtn		False
+scanpy	original_full	allcells	original_frozen	13	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Aldoc;Aqp4;Atp1a2;Ndrg2;Slc1a3	Microglia:Mertk;Microglia:Lrmda	False
+scanpy	original_full	allcells	original_frozen	14	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+scanpy	original_full	allcells	original_frozen	15	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+scanpy	original_full	allcells	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+scanpy	original_full	allcells	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	allcells	original_frozen	18	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	C1qa;C1qb;Hexb;Inpp5d;Lrmda;Mertk;P2ry12	Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	original_full	allcells	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	21	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	allcells	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	allcells	original_frozen	23	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Astrocyte:Slc1a3;Astrocyte:Aqp4;Ependymal:Foxj1;Ependymal:Dynlrb2;Ependymal:Kl;Ependymal:Ttr	False
+scanpy	original_full	allcells	original_frozen	24	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Cspg4;Pdgfra	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Lrmda	False
+scanpy	original_full	allcells	original_frozen	25	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+scanpy	original_full	allcells	original_frozen	26	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+scanpy	original_full	allcells	original_frozen	27	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Mbp;Mog;Plp1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	allcells	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	allcells	original_frozen	10	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT			False
+scanpy	paired_original	allcells	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Cldn5;Pdgfrb;Pecam1;Rgs5;Vtn		False
+scanpy	paired_original	allcells	original_frozen	13	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Aldoc;Aqp4;Atp1a2;Ndrg2;Slc1a3	Microglia:Mertk;Microglia:Lrmda	False
+scanpy	paired_original	allcells	original_frozen	14	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+scanpy	paired_original	allcells	original_frozen	15	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+scanpy	paired_original	allcells	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+scanpy	paired_original	allcells	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	allcells	original_frozen	18	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	C1qa;C1qb;Hexb;Inpp5d;Lrmda;Mertk;P2ry12	Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	allcells	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	21	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	allcells	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	allcells	original_frozen	23	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Astrocyte:Slc1a3;Astrocyte:Aqp4;Ependymal:Foxj1;Ependymal:Dynlrb2;Ependymal:Kl;Ependymal:Ttr	False
+scanpy	paired_original	allcells	original_frozen	24	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Cspg4;Pdgfra	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Lrmda	False
+scanpy	paired_original	allcells	original_frozen	25	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+scanpy	paired_original	allcells	original_frozen	26	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+scanpy	paired_original	allcells	original_frozen	27	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Mbp;Mog;Plp1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	allcells	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	20	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	21	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	22	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	23	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	24	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	25	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	26	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	27	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	28	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	allcells	fresh_branch	29	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	allcells	original_frozen	10	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT			False
+scanpy	paired_cellbender	allcells	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Cldn5;Pdgfrb;Pecam1;Rgs5;Vtn		False
+scanpy	paired_cellbender	allcells	original_frozen	13	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Aldoc;Aqp4;Atp1a2;Ndrg2;Slc1a3	Microglia:Mertk;Microglia:Lrmda	False
+scanpy	paired_cellbender	allcells	original_frozen	14	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+scanpy	paired_cellbender	allcells	original_frozen	15	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+scanpy	paired_cellbender	allcells	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+scanpy	paired_cellbender	allcells	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	allcells	original_frozen	18	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	C1qa;C1qb;Hexb;Inpp5d;Lrmda;Mertk;P2ry12	Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_cellbender	allcells	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	21	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	allcells	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	allcells	original_frozen	23	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Astrocyte:Slc1a3;Astrocyte:Aqp4;Ependymal:Dynlrb2;Ependymal:Kl;Ependymal:Ttr	False
+scanpy	paired_cellbender	allcells	original_frozen	24	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Cspg4;Pdgfra	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Lrmda	False
+scanpy	paired_cellbender	allcells	original_frozen	25	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+scanpy	paired_cellbender	allcells	original_frozen	26	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT	Slc17a6		False
+scanpy	paired_cellbender	allcells	original_frozen	27	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Mbp;Mog;Plp1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_cellbender	allcells	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	20	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	21	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	22	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	23	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	24	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	25	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	allcells	fresh_branch	26	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	original_full	Excitatory	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	14	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	original_full	Excitatory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	Excitatory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+scanpy	paired_original	Excitatory	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	14	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	Excitatory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	Excitatory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+scanpy	paired_original	Excitatory	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Excitatory	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	14	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Oligodendrocyte:Plp1;Oligodendrocyte:Mbp;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_cellbender	Excitatory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	Excitatory	original_frozen	18	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT	Slc17a6		False
+scanpy	paired_cellbender	Excitatory	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Excitatory	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	original_full	Inhibitory	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	original_full	Inhibitory	original_frozen	15	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	original_full	Inhibitory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2		False
+scanpy	paired_original	Inhibitory	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_original	Inhibitory	original_frozen	15	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	Inhibitory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2		False
+scanpy	paired_original	Inhibitory	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	Inhibitory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+scanpy	paired_cellbender	Inhibitory	original_frozen	14	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Oligodendrocyte:Plp1;Oligodendrocyte:Mbp	False
+scanpy	paired_cellbender	Inhibitory	original_frozen	15	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_cellbender	Inhibitory	original_frozen	16	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT	Gad2		False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	Inhibitory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	original_full	CA1_ProS	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	original_full	CA1_ProS	original_frozen	8	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	CA1_ProS	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_original	CA1_ProS	original_frozen	8	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_original	CA1_ProS	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_original	CA1_ProS	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	0	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+scanpy	paired_cellbender	CA1_ProS	original_frozen	8	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	0	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+scanpy	paired_cellbender	CA1_ProS	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	original_full	allcells	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+seurat	original_full	allcells	original_frozen	3	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Aldoc;Aqp4;Atp1a2;Ndrg2;Slc1a3	Microglia:Mertk;Microglia:Lrmda	False
+seurat	original_full	allcells	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	5	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT			False
+seurat	original_full	allcells	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	allcells	original_frozen	8	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	C1qa;C1qb;Hexb;Inpp5d;Lrmda;Mertk;P2ry12	Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	original_full	allcells	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	allcells	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	allcells	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	12	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Cspg4;Pdgfra	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Lrmda	False
+seurat	original_full	allcells	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	allcells	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	allcells	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	allcells	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	19	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Vascular:Pecam1;Vascular:Rgs5;Vascular:Cldn5	False
+seurat	original_full	allcells	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	21	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	allcells	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	23	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Kcnj8;Pdgfrb;Rgs5;Vtn		False
+seurat	original_full	allcells	original_frozen	24	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+seurat	original_full	allcells	original_frozen	25	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Plp1		False
+seurat	original_full	allcells	original_frozen	26	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Pdgfrb;Vtn	Astrocyte:Slc1a3;Astrocyte:Atp1a2	False
+seurat	original_full	allcells	original_frozen	27	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Astrocyte:Slc1a3;Astrocyte:Aqp4;Ependymal:Dynlrb2;Ependymal:Kl;Ependymal:Ttr	False
+seurat	original_full	allcells	original_frozen	28	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	allcells	original_frozen	29	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Mbp;Mog;Plp1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	original_full	allcells	original_frozen	30	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	original_full	allcells	original_frozen	31	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	original_full	allcells	original_frozen	32	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	original_full	allcells	original_frozen	33	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	original_full	allcells	original_frozen	34	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	original_full	allcells	original_frozen	35	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+seurat	paired_original	allcells	original_frozen	3	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Aldoc;Aqp4;Atp1a2;Ndrg2;Slc1a3	Microglia:Mertk;Microglia:Lrmda	False
+seurat	paired_original	allcells	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	5	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT			False
+seurat	paired_original	allcells	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	8	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	C1qa;C1qb;Hexb;Inpp5d;Lrmda;Mertk;P2ry12	Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	allcells	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	allcells	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	12	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Cspg4;Pdgfra	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Lrmda	False
+seurat	paired_original	allcells	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	allcells	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	19	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Vascular:Pecam1;Vascular:Rgs5;Vascular:Cldn5	False
+seurat	paired_original	allcells	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	21	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	allcells	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	23	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Kcnj8;Pdgfrb;Rgs5;Vtn		False
+seurat	paired_original	allcells	original_frozen	24	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+seurat	paired_original	allcells	original_frozen	25	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Plp1		False
+seurat	paired_original	allcells	original_frozen	26	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Pdgfrb;Vtn	Astrocyte:Slc1a3;Astrocyte:Atp1a2	False
+seurat	paired_original	allcells	original_frozen	27	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Astrocyte:Slc1a3;Astrocyte:Aqp4;Ependymal:Foxj1;Ependymal:Dynlrb2;Ependymal:Kl;Ependymal:Ttr	False
+seurat	paired_original	allcells	original_frozen	28	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	allcells	original_frozen	29	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Mbp;Mog;Plp1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	allcells	original_frozen	30	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	original_frozen	31	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	original_frozen	32	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	original_frozen	33	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	original_frozen	34	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	original_frozen	35	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	allcells	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	20	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	21	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	22	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	23	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	24	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	25	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	26	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	27	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	28	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	29	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	30	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	31	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	32	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	33	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	34	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	35	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	allcells	fresh_branch	36	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Mog;Plp1		False
+seurat	paired_cellbender	allcells	original_frozen	3	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Aldoc;Aqp4;Atp1a2;Ndrg2;Slc1a3	Microglia:Mertk;Microglia:Lrmda	False
+seurat	paired_cellbender	allcells	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	5	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT			False
+seurat	paired_cellbender	allcells	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	8	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	C1qa;C1qb;Hexb;Inpp5d;Lrmda;Mertk;P2ry12	Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_cellbender	allcells	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	allcells	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	12	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Cspg4;Pdgfra	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Lrmda	False
+seurat	paired_cellbender	allcells	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	allcells	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	19	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Vascular:Pecam1;Vascular:Rgs5;Vascular:Cldn5	False
+seurat	paired_cellbender	allcells	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	21	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	allcells	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	23	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Kcnj8;Pdgfrb;Rgs5;Vtn		False
+seurat	paired_cellbender	allcells	original_frozen	24	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT	Slc17a6		False
+seurat	paired_cellbender	allcells	original_frozen	25	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Mbp;Plp1		False
+seurat	paired_cellbender	allcells	original_frozen	26	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Pdgfrb;Vtn	Astrocyte:Slc1a3;Astrocyte:Atp1a2	False
+seurat	paired_cellbender	allcells	original_frozen	27	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED		Astrocyte:Slc1a3;Astrocyte:Aqp4;Ependymal:Dynlrb2;Ependymal:Kl;Ependymal:Ttr	False
+seurat	paired_cellbender	allcells	original_frozen	28	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	allcells	original_frozen	29	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Mbp;Mog;Plp1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_cellbender	allcells	original_frozen	30	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	allcells	original_frozen	31	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	allcells	original_frozen	32	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	allcells	original_frozen	33	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	allcells	original_frozen	34	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	allcells	original_frozen	35	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	allcells	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	20	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	21	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	22	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	23	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	24	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	25	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	26	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	27	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	28	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	29	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	30	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	31	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	32	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	allcells	fresh_branch	33	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	original_full	Excitatory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+seurat	original_full	Excitatory	original_frozen	21	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	original_full	Excitatory	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	23	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	Excitatory	original_frozen	24	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	Excitatory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	20	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6		False
+seurat	paired_original	Excitatory	original_frozen	21	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	Excitatory	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	23	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	Excitatory	original_frozen	24	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_original	Excitatory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	20	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	21	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Excitatory	fresh_branch	22	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	20	FULL_COHORT_LOW_COARSE_CANONICAL_SUPPORT	Slc17a6		False
+seurat	paired_cellbender	Excitatory	original_frozen	21	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_cellbender	Excitatory	original_frozen	22	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a6;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	23	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	Excitatory	original_frozen	24	EMPTY_AFTER_SHARED_FILTER_OR_PAIRING_RETAINED_IN_REGISTRY			False
+seurat	paired_cellbender	Excitatory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	20	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	21	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	22	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Excitatory	fresh_branch	23	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	original_full	Inhibitory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2		False
+seurat	original_full	Inhibitory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	original_full	Inhibitory	original_frozen	20	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	Inhibitory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2		False
+seurat	paired_original	Inhibitory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	18	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_original	Inhibitory	original_frozen	20	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	Inhibitory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	Inhibitory	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	11	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	12	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	13	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	14	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	15	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	16	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2		False
+seurat	paired_cellbender	Inhibitory	original_frozen	17	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	18	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Oligodendrocyte:Plp1;Oligodendrocyte:Mbp	False
+seurat	paired_cellbender	Inhibitory	original_frozen	19	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Gad1;Gad2;Slc32a1		False
+seurat	paired_cellbender	Inhibitory	original_frozen	20	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Gad1;Gad2;Slc32a1	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_cellbender	Inhibitory	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	12	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	13	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	14	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	15	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	16	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	17	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	18	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	Inhibitory	fresh_branch	19	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	original_full	CA1_ProS	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	original_full	CA1_ProS	original_frozen	11	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	CA1_ProS	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_original	CA1_ProS	original_frozen	11	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Astrocyte:Slc1a3;Astrocyte:Atp1a2;Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:C1qb;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_original	CA1_ProS	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_original	CA1_ProS	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	original_frozen	1	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	2	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	3	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	4	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	5	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	6	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	7	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	8	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	9	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	10	FULL_COHORT_COARSE_MARKERS_CORROBORATE	Camk2a;Slc17a7		False
+seurat	paired_cellbender	CA1_ProS	original_frozen	11	FULL_COHORT_NONMATCHING_SIGNATURE_REVIEW_REQUIRED	Camk2a;Slc17a7	Microglia:Mertk;Microglia:Hexb;Microglia:Inpp5d;Microglia:P2ry12;Microglia:C1qa;Microglia:Lrmda;Other_immune:Ptprc;Other_immune:Ctss	False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	1	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	2	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	3	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	4	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	5	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	6	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	7	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	8	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	9	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	10	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False
+seurat	paired_cellbender	CA1_ProS	fresh_branch	11	SOURCE_MARKER_REVIEW_ONLY_FRESH_BRANCH			False

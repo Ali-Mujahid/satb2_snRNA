@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTED_REVIEW_REQUIRED",
+  "stage": "log_global",
+  "count_source": "original_full",
+  "completed_utc": "2026-10-13T10:15:49Z",
+  "source_nuclei": 108062,
+  "scientific_acceptance": "NOT_ASSESSED"
+}

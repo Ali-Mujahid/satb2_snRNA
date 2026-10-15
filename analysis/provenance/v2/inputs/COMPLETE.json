@@ -1,0 +1,7 @@
+{
+  "status": "COMPLETE",
+  "stage": "freeze_revision",
+  "inputs": 80,
+  "config_sha256": "d0876f53645fccbcc78606f80c3bb9961edb4fc4959084bb5a036b3aa502abef",
+  "previous_analysis_read_only": true
+}

@@ -1,0 +1,215 @@
+{
+  "status": "COMPLETE",
+  "config_sha256": "aa1677bcd2de2375b456d3449bd6dbd730a4889869bad57f5aafeb4fab573eb3",
+  "versions": {
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pandas": "2.3.3",
+    "harmonypy": "2.1.0",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "scikit-misc": "0.5.3",
+    "scikit-learn": "1.9.1"
+  },
+  "n_nuclei": 104298,
+  "n_genes": 32285,
+  "branch_counts_digest": "9bbd432b06d1ec2f259830638ca9980061c5d3a267681a4892962c7e4ab09d74",
+  "sources": [
+    {
+      "sample": "wt_1122",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/wt_1122/wt_1122.h5",
+      "sha256": "97d61a7319e2b5535fda6e93fdbbe60756bdd9e3ffed97cc7eb5241e1aaf738b",
+      "n_nuclei": 8184,
+      "UMIs": 48291948,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1123",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/wt_1123/wt_1123.h5",
+      "sha256": "81fde555c7443b8e9cb5dd1f59f9ff54d16c99bc712216d1b4eadab836bc393a",
+      "n_nuclei": 8968,
+      "UMIs": 61452135,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1178",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/wt_1178/wt_1178.h5",
+      "sha256": "994bc353ccdce53262f620bc177d0562a5f12bae67276db825247692af7b03fe",
+      "n_nuclei": 6407,
+      "UMIs": 51107301,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1220",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/wt_1220/wt_1220.h5",
+      "sha256": "ecc00ca5d17eebfb28f56be4ef65adfe0b88aad6edc1a2d41a7ce4ce64cfba8f",
+      "n_nuclei": 10176,
+      "UMIs": 68020273,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1226",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/wt_1226/wt_1226.h5",
+      "sha256": "f758a84f0c8afd36303eb812550f9d86625aead035424b2fad8057f6d99dac86",
+      "n_nuclei": 9362,
+      "UMIs": 68175575,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "wt_1228",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/wt_1228/wt_1228.h5",
+      "sha256": "a8891a2fc7542881b3f3c4d35cb31004bce719fbbddcdf63f37bcaadea02b67f",
+      "n_nuclei": 10156,
+      "UMIs": 64438949,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1138",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/cKO_1138/cKO_1138.h5",
+      "sha256": "520ae2c0e5201a82925528555a313f100f8c46cc279dd6355c65876e4bf139b1",
+      "n_nuclei": 7687,
+      "UMIs": 70962062,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1139",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/cKO_1139/cKO_1139.h5",
+      "sha256": "64f25f625d9349bae39ffdb00bcc99fe29edffc7aac19add882c07e2a47561db",
+      "n_nuclei": 9465,
+      "UMIs": 83306393,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1160",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/cKO_1160/cKO_1160.h5",
+      "sha256": "d2daed548155949319f47af0d7ca001ff88658d684924e4104202d89cba7dd6b",
+      "n_nuclei": 7874,
+      "UMIs": 72442176,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_1165",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/cKO_1165/cKO_1165.h5",
+      "sha256": "2d94c45c4d66b501284bc06dd89741a6739ec88d85a226e0bee7a7b3b8ce1a38",
+      "n_nuclei": 9444,
+      "UMIs": 71632928,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_933",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/cKO_933/cKO_933.h5",
+      "sha256": "095293e38142e1cb6c34e1bf9ea947c60cfd75308cd7c8dac0ad368b65d271ca",
+      "n_nuclei": 8625,
+      "UMIs": 69666186,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    },
+    {
+      "sample": "cKO_991",
+      "source": "/Users/mujahid357/Desktop/SATB2_LiSC_archive_transfer_20261012.BmzvXa/cellbender_out/cKO_991/cKO_991.h5",
+      "sha256": "9e43b5a5347940d4a7dba0da14798f7b3f059a74367403b0b11653aa35b12a13",
+      "n_nuclei": 7950,
+      "UMIs": 63804645,
+      "mapmycells_query_verification": {
+        "status": "PAIRED_BRANCH_SHARED_ORIGINAL_LABEL_PROVENANCE",
+        "source_label_branch": "original_full",
+        "mapper_fit_or_rerun_performed": false
+      }
+    }
+  ],
+  "populations": [
+    {
+      "population": "allcells",
+      "n_nuclei": 104298,
+      "n_hvg": 3000,
+      "hvg_sha256": "e413ea8bfc22177bf28df24798d7f3fd6d0e4f2444dd80044e3fee0abd5f50c7"
+    },
+    {
+      "population": "Excitatory",
+      "n_nuclei": 60849,
+      "n_hvg": 3000,
+      "hvg_sha256": "2ef135f5143f49e9c014f129c01de823cdca00f155ea5a2f8b2c513debc0014f"
+    },
+    {
+      "population": "Inhibitory",
+      "n_nuclei": 8903,
+      "n_hvg": 3000,
+      "hvg_sha256": "35a273ad7a4df1cf1ba963e06faea0a8c44c52d775e1083fb4fb3874c6efc77e"
+    },
+    {
+      "population": "CA1_ProS",
+      "n_nuclei": 27672,
+      "n_hvg": 3000,
+      "hvg_sha256": "20cbfe356fca644618d89acf2c5c9a0e802c12274a4d7690ff9376c92211f8af"
+    }
+  ],
+  "roster_sha256": "cf48b90da0e7854e39ea91f03bd6070fd02fab0c800ff6521a63d75b4a287b80",
+  "mapmycells_prediction_sha256": "92ec4ab9b1e745df8f838dfa3a782153c986e887a516377a4e90fd784daf96e4",
+  "branch_counts_h5ad_sha256": "2730ad583eccfb37cc27f660d9ff24d22204eca8a0ecfdf7be1f6071be23ec22",
+  "count_branch": "paired_cellbender",
+  "common_hvg_source_dir": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/original_full",
+  "normalization_for_future_matched_branches": "counts/total_UMIs * 10000, natural log1p",
+  "reused_prepared_artifacts_from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_4/results/shared/paired_cellbender",
+  "reused_prepared_receipt_sha256": "2466aba6c9d73c9eda67a2cabde7356783a5a6d3ae2f76a244cb09e65eefb5f6",
+  "copied_artifact_sha256": {
+    "nucleus_metadata.tsv": "883e9ec41266ca93a549cc379a2f8905bf105da339df97a40bab85d84ac5216f",
+    "common_hvg_Excitatory.tsv": "2ef135f5143f49e9c014f129c01de823cdca00f155ea5a2f8b2c513debc0014f",
+    "membership_CA1_ProS.tsv": "eb7229019beced9ccd6a946e45ee431b1524ae0493cfabc04a7f77836c88c281",
+    "branch_counts.h5ad": "2730ad583eccfb37cc27f660d9ff24d22204eca8a0ecfdf7be1f6071be23ec22",
+    "membership_allcells.tsv": "9d3cbc3bab9578195aef5a28a2f0482e07b0749a8dd5c3462b9025b7e8974fe6",
+    "common_hvg_Inhibitory.tsv": "35a273ad7a4df1cf1ba963e06faea0a8c44c52d775e1083fb4fb3874c6efc77e",
+    "membership_Excitatory.tsv": "48445c6b3ef3a9e50d80f87ab1546bb1d2b6d0ef3c03f19d00946a2a9c4cd851",
+    "common_hvg_CA1_ProS.tsv": "20cbfe356fca644618d89acf2c5c9a0e802c12274a4d7690ff9376c92211f8af",
+    "membership_Inhibitory.tsv": "82680286d8ebc2e1aa3c5e009b96caf3c87d7de80cc8e003120295de9bdeab59",
+    "common_hvg_allcells.tsv": "e413ea8bfc22177bf28df24798d7f3fd6d0e4f2444dd80044e3fee0abd5f50c7",
+    "gene_features.tsv": "b1cf704a6ff8261069abdddf27d5499a67d0ca939a0aefeb588088285b69dd99"
+  },
+  "scientific_preparation_refit_performed": false,
+  "raw_count_sources_reloaded": false
+}

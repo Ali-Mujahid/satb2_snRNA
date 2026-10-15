@@ -1,0 +1,28 @@
+{
+  "status": "COMPLETE",
+  "scope": "completed_native_outputs_only",
+  "scientific_fitting_performed": false,
+  "raw_nucleus_count_aggregation_performed": false,
+  "input_sha256": {
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/count_validation/COMPLETE.json": "7e3163830aa58b17fe76d5852e587b0490a1a33f47d071cb88a7d177077f843a",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/comparison/COMPLETE.json": "79898bdc07da2548062c69ce0fe95e25486b1f85afb1581ce361851a118df982",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/comparison/CORE_RELIABILITY_SCOPE.tsv": "6a262c6503dc7dac9dd19148d02baa6b646d30bd005aa461c008eb6a5352e49e",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/comparison/EFFECT_COMPARISONS.tsv": "1e9bbe646cc8a3ddfdc6b7cfdb2cf8f724b76f459e490d2fa5fff58189edad2b",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/comparison/CORE_WT_cKO_RELIABILITY_ALL_GENES.tsv.gz": "a09028123666c4d4937e7ba1e37ef18f77c38c07a7db49a91afa27272157ca63",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/AUDIT_GENE_ID_SYMBOL_MANIFEST.tsv": "b1cf704a6ff8261069abdddf27d5499a67d0ca939a0aefeb588088285b69dd99",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/reports/effect_figures/COMPLETE.json": "b932f44cfbcbc055eb4c3e5a4828b3838db93ce27ef9472bd39056e68ddeaab8",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/reports/effect_figures/audit_data/ALL_PRIMARY_EXPORT_AND_COVERAGE_REVIEW.tsv": "755d2a15ac0e37831a158dd9e941958903d88d85de404365e56ea23712c02aa0",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/PSEUDOBULK_EXECUTION_AUDIT.tsv": "3aea2d53cc90792a3d3fd264ad4b8e4abd4edc15db327312a84b26f6796dcffa",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/paired_original/PSEUDOBULK_EXECUTION_AUDIT.tsv": "763af09a19f69290beffb1e70c234b78ede4a3ec61960c2d7d6a32b93ba9aa9b",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/paired_cellbender/PSEUDOBULK_EXECUTION_AUDIT.tsv": "99ab445a2678436f5fa167ba1caaf73bf8a05130e5477ecc95c70d3ee1a21192"
+  },
+  "output_sha256": {
+    "final_DESeq2_effect_review.md": "a6da1180832b1acc07e9abc73ae4b98e1a2e68d5db78e95ca657359cd6dbf803"
+  },
+  "visually_inspected_effect_pages": [
+    "01_model_support",
+    "03_core_volcano",
+    "04_paired_count_effect_concordance",
+    "07_core_supported_gene_mouse_points"
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "schema": "satb2-config-path-map-1",
+  "instructions": "Copy this template outside the immutable snapshot; fill absolute paths. Metadata TSV contents and source-bound binary objects need separate restoration. No scientific software is executed by materialize_config.py.",
+  "variables": {
+    "REPOSITORY_ROOT": "<SET_REPOSITORY_ROOT>",
+    "NEW_RUN_ROOT": "<SET_NEW_RUN_ROOT>",
+    "UPSTREAM_RUN_ROOT": "<SET_UPSTREAM_RUN_ROOT>",
+    "UPSTREAM_STUDY_ROOT": "<SET_UPSTREAM_STUDY_ROOT>",
+    "PRE_V1_INPUT_ROOT": "<SET_PRE_V1_INPUT_ROOT>",
+    "MAPMYCELLS_SOURCE_ROOT": "<SET_MAPMYCELLS_SOURCE_ROOT>",
+    "FEASIBILITY_INPUT_ROOT": "<SET_FEASIBILITY_INPUT_ROOT>",
+    "PYTHON_EXECUTABLE": "<SET_PYTHON_EXECUTABLE>",
+    "RSCRIPT_EXECUTABLE": "<SET_RSCRIPT_EXECUTABLE>",
+    "OPTIONAL_RECOVERY_RUN_ROOT": "<SET_OPTIONAL_RECOVERY_RUN_ROOT>"
+  },
+  "prefix_map": [
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/.venv_scanpy/bin/python",
+      "to": "{PYTHON_EXECUTABLE}"
+    },
+    {
+      "from": "/usr/local/bin/Rscript",
+      "to": "{RSCRIPT_EXECUTABLE}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/source",
+      "to": "{REPOSITORY_ROOT}/analysis/v1/source"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/source",
+      "to": "{REPOSITORY_ROOT}/analysis/v2/source"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/audit_cellbender",
+      "to": "{REPOSITORY_ROOT}/analysis/v1/cellbender_audit"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/reviews/FINAL_REVIEW_ACCEPTANCE.json",
+      "to": "{REPOSITORY_ROOT}/analysis/reviews/v1/FINAL_REVIEW_ACCEPTANCE.json"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0",
+      "to": "{NEW_RUN_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5",
+      "to": "{UPSTREAM_RUN_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_4",
+      "to": "{OPTIONAL_RECOVERY_RUN_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/runs/01_original_reference_ingest_v1_0_1/results/original_inputs",
+      "to": "{PRE_V1_INPUT_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908",
+      "to": "{MAPMYCELLS_SOURCE_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/snrna_reanalysis_feasibility",
+      "to": "{FEASIBILITY_INPUT_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013",
+      "to": "{UPSTREAM_STUDY_ROOT}"
+    },
+    {
+      "from": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision",
+      "to": "{NEW_RUN_ROOT}/.."
+    }
+  ]
+}

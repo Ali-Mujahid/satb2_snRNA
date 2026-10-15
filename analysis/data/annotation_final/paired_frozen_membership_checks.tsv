@@ -1,0 +1,9 @@
+tool	population	paired_original_nuclei	paired_cellbender_nuclei	same_frozen_IDs	same_frozen_labels	same_analysis_exclusion_mask
+scanpy	allcells	104298	104298	True	True	True
+scanpy	Excitatory	60849	60849	True	True	True
+scanpy	Inhibitory	8903	8903	True	True	True
+scanpy	CA1_ProS	27672	27672	True	True	True
+seurat	allcells	104298	104298	True	True	True
+seurat	Excitatory	60849	60849	True	True	True
+seurat	Inhibitory	8903	8903	True	True	True
+seurat	CA1_ProS	27672	27672	True	True	True

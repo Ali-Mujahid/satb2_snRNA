@@ -1,0 +1,52 @@
+{
+  "mapmycells_query_root": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping",
+  "expected_samples": 12,
+  "keep_column": "passes_primary_QC",
+  "populations": [
+    "allcells",
+    "Excitatory",
+    "Inhibitory",
+    "CA1_ProS"
+  ],
+  "n_hvg": 3000,
+  "hvg_flavor": "seurat_v3_paper",
+  "feature_discovery_exclude_patterns": [],
+  "target_sum": 10000,
+  "scale_max": 10,
+  "n_pcs": 30,
+  "n_neighbors": 20,
+  "umap_neighbors": 30,
+  "umap_min_dist": 0.3,
+  "resolutions": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "main_resolution": 0.4,
+  "harmony_key": "sample",
+  "harmony_theta": 2,
+  "harmony_sigma": 0.1,
+  "harmony_lambda": 1,
+  "harmony_nclust": 100,
+  "harmony_max_iter": 10,
+  "harmony_max_iter_kmeans": 4,
+  "harmony_epsilon": 0.01,
+  "seed": 20261013,
+  "threads": 4,
+  "minimum_available_gib": 24,
+  "minimum_marker_cluster_nuclei": 20,
+  "marker_top_n": 100,
+  "marker_max_nuclei_per_sample_cluster": 100,
+  "sample_sheet": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/samples_original_full.tsv",
+  "qc_roster": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/roster_original_full.tsv",
+  "mapmycells_predictions": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/MapMyCells_original_predictions.tsv",
+  "markers_tsv": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/marker_review_panels.tsv",
+  "count_branch": "original_full",
+  "expected_nuclei": 108062,
+  "mapmycells_allow_superset": false,
+  "annotation_provenance": "existing original-query MapMyCells labels reused; paired denoising uses fixed original labels",
+  "reuse_prepared_shared_dir": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_4/results/shared/original_full",
+  "reuse_completed_populations": {
+    "allcells": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_4/results/scanpy/original_full/allcells"
+  }
+}

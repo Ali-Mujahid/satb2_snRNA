@@ -1,0 +1,3 @@
+group	gene_symbol	source	selection	set	eligible	annotation_scope
+CA1_population_candidates	AC129186.1	CA1.markers.xlsx:PyrCA1_markers!A75:F75	positive FC,FDR<=.05,pct difference>.1; top20 specificity	CA1_population_candidates	True	expression review; no forced cell/layer identity
+Superficial_associated_VEH_program	AC129186.1	CA1.markers.xlsx:DEGs_PyrCA1Sup_vs_PyrCA1Deep!A18:F18	VEH-only program review; top15 absoluteFC; Satb2/mt/ribo excluded; no anatomical calls	Superficial_associated_VEH_program	True	expression review; no forced cell/layer identity

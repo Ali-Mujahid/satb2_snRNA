@@ -1,0 +1,14 @@
+{
+  "scope": "new local CellBender correction diagnostics and source binding; no accepted original source-count integrity audit rerun or scientific model fitting",
+  "original_source_hashes_matched": 24,
+  "primary_QC_nuclei": 108062,
+  "paired_supported_nuclei": 104298,
+  "zero_corrected_nuclei": 3764,
+  "not_analyzed_nuclei": 707,
+  "all_filtered_corrected_nonnegative_integers": true,
+  "all_train_test_curves_finite_epoch150": true,
+  "all_features_match_original_order": true,
+  "recommended_primary": "all12 original counts on frozen108062 primaryQC roster",
+  "recommended_sensitivity": "archive corrected counts on104298 paired supported overlap; no mixing originals into corrected matrix or importing extra called barcodes",
+  "important_gene_flag": "Cck expression reduction in frozen highsupportIN needs subtype-aware original-versus-corrected review"
+}

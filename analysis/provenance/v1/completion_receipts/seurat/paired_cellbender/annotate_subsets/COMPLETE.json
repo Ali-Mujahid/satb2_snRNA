@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTED_REVIEW_REQUIRED",
+  "stage": "annotate_subsets",
+  "count_source": "paired_cellbender",
+  "completed_utc": "2026-10-13T10:05:16Z",
+  "source_nuclei": 104298,
+  "scientific_acceptance": "NOT_ASSESSED"
+}

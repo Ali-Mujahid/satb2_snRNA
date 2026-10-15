@@ -1,0 +1,1392 @@
+sample	frozen_reference_population	primary_nuclei	paired_supported	zero_corrected	not_analyzed	zero_fraction
+cKO_1138	ALL	7943	7687	256	11	0.032229636157623066
+cKO_1138	ReferenceHighSupport_CA1_ProS	2337	2332	5	0	0.002139495079161318
+cKO_1138	ReferenceHighSupport_EX	4763	4735	28	0	0.005878647910980474
+cKO_1138	ReferenceHighSupport_IN	747	745	2	0	0.002677376171352075
+cKO_1138	Reference_broad:Astrocyte	604	594	10	0	0.016556291390728478
+cKO_1138	Reference_broad:Excitatory	4869	4752	117	6	0.024029574861367836
+cKO_1138	Reference_broad:Inhibitory	801	756	45	3	0.056179775280898875
+cKO_1138	Reference_broad:Microglia	423	378	45	1	0.10638297872340426
+cKO_1138	Reference_broad:OPC	309	305	4	0	0.012944983818770227
+cKO_1138	Reference_broad:Oligodendrocyte	835	821	14	0	0.016766467065868262
+cKO_1138	Reference_broad:Other_immune	11	7	4	0	0.36363636363636365
+cKO_1138	Reference_broad:Vascular	91	74	17	1	0.18681318681318682
+cKO_1138	Reference_subclass:003 L5/6 IT TPE-ENT Glut	3	2	1	0	0.3333333333333333
+cKO_1138	Reference_subclass:004 L6 IT CTX Glut	1	0	1	0	1.0
+cKO_1138	Reference_subclass:007 L2/3 IT CTX Glut	3	2	1	0	0.3333333333333333
+cKO_1138	Reference_subclass:008 L2/3 IT ENT Glut	63	61	2	0	0.031746031746031744
+cKO_1138	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	2	0	2	0	1.0
+cKO_1138	Reference_subclass:010 IT AON-TT-DP Glut	9	0	9	0	1.0
+cKO_1138	Reference_subclass:011 L2 IT ENT-po Glut	49	48	1	0	0.02040816326530612
+cKO_1138	Reference_subclass:012 MEA Slc17a7 Glut	1	0	1	0	1.0
+cKO_1138	Reference_subclass:014 LA-BLA-BMA-PA Glut	4	0	4	0	1.0
+cKO_1138	Reference_subclass:015 ENTmv-PA-COAp Glut	82	81	1	0	0.012195121951219513
+cKO_1138	Reference_subclass:016 CA1-ProS Glut	2416	2371	45	5	0.018625827814569538
+cKO_1138	Reference_subclass:017 CA3 Glut	41	38	3	0	0.07317073170731707
+cKO_1138	Reference_subclass:018 L2 IT PPP-APr Glut	45	44	1	0	0.022222222222222223
+cKO_1138	Reference_subclass:019 L2/3 IT PPP Glut	563	557	6	0	0.010657193605683837
+cKO_1138	Reference_subclass:020 L2/3 IT RSP Glut	3	1	2	0	0.6666666666666666
+cKO_1138	Reference_subclass:022 L5 ET CTX Glut	5	1	4	1	0.8
+cKO_1138	Reference_subclass:023 SUB-ProS Glut	772	757	15	0	0.019430051813471502
+cKO_1138	Reference_subclass:025 CA2-FC-IG Glut	35	34	1	0	0.02857142857142857
+cKO_1138	Reference_subclass:028 L6b/CT ENT Glut	113	113	0	0	0.0
+cKO_1138	Reference_subclass:029 L6b CTX Glut	2	2	0	0	0.0
+cKO_1138	Reference_subclass:030 L6 CT CTX Glut	5	5	0	0	0.0
+cKO_1138	Reference_subclass:031 CT SUB Glut	224	223	1	0	0.004464285714285714
+cKO_1138	Reference_subclass:032 L5 NP CTX Glut	4	1	3	0	0.75
+cKO_1138	Reference_subclass:033 NP SUB Glut	379	375	4	0	0.010554089709762533
+cKO_1138	Reference_subclass:034 NP PPP Glut	2	2	0	0	0.0
+cKO_1138	Reference_subclass:036 HPF CR Glut	15	15	0	0	0.0
+cKO_1138	Reference_subclass:037 DG Glut	20	16	4	0	0.2
+cKO_1138	Reference_subclass:038 DG-PIR Ex IMN	2	2	0	0	0.0
+cKO_1138	Reference_subclass:039 OB Meis2 Thsd7b Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:041 OB-in Frmd7 Gaba	4	0	4	1	1.0
+cKO_1138	Reference_subclass:044 OB Dopa-Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:045 OB-STR-CTX Inh IMN	10	8	2	0	0.2
+cKO_1138	Reference_subclass:046 Vip Gaba	92	90	2	0	0.021739130434782608
+cKO_1138	Reference_subclass:047 Sncg Gaba	47	46	1	0	0.02127659574468085
+cKO_1138	Reference_subclass:048 RHP-COA Ndnf Gaba	66	63	3	0	0.045454545454545456
+cKO_1138	Reference_subclass:049 Lamp5 Gaba	41	36	5	0	0.12195121951219512
+cKO_1138	Reference_subclass:050 Lamp5 Lhx6 Gaba	42	42	0	0	0.0
+cKO_1138	Reference_subclass:051 Pvalb chandelier Gaba	19	19	0	0	0.0
+cKO_1138	Reference_subclass:052 Pvalb Gaba	226	220	6	0	0.02654867256637168
+cKO_1138	Reference_subclass:053 Sst Gaba	239	230	9	0	0.03765690376569038
+cKO_1138	Reference_subclass:056 Sst Chodl Gaba	1	1	0	0	0.0
+cKO_1138	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:068 LSX Otx2 Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:069 LSX Nkx2-1 Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:073 MEA-BST Sox6 Gaba	4	1	3	1	0.75
+cKO_1138	Reference_subclass:074 MEA-BST Lhx6 Sp9 Gaba	1	0	1	1	1.0
+cKO_1138	Reference_subclass:080 CEA-AAA-BST Six3 Sp9 Gaba	2	0	2	0	1.0
+cKO_1138	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	2	0	2	0	1.0
+cKO_1138	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	1	1	0	0	0.0
+cKO_1138	Reference_subclass:163 APN C1ql2 Glut	1	0	1	0	1.0
+cKO_1138	Reference_subclass:193 MRN-PPN-CUN Pax8 Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:231 IPN-LDT Vsx2 Nkx6-1 Glut	1	0	1	0	1.0
+cKO_1138	Reference_subclass:245 SPVI-SPVC Tlx3 Ebf3 Glut	1	0	1	0	1.0
+cKO_1138	Reference_subclass:309 CB PLI Gly-Gaba	1	0	1	0	1.0
+cKO_1138	Reference_subclass:318 Astro-NT NN	13	11	2	0	0.15384615384615385
+cKO_1138	Reference_subclass:319 Astro-TE NN	591	583	8	0	0.01353637901861252
+cKO_1138	Reference_subclass:326 OPC NN	309	305	4	0	0.012944983818770227
+cKO_1138	Reference_subclass:327 Oligo NN	835	821	14	0	0.016766467065868262
+cKO_1138	Reference_subclass:329 ABC NN	19	19	0	0	0.0
+cKO_1138	Reference_subclass:330 VLMC NN	16	15	1	0	0.0625
+cKO_1138	Reference_subclass:331 Peri NN	24	20	4	0	0.16666666666666666
+cKO_1138	Reference_subclass:332 SMC NN	1	1	0	0	0.0
+cKO_1138	Reference_subclass:333 Endo NN	31	19	12	1	0.3870967741935484
+cKO_1138	Reference_subclass:334 Microglia NN	423	378	45	1	0.10638297872340426
+cKO_1138	Reference_subclass:335 BAM NN	5	5	0	0	0.0
+cKO_1138	Reference_subclass:338 Lymphoid NN	6	2	4	0	0.6666666666666666
+cKO_1139	ALL	9750	9465	285	16	0.02923076923076923
+cKO_1139	ReferenceHighSupport_CA1_ProS	2737	2734	3	0	0.0010960906101571063
+cKO_1139	ReferenceHighSupport_EX	5851	5843	8	0	0.001367287643137925
+cKO_1139	ReferenceHighSupport_IN	839	839	0	0	0.0
+cKO_1139	Reference_broad:Astrocyte	816	796	20	2	0.024509803921568627
+cKO_1139	Reference_broad:Ependymal	8	8	0	0	0.0
+cKO_1139	Reference_broad:Excitatory	6159	5967	192	9	0.031173891865562593
+cKO_1139	Reference_broad:Inhibitory	941	891	50	3	0.053134962805526036
+cKO_1139	Reference_broad:Microglia	500	496	4	1	0.008
+cKO_1139	Reference_broad:OPC	333	331	2	0	0.006006006006006006
+cKO_1139	Reference_broad:Oligodendrocyte	875	869	6	0	0.006857142857142857
+cKO_1139	Reference_broad:Other_immune	4	1	3	1	0.75
+cKO_1139	Reference_broad:Other_reference	2	0	2	0	1.0
+cKO_1139	Reference_broad:Vascular	112	106	6	0	0.05357142857142857
+cKO_1139	Reference_subclass:002 IT EP-CLA Glut	6	6	0	0	0.0
+cKO_1139	Reference_subclass:003 L5/6 IT TPE-ENT Glut	5	4	1	0	0.2
+cKO_1139	Reference_subclass:004 L6 IT CTX Glut	4	2	2	0	0.5
+cKO_1139	Reference_subclass:006 L4/5 IT CTX Glut	2	2	0	0	0.0
+cKO_1139	Reference_subclass:007 L2/3 IT CTX Glut	11	7	4	0	0.36363636363636365
+cKO_1139	Reference_subclass:008 L2/3 IT ENT Glut	169	167	2	0	0.011834319526627219
+cKO_1139	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	4	0	4	0	1.0
+cKO_1139	Reference_subclass:010 IT AON-TT-DP Glut	18	9	9	0	0.5
+cKO_1139	Reference_subclass:011 L2 IT ENT-po Glut	85	85	0	0	0.0
+cKO_1139	Reference_subclass:012 MEA Slc17a7 Glut	10	5	5	0	0.5
+cKO_1139	Reference_subclass:014 LA-BLA-BMA-PA Glut	7	2	5	1	0.7142857142857143
+cKO_1139	Reference_subclass:015 ENTmv-PA-COAp Glut	22	22	0	0	0.0
+cKO_1139	Reference_subclass:016 CA1-ProS Glut	2905	2832	73	3	0.02512908777969019
+cKO_1139	Reference_subclass:017 CA3 Glut	119	112	7	0	0.058823529411764705
+cKO_1139	Reference_subclass:018 L2 IT PPP-APr Glut	53	51	2	0	0.03773584905660377
+cKO_1139	Reference_subclass:019 L2/3 IT PPP Glut	831	824	7	0	0.00842358604091456
+cKO_1139	Reference_subclass:020 L2/3 IT RSP Glut	11	9	2	0	0.18181818181818182
+cKO_1139	Reference_subclass:022 L5 ET CTX Glut	21	13	8	1	0.38095238095238093
+cKO_1139	Reference_subclass:023 SUB-ProS Glut	708	700	8	0	0.011299435028248588
+cKO_1139	Reference_subclass:025 CA2-FC-IG Glut	117	113	4	0	0.03418803418803419
+cKO_1139	Reference_subclass:028 L6b/CT ENT Glut	221	220	1	0	0.004524886877828055
+cKO_1139	Reference_subclass:030 L6 CT CTX Glut	6	3	3	0	0.5
+cKO_1139	Reference_subclass:031 CT SUB Glut	244	241	3	1	0.012295081967213115
+cKO_1139	Reference_subclass:032 L5 NP CTX Glut	10	6	4	0	0.4
+cKO_1139	Reference_subclass:033 NP SUB Glut	374	370	4	0	0.0106951871657754
+cKO_1139	Reference_subclass:034 NP PPP Glut	5	5	0	0	0.0
+cKO_1139	Reference_subclass:036 HPF CR Glut	20	19	1	0	0.05
+cKO_1139	Reference_subclass:037 DG Glut	144	129	15	3	0.10416666666666667
+cKO_1139	Reference_subclass:038 DG-PIR Ex IMN	6	5	1	0	0.16666666666666666
+cKO_1139	Reference_subclass:039 OB Meis2 Thsd7b Gaba	4	1	3	1	0.75
+cKO_1139	Reference_subclass:041 OB-in Frmd7 Gaba	12	2	10	1	0.8333333333333334
+cKO_1139	Reference_subclass:042 OB-out Frmd7 Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:044 OB Dopa-Gaba	2	0	2	0	1.0
+cKO_1139	Reference_subclass:045 OB-STR-CTX Inh IMN	25	22	3	0	0.12
+cKO_1139	Reference_subclass:046 Vip Gaba	112	111	1	0	0.008928571428571428
+cKO_1139	Reference_subclass:047 Sncg Gaba	57	57	0	0	0.0
+cKO_1139	Reference_subclass:048 RHP-COA Ndnf Gaba	57	56	1	0	0.017543859649122806
+cKO_1139	Reference_subclass:049 Lamp5 Gaba	47	44	3	0	0.06382978723404255
+cKO_1139	Reference_subclass:050 Lamp5 Lhx6 Gaba	58	58	0	0	0.0
+cKO_1139	Reference_subclass:051 Pvalb chandelier Gaba	33	33	0	0	0.0
+cKO_1139	Reference_subclass:052 Pvalb Gaba	222	221	1	0	0.0045045045045045045
+cKO_1139	Reference_subclass:053 Sst Gaba	271	269	2	0	0.007380073800738007
+cKO_1139	Reference_subclass:054 STR Prox1 Lhx6 Gaba	2	1	1	0	0.5
+cKO_1139	Reference_subclass:056 Sst Chodl Gaba	3	3	0	0	0.0
+cKO_1139	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:062 STR D2 Gaba	2	0	2	0	1.0
+cKO_1139	Reference_subclass:063 STR D1 Sema5a Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:065 IA Mgp Gaba	3	1	2	0	0.6666666666666666
+cKO_1139	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:069 LSX Nkx2-1 Gaba	2	1	1	0	0.5
+cKO_1139	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:071 LSX Prdm12 Zeb2 Gaba	2	2	0	0	0.0
+cKO_1139	Reference_subclass:073 MEA-BST Sox6 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:074 MEA-BST Lhx6 Sp9 Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:079 CEA-BST Six3 Cyp26b1 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:087 MPN-MPO-LPO Lhx6 Zfhx3 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:089 PVR Six3 Sox3 Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:090 BST-MPN Six3 Nrgn Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:101 ZI Pax6 Gaba	2	0	2	0	1.0
+cKO_1139	Reference_subclass:104 TU-ARH Otp Six6 Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:115 MS-SF Bsx Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:116 AVPV-MEPO-SFO Tbr1 Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:118 ADP-MPO Trp73 Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	3	1	2	0	0.6666666666666666
+cKO_1139	Reference_subclass:152 RE-Xi Nox4 Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:153 MG-POL-SGN Nts Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:164 APN C1ql4 Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	2	1	1	0	0.5
+cKO_1139	Reference_subclass:181 IC Tfap2d Maf Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:193 MRN-PPN-CUN Pax8 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:198 IC Six3 En2 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:202 PRT Tcf7l2 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	1	0	1	1	1.0
+cKO_1139	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:213 SCsg Gabrr2 Gaba	1	0	1	0	1.0
+cKO_1139	Reference_subclass:215 SNc-VTA-RAmb Foxa1 Dopa	1	0	1	0	1.0
+cKO_1139	Reference_subclass:230 PRNr Otp Nfib Glut	1	1	0	0	0.0
+cKO_1139	Reference_subclass:238 NTS Phox2b Glut	4	0	4	0	1.0
+cKO_1139	Reference_subclass:248 MV-SPIV Zic4 Neurod2 Glut	2	1	1	0	0.5
+cKO_1139	Reference_subclass:262 Pineal Crx Glut	1	0	1	0	1.0
+cKO_1139	Reference_subclass:272 LDT-PCG-CS Gata3 Lhx1 Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:287 MV-SPIV-PRP Dmbx1 Gly-Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:304 NTS-PARN Neurod2 Gly-Gaba	2	0	2	0	1.0
+cKO_1139	Reference_subclass:308 DCO Il22 Gly-Gaba	2	1	1	0	0.5
+cKO_1139	Reference_subclass:309 CB PLI Gly-Gaba	1	1	0	0	0.0
+cKO_1139	Reference_subclass:318 Astro-NT NN	8	8	0	0	0.0
+cKO_1139	Reference_subclass:319 Astro-TE NN	806	787	19	2	0.02357320099255583
+cKO_1139	Reference_subclass:320 Astro-OLF NN	2	1	1	0	0.5
+cKO_1139	Reference_subclass:323 Ependymal NN	8	8	0	0	0.0
+cKO_1139	Reference_subclass:326 OPC NN	333	331	2	0	0.006006006006006006
+cKO_1139	Reference_subclass:327 Oligo NN	875	869	6	0	0.006857142857142857
+cKO_1139	Reference_subclass:328 OEC NN	1	0	1	0	1.0
+cKO_1139	Reference_subclass:329 ABC NN	7	7	0	0	0.0
+cKO_1139	Reference_subclass:330 VLMC NN	11	10	1	0	0.09090909090909091
+cKO_1139	Reference_subclass:331 Peri NN	39	39	0	0	0.0
+cKO_1139	Reference_subclass:332 SMC NN	3	1	2	0	0.6666666666666666
+cKO_1139	Reference_subclass:333 Endo NN	52	49	3	0	0.057692307692307696
+cKO_1139	Reference_subclass:334 Microglia NN	500	496	4	1	0.008
+cKO_1139	Reference_subclass:336 Monocytes NN	1	1	0	0	0.0
+cKO_1139	Reference_subclass:338 Lymphoid NN	3	0	3	1	1.0
+cKO_1160	ALL	8221	7874	347	200	0.04220897701009609
+cKO_1160	ReferenceHighSupport_CA1_ProS	1908	1907	1	0	0.0005241090146750524
+cKO_1160	ReferenceHighSupport_EX	4374	4369	5	0	0.0011431184270690445
+cKO_1160	ReferenceHighSupport_IN	706	706	0	0	0.0
+cKO_1160	Reference_broad:Astrocyte	808	780	28	16	0.034653465346534656
+cKO_1160	Reference_broad:Ependymal	11	8	3	2	0.2727272727272727
+cKO_1160	Reference_broad:Excitatory	4841	4652	189	106	0.03904152034703574
+cKO_1160	Reference_broad:Inhibitory	858	776	82	57	0.09557109557109557
+cKO_1160	Reference_broad:Microglia	444	432	12	5	0.02702702702702703
+cKO_1160	Reference_broad:OPC	338	337	1	0	0.0029585798816568047
+cKO_1160	Reference_broad:Oligodendrocyte	740	734	6	3	0.008108108108108109
+cKO_1160	Reference_broad:Other_immune	15	11	4	3	0.26666666666666666
+cKO_1160	Reference_broad:Other_reference	1	0	1	1	1.0
+cKO_1160	Reference_broad:Vascular	165	144	21	7	0.12727272727272726
+cKO_1160	Reference_subclass:002 IT EP-CLA Glut	2	2	0	0	0.0
+cKO_1160	Reference_subclass:003 L5/6 IT TPE-ENT Glut	4	2	2	0	0.5
+cKO_1160	Reference_subclass:004 L6 IT CTX Glut	2	1	1	1	0.5
+cKO_1160	Reference_subclass:005 L5 IT CTX Glut	1	1	0	0	0.0
+cKO_1160	Reference_subclass:006 L4/5 IT CTX Glut	3	2	1	0	0.3333333333333333
+cKO_1160	Reference_subclass:007 L2/3 IT CTX Glut	2	1	1	1	0.5
+cKO_1160	Reference_subclass:008 L2/3 IT ENT Glut	97	97	0	0	0.0
+cKO_1160	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	8	2	6	3	0.75
+cKO_1160	Reference_subclass:010 IT AON-TT-DP Glut	20	13	7	6	0.35
+cKO_1160	Reference_subclass:011 L2 IT ENT-po Glut	84	83	1	1	0.011904761904761904
+cKO_1160	Reference_subclass:012 MEA Slc17a7 Glut	18	10	8	3	0.4444444444444444
+cKO_1160	Reference_subclass:013 COAp Grxcr2 Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:014 LA-BLA-BMA-PA Glut	12	8	4	2	0.3333333333333333
+cKO_1160	Reference_subclass:015 ENTmv-PA-COAp Glut	109	107	2	1	0.01834862385321101
+cKO_1160	Reference_subclass:016 CA1-ProS Glut	2148	2076	72	35	0.0335195530726257
+cKO_1160	Reference_subclass:017 CA3 Glut	64	62	2	2	0.03125
+cKO_1160	Reference_subclass:018 L2 IT PPP-APr Glut	51	49	2	1	0.0392156862745098
+cKO_1160	Reference_subclass:019 L2/3 IT PPP Glut	661	655	6	4	0.009077155824508321
+cKO_1160	Reference_subclass:020 L2/3 IT RSP Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:021 L4 RSP-ACA Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:022 L5 ET CTX Glut	27	14	13	8	0.48148148148148145
+cKO_1160	Reference_subclass:023 SUB-ProS Glut	670	656	14	7	0.020895522388059702
+cKO_1160	Reference_subclass:025 CA2-FC-IG Glut	42	41	1	0	0.023809523809523808
+cKO_1160	Reference_subclass:028 L6b/CT ENT Glut	197	192	5	5	0.025380710659898477
+cKO_1160	Reference_subclass:029 L6b CTX Glut	2	2	0	0	0.0
+cKO_1160	Reference_subclass:030 L6 CT CTX Glut	13	10	3	1	0.23076923076923078
+cKO_1160	Reference_subclass:031 CT SUB Glut	252	248	4	1	0.015873015873015872
+cKO_1160	Reference_subclass:032 L5 NP CTX Glut	9	5	4	2	0.4444444444444444
+cKO_1160	Reference_subclass:033 NP SUB Glut	274	271	3	2	0.010948905109489052
+cKO_1160	Reference_subclass:034 NP PPP Glut	5	5	0	0	0.0
+cKO_1160	Reference_subclass:035 OB Eomes Ms4a15 Glut	5	3	2	2	0.4
+cKO_1160	Reference_subclass:036 HPF CR Glut	17	17	0	0	0.0
+cKO_1160	Reference_subclass:037 DG Glut	12	4	8	5	0.6666666666666666
+cKO_1160	Reference_subclass:038 DG-PIR Ex IMN	3	1	2	2	0.6666666666666666
+cKO_1160	Reference_subclass:039 OB Meis2 Thsd7b Gaba	6	3	3	2	0.5
+cKO_1160	Reference_subclass:041 OB-in Frmd7 Gaba	16	6	10	8	0.625
+cKO_1160	Reference_subclass:042 OB-out Frmd7 Gaba	5	1	4	2	0.8
+cKO_1160	Reference_subclass:044 OB Dopa-Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:045 OB-STR-CTX Inh IMN	17	10	7	7	0.4117647058823529
+cKO_1160	Reference_subclass:046 Vip Gaba	90	87	3	1	0.03333333333333333
+cKO_1160	Reference_subclass:047 Sncg Gaba	42	41	1	1	0.023809523809523808
+cKO_1160	Reference_subclass:048 RHP-COA Ndnf Gaba	57	57	0	0	0.0
+cKO_1160	Reference_subclass:049 Lamp5 Gaba	56	55	1	1	0.017857142857142856
+cKO_1160	Reference_subclass:050 Lamp5 Lhx6 Gaba	34	33	1	0	0.029411764705882353
+cKO_1160	Reference_subclass:051 Pvalb chandelier Gaba	22	22	0	0	0.0
+cKO_1160	Reference_subclass:052 Pvalb Gaba	222	219	3	2	0.013513513513513514
+cKO_1160	Reference_subclass:053 Sst Gaba	228	221	7	4	0.03070175438596491
+cKO_1160	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	4	2	2	0	0.5
+cKO_1160	Reference_subclass:062 STR D2 Gaba	3	1	2	1	0.6666666666666666
+cKO_1160	Reference_subclass:063 STR D1 Sema5a Gaba	1	0	1	1	1.0
+cKO_1160	Reference_subclass:064 STR-PAL Chst9 Gaba	2	0	2	2	1.0
+cKO_1160	Reference_subclass:065 IA Mgp Gaba	4	0	4	3	1.0
+cKO_1160	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:068 LSX Otx2 Gaba	1	0	1	1	1.0
+cKO_1160	Reference_subclass:072 LSX Sall3 Lmo1 Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:073 MEA-BST Sox6 Gaba	8	2	6	4	0.75
+cKO_1160	Reference_subclass:076 MEA-BST Lhx6 Nfib Gaba	2	1	1	1	0.5
+cKO_1160	Reference_subclass:080 CEA-AAA-BST Six3 Sp9 Gaba	1	0	1	1	1.0
+cKO_1160	Reference_subclass:082 CEA-BST Ebf1 Pdyn Gaba	4	2	2	1	0.5
+cKO_1160	Reference_subclass:086 MPO-ADP Lhx8 Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:098 AHN-SBPV-PVHd Pdrm12 Gaba	2	0	2	1	1.0
+cKO_1160	Reference_subclass:101 ZI Pax6 Gaba	2	2	0	0	0.0
+cKO_1160	Reference_subclass:107 DMH Hmx2 Gaba	3	0	3	3	1.0
+cKO_1160	Reference_subclass:109 LGv-ZI Otx2 Gaba	1	0	1	0	1.0
+cKO_1160	Reference_subclass:111 TRS-BAC Sln Glut	2	2	0	0	0.0
+cKO_1160	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	1	1	0	0	0.0
+cKO_1160	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	5	1	4	3	0.8
+cKO_1160	Reference_subclass:145 MH Tac2 Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:152 RE-Xi Nox4 Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:160 PAG-SC Neurod2 Meis2 Glut	1	1	0	0	0.0
+cKO_1160	Reference_subclass:161 PAG Pou4f3 Glut	1	0	1	0	1.0
+cKO_1160	Reference_subclass:164 APN C1ql4 Glut	1	1	0	0	0.0
+cKO_1160	Reference_subclass:169 PAG-SC Pou4f1 Zic1 Glut	2	2	0	0	0.0
+cKO_1160	Reference_subclass:175 SC Bnc2 Glut	1	1	0	0	0.0
+cKO_1160	Reference_subclass:176 SCig Foxb1 Glut	2	1	1	1	0.5
+cKO_1160	Reference_subclass:177 SCig-an-PPT Foxb1 Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:181 IC Tfap2d Maf Glut	4	2	2	0	0.5
+cKO_1160	Reference_subclass:187 SCsg Pde5a Glut	1	0	1	1	1.0
+cKO_1160	Reference_subclass:196 PAG-PPN Pax5 Sox21 Gaba	1	0	1	1	1.0
+cKO_1160	Reference_subclass:198 IC Six3 En2 Gaba	4	0	4	3	1.0
+cKO_1160	Reference_subclass:204 SC Otx2 Gcnt4 Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	0	1	0	1.0
+cKO_1160	Reference_subclass:210 PRT Mecom Gaba	2	0	2	2	1.0
+cKO_1160	Reference_subclass:271 NI-RPO Gata3 Nr4a2 Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:278 NLL Gata3 Gly-Gaba	3	1	2	2	0.6666666666666666
+cKO_1160	Reference_subclass:283 PRP Otp Gly-Gaba	1	0	1	1	1.0
+cKO_1160	Reference_subclass:285 MY Lhx1 Gly-Gaba	1	0	1	1	1.0
+cKO_1160	Reference_subclass:304 NTS-PARN Neurod2 Gly-Gaba	3	1	2	0	0.6666666666666666
+cKO_1160	Reference_subclass:308 DCO Il22 Gly-Gaba	1	1	0	0	0.0
+cKO_1160	Reference_subclass:309 CB PLI Gly-Gaba	2	2	0	0	0.0
+cKO_1160	Reference_subclass:318 Astro-NT NN	20	18	2	1	0.1
+cKO_1160	Reference_subclass:319 Astro-TE NN	783	761	22	13	0.0280970625798212
+cKO_1160	Reference_subclass:320 Astro-OLF NN	5	1	4	2	0.8
+cKO_1160	Reference_subclass:322 Tanycyte NN	2	0	2	2	1.0
+cKO_1160	Reference_subclass:323 Ependymal NN	9	8	1	0	0.1111111111111111
+cKO_1160	Reference_subclass:326 OPC NN	338	337	1	0	0.0029585798816568047
+cKO_1160	Reference_subclass:327 Oligo NN	740	734	6	3	0.008108108108108109
+cKO_1160	Reference_subclass:328 OEC NN	1	0	1	1	1.0
+cKO_1160	Reference_subclass:329 ABC NN	5	4	1	0	0.2
+cKO_1160	Reference_subclass:330 VLMC NN	17	14	3	1	0.17647058823529413
+cKO_1160	Reference_subclass:331 Peri NN	49	46	3	1	0.061224489795918366
+cKO_1160	Reference_subclass:332 SMC NN	6	2	4	2	0.6666666666666666
+cKO_1160	Reference_subclass:333 Endo NN	88	78	10	3	0.11363636363636363
+cKO_1160	Reference_subclass:334 Microglia NN	444	432	12	5	0.02702702702702703
+cKO_1160	Reference_subclass:335 BAM NN	6	5	1	1	0.16666666666666666
+cKO_1160	Reference_subclass:337 DC NN	1	1	0	0	0.0
+cKO_1160	Reference_subclass:338 Lymphoid NN	8	5	3	2	0.375
+cKO_1165	ALL	9851	9444	407	17	0.0413156024769059
+cKO_1165	ReferenceHighSupport_CA1_ProS	2436	2434	2	0	0.0008210180623973727
+cKO_1165	ReferenceHighSupport_EX	5474	5461	13	0	0.0023748629886737303
+cKO_1165	ReferenceHighSupport_IN	808	808	0	0	0.0
+cKO_1165	Reference_broad:Astrocyte	906	876	30	1	0.033112582781456956
+cKO_1165	Reference_broad:Ependymal	22	21	1	0	0.045454545454545456
+cKO_1165	Reference_broad:Excitatory	5892	5672	220	8	0.0373387644263408
+cKO_1165	Reference_broad:Inhibitory	965	871	94	5	0.09740932642487046
+cKO_1165	Reference_broad:Microglia	449	442	7	3	0.015590200445434299
+cKO_1165	Reference_broad:OPC	360	354	6	0	0.016666666666666666
+cKO_1165	Reference_broad:Oligodendrocyte	952	927	25	0	0.026260504201680673
+cKO_1165	Reference_broad:Other_immune	17	11	6	0	0.35294117647058826
+cKO_1165	Reference_broad:Other_reference	76	76	0	0	0.0
+cKO_1165	Reference_broad:Vascular	212	194	18	0	0.08490566037735849
+cKO_1165	Reference_subclass:002 IT EP-CLA Glut	2	0	2	0	1.0
+cKO_1165	Reference_subclass:003 L5/6 IT TPE-ENT Glut	2	2	0	0	0.0
+cKO_1165	Reference_subclass:004 L6 IT CTX Glut	2	0	2	0	1.0
+cKO_1165	Reference_subclass:006 L4/5 IT CTX Glut	2	0	2	0	1.0
+cKO_1165	Reference_subclass:007 L2/3 IT CTX Glut	12	10	2	0	0.16666666666666666
+cKO_1165	Reference_subclass:008 L2/3 IT ENT Glut	165	164	1	0	0.006060606060606061
+cKO_1165	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	11	6	5	0	0.45454545454545453
+cKO_1165	Reference_subclass:010 IT AON-TT-DP Glut	13	10	3	0	0.23076923076923078
+cKO_1165	Reference_subclass:011 L2 IT ENT-po Glut	89	88	1	0	0.011235955056179775
+cKO_1165	Reference_subclass:012 MEA Slc17a7 Glut	13	7	6	1	0.46153846153846156
+cKO_1165	Reference_subclass:014 LA-BLA-BMA-PA Glut	9	3	6	0	0.6666666666666666
+cKO_1165	Reference_subclass:015 ENTmv-PA-COAp Glut	50	48	2	0	0.04
+cKO_1165	Reference_subclass:016 CA1-ProS Glut	2687	2589	98	2	0.036471901749162636
+cKO_1165	Reference_subclass:017 CA3 Glut	103	99	4	1	0.038834951456310676
+cKO_1165	Reference_subclass:018 L2 IT PPP-APr Glut	50	48	2	0	0.04
+cKO_1165	Reference_subclass:019 L2/3 IT PPP Glut	770	763	7	1	0.00909090909090909
+cKO_1165	Reference_subclass:020 L2/3 IT RSP Glut	13	8	5	0	0.38461538461538464
+cKO_1165	Reference_subclass:021 L4 RSP-ACA Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:022 L5 ET CTX Glut	18	8	10	0	0.5555555555555556
+cKO_1165	Reference_subclass:023 SUB-ProS Glut	700	690	10	0	0.014285714285714285
+cKO_1165	Reference_subclass:025 CA2-FC-IG Glut	94	93	1	0	0.010638297872340425
+cKO_1165	Reference_subclass:028 L6b/CT ENT Glut	230	226	4	0	0.017391304347826087
+cKO_1165	Reference_subclass:029 L6b CTX Glut	1	1	0	0	0.0
+cKO_1165	Reference_subclass:030 L6 CT CTX Glut	9	7	2	0	0.2222222222222222
+cKO_1165	Reference_subclass:031 CT SUB Glut	259	256	3	0	0.011583011583011582
+cKO_1165	Reference_subclass:032 L5 NP CTX Glut	11	5	6	0	0.5454545454545454
+cKO_1165	Reference_subclass:033 NP SUB Glut	316	313	3	0	0.00949367088607595
+cKO_1165	Reference_subclass:034 NP PPP Glut	3	3	0	0	0.0
+cKO_1165	Reference_subclass:035 OB Eomes Ms4a15 Glut	2	1	1	0	0.5
+cKO_1165	Reference_subclass:036 HPF CR Glut	31	30	1	0	0.03225806451612903
+cKO_1165	Reference_subclass:037 DG Glut	191	181	10	0	0.05235602094240838
+cKO_1165	Reference_subclass:038 DG-PIR Ex IMN	8	8	0	0	0.0
+cKO_1165	Reference_subclass:039 OB Meis2 Thsd7b Gaba	8	1	7	1	0.875
+cKO_1165	Reference_subclass:040 OB Trdn Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:041 OB-in Frmd7 Gaba	14	3	11	1	0.7857142857142857
+cKO_1165	Reference_subclass:042 OB-out Frmd7 Gaba	4	0	4	0	1.0
+cKO_1165	Reference_subclass:044 OB Dopa-Gaba	4	2	2	0	0.5
+cKO_1165	Reference_subclass:045 OB-STR-CTX Inh IMN	26	15	11	1	0.4230769230769231
+cKO_1165	Reference_subclass:046 Vip Gaba	122	114	8	1	0.06557377049180328
+cKO_1165	Reference_subclass:047 Sncg Gaba	46	45	1	0	0.021739130434782608
+cKO_1165	Reference_subclass:048 RHP-COA Ndnf Gaba	59	56	3	0	0.05084745762711865
+cKO_1165	Reference_subclass:049 Lamp5 Gaba	51	49	2	0	0.0392156862745098
+cKO_1165	Reference_subclass:050 Lamp5 Lhx6 Gaba	52	51	1	0	0.019230769230769232
+cKO_1165	Reference_subclass:051 Pvalb chandelier Gaba	19	19	0	0	0.0
+cKO_1165	Reference_subclass:052 Pvalb Gaba	244	244	0	0	0.0
+cKO_1165	Reference_subclass:053 Sst Gaba	258	252	6	0	0.023255813953488372
+cKO_1165	Reference_subclass:056 Sst Chodl Gaba	2	2	0	0	0.0
+cKO_1165	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	5	2	3	0	0.6
+cKO_1165	Reference_subclass:059 GPe-SI Sox6 Cyp26b1 Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:060 OT D3 Folh1 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:062 STR D2 Gaba	2	1	1	0	0.5
+cKO_1165	Reference_subclass:067 LSX Sall3 Pax6 Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:068 LSX Otx2 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:069 LSX Nkx2-1 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	2	0	2	0	1.0
+cKO_1165	Reference_subclass:073 MEA-BST Sox6 Gaba	7	4	3	0	0.42857142857142855
+cKO_1165	Reference_subclass:076 MEA-BST Lhx6 Nfib Gaba	2	0	2	0	1.0
+cKO_1165	Reference_subclass:082 CEA-BST Ebf1 Pdyn Gaba	2	0	2	1	1.0
+cKO_1165	Reference_subclass:089 PVR Six3 Sox3 Gaba	2	1	1	0	0.5
+cKO_1165	Reference_subclass:090 BST-MPN Six3 Nrgn Gaba	2	1	1	0	0.5
+cKO_1165	Reference_subclass:098 AHN-SBPV-PVHd Pdrm12 Gaba	2	0	2	0	1.0
+cKO_1165	Reference_subclass:101 ZI Pax6 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:104 TU-ARH Otp Six6 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:107 DMH Hmx2 Gaba	2	1	1	0	0.5
+cKO_1165	Reference_subclass:109 LGv-ZI Otx2 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:115 MS-SF Bsx Glut	2	1	1	1	0.5
+cKO_1165	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	3	1	2	0	0.6666666666666666
+cKO_1165	Reference_subclass:135 STN-PSTN Pitx2 Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:138 PH Pitx2 Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:150 CM-IAD-CL-PCN Sema5b Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	2	0	2	0	1.0
+cKO_1165	Reference_subclass:175 SC Bnc2 Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:176 SCig Foxb1 Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:181 IC Tfap2d Maf Glut	3	2	1	0	0.3333333333333333
+cKO_1165	Reference_subclass:196 PAG-PPN Pax5 Sox21 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:198 IC Six3 En2 Gaba	3	0	3	0	1.0
+cKO_1165	Reference_subclass:201 PAG-RN Nkx2-2 Otx1 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:202 PRT Tcf7l2 Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:207 SCs Dmbx1 Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:209 SCs Pax7 Nfia Gaba	2	0	2	0	1.0
+cKO_1165	Reference_subclass:210 PRT Mecom Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:213 SCsg Gabrr2 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:222 PB Evx2 Glut	3	0	3	1	1.0
+cKO_1165	Reference_subclass:238 NTS Phox2b Glut	2	0	2	1	1.0
+cKO_1165	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	3	1	2	0	0.6666666666666666
+cKO_1165	Reference_subclass:268 CS-PRNr-DR En1 Sox2 Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:271 NI-RPO Gata3 Nr4a2 Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:278 NLL Gata3 Gly-Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:293 PAS-MV Ebf2 Gly-Gaba	1	1	0	0	0.0
+cKO_1165	Reference_subclass:304 NTS-PARN Neurod2 Gly-Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:309 CB PLI Gly-Gaba	1	0	1	0	1.0
+cKO_1165	Reference_subclass:315 DCO UBC Glut	1	0	1	0	1.0
+cKO_1165	Reference_subclass:318 Astro-NT NN	12	11	1	0	0.08333333333333333
+cKO_1165	Reference_subclass:319 Astro-TE NN	887	863	24	0	0.02705749718151071
+cKO_1165	Reference_subclass:320 Astro-OLF NN	7	2	5	1	0.7142857142857143
+cKO_1165	Reference_subclass:322 Tanycyte NN	3	2	1	0	0.3333333333333333
+cKO_1165	Reference_subclass:323 Ependymal NN	19	19	0	0	0.0
+cKO_1165	Reference_subclass:325 CHOR NN	76	76	0	0	0.0
+cKO_1165	Reference_subclass:326 OPC NN	360	354	6	0	0.016666666666666666
+cKO_1165	Reference_subclass:327 Oligo NN	952	927	25	0	0.026260504201680673
+cKO_1165	Reference_subclass:329 ABC NN	9	7	2	0	0.2222222222222222
+cKO_1165	Reference_subclass:330 VLMC NN	41	37	4	0	0.0975609756097561
+cKO_1165	Reference_subclass:331 Peri NN	48	43	5	0	0.10416666666666667
+cKO_1165	Reference_subclass:332 SMC NN	4	3	1	0	0.25
+cKO_1165	Reference_subclass:333 Endo NN	110	104	6	0	0.05454545454545454
+cKO_1165	Reference_subclass:334 Microglia NN	449	442	7	3	0.015590200445434299
+cKO_1165	Reference_subclass:335 BAM NN	5	5	0	0	0.0
+cKO_1165	Reference_subclass:336 Monocytes NN	2	2	0	0	0.0
+cKO_1165	Reference_subclass:338 Lymphoid NN	10	4	6	0	0.6
+cKO_933	ALL	8896	8625	271	72	0.03046312949640288
+cKO_933	ReferenceHighSupport_CA1_ProS	1170	1170	0	0	0.0
+cKO_933	ReferenceHighSupport_EX	5299	5295	4	1	0.0007548594074353652
+cKO_933	ReferenceHighSupport_IN	629	628	1	0	0.001589825119236884
+cKO_933	Reference_broad:Astrocyte	752	724	28	8	0.03723404255319149
+cKO_933	Reference_broad:Ependymal	27	26	1	0	0.037037037037037035
+cKO_933	Reference_broad:Excitatory	5572	5406	166	41	0.029791816223977027
+cKO_933	Reference_broad:Inhibitory	690	656	34	14	0.04927536231884058
+cKO_933	Reference_broad:Microglia	370	361	9	3	0.024324324324324326
+cKO_933	Reference_broad:OPC	308	308	0	0	0.0
+cKO_933	Reference_broad:Oligodendrocyte	979	967	12	2	0.012257405515832482
+cKO_933	Reference_broad:Other_immune	18	16	2	2	0.1111111111111111
+cKO_933	Reference_broad:Other_reference	17	17	0	0	0.0
+cKO_933	Reference_broad:Vascular	163	144	19	2	0.1165644171779141
+cKO_933	Reference_subclass:003 L5/6 IT TPE-ENT Glut	2	2	0	0	0.0
+cKO_933	Reference_subclass:004 L6 IT CTX Glut	3	1	2	0	0.6666666666666666
+cKO_933	Reference_subclass:005 L5 IT CTX Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:007 L2/3 IT CTX Glut	12	10	2	1	0.16666666666666666
+cKO_933	Reference_subclass:008 L2/3 IT ENT Glut	60	60	0	0	0.0
+cKO_933	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	6	2	4	1	0.6666666666666666
+cKO_933	Reference_subclass:010 IT AON-TT-DP Glut	10	7	3	3	0.3
+cKO_933	Reference_subclass:011 L2 IT ENT-po Glut	19	19	0	0	0.0
+cKO_933	Reference_subclass:012 MEA Slc17a7 Glut	97	84	13	3	0.13402061855670103
+cKO_933	Reference_subclass:013 COAp Grxcr2 Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:014 LA-BLA-BMA-PA Glut	16	12	4	1	0.25
+cKO_933	Reference_subclass:015 ENTmv-PA-COAp Glut	26	25	1	0	0.038461538461538464
+cKO_933	Reference_subclass:016 CA1-ProS Glut	1263	1219	44	12	0.03483768804433888
+cKO_933	Reference_subclass:017 CA3 Glut	654	636	18	1	0.027522935779816515
+cKO_933	Reference_subclass:018 L2 IT PPP-APr Glut	36	34	2	1	0.05555555555555555
+cKO_933	Reference_subclass:019 L2/3 IT PPP Glut	343	340	3	1	0.008746355685131196
+cKO_933	Reference_subclass:020 L2/3 IT RSP Glut	7	5	2	0	0.2857142857142857
+cKO_933	Reference_subclass:021 L4 RSP-ACA Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:022 L5 ET CTX Glut	8	7	1	1	0.125
+cKO_933	Reference_subclass:023 SUB-ProS Glut	332	328	4	2	0.012048192771084338
+cKO_933	Reference_subclass:025 CA2-FC-IG Glut	89	83	6	1	0.06741573033707865
+cKO_933	Reference_subclass:028 L6b/CT ENT Glut	63	62	1	1	0.015873015873015872
+cKO_933	Reference_subclass:030 L6 CT CTX Glut	8	4	4	1	0.5
+cKO_933	Reference_subclass:031 CT SUB Glut	103	101	2	1	0.019417475728155338
+cKO_933	Reference_subclass:032 L5 NP CTX Glut	2	2	0	0	0.0
+cKO_933	Reference_subclass:033 NP SUB Glut	164	163	1	0	0.006097560975609756
+cKO_933	Reference_subclass:034 NP PPP Glut	3	3	0	0	0.0
+cKO_933	Reference_subclass:035 OB Eomes Ms4a15 Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:036 HPF CR Glut	75	73	2	0	0.02666666666666667
+cKO_933	Reference_subclass:037 DG Glut	2064	2026	38	9	0.018410852713178296
+cKO_933	Reference_subclass:038 DG-PIR Ex IMN	87	85	2	1	0.022988505747126436
+cKO_933	Reference_subclass:041 OB-in Frmd7 Gaba	5	0	5	1	1.0
+cKO_933	Reference_subclass:042 OB-out Frmd7 Gaba	4	1	3	2	0.75
+cKO_933	Reference_subclass:045 OB-STR-CTX Inh IMN	4	4	0	0	0.0
+cKO_933	Reference_subclass:046 Vip Gaba	59	59	0	0	0.0
+cKO_933	Reference_subclass:047 Sncg Gaba	29	28	1	0	0.034482758620689655
+cKO_933	Reference_subclass:048 RHP-COA Ndnf Gaba	63	59	4	1	0.06349206349206349
+cKO_933	Reference_subclass:049 Lamp5 Gaba	29	28	1	0	0.034482758620689655
+cKO_933	Reference_subclass:050 Lamp5 Lhx6 Gaba	95	95	0	0	0.0
+cKO_933	Reference_subclass:051 Pvalb chandelier Gaba	20	20	0	0	0.0
+cKO_933	Reference_subclass:052 Pvalb Gaba	127	127	0	0	0.0
+cKO_933	Reference_subclass:053 Sst Gaba	169	165	4	0	0.023668639053254437
+cKO_933	Reference_subclass:054 STR Prox1 Lhx6 Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:056 Sst Chodl Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:063 STR D1 Sema5a Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:068 LSX Otx2 Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:069 LSX Nkx2-1 Gaba	11	9	2	1	0.18181818181818182
+cKO_933	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:071 LSX Prdm12 Zeb2 Gaba	18	18	0	0	0.0
+cKO_933	Reference_subclass:072 LSX Sall3 Lmo1 Gaba	16	16	0	0	0.0
+cKO_933	Reference_subclass:074 MEA-BST Lhx6 Sp9 Gaba	3	3	0	0	0.0
+cKO_933	Reference_subclass:076 MEA-BST Lhx6 Nfib Gaba	13	13	0	0	0.0
+cKO_933	Reference_subclass:079 CEA-BST Six3 Cyp26b1 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:081 ACB-BST-FS D1 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:089 PVR Six3 Sox3 Gaba	2	2	0	0	0.0
+cKO_933	Reference_subclass:103 PVHd-DMH Lhx6 Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:111 TRS-BAC Sln Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:116 AVPV-MEPO-SFO Tbr1 Glut	2	2	0	0	0.0
+cKO_933	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	2	0	2	0	1.0
+cKO_933	Reference_subclass:122 LHA-MEA Otp Glut	2	2	0	0	0.0
+cKO_933	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:169 PAG-SC Pou4f1 Zic1 Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:176 SCig Foxb1 Glut	1	0	1	0	1.0
+cKO_933	Reference_subclass:181 IC Tfap2d Maf Glut	1	1	0	0	0.0
+cKO_933	Reference_subclass:200 PAG-ND-PCG Onecut1 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	1	1	0	0	0.0
+cKO_933	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	0	1	0	1.0
+cKO_933	Reference_subclass:206 SCm-PAG Cdh23 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:213 SCsg Gabrr2 Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:217 PB Lmx1a Glut	1	0	1	0	1.0
+cKO_933	Reference_subclass:222 PB Evx2 Glut	1	0	1	0	1.0
+cKO_933	Reference_subclass:245 SPVI-SPVC Tlx3 Ebf3 Glut	1	0	1	0	1.0
+cKO_933	Reference_subclass:263 CS-RPO Meis2 Gaba	1	0	1	0	1.0
+cKO_933	Reference_subclass:264 PRNc Otp Gly-Gaba	1	0	1	0	1.0
+cKO_933	Reference_subclass:277 DTN-LDT-IPN Otp Pax3 Gaba	2	0	2	1	1.0
+cKO_933	Reference_subclass:278 NLL Gata3 Gly-Gaba	3	2	1	0	0.3333333333333333
+cKO_933	Reference_subclass:300 PARN-MDRNd-NTS Gbx2 Gly-Gaba	1	0	1	1	1.0
+cKO_933	Reference_subclass:314 CB Granule Glut	1	0	1	0	1.0
+cKO_933	Reference_subclass:318 Astro-NT NN	22	17	5	0	0.22727272727272727
+cKO_933	Reference_subclass:319 Astro-TE NN	725	702	23	8	0.031724137931034485
+cKO_933	Reference_subclass:320 Astro-OLF NN	1	1	0	0	0.0
+cKO_933	Reference_subclass:321 Astroependymal NN	4	4	0	0	0.0
+cKO_933	Reference_subclass:322 Tanycyte NN	7	7	0	0	0.0
+cKO_933	Reference_subclass:323 Ependymal NN	20	19	1	0	0.05
+cKO_933	Reference_subclass:325 CHOR NN	17	17	0	0	0.0
+cKO_933	Reference_subclass:326 OPC NN	308	308	0	0	0.0
+cKO_933	Reference_subclass:327 Oligo NN	979	967	12	2	0.012257405515832482
+cKO_933	Reference_subclass:329 ABC NN	9	9	0	0	0.0
+cKO_933	Reference_subclass:330 VLMC NN	43	39	4	0	0.09302325581395349
+cKO_933	Reference_subclass:331 Peri NN	37	35	2	0	0.05405405405405406
+cKO_933	Reference_subclass:332 SMC NN	5	4	1	0	0.2
+cKO_933	Reference_subclass:333 Endo NN	69	57	12	2	0.17391304347826086
+cKO_933	Reference_subclass:334 Microglia NN	370	361	9	3	0.024324324324324326
+cKO_933	Reference_subclass:335 BAM NN	10	10	0	0	0.0
+cKO_933	Reference_subclass:337 DC NN	4	4	0	0	0.0
+cKO_933	Reference_subclass:338 Lymphoid NN	4	2	2	2	0.5
+cKO_991	ALL	8470	7950	520	88	0.06139315230224321
+cKO_991	ReferenceHighSupport_CA1_ProS	2131	2120	11	0	0.005161895823557016
+cKO_991	ReferenceHighSupport_EX	4882	4842	40	0	0.00819336337566571
+cKO_991	ReferenceHighSupport_IN	718	715	3	0	0.004178272980501393
+cKO_991	Reference_broad:Astrocyte	883	843	40	11	0.045300113250283124
+cKO_991	Reference_broad:Ependymal	3	3	0	0	0.0
+cKO_991	Reference_broad:Excitatory	5211	4945	266	33	0.05104586451736711
+cKO_991	Reference_broad:Inhibitory	822	725	97	28	0.11800486618004866
+cKO_991	Reference_broad:Microglia	345	304	41	3	0.11884057971014493
+cKO_991	Reference_broad:OPC	274	267	7	0	0.025547445255474453
+cKO_991	Reference_broad:Oligodendrocyte	782	744	38	2	0.04859335038363171
+cKO_991	Reference_broad:Other_immune	14	6	8	3	0.5714285714285714
+cKO_991	Reference_broad:Vascular	136	113	23	8	0.16911764705882354
+cKO_991	Reference_subclass:002 IT EP-CLA Glut	2	2	0	0	0.0
+cKO_991	Reference_subclass:003 L5/6 IT TPE-ENT Glut	3	3	0	0	0.0
+cKO_991	Reference_subclass:004 L6 IT CTX Glut	3	1	2	1	0.6666666666666666
+cKO_991	Reference_subclass:006 L4/5 IT CTX Glut	2	2	0	0	0.0
+cKO_991	Reference_subclass:007 L2/3 IT CTX Glut	12	9	3	0	0.25
+cKO_991	Reference_subclass:008 L2/3 IT ENT Glut	133	132	1	0	0.007518796992481203
+cKO_991	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	9	2	7	2	0.7777777777777778
+cKO_991	Reference_subclass:010 IT AON-TT-DP Glut	13	6	7	1	0.5384615384615384
+cKO_991	Reference_subclass:011 L2 IT ENT-po Glut	92	90	2	1	0.021739130434782608
+cKO_991	Reference_subclass:012 MEA Slc17a7 Glut	14	4	10	3	0.7142857142857143
+cKO_991	Reference_subclass:014 LA-BLA-BMA-PA Glut	16	2	14	2	0.875
+cKO_991	Reference_subclass:015 ENTmv-PA-COAp Glut	97	92	5	1	0.05154639175257732
+cKO_991	Reference_subclass:016 CA1-ProS Glut	2306	2195	111	10	0.04813529921942758
+cKO_991	Reference_subclass:017 CA3 Glut	90	81	9	0	0.1
+cKO_991	Reference_subclass:018 L2 IT PPP-APr Glut	40	37	3	0	0.075
+cKO_991	Reference_subclass:019 L2/3 IT PPP Glut	678	672	6	0	0.008849557522123894
+cKO_991	Reference_subclass:020 L2/3 IT RSP Glut	10	8	2	0	0.2
+cKO_991	Reference_subclass:022 L5 ET CTX Glut	10	3	7	2	0.7
+cKO_991	Reference_subclass:023 SUB-ProS Glut	636	618	18	1	0.02830188679245283
+cKO_991	Reference_subclass:024 L5 PPP Glut	1	0	1	1	1.0
+cKO_991	Reference_subclass:025 CA2-FC-IG Glut	90	86	4	0	0.044444444444444446
+cKO_991	Reference_subclass:028 L6b/CT ENT Glut	174	170	4	1	0.022988505747126436
+cKO_991	Reference_subclass:029 L6b CTX Glut	2	2	0	0	0.0
+cKO_991	Reference_subclass:030 L6 CT CTX Glut	11	7	4	0	0.36363636363636365
+cKO_991	Reference_subclass:031 CT SUB Glut	224	223	1	0	0.004464285714285714
+cKO_991	Reference_subclass:032 L5 NP CTX Glut	8	2	6	1	0.75
+cKO_991	Reference_subclass:033 NP SUB Glut	269	262	7	1	0.026022304832713755
+cKO_991	Reference_subclass:034 NP PPP Glut	2	1	1	0	0.5
+cKO_991	Reference_subclass:036 HPF CR Glut	30	28	2	0	0.06666666666666667
+cKO_991	Reference_subclass:037 DG Glut	211	196	15	2	0.07109004739336493
+cKO_991	Reference_subclass:038 DG-PIR Ex IMN	8	7	1	0	0.125
+cKO_991	Reference_subclass:039 OB Meis2 Thsd7b Gaba	7	2	5	1	0.7142857142857143
+cKO_991	Reference_subclass:040 OB Trdn Gaba	3	0	3	2	1.0
+cKO_991	Reference_subclass:041 OB-in Frmd7 Gaba	8	0	8	4	1.0
+cKO_991	Reference_subclass:042 OB-out Frmd7 Gaba	3	0	3	0	1.0
+cKO_991	Reference_subclass:044 OB Dopa-Gaba	1	0	1	1	1.0
+cKO_991	Reference_subclass:045 OB-STR-CTX Inh IMN	18	5	13	4	0.7222222222222222
+cKO_991	Reference_subclass:046 Vip Gaba	85	81	4	1	0.047058823529411764
+cKO_991	Reference_subclass:047 Sncg Gaba	51	48	3	1	0.058823529411764705
+cKO_991	Reference_subclass:048 RHP-COA Ndnf Gaba	58	55	3	0	0.05172413793103448
+cKO_991	Reference_subclass:049 Lamp5 Gaba	46	44	2	1	0.043478260869565216
+cKO_991	Reference_subclass:050 Lamp5 Lhx6 Gaba	38	37	1	0	0.02631578947368421
+cKO_991	Reference_subclass:051 Pvalb chandelier Gaba	27	27	0	0	0.0
+cKO_991	Reference_subclass:052 Pvalb Gaba	217	214	3	0	0.013824884792626729
+cKO_991	Reference_subclass:053 Sst Gaba	220	208	12	0	0.05454545454545454
+cKO_991	Reference_subclass:056 Sst Chodl Gaba	3	2	1	0	0.3333333333333333
+cKO_991	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	2	0	2	0	1.0
+cKO_991	Reference_subclass:062 STR D2 Gaba	3	0	3	1	1.0
+cKO_991	Reference_subclass:063 STR D1 Sema5a Gaba	1	0	1	1	1.0
+cKO_991	Reference_subclass:064 STR-PAL Chst9 Gaba	4	0	4	2	1.0
+cKO_991	Reference_subclass:065 IA Mgp Gaba	3	0	3	1	1.0
+cKO_991	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	1	0	1	1	1.0
+cKO_991	Reference_subclass:073 MEA-BST Sox6 Gaba	2	0	2	1	1.0
+cKO_991	Reference_subclass:098 AHN-SBPV-PVHd Pdrm12 Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:101 ZI Pax6 Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:104 TU-ARH Otp Six6 Gaba	1	0	1	1	1.0
+cKO_991	Reference_subclass:111 TRS-BAC Sln Glut	1	0	1	1	1.0
+cKO_991	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	1	0	1	0	1.0
+cKO_991	Reference_subclass:115 MS-SF Bsx Glut	1	0	1	0	1.0
+cKO_991	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	2	0	2	0	1.0
+cKO_991	Reference_subclass:125 DMH Hmx2 Glut	1	0	1	1	1.0
+cKO_991	Reference_subclass:149 PVT-PT Ntrk1 Glut	1	0	1	0	1.0
+cKO_991	Reference_subclass:164 APN C1ql4 Glut	1	1	0	0	0.0
+cKO_991	Reference_subclass:174 PAG Pou4f2 Mesi2 Glut	2	1	1	0	0.5
+cKO_991	Reference_subclass:176 SCig Foxb1 Glut	1	0	1	0	1.0
+cKO_991	Reference_subclass:181 IC Tfap2d Maf Glut	1	0	1	0	1.0
+cKO_991	Reference_subclass:198 IC Six3 En2 Gaba	2	0	2	0	1.0
+cKO_991	Reference_subclass:200 PAG-ND-PCG Onecut1 Gaba	1	1	0	0	0.0
+cKO_991	Reference_subclass:201 PAG-RN Nkx2-2 Otx1 Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	3	0	3	2	1.0
+cKO_991	Reference_subclass:204 SC Otx2 Gcnt4 Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:210 PRT Mecom Gaba	2	1	1	0	0.5
+cKO_991	Reference_subclass:238 NTS Phox2b Glut	1	0	1	0	1.0
+cKO_991	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	2	0	2	1	1.0
+cKO_991	Reference_subclass:268 CS-PRNr-DR En1 Sox2 Gaba	1	0	1	1	1.0
+cKO_991	Reference_subclass:271 NI-RPO Gata3 Nr4a2 Gaba	1	0	1	1	1.0
+cKO_991	Reference_subclass:285 MY Lhx1 Gly-Gaba	3	0	3	1	1.0
+cKO_991	Reference_subclass:287 MV-SPIV-PRP Dmbx1 Gly-Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:308 DCO Il22 Gly-Gaba	1	0	1	0	1.0
+cKO_991	Reference_subclass:318 Astro-NT NN	10	8	2	0	0.2
+cKO_991	Reference_subclass:319 Astro-TE NN	865	835	30	9	0.03468208092485549
+cKO_991	Reference_subclass:320 Astro-OLF NN	8	0	8	2	1.0
+cKO_991	Reference_subclass:323 Ependymal NN	3	3	0	0	0.0
+cKO_991	Reference_subclass:326 OPC NN	274	267	7	0	0.025547445255474453
+cKO_991	Reference_subclass:327 Oligo NN	782	744	38	2	0.04859335038363171
+cKO_991	Reference_subclass:329 ABC NN	10	8	2	1	0.2
+cKO_991	Reference_subclass:330 VLMC NN	21	18	3	2	0.14285714285714285
+cKO_991	Reference_subclass:331 Peri NN	44	40	4	1	0.09090909090909091
+cKO_991	Reference_subclass:332 SMC NN	3	2	1	1	0.3333333333333333
+cKO_991	Reference_subclass:333 Endo NN	58	45	13	3	0.22413793103448276
+cKO_991	Reference_subclass:334 Microglia NN	345	304	41	3	0.11884057971014493
+cKO_991	Reference_subclass:335 BAM NN	6	2	4	1	0.6666666666666666
+cKO_991	Reference_subclass:336 Monocytes NN	2	2	0	0	0.0
+cKO_991	Reference_subclass:337 DC NN	1	1	0	0	0.0
+cKO_991	Reference_subclass:338 Lymphoid NN	5	1	4	2	0.8
+wt_1122	ALL	8546	8184	362	168	0.04235899836180669
+wt_1122	ReferenceHighSupport_CA1_ProS	2098	2098	0	0	0.0
+wt_1122	ReferenceHighSupport_EX	4084	4078	6	1	0.0014691478942213516
+wt_1122	ReferenceHighSupport_IN	588	587	1	0	0.0017006802721088435
+wt_1122	Reference_broad:Astrocyte	714	682	32	13	0.04481792717086835
+wt_1122	Reference_broad:Ependymal	16	16	0	0	0.0
+wt_1122	Reference_broad:Excitatory	5113	4915	198	90	0.03872481908859769
+wt_1122	Reference_broad:Inhibitory	879	818	61	30	0.06939704209328783
+wt_1122	Reference_broad:Microglia	408	388	20	10	0.049019607843137254
+wt_1122	Reference_broad:OPC	240	239	1	0	0.004166666666666667
+wt_1122	Reference_broad:Oligodendrocyte	974	955	19	12	0.019507186858316223
+wt_1122	Reference_broad:Other_immune	24	18	6	5	0.25
+wt_1122	Reference_broad:Other_reference	1	0	1	0	1.0
+wt_1122	Reference_broad:Vascular	177	153	24	8	0.13559322033898305
+wt_1122	Reference_subclass:003 L5/6 IT TPE-ENT Glut	4	4	0	0	0.0
+wt_1122	Reference_subclass:004 L6 IT CTX Glut	6	2	4	3	0.6666666666666666
+wt_1122	Reference_subclass:005 L5 IT CTX Glut	3	3	0	0	0.0
+wt_1122	Reference_subclass:006 L4/5 IT CTX Glut	4	3	1	1	0.25
+wt_1122	Reference_subclass:007 L2/3 IT CTX Glut	12	9	3	1	0.25
+wt_1122	Reference_subclass:008 L2/3 IT ENT Glut	42	42	0	0	0.0
+wt_1122	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	16	11	5	1	0.3125
+wt_1122	Reference_subclass:010 IT AON-TT-DP Glut	24	19	5	2	0.20833333333333334
+wt_1122	Reference_subclass:011 L2 IT ENT-po Glut	30	30	0	0	0.0
+wt_1122	Reference_subclass:012 MEA Slc17a7 Glut	43	36	7	1	0.16279069767441862
+wt_1122	Reference_subclass:014 LA-BLA-BMA-PA Glut	38	29	9	6	0.23684210526315788
+wt_1122	Reference_subclass:015 ENTmv-PA-COAp Glut	56	56	0	0	0.0
+wt_1122	Reference_subclass:016 CA1-ProS Glut	2574	2499	75	32	0.029137529137529136
+wt_1122	Reference_subclass:017 CA3 Glut	122	115	7	4	0.05737704918032787
+wt_1122	Reference_subclass:018 L2 IT PPP-APr Glut	60	56	4	2	0.06666666666666667
+wt_1122	Reference_subclass:019 L2/3 IT PPP Glut	398	393	5	3	0.01256281407035176
+wt_1122	Reference_subclass:020 L2/3 IT RSP Glut	8	6	2	2	0.25
+wt_1122	Reference_subclass:022 L5 ET CTX Glut	34	28	6	3	0.17647058823529413
+wt_1122	Reference_subclass:023 SUB-ProS Glut	708	696	12	4	0.01694915254237288
+wt_1122	Reference_subclass:024 L5 PPP Glut	7	7	0	0	0.0
+wt_1122	Reference_subclass:025 CA2-FC-IG Glut	90	88	2	2	0.022222222222222223
+wt_1122	Reference_subclass:028 L6b/CT ENT Glut	105	104	1	0	0.009523809523809525
+wt_1122	Reference_subclass:029 L6b CTX Glut	5	4	1	1	0.2
+wt_1122	Reference_subclass:030 L6 CT CTX Glut	25	22	3	2	0.12
+wt_1122	Reference_subclass:031 CT SUB Glut	133	130	3	0	0.022556390977443608
+wt_1122	Reference_subclass:032 L5 NP CTX Glut	24	18	6	2	0.25
+wt_1122	Reference_subclass:033 NP SUB Glut	289	284	5	2	0.01730103806228374
+wt_1122	Reference_subclass:034 NP PPP Glut	12	11	1	0	0.08333333333333333
+wt_1122	Reference_subclass:035 OB Eomes Ms4a15 Glut	2	1	1	0	0.5
+wt_1122	Reference_subclass:036 HPF CR Glut	17	17	0	0	0.0
+wt_1122	Reference_subclass:037 DG Glut	111	105	6	0	0.05405405405405406
+wt_1122	Reference_subclass:038 DG-PIR Ex IMN	13	10	3	2	0.23076923076923078
+wt_1122	Reference_subclass:039 OB Meis2 Thsd7b Gaba	8	7	1	0	0.125
+wt_1122	Reference_subclass:041 OB-in Frmd7 Gaba	33	23	10	6	0.30303030303030304
+wt_1122	Reference_subclass:042 OB-out Frmd7 Gaba	7	6	1	1	0.14285714285714285
+wt_1122	Reference_subclass:044 OB Dopa-Gaba	5	3	2	1	0.4
+wt_1122	Reference_subclass:045 OB-STR-CTX Inh IMN	28	19	9	3	0.32142857142857145
+wt_1122	Reference_subclass:046 Vip Gaba	81	79	2	1	0.024691358024691357
+wt_1122	Reference_subclass:047 Sncg Gaba	43	42	1	1	0.023255813953488372
+wt_1122	Reference_subclass:048 RHP-COA Ndnf Gaba	43	42	1	0	0.023255813953488372
+wt_1122	Reference_subclass:049 Lamp5 Gaba	27	27	0	0	0.0
+wt_1122	Reference_subclass:050 Lamp5 Lhx6 Gaba	42	42	0	0	0.0
+wt_1122	Reference_subclass:051 Pvalb chandelier Gaba	21	21	0	0	0.0
+wt_1122	Reference_subclass:052 Pvalb Gaba	180	180	0	0	0.0
+wt_1122	Reference_subclass:053 Sst Gaba	209	205	4	0	0.019138755980861243
+wt_1122	Reference_subclass:054 STR Prox1 Lhx6 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:056 Sst Chodl Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	3	2	1	0	0.3333333333333333
+wt_1122	Reference_subclass:061 STR D1 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:062 STR D2 Gaba	2	1	1	0	0.5
+wt_1122	Reference_subclass:064 STR-PAL Chst9 Gaba	3	1	2	2	0.6666666666666666
+wt_1122	Reference_subclass:065 IA Mgp Gaba	2	1	1	0	0.5
+wt_1122	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	3	3	0	0	0.0
+wt_1122	Reference_subclass:069 LSX Nkx2-1 Gaba	7	3	4	2	0.5714285714285714
+wt_1122	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	2	1	1	0	0.5
+wt_1122	Reference_subclass:071 LSX Prdm12 Zeb2 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:073 MEA-BST Sox6 Gaba	10	8	2	2	0.2
+wt_1122	Reference_subclass:074 MEA-BST Lhx6 Sp9 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:075 MEA-BST Lhx6 Nr2e1 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:079 CEA-BST Six3 Cyp26b1 Gaba	2	1	1	0	0.5
+wt_1122	Reference_subclass:080 CEA-AAA-BST Six3 Sp9 Gaba	4	3	1	0	0.25
+wt_1122	Reference_subclass:082 CEA-BST Ebf1 Pdyn Gaba	1	0	1	1	1.0
+wt_1122	Reference_subclass:089 PVR Six3 Sox3 Gaba	3	2	1	0	0.3333333333333333
+wt_1122	Reference_subclass:090 BST-MPN Six3 Nrgn Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:093 RT-ZI Gnb3 Gaba	1	0	1	0	1.0
+wt_1122	Reference_subclass:095 DMH Prdm13 Gaba	7	7	0	0	0.0
+wt_1122	Reference_subclass:097 PVHd-SBPV Six3 Prox1 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:098 AHN-SBPV-PVHd Pdrm12 Gaba	4	3	1	0	0.25
+wt_1122	Reference_subclass:099 SBPV-PVa Six6 Satb2 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:101 ZI Pax6 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:102 DMH-LHA Gsx1 Gaba	10	10	0	0	0.0
+wt_1122	Reference_subclass:103 PVHd-DMH Lhx6 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:104 TU-ARH Otp Six6 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:106 PVpo-VMPO-MPN Hmx2 Gaba	2	0	2	1	1.0
+wt_1122	Reference_subclass:107 DMH Hmx2 Gaba	12	12	0	0	0.0
+wt_1122	Reference_subclass:109 LGv-ZI Otx2 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	8	6	2	1	0.25
+wt_1122	Reference_subclass:118 ADP-MPO Trp73 Glut	2	2	0	0	0.0
+wt_1122	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	8	6	2	1	0.25
+wt_1122	Reference_subclass:120 MEA Otp Foxp2 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:123 DMH Nkx2-4 Glut	9	9	0	0	0.0
+wt_1122	Reference_subclass:127 DMH-LHA Vgll2 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:129 VMH Nr5a1 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:131 LHA-AHN-PVH Otp Trh Glut	2	2	0	0	0.0
+wt_1122	Reference_subclass:134 PH-ant-LHA Otp Bsx Glut	19	19	0	0	0.0
+wt_1122	Reference_subclass:137 PH-an Pitx2 Glut	3	3	0	0	0.0
+wt_1122	Reference_subclass:138 PH Pitx2 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:139 PH-LHA Foxb1 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:141 PH-SUM Foxa1 Glut	3	3	0	0	0.0
+wt_1122	Reference_subclass:163 APN C1ql2 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:167 PRC-PAG Tcf7l2 Irx2 Glut	2	1	1	0	0.5
+wt_1122	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	4	1	3	3	0.75
+wt_1122	Reference_subclass:172 PAG Pou4f1 Ebf2 Glut	1	0	1	0	1.0
+wt_1122	Reference_subclass:174 PAG Pou4f2 Mesi2 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:176 SCig Foxb1 Glut	2	1	1	1	0.5
+wt_1122	Reference_subclass:177 SCig-an-PPT Foxb1 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:181 IC Tfap2d Maf Glut	7	5	2	1	0.2857142857142857
+wt_1122	Reference_subclass:185 SCig Tfap2b Chrnb3 Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:196 PAG-PPN Pax5 Sox21 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:198 IC Six3 En2 Gaba	8	4	4	3	0.5
+wt_1122	Reference_subclass:199 PAG-MRN-RN Foxa2 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:200 PAG-ND-PCG Onecut1 Gaba	3	3	0	0	0.0
+wt_1122	Reference_subclass:201 PAG-RN Nkx2-2 Otx1 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:202 PRT Tcf7l2 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	4	3	1	1	0.25
+wt_1122	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	4	3	1	1	0.25
+wt_1122	Reference_subclass:206 SCm-PAG Cdh23 Gaba	3	3	0	0	0.0
+wt_1122	Reference_subclass:209 SCs Pax7 Nfia Gaba	4	2	2	2	0.5
+wt_1122	Reference_subclass:210 PRT Mecom Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:211 SC Tnnt1 Gli3 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:212 SCs Lef1 Gli3 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:213 SCsg Gabrr2 Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:221 LDT-PCG Vsx2 Lhx4 Glut	3	2	1	0	0.3333333333333333
+wt_1122	Reference_subclass:224 PCG-PRNr Vsx2 Nkx6-1 Glut	1	0	1	1	1.0
+wt_1122	Reference_subclass:238 NTS Phox2b Glut	3	2	1	0	0.3333333333333333
+wt_1122	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	8	5	3	3	0.375
+wt_1122	Reference_subclass:245 SPVI-SPVC Tlx3 Ebf3 Glut	1	0	1	1	1.0
+wt_1122	Reference_subclass:247 MV-SPIV Phox2b Ebf3 Lbx1 Glut	1	0	1	1	1.0
+wt_1122	Reference_subclass:262 Pineal Crx Glut	1	1	0	0	0.0
+wt_1122	Reference_subclass:264 PRNc Otp Gly-Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:267 CS-PRNr-PCG Tmem163 Otp Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:271 NI-RPO Gata3 Nr4a2 Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:278 NLL Gata3 Gly-Gaba	5	4	1	1	0.2
+wt_1122	Reference_subclass:279 PSV Pax2 Gly-Gaba	1	0	1	1	1.0
+wt_1122	Reference_subclass:285 MY Lhx1 Gly-Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:293 PAS-MV Ebf2 Gly-Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:294 MV Pax6 Gly-Gaba	1	1	0	0	0.0
+wt_1122	Reference_subclass:309 CB PLI Gly-Gaba	2	2	0	0	0.0
+wt_1122	Reference_subclass:314 CB Granule Glut	1	0	1	1	1.0
+wt_1122	Reference_subclass:318 Astro-NT NN	37	35	2	2	0.05405405405405406
+wt_1122	Reference_subclass:319 Astro-TE NN	668	642	26	9	0.038922155688622756
+wt_1122	Reference_subclass:320 Astro-OLF NN	8	4	4	2	0.5
+wt_1122	Reference_subclass:321 Astroependymal NN	1	1	0	0	0.0
+wt_1122	Reference_subclass:323 Ependymal NN	16	16	0	0	0.0
+wt_1122	Reference_subclass:326 OPC NN	240	239	1	0	0.004166666666666667
+wt_1122	Reference_subclass:327 Oligo NN	974	955	19	12	0.019507186858316223
+wt_1122	Reference_subclass:328 OEC NN	1	0	1	0	1.0
+wt_1122	Reference_subclass:329 ABC NN	9	8	1	0	0.1111111111111111
+wt_1122	Reference_subclass:330 VLMC NN	24	20	4	2	0.16666666666666666
+wt_1122	Reference_subclass:331 Peri NN	39	35	4	0	0.10256410256410256
+wt_1122	Reference_subclass:332 SMC NN	5	4	1	1	0.2
+wt_1122	Reference_subclass:333 Endo NN	100	86	14	5	0.14
+wt_1122	Reference_subclass:334 Microglia NN	408	388	20	10	0.049019607843137254
+wt_1122	Reference_subclass:335 BAM NN	8	8	0	0	0.0
+wt_1122	Reference_subclass:336 Monocytes NN	1	0	1	1	1.0
+wt_1122	Reference_subclass:337 DC NN	1	0	1	0	1.0
+wt_1122	Reference_subclass:338 Lymphoid NN	14	10	4	4	0.2857142857142857
+wt_1123	ALL	9201	8968	233	0	0.02532333442017172
+wt_1123	ReferenceHighSupport_CA1_ProS	2394	2393	1	0	0.0004177109440267335
+wt_1123	ReferenceHighSupport_EX	5108	5106	2	0	0.00039154267815191856
+wt_1123	ReferenceHighSupport_IN	754	754	0	0	0.0
+wt_1123	Reference_broad:Astrocyte	737	716	21	0	0.028493894165535955
+wt_1123	Reference_broad:Ependymal	5	5	0	0	0.0
+wt_1123	Reference_broad:Excitatory	5600	5478	122	0	0.021785714285714287
+wt_1123	Reference_broad:Inhibitory	919	853	66	0	0.07181719260065289
+wt_1123	Reference_broad:Microglia	437	434	3	0	0.006864988558352402
+wt_1123	Reference_broad:OPC	312	309	3	0	0.009615384615384616
+wt_1123	Reference_broad:Oligodendrocyte	992	987	5	0	0.005040322580645161
+wt_1123	Reference_broad:Other_immune	14	8	6	0	0.42857142857142855
+wt_1123	Reference_broad:Other_reference	1	1	0	0	0.0
+wt_1123	Reference_broad:Vascular	184	177	7	0	0.03804347826086957
+wt_1123	Reference_subclass:001 CLA-EPd-CTX Car3 Glut	1	0	1	0	1.0
+wt_1123	Reference_subclass:003 L5/6 IT TPE-ENT Glut	13	13	0	0	0.0
+wt_1123	Reference_subclass:004 L6 IT CTX Glut	1	0	1	0	1.0
+wt_1123	Reference_subclass:005 L5 IT CTX Glut	2	1	1	0	0.5
+wt_1123	Reference_subclass:006 L4/5 IT CTX Glut	6	3	3	0	0.5
+wt_1123	Reference_subclass:007 L2/3 IT CTX Glut	4	3	1	0	0.25
+wt_1123	Reference_subclass:008 L2/3 IT ENT Glut	109	108	1	0	0.009174311926605505
+wt_1123	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	8	5	3	0	0.375
+wt_1123	Reference_subclass:010 IT AON-TT-DP Glut	5	3	2	0	0.4
+wt_1123	Reference_subclass:011 L2 IT ENT-po Glut	119	116	3	0	0.025210084033613446
+wt_1123	Reference_subclass:012 MEA Slc17a7 Glut	24	19	5	0	0.20833333333333334
+wt_1123	Reference_subclass:013 COAp Grxcr2 Glut	1	0	1	0	1.0
+wt_1123	Reference_subclass:014 LA-BLA-BMA-PA Glut	12	5	7	0	0.5833333333333334
+wt_1123	Reference_subclass:015 ENTmv-PA-COAp Glut	111	111	0	0	0.0
+wt_1123	Reference_subclass:016 CA1-ProS Glut	2574	2541	33	0	0.01282051282051282
+wt_1123	Reference_subclass:017 CA3 Glut	112	110	2	0	0.017857142857142856
+wt_1123	Reference_subclass:018 L2 IT PPP-APr Glut	99	98	1	0	0.010101010101010102
+wt_1123	Reference_subclass:019 L2/3 IT PPP Glut	720	715	5	0	0.006944444444444444
+wt_1123	Reference_subclass:020 L2/3 IT RSP Glut	5	3	2	0	0.4
+wt_1123	Reference_subclass:021 L4 RSP-ACA Glut	3	2	1	0	0.3333333333333333
+wt_1123	Reference_subclass:022 L5 ET CTX Glut	18	12	6	0	0.3333333333333333
+wt_1123	Reference_subclass:023 SUB-ProS Glut	694	689	5	0	0.007204610951008645
+wt_1123	Reference_subclass:024 L5 PPP Glut	13	13	0	0	0.0
+wt_1123	Reference_subclass:025 CA2-FC-IG Glut	84	82	2	0	0.023809523809523808
+wt_1123	Reference_subclass:028 L6b/CT ENT Glut	192	190	2	0	0.010416666666666666
+wt_1123	Reference_subclass:029 L6b CTX Glut	6	6	0	0	0.0
+wt_1123	Reference_subclass:030 L6 CT CTX Glut	14	10	4	0	0.2857142857142857
+wt_1123	Reference_subclass:031 CT SUB Glut	242	239	3	0	0.012396694214876033
+wt_1123	Reference_subclass:032 L5 NP CTX Glut	6	6	0	0	0.0
+wt_1123	Reference_subclass:033 NP SUB Glut	300	299	1	0	0.0033333333333333335
+wt_1123	Reference_subclass:034 NP PPP Glut	23	22	1	0	0.043478260869565216
+wt_1123	Reference_subclass:035 OB Eomes Ms4a15 Glut	8	4	4	0	0.5
+wt_1123	Reference_subclass:036 HPF CR Glut	19	19	0	0	0.0
+wt_1123	Reference_subclass:037 DG Glut	16	10	6	0	0.375
+wt_1123	Reference_subclass:038 DG-PIR Ex IMN	6	4	2	0	0.3333333333333333
+wt_1123	Reference_subclass:039 OB Meis2 Thsd7b Gaba	10	3	7	0	0.7
+wt_1123	Reference_subclass:041 OB-in Frmd7 Gaba	18	8	10	0	0.5555555555555556
+wt_1123	Reference_subclass:042 OB-out Frmd7 Gaba	3	0	3	0	1.0
+wt_1123	Reference_subclass:045 OB-STR-CTX Inh IMN	16	11	5	0	0.3125
+wt_1123	Reference_subclass:046 Vip Gaba	126	122	4	0	0.031746031746031744
+wt_1123	Reference_subclass:047 Sncg Gaba	48	46	2	0	0.041666666666666664
+wt_1123	Reference_subclass:048 RHP-COA Ndnf Gaba	65	62	3	0	0.046153846153846156
+wt_1123	Reference_subclass:049 Lamp5 Gaba	45	45	0	0	0.0
+wt_1123	Reference_subclass:050 Lamp5 Lhx6 Gaba	38	38	0	0	0.0
+wt_1123	Reference_subclass:051 Pvalb chandelier Gaba	23	22	1	0	0.043478260869565216
+wt_1123	Reference_subclass:052 Pvalb Gaba	229	228	1	0	0.004366812227074236
+wt_1123	Reference_subclass:053 Sst Gaba	245	238	7	0	0.02857142857142857
+wt_1123	Reference_subclass:054 STR Prox1 Lhx6 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:056 Sst Chodl Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:063 STR D1 Sema5a Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:069 LSX Nkx2-1 Gaba	2	1	1	0	0.5
+wt_1123	Reference_subclass:073 MEA-BST Sox6 Gaba	5	3	2	0	0.4
+wt_1123	Reference_subclass:074 MEA-BST Lhx6 Sp9 Gaba	2	0	2	0	1.0
+wt_1123	Reference_subclass:076 MEA-BST Lhx6 Nfib Gaba	2	2	0	0	0.0
+wt_1123	Reference_subclass:079 CEA-BST Six3 Cyp26b1 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:080 CEA-AAA-BST Six3 Sp9 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:100 AHN Onecut3 Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:101 ZI Pax6 Gaba	2	1	1	0	0.5
+wt_1123	Reference_subclass:106 PVpo-VMPO-MPN Hmx2 Gaba	3	1	2	0	0.6666666666666666
+wt_1123	Reference_subclass:107 DMH Hmx2 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	1	1	0	0	0.0
+wt_1123	Reference_subclass:118 ADP-MPO Trp73 Glut	2	1	1	0	0.5
+wt_1123	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	1	0	1	0	1.0
+wt_1123	Reference_subclass:129 VMH Nr5a1 Glut	1	1	0	0	0.0
+wt_1123	Reference_subclass:151 TH Prkcd Grin2c Glut	1	1	0	0	0.0
+wt_1123	Reference_subclass:152 RE-Xi Nox4 Glut	1	1	0	0	0.0
+wt_1123	Reference_subclass:153 MG-POL-SGN Nts Glut	1	1	0	0	0.0
+wt_1123	Reference_subclass:164 APN C1ql4 Glut	1	0	1	0	1.0
+wt_1123	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	3	2	1	0	0.3333333333333333
+wt_1123	Reference_subclass:169 PAG-SC Pou4f1 Zic1 Glut	1	1	0	0	0.0
+wt_1123	Reference_subclass:176 SCig Foxb1 Glut	2	1	1	0	0.5
+wt_1123	Reference_subclass:181 IC Tfap2d Maf Glut	6	4	2	0	0.3333333333333333
+wt_1123	Reference_subclass:196 PAG-PPN Pax5 Sox21 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:199 PAG-MRN-RN Foxa2 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:201 PAG-RN Nkx2-2 Otx1 Gaba	3	1	2	0	0.6666666666666666
+wt_1123	Reference_subclass:202 PRT Tcf7l2 Gaba	4	3	1	0	0.25
+wt_1123	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	3	2	1	0	0.3333333333333333
+wt_1123	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:207 SCs Dmbx1 Gaba	2	1	1	0	0.5
+wt_1123	Reference_subclass:209 SCs Pax7 Nfia Gaba	3	2	1	0	0.3333333333333333
+wt_1123	Reference_subclass:210 PRT Mecom Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:213 SCsg Gabrr2 Gaba	3	2	1	0	0.3333333333333333
+wt_1123	Reference_subclass:215 SNc-VTA-RAmb Foxa1 Dopa	1	1	0	0	0.0
+wt_1123	Reference_subclass:238 NTS Phox2b Glut	3	1	2	0	0.6666666666666666
+wt_1123	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	3	2	1	0	0.3333333333333333
+wt_1123	Reference_subclass:245 SPVI-SPVC Tlx3 Ebf3 Glut	2	0	2	0	1.0
+wt_1123	Reference_subclass:255 SPVO Mafa Meis2 Glut	1	0	1	0	1.0
+wt_1123	Reference_subclass:265 PB Sst Gly-Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:268 CS-PRNr-DR En1 Sox2 Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:270 LDT-DTN Gata3 Nfix Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:277 DTN-LDT-IPN Otp Pax3 Gaba	1	1	0	0	0.0
+wt_1123	Reference_subclass:278 NLL Gata3 Gly-Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:306 SPVI-SPVC Sall3 Lhx1 Gly-Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:309 CB PLI Gly-Gaba	1	0	1	0	1.0
+wt_1123	Reference_subclass:318 Astro-NT NN	22	18	4	0	0.18181818181818182
+wt_1123	Reference_subclass:319 Astro-TE NN	713	698	15	0	0.021037868162692847
+wt_1123	Reference_subclass:320 Astro-OLF NN	2	0	2	0	1.0
+wt_1123	Reference_subclass:322 Tanycyte NN	1	1	0	0	0.0
+wt_1123	Reference_subclass:323 Ependymal NN	4	4	0	0	0.0
+wt_1123	Reference_subclass:326 OPC NN	312	309	3	0	0.009615384615384616
+wt_1123	Reference_subclass:327 Oligo NN	992	987	5	0	0.005040322580645161
+wt_1123	Reference_subclass:329 ABC NN	6	6	0	0	0.0
+wt_1123	Reference_subclass:330 VLMC NN	37	34	3	0	0.08108108108108109
+wt_1123	Reference_subclass:331 Peri NN	64	63	1	0	0.015625
+wt_1123	Reference_subclass:332 SMC NN	5	5	0	0	0.0
+wt_1123	Reference_subclass:333 Endo NN	72	69	3	0	0.041666666666666664
+wt_1123	Reference_subclass:334 Microglia NN	437	434	3	0	0.006864988558352402
+wt_1123	Reference_subclass:335 BAM NN	7	5	2	0	0.2857142857142857
+wt_1123	Reference_subclass:337 DC NN	1	1	0	0	0.0
+wt_1123	Reference_subclass:338 Lymphoid NN	6	2	4	0	0.6666666666666666
+wt_1178	ALL	6660	6407	253	135	0.03798798798798799
+wt_1178	ReferenceHighSupport_CA1_ProS	1787	1784	3	0	0.0016787912702853946
+wt_1178	ReferenceHighSupport_EX	3928	3922	6	0	0.0015274949083503055
+wt_1178	ReferenceHighSupport_IN	542	542	0	0	0.0
+wt_1178	Reference_broad:Astrocyte	498	486	12	9	0.024096385542168676
+wt_1178	Reference_broad:Ependymal	5	3	2	1	0.4
+wt_1178	Reference_broad:Excitatory	4222	4069	153	74	0.03623874940786357
+wt_1178	Reference_broad:Inhibitory	635	588	47	23	0.07401574803149606
+wt_1178	Reference_broad:Microglia	281	271	10	10	0.03558718861209965
+wt_1178	Reference_broad:OPC	212	211	1	0	0.0047169811320754715
+wt_1178	Reference_broad:Oligodendrocyte	674	665	9	6	0.013353115727002967
+wt_1178	Reference_broad:Other_immune	7	1	6	4	0.8571428571428571
+wt_1178	Reference_broad:Vascular	126	113	13	8	0.10317460317460317
+wt_1178	Reference_subclass:002 IT EP-CLA Glut	1	0	1	1	1.0
+wt_1178	Reference_subclass:003 L5/6 IT TPE-ENT Glut	13	13	0	0	0.0
+wt_1178	Reference_subclass:004 L6 IT CTX Glut	4	2	2	1	0.5
+wt_1178	Reference_subclass:005 L5 IT CTX Glut	2	2	0	0	0.0
+wt_1178	Reference_subclass:006 L4/5 IT CTX Glut	1	1	0	0	0.0
+wt_1178	Reference_subclass:007 L2/3 IT CTX Glut	1	0	1	1	1.0
+wt_1178	Reference_subclass:008 L2/3 IT ENT Glut	50	49	1	1	0.02
+wt_1178	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	6	2	4	2	0.6666666666666666
+wt_1178	Reference_subclass:010 IT AON-TT-DP Glut	3	1	2	2	0.6666666666666666
+wt_1178	Reference_subclass:011 L2 IT ENT-po Glut	36	36	0	0	0.0
+wt_1178	Reference_subclass:012 MEA Slc17a7 Glut	7	2	5	4	0.7142857142857143
+wt_1178	Reference_subclass:014 LA-BLA-BMA-PA Glut	7	2	5	3	0.7142857142857143
+wt_1178	Reference_subclass:015 ENTmv-PA-COAp Glut	84	84	0	0	0.0
+wt_1178	Reference_subclass:016 CA1-ProS Glut	1936	1867	69	27	0.035640495867768594
+wt_1178	Reference_subclass:017 CA3 Glut	58	56	2	1	0.034482758620689655
+wt_1178	Reference_subclass:018 L2 IT PPP-APr Glut	110	108	2	1	0.01818181818181818
+wt_1178	Reference_subclass:019 L2/3 IT PPP Glut	572	568	4	2	0.006993006993006993
+wt_1178	Reference_subclass:021 L4 RSP-ACA Glut	1	0	1	1	1.0
+wt_1178	Reference_subclass:022 L5 ET CTX Glut	10	3	7	3	0.7
+wt_1178	Reference_subclass:023 SUB-ProS Glut	582	569	13	5	0.022336769759450172
+wt_1178	Reference_subclass:024 L5 PPP Glut	15	15	0	0	0.0
+wt_1178	Reference_subclass:025 CA2-FC-IG Glut	34	31	3	0	0.08823529411764706
+wt_1178	Reference_subclass:028 L6b/CT ENT Glut	147	145	2	2	0.013605442176870748
+wt_1178	Reference_subclass:029 L6b CTX Glut	9	9	0	0	0.0
+wt_1178	Reference_subclass:030 L6 CT CTX Glut	6	4	2	2	0.3333333333333333
+wt_1178	Reference_subclass:031 CT SUB Glut	184	182	2	1	0.010869565217391304
+wt_1178	Reference_subclass:032 L5 NP CTX Glut	6	3	3	1	0.5
+wt_1178	Reference_subclass:033 NP SUB Glut	242	239	3	1	0.012396694214876033
+wt_1178	Reference_subclass:034 NP PPP Glut	32	31	1	1	0.03125
+wt_1178	Reference_subclass:035 OB Eomes Ms4a15 Glut	2	1	1	1	0.5
+wt_1178	Reference_subclass:036 HPF CR Glut	13	13	0	0	0.0
+wt_1178	Reference_subclass:037 DG Glut	30	22	8	4	0.26666666666666666
+wt_1178	Reference_subclass:039 OB Meis2 Thsd7b Gaba	5	4	1	1	0.2
+wt_1178	Reference_subclass:040 OB Trdn Gaba	3	1	2	1	0.6666666666666666
+wt_1178	Reference_subclass:041 OB-in Frmd7 Gaba	16	3	13	7	0.8125
+wt_1178	Reference_subclass:042 OB-out Frmd7 Gaba	3	1	2	2	0.6666666666666666
+wt_1178	Reference_subclass:044 OB Dopa-Gaba	2	1	1	0	0.5
+wt_1178	Reference_subclass:045 OB-STR-CTX Inh IMN	14	13	1	0	0.07142857142857142
+wt_1178	Reference_subclass:046 Vip Gaba	70	67	3	2	0.04285714285714286
+wt_1178	Reference_subclass:047 Sncg Gaba	39	39	0	0	0.0
+wt_1178	Reference_subclass:048 RHP-COA Ndnf Gaba	37	36	1	0	0.02702702702702703
+wt_1178	Reference_subclass:049 Lamp5 Gaba	44	44	0	0	0.0
+wt_1178	Reference_subclass:050 Lamp5 Lhx6 Gaba	32	32	0	0	0.0
+wt_1178	Reference_subclass:051 Pvalb chandelier Gaba	16	16	0	0	0.0
+wt_1178	Reference_subclass:052 Pvalb Gaba	148	147	1	0	0.006756756756756757
+wt_1178	Reference_subclass:053 Sst Gaba	171	168	3	1	0.017543859649122806
+wt_1178	Reference_subclass:054 STR Prox1 Lhx6 Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:056 Sst Chodl Gaba	2	2	0	0	0.0
+wt_1178	Reference_subclass:059 GPe-SI Sox6 Cyp26b1 Gaba	1	0	1	0	1.0
+wt_1178	Reference_subclass:062 STR D2 Gaba	2	0	2	1	1.0
+wt_1178	Reference_subclass:065 IA Mgp Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:069 LSX Nkx2-1 Gaba	3	1	2	1	0.6666666666666666
+wt_1178	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	1	0	1	1	1.0
+wt_1178	Reference_subclass:071 LSX Prdm12 Zeb2 Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:072 LSX Sall3 Lmo1 Gaba	1	0	1	0	1.0
+wt_1178	Reference_subclass:073 MEA-BST Sox6 Gaba	3	2	1	0	0.3333333333333333
+wt_1178	Reference_subclass:082 CEA-BST Ebf1 Pdyn Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:085 SI-MPO-LPO Lhx8 Gaba	1	0	1	0	1.0
+wt_1178	Reference_subclass:086 MPO-ADP Lhx8 Gaba	1	0	1	0	1.0
+wt_1178	Reference_subclass:107 DMH Hmx2 Gaba	1	0	1	1	1.0
+wt_1178	Reference_subclass:109 LGv-ZI Otx2 Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	3	3	0	0	0.0
+wt_1178	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	4	3	1	0	0.25
+wt_1178	Reference_subclass:139 PH-LHA Foxb1 Glut	1	0	1	0	1.0
+wt_1178	Reference_subclass:144 MM Foxb1 Glut	1	0	1	1	1.0
+wt_1178	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	2	1	1	1	0.5
+wt_1178	Reference_subclass:181 IC Tfap2d Maf Glut	1	0	1	1	1.0
+wt_1178	Reference_subclass:192 PPN-CUN-PCG Otp En1 Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:199 PAG-MRN-RN Foxa2 Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:203 LGv-SPFp-SPFm Nkx2-2 Tcf7l2 Gaba	2	0	2	2	1.0
+wt_1178	Reference_subclass:206 SCm-PAG Cdh23 Gaba	1	1	0	0	0.0
+wt_1178	Reference_subclass:222 PB Evx2 Glut	1	0	1	1	1.0
+wt_1178	Reference_subclass:238 NTS Phox2b Glut	2	0	2	1	1.0
+wt_1178	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	2	1	1	1	0.5
+wt_1178	Reference_subclass:248 MV-SPIV Zic4 Neurod2 Glut	1	1	0	0	0.0
+wt_1178	Reference_subclass:271 NI-RPO Gata3 Nr4a2 Gaba	2	0	2	0	1.0
+wt_1178	Reference_subclass:276 LDT-PCG St18 Gaba	2	1	1	1	0.5
+wt_1178	Reference_subclass:278 NLL Gata3 Gly-Gaba	3	2	1	1	0.3333333333333333
+wt_1178	Reference_subclass:308 DCO Il22 Gly-Gaba	2	0	2	1	1.0
+wt_1178	Reference_subclass:318 Astro-NT NN	17	14	3	2	0.17647058823529413
+wt_1178	Reference_subclass:319 Astro-TE NN	480	471	9	7	0.01875
+wt_1178	Reference_subclass:320 Astro-OLF NN	1	1	0	0	0.0
+wt_1178	Reference_subclass:322 Tanycyte NN	1	0	1	1	1.0
+wt_1178	Reference_subclass:323 Ependymal NN	4	3	1	0	0.25
+wt_1178	Reference_subclass:326 OPC NN	212	211	1	0	0.0047169811320754715
+wt_1178	Reference_subclass:327 Oligo NN	674	665	9	6	0.013353115727002967
+wt_1178	Reference_subclass:329 ABC NN	3	3	0	0	0.0
+wt_1178	Reference_subclass:330 VLMC NN	11	11	0	0	0.0
+wt_1178	Reference_subclass:331 Peri NN	39	36	3	3	0.07692307692307693
+wt_1178	Reference_subclass:332 SMC NN	4	1	3	0	0.75
+wt_1178	Reference_subclass:333 Endo NN	69	62	7	5	0.10144927536231885
+wt_1178	Reference_subclass:334 Microglia NN	281	271	10	10	0.03558718861209965
+wt_1178	Reference_subclass:336 Monocytes NN	1	0	1	1	1.0
+wt_1178	Reference_subclass:338 Lymphoid NN	6	1	5	3	0.8333333333333334
+wt_1220	ALL	10430	10176	254	0	0.024352828379674018
+wt_1220	ReferenceHighSupport_CA1_ProS	2764	2762	2	0	0.000723589001447178
+wt_1220	ReferenceHighSupport_EX	5906	5894	12	0	0.002031832035218422
+wt_1220	ReferenceHighSupport_IN	924	924	0	0	0.0
+wt_1220	Reference_broad:Astrocyte	740	722	18	0	0.024324324324324326
+wt_1220	Reference_broad:Ependymal	17	17	0	0	0.0
+wt_1220	Reference_broad:Excitatory	6112	5970	142	0	0.023232984293193717
+wt_1220	Reference_broad:Inhibitory	1000	958	42	0	0.042
+wt_1220	Reference_broad:Microglia	584	571	13	0	0.02226027397260274
+wt_1220	Reference_broad:OPC	416	411	5	0	0.01201923076923077
+wt_1220	Reference_broad:Oligodendrocyte	1381	1369	12	0	0.008689355539464157
+wt_1220	Reference_broad:Other_immune	9	5	4	0	0.4444444444444444
+wt_1220	Reference_broad:Vascular	171	153	18	0	0.10526315789473684
+wt_1220	Reference_subclass:003 L5/6 IT TPE-ENT Glut	12	12	0	0	0.0
+wt_1220	Reference_subclass:004 L6 IT CTX Glut	3	0	3	0	1.0
+wt_1220	Reference_subclass:006 L4/5 IT CTX Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:007 L2/3 IT CTX Glut	2	0	2	0	1.0
+wt_1220	Reference_subclass:008 L2/3 IT ENT Glut	66	66	0	0	0.0
+wt_1220	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	4	4	0	0	0.0
+wt_1220	Reference_subclass:010 IT AON-TT-DP Glut	5	1	4	0	0.8
+wt_1220	Reference_subclass:011 L2 IT ENT-po Glut	63	63	0	0	0.0
+wt_1220	Reference_subclass:012 MEA Slc17a7 Glut	8	2	6	0	0.75
+wt_1220	Reference_subclass:013 COAp Grxcr2 Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:014 LA-BLA-BMA-PA Glut	5	0	5	0	1.0
+wt_1220	Reference_subclass:015 ENTmv-PA-COAp Glut	125	124	1	0	0.008
+wt_1220	Reference_subclass:016 CA1-ProS Glut	2858	2814	44	0	0.015395381385584325
+wt_1220	Reference_subclass:017 CA3 Glut	114	111	3	0	0.02631578947368421
+wt_1220	Reference_subclass:018 L2 IT PPP-APr Glut	99	99	0	0	0.0
+wt_1220	Reference_subclass:019 L2/3 IT PPP Glut	793	783	10	0	0.012610340479192938
+wt_1220	Reference_subclass:020 L2/3 IT RSP Glut	6	3	3	0	0.5
+wt_1220	Reference_subclass:021 L4 RSP-ACA Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:022 L5 ET CTX Glut	4	1	3	0	0.75
+wt_1220	Reference_subclass:023 SUB-ProS Glut	815	792	23	0	0.02822085889570552
+wt_1220	Reference_subclass:024 L5 PPP Glut	21	21	0	0	0.0
+wt_1220	Reference_subclass:025 CA2-FC-IG Glut	90	88	2	0	0.022222222222222223
+wt_1220	Reference_subclass:028 L6b/CT ENT Glut	165	165	0	0	0.0
+wt_1220	Reference_subclass:029 L6b CTX Glut	7	6	1	0	0.14285714285714285
+wt_1220	Reference_subclass:030 L6 CT CTX Glut	7	5	2	0	0.2857142857142857
+wt_1220	Reference_subclass:031 CT SUB Glut	246	245	1	0	0.0040650406504065045
+wt_1220	Reference_subclass:032 L5 NP CTX Glut	4	2	2	0	0.5
+wt_1220	Reference_subclass:033 NP SUB Glut	362	358	4	0	0.011049723756906077
+wt_1220	Reference_subclass:034 NP PPP Glut	27	24	3	0	0.1111111111111111
+wt_1220	Reference_subclass:035 OB Eomes Ms4a15 Glut	2	1	1	0	0.5
+wt_1220	Reference_subclass:036 HPF CR Glut	40	39	1	0	0.025
+wt_1220	Reference_subclass:037 DG Glut	138	134	4	0	0.028985507246376812
+wt_1220	Reference_subclass:038 DG-PIR Ex IMN	2	2	0	0	0.0
+wt_1220	Reference_subclass:039 OB Meis2 Thsd7b Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:040 OB Trdn Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:041 OB-in Frmd7 Gaba	6	1	5	0	0.8333333333333334
+wt_1220	Reference_subclass:042 OB-out Frmd7 Gaba	2	0	2	0	1.0
+wt_1220	Reference_subclass:045 OB-STR-CTX Inh IMN	12	6	6	0	0.5
+wt_1220	Reference_subclass:046 Vip Gaba	115	113	2	0	0.017391304347826087
+wt_1220	Reference_subclass:047 Sncg Gaba	39	38	1	0	0.02564102564102564
+wt_1220	Reference_subclass:048 RHP-COA Ndnf Gaba	81	81	0	0	0.0
+wt_1220	Reference_subclass:049 Lamp5 Gaba	58	58	0	0	0.0
+wt_1220	Reference_subclass:050 Lamp5 Lhx6 Gaba	85	84	1	0	0.011764705882352941
+wt_1220	Reference_subclass:051 Pvalb chandelier Gaba	31	31	0	0	0.0
+wt_1220	Reference_subclass:052 Pvalb Gaba	258	258	0	0	0.0
+wt_1220	Reference_subclass:053 Sst Gaba	239	235	4	0	0.016736401673640166
+wt_1220	Reference_subclass:056 Sst Chodl Gaba	1	1	0	0	0.0
+wt_1220	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:064 STR-PAL Chst9 Gaba	2	0	2	0	1.0
+wt_1220	Reference_subclass:065 IA Mgp Gaba	2	0	2	0	1.0
+wt_1220	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	2	0	2	0	1.0
+wt_1220	Reference_subclass:069 LSX Nkx2-1 Gaba	5	4	1	0	0.2
+wt_1220	Reference_subclass:071 LSX Prdm12 Zeb2 Gaba	28	28	0	0	0.0
+wt_1220	Reference_subclass:072 LSX Sall3 Lmo1 Gaba	15	15	0	0	0.0
+wt_1220	Reference_subclass:073 MEA-BST Sox6 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:083 CEA-BST Rai14 Pdyn Crh Gaba	2	1	1	0	0.5
+wt_1220	Reference_subclass:097 PVHd-SBPV Six3 Prox1 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:101 ZI Pax6 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:102 DMH-LHA Gsx1 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:104 TU-ARH Otp Six6 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:111 TRS-BAC Sln Glut	1	1	0	0	0.0
+wt_1220	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	5	2	3	0	0.6
+wt_1220	Reference_subclass:139 PH-LHA Foxb1 Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:143 MM-ant Foxb1 Glut	1	1	0	0	0.0
+wt_1220	Reference_subclass:155 PRC-PAG Pax6 Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:168 SPA-SPFm-SPFp-POL-PIL-PoT Sp9 Glut	2	1	1	0	0.5
+wt_1220	Reference_subclass:192 PPN-CUN-PCG Otp En1 Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:200 PAG-ND-PCG Onecut1 Gaba	1	1	0	0	0.0
+wt_1220	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	1	0	0	0.0
+wt_1220	Reference_subclass:209 SCs Pax7 Nfia Gaba	1	1	0	0	0.0
+wt_1220	Reference_subclass:210 PRT Mecom Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:238 NTS Phox2b Glut	2	0	2	0	1.0
+wt_1220	Reference_subclass:245 SPVI-SPVC Tlx3 Ebf3 Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:261 HB Calcb Chol	1	0	1	0	1.0
+wt_1220	Reference_subclass:262 Pineal Crx Glut	1	0	1	0	1.0
+wt_1220	Reference_subclass:278 NLL Gata3 Gly-Gaba	2	1	1	0	0.5
+wt_1220	Reference_subclass:289 MDRNd Prox1 Pax6 Gly-Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:308 DCO Il22 Gly-Gaba	1	0	1	0	1.0
+wt_1220	Reference_subclass:318 Astro-NT NN	31	30	1	0	0.03225806451612903
+wt_1220	Reference_subclass:319 Astro-TE NN	706	691	15	0	0.021246458923512748
+wt_1220	Reference_subclass:320 Astro-OLF NN	2	0	2	0	1.0
+wt_1220	Reference_subclass:321 Astroependymal NN	1	1	0	0	0.0
+wt_1220	Reference_subclass:323 Ependymal NN	17	17	0	0	0.0
+wt_1220	Reference_subclass:326 OPC NN	416	411	5	0	0.01201923076923077
+wt_1220	Reference_subclass:327 Oligo NN	1381	1369	12	0	0.008689355539464157
+wt_1220	Reference_subclass:329 ABC NN	11	10	1	0	0.09090909090909091
+wt_1220	Reference_subclass:330 VLMC NN	30	29	1	0	0.03333333333333333
+wt_1220	Reference_subclass:331 Peri NN	55	48	7	0	0.12727272727272726
+wt_1220	Reference_subclass:332 SMC NN	5	4	1	0	0.2
+wt_1220	Reference_subclass:333 Endo NN	70	62	8	0	0.11428571428571428
+wt_1220	Reference_subclass:334 Microglia NN	584	571	13	0	0.02226027397260274
+wt_1220	Reference_subclass:335 BAM NN	3	3	0	0	0.0
+wt_1220	Reference_subclass:338 Lymphoid NN	6	2	4	0	0.6666666666666666
+wt_1226	ALL	9733	9362	371	0	0.03811774375834789
+wt_1226	ReferenceHighSupport_CA1_ProS	2541	2539	2	0	0.0007870916961826052
+wt_1226	ReferenceHighSupport_EX	5176	5171	5	0	0.0009659969088098918
+wt_1226	ReferenceHighSupport_IN	747	747	0	0	0.0
+wt_1226	Reference_broad:Astrocyte	872	841	31	0	0.03555045871559633
+wt_1226	Reference_broad:Ependymal	28	27	1	0	0.03571428571428571
+wt_1226	Reference_broad:Excitatory	5550	5345	205	0	0.036936936936936934
+wt_1226	Reference_broad:Inhibitory	868	804	64	0	0.07373271889400922
+wt_1226	Reference_broad:Microglia	493	479	14	0	0.028397565922920892
+wt_1226	Reference_broad:OPC	358	353	5	0	0.013966480446927373
+wt_1226	Reference_broad:Oligodendrocyte	1256	1224	32	0	0.025477707006369428
+wt_1226	Reference_broad:Other_immune	22	19	3	0	0.13636363636363635
+wt_1226	Reference_broad:Vascular	286	270	16	0	0.055944055944055944
+wt_1226	Reference_subclass:002 IT EP-CLA Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:003 L5/6 IT TPE-ENT Glut	4	4	0	0	0.0
+wt_1226	Reference_subclass:004 L6 IT CTX Glut	3	1	2	0	0.6666666666666666
+wt_1226	Reference_subclass:006 L4/5 IT CTX Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:007 L2/3 IT CTX Glut	3	3	0	0	0.0
+wt_1226	Reference_subclass:008 L2/3 IT ENT Glut	121	117	4	0	0.03305785123966942
+wt_1226	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	6	1	5	0	0.8333333333333334
+wt_1226	Reference_subclass:010 IT AON-TT-DP Glut	10	4	6	0	0.6
+wt_1226	Reference_subclass:011 L2 IT ENT-po Glut	90	90	0	0	0.0
+wt_1226	Reference_subclass:012 MEA Slc17a7 Glut	4	2	2	0	0.5
+wt_1226	Reference_subclass:014 LA-BLA-BMA-PA Glut	7	1	6	0	0.8571428571428571
+wt_1226	Reference_subclass:015 ENTmv-PA-COAp Glut	81	81	0	0	0.0
+wt_1226	Reference_subclass:016 CA1-ProS Glut	2702	2630	72	0	0.026646928201332347
+wt_1226	Reference_subclass:017 CA3 Glut	194	189	5	0	0.02577319587628866
+wt_1226	Reference_subclass:018 L2 IT PPP-APr Glut	79	77	2	0	0.02531645569620253
+wt_1226	Reference_subclass:019 L2/3 IT PPP Glut	569	567	2	0	0.0035149384885764497
+wt_1226	Reference_subclass:020 L2/3 IT RSP Glut	3	2	1	0	0.3333333333333333
+wt_1226	Reference_subclass:022 L5 ET CTX Glut	13	2	11	0	0.8461538461538461
+wt_1226	Reference_subclass:023 SUB-ProS Glut	719	699	20	0	0.027816411682892908
+wt_1226	Reference_subclass:024 L5 PPP Glut	7	7	0	0	0.0
+wt_1226	Reference_subclass:025 CA2-FC-IG Glut	102	99	3	0	0.029411764705882353
+wt_1226	Reference_subclass:028 L6b/CT ENT Glut	137	134	3	0	0.021897810218978103
+wt_1226	Reference_subclass:029 L6b CTX Glut	6	5	1	0	0.16666666666666666
+wt_1226	Reference_subclass:030 L6 CT CTX Glut	8	6	2	0	0.25
+wt_1226	Reference_subclass:031 CT SUB Glut	184	181	3	0	0.016304347826086956
+wt_1226	Reference_subclass:032 L5 NP CTX Glut	11	3	8	0	0.7272727272727273
+wt_1226	Reference_subclass:033 NP SUB Glut	299	297	2	0	0.006688963210702341
+wt_1226	Reference_subclass:034 NP PPP Glut	25	25	0	0	0.0
+wt_1226	Reference_subclass:035 OB Eomes Ms4a15 Glut	3	0	3	0	1.0
+wt_1226	Reference_subclass:036 HPF CR Glut	31	30	1	0	0.03225806451612903
+wt_1226	Reference_subclass:037 DG Glut	90	78	12	0	0.13333333333333333
+wt_1226	Reference_subclass:038 DG-PIR Ex IMN	6	3	3	0	0.5
+wt_1226	Reference_subclass:039 OB Meis2 Thsd7b Gaba	6	3	3	0	0.5
+wt_1226	Reference_subclass:040 OB Trdn Gaba	2	1	1	0	0.5
+wt_1226	Reference_subclass:041 OB-in Frmd7 Gaba	9	4	5	0	0.5555555555555556
+wt_1226	Reference_subclass:042 OB-out Frmd7 Gaba	4	1	3	0	0.75
+wt_1226	Reference_subclass:044 OB Dopa-Gaba	2	0	2	0	1.0
+wt_1226	Reference_subclass:045 OB-STR-CTX Inh IMN	19	7	12	0	0.631578947368421
+wt_1226	Reference_subclass:046 Vip Gaba	113	111	2	0	0.017699115044247787
+wt_1226	Reference_subclass:047 Sncg Gaba	53	51	2	0	0.03773584905660377
+wt_1226	Reference_subclass:048 RHP-COA Ndnf Gaba	73	70	3	0	0.0410958904109589
+wt_1226	Reference_subclass:049 Lamp5 Gaba	33	32	1	0	0.030303030303030304
+wt_1226	Reference_subclass:050 Lamp5 Lhx6 Gaba	50	50	0	0	0.0
+wt_1226	Reference_subclass:051 Pvalb chandelier Gaba	24	24	0	0	0.0
+wt_1226	Reference_subclass:052 Pvalb Gaba	188	188	0	0	0.0
+wt_1226	Reference_subclass:053 Sst Gaba	242	239	3	0	0.012396694214876033
+wt_1226	Reference_subclass:054 STR Prox1 Lhx6 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:056 Sst Chodl Gaba	3	3	0	0	0.0
+wt_1226	Reference_subclass:057 NDB-SI-MA-STRv Lhx8 Gaba	2	1	1	0	0.5
+wt_1226	Reference_subclass:062 STR D2 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:063 STR D1 Sema5a Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:064 STR-PAL Chst9 Gaba	3	0	3	0	1.0
+wt_1226	Reference_subclass:066 NDB-SI-ant Prdm12 Gaba	3	1	2	0	0.6666666666666666
+wt_1226	Reference_subclass:069 LSX Nkx2-1 Gaba	4	1	3	0	0.75
+wt_1226	Reference_subclass:070 LSX Prdm12 Slit2 Gaba	2	1	1	0	0.5
+wt_1226	Reference_subclass:072 LSX Sall3 Lmo1 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:073 MEA-BST Sox6 Gaba	3	2	1	0	0.3333333333333333
+wt_1226	Reference_subclass:076 MEA-BST Lhx6 Nfib Gaba	2	1	1	0	0.5
+wt_1226	Reference_subclass:078 SI-MA-ACB Ebf1 Bnc2 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:082 CEA-BST Ebf1 Pdyn Gaba	2	1	1	0	0.5
+wt_1226	Reference_subclass:085 SI-MPO-LPO Lhx8 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:101 ZI Pax6 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:111 TRS-BAC Sln Glut	1	1	0	0	0.0
+wt_1226	Reference_subclass:114 COAa-PAA-MEA Barhl2 Glut	4	2	2	0	0.5
+wt_1226	Reference_subclass:116 AVPV-MEPO-SFO Tbr1 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:118 ADP-MPO Trp73 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	5	2	3	0	0.6
+wt_1226	Reference_subclass:129 VMH Nr5a1 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:134 PH-ant-LHA Otp Bsx Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:155 PRC-PAG Pax6 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:170 PAG-MRN Tfap2b Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:174 PAG Pou4f2 Mesi2 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:181 IC Tfap2d Maf Glut	2	0	2	0	1.0
+wt_1226	Reference_subclass:198 IC Six3 En2 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:199 PAG-MRN-RN Foxa2 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:200 PAG-ND-PCG Onecut1 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:201 PAG-RN Nkx2-2 Otx1 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:205 SC-PAG Lef1 Emx2 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:206 SCm-PAG Cdh23 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:207 SCs Dmbx1 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:209 SCs Pax7 Nfia Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:213 SCsg Gabrr2 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:214 IPN Otp Crisp1 Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:221 LDT-PCG Vsx2 Lhx4 Glut	1	1	0	0	0.0
+wt_1226	Reference_subclass:228 PSV Pvalb Lhx2 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:238 NTS Phox2b Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	4	0	4	0	1.0
+wt_1226	Reference_subclass:245 SPVI-SPVC Tlx3 Ebf3 Glut	1	1	0	0	0.0
+wt_1226	Reference_subclass:248 MV-SPIV Zic4 Neurod2 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:254 VCO Mafa Meis2 Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:262 Pineal Crx Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:273 PDTg-PCG Pax6 Gaba	1	0	1	0	1.0
+wt_1226	Reference_subclass:293 PAS-MV Ebf2 Gly-Gaba	1	1	0	0	0.0
+wt_1226	Reference_subclass:304 NTS-PARN Neurod2 Gly-Gaba	2	1	1	0	0.5
+wt_1226	Reference_subclass:308 DCO Il22 Gly-Gaba	2	0	2	0	1.0
+wt_1226	Reference_subclass:309 CB PLI Gly-Gaba	3	1	2	0	0.6666666666666666
+wt_1226	Reference_subclass:314 CB Granule Glut	1	0	1	0	1.0
+wt_1226	Reference_subclass:318 Astro-NT NN	31	31	0	0	0.0
+wt_1226	Reference_subclass:319 Astro-TE NN	836	808	28	0	0.03349282296650718
+wt_1226	Reference_subclass:320 Astro-OLF NN	4	2	2	0	0.5
+wt_1226	Reference_subclass:321 Astroependymal NN	1	0	1	0	1.0
+wt_1226	Reference_subclass:322 Tanycyte NN	2	1	1	0	0.5
+wt_1226	Reference_subclass:323 Ependymal NN	26	26	0	0	0.0
+wt_1226	Reference_subclass:326 OPC NN	358	353	5	0	0.013966480446927373
+wt_1226	Reference_subclass:327 Oligo NN	1256	1224	32	0	0.025477707006369428
+wt_1226	Reference_subclass:329 ABC NN	8	8	0	0	0.0
+wt_1226	Reference_subclass:330 VLMC NN	33	33	0	0	0.0
+wt_1226	Reference_subclass:331 Peri NN	92	91	1	0	0.010869565217391304
+wt_1226	Reference_subclass:332 SMC NN	10	10	0	0	0.0
+wt_1226	Reference_subclass:333 Endo NN	143	128	15	0	0.1048951048951049
+wt_1226	Reference_subclass:334 Microglia NN	493	479	14	0	0.028397565922920892
+wt_1226	Reference_subclass:335 BAM NN	7	7	0	0	0.0
+wt_1226	Reference_subclass:336 Monocytes NN	1	1	0	0	0.0
+wt_1226	Reference_subclass:337 DC NN	2	2	0	0	0.0
+wt_1226	Reference_subclass:338 Lymphoid NN	12	9	3	0	0.25
+wt_1228	ALL	10361	10156	205	0	0.019785734967667213
+wt_1228	ReferenceHighSupport_CA1_ProS	3400	3399	1	0	0.0002941176470588235
+wt_1228	ReferenceHighSupport_EX	6140	6133	7	0	0.0011400651465798045
+wt_1228	ReferenceHighSupport_IN	909	908	1	0	0.0011001100110011
+wt_1228	Reference_broad:Astrocyte	649	626	23	0	0.03543913713405239
+wt_1228	Reference_broad:Ependymal	9	7	2	0	0.2222222222222222
+wt_1228	Reference_broad:Excitatory	6346	6238	108	0	0.017018594390167036
+wt_1228	Reference_broad:Inhibitory	989	949	40	0	0.04044489383215369
+wt_1228	Reference_broad:Microglia	594	589	5	0	0.008417508417508417
+wt_1228	Reference_broad:OPC	435	428	7	0	0.016091954022988506
+wt_1228	Reference_broad:Oligodendrocyte	1206	1194	12	0	0.009950248756218905
+wt_1228	Reference_broad:Other_immune	23	17	6	0	0.2608695652173913
+wt_1228	Reference_broad:Vascular	110	108	2	0	0.01818181818181818
+wt_1228	Reference_subclass:003 L5/6 IT TPE-ENT Glut	6	6	0	0	0.0
+wt_1228	Reference_subclass:004 L6 IT CTX Glut	2	1	1	0	0.5
+wt_1228	Reference_subclass:005 L5 IT CTX Glut	2	0	2	0	1.0
+wt_1228	Reference_subclass:008 L2/3 IT ENT Glut	35	34	1	0	0.02857142857142857
+wt_1228	Reference_subclass:009 L2/3 IT PIR-ENTl Glut	5	1	4	0	0.8
+wt_1228	Reference_subclass:010 IT AON-TT-DP Glut	4	0	4	0	1.0
+wt_1228	Reference_subclass:011 L2 IT ENT-po Glut	30	30	0	0	0.0
+wt_1228	Reference_subclass:012 MEA Slc17a7 Glut	6	3	3	0	0.5
+wt_1228	Reference_subclass:014 LA-BLA-BMA-PA Glut	5	1	4	0	0.8
+wt_1228	Reference_subclass:015 ENTmv-PA-COAp Glut	69	69	0	0	0.0
+wt_1228	Reference_subclass:016 CA1-ProS Glut	3511	3463	48	0	0.013671318712617488
+wt_1228	Reference_subclass:017 CA3 Glut	102	101	1	0	0.00980392156862745
+wt_1228	Reference_subclass:018 L2 IT PPP-APr Glut	113	113	0	0	0.0
+wt_1228	Reference_subclass:019 L2/3 IT PPP Glut	610	606	4	0	0.006557377049180328
+wt_1228	Reference_subclass:020 L2/3 IT RSP Glut	7	5	2	0	0.2857142857142857
+wt_1228	Reference_subclass:022 L5 ET CTX Glut	9	4	5	0	0.5555555555555556
+wt_1228	Reference_subclass:023 SUB-ProS Glut	855	845	10	0	0.011695906432748537
+wt_1228	Reference_subclass:024 L5 PPP Glut	12	12	0	0	0.0
+wt_1228	Reference_subclass:025 CA2-FC-IG Glut	97	95	2	0	0.020618556701030927
+wt_1228	Reference_subclass:028 L6b/CT ENT Glut	120	120	0	0	0.0
+wt_1228	Reference_subclass:029 L6b CTX Glut	7	7	0	0	0.0
+wt_1228	Reference_subclass:030 L6 CT CTX Glut	10	7	3	0	0.3
+wt_1228	Reference_subclass:031 CT SUB Glut	225	222	3	0	0.013333333333333334
+wt_1228	Reference_subclass:032 L5 NP CTX Glut	4	2	2	0	0.5
+wt_1228	Reference_subclass:033 NP SUB Glut	423	422	1	0	0.002364066193853428
+wt_1228	Reference_subclass:034 NP PPP Glut	12	12	0	0	0.0
+wt_1228	Reference_subclass:036 HPF CR Glut	24	23	1	0	0.041666666666666664
+wt_1228	Reference_subclass:037 DG Glut	25	23	2	0	0.08
+wt_1228	Reference_subclass:038 DG-PIR Ex IMN	5	5	0	0	0.0
+wt_1228	Reference_subclass:039 OB Meis2 Thsd7b Gaba	2	2	0	0	0.0
+wt_1228	Reference_subclass:040 OB Trdn Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:041 OB-in Frmd7 Gaba	7	1	6	0	0.8571428571428571
+wt_1228	Reference_subclass:042 OB-out Frmd7 Gaba	2	1	1	0	0.5
+wt_1228	Reference_subclass:044 OB Dopa-Gaba	4	2	2	0	0.5
+wt_1228	Reference_subclass:045 OB-STR-CTX Inh IMN	24	20	4	0	0.16666666666666666
+wt_1228	Reference_subclass:046 Vip Gaba	130	127	3	0	0.023076923076923078
+wt_1228	Reference_subclass:047 Sncg Gaba	38	38	0	0	0.0
+wt_1228	Reference_subclass:048 RHP-COA Ndnf Gaba	77	73	4	0	0.05194805194805195
+wt_1228	Reference_subclass:049 Lamp5 Gaba	32	32	0	0	0.0
+wt_1228	Reference_subclass:050 Lamp5 Lhx6 Gaba	66	66	0	0	0.0
+wt_1228	Reference_subclass:051 Pvalb chandelier Gaba	34	34	0	0	0.0
+wt_1228	Reference_subclass:052 Pvalb Gaba	254	254	0	0	0.0
+wt_1228	Reference_subclass:053 Sst Gaba	292	288	4	0	0.0136986301369863
+wt_1228	Reference_subclass:055 STR Lhx8 Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:056 Sst Chodl Gaba	3	3	0	0	0.0
+wt_1228	Reference_subclass:060 OT D3 Folh1 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:062 STR D2 Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:067 LSX Sall3 Pax6 Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:069 LSX Nkx2-1 Gaba	2	1	1	0	0.5
+wt_1228	Reference_subclass:073 MEA-BST Sox6 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:075 MEA-BST Lhx6 Nr2e1 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:080 CEA-AAA-BST Six3 Sp9 Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:082 CEA-BST Ebf1 Pdyn Gaba	2	0	2	0	1.0
+wt_1228	Reference_subclass:085 SI-MPO-LPO Lhx8 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:089 PVR Six3 Sox3 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:093 RT-ZI Gnb3 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:106 PVpo-VMPO-MPN Hmx2 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:118 ADP-MPO Trp73 Glut	1	0	1	0	1.0
+wt_1228	Reference_subclass:119 SI-MA-LPO-LHA Skor1 Glut	3	3	0	0	0.0
+wt_1228	Reference_subclass:146 LH Pou4f1 Sox1 Glut	1	0	1	0	1.0
+wt_1228	Reference_subclass:175 SC Bnc2 Glut	1	0	1	0	1.0
+wt_1228	Reference_subclass:176 SCig Foxb1 Glut	1	1	0	0	0.0
+wt_1228	Reference_subclass:192 PPN-CUN-PCG Otp En1 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:196 PAG-PPN Pax5 Sox21 Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:198 IC Six3 En2 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:222 PB Evx2 Glut	1	1	0	0	0.0
+wt_1228	Reference_subclass:238 NTS Phox2b Glut	1	1	0	0	0.0
+wt_1228	Reference_subclass:243 PGRN-PARN-MDRN Hoxb5 Glut	2	0	2	0	1.0
+wt_1228	Reference_subclass:267 CS-PRNr-PCG Tmem163 Otp Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:270 LDT-DTN Gata3 Nfix Gaba	1	1	0	0	0.0
+wt_1228	Reference_subclass:276 LDT-PCG St18 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:277 DTN-LDT-IPN Otp Pax3 Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:278 NLL Gata3 Gly-Gaba	1	0	1	0	1.0
+wt_1228	Reference_subclass:318 Astro-NT NN	35	31	4	0	0.11428571428571428
+wt_1228	Reference_subclass:319 Astro-TE NN	613	594	19	0	0.03099510603588907
+wt_1228	Reference_subclass:320 Astro-OLF NN	1	1	0	0	0.0
+wt_1228	Reference_subclass:322 Tanycyte NN	2	0	2	0	1.0
+wt_1228	Reference_subclass:323 Ependymal NN	7	7	0	0	0.0
+wt_1228	Reference_subclass:326 OPC NN	435	428	7	0	0.016091954022988506
+wt_1228	Reference_subclass:327 Oligo NN	1206	1194	12	0	0.009950248756218905
+wt_1228	Reference_subclass:330 VLMC NN	18	17	1	0	0.05555555555555555
+wt_1228	Reference_subclass:331 Peri NN	44	44	0	0	0.0
+wt_1228	Reference_subclass:332 SMC NN	3	3	0	0	0.0
+wt_1228	Reference_subclass:333 Endo NN	45	44	1	0	0.022222222222222223
+wt_1228	Reference_subclass:334 Microglia NN	594	589	5	0	0.008417508417508417
+wt_1228	Reference_subclass:335 BAM NN	13	12	1	0	0.07692307692307693
+wt_1228	Reference_subclass:336 Monocytes NN	1	1	0	0	0.0
+wt_1228	Reference_subclass:337 DC NN	2	0	2	0	1.0
+wt_1228	Reference_subclass:338 Lymphoid NN	7	4	3	0	0.42857142857142855

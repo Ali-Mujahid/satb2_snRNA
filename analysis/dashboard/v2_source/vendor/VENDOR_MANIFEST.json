@@ -1,0 +1,36 @@
+{
+  "assets": [
+    {
+      "file": "fflate.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.3/umd/index.js",
+      "version": "0.8.3",
+      "bytes": 33044,
+      "sha256": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83"
+    },
+    {
+      "file": "fflate.LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/fflate@0.8.3/LICENSE",
+      "version": "0.8.3",
+      "bytes": 1069,
+      "sha256": "0a1df3a083d0c010560aa342e87959c8c1070e6fd54545741f083f22d0c8b551"
+    },
+    {
+      "file": "jspdf.umd.min.js",
+      "url": "https://cdn.jsdelivr.net/npm/jspdf@4.2.1/dist/jspdf.umd.min.js",
+      "version": "4.2.1",
+      "bytes": 420165,
+      "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+    },
+    {
+      "file": "jspdf.LICENSE",
+      "url": "https://cdn.jsdelivr.net/npm/jspdf@4.2.1/LICENSE",
+      "version": "4.2.1",
+      "bytes": 1142,
+      "sha256": "dc388ec35ff463288cdde3588a36fd4ed12a45deff053243b37309acc9ef583b"
+    }
+  ],
+  "documentation": [
+    "https://github.com/101arrowz/fflate",
+    "https://github.com/parallax/jsPDF"
+  ]
+}

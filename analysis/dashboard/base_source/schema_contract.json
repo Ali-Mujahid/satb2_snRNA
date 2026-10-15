@@ -1,0 +1,26 @@
+{
+  "schema_version": "satb2-offline-1",
+  "manifest": "data/manifest.js defines window.SATB2_DATA; manifest.json is the equivalent plain object",
+  "dataset_id": "{tool}__{branch}__{population}",
+  "scope": "24 original_frozen main datasets; retained keep_for_analysis baseline only; all original cluster audit records retained, including excluded/empty groups",
+  "coordinates_payload": {
+    "nuclei": "Objects sorted by stable nucleus_id, zero-based array index. nucleus_id,sample,condition,cluster_id,source_cluster_id,current_cluster_id,x_harmony,y_harmony,x_unintegrated,y_unintegrated; reviewed/reference/program/uncertainty fields and qc_* fields",
+    "clusters": "Native final cluster annotation rows including inclusion/exclusion flags and exact denominators",
+    "coordinate_measurement": "Saved source-native embeddings; no refit after baseline mask"
+  },
+  "markers_payload": {
+    "rows": "Native pooled gene_cluster_summary rows for all878 stableIDs and all registered original groups",
+    "WT_rows": "Native WT-only rows; missing means/z remain null",
+    "cKO_rows": "Arithmetic difference of produced pooled and WT sums/denominators. Mean/fraction are null with zero denominator. scaled_expression_z and its reference are null/unavailable",
+    "retained_reference_fields": ["scale_reference_branch", "scale_reference_mean", "scale_reference_sd", "scale_definition"],
+    "gene_overlay": "Existing cluster-mean mean_log1p_normalized, not per-nucleus expression"
+  },
+  "shards": "Classic script defines window.SATB2_SHARDS[id]={encoding:'gzip-base64',data:base64_gzip_JSON}; paths relative to dashboard index. No fetch/modules/server required",
+  "coordinate_index": "staging/DATASET_COORDINATE_INDEX.tsv.gz: dataset_id,tool,branch,population,nucleus_id,row_index (zero based sorted IDs). Exact TOTAL population source roster",
+  "de_owner": "methods_review build_de_catalog.py; data/de_catalog.js defines SATB2_DE_CATALOG; fits__{dataset_id}; exact branch/tool/population/scope and sorted coordinate-index set must match produced fit membership",
+  "de_fields": ["gene", "baseMean", "log2FoldChange", "lfcSE", "stat", "pvalue", "padj"],
+  "gene_id": "Stable-ID sidecar; duplicate/missing display symbols retained",
+  "panel_counts": "147 review-panel rows =145 mapped rows=139 unique stableIDs, including canonical diagnostics;2 unmapped AC129186.1 rows. Workbook-only subset123 mapped rows/117 unique IDs is separately named",
+  "asset_map": "data/asset_map.json: [{source_path,bundle_path,path,sha256,bytes}]; portable primary24 PDF books + completed diagnostic/program PDFs; no duplicated page PNGs",
+  "measurement_limits": ["No new RNA extraction/aggregation or fitting", "Shared MapMyCells source is not independent truth", "Physical layers UNDETERMINED", "Offline edits cannot create new inferential results"]
+}

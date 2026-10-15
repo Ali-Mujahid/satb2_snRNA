@@ -1,0 +1,145 @@
+branch	leading_WT_score_threshold	Scanpy_programme	Seurat_programme	n_nuclei
+original_full	0.2	Deep	Deep	6017
+original_full	0.2	Deep	Superficial	178
+original_full	0.2	Deep	Mixed/weak	100
+original_full	0.2	Deep	Identity conflict	2
+original_full	0.2	Superficial	Deep	863
+original_full	0.2	Superficial	Superficial	10942
+original_full	0.2	Superficial	Mixed/weak	932
+original_full	0.2	Superficial	Identity conflict	2
+original_full	0.2	Mixed/weak	Deep	1870
+original_full	0.2	Mixed/weak	Superficial	586
+original_full	0.2	Mixed/weak	Mixed/weak	6116
+original_full	0.2	Mixed/weak	Identity conflict	2
+original_full	0.2	Identity conflict	Deep	0
+original_full	0.2	Identity conflict	Superficial	0
+original_full	0.2	Identity conflict	Mixed/weak	0
+original_full	0.2	Identity conflict	Identity conflict	93
+paired_original	0.2	Deep	Deep	6017
+paired_original	0.2	Deep	Superficial	178
+paired_original	0.2	Deep	Mixed/weak	100
+paired_original	0.2	Deep	Identity conflict	2
+paired_original	0.2	Superficial	Deep	863
+paired_original	0.2	Superficial	Superficial	10942
+paired_original	0.2	Superficial	Mixed/weak	932
+paired_original	0.2	Superficial	Identity conflict	2
+paired_original	0.2	Mixed/weak	Deep	1870
+paired_original	0.2	Mixed/weak	Superficial	586
+paired_original	0.2	Mixed/weak	Mixed/weak	6085
+paired_original	0.2	Mixed/weak	Identity conflict	2
+paired_original	0.2	Identity conflict	Deep	0
+paired_original	0.2	Identity conflict	Superficial	0
+paired_original	0.2	Identity conflict	Mixed/weak	0
+paired_original	0.2	Identity conflict	Identity conflict	93
+paired_cellbender	0.2	Deep	Deep	6017
+paired_cellbender	0.2	Deep	Superficial	178
+paired_cellbender	0.2	Deep	Mixed/weak	100
+paired_cellbender	0.2	Deep	Identity conflict	2
+paired_cellbender	0.2	Superficial	Deep	863
+paired_cellbender	0.2	Superficial	Superficial	10942
+paired_cellbender	0.2	Superficial	Mixed/weak	932
+paired_cellbender	0.2	Superficial	Identity conflict	2
+paired_cellbender	0.2	Mixed/weak	Deep	1870
+paired_cellbender	0.2	Mixed/weak	Superficial	586
+paired_cellbender	0.2	Mixed/weak	Mixed/weak	6085
+paired_cellbender	0.2	Mixed/weak	Identity conflict	2
+paired_cellbender	0.2	Identity conflict	Deep	0
+paired_cellbender	0.2	Identity conflict	Superficial	0
+paired_cellbender	0.2	Identity conflict	Mixed/weak	0
+paired_cellbender	0.2	Identity conflict	Identity conflict	93
+original_full	0.3	Deep	Deep	6017
+original_full	0.3	Deep	Superficial	178
+original_full	0.3	Deep	Mixed/weak	100
+original_full	0.3	Deep	Identity conflict	2
+original_full	0.3	Superficial	Deep	64
+original_full	0.3	Superficial	Superficial	5258
+original_full	0.3	Superficial	Mixed/weak	539
+original_full	0.3	Superficial	Identity conflict	1
+original_full	0.3	Mixed/weak	Deep	2669
+original_full	0.3	Mixed/weak	Superficial	6270
+original_full	0.3	Mixed/weak	Mixed/weak	6509
+original_full	0.3	Mixed/weak	Identity conflict	3
+original_full	0.3	Identity conflict	Deep	0
+original_full	0.3	Identity conflict	Superficial	0
+original_full	0.3	Identity conflict	Mixed/weak	0
+original_full	0.3	Identity conflict	Identity conflict	93
+paired_original	0.3	Deep	Deep	6017
+paired_original	0.3	Deep	Superficial	178
+paired_original	0.3	Deep	Mixed/weak	100
+paired_original	0.3	Deep	Identity conflict	2
+paired_original	0.3	Superficial	Deep	64
+paired_original	0.3	Superficial	Superficial	5258
+paired_original	0.3	Superficial	Mixed/weak	539
+paired_original	0.3	Superficial	Identity conflict	1
+paired_original	0.3	Mixed/weak	Deep	2669
+paired_original	0.3	Mixed/weak	Superficial	6270
+paired_original	0.3	Mixed/weak	Mixed/weak	6478
+paired_original	0.3	Mixed/weak	Identity conflict	3
+paired_original	0.3	Identity conflict	Deep	0
+paired_original	0.3	Identity conflict	Superficial	0
+paired_original	0.3	Identity conflict	Mixed/weak	0
+paired_original	0.3	Identity conflict	Identity conflict	93
+paired_cellbender	0.3	Deep	Deep	6017
+paired_cellbender	0.3	Deep	Superficial	178
+paired_cellbender	0.3	Deep	Mixed/weak	100
+paired_cellbender	0.3	Deep	Identity conflict	2
+paired_cellbender	0.3	Superficial	Deep	64
+paired_cellbender	0.3	Superficial	Superficial	5258
+paired_cellbender	0.3	Superficial	Mixed/weak	539
+paired_cellbender	0.3	Superficial	Identity conflict	1
+paired_cellbender	0.3	Mixed/weak	Deep	2669
+paired_cellbender	0.3	Mixed/weak	Superficial	6270
+paired_cellbender	0.3	Mixed/weak	Mixed/weak	6478
+paired_cellbender	0.3	Mixed/weak	Identity conflict	3
+paired_cellbender	0.3	Identity conflict	Deep	0
+paired_cellbender	0.3	Identity conflict	Superficial	0
+paired_cellbender	0.3	Identity conflict	Mixed/weak	0
+paired_cellbender	0.3	Identity conflict	Identity conflict	93
+original_full	0.4	Deep	Deep	6017
+original_full	0.4	Deep	Superficial	16
+original_full	0.4	Deep	Mixed/weak	262
+original_full	0.4	Deep	Identity conflict	2
+original_full	0.4	Superficial	Deep	64
+original_full	0.4	Superficial	Superficial	5139
+original_full	0.4	Superficial	Mixed/weak	658
+original_full	0.4	Superficial	Identity conflict	1
+original_full	0.4	Mixed/weak	Deep	2669
+original_full	0.4	Mixed/weak	Superficial	335
+original_full	0.4	Mixed/weak	Mixed/weak	12444
+original_full	0.4	Mixed/weak	Identity conflict	3
+original_full	0.4	Identity conflict	Deep	0
+original_full	0.4	Identity conflict	Superficial	0
+original_full	0.4	Identity conflict	Mixed/weak	0
+original_full	0.4	Identity conflict	Identity conflict	93
+paired_original	0.4	Deep	Deep	6017
+paired_original	0.4	Deep	Superficial	16
+paired_original	0.4	Deep	Mixed/weak	262
+paired_original	0.4	Deep	Identity conflict	2
+paired_original	0.4	Superficial	Deep	64
+paired_original	0.4	Superficial	Superficial	5139
+paired_original	0.4	Superficial	Mixed/weak	658
+paired_original	0.4	Superficial	Identity conflict	1
+paired_original	0.4	Mixed/weak	Deep	2669
+paired_original	0.4	Mixed/weak	Superficial	335
+paired_original	0.4	Mixed/weak	Mixed/weak	12413
+paired_original	0.4	Mixed/weak	Identity conflict	3
+paired_original	0.4	Identity conflict	Deep	0
+paired_original	0.4	Identity conflict	Superficial	0
+paired_original	0.4	Identity conflict	Mixed/weak	0
+paired_original	0.4	Identity conflict	Identity conflict	93
+paired_cellbender	0.4	Deep	Deep	6017
+paired_cellbender	0.4	Deep	Superficial	16
+paired_cellbender	0.4	Deep	Mixed/weak	262
+paired_cellbender	0.4	Deep	Identity conflict	2
+paired_cellbender	0.4	Superficial	Deep	64
+paired_cellbender	0.4	Superficial	Superficial	5139
+paired_cellbender	0.4	Superficial	Mixed/weak	658
+paired_cellbender	0.4	Superficial	Identity conflict	1
+paired_cellbender	0.4	Mixed/weak	Deep	2669
+paired_cellbender	0.4	Mixed/weak	Superficial	335
+paired_cellbender	0.4	Mixed/weak	Mixed/weak	12413
+paired_cellbender	0.4	Mixed/weak	Identity conflict	3
+paired_cellbender	0.4	Identity conflict	Deep	0
+paired_cellbender	0.4	Identity conflict	Superficial	0
+paired_cellbender	0.4	Identity conflict	Mixed/weak	0
+paired_cellbender	0.4	Identity conflict	Identity conflict	93

@@ -1,0 +1,19 @@
+{
+  "status": "COMPLETED_READ_ONLY_COMPARISON_RESULT_REVIEW_REQUIRING_INTERPRETATION",
+  "run_root": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5",
+  "registry_run_id": "9702cbef-00e6-4f64-aa37-e9b62357bd71",
+  "native_comparison_receipt_sha256": "3fe2e32d33200b262030b0aa99a0aea3648d89e602eed06364dc904b39c0f7a2",
+  "native_output_hashes_checked": 21,
+  "all_native_output_hashes_matched": true,
+  "independent_representation_only_metric_rows_equal_native": 222,
+  "all_two_final_heatmap_pages_rendered_and_visually_inspected": true,
+  "new_fit_or_raw_aggregation_performed": false,
+  "source_workflow_changed": false,
+  "review_markdown_sha256": "0af6d81e8c42f2ecd77dd4df2ac4cd83d4d0ff12676ad00ae2c19d5366201d23",
+  "artifact_sha256": {
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/reviews/final_cluster_agreement_heatmaps_v1_0_5/cluster_agreement_heatmaps.pdf": "f78207c1835fc3f4cf2b3af82b855267edf6df1e3358f0223a928fd527718b70",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/reviews/Cck_completed_strata_v1_0_5/REVIEW_PROVENANCE.json": "c813425908566a444d2000631fa54137b538f14ebb30c1c92cacc0203a7907b3",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/reviews/paired_frozen_cluster_DE_v1_0_5/REVIEW_PROVENANCE.json": "6c57e315f63523eb98abddb78bcfdd0a6858065f8fae2db1c27054a4e478c7d4",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/reviews/representation_comparison_partial_v1_0_5/REVIEW_PROVENANCE.json": "bad1b102b5f984bd1773e55fae9ca225482a058c32201edda8752b7601e8db6f"
+  }
+}

@@ -1,0 +1,81 @@
+{
+  "status": "READY_NONBINDING_PROVISIONAL_EDITOR_SUGGESTIONS",
+  "schema_version": "satb2-annotation-suggestions-2",
+  "count_summary": {
+    "n_original_clusters_reviewed": 163,
+    "n_native_fine_supported": 93,
+    "n_uncertain_before": 70,
+    "n_uncertain_after_provisional_suggestions": 70,
+    "n_explicit_mixed_low_or_conflicting_before": 66,
+    "n_explicit_mixed_low_or_conflicting_after": 66,
+    "n_affected_retained_main_clusters": 61,
+    "n_affected_excluded_audit_only_clusters": 9,
+    "n_suggestions": 70,
+    "n_promoted_to_validated_identity": 0,
+    "n_CA1_programme_options": 20,
+    "n_CA1_mixed_weak_or_conflicting_programmes_before": 11,
+    "n_CA1_mixed_weak_or_conflicting_programmes_after": 11,
+    "by_tool_population": [
+      {
+        "tool": "scanpy",
+        "population": "CA1_ProS",
+        "n_uncertain_before": 1,
+        "n_uncertain_after": 1
+      },
+      {
+        "tool": "scanpy",
+        "population": "Excitatory",
+        "n_uncertain_before": 7,
+        "n_uncertain_after": 7
+      },
+      {
+        "tool": "scanpy",
+        "population": "Inhibitory",
+        "n_uncertain_before": 6,
+        "n_uncertain_after": 6
+      },
+      {
+        "tool": "scanpy",
+        "population": "allcells",
+        "n_uncertain_before": 16,
+        "n_uncertain_after": 16
+      },
+      {
+        "tool": "seurat",
+        "population": "CA1_ProS",
+        "n_uncertain_before": 2,
+        "n_uncertain_after": 2
+      },
+      {
+        "tool": "seurat",
+        "population": "Excitatory",
+        "n_uncertain_before": 8,
+        "n_uncertain_after": 8
+      },
+      {
+        "tool": "seurat",
+        "population": "Inhibitory",
+        "n_uncertain_before": 6,
+        "n_uncertain_after": 6
+      },
+      {
+        "tool": "seurat",
+        "population": "allcells",
+        "n_uncertain_before": 24,
+        "n_uncertain_after": 24
+      }
+    ]
+  },
+  "output_sha256": {
+    "editor_label_suggestions.json": "56653c5a178b7236aa52f943bcd54081d74c20bd356b370c3ef435def8f5865a",
+    "cluster_label_suggestions.tsv": "6cb0532b9f5b7a6eb9116a9b6cddbe1c728eedc15d870d86d841a436a7430978",
+    "review.md": "fbe254c013c44f2420fc7147e8e1e9a9244ecccaccacd52cb42cad9c6104c669",
+    "REVIEW_PROVENANCE.json": "06d9ab722e1dde07f3a86103a287b51ccaeb5e27337bf8d0898c8e8ce79e8f33"
+  },
+  "provisional_identity_flags_unchanged": true,
+  "native_and_v1_outputs_modified": false,
+  "n_promoted_to_validated_identity": 0,
+  "physical_layer_validated": false,
+  "scientific_fitting_performed": false,
+  "raw_RNA_extraction_or_aggregation_performed": false
+}

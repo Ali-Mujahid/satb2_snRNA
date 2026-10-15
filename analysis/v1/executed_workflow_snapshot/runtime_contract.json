@@ -1,0 +1,33 @@
+{
+  "workflow_version": "1.0.0",
+  "controller": {
+    "engine": "snakemake",
+    "verified_version": "9.27.0",
+    "environment_scope": "previously selected isolated local controller",
+    "catalog_observation": "host_path fallback; exact executable retained from previous accepted execution"
+  },
+  "task_environment": {
+    "python_executable_config_key": "python_executable",
+    "Rscript_executable_config_key": "Rscript_executable",
+    "verified_python": "3.12.14 arm64, new project-only .venv_scanpy",
+    "verified_Rscript": "/usr/local/bin/Rscript",
+    "versions": {
+      "scanpy": "1.12.4", "anndata": "0.13.4", "harmonypy": "2.1.0",
+      "R": "4.6.1", "Seurat": "5.5.1", "SeuratObject": "5.4.0",
+      "harmony": "2.0.5", "sctransform": "0.4.3", "DESeq2": "1.52.0", "edgeR": "4.10.3"
+    },
+    "requirements": "project Python with hashed installed dependency closure; existing R packages; offline same-query MapMyCells label reuse; no installs or downloads in scientific execution"
+  },
+  "limits": {
+    "threads": 4,
+    "scientific_processes_at_once": 1,
+    "minimum_available_RAM_GiB": 24,
+    "declared_Seurat_planning_budget_GiB": 32,
+    "minimum_available_disk_GiB": 20,
+    "counts": "sparse, all genes retained for inference; HVG-only dense scaling",
+    "install_hooks": false,
+    "network_access": false,
+    "overwrite_prior_results": false
+  },
+  "reproducibility_limit": "R package versions/executables and Python wheel hashes are recorded; no cross-language bitwise clustering identity or independent atlas validation is promised."
+}

@@ -1,0 +1,164 @@
+tool	population	cluster_id	initial_reviewed_label	final_reviewed_label	initial_program	final_program	atomic_cluster_ID_changed	inference_membership_changed_after_initial
+scanpy	allcells	0	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	1	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	2	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	3	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	4	011 L2 IT ENT-po Glut	011 L2 IT ENT-po Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	5	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	6	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	7	033 NP SUB Glut	033 NP SUB Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	8	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	9	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	10	Mixed/uncertain Excitatory / Inhibitory	Mixed/uncertain Excitatory / Inhibitory	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	11	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	12	Mixed/uncertain Vascular / Excitatory	Mixed/uncertain Vascular / Excitatory	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	13	319 Astro-TE NN	319 Astro-TE NN; Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	14	Mixed/uncertain Astrocyte / Oligodendrocyte	Mixed/uncertain Astrocyte / Oligodendrocyte	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	15	Mixed/uncertain Astrocyte / Microglia	Mixed/uncertain Astrocyte / Microglia	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	16	327 Oligo NN	327 Oligo NN	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	17	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	18	334 Microglia NN	334 Microglia NN; Other_immune-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	19	037 DG Glut	037 DG Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	20	008 L2/3 IT ENT Glut	008 L2/3 IT ENT Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	21	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	22	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	23	Mixed/uncertain Ependymal / Other_reference	323 Ependymal NN; Astrocyte/Ependymal-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	24	326 OPC NN	326 OPC NN; Astrocyte/Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	25	327 Oligo NN	327 Oligo NN	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	26	036 HPF CR Glut	036 HPF CR Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	allcells	27	Mixed/uncertain Oligodendrocyte / Microglia	327 Oligo NN; Microglia/Other_immune-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	0	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	1	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	2	033 NP SUB Glut	033 NP SUB Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	3	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	4	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	5	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	6	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	7	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	8	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	9	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	10	037 DG Glut	037 DG Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	11	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	12	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	13	008 L2/3 IT ENT Glut	008 L2/3 IT ENT Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	14	Excitatory; mixed atlas subclasses; Microglia-associated signature review	016 CA1-ProS Glut; Microglia/Other_immune-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	15	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	16	019 L2/3 IT PPP Glut	019 L2/3 IT PPP Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	17	011 L2 IT ENT-po Glut	011 L2 IT ENT-po Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Excitatory	18	036 HPF CR Glut	036 HPF CR Glut	Not assessed in this population	Not assessed in this population	False	False
+scanpy	Inhibitory	0	049 Lamp5 Gaba	049 Lamp5 Gaba	Ivy_cells_MGE expression program enriched	Ivy_cells_MGE expression program enriched	False	False
+scanpy	Inhibitory	1	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Cck_R-LM border expression program / Cck_Non-border mixed	Cck_Non-border expression program / Cck_R-LM border mixed	False	False
+scanpy	Inhibitory	2	052 Pvalb Gaba	052 Pvalb Gaba	Pvalb_Basket_cells expression program enriched	Pvalb_Basket_cells expression program enriched	False	False
+scanpy	Inhibitory	3	053 Sst Gaba	053 Sst Gaba	Sst_O-LM expression program enriched	Sst_O-LM expression program enriched	False	False
+scanpy	Inhibitory	4	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Sst_O-LM expression program enriched	Sst_O-LM expression program enriched	False	False
+scanpy	Inhibitory	5	052 Pvalb Gaba	052 Pvalb Gaba	Pvalb_Bistratified expression program enriched	Pvalb_Bistratified expression program enriched	False	False
+scanpy	Inhibitory	6	050 Lamp5 Lhx6 Gaba	050 Lamp5 Lhx6 Gaba	Ivy_cells_CGE expression program enriched	Ivy_cells_CGE expression program enriched	False	False
+scanpy	Inhibitory	7	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Unresolved inhibitory expression program	Sst_O-LM expression program / Sst_Backprojection mixed	False	False
+scanpy	Inhibitory	8	053 Sst Gaba	053 Sst Gaba	Sst_Backprojection expression program enriched	Sst_Backprojection expression program enriched	False	False
+scanpy	Inhibitory	9	053 Sst Gaba	053 Sst Gaba	Sst_Hippocamposeptal expression program enriched	Sst_Hippocamposeptal expression program enriched	False	False
+scanpy	Inhibitory	10	046 Vip Gaba	046 Vip Gaba	IS-3 expression program enriched	IS-3 expression program enriched	False	False
+scanpy	Inhibitory	11	046 Vip Gaba	046 Vip Gaba	Cck_R-LM border expression program enriched	Cck_R-LM border expression program enriched	False	False
+scanpy	Inhibitory	12	051 Pvalb chandelier Gaba	051 Pvalb chandelier Gaba	Pvalb_Bistratified expression program enriched	Pvalb_Bistratified expression program enriched	False	False
+scanpy	Inhibitory	13	048 RHP-COA Ndnf Gaba	048 RHP-COA Ndnf Gaba	Trilaminar_cells expression program enriched	Trilaminar_cells expression program enriched	False	False
+scanpy	Inhibitory	14	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Cholinergic neurons expression program enriched	Cholinergic neurons expression program enriched	False	False
+scanpy	Inhibitory	15	Inhibitory; mixed atlas subclasses	052 Pvalb Gaba; Microglia/Other_immune-associated signature review	NGF_IS expression program / Cholinergic neurons mixed	Unresolved expression program: sparse WT marker evidence	False	False
+scanpy	Inhibitory	16	045 OB-STR-CTX Inh IMN	045 OB-STR-CTX Inh IMN	NGF_IS expression program / Cholinergic neurons mixed	NGF_IS expression program enriched	False	False
+scanpy	CA1_ProS	0	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+scanpy	CA1_ProS	1	016 CA1-ProS Glut	016 CA1-ProS Glut	Deep-associated expression program enriched	Deep-associated expression program enriched	False	False
+scanpy	CA1_ProS	2	016 CA1-ProS Glut	016 CA1-ProS Glut	Superficial-associated expression program enriched	Mixed or weak layer-associated expression programs	False	False
+scanpy	CA1_ProS	3	016 CA1-ProS Glut	016 CA1-ProS Glut	Superficial-associated expression program enriched	Superficial-associated expression program enriched	False	False
+scanpy	CA1_ProS	4	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Deep-associated expression program enriched	False	False
+scanpy	CA1_ProS	5	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+scanpy	CA1_ProS	6	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+scanpy	CA1_ProS	7	016 CA1-ProS Glut	016 CA1-ProS Glut	Superficial-associated expression program enriched	Superficial-associated expression program enriched	False	False
+scanpy	CA1_ProS	8	016 CA1-ProS Glut; Microglia-associated signature review	016 CA1-ProS Glut; Astrocyte/Microglia/Other_immune-associated signature review	Layer program not assigned: conflicting identity signatures	Layer program not assigned: conflicting identity signatures	False	False
+seurat	allcells	1	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	2	327 Oligo NN	327 Oligo NN	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	3	319 Astro-TE NN	319 Astro-TE NN; Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	4	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	5	Mixed/uncertain Excitatory / Inhibitory	Mixed/uncertain Excitatory / Inhibitory	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	6	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	7	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	8	334 Microglia NN	334 Microglia NN; Other_immune-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	9	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	10	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	11	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	12	326 OPC NN	326 OPC NN; Astrocyte/Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	13	033 NP SUB Glut	033 NP SUB Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	14	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	15	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	16	037 DG Glut	037 DG Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	17	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	18	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	19	Mixed/uncertain Vascular / Excitatory	333 Endo NN; Vascular-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	20	008 L2/3 IT ENT Glut	008 L2/3 IT ENT Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	21	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	22	011 L2 IT ENT-po Glut	011 L2 IT ENT-po Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	23	Mixed/uncertain Vascular / Excitatory	Mixed/uncertain Vascular / Excitatory	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	24	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	25	327 Oligo NN	327 Oligo NN	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	26	Vascular; mixed atlas subclasses	330 VLMC NN; Astrocyte-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	27	Mixed/uncertain Ependymal / Other_reference	323 Ependymal NN; Astrocyte/Ependymal-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	28	034 NP PPP Glut	034 NP PPP Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	29	Mixed/uncertain Oligodendrocyte / Microglia; Microglia-associated signature review	327 Oligo NN; Microglia/Other_immune-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	30	024 L5 PPP Glut	024 L5 PPP Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	31	016 CA1-ProS Glut; Microglia-associated signature review	016 CA1-ProS Glut; Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	32	Mixed/uncertain Astrocyte / Oligodendrocyte; Oligodendrocyte-associated signature review	Mixed/uncertain Astrocyte / Oligodendrocyte; Oligodendrocyte-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	33	Vascular; mixed atlas subclasses	Vascular; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	34	Mixed/uncertain Astrocyte / Microglia; Microglia-associated signature review	Mixed/uncertain Astrocyte / Microglia; Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	allcells	35	326 OPC NN; Microglia-associated signature review	326 OPC NN; Microglia-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	1	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	2	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	3	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	4	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	5	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	6	019 L2/3 IT PPP Glut	019 L2/3 IT PPP Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	7	033 NP SUB Glut	033 NP SUB Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	8	016 CA1-ProS Glut	016 CA1-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	9	023 SUB-ProS Glut	023 SUB-ProS Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	10	037 DG Glut	037 DG Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	11	031 CT SUB Glut	031 CT SUB Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	12	028 L6b/CT ENT Glut	028 L6b/CT ENT Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	13	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	14	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	15	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	16	017 CA3 Glut	017 CA3 Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	17	008 L2/3 IT ENT Glut	008 L2/3 IT ENT Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	18	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	19	011 L2 IT ENT-po Glut	011 L2 IT ENT-po Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	20	036 HPF CR Glut	036 HPF CR Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	21	Excitatory; mixed atlas subclasses; Microglia-associated signature review	016 CA1-ProS Glut; Astrocyte/Microglia/Other_immune-associated signature review	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	22	Excitatory; mixed atlas subclasses	Excitatory; mixed atlas subclasses	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	23	034 NP PPP Glut	034 NP PPP Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Excitatory	24	024 L5 PPP Glut	024 L5 PPP Glut	Not assessed in this population	Not assessed in this population	False	False
+seurat	Inhibitory	1	052 Pvalb Gaba	052 Pvalb Gaba	Pvalb_Basket_cells expression program enriched	Pvalb_Basket_cells expression program enriched	False	False
+seurat	Inhibitory	2	053 Sst Gaba	053 Sst Gaba	Sst_O-LM expression program enriched	Sst_O-LM expression program enriched	False	False
+seurat	Inhibitory	3	046 Vip Gaba	046 Vip Gaba	IS-3 expression program enriched	IS-3 expression program enriched	False	False
+seurat	Inhibitory	4	050 Lamp5 Lhx6 Gaba	050 Lamp5 Lhx6 Gaba	Ivy_cells_CGE expression program enriched	Ivy_cells_CGE expression program enriched	False	False
+seurat	Inhibitory	5	052 Pvalb Gaba	052 Pvalb Gaba	Pvalb_Bistratified expression program enriched	Pvalb_Bistratified expression program enriched	False	False
+seurat	Inhibitory	6	053 Sst Gaba	053 Sst Gaba	Sst_Backprojection expression program enriched	Sst_Backprojection expression program enriched	False	False
+seurat	Inhibitory	7	049 Lamp5 Gaba	049 Lamp5 Gaba	Ivy_cells_MGE expression program enriched	Ivy_cells_MGE expression program enriched	False	False
+seurat	Inhibitory	8	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Sst_O-LM expression program enriched	Sst_O-LM expression program enriched	False	False
+seurat	Inhibitory	9	047 Sncg Gaba	047 Sncg Gaba	Cck_R-LM border expression program enriched	Cck_R-LM border expression program enriched	False	False
+seurat	Inhibitory	10	053 Sst Gaba	053 Sst Gaba	Sst_Hippocamposeptal expression program enriched	Sst_Hippocamposeptal expression program enriched	False	False
+seurat	Inhibitory	11	051 Pvalb chandelier Gaba	051 Pvalb chandelier Gaba	Pvalb_Bistratified expression program enriched	Pvalb_Bistratified expression program enriched	False	False
+seurat	Inhibitory	12	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Cck_Non-border expression program enriched	Cck_Non-border expression program enriched	False	False
+seurat	Inhibitory	13	048 RHP-COA Ndnf Gaba	048 RHP-COA Ndnf Gaba	Trilaminar_cells expression program enriched	Trilaminar_cells expression program enriched	False	False
+seurat	Inhibitory	14	046 Vip Gaba	046 Vip Gaba	Cck_R-LM border expression program enriched	Cck_R-LM border expression program / IS-3 mixed	False	False
+seurat	Inhibitory	15	048 RHP-COA Ndnf Gaba	048 RHP-COA Ndnf Gaba	Trilaminar_cells expression program enriched	Trilaminar_cells expression program enriched	False	False
+seurat	Inhibitory	16	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Unresolved inhibitory expression program	NGF_IS expression program enriched	False	False
+seurat	Inhibitory	17	053 Sst Gaba	053 Sst Gaba	Sst_Hippocamposeptal expression program / ZBtb20_Mgat4c_Module mixed	Sst_Hippocamposeptal expression program / ZBtb20_Mgat4c_Module mixed	False	False
+seurat	Inhibitory	18	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Cholinergic neurons expression program enriched	Unresolved expression program: sparse WT marker evidence	False	False
+seurat	Inhibitory	19	Inhibitory; mixed atlas subclasses	Inhibitory; mixed atlas subclasses	Nrg1-Ptprd_Module expression program enriched	Nrg1-Ptprd_Module expression program enriched	False	False
+seurat	Inhibitory	20	Inhibitory; mixed atlas subclasses; Microglia-associated signature review	052 Pvalb Gaba; Microglia/Other_immune-associated signature review	NGF_IS expression program / Cholinergic neurons mixed	Unresolved expression program: sparse WT marker evidence	False	False
+seurat	CA1_ProS	1	016 CA1-ProS Glut	016 CA1-ProS Glut	Deep-associated expression program enriched	Deep-associated expression program enriched	False	False
+seurat	CA1_ProS	2	016 CA1-ProS Glut	016 CA1-ProS Glut	Superficial-associated expression program enriched	Superficial-associated expression program enriched	False	False
+seurat	CA1_ProS	3	016 CA1-ProS Glut	016 CA1-ProS Glut	Superficial-associated expression program enriched	Superficial-associated expression program enriched	False	False
+seurat	CA1_ProS	4	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+seurat	CA1_ProS	5	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Deep-associated expression program enriched	False	False
+seurat	CA1_ProS	6	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+seurat	CA1_ProS	7	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+seurat	CA1_ProS	8	016 CA1-ProS Glut	016 CA1-ProS Glut	Superficial-associated expression program enriched	Superficial-associated expression program enriched	False	False
+seurat	CA1_ProS	9	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+seurat	CA1_ProS	10	016 CA1-ProS Glut	016 CA1-ProS Glut	Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	False	False
+seurat	CA1_ProS	11	016 CA1-ProS Glut; Microglia-associated signature review	016 CA1-ProS Glut; Astrocyte/Microglia/Other_immune-associated signature review	Layer program not assigned: conflicting identity signatures	Layer program not assigned: conflicting identity signatures	False	False

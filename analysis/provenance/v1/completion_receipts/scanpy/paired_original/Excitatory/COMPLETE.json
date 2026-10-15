@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "population": "Excitatory",
+  "n_nuclei": 60849,
+  "n_genes": 32285,
+  "n_pcs": 30,
+  "clusters_unintegrated": 21,
+  "clusters_harmony": 19,
+  "branch_counts_digest": "3fb0a0e14ea61f5c99e53c8dca7135102d6b316bc4a0f9a2733a262b172b58dc",
+  "count_preservation_verified": true,
+  "count_branch": "paired_original",
+  "versions": {
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pandas": "2.3.3",
+    "harmonypy": "2.1.0",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "scikit-misc": "0.5.3",
+    "scikit-learn": "1.9.1"
+  },
+  "config_sha256": "165ccde77eab965792d0a6efb7e92247d38e89bbc9dbd98afc7608a0883c033a",
+  "common_hvg_sha256": "2ef135f5143f49e9c014f129c01de823cdca00f155ea5a2f8b2c513debc0014f",
+  "scanpy_h5ad_sha256": "75566213788572d9de822c80961c9f35b73fdf28064b78de33f03a80d5551aee",
+  "seconds": 202.81861650000792
+}

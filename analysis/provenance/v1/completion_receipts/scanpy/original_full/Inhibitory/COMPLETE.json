@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "population": "Inhibitory",
+  "n_nuclei": 8911,
+  "n_genes": 32285,
+  "n_pcs": 30,
+  "clusters_unintegrated": 16,
+  "clusters_harmony": 17,
+  "branch_counts_digest": "6b0044cea6bb29280eb57a396e592cf15d18b53163c85971d0de38fe29df7fc1",
+  "count_preservation_verified": true,
+  "count_branch": "original_full",
+  "versions": {
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pandas": "2.3.3",
+    "harmonypy": "2.1.0",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "scikit-misc": "0.5.3",
+    "scikit-learn": "1.9.1"
+  },
+  "config_sha256": "c5b7d5a04dae46b164be3b6a2ef9e65a9cf319b11ecab260738eb39b7416d130",
+  "common_hvg_sha256": "35a273ad7a4df1cf1ba963e06faea0a8c44c52d775e1083fb4fb3874c6efc77e",
+  "scanpy_h5ad_sha256": "efadb665ad895f10a87787632bd65092ffaf4f07f9297d6203600d45708cfd6a",
+  "seconds": 63.568005457986146
+}

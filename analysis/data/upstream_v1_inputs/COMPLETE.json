@@ -1,0 +1,32 @@
+{
+  "status": "COMPLETE",
+  "primary_nuclei": 108062,
+  "paired_nuclei": 104298,
+  "genotype_replication": "six WT and six cKO independent mice in every branch",
+  "MapMyCells": "existing same-original-count query labels, verified exact nucleus IDs; no identical mapping refit",
+  "QC": "audited original primary QC and singlet calls reused; no new exclusions",
+  "files": {
+    "QC_RETENTION_AND_COUNT_SUMMARY.tsv": "da93af2cfe3049dc9bf0f4aded1c13fb74230c70bd694b6dd5cbb2f9259927d4",
+    "scanpy_paired_cellbender.json": "aa1677bcd2de2375b456d3449bd6dbd730a4889869bad57f5aafeb4fab573eb3",
+    "COUNT_BRANCH_COVERAGE.tsv": "d36c1c299cbe9dfac64757e06cdcf905c1c6a9fb48c33d333daa565705d343b6",
+    "roster_paired_cellbender.tsv": "cf48b90da0e7854e39ea91f03bd6070fd02fab0c800ff6521a63d75b4a287b80",
+    "scanpy_paired_original.json": "165ccde77eab965792d0a6efb7e92247d38e89bbc9dbd98afc7608a0883c033a",
+    "seurat_paired_original.json": "a4a12eadbad47a6b28b5d259143cbc301f0e61debbc3cef115342b86f2c509ac",
+    "seurat_paired_cellbender.json": "70d5541f6f5d6844c5bf8bb18272a8f75b6a4f791ae445b8898bd1dbb150a912",
+    "QC_REVIEW.pdf": "47f61eb5d8a89ccbb49b5113a6fb55635c98befb3877c0b50709eaab9e5c2e7f",
+    "SOURCE_PROVENANCE.tsv": "4eee09fca73dc6b565a5e7725ccc3eb277ec52b20c4e9d2e300376628e84c16e",
+    "roster_original_full.tsv": "2993d5e8ad8dc9e34119b31f9938a1529ec0bef589f2faf79ac60e62e6dc2c71",
+    "MapMyCells_original_predictions.tsv": "92ec4ab9b1e745df8f838dfa3a782153c986e887a516377a4e90fd784daf96e4",
+    "samples_original_full.tsv": "13d99c9e3031cae30dfe8abd879a5a394547a1e1c252465d03d2387216744270",
+    "roster_paired_original.tsv": "cf48b90da0e7854e39ea91f03bd6070fd02fab0c800ff6521a63d75b4a287b80",
+    "samples_paired_original.tsv": "898df17ff05e893c7f99ea652cec890560df47ed8b8abd1417bbd77d077ff82a",
+    "marker_review_panels.tsv": "c8a02eda664faa36b83b550a610754ee227b359166741e5a41421b8dce1e26c5",
+    "scanpy_original_full.json": "c5b7d5a04dae46b164be3b6a2ef9e65a9cf319b11ecab260738eb39b7416d130",
+    "gene_features.tsv": "2bae4d3c1e76234813eede4742641838dd55691367bc0d646447eb6c3f7c03b6",
+    "labels_paired_original.tsv": "d0bb8b88e86d55d51bba0c8db525414207e17cfc76ef0ab234408964aeafb3d3",
+    "samples_paired_cellbender.tsv": "9d2d2cb9d5dd80e017f9b9a05343452adc736fdcef0a224f2af7fdae906acb00",
+    "labels_paired_cellbender.tsv": "d0bb8b88e86d55d51bba0c8db525414207e17cfc76ef0ab234408964aeafb3d3",
+    "labels_original_full.tsv": "a7b16d0837d32ac61b23efc3b56dcc6b057517038b8389160f6affed9c5c4ee4",
+    "seurat_original_full.json": "38868931bf6850087fe328611e3a165cccccafc60334804ad8150c15e0268d7c"
+  }
+}

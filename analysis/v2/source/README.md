@@ -1,0 +1,9 @@
+# SATB2 downstream revision2.0.0
+
+This immutable native Snakemake source continues the selected Scanpy/Seurat5/MapMyCells reanalysis with complete cluster review, full-cohort annotated UMAP/dotplot books, user-defined All/EX≥100 shared filtering, DESeq2-only total/cluster/category inference and controlled CA1/ProS concordance diagnostics. It uses the completed v1 run as read-only input and writes exclusively to a separate v2 run root. Existing embeddings and cluster identities are intentionally reused; fixed-input diagnostic controls are explicitly secondary. No prior analysis is overwritten.
+
+Configuration is an absolute JSON master with run_root, previous_run_root, results_root, installed python_executable/Rscript_executable and the annotation/plots/deseq2 contracts described by the adjacent module READMEs. All scientific execution occurs in the cataloged Snakefile after native readiness/plan execution. There are no installation hooks, network downloads or external messaging. Four-core rules make memory-intensive tasks serial. Counts are sparse until gene×mouse aggregation; every source gene remains available for inference.
+
+The latest user clarification means every available inhibitory nucleus enters its mouse×cluster aggregate, and all nonempty mouse aggregates are eligible subject to independent-mouse replication. min_nuclei=1 is explicit; low coverage flags remain descriptive caution. The only differential-expression engine in this revision is DESeq2. The exact seven export fields are gene,baseMean,log2FoldChange,lfcSE,stat,pvalue,padj, with source symbols and separate stable-ID audits.
+
+See the project ANALYSIS_PLAN.md for the biological design, coverage/universe policies, layers-as-programs distinction and acceptance criteria. A completed controller is followed by human-readable output review; module COMPLETE receipts initially mean execution requires review, not accepted biological truth.

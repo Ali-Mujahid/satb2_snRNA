@@ -1,0 +1,26 @@
+{
+  "status": "COMPLETE",
+  "exact_integer_counts_PASS": true,
+  "config_sha256": "d0876f53645fccbcc78606f80c3bb9961edb4fc4959084bb5a036b3aa502abef",
+  "validated_sources": {
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/prepared/original_full/POPULATION_INDEX.tsv": "b3ff46d106afb3da41fca6b22e059a7def56a9293cafa3baaeaac04d66c6d0ed",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/prepared/original_full/POPULATION_MEMBERSHIPS.tsv.gz": "b79a7f04f8e020bb623a7d9a8e4657f8a5b95239dc5418b236587501846f0815",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/original_full/POPULATION_INDEX.tsv": "278a708a9ea8adc749e8341643fe29d22385d798c729eee0b45d93b9bf0e9c6c",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/original_full/POPULATION_ATOMS.tsv": "966ea1e6de24ffe39d8ede3f6a42761631ec1e11640eb96c00016ace5e4f418a",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/original_full/branch_counts.h5ad": "e1d33c0f5143789de53de56f4c2faab4e659663418a91c2f92077ec7204a7e3f",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/prepared/paired_original/POPULATION_INDEX.tsv": "e5ab6c09e81c868c0bc7cd47d77487313ae652d05b20782241da988f273d11a8",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/prepared/paired_original/POPULATION_MEMBERSHIPS.tsv.gz": "087ffdf64a2f9eaa515a1d5baac4a06f9770565377165e37aa221e9f55e13e85",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_original/POPULATION_INDEX.tsv": "fefde910efb6ec2c8b6fae16532b99e1bd9f689fab678d1000787cb057fb0377",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_original/POPULATION_ATOMS.tsv": "966ea1e6de24ffe39d8ede3f6a42761631ec1e11640eb96c00016ace5e4f418a",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_original/branch_counts.h5ad": "7d78d707b56f2e01c5c44f73a71e6f88b9b01677bade4e76a9392e3f546e9b6e",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/prepared/paired_cellbender/POPULATION_INDEX.tsv": "65124c54ae244da23c565ae74b055611f3e771d14bd8cf90aad3e322988e5557",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/prepared/paired_cellbender/POPULATION_MEMBERSHIPS.tsv.gz": "8cbb58346d0c554cb28fe0f274f27a4c5a714e49c1ce4122c96d01c02b29dc87",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_cellbender/POPULATION_INDEX.tsv": "cfefb37a00a13de70eae10296c5f080a1ca852e1fc596b7fe9c2fc5e5bf81584",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/populations/paired_cellbender/POPULATION_ATOMS.tsv": "966ea1e6de24ffe39d8ede3f6a42761631ec1e11640eb96c00016ace5e4f418a",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_cellbender/branch_counts.h5ad": "2730ad583eccfb37cc27f660d9ff24d22204eca8a0ecfdf7be1f6071be23ec22"
+  },
+  "n_population_arrays": 1437,
+  "n_entries_checked": 556722540,
+  "n_differing_entries": 0,
+  "check": "independent Python raw shared .X streaming; all genes and all12 mice; final disjoint unions"
+}

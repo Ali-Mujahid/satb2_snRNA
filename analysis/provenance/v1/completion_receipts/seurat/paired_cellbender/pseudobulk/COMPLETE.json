@@ -1,0 +1,8 @@
+{
+  "status": "EXECUTED_REVIEW_REQUIRED",
+  "stage": "pseudobulk",
+  "count_source": "paired_cellbender",
+  "completed_utc": "2026-10-13T14:05:37Z",
+  "source_nuclei": 104298,
+  "scientific_acceptance": "NOT_ASSESSED"
+}

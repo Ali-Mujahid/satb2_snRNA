@@ -1,0 +1,29 @@
+{
+  "status": "COMPLETE",
+  "population": "CA1_ProS",
+  "n_nuclei": 27672,
+  "n_genes": 32285,
+  "n_pcs": 30,
+  "clusters_unintegrated": 12,
+  "clusters_harmony": 9,
+  "branch_counts_digest": "110a1d15c9ea0a86bb9f5f006ad46aacbb76ac893a254e8d7c881583f951c9e9",
+  "count_preservation_verified": true,
+  "count_branch": "paired_original",
+  "versions": {
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "h5py": "3.16.0",
+    "pandas": "2.3.3",
+    "harmonypy": "2.1.0",
+    "igraph": "1.0.0",
+    "leidenalg": "0.12.0",
+    "scikit-misc": "0.5.3",
+    "scikit-learn": "1.9.1"
+  },
+  "config_sha256": "165ccde77eab965792d0a6efb7e92247d38e89bbc9dbd98afc7608a0883c033a",
+  "common_hvg_sha256": "20cbfe356fca644618d89acf2c5c9a0e802c12274a4d7690ff9376c92211f8af",
+  "scanpy_h5ad_sha256": "67ad014920877d25c4d01b8ecb52dc8ccdfd8a8bed414574e3e41fb1305a145e",
+  "seconds": 100.35719479201362
+}

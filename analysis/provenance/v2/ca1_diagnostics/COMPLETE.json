@@ -1,0 +1,6 @@
+{
+  "status": "COMPLETE",
+  "scope": "CA1_ProS_fixed_saved_PC_and_graph_controls",
+  "primary_memberships_unchanged": true,
+  "interpretation": "Iteration controls isolate iteration effects within each fixed graph and runner. Original Python adjacency conversion keeps symmetric parallel pairs and stored loops; native Seurat uses lower off-diagonal edges once and singleton grouping. Additional canonical-lower controls standardize graph conversion under the Python runner. Source graph differences still include upstream latent-space differences; graph metrics alone do not establish causality. Molecular atlas/marker evidence is assessed independently."
+}
