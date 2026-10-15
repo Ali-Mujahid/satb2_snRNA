@@ -1,0 +1,6 @@
+*.json.gz -text -diff
+*.pdf -text -diff
+*.png -text -diff
+*.xlsx -text -diff
+*.min.js -text
+
