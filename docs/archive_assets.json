@@ -1,0 +1,24 @@
+{
+  "status": "PREPARED",
+  "source_portable_zip_sha256": "cd50e24307ddba0ed19016ea2fa8d21bba9184852d5f457fc178e6d1b11d8b3b",
+  "assets": [
+    {
+      "asset_name": "SATB2_atlas_v2_runtime.zip",
+      "bytes": 1893535308,
+      "sha256": "0b0b1da9e5445e13c70daac9b69ac7ce9dab0153538742343181afe320090be7",
+      "kind": "offline_runtime"
+    },
+    {
+      "asset_name": "SATB2_atlas_v2_saved_results.zip",
+      "bytes": 2076512452,
+      "sha256": "5beb3b65ed8305da07bcbd0410f18bba6730384f8bdb74dedff170ec7d401db8",
+      "kind": "offline_saved_results"
+    },
+    {
+      "asset_name": "SATB2_analysis_source_v2.zip",
+      "bytes": 214378356,
+      "sha256": "67dbec9cc81d98834ceab249abdf04593cccb332052b4753b5becea69972d0e8",
+      "kind": "analysis_source"
+    }
+  ]
+}

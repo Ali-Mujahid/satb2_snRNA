@@ -1,0 +1,46 @@
+{
+  "schema": "satb2-split-archive-independent-QA-1",
+  "status": "PASS",
+  "created_utc": "2026-10-15T11:55:21.965058+00:00",
+  "source_archive_sha256": "cd50e24307ddba0ed19016ea2fa8d21bba9184852d5f457fc178e6d1b11d8b3b",
+  "source_archive_bytes": 3969698470,
+  "source_member_count": 12837,
+  "source_uncompressed_bytes": 6311943788,
+  "source_all_member_payloads_read_CRC_and_SHA256": true,
+  "archive_assets_manifest_sha256": "dd9c285f2f15cd86b3ea078aab534caafb7fb56ec1821711278a303743dd5c69",
+  "split_archives": [
+    {
+      "asset_name": "SATB2_atlas_v2_runtime.zip",
+      "archive_bytes": 1893535308,
+      "archive_sha256": "0b0b1da9e5445e13c70daac9b69ac7ce9dab0153538742343181afe320090be7",
+      "manifest_size_and_sha256_match": true,
+      "member_count": 3294,
+      "uncompressed_bytes": 2498651989,
+      "all_member_payloads_read_CRC_and_SHA256": true,
+      "stable_file_stat_during_review": true
+    },
+    {
+      "asset_name": "SATB2_atlas_v2_saved_results.zip",
+      "archive_bytes": 2076512452,
+      "archive_sha256": "5beb3b65ed8305da07bcbd0410f18bba6730384f8bdb74dedff170ec7d401db8",
+      "manifest_size_and_sha256_match": true,
+      "member_count": 9543,
+      "uncompressed_bytes": 3813291799,
+      "all_member_payloads_read_CRC_and_SHA256": true,
+      "stable_file_stat_during_review": true
+    }
+  ],
+  "union_member_count": 12837,
+  "missing_member_count": 0,
+  "extra_member_count": 0,
+  "duplicate_member_count": 0,
+  "size_CRC_or_payload_SHA_mismatch_count": 0,
+  "exact_member_name_union_PASS": true,
+  "all_member_CRC_uncompressed_size_PASS": true,
+  "all_member_streaming_SHA256_PASS": true,
+  "source_and_archives_modified": false,
+  "scientific_execution_performed": false,
+  "network_writes_performed": false,
+  "scope": "Two completed offline runtime/saved_results normal ZIPs against the immutable original v2 ZIP. Full decoded member bytes streamed for both source and destinations. Analysis source ZIP is separate and not included in this two-way union.",
+  "elapsed_seconds_target_review": 16.26001524925232
+}
