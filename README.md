@@ -53,13 +53,23 @@ analyses; these are not falsely described as full-gene standalone R objects.
 
 ## Offline use
 
-Download **both** `SATB2_atlas_v2_runtime.zip` and
-`SATB2_atlas_v2_saved_results.zip`. Extract them into the same parent folder,
-allowing their common `offline_dashboard_v2/` folder to merge, then open its
-`index.html`. They are independent ordinary ZIPs, not spanned archive volumes.
-Together they preserve the complete original portable atlas, native source
-tables, 67 PDF books and 450 individually indexed figure pages. The included
-bundle manifest records every original file hash.
+Download the **recommended corrected runtime** `SATB2_atlas_v2_1_runtime.zip`
+and the unchanged companion `SATB2_atlas_v2_saved_results.zip`. Extract both
+into the same parent folder, allowing their common `offline_dashboard_v2/`
+folder to merge, then open its `index.html`. They are independent ordinary
+ZIPs, not spanned archive volumes.
+
+The v2.1 runtime corrects tiny P-value scientific-notation display and retains
+the selected overlay gene when using the gene-search controls. Scientific
+payloads, model results and the classic offline data loader are unchanged.
+The original `SATB2_atlas_v2_runtime.zip` remains available as a **legacy
+original**. Use the recommended v2.1 runtime for corrected offline exploration.
+
+Together, the corrected runtime and unchanged saved-results companion retain
+the original source tables, 67 PDF books and 450 individually indexed figure
+pages. The combined bundle manifest updates the two UI-file hashes while
+preserving all other file hashes. See [UI update provenance](docs/offline_ui_update.json)
+and [the derivative archive builder](scripts/build_corrected_offline_runtime.py).
 
 `SATB2_analysis_source_v2.zip` supplies an additional source/reference snapshot.
 The website does not need processed AnnData/RDS files to operate. Those files

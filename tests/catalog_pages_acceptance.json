@@ -1,11 +1,12 @@
 {
   "status": "PASS",
   "scope": "PURE_VM_MOCK_DOM_NOT_BROWSER",
-  "checks": 8,
+  "checks": 9,
   "check_names": [
-    "All95 source assets have navigable links",
+    "All96 source assets have navigable links",
+    "Corrected runtime is recommended while original stays explicitly legacy",
     "Six exact illustrated PDF thumbnails",
-    "Archive filter isolates3complete packages",
+    "Archive filter isolates4complete packages",
     "Processed object filter isolates28 native objects",
     "Example filter isolates6matching PDFs",
     "Empty search result has honest empty state",

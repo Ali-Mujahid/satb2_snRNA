@@ -1,0 +1,51 @@
+{
+  "schema": "satb2-offline-ui-update-1",
+  "status": "PREPARED_AND_VERIFIED",
+  "release_tag": "atlas-v2.1.0",
+  "source_archive": "SATB2_atlas_v2_runtime.zip",
+  "source_archive_sha256": "0b0b1da9e5445e13c70daac9b69ac7ce9dab0153538742343181afe320090be7",
+  "derivative_archive": "SATB2_atlas_v2_1_runtime.zip",
+  "derivative_archive_sha256": "6036c57197a3ba2f7ba6aafac2f97f87e5809b253dc97f1e1c46a1426884fc6f",
+  "derivative_archive_bytes": 1893537262,
+  "zip_entries": 3294,
+  "unchanged_compressed_entries_verified": 3291,
+  "changed_ui_files": [
+    {
+      "path": "app.js",
+      "source_sha256": "8f6ca4c5b4a3b37dbfa85185891ec370825d494da938c0a88c4df5fde7571ad8",
+      "source_bytes": 87309,
+      "derivative_sha256": "2db7c675298a2c7bbe756f95242a6b573d0cded1b8629080d3039df34ab27b66",
+      "derivative_bytes": 87608
+    },
+    {
+      "path": "index.html",
+      "source_sha256": "cf8af7818dc74ccffcd27c337a6a38c1ef4509ee3ef1ea974d84f5dd33c6eba9",
+      "source_bytes": 20147,
+      "derivative_sha256": "96a6ead450315956bd88d15209b91f2b5d7e2da29009b38994a99de33a81f8a0",
+      "derivative_bytes": 20145
+    }
+  ],
+  "bundle_manifest_sha256": "5e40be883b02f2a61f07e4b3e6ffa3ea617bea353e513bcf2c645f8bc61c8de1",
+  "bundle_manifest_scope": "Combined offline_dashboard_v2 folder after extracting runtime and unchanged saved-results companion; manifest excludes itself as in original package",
+  "companion_saved_results_archive": "SATB2_atlas_v2_saved_results.zip",
+  "companion_saved_results_sha256": "5beb3b65ed8305da07bcbd0410f18bba6730384f8bdb74dedff170ec7d401db8",
+  "transport": "UNCHANGED_CLASSIC_LOCAL_SCRIPT_GZIP_BASE64",
+  "changes": [
+    "Correct scientific notation by trimming fractional mantissa zeros without editing exponent digits",
+    "Show selected gene on UMAP; retain the chosen gene when the search filters other options"
+  ],
+  "validation": {
+    "number_format_examples": 20,
+    "exponent_preservation_cases": 8,
+    "overlay_selection_checks": 6,
+    "original_api_helper_keys": "PASS",
+    "classic_loader_source_identical": true,
+    "all_unchanged_entry_compressed_bytes": "PASS",
+    "zip_CRC_all_entries": "PASS",
+    "original_archive_preserved": "PASS"
+  },
+  "scientific_fitting_performed": false,
+  "raw_nucleus_count_aggregation_performed": false,
+  "scientific_payloads_modified": false,
+  "original_or_previous_v2_files_modified": false
+}
