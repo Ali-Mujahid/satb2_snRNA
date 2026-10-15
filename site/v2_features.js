@@ -63,5 +63,32 @@
     const count=Math.max(0,Math.floor(finite(nGenes)?nGenes:0)),rows=Math.max(0,Math.floor(finite(nRows)?nRows:0)),left=clamp(options.labelWidth,80,520,260),column=clamp(options.columnWidth,8,60,18),rowHeight=clamp(options.rowHeight,12,80,26);
     return {gene_count:count,row_count:rows,label_width:left,column_width:column,row_height:rowHeight,width:Math.max(clamp(options.minWidth,320,5000,700),left+count*column+35),height:Math.max(340,rows*rowHeight+115),requires_horizontal_scroll:count>30,page_capacity_options:[60,90,120,180],values_modified:false};
   }
-  global.SATB2_V2={version:'display-helpers-2.0.0',finite,clamp,range,dotGeometry,transformCoordinates,quantile,boxStats,mousePoints,mouseRows,labelSuggestions,markerLayout};
+
+  /* MARKER_ORDERING_HELPERS_START: descriptive display order, never marker/DE evidence. */
+  function markerGroupKey(row) {return (row.source_cluster_ids||[String(row.cluster_id)]).map(String).join('+');}
+  function naturalCompare(a,b) {return String(a).localeCompare(String(b),undefined,{numeric:true});}
+  function markerGroups(rows,options={}) {
+    const unique=new Map();for(const row of rows||[]){const key=markerGroupKey(row);if(!unique.has(key))unique.set(key,{key,label:row.display_label||String(row.cluster_id),ids:(row.source_cluster_ids||[String(row.cluster_id)]).map(String)});}
+    const groups=[...unique.values()].sort((a,b)=>naturalCompare(a.ids[0],b.ids[0])||naturalCompare(a.key,b.key));
+    if(options.mode==='descending')groups.reverse();
+    if(options.mode==='custom') {const tokens=String(options.custom||'').split(/[\s,;]+/).filter(Boolean).map(t=>t.replace(/^C(?=\d)/i,'')),ranks=new Map(tokens.map((t,i)=>[t,i]));groups.sort((a,b)=>(ranks.get(a.key)??Infinity)-(ranks.get(b.key)??Infinity)||naturalCompare(a.ids[0],b.ids[0])||naturalCompare(a.key,b.key));}
+    return groups;
+  }
+  function markerOrdering(geneIds,rows,options={}) {
+    const ids=[...new Set(geneIds||[])],mode=['selection','cluster','focus'].includes(options.mode)?options.mode:'selection',groups=markerGroups(rows),byGene=new Map(ids.map(id=>[id,[]])),groupRank=new Map(groups.map((g,i)=>[g.key,i])),meta={};
+    for(const row of rows||[])if(byGene.has(row.gene_id))byGene.get(row.gene_id).push(row);
+    const score=(a,b)=>(b.contrast-a.contrast)||(b.detected_contrast-a.detected_contrast)||(b.mean-a.mean)||(groupRank.get(a.group)-groupRank.get(b.group));
+    for(const id of ids) {
+      const records=byGene.get(id),valid=records.length===groups.length&&groups.length>1&&records.every(r=>finite(r.mean_log1p_normalized)&&finite(r.n_nuclei)&&r.n_nuclei>0),candidates=[];
+      if(valid)for(const r of records){const other=records.filter(x=>markerGroupKey(x)!==markerGroupKey(r)),denom=other.reduce((n,x)=>n+x.n_nuclei,0),rest=other.reduce((n,x)=>n+x.mean_log1p_normalized*x.n_nuclei,0)/denom,detectValid=records.every(x=>finite(x.fraction_detected)),restDetected=detectValid?other.reduce((n,x)=>n+x.fraction_detected*x.n_nuclei,0)/denom:null;candidates.push({group:markerGroupKey(r),contrast:r.mean_log1p_normalized-rest,detected_contrast:detectValid?r.fraction_detected-restDetected:0,mean:r.mean_log1p_normalized});}
+      candidates.sort(score);const best=candidates[0],tied=best&&best.contrast>1e-12?candidates.filter(c=>Math.abs(c.contrast-best.contrast)<=1e-12&&Math.abs(c.detected_contrast-best.detected_contrast)<=1e-12):[],assigned=best&&best.mean>0&&best.contrast>1e-12&&tied.length===1,focus=candidates.find(c=>c.group===options.focus);
+      meta[id]={gene_id:id,peak_group:assigned?best.group:null,peak_contrast:best?.contrast??null,peak_detected_contrast:best?.detected_contrast??null,focus_contrast:focus?.contrast??null,focus_detected_contrast:focus?.detected_contrast??null,peak_tied:tied.length>1,tied_groups:tied.map(c=>c.group),ordering_status:!valid?'INCOMPLETE_OR_SINGLE_GROUP':assigned?'DESCRIPTIVE_UNIQUE_POSITIVE_PATTERN':tied.length>1?'TIED_PATTERN_UNASSIGNED':'FLAT_OR_ZERO_UNASSIGNED'};
+    }
+    const original=new Map(ids.map((id,i)=>[id,i]));let ordered=ids.slice();
+    if(mode==='cluster')ordered.sort((a,b)=>{const x=meta[a],y=meta[b];return (groupRank.get(x.peak_group)??Infinity)-(groupRank.get(y.peak_group)??Infinity)||((x.peak_group!==null&&y.peak_group!==null)?y.peak_contrast-x.peak_contrast||y.peak_detected_contrast-x.peak_detected_contrast:0)||original.get(a)-original.get(b);});
+    if(mode==='focus')ordered.sort((a,b)=>{const x=meta[a],y=meta[b];return (finite(x.focus_contrast)?0:1)-(finite(y.focus_contrast)?0:1)||(finite(x.focus_contrast)&&finite(y.focus_contrast)?y.focus_contrast-x.focus_contrast||y.focus_detected_contrast-x.focus_detected_contrast:0)||original.get(a)-original.get(b);});
+    return {gene_ids:ordered,metadata:meta,groups,mode,focus:options.focus||null,method:'DESCRIPTIVE_MEAN_LOG1P_MINUS_NUCLEUS_WEIGHTED_OTHER_RETAINED_ROWS',statistical_test_performed:false,validated_representative_marker_selection:false};
+  }
+  /* MARKER_ORDERING_HELPERS_END */
+  global.SATB2_V2={version:'display-helpers-2.0.0',finite,clamp,range,dotGeometry,transformCoordinates,quantile,boxStats,mousePoints,mouseRows,labelSuggestions,markerLayout,markerGroupKey,markerGroups,markerOrdering};
 })(typeof window==='undefined'?globalThis:window);

@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "n_checked_count_values": 64548,
+  "branches": [
+    {
+      "branch": "original_full",
+      "n_atomic_arrays": 163,
+      "n_genes": 11,
+      "n_mice": 12,
+      "new_gene_integer_count_comparison": "EXACT_ALL"
+    },
+    {
+      "branch": "paired_original",
+      "n_atomic_arrays": 163,
+      "n_genes": 11,
+      "n_mice": 12,
+      "new_gene_integer_count_comparison": "EXACT_ALL"
+    },
+    {
+      "branch": "paired_cellbender",
+      "n_atomic_arrays": 163,
+      "n_genes": 11,
+      "n_mice": 12,
+      "new_gene_integer_count_comparison": "EXACT_ALL"
+    }
+  ],
+  "native_fullgene_count_arrays_read_only": true,
+  "new_scientific_execution": false,
+  "extension_complete_sha256": "8ad76f80caeaf8226b096e4e6dd760e692eb0dc927b1d45b3c061c5d7df16fb7",
+  "producer_sha256": "39d4caaac8d6202267c262dfab120223efe703e71a453348b3f7bdae9b98188e"
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "branch": "original_full",
+    "n_rows": 5868,
+    "integer_sums": "EXACT",
+    "max_abs_log_sum_error": 4.973799150320701e-13,
+    "relative_tolerance": 2e-12,
+    "absolute_tolerance": 1e-10
+  },
+  {
+    "branch": "paired_original",
+    "n_rows": 5868,
+    "integer_sums": "EXACT",
+    "max_abs_log_sum_error": 4.973799150320701e-13,
+    "relative_tolerance": 2e-12,
+    "absolute_tolerance": 1e-10
+  },
+  {
+    "branch": "paired_cellbender",
+    "n_rows": 5868,
+    "integer_sums": "EXACT",
+    "max_abs_log_sum_error": 5.115907697472721e-13,
+    "relative_tolerance": 2e-12,
+    "absolute_tolerance": 1e-10
+  }
+]

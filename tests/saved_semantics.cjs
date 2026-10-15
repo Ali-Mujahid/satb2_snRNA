@@ -179,7 +179,7 @@ async function scope(pop,branch='original_full',tab='de'){
   await scope('CA1_ProS','original_full','markers');await app.ensureMarkers();
   const sourceSummaryBytes=JSON.stringify(app.active.scanpy.markers),id0=manifest.genes[0].gene_id;
   app.state.markers=manifest.genes.map(g=>g.gene_id);
-  for(const count of [60,90,120,180]){app.state.genesPerPage=count;check('V2 '+count+' markers per page preserves all878 selected genes',()=>{assert.equal(app.pageGenes(),count);assert.equal(app.state.markers.length,878);assert.equal(app.dotRows('scanpy',app.state.markers.slice(0,count)).length,app.active.scanpy.coords.clusters.filter(c=>app.active.scanpy.coords.nuclei.some(n=>String(n.cluster_id)===String(c.cluster_id))).length*count);});}
+  for(const count of [60,90,120,180]){app.state.genesPerPage=count;check('V2 '+count+' markers per page preserves every selected gene',()=>{assert.equal(app.pageGenes(),count);assert.equal(app.state.markers.length,manifest.genes.length);assert.equal(app.dotRows('scanpy',app.state.markers.slice(0,count)).length,app.active.scanpy.coords.clusters.filter(c=>app.active.scanpy.coords.nuclei.some(n=>String(n.cluster_id)===String(c.cluster_id))).length*count);});}
   app.state.markerMetric='scaled_expression_z';app.state.dotRangeMode='manual';app.state.dotMin=-1;app.state.dotMax=1;
   check('V2 manual z range changes display limits only',()=>{assert.deepEqual(plain(app.markerRange('scanpy',[id0])),[-1,1]);assert.equal(JSON.stringify(app.active.scanpy.markers),sourceSummaryBytes);});
   app.state.dotMin=2;app.state.dotMax=1;check('V2 invalid manual ranges remain explicitly invalid',()=>assert.equal(app.markerRange('scanpy',[id0]),null));

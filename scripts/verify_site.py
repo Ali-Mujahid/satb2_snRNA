@@ -33,7 +33,14 @@ def main():
             path=ref.split('#')[0].split('?')[0]
             if path:assert (h.parent/path).is_file(),(h.name,ref)
     assert len(maps[0]['datasets'])==24
+    assert len(maps[0]['genes'])==889
+    preset=next(p for p in maps[0]['gene_sets'] if p['id']=='screenshot_20261015_75')
+    source=json.loads((ROOT/'analysis/dashboard/v3_marker_extension/manifest_patch.json').read_text())
+    assert preset['gene_ids']==source['gene_sets']['Screenshot75_20261015']
+    assert len(set(preset['gene_ids']))==75
+    assert [g for b in preset['gene_blocks'] for g in b['gene_ids']]==preset['gene_ids']
+    assert maps[0]['marker_extension']['new_scientific_model_fitting_performed'] is False
     assert len(maps[2]['genes'])==32285 and len(maps[2]['fits'])==1060
-    print(json.dumps({'status':'PASS','shards':count,'site_bytes':total,'n_datasets':24,'n_mouse_genes':32285,'n_mouse_endpoints':1060,'scientific_execution_performed':False}))
+    print(json.dumps({'status':'PASS','shards':count,'site_bytes':total,'n_datasets':24,'n_marker_genes':889,'n_screenshot_genes':75,'n_mouse_genes':32285,'n_mouse_endpoints':1060,'scientific_model_fitting_performed':False}))
 
 if __name__=='__main__':main()

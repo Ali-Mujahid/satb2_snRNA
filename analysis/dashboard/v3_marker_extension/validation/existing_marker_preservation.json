@@ -1,0 +1,458 @@
+[
+  {
+    "id": "markers__scanpy__original_full__allcells",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 24584,
+      "WT_rows": 24584,
+      "cKO_rows": 24584
+    },
+    "added_rows_per_scope": 308,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "7fb29b836770596a1f6e614f472f5cb1f3e13bc3063e36f774b8a4e077cfc497",
+      "WT_rows": "b11265ca1cfb3560c3c4cef56a6c098221bdf8670dd0e18d5da2d41b0e09fa6e",
+      "cKO_rows": "7d9d25d51ec8e1a186ac5c2b53d8a66c8ae21e949981e94e8658126c83abc3b7"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "7f31d68a5ac9518542ffb30c3cf2e036dd5f9f37c9ee80126b516bc2404e2763",
+    "extended_gzip_sha256": "e3b260ec89205050a91b56bb3f9a58680bb45c701743f6817e9e03dcb05eff71"
+  },
+  {
+    "id": "markers__scanpy__original_full__Excitatory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 16682,
+      "WT_rows": 16682,
+      "cKO_rows": 16682
+    },
+    "added_rows_per_scope": 209,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "5c5e6ef3e99ab1cbab0997b5dfabf85f339c34e38ae10455120b60cb27177589",
+      "WT_rows": "18bd3d5ba7412c26c4ce398ab3aa68c5fe0dd9c73fbb1ae69f6645efe1153c76",
+      "cKO_rows": "29e4d3b001c31f03956de459a6f5d5b63d37af7ffab6c14516c8fd6ecd4f39fa"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "0281ee59f75d1c4de2da6f3b105a28534a020957b680d2a201dc9dc4c46400fb",
+    "extended_gzip_sha256": "385219b2a4849818dd54f816a86111e55b9bfe8161c718fd8a2c7808effde9bc"
+  },
+  {
+    "id": "markers__scanpy__original_full__Inhibitory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 14926,
+      "WT_rows": 14926,
+      "cKO_rows": 14926
+    },
+    "added_rows_per_scope": 187,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "7334989b2c437ed14e16e5585635b6d6a05359249b6ed80b295391899a6f706f",
+      "WT_rows": "0a311c8e815b3999efd9117dd87dca0dc8495b55ace54a6fa0c9184ec069d8b4",
+      "cKO_rows": "1bc77ee96a361a241c4d89b17331cebdc10365d5915e10164ac1cd97e4e47486"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "f5d49e2473cb8af0211274fb31a503a4f1ea879b33685a497cbcb9d49767aa46",
+    "extended_gzip_sha256": "4737d5bbe18f4cf3a045b3cba414d3b9d37ebb90e17de152858d87a17af9ee8b"
+  },
+  {
+    "id": "markers__scanpy__original_full__CA1_ProS",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 7902,
+      "WT_rows": 7902,
+      "cKO_rows": 7902
+    },
+    "added_rows_per_scope": 99,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "807424c26ef71cc935305c74aa9af25ca47fb185f2e53d8a0ee070b43564fd2f",
+      "WT_rows": "92fd5996ab2d23a697757cf1c86325b6bfa6f5647ee996e59d2801bf1854b10e",
+      "cKO_rows": "7b06f6563a7b5a0b6643addf51d5b8d86ce114d613728df60f0d018971682160"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "fca81d5a61de0a38bbae5cc04d0305fa5ba2cd9b34291f3d07a007d003062a98",
+    "extended_gzip_sha256": "d61bf959b14ee1eb6d68fcfad49c0aa27831379474da013597f9b68e754d5d08"
+  },
+  {
+    "id": "markers__scanpy__paired_original__allcells",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 24584,
+      "WT_rows": 24584,
+      "cKO_rows": 24584
+    },
+    "added_rows_per_scope": 308,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "0bcfc7b653fab8c918d8a14c29cd1cc0a3e937720a50c6612933f9cde19f2950",
+      "WT_rows": "7ea07e451ee3a35036774f878da598a31c4629476d5d5eb0f98ddaa1c23b28d8",
+      "cKO_rows": "f2d9885a5dc98aa46484adb461a6dc5ee65534a793b37abc0035eb28690c7bda"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "546ef67b2af79e31abece9a9d0cf35ba75846973526751227806c503740cc193",
+    "extended_gzip_sha256": "f00b225078e85850e0ba57dd6002ad9343fc18b127b923b1833bf8eebb8d1270"
+  },
+  {
+    "id": "markers__scanpy__paired_original__Excitatory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 16682,
+      "WT_rows": 16682,
+      "cKO_rows": 16682
+    },
+    "added_rows_per_scope": 209,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "3722698fad9805f3cf6e4ecb84e24de628a72b680ea4d1f8767f7704ad3599a0",
+      "WT_rows": "47a0453e3b7718d0136ec649977774ee786a7c3a8914994fd6980d02c14758fe",
+      "cKO_rows": "c0f2afe31f261c7083b26042466a8c1cb751768fb7959bb0b19cf9c18c441ba9"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "1b963ebce1a1cb0708aa8ce0a7391f69c8e6479c8904402cc284c98326321bd1",
+    "extended_gzip_sha256": "b7c7e04bb1cd2a47bcb54f3d359251d2d61038fb56d34ac0a7b14dde417143c7"
+  },
+  {
+    "id": "markers__scanpy__paired_original__Inhibitory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 14926,
+      "WT_rows": 14926,
+      "cKO_rows": 14926
+    },
+    "added_rows_per_scope": 187,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "4e8e3fba26edb95a65de906c52656b0eb295d276e95571d3178dbcae9a5bf635",
+      "WT_rows": "3d8dada6f9361ed938234e2d172ff9168dc5a90ba2b5e93448dd4f71e8e3c28e",
+      "cKO_rows": "589979dfa55e861098d0c3eb7a5f62fd36fedd82a6266e464edb8818ee6cc2ae"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "a3ec10731e275dd16c93bc8f5ca40615c8d6d762bf620798b894febd86eb18bb",
+    "extended_gzip_sha256": "1901f785fc2fd114b334a43201df6b42b293ac4f2f75f30b8d3a980ce7815436"
+  },
+  {
+    "id": "markers__scanpy__paired_original__CA1_ProS",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 7902,
+      "WT_rows": 7902,
+      "cKO_rows": 7902
+    },
+    "added_rows_per_scope": 99,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "c6ab7cd15961acc3cbc94651bc93f4694a51ca00d1095872ca57f7daf357cd3b",
+      "WT_rows": "536643a28ceaa0754c78a31f8f0096a515974ffd3dc9e2fdf5375d236485df16",
+      "cKO_rows": "6afaea53a93232bdb15f412b81d8a75f696794bb9605f3744fc80c28d2063452"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "bf1f9dac1ac0c742d0686de887363de1da439df6c306c52857e423552e6a7530",
+    "extended_gzip_sha256": "d9ff724d69a24f0ceff16f08012872880fd18cb5fb5f2935c254f2413077e6e7"
+  },
+  {
+    "id": "markers__scanpy__paired_cellbender__allcells",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 24584,
+      "WT_rows": 24584,
+      "cKO_rows": 24584
+    },
+    "added_rows_per_scope": 308,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "f5056768e72fc49dad76e7c343203aa9cb366b01106ce957ce1fefd6f8c1325f",
+      "WT_rows": "50334d7f7dd0e2685eda7c55036f2df320960631ce4c39c3511387f80d104378",
+      "cKO_rows": "70c3354e95bfe2f7fad447be00de0f7d8b68ba8e0ca48eb4c1fc675f0d6d089d"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "bb8ed1d86ef9827030a5a54fea9ce275d0a8c845ea701558909fb727c8eca979",
+    "extended_gzip_sha256": "34ce530a794089e2c6fe3b0451e752dc7bfc7c3d03cdcba0c1dbbcafbd434bef"
+  },
+  {
+    "id": "markers__scanpy__paired_cellbender__Excitatory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 16682,
+      "WT_rows": 16682,
+      "cKO_rows": 16682
+    },
+    "added_rows_per_scope": 209,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "ba3813a616b11b5e2954e6ab917a284cb093c945bc29fd36c0a93b38d9e5868c",
+      "WT_rows": "d01a4257d728e6dfa65fe0a746c826c0eb82f454f4b745ae6b33352288fc3d87",
+      "cKO_rows": "2b670deb5941048bbebb49efd124d1e9b66d5d3da3cdca63343966348a4921bb"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "65c55eba2488746d196288aa2796bf6af46dbbb1f06078a2a65a2eb0e6001730",
+    "extended_gzip_sha256": "7399fcf05713e1261cfc9c332121ddac2caff59cb63e85fbdef0e115e3087b13"
+  },
+  {
+    "id": "markers__scanpy__paired_cellbender__Inhibitory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 14926,
+      "WT_rows": 14926,
+      "cKO_rows": 14926
+    },
+    "added_rows_per_scope": 187,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "79318edbc343abe1b1bdd16f0ad1d295b00d6aa3c392d1289526785d5a0dbf28",
+      "WT_rows": "c3b88c52d9c4ffa25218031c3e921a3103ba5dc116dce46b0ddd35f3ff847918",
+      "cKO_rows": "7d12637468ddd446a483bd45aec6a6841b277a37c4ba09d98ebccb1ed46acd3b"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "07a776c2d1da556cba35f1f32a9885f8364acbe414d8062167615f2182436140",
+    "extended_gzip_sha256": "5a6cc94895772b56d85a4ad75ecb1a03a649b8a08ec05b23eed3c40879e73ef4"
+  },
+  {
+    "id": "markers__scanpy__paired_cellbender__CA1_ProS",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 7902,
+      "WT_rows": 7902,
+      "cKO_rows": 7902
+    },
+    "added_rows_per_scope": 99,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "263f075c7d9fd3a5a5b4dc534ed6747a5d160be65c2f7aff010bf00563231456",
+      "WT_rows": "4bc6aa1f39048d9450e3f16c3def2c1889aaf27a519caa48f1befd8d7cec55ae",
+      "cKO_rows": "44f1ef87f8a4b0b34937689400e2b10607dd6c691c553910509a3880cc4cbe26"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "06cf43833a66983a5183d6534d5dfcdb1c8fb3d98bd5c859ffd773e8db35c56b",
+    "extended_gzip_sha256": "402f941954e0350738e7a22558fe71738433a09d41e317b2e69a90d48d2a4d77"
+  },
+  {
+    "id": "markers__seurat__original_full__allcells",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 30730,
+      "WT_rows": 30730,
+      "cKO_rows": 30730
+    },
+    "added_rows_per_scope": 385,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "548a65ec3d2ed9a72b202f42f94e61b10db4942bd135aeea5a5308c3bf15b9d1",
+      "WT_rows": "9761a2840ff2107107380809309c79dd0044982f717347be6486b513f04de164",
+      "cKO_rows": "dc3286391617a69361a98c5ab1cbf8242b30dfe0b0d24d080a9117fc987325b4"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "f680ab5a01b8571d79f8c549a38e6d2e78a72015eb3fae176492a19addd364ea",
+    "extended_gzip_sha256": "a8b25b3b5259318a3014f774d64e4cd98b0099f160d53c94e4ad7ba59827169e"
+  },
+  {
+    "id": "markers__seurat__original_full__Excitatory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 21072,
+      "WT_rows": 21072,
+      "cKO_rows": 21072
+    },
+    "added_rows_per_scope": 264,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "4f5cf9b45171a5d66130138fb943d6621114db4e6b194e405076b5b1a49c201e",
+      "WT_rows": "bb25632a25de6b2cd57a2ce033fe786c3da2623f7bc4af81a4f62589a3ebc1af",
+      "cKO_rows": "dc4f666fa4621a82c17a650a7cd9a6159f6836a1c1f462c8b8a946f9acbe7370"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "60b8125bd39e07f0e0221a7c78de8af4574103533c4fa3ff2dd9e20482c066b2",
+    "extended_gzip_sha256": "7b2fb98f2a58f0ed2307b059caa3a92850c420c6f0754c7124d0d03e1d7b5cc1"
+  },
+  {
+    "id": "markers__seurat__original_full__Inhibitory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 17560,
+      "WT_rows": 17560,
+      "cKO_rows": 17560
+    },
+    "added_rows_per_scope": 220,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "943ff4b4dde3ac3984cb8b9c66d24b947952efbc4abd93f538034a231f9e03e7",
+      "WT_rows": "3770eece2854b1b2a44a74ea2f47625fc80345139cdf859fd3994b7565e9dafc",
+      "cKO_rows": "2d78ee23c1e931a092348e4139748b340e0e4300093d9a7539b460bfa8b81842"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "dc5628ce2380aeb6dd7479766ae09a7de76c64407d2d51a77e9b4d6281461d86",
+    "extended_gzip_sha256": "749c3d49386f41c5327ab911b4ed8cb3e9c040676a6b93f25906d9fdd6bd1b72"
+  },
+  {
+    "id": "markers__seurat__original_full__CA1_ProS",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 9658,
+      "WT_rows": 9658,
+      "cKO_rows": 9658
+    },
+    "added_rows_per_scope": 121,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "415812c3984f3fa58f270725579e1f31c166eb9982115f33b41326d1dd6d274e",
+      "WT_rows": "5ce180f28487e7ae3e86ed8d1f39794b3a3009a70f8e2f07d4e4f42e06fc7bea",
+      "cKO_rows": "f4afe6124f988da68e565e2113b94b84d48f720f3ab663f6515dbed85ebada65"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "9a961d697fcac0a849ceed58030e17a95119a88f186ac1a09a4e2c4b6e291b43",
+    "extended_gzip_sha256": "cf2dd6d1915aa566cf82322289806aa5e423004a792131bf02da4611fe251294"
+  },
+  {
+    "id": "markers__seurat__paired_original__allcells",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 30730,
+      "WT_rows": 30730,
+      "cKO_rows": 30730
+    },
+    "added_rows_per_scope": 385,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "20b03292e7e7386d9558c19d1d52e63703431dca9418c352a4c22a17a8840b3c",
+      "WT_rows": "da81e3eb59d3ac4c05f323212a213520a7f6b9b3ed78e8c6e848a18d38839073",
+      "cKO_rows": "674eedd21ee84a7c45185034e4491fcd9466298005b99950d1eec71c1f40c7a5"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "cc68ea04f36a479f2976301fc16a86bee00c2a35879e1dfe2a6918713d912219",
+    "extended_gzip_sha256": "4f91c4683ec6b156ca47dabd64bb2635524ed375f48949f2e34c3ec37ac9cd49"
+  },
+  {
+    "id": "markers__seurat__paired_original__Excitatory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 21072,
+      "WT_rows": 21072,
+      "cKO_rows": 21072
+    },
+    "added_rows_per_scope": 264,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "d8ddb3ad0f425115083912393076688e3a096e0cb3a7f3444432902001103fcf",
+      "WT_rows": "a5862d5cbe0cf273edd773ad4d0ac476ed7bb81c4ccc50ffa8994a593d434047",
+      "cKO_rows": "05bebbf1c5705219581008d845a8a4fc358d005efdef73e0a8401f4254b30c67"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "a1800fdf6336e8aa694be5ba0085ab60b7bcdb9185315cfc29880a62a34b8b68",
+    "extended_gzip_sha256": "6ce06e62aef5f38d999aba9e6303300f6aab4ff937771bac19809b300fee0799"
+  },
+  {
+    "id": "markers__seurat__paired_original__Inhibitory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 17560,
+      "WT_rows": 17560,
+      "cKO_rows": 17560
+    },
+    "added_rows_per_scope": 220,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "7520353a05d862613a2e8ac677bb5b1f4ff197e351b67aa575381b388c4e68be",
+      "WT_rows": "274c421940da01bedf7787ced5ded3d29a73b102c6ec71fef7fac89e04ed255f",
+      "cKO_rows": "04ede2dccf8e018dfd0749df90b338906efe371e3d87e1f524e7b0d25fdf23fe"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "ce05140f982333d1fb115011a6db6743bc6faf344eae8adccf562bcc283529a0",
+    "extended_gzip_sha256": "4e22a7bbcf770580f325552c33252f033ec55ddf551211c47750261dd390e438"
+  },
+  {
+    "id": "markers__seurat__paired_original__CA1_ProS",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 9658,
+      "WT_rows": 9658,
+      "cKO_rows": 9658
+    },
+    "added_rows_per_scope": 121,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "3a18d1016e59018176d22711e6e6ed6cd6dc172e3a733cb3cf4b9f1ba753d91d",
+      "WT_rows": "f1617b016236a371c7aa8e2158d05b372e0960191c5da94ef3df89a80f3acab4",
+      "cKO_rows": "1784a68613d6cc8b6b40e7e994bfb4a86240f9f8982125c8441b520df1eeee13"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "898e7026b11b7cab10ec121c4d4f1589975644d59aa9c9da2283441a89052e8c",
+    "extended_gzip_sha256": "81492335940b2424924e5f92fa6207ed25bf2769fe26e92c0138e704fe6bbae3"
+  },
+  {
+    "id": "markers__seurat__paired_cellbender__allcells",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 30730,
+      "WT_rows": 30730,
+      "cKO_rows": 30730
+    },
+    "added_rows_per_scope": 385,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "6cf66629fead066cdfe717b08c2e4a5133178b466717b7dddeb4bb9a08db6273",
+      "WT_rows": "a24d24a4c27bc6a1ec704060b81e2b14d0ffddb16b915c51ff59bbeecdb29963",
+      "cKO_rows": "46e74ae4da35eae5b5f5a923e3498e2cb4336f52e3bb579062c5a3c6f7a4b839"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "563ff6bcef5d2c1486c70b50b9c06daa71e5ac264a5253a56de120dcd5b11daf",
+    "extended_gzip_sha256": "c977125d8021229f2911bb639fc3b78a9baeb5a50b62c048c3ad4ab1a392b314"
+  },
+  {
+    "id": "markers__seurat__paired_cellbender__Excitatory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 21072,
+      "WT_rows": 21072,
+      "cKO_rows": 21072
+    },
+    "added_rows_per_scope": 264,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "0d156ff981525690f3e9aebc5743d2687c1a6637754228fc0b359d9073bc5456",
+      "WT_rows": "75df719a47251c8e55c99bc5589337e4cf11a7fa32fbf17ef0c72da022de3317",
+      "cKO_rows": "a6599a18a907f77518cc0b75f643eb0ae5e12e21127a3c72f1a52628b15f318e"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "a87723071daaa36e46eef18d76fe44666324be5cbcd30b6c96178d925e48178b",
+    "extended_gzip_sha256": "d2c1e5e271fc8e317b574b09f2ad54721531f1abcc05ee7196b685c619bc6721"
+  },
+  {
+    "id": "markers__seurat__paired_cellbender__Inhibitory",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 17560,
+      "WT_rows": 17560,
+      "cKO_rows": 17560
+    },
+    "added_rows_per_scope": 220,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "805a89072153460f82f98feffbe58495d80daaeba63428cbc3c78170324cbdd8",
+      "WT_rows": "cdbb5fb69edd7a20e0cb28b839d763cfb1da760bea9887b57508476b177e387a",
+      "cKO_rows": "2f2a724c8db404726855d075c44b0aab9102faed792d3d19bceca06fe8b9c0a8"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "9fcfae9af345bfe089294bf0502d16e276f98353461e84a6e3e3a1a9f84a196e",
+    "extended_gzip_sha256": "aabfab3b439ece46b4fe6e690e5f626539ae604624a50e000301fba1338d2651"
+  },
+  {
+    "id": "markers__seurat__paired_cellbender__CA1_ProS",
+    "original_gene_count": 878,
+    "extended_gene_count": 889,
+    "old_rows_per_scope": {
+      "rows": 9658,
+      "WT_rows": 9658,
+      "cKO_rows": 9658
+    },
+    "added_rows_per_scope": 121,
+    "existing_rows_canonical_json_sha256": {
+      "rows": "e27eb4b32ed21e66c4516f890f6396f7da6bd670bac95ca3664e82080e7c567a",
+      "WT_rows": "038090a910d0711f1e1e8dcb011307aff39ca0d4e209e18893a0489090021bfb",
+      "cKO_rows": "b396b3227f398e4bbbfd35fc639a5c601321c0e569164944a7d3a8c14364636e"
+    },
+    "existing_rows_bitwise_and_text_preservation": "PASS",
+    "source_gzip_sha256": "a30c9fdbb7ce1ea53ee12f9684aac6a0bcc91cd9fee0d3c8a6c3bc4c40de7e90",
+    "extended_gzip_sha256": "69a7662dc840e1e550d451db4de4b924b269c645865f8c9ee9dd300a6df3d3b1"
+  }
+]
