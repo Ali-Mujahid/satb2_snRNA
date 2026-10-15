@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checks": 18,
+  "checks": 25,
   "check_names": [
     "Project prefix preserved",
     "Reject disallowed path https://example.com/a.json.gz",
@@ -8,10 +8,17 @@
     "Reject disallowed path data/shards/../a.json.gz",
     "Reject disallowed path /data/shards/a.json.gz",
     "Reject disallowed path data/shards/a.json.gz?x=1",
+    "Reject disallowed path data/shards/a.json.gz?sha256=865d36a1ae38523fc8b1ab69dee0edbbf19f6951c6a6e5a61d70c93a198f4671",
+    "Reject disallowed path data/shards/a.json.gz#fragment",
+    "Reject disallowed path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v2.1.0/data_downloads/a.json.gz?sha256=865d36a1ae38523fc8b1ab69dee0edbbf19f6951c6a6e5a61d70c93a198f4671",
     "Reject disallowed path data/shards/a%2Fb.json.gz",
+    "Cache key canonicalizes a validated SHA without changing the descriptor",
+    "Missing or malformed SHA is rejected before any fetch",
+    "Changed payload bypasses both stale bare-path and old-hash browser cache",
+    "Unchanged SHA remains safely reusable from the exact-version browser cache",
     "Native gzip exact JSON/null/numeric roundtrip",
     "Pinned raw text source bytes preserved",
-    "Raw request omits credentials and rejects redirects",
+    "Pinned raw request is SHA-versioned, omits credentials and rejects redirects",
     "Corrupt compressed bytes rejected",
     "Corrupt decoded payload rejected",
     "Missing binary hash rejected",
@@ -22,5 +29,5 @@
     "Unavailable WebCrypto fails closed"
   ],
   "scope": "VM_ONLY_NO_BROWSER_NO_NETWORK",
-  "app_sha256": "b955982b9a258db7faef83c1bf30f8a4a394b3df86ca834112eb3a1c6b297b97"
+  "app_sha256": "22b70c876c67e90a563a494c20b4f9999d81ec35417e904355ba89117dc58a3b"
 }

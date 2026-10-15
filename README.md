@@ -114,3 +114,5 @@ integrity and keep the published site below its size limit.
 Vendored software retains its existing licenses. No additional blanket reuse
 license is granted to the study data or other source materials by this README.
 
+
+Hosted compatibility patch `atlas-v3.0.1` gives each compressed data request a content-specific cache URL, so browsers with older marker files load the correct extended payload. The v3.0.0 portable archives and all scientific data are unchanged.

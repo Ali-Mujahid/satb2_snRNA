@@ -35,8 +35,11 @@
     if(desc?.encoding!=='gzip-bytes'||typeof desc.path!=='string')throw Error('Hosted shard encoding or path is invalid');
     const path=desc.path,remote=path.startsWith(TRUSTED_DOWNLOAD_PREFIX),filename=remote?path.slice(TRUSTED_DOWNLOAD_PREFIX.length):path.slice('data/shards/'.length);
     if((!remote&&!path.startsWith('data/shards/'))||!/^[-A-Za-z0-9_.]+\.json\.gz$/.test(filename))throw Error('Shard must use the atlas data path or its exact pinned source-download version');
+    if(!/^[0-9a-f]{64}$/i.test(desc.sha256||''))throw Error('Compressed data SHA256 is missing or invalid');
     const base=global.location?.href||(typeof document!=='undefined'?document.baseURI:null);if(!base)throw Error('Atlas base URL is unavailable');
     const url=new URL(path,base);if(!remote&&url.origin!==new URL(base).origin)throw Error('Atlas shard origin mismatch');
+    // The expected compressed bytes identify the browser-cache entry across atlas updates.
+    url.searchParams.set('sha256',desc.sha256.toLowerCase());
     return {url:url.href,remote};
   }
   async function fetchBinary(desc) {
