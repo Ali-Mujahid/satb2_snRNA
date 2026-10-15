@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "scope": "PURE_VM_NATIVE_SELECT_SEMANTICS_NO_BROWSER",
+  "checks": 6,
+  "check_names": [
+    "Filtered dropdown selects Calb1",
+    "Show-selected button retains Calb1 rather than preferred Etv1",
+    "Sync keeps current gene visible outside search matches",
+    "Invalid selection falls back to an available preferred gene without blank select",
+    "No search matches still retain the selected current overlay",
+    "Gene display changes preserve inference membership"
+  ],
+  "app_sha256": "75ebc1754765d7b44508da9e408ffd957adb81700f6aa79f3f724884efc024d0"
+}

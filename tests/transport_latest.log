@@ -1,0 +1,15 @@
+PASS Project prefix preserved
+PASS Reject disallowed path https://example.com/a.json.gz
+PASS Reject disallowed path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/main/data_downloads/a.json.gz
+PASS Reject disallowed path data/shards/../a.json.gz
+PASS Reject disallowed path /data/shards/a.json.gz
+PASS Reject disallowed path data/shards/a.json.gz?x=1
+PASS Reject disallowed path data/shards/a%2Fb.json.gz
+PASS Native gzip exact JSON/null/numeric roundtrip
+PASS Pinned raw text source bytes preserved
+PASS Raw request omits credentials and rejects redirects
+PASS Vendored gzip fallback preserves nulls
+PASS Explicit hash-bound JSON without gzip magic accepted
+PASS Pending requests deduplicated
+PASS Decoded cache stays at six
+{"status":"PASS","checks":18,"check_names":["Project prefix preserved","Reject disallowed path https://example.com/a.json.gz","Reject disallowed path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/main/data_downloads/a.json.gz","Reject disallowed path data/shards/../a.json.gz","Reject disallowed path /data/shards/a.json.gz","Reject disallowed path data/shards/a.json.gz?x=1","Reject disallowed path data/shards/a%2Fb.json.gz","Native gzip exact JSON/null/numeric roundtrip","Pinned raw text source bytes preserved","Raw request omits credentials and rejects redirects","Corrupt compressed bytes rejected","Corrupt decoded payload rejected","Missing binary hash rejected","Vendored gzip fallback preserves nulls","Explicit hash-bound JSON without gzip magic accepted","Pending requests deduplicated","Decoded cache stays at six","Unavailable WebCrypto fails closed"],"scope":"VM_ONLY_NO_BROWSER_NO_NETWORK","app_sha256":"75ebc1754765d7b44508da9e408ffd957adb81700f6aa79f3f724884efc024d0"}
