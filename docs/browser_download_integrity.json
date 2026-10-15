@@ -1,0 +1,546 @@
+{
+  "schema_version": "satb2-browser-download-integrity-1",
+  "status": "PASS_WITH_PAGINATION_NOTES",
+  "reviewed_utc": "2026-10-15T12:18:06.071728+00:00",
+  "scope": "Actual files downloaded through the hosted atlas browser; read-only PDF, text and existing source-value verification. No fitting, count aggregation, PDF editing or browser automation in this verifier.",
+  "catalogs": {
+    "site/data/DE_CATALOG.json": {
+      "sha256": "25889b9cae505ecee5d1d4b127849e922effc0f72893cd58a3235ee6d117917a"
+    },
+    "site/data/MOUSE_CATALOG.json": {
+      "sha256": "655c6f7d89eb53df39597be5edfaabce5ad4104e0e8160fd101384f754cbeaf0"
+    },
+    "site/data/published_downloads.js": {
+      "sha256": "0ed1c427c71a14d63ca2b5f6d83c2149e87bbb77429d17e7279f478359521288"
+    }
+  },
+  "pdfs": [
+    {
+      "filename": "SATB2_v2_dots_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 4420229,
+      "sha256": "310812368f7899f166ea136c12965a3a09b01df155aea3222f17109694fcdadb",
+      "readable": true,
+      "pages": 4,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 801,
+          "image_paints": [
+            {
+              "width": 1655,
+              "height": 349
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "text_characters": 803,
+          "image_paints": [
+            {
+              "width": 1655,
+              "height": 349
+            }
+          ]
+        },
+        {
+          "page": 3,
+          "text_characters": 696,
+          "image_paints": [
+            {
+              "width": 900,
+              "height": 349
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "text_characters": 107,
+          "image_paints": []
+        }
+      ],
+      "image_plot_pages": [
+        1,
+        2,
+        3
+      ],
+      "text_only_pages": [
+        4
+      ],
+      "caption_checks": {
+        "marker_ranges": [
+          "1-60",
+          "61-120",
+          "121-139"
+        ],
+        "range_plot_pages": [
+          1,
+          2,
+          3
+        ],
+        "manual_dotplot_color_limits": [
+          -1,
+          2
+        ],
+        "source_caption_verified": true
+      },
+      "pagination_note": "Extra pages contain a continuation of full cluster-label legends; the three gene-range plot pages remain present."
+    },
+    {
+      "filename": "SATB2_v2_dots_seurat_CA1_ProS_original_full.pdf",
+      "bytes": 5078190,
+      "sha256": "1f17d517ade0a11a9c23ea94d6140f53edc1d3f420d62a5a2710f29ccab262cf",
+      "readable": true,
+      "pages": 6,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 763,
+          "image_paints": [
+            {
+              "width": 1655,
+              "height": 401
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "text_characters": 85,
+          "image_paints": []
+        },
+        {
+          "page": 3,
+          "text_characters": 765,
+          "image_paints": [
+            {
+              "width": 1655,
+              "height": 401
+            }
+          ]
+        },
+        {
+          "page": 4,
+          "text_characters": 85,
+          "image_paints": []
+        },
+        {
+          "page": 5,
+          "text_characters": 696,
+          "image_paints": [
+            {
+              "width": 900,
+              "height": 401
+            }
+          ]
+        },
+        {
+          "page": 6,
+          "text_characters": 155,
+          "image_paints": []
+        }
+      ],
+      "image_plot_pages": [
+        1,
+        3,
+        5
+      ],
+      "text_only_pages": [
+        2,
+        4,
+        6
+      ],
+      "caption_checks": {
+        "marker_ranges": [
+          "1-60",
+          "61-120",
+          "121-139"
+        ],
+        "range_plot_pages": [
+          1,
+          3,
+          5
+        ],
+        "manual_dotplot_color_limits": [
+          -1,
+          2
+        ],
+        "source_caption_verified": true
+      },
+      "pagination_note": "Extra pages contain a continuation of full cluster-label legends; the three gene-range plot pages remain present."
+    },
+    {
+      "filename": "SATB2_v2_boxplot_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 2172854,
+      "sha256": "1b0e5864b39120782a0f0eb7969e5d85c72c237b42a62f45275a413f3c88f8e6",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 682,
+          "image_paints": [
+            {
+              "width": 951,
+              "height": 760
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": [],
+      "caption_checks": {
+        "fit_id": "original_full::scanpy::P0069_scanpy_CA1_ProS_CLUSTER::PRIMARY",
+        "cluster_id": "0",
+        "display_mode": "raw",
+        "n_genes": 6,
+        "mouse_gene_points": 72,
+        "membership": "EXACT_MATCH",
+        "source_count_uses_all_12_mice": true,
+        "no_new_inference": true
+      }
+    },
+    {
+      "filename": "SATB2_v2_umap_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 584851,
+      "sha256": "08af987eccf9230c70ae3ef68f7424c7a3e115c34a66fc4dcb137dbc608bef58",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 1001,
+          "image_paints": [
+            {
+              "width": 449,
+              "height": 430
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": []
+    },
+    {
+      "filename": "SATB2_v2_umap_seurat_CA1_ProS_original_full.pdf",
+      "bytes": 584851,
+      "sha256": "012fa6f7af6257c1418ba04018cad610f697cb1b40b9059c9e20b53c6842f114",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 1001,
+          "image_paints": [
+            {
+              "width": 449,
+              "height": 430
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": []
+    },
+    {
+      "filename": "SATB2_v2_umap_seurat_Inhibitory_paired_cellbender.pdf",
+      "bytes": 606556,
+      "sha256": "3c9c0a4ce79b3655e0151048d676653db619c283ccea2f1f440cf1ab4cc704d1",
+      "readable": true,
+      "pages": 4,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 924,
+          "image_paints": [
+            {
+              "width": 449,
+              "height": 430
+            }
+          ]
+        },
+        {
+          "page": 2,
+          "text_characters": 1091,
+          "image_paints": []
+        },
+        {
+          "page": 3,
+          "text_characters": 1340,
+          "image_paints": []
+        },
+        {
+          "page": 4,
+          "text_characters": 123,
+          "image_paints": []
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": [
+        2,
+        3,
+        4
+      ],
+      "caption_checks": {
+        "spacing_multiplier": 0.65,
+        "display_layout_warning": true,
+        "altered_cluster_distances_explicit": true,
+        "original_coordinates_preserved_caption": true,
+        "watermark_visual_review": "present"
+      }
+    },
+    {
+      "filename": "SATB2_v2_volcano_scanpy_CA1_ProS_original_full (1).pdf",
+      "bytes": 462830,
+      "sha256": "a186c409082902c7e23721571135a77f25aa4aed98403b1d81608dcf212b5d95",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 870,
+          "image_paints": [
+            {
+              "width": 449,
+              "height": 340
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": []
+    },
+    {
+      "filename": "SATB2_v2_compare_both_CA1_ProS_original_full.pdf",
+      "bytes": 1032269,
+      "sha256": "e5b41992235d8d90851accc8bbb7aa8bd6a39f8fb25f5d7d206d4960504b00a7",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 1119,
+          "image_paints": [
+            {
+              "width": 951,
+              "height": 360
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": []
+    },
+    {
+      "filename": "v2_plot_examples__example_Calb1_SATB2_v2_umap_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 908641,
+      "sha256": "a53ea79c3798e67006ec5089773e4c8e69ea59c931716e190da9cc7c0980bc6a",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 1010,
+          "image_paints": [
+            {
+              "width": 700,
+              "height": 430
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": []
+    },
+    {
+      "filename": "SATB2_v2_boxplot_seurat_Inhibitory_original_full.pdf",
+      "bytes": 1488251,
+      "sha256": "667dd941fdf472f2864095da19fb7bb39702d499f1b25f0b6fbdaf90cece7a7f",
+      "readable": true,
+      "pages": 1,
+      "page_details": [
+        {
+          "page": 1,
+          "text_characters": 709,
+          "image_paints": [
+            {
+              "width": 951,
+              "height": 520
+            }
+          ]
+        }
+      ],
+      "image_plot_pages": [
+        1
+      ],
+      "text_only_pages": [],
+      "caption_checks": {
+        "fit_id": "original_full::seurat::P0139_seurat_Inhibitory_TOTAL::PRIMARY",
+        "display_mode": "normalized_by_recorded_fit_size_factor",
+        "n_genes": 4,
+        "mouse_gene_points": 48,
+        "membership": "EXACT_MATCH",
+        "no_new_inference": true
+      }
+    }
+  ],
+  "notes": [
+    "The inhibitory display-layout PDF has a plot on page 1, long reference-label legend continuations on pages 2-3 and a footer-only page 4. This is an export-pagination issue, not a changed source embedding.",
+    "No anatomical layer reassignment, conditional knockout effectiveness or new statistical inference is implied by these display and download checks."
+  ],
+  "seven_column_download": {
+    "filename": "original_full_scanpy_P0068_scanpy_CA1_ProS_TOTAL_PRIMARY_DESeq2.tsv",
+    "bytes": 1881730,
+    "sha256": "4659f79c81e13dc43504ed0b22ea8a41e9b2c0566f390cfe9a0acd2e0109ddd5",
+    "exact_source_bytes_PASS": true,
+    "fit_id": "original_full::scanpy::P0068_scanpy_CA1_ProS_TOTAL::PRIMARY",
+    "columns": [
+      "gene",
+      "baseMean",
+      "log2FoldChange",
+      "lfcSE",
+      "stat",
+      "pvalue",
+      "padj"
+    ],
+    "n_gene_rows": 16255,
+    "download_shard": "download__4982ffd1053151f425ac2c2209035847ae973e43fe67f64cf04aa3fa51b3f64e",
+    "gene_symbols_preserved": true,
+    "NA_and_duplicate_symbols_not_rewritten": true
+  },
+  "gallery_download": {
+    "filename": "v2_plot_examples__example_Calb1_SATB2_v2_umap_scanpy_CA1_ProS_original_full.pdf",
+    "declared_sha256": "a53ea79c3798e67006ec5089773e4c8e69ea59c931716e190da9cc7c0980bc6a",
+    "actual_sha256": "a53ea79c3798e67006ec5089773e4c8e69ea59c931716e190da9cc7c0980bc6a",
+    "matches_current_published_catalog": true,
+    "bytes": 908641
+  },
+  "independent_mouse_csv": {
+    "filename": "selected_genes_independent_mouse_expression.csv",
+    "bytes": 73538,
+    "sha256": "9e02749ce44c1e6ba0791bc2f5a3f3c5ed0cf61647c69534ab90389eec11e384",
+    "rows": 96,
+    "columns": [
+      "sample",
+      "condition",
+      "count",
+      "size_factor",
+      "included_in_model",
+      "n_nuclei",
+      "gene_index",
+      "source_fit_id",
+      "source_count_sha256",
+      "source_counts_scope",
+      "eligible",
+      "source_count",
+      "recorded_size_factor",
+      "normalized_value",
+      "value",
+      "missing_reason",
+      "normalization",
+      "biological_unit",
+      "statistical_test_performed",
+      "gene_id",
+      "gene",
+      "tool",
+      "branch",
+      "population",
+      "fit_id",
+      "endpoint",
+      "membership_sha256",
+      "counts_sha256",
+      "display_value",
+      "display_transform",
+      "display_included",
+      "display_label"
+    ],
+    "all_rows_match_exact_source_count_gene_sample_fit_coverage_and_recorded_size_factor": true,
+    "normalized_rows": 72,
+    "normalized_NA_rows": 24,
+    "max_absolute_count_divided_by_factor_roundoff": 0.0,
+    "missing_factors_remain_NA": true,
+    "biological_unit": "independent_mouse",
+    "statistical_test_performed": false,
+    "fit_selections": [
+      {
+        "fit_id": "original_full::scanpy::P0203_scanpy_Inhibitory_EXPRESSION_PROGRAM::PRIMARY",
+        "n_rows": 48,
+        "analysis_label": "Cholinergic neurons expression program enriched",
+        "n_WT": 3,
+        "n_cKO": 3,
+        "coverage_flag": "LOW_NUCLEUS_COVERAGE_EXPLORATORY",
+        "n_nuclei_all12": [
+          18,
+          0,
+          0,
+          46,
+          0,
+          1,
+          0,
+          0,
+          2,
+          1,
+          58,
+          0
+        ]
+      },
+      {
+        "fit_id": "original_full::seurat::P0139_seurat_Inhibitory_TOTAL::PRIMARY",
+        "n_rows": 48,
+        "analysis_label": "TOTAL_FILTERED",
+        "n_WT": 6,
+        "n_cKO": 6,
+        "coverage_flag": "STANDARD_DECLARED_COVERAGE",
+        "n_nuclei_all12": [
+          588,
+          754,
+          542,
+          924,
+          747,
+          909,
+          747,
+          839,
+          706,
+          808,
+          629,
+          718
+        ]
+      }
+    ],
+    "comparison_scope_note": "The Scanpy export selection is a cholinergic-associated inhibitory expression programme; the Seurat selection is the inhibitory total. These are distinct selected populations, not matched tool totals. The sparse Scanpy programme has only 3 eligible mice per condition and LOW_NUCLEUS_COVERAGE_EXPLORATORY; absent-mouse normalized values remain NA."
+  },
+  "figure_fit_binding": {
+    "normalized_IN_total_source_roster_nuclei": 8911,
+    "normalized_IN_total_eligible_mice": 12,
+    "raw_CA1_ProS_cluster_0_source_roster_nuclei": 2455,
+    "source_factors_available_without_refitting": true
+  },
+  "visual_review": {
+    "status": "REVIEWED",
+    "method": "Local raster rendering of existing downloaded PDFs only. No PDF edits.",
+    "reviewed_plot_pages": [
+      "Scanpy CA1/ProS dotplot page 1",
+      "Seurat CA1/ProS dotplot page 1",
+      "Scanpy raw cluster-0 mouse boxplot page 1",
+      "Scanpy Calb1 UMAP page 1",
+      "Seurat inhibitory DISPLAY LAYOUT page 1"
+    ],
+    "findings": "Plot images and primary captions are legible; the display-layout warning is visible. Dotplot gene glyphs and six-gene independent-mouse points were also visually confirmed by the root reviewer. Long legends can spill to additional PDF pages.",
+    "root_reviewer_confirmation": "First dotplot and raw six-gene boxplot were independently reported clear and legible.",
+    "rendering_tools": "Poppler and pypdfium2; PyMuPDF unavailable",
+    "ignored_render_directory": "publication_build/browser_rendered"
+  },
+  "source_checks_PASS": true
+}
