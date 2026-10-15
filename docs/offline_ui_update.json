@@ -5,8 +5,8 @@
   "source_archive": "SATB2_atlas_v2_runtime.zip",
   "source_archive_sha256": "0b0b1da9e5445e13c70daac9b69ac7ce9dab0153538742343181afe320090be7",
   "derivative_archive": "SATB2_atlas_v2_1_runtime.zip",
-  "derivative_archive_sha256": "6036c57197a3ba2f7ba6aafac2f97f87e5809b253dc97f1e1c46a1426884fc6f",
-  "derivative_archive_bytes": 1893537262,
+  "derivative_archive_sha256": "33c5af6053ad64b1d85a10a9fec00fd7968f1e45e47fa659357a4d2947d5bf6c",
+  "derivative_archive_bytes": 1893537283,
   "zip_entries": 3294,
   "unchanged_compressed_entries_verified": 3291,
   "changed_ui_files": [
@@ -14,8 +14,8 @@
       "path": "app.js",
       "source_sha256": "8f6ca4c5b4a3b37dbfa85185891ec370825d494da938c0a88c4df5fde7571ad8",
       "source_bytes": 87309,
-      "derivative_sha256": "2db7c675298a2c7bbe756f95242a6b573d0cded1b8629080d3039df34ab27b66",
-      "derivative_bytes": 87608
+      "derivative_sha256": "bafbfe9538058b794e441d4d2542b39b00bbb16bfb2d8681b67e5596078da9ea",
+      "derivative_bytes": 87618
     },
     {
       "path": "index.html",
@@ -25,19 +25,21 @@
       "derivative_bytes": 20145
     }
   ],
-  "bundle_manifest_sha256": "5e40be883b02f2a61f07e4b3e6ffa3ea617bea353e513bcf2c645f8bc61c8de1",
+  "bundle_manifest_sha256": "24bab99be85ea5e91abbbd3366c78235a3c047c029f35af317a14ab4646e5c79",
   "bundle_manifest_scope": "Combined offline_dashboard_v2 folder after extracting runtime and unchanged saved-results companion; manifest excludes itself as in original package",
   "companion_saved_results_archive": "SATB2_atlas_v2_saved_results.zip",
   "companion_saved_results_sha256": "5beb3b65ed8305da07bcbd0410f18bba6730384f8bdb74dedff170ec7d401db8",
   "transport": "UNCHANGED_CLASSIC_LOCAL_SCRIPT_GZIP_BASE64",
   "changes": [
     "Correct scientific notation by trimming fractional mantissa zeros without editing exponent digits",
-    "Show selected gene on UMAP; retain the chosen gene when the search filters other options"
+    "Show selected gene on UMAP; retain the chosen gene when the search filters other options",
+    "Persist category-shortcut selection before loading so reload restores the chosen population/programme"
   ],
   "validation": {
     "number_format_examples": 20,
     "exponent_preservation_cases": 8,
     "overlay_selection_checks": 6,
+    "category_shortcut_checks": 10,
     "original_api_helper_keys": "PASS",
     "classic_loader_source_identical": true,
     "all_unchanged_entry_compressed_bytes": "PASS",

@@ -1,7 +1,7 @@
 {
   "schema": "satb2-public-release-integrity-1",
   "status": "PASS",
-  "verified_utc": "2026-10-15T12:03:42.748875+00:00",
+  "verified_utc": "2026-10-15T12:16:44.291577+00:00",
   "repository": "Ali-Mujahid/satb2_snRNA",
   "repository_visibility": "public",
   "release_tag": "atlas-v2.1.0",
@@ -12,23 +12,39 @@
   "tag_commit_sha": "8f188b9f265a26221585f6b41e9c5e4f8598118a",
   "expected_tag_commit_match": true,
   "source_manifest_path": "site/data/published_downloads.js",
-  "source_manifest_sha256": "f424a5ea525664b277f20f6e59245365862202175cabcdfdb6a31436f9f60180",
-  "expected_asset_count": 95,
-  "remote_asset_count": 95,
-  "verified_asset_count": 95,
-  "unique_remote_asset_name_count": 95,
-  "unique_remote_sha256_digest_count": 95,
-  "unique_expected_sha256_count": 95,
+  "source_manifest_scope": "Frozen local publication index; authoritative expected asset roster for this predeployment check",
+  "source_manifest_sha256": "0ed1c427c71a14d63ca2b5f6d83c2149e87bbb77429d17e7279f478359521288",
+  "source_manifest_stable_during_review": true,
+  "remote_main_index": {
+    "commit_sha": "19b4b1847dac91061451a422a74c0e7c133fb77c",
+    "sha256": "b0ffb800ae171e3d3595c11192a1d51c02e25b3a50641df9175558d6d11c119d",
+    "blob_sha": "20f3f8c86d6fe5cb94b689766ebb836cfb9dd595",
+    "matches_frozen_expected_index": false,
+    "status": "PREDEPLOY_INDEX_DIFFERENCE_EXPECTED",
+    "scope_note": "Observed public main-index state is recorded separately. Planned predeployment index differences do not invalidate remote asset integrity. Served-site/catalog acceptance is a separate final publisher check."
+  },
+  "expected_asset_count": 96,
+  "remote_asset_count": 96,
+  "verified_asset_count": 96,
+  "unique_remote_asset_name_count": 96,
+  "unique_remote_sha256_digest_count": 96,
+  "unique_expected_sha256_count": 96,
   "kind_counts": {
     "native_pdf": 55,
     "review": 3,
     "example_pdf": 6,
-    "archive": 3,
+    "archive": 4,
     "processed_object": 28
   },
-  "total_release_bytes": 26964003340,
+  "total_release_bytes": 28857540623,
   "all_remote_assets_uploaded": true,
-  "verification_method": "Read-only official GitHub API through GitHub CLI; server-reported uploaded state, byte size, SHA256 digest and public URL compared with every published download row. Full asset payloads were not downloaded again.",
+  "corrected_offline_runtime": {
+    "asset_name": "SATB2_atlas_v2_1_runtime.zip",
+    "bytes": 1893537283,
+    "sha256": "33c5af6053ad64b1d85a10a9fec00fd7968f1e45e47fa659357a4d2947d5bf6c",
+    "verification": "PASS"
+  },
+  "verification_method": "Read-only official GitHub API through GitHub CLI; server-reported uploaded state, byte size, SHA256 digest and public URL compared with every frozen local published-download row. Public main-index bytes and commit are recorded separately as deployment state. Full asset payloads were not downloaded again.",
   "source_or_release_mutations_performed": false,
   "private_local_paths_included": false,
   "errors": [],
@@ -994,9 +1010,24 @@
       "status": "PASS"
     },
     {
+      "asset_name": "SATB2_atlas_v2_1_runtime.zip",
+      "kind": "archive",
+      "scope": "Recommended runtime with corrected scientific-notation formatting, selected-gene retention and category-shortcut reload persistence. Extract with unchanged SATB2_atlas_v2_saved_results.zip into the same offline_dashboard_v2 folder. All scientific payloads and classic local transport are unchanged.",
+      "url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v2.1.0/SATB2_atlas_v2_1_runtime.zip",
+      "github_asset_id": 643761438,
+      "github_state": "uploaded",
+      "bytes": 1893537283,
+      "sha256": "33c5af6053ad64b1d85a10a9fec00fd7968f1e45e47fa659357a4d2947d5bf6c",
+      "github_digest": "sha256:33c5af6053ad64b1d85a10a9fec00fd7968f1e45e47fa659357a4d2947d5bf6c",
+      "expected_size_match": true,
+      "expected_sha256_match": true,
+      "expected_public_url_match": true,
+      "status": "PASS"
+    },
+    {
       "asset_name": "SATB2_atlas_v2_runtime.zip",
       "kind": "archive",
-      "scope": "Original offline app, all interactive data, mouse arrays and plot assets",
+      "scope": "Preserved original runtime before the scientific-notation and selected-gene UI fixes. Use the recommended v2.1 runtime for corrected offline exploration; scientific data are identical.",
       "url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v2.1.0/SATB2_atlas_v2_runtime.zip",
       "github_asset_id": 643714310,
       "github_state": "uploaded",
@@ -1459,5 +1490,5 @@
       "status": "PASS"
     }
   ],
-  "hash_algorithm_note": "Git commit identity is a SHA1 commit ID; individual asset payload hashes below are SHA256."
+  "hash_algorithm_note": "Git commit/blob identities are SHA1; individual asset payloads and index content are verified with SHA256."
 }

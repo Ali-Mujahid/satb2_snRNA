@@ -26,9 +26,14 @@ def replace_once(text,old,new):
     return text.replace(old,new)
 
 def main():
-    parser=argparse.ArgumentParser();parser.add_argument('--repo',type=Path,default=Path(__file__).resolve().parents[1]);parser.add_argument('--node',type=Path,required=True);args=parser.parse_args()
+    parser=argparse.ArgumentParser();parser.add_argument('--repo',type=Path,default=Path(__file__).resolve().parents[1]);parser.add_argument('--node',type=Path,required=True);parser.add_argument('--replace-owned-derivative',action='store_true');args=parser.parse_args()
     repo=args.repo.resolve();archives=repo/'release_staging/archives';source=archives/'SATB2_atlas_v2_runtime.zip';target=archives/'SATB2_atlas_v2_1_runtime.zip';work=repo/'release_staging/offline_ui_v2_1_build'
-    assert not target.exists() and not work.exists(), 'Refusing existing derivative or work directory'
+    if target.exists() or work.exists():
+        assert args.replace_owned_derivative, 'Refusing existing derivative or work directory'
+        prior=json.loads((repo/'docs/offline_ui_update.json').read_text());assert prior['derivative_archive']==target.name and sha(target)==prior['derivative_archive_sha256'], 'Existing target is not the verified owned derivative'
+        backup=archives/'superseded_ui_patches'/datetime.datetime.now(datetime.timezone.utc).strftime('%Y%m%dT%H%M%S%fZ');backup.mkdir(parents=True)
+        shutil.move(str(target),str(backup/target.name));shutil.copy2(repo/'docs/offline_ui_update.json',backup/'offline_ui_update.json')
+        if work.exists():shutil.move(str(work),str(backup/'build_work'))
     assets=json.loads((archives/'ARCHIVE_ASSETS.json').read_text());expected=next(r for r in assets['assets'] if r['asset_name']==source.name)
     source_sha=sha(source);assert source_sha==expected['sha256']
     work.mkdir(parents=True);folder=work/'offline_dashboard_v2';folder.mkdir()
@@ -42,6 +47,7 @@ def main():
         app=replace_once(app,"if($('overlay-gene'))$('overlay-gene').value=state.overlayGene||manifest.genes[0]?.gene_id;","if($('overlay-gene'))filterOverlayOptions();")
         app=replace_once(app,"function filterOverlayOptions() {const search=$('overlay-search').value.trim().toLowerCase(),genes=manifest.genes.filter","function filterOverlayOptions() {if(!manifest.genes.some(g=>g.gene_id===state.overlayGene))state.overlayGene=manifest.genes[0]?.gene_id||'';const search=$('overlay-search').value.trim().toLowerCase(),genes=manifest.genes.filter")
         app=replace_once(app,"gene=(preferred[state.population]||[]).map(symbol=>manifest.genes.find(g=>g.gene_symbol===symbol)).find(Boolean)||manifest.genes[0];state.overlayGene=gene.gene_id;","gene=manifest.genes.find(g=>g.gene_id===state.overlayGene)||(preferred[state.population]||[]).map(symbol=>manifest.genes.find(g=>g.gene_symbol===symbol)).find(Boolean)||manifest.genes[0];if(!gene){toast('No saved overlay genes are available.');return;}state.overlayGene=gene.gene_id;")
+        app=replace_once(app,"state.annotation=b.dataset.category==='CA1_programs'?'layer_program_label':'reviewed_label';syncControls();await changeScope();","state.annotation=b.dataset.category==='CA1_programs'?'layer_program_label':'reviewed_label';syncControls();persist();await changeScope();")
         index=replace_once(original_index,'Show gene expression example','Show selected gene on UMAP')
         (folder/'app.js').write_text(app);(folder/'index.html').write_text(index)
         manifest_path='offline_dashboard_v2/BUNDLE_MANIFEST.json';manifest=json.loads(original.read(manifest_path));before=copy.deepcopy(manifest)
@@ -50,7 +56,7 @@ def main():
             row=next(r for r in manifest['files'] if r['path']==name);assert row['sha256']==hashlib.sha256(old_bytes).hexdigest();new_bytes=(folder/name).read_bytes();changed.append({'path':name,'source_sha256':row['sha256'],'source_bytes':row['bytes'],'derivative_sha256':hashlib.sha256(new_bytes).hexdigest(),'derivative_bytes':len(new_bytes)});row.update(bytes=len(new_bytes),sha256=hashlib.sha256(new_bytes).hexdigest())
         assert before['bytes']==sum(r['bytes'] for r in before['files'])
         manifest['bytes']=sum(r['bytes'] for r in manifest['files']);manifest['generated_at']=datetime.datetime.now(datetime.timezone.utc).isoformat()
-        manifest['ui_revision']={'version':'2.1','source_archive':source.name,'source_archive_sha256':source_sha,'derivative_archive':target.name,'scope':'UI-only mantissa/exponent formatting and selected-overlay retention; scientific payloads and classic local transport unchanged','changed_ui_files':changed,'companion_saved_results_archive':'SATB2_atlas_v2_saved_results.zip','companion_folder':'offline_dashboard_v2','new_scientific_fitting':False,'raw_nucleus_aggregation':False}
+        manifest['ui_revision']={'version':'2.1','source_archive':source.name,'source_archive_sha256':source_sha,'derivative_archive':target.name,'scope':'UI-only number formatting, selected-overlay retention and category-shortcut persistence; scientific payloads and classic local transport unchanged','changed_ui_files':changed,'companion_saved_results_archive':'SATB2_atlas_v2_saved_results.zip','companion_folder':'offline_dashboard_v2','new_scientific_fitting':False,'raw_nucleus_aggregation':False}
         assert manifest['file_count']==len(manifest['files'])==before['file_count']
         (folder/'BUNDLE_MANIFEST.json').write_text(json.dumps(manifest,indent=2)+'\n')
         for name in ['v2_features.js','vendor/fflate.min.js','vendor/jspdf.umd.min.js']:
@@ -60,7 +66,7 @@ def main():
         assert loader(app)==loader(original_app)
     print('UI patches, full-folder manifest and unchanged classic loader verified',flush=True)
     qa=work/'qa';qa.mkdir();env={**os.environ,'SATB2_SITE_DIR':str(folder)}
-    for name in ['number_format.cjs','overlay_selection.cjs']:
+    for name in ['number_format.cjs','overlay_selection.cjs','category_persistence.cjs']:
         shutil.copy2(repo/'tests'/name,qa/name)
         with (qa/(name+'.log')).open('w') as log:subprocess.run([str(args.node),str(qa/name)],env=env,check=True,stdout=log,stderr=subprocess.STDOUT)
     (work/'original_app.js').write_text(original_app)
@@ -81,7 +87,7 @@ def main():
         for name in modified:assert b.read(name)==(work/name).read_bytes()
     assert sha(source)==source_sha
     target_sha=sha(target);target_bytes=target.stat().st_size;assert target_bytes<2*1024**3
-    public={'schema':'satb2-offline-ui-update-1','status':'PREPARED_AND_VERIFIED','release_tag':'atlas-v2.1.0','source_archive':source.name,'source_archive_sha256':source_sha,'derivative_archive':target.name,'derivative_archive_sha256':target_sha,'derivative_archive_bytes':target_bytes,'zip_entries':3294,'unchanged_compressed_entries_verified':unchanged,'changed_ui_files':changed,'bundle_manifest_sha256':sha(folder/'BUNDLE_MANIFEST.json'),'bundle_manifest_scope':'Combined offline_dashboard_v2 folder after extracting runtime and unchanged saved-results companion; manifest excludes itself as in original package','companion_saved_results_archive':'SATB2_atlas_v2_saved_results.zip','companion_saved_results_sha256':next(r['sha256'] for r in assets['assets'] if r['asset_name']=='SATB2_atlas_v2_saved_results.zip'),'transport':'UNCHANGED_CLASSIC_LOCAL_SCRIPT_GZIP_BASE64','changes':['Correct scientific notation by trimming fractional mantissa zeros without editing exponent digits','Show selected gene on UMAP; retain the chosen gene when the search filters other options'],'validation':{'number_format_examples':20,'exponent_preservation_cases':8,'overlay_selection_checks':6,'original_api_helper_keys':'PASS','classic_loader_source_identical':True,'all_unchanged_entry_compressed_bytes':'PASS','zip_CRC_all_entries':'PASS','original_archive_preserved':'PASS'},'scientific_fitting_performed':False,'raw_nucleus_count_aggregation_performed':False,'scientific_payloads_modified':False,'original_or_previous_v2_files_modified':False}
+    public={'schema':'satb2-offline-ui-update-1','status':'PREPARED_AND_VERIFIED','release_tag':'atlas-v2.1.0','source_archive':source.name,'source_archive_sha256':source_sha,'derivative_archive':target.name,'derivative_archive_sha256':target_sha,'derivative_archive_bytes':target_bytes,'zip_entries':3294,'unchanged_compressed_entries_verified':unchanged,'changed_ui_files':changed,'bundle_manifest_sha256':sha(folder/'BUNDLE_MANIFEST.json'),'bundle_manifest_scope':'Combined offline_dashboard_v2 folder after extracting runtime and unchanged saved-results companion; manifest excludes itself as in original package','companion_saved_results_archive':'SATB2_atlas_v2_saved_results.zip','companion_saved_results_sha256':next(r['sha256'] for r in assets['assets'] if r['asset_name']=='SATB2_atlas_v2_saved_results.zip'),'transport':'UNCHANGED_CLASSIC_LOCAL_SCRIPT_GZIP_BASE64','changes':['Correct scientific notation by trimming fractional mantissa zeros without editing exponent digits','Show selected gene on UMAP; retain the chosen gene when the search filters other options','Persist category-shortcut selection before loading so reload restores the chosen population/programme'],'validation':{'number_format_examples':20,'exponent_preservation_cases':8,'overlay_selection_checks':6,'category_shortcut_checks':10,'original_api_helper_keys':'PASS','classic_loader_source_identical':True,'all_unchanged_entry_compressed_bytes':'PASS','zip_CRC_all_entries':'PASS','original_archive_preserved':'PASS'},'scientific_fitting_performed':False,'raw_nucleus_count_aggregation_performed':False,'scientific_payloads_modified':False,'original_or_previous_v2_files_modified':False}
     docs=repo/'docs';docs.mkdir(exist_ok=True);(docs/'offline_ui_update.json').write_text(json.dumps(public,indent=2)+'\n')
     private={'status':'PREPARED_FOR_UPLOAD','assets':[{'asset_name':target.name,'local_path':str(target),'bytes':target_bytes,'sha256':target_sha,'kind':'corrected_offline_runtime'}],'public_provenance':str(docs/'offline_ui_update.json'),'public_provenance_sha256':sha(docs/'offline_ui_update.json')}
     (archives/'OFFLINE_UI_UPDATE_UPLOAD_MANIFEST.json').write_text(json.dumps(private,indent=2)+'\n');print(json.dumps(public,indent=2),flush=True)

@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "scope": "PURE_VM_CATEGORY_STATE_ASYNC_ORDER_NO_BROWSER",
+  "checks": 10,
+  "check_names": [
+    "allcells persists before loading",
+    "allcells reload restores chosen scope",
+    "Excitatory persists before loading",
+    "Excitatory reload restores chosen scope",
+    "CA1_ProS persists before loading",
+    "CA1_ProS reload restores chosen scope",
+    "CA1_programs persists before loading",
+    "CA1_programs reload restores chosen scope",
+    "Inhibitory persists before loading",
+    "Inhibitory reload restores chosen scope"
+  ],
+  "app_sha256": "cefbc5906fee3b2092689a7cd5276cacd3d407a1cd6e85b451a67dde7275c5b4"
+}
