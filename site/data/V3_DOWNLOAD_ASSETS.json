@@ -1,0 +1,35 @@
+{
+  "version": "atlas-v3.0.0",
+  "assets": [
+    {
+      "asset_name": "SATB2_atlas_v3_runtime.zip",
+      "bytes": 1898412207,
+      "sha256": "8b5298abaf7948b05f9f362855fa067757348174d6496a513aeae22e68e0eded"
+    },
+    {
+      "asset_name": "SATB2_atlas_v3_saved_results.zip",
+      "bytes": 2076512452,
+      "sha256": "a03e0902ac53f62b8510c98f5fc3e03cba97e9c69e6703c14176e19e5e9294ac"
+    },
+    {
+      "asset_name": "v3_pattern75_scanpy_Inhibitory_original_full.pdf",
+      "bytes": 3324651,
+      "sha256": "9712ff38ff86661c630a4c9f0378c17f545f64a753c26a343e65f37707403675"
+    },
+    {
+      "asset_name": "v3_pattern75_seurat_Inhibitory_original_full.pdf",
+      "bytes": 3789489,
+      "sha256": "ac820e8e1c9e1ffd8eaacae80524c85a8b8eeaf09cac1ee89f2ed4091fa2ed67"
+    },
+    {
+      "asset_name": "v3_screenshot75_scanpy_Inhibitory_original_full.pdf",
+      "bytes": 3324642,
+      "sha256": "fd89773289a8b3005ef2b78faab66152dc4d48d8e7ed3b19225bc393c1efd32b"
+    },
+    {
+      "asset_name": "v3_screenshot75_seurat_Inhibitory_original_full.pdf",
+      "bytes": 3789480,
+      "sha256": "0dfbef7479e81cc05990741357dacadbeff996d8f3f9e5fc843e06ddff29158e"
+    }
+  ]
+}

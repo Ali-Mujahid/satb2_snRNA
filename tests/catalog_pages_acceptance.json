@@ -3,12 +3,12 @@
   "scope": "PURE_VM_MOCK_DOM_NOT_BROWSER",
   "checks": 9,
   "check_names": [
-    "All96 source assets have navigable links",
-    "Corrected runtime is recommended while original stays explicitly legacy",
-    "Six exact illustrated PDF thumbnails",
-    "Archive filter isolates4complete packages",
+    "All102 versioned assets have navigable links",
+    "V3 pair is recommended and historical runtime stays legacy",
+    "Ten exact illustrated PDF thumbnails",
+    "Archive filter isolates6complete packages",
     "Processed object filter isolates28 native objects",
-    "Example filter isolates6matching PDFs",
+    "Example filter isolates10matching PDFs",
     "Empty search result has honest empty state",
     "Text labels remain literalDOMtext",
     "Public inventory has bound archive hashes and no private machine paths"

@@ -5,7 +5,7 @@ MapMyCells reference annotation and saved mouse-level DESeq2 comparisons.
 
 **[Open the web atlas](https://ali-mujahid.github.io/satb2_snRNA/)** ·
 **[Data, figures and source downloads](https://ali-mujahid.github.io/satb2_snRNA/downloads.html)** ·
-**[Release assets](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v2.1.0)**
+**[Current release assets](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v3.0.0)**
 
 The website runs in the browser on other computers without R, Python or a
 local server. It supports annotated/gene-colored UMAPs, 60–180-gene dotplot
@@ -13,11 +13,24 @@ pages, adjustable expression/z color limits, label editing, cluster exclusions,
 mouse expression boxplots, exact saved DESeq2 results and PDF downloads.
 Labels and selections stay in that browser; export settings to transfer them.
 
+The v3 marker tools add a **Screenshot · all 75 genes** button, preserving the
+image's left-to-right order and fifteen blocks of five in both tools. The preset
+places all 75 genes on one 90-gene page. Genes can also be grouped by cluster
+expression pattern, ranked for a focus cluster, pasted in a custom order or
+moved individually. Scanpy and Seurat share the chosen column order using one
+selected reference tool; their cluster row orders can be adjusted separately.
+See the [marker preset and ordering guide](docs/marker_preset_v3.md).
+
 ## Study and interpretation
 
 Views cover all nuclei, excitatory nuclei, inhibitory nuclei, CA1/ProS
 candidates and CA1 layer-associated RNA programs. Marker dotplots and gene
-UMAPs use 878 already-produced cluster summaries. Mouse boxplots can select
+UMAPs use **889** marker genes: the original 878 summaries plus eleven added
+descriptive summaries from the same frozen native integer-count populations.
+The original marker values, source memberships and saved fits are unchanged.
+Automatic gene ordering describes expression contrasts; it is not a new marker
+test or evidence that screenshot cluster numbers match this study's clusters.
+Mouse boxplots can select
 all 32,285 source genes and use the selected exact endpoint's recorded size
 factors. Each boxplot point is an independent mouse.
 
@@ -36,11 +49,14 @@ identical shared-count results are not independent statistical replication.
 
 ## Repository layout
 
-* `site/`: GitHub Pages frontend and losslessly transported interactive data.
+* `site/`: GitHub Pages frontend, verified original interactive data and the
+  separately documented eleven-gene marker extension.
 * `data_downloads/`: exact source-download payloads, outside the Pages size
-  budget, fetched from this release's pinned Git tag with SHA-256 checks.
+  budget, fetched from the preserved `atlas-v2.1.0` tag with SHA-256 checks.
 * `analysis/`: original and revision workflow/configuration snapshots, marker
   workbooks, annotation/reference evidence, package records and provenance.
+  `analysis/dashboard/v3_marker_extension/` includes the new descriptive sums,
+  source hashes, ordered marker panel and validation evidence.
 * `docs/analysis/`: reproduction and processed-object guidance.
 * `scripts/`: transport, integrity and release packaging helpers.
 
@@ -53,23 +69,25 @@ analyses; these are not falsely described as full-gene standalone R objects.
 
 ## Offline use
 
-Download the **recommended corrected runtime** `SATB2_atlas_v2_1_runtime.zip`
-and the unchanged companion `SATB2_atlas_v2_saved_results.zip`. Extract both
-into the same parent folder, allowing their common `offline_dashboard_v2/`
+Download the **recommended v3 runtime** `SATB2_atlas_v3_runtime.zip` and
+`SATB2_atlas_v3_saved_results.zip` from
+[atlas-v3.0.0](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v3.0.0).
+Extract both into the same parent folder, allowing their common `offline_dashboard_v3/`
 folder to merge, then open its `index.html`. They are independent ordinary
 ZIPs, not spanned archive volumes.
 
-The v2.1 runtime corrects tiny P-value scientific-notation display and retains
-the selected overlay gene when using the gene-search controls. Scientific
-payloads, model results and the classic offline data loader are unchanged.
-The original `SATB2_atlas_v2_runtime.zip` remains available as a **legacy
-original**. Use the recommended v2.1 runtime for corrected offline exploration.
+The v3 runtime includes the 75-gene preset, eleven additional marker summaries,
+shared gene-column ordering and manual row/gene ordering. It retains the v2.1
+tiny-P-value and selected-overlay-gene corrections and the classic offline
+data loader. The saved results companion places the existing source results
+under the common v3 folder; it does not refit the analysis. The earlier
+[v2/v2.1 archives and original assets remain available](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v2.1.0).
 
-Together, the corrected runtime and unchanged saved-results companion retain
+Together, the v3 runtime and saved-results companion retain
 the original source tables, 67 PDF books and 450 individually indexed figure
-pages. The combined bundle manifest updates the two UI-file hashes while
-preserving all other file hashes. See [UI update provenance](docs/offline_ui_update.json)
-and [the derivative archive builder](scripts/build_corrected_offline_runtime.py).
+pages. The new runtime's marker-extension provenance distinguishes newly
+aggregated display summaries from preserved source results. The prior v2.1
+[UI update provenance](docs/offline_ui_update.json) remains available.
 
 `SATB2_analysis_source_v2.zip` supplies an additional source/reference snapshot.
 The website does not need processed AnnData/RDS files to operate. Those files
@@ -80,9 +98,13 @@ follow the source/input provenance for a complete scientific rerun.
 ## Validation and deployment
 
 Original analysis outputs and the offline v1/v2 deliveries were preserved.
-The hosted transport keeps native JSON bytes and exact source text, verifies
-compressed and decoded SHA-256, and performs no new RNA extraction, embedding
-or differential model fitting. Validation evidence is under `docs/` and
+The hosted transport verifies compressed and decoded SHA-256 and preserves
+original numeric values, nulls and exact source text. The authorized v3 marker
+extension computes eleven descriptive gene summaries from existing counts,
+without changing the original 878 genes or fitting embeddings, clusters,
+annotations or differential models. All 64,548 added gene × atom × mouse
+integer sums match the 489 existing full-gene native count arrays exactly.
+Validation evidence is under `docs/` and
 `analysis/provenance/`; the hosted browser checks are recorded separately.
 
 GitHub Pages deploys the prebuilt `site/` directory. Source-download URLs are

@@ -1,0 +1,324 @@
+{
+  "schema": "satb2-offline-v3-package-1",
+  "status": "PACKAGED_AND_VERIFIED",
+  "generated_at": "2026-10-15T13:20:25.941092+00:00",
+  "bundle": "offline_dashboard_v3",
+  "bundle_manifest_sha256": "64a7923154ce069133c2839ea2168ae0404b2306367f288604e8a2efd7cc42cf",
+  "folder_files_including_manifest": 12851,
+  "marker_extension": {
+    "receipt_name": "COMPLETE.json",
+    "receipt_sha256": "8ad76f80caeaf8226b096e4e6dd760e692eb0dc927b1d45b3c061c5d7df16fb7",
+    "schema": "satb2-screenshot-marker-extension-1",
+    "n_datasets": 24,
+    "n_original_genes": 878,
+    "n_extended_genes": 889,
+    "n_screenshot_genes": 75,
+    "new_descriptive_marker_count_aggregation_performed": true,
+    "scientific_model_fitting_performed": false,
+    "QC_clustering_embeddings_annotation_and_DESeq2_unchanged": true,
+    "source_run_modified": false
+  },
+  "source_archives_unchanged_PASS": true,
+  "source_folder_snapshot_unchanged_PASS": true,
+  "scientific_fitting_performed_by_packager": false,
+  "RNA_count_aggregation_performed_by_packager": false,
+  "existing_saved_results_file_bytes_unchanged_PASS": true,
+  "extract_together": "Extract both ZIPs into one parent directory; both use offline_dashboard_v3/",
+  "source_archives": [
+    {
+      "asset_name": "SATB2_atlas_v2_1_runtime.zip",
+      "sha256": "33c5af6053ad64b1d85a10a9fec00fd7968f1e45e47fa659357a4d2947d5bf6c",
+      "bytes": 1893537283
+    },
+    {
+      "asset_name": "SATB2_atlas_v2_saved_results.zip",
+      "sha256": "5beb3b65ed8305da07bcbd0410f18bba6730384f8bdb74dedff170ec7d401db8",
+      "bytes": 2076512452
+    }
+  ],
+  "assets": [
+    {
+      "asset_name": "SATB2_atlas_v3_runtime.zip",
+      "role": "runtime",
+      "bytes": 1898412207,
+      "sha256": "8b5298abaf7948b05f9f362855fa067757348174d6496a513aeae22e68e0eded",
+      "copy_method": "APFS_clone_cp_c",
+      "rename_method": "same_length_header_fallback_after_zipnote_failure",
+      "member_count": 3308,
+      "all_member_CRC_and_SHA_PASS": true,
+      "under_2GiB": true,
+      "unchanged_compressed_members": 3261,
+      "unchanged_compressed_identity_PASS": true,
+      "added_members": [
+        "README_V3.md",
+        "data/MARKER_EXTENSION_PROVENANCE.json",
+        "data/marker_extension/native/extension_gene_cluster_mouse_summary.tsv.gz",
+        "data/marker_extension/native/extension_gene_cluster_summary.tsv",
+        "data/marker_extension/native/extension_gene_cluster_summary_WT.tsv",
+        "data/marker_extension/validation/existing_marker_preservation.json",
+        "data/marker_extension/validation/native_aggregate_comparison.json",
+        "source_extension/docs/marker_preset_v3.md",
+        "source_extension/docs/offline_v3_build.md",
+        "source_extension/scripts/apply_marker_ordering_ui.py",
+        "source_extension/scripts/extend_screenshot_markers.py",
+        "source_extension/scripts/integrate_marker_extension_v3.py",
+        "source_extension/scripts/package_marker_atlas_v3.py",
+        "source_extension/scripts/validate_marker_extension_counts.py"
+      ],
+      "removed_owned_baseline_members": [],
+      "changed_or_added_members": [
+        {
+          "path": ".DS_Store",
+          "bytes": 6148,
+          "sha256": "6c7a3b6993ebf7a5c8d594685f37f5ae9fa720645994731aec3aabe0f4e9fefa"
+        },
+        {
+          "path": "BUNDLE_MANIFEST.json",
+          "bytes": 3454398,
+          "sha256": "64a7923154ce069133c2839ea2168ae0404b2306367f288604e8a2efd7cc42cf"
+        },
+        {
+          "path": "README.md",
+          "bytes": 6868,
+          "sha256": "e801ecacbeb00a7a7ddb73cf032f9b559db015150aed01e58be1cff1778c91b6"
+        },
+        {
+          "path": "README_V3.md",
+          "bytes": 1747,
+          "sha256": "f9c0683f01df183e1fbc4bb66351a4690521fe702afb72ff91811dd4a5dbbff4"
+        },
+        {
+          "path": "app.js",
+          "bytes": 97103,
+          "sha256": "c0a95f29e28dccf9b9cc983b602386cf582f703cf0131f7dbd8a09edd667b5c8"
+        },
+        {
+          "path": "data/MARKER_EXTENSION_PROVENANCE.json",
+          "bytes": 9755,
+          "sha256": "35b0472e633b5ca04a5b4600cb05cf9f6b72c5064de35a302c4b47f0678d6d6b"
+        },
+        {
+          "path": "data/manifest.js",
+          "bytes": 382998,
+          "sha256": "f51270a7e258b234b94b1d0369ee4ee4fb8a8839ef001434d2376ee27b71bb6e"
+        },
+        {
+          "path": "data/manifest.json",
+          "bytes": 382979,
+          "sha256": "45b8fc550eaf0600fae6eb87c0af1d388c3eb065469362ec1a65d46c78b6c120"
+        },
+        {
+          "path": "data/marker_extension/native/extension_gene_cluster_mouse_summary.tsv.gz",
+          "bytes": 2486516,
+          "sha256": "e56446fa795bc582fa87dc578d5cfa99e2cf3952eca5440179de21d331b3e981"
+        },
+        {
+          "path": "data/marker_extension/native/extension_gene_cluster_summary.tsv",
+          "bytes": 2605090,
+          "sha256": "7160e44a0144d4f14f503a0ee81a9053569c160813fbd75097b860619fcbe49e"
+        },
+        {
+          "path": "data/marker_extension/native/extension_gene_cluster_summary_WT.tsv",
+          "bytes": 2520306,
+          "sha256": "110bdb36c36ed678a8b7b09fb25d2b5ed01eb8f04140d3084af2f14a55f9b4a8"
+        },
+        {
+          "path": "data/marker_extension/validation/existing_marker_preservation.json",
+          "bytes": 19638,
+          "sha256": "0a454b856121146f4c6653f23576e091d9eb9700e15277e4aa99ab8d2faf8594"
+        },
+        {
+          "path": "data/marker_extension/validation/native_aggregate_comparison.json",
+          "bytes": 627,
+          "sha256": "6b38629b098525f233531133943956d8cc6cdf957cb29a561e740d254581bdb8"
+        },
+        {
+          "path": "data/shards/markers__scanpy__original_full__CA1_ProS.js",
+          "bytes": 3082494,
+          "sha256": "529f766d494bb27aa39b4ce4eff5b627b1c67b698afbb5ee523a4d0c09bc0a04"
+        },
+        {
+          "path": "data/shards/markers__scanpy__original_full__Excitatory.js",
+          "bytes": 6558320,
+          "sha256": "0d72705d8e3ee216f02acdefca7ff3b4aa318d754690978f6a45d596264dbcb1"
+        },
+        {
+          "path": "data/shards/markers__scanpy__original_full__Inhibitory.js",
+          "bytes": 5347916,
+          "sha256": "7a24c397ffe11cb16db3f4a1d1b606fa98ab866c5ddb86e1655521869c1e0c2a"
+        },
+        {
+          "path": "data/shards/markers__scanpy__original_full__allcells.js",
+          "bytes": 9097834,
+          "sha256": "f86643dd010cf71aaf0791a76e34443c00653277e145a88b8037e0ce4e3f505a"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_cellbender__CA1_ProS.js",
+          "bytes": 2981130,
+          "sha256": "918c6cbee7e95dde69aa1e58f8515605c9a1e07359e71832dc90f492dff29d2f"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_cellbender__Excitatory.js",
+          "bytes": 6411036,
+          "sha256": "61e5287ccb8c29a6bc331abc05a2f75a7b96244dc939358acabd9526e3da74eb"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_cellbender__Inhibitory.js",
+          "bytes": 5146836,
+          "sha256": "2f1a2ff8580b17fa4e7020129585f2551f5aed5a7b137f11b25da0f76a102166"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_cellbender__allcells.js",
+          "bytes": 8750574,
+          "sha256": "f181b9779c97b2617d59c674a06d436ece284ffcb0b7b1327b327b8a3b909e6b"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_original__CA1_ProS.js",
+          "bytes": 3080812,
+          "sha256": "d773fffb9a2ccd91e677e7d98c1600bddcb9c36a450271f9382b2ddf7e42827a"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_original__Excitatory.js",
+          "bytes": 6561314,
+          "sha256": "2e113b5484001be8311f198735adceb99d5f04b1e993c64af389faba5ef9a002"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_original__Inhibitory.js",
+          "bytes": 5344310,
+          "sha256": "4f87cec4549084eb99dc4bf706f3adde9b20ea945f39eb57e3bf6c19f960a4de"
+        },
+        {
+          "path": "data/shards/markers__scanpy__paired_original__allcells.js",
+          "bytes": 9096240,
+          "sha256": "9ef0b600402e83ff4572127dc28e5800dad0aee82afbd8840e7011bc3be03603"
+        },
+        {
+          "path": "data/shards/markers__seurat__original_full__CA1_ProS.js",
+          "bytes": 3713102,
+          "sha256": "8085c324f5f766cf10bb572705b468dc72659aad064f6a6684361b461e76b80c"
+        },
+        {
+          "path": "data/shards/markers__seurat__original_full__Excitatory.js",
+          "bytes": 7930088,
+          "sha256": "94ad400d878f55876e9ebd679f1bb02a6a2b1499d5143ac5b3968b4dc107142b"
+        },
+        {
+          "path": "data/shards/markers__seurat__original_full__Inhibitory.js",
+          "bytes": 6262812,
+          "sha256": "055dc818cf13435c6ccfc61d89d65bb0908440513b4b481879226ac6d67066fb"
+        },
+        {
+          "path": "data/shards/markers__seurat__original_full__allcells.js",
+          "bytes": 10460470,
+          "sha256": "2b34d005a8f3b37398c6222ac5715d22bc781edceb1ed8c5d6a0e89f16e399cc"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_cellbender__CA1_ProS.js",
+          "bytes": 3592206,
+          "sha256": "a10e37d80de8b790b8c002562099774d257a5bcee8aaac0084ff89cb968eb2de"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_cellbender__Excitatory.js",
+          "bytes": 7745204,
+          "sha256": "bece593330f799d11ff407e121e49345900db341e30eb852afc19b176b0151ad"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_cellbender__Inhibitory.js",
+          "bytes": 6060928,
+          "sha256": "2a8a36d1b315a1e9c3524ebb3479ae8ebda858ce15b6c64f4b44606ff5032df1"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_cellbender__allcells.js",
+          "bytes": 10016454,
+          "sha256": "5c68bc618289e034424e6be1ec66aaaa2056e8ac93c1049a082165d97d557934"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_original__CA1_ProS.js",
+          "bytes": 3712548,
+          "sha256": "7cd250a69d313c89fae65a6a1e8f1d58b6b7ff494e30525513bcef2ef0900179"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_original__Excitatory.js",
+          "bytes": 7924286,
+          "sha256": "d791a9cbb35dd4731a339b3f2bf2f8776800cfabc0add292d8088c7e6cf6f249"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_original__Inhibitory.js",
+          "bytes": 6277530,
+          "sha256": "4ee27e2b37321cd2bf74319fb781ba872a8866c1de01a9c7b154f0ef1f727ac8"
+        },
+        {
+          "path": "data/shards/markers__seurat__paired_original__allcells.js",
+          "bytes": 10403704,
+          "sha256": "33b15faa114f095e09363cd6d113125361f622ff9632eeea8ef04a56f00ae7b6"
+        },
+        {
+          "path": "index.html",
+          "bytes": 23034,
+          "sha256": "d57bdfb4ed3cc1da41c3c545399c640b7b9876a070a84468c31f6a4c17bd5fc1"
+        },
+        {
+          "path": "source_extension/docs/marker_preset_v3.md",
+          "bytes": 6111,
+          "sha256": "a93d4158885078a3fee0eb69c77c3202d234e3dd4c7be102fffba77046131869"
+        },
+        {
+          "path": "source_extension/docs/offline_v3_build.md",
+          "bytes": 5294,
+          "sha256": "e42f6fdb7c6306c51f27c73d834894977ab64486f6f6253488462ecf405ca21b"
+        },
+        {
+          "path": "source_extension/scripts/apply_marker_ordering_ui.py",
+          "bytes": 3661,
+          "sha256": "c7c26521b4faa997deb75c966577f98f5a7fb7acdf9a4dbd7d7c5a7bb22d2fb9"
+        },
+        {
+          "path": "source_extension/scripts/extend_screenshot_markers.py",
+          "bytes": 18344,
+          "sha256": "a3a7617fdca7a1c1860687914ed58dfb3b17e30f48ab71900e9b9f5741fc3dcf"
+        },
+        {
+          "path": "source_extension/scripts/integrate_marker_extension_v3.py",
+          "bytes": 5804,
+          "sha256": "90997d7cb87ef8d143d7f00db11102f4a2af954c5ed70bf9864e5488a61a5e40"
+        },
+        {
+          "path": "source_extension/scripts/package_marker_atlas_v3.py",
+          "bytes": 25569,
+          "sha256": "57027c610649101aed01c73143a5e9512ffe1ad7dee1bf74af794ab7e0cf6796"
+        },
+        {
+          "path": "source_extension/scripts/validate_marker_extension_counts.py",
+          "bytes": 2839,
+          "sha256": "39d4caaac8d6202267c262dfab120223efe703e71a453348b3f7bdae9b98188e"
+        },
+        {
+          "path": "styles.css",
+          "bytes": 11471,
+          "sha256": "0cf3d998608c1540514284cc54e4dbe8b748b188e80aa70c45c2eb9a70b7b57c"
+        },
+        {
+          "path": "v2_features.js",
+          "bytes": 12903,
+          "sha256": "4d769b198f4aefb5ecde6675925554f9985ef2110226ff14d75206696965a9ae"
+        }
+      ]
+    },
+    {
+      "asset_name": "SATB2_atlas_v3_saved_results.zip",
+      "role": "saved_results",
+      "bytes": 2076512452,
+      "sha256": "a03e0902ac53f62b8510c98f5fc3e03cba97e9c69e6703c14176e19e5e9294ac",
+      "copy_method": "APFS_clone_cp_c",
+      "rename_method": "same_length_header_fallback_after_zipnote_failure",
+      "member_count": 9543,
+      "all_member_CRC_and_SHA_PASS": true,
+      "under_2GiB": true,
+      "unchanged_compressed_members": 9543,
+      "unchanged_compressed_identity_PASS": true,
+      "added_members": [],
+      "removed_owned_baseline_members": [],
+      "changed_or_added_members": []
+    }
+  ]
+}

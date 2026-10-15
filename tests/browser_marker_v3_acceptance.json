@@ -1,0 +1,48 @@
+{
+  "status": "PASS",
+  "date_utc": "2026-10-15T13:25:26.335033+00:00",
+  "target": "https://ali-mujahid.github.io/satb2_snRNA/",
+  "tested_deployment_commit": "430837318982629db646584ca7923bd2f4b0b862",
+  "frontend_sha256": "b955982b9a258db7faef83c1bf30f8a4a394b3df86ca834112eb3a1c6b297b97",
+  "scope": "Actual hosted browser UI and downloaded PDF/CSV/settings; offline separately checked by VM, decoded-payload identity and full archive hashes/CRC.",
+  "checks": {
+    "one_click_75_exact_screenshot_order_both_tools": true,
+    "all_11_new_genes_in_actual_downloads": true,
+    "all_75_single_wide_plot_per_tool_with_full_label_appendix": true,
+    "15_image_blocks": true,
+    "pattern_order_reference_scanpy_and_seurat": true,
+    "shared_columns_verified_from_actual_CSVs": true,
+    "focused_seurat_cluster_3_descending_contrast_Vip_first": true,
+    "manual_paste_and_gene_move_Vip_Ccbe1_Cacna2d1": true,
+    "custom_scanpy_row_order_16_0_2_native_keyboard_and_blur": true,
+    "settings_export_and_reload_preserve_custom_order": true,
+    "CA1_program_view_paired_cellbender_75_both_tools": true,
+    "cKO_mean_expression_available_z_unavailable_as_expected": true
+  },
+  "notes": [
+    "Native keyboard typing and blur commits row-ID edits; synthetic automation fill alone did not commit a browser change event. No runtime bug was established.",
+    "The screenshot gene blocks are display groups; native cluster memberships and DESeq2 fits are unchanged."
+  ],
+  "examples": [
+    {
+      "asset_name": "v3_pattern75_scanpy_Inhibitory_original_full.pdf",
+      "bytes": 3324651,
+      "sha256": "9712ff38ff86661c630a4c9f0378c17f545f64a753c26a343e65f37707403675"
+    },
+    {
+      "asset_name": "v3_pattern75_seurat_Inhibitory_original_full.pdf",
+      "bytes": 3789489,
+      "sha256": "ac820e8e1c9e1ffd8eaacae80524c85a8b8eeaf09cac1ee89f2ed4091fa2ed67"
+    },
+    {
+      "asset_name": "v3_screenshot75_scanpy_Inhibitory_original_full.pdf",
+      "bytes": 3324642,
+      "sha256": "fd89773289a8b3005ef2b78faab66152dc4d48d8e7ed3b19225bc393c1efd32b"
+    },
+    {
+      "asset_name": "v3_screenshot75_seurat_Inhibitory_original_full.pdf",
+      "bytes": 3789480,
+      "sha256": "0dfbef7479e81cc05990741357dacadbeff996d8f3f9e5fc843e06ddff29158e"
+    }
+  ]
+}
