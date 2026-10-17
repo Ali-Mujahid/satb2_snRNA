@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "scope": "PRESENTATION_GEOMETRY_ONLY_NO_SOURCE_COORDINATE_COUNT_MEMBERSHIP_OR_MODEL_CHANGES",
+  "checks": 21,
+  "check_names": [
+    "Default original presentation keeps exact coordinate values and source order",
+    "Unintegrated source basis is used explicitly without falling back to Harmony",
+    "Missing coordinate pairs remain unavailable rather than becoming invented positions",
+    "Compact layout compresses centroid distances by the selected factor",
+    "Compact translation retains each within-cluster displacement vector and cluster shape",
+    "Compact spacing one restores exact source doubles with an explicit presentation mode flag",
+    "Manual cluster shifts use the complete source span and affect only the selected cluster",
+    "Manual scaling is uniform around the selected cluster centroid",
+    "Global rotation and reflection preserve all pairwise distances",
+    "A complete turn is treated as exact original orientation",
+    "Hippocampus-like mode is finite, deterministic and explicitly non-anatomical",
+    "Schematic ordering is independent of input row order and retains each nucleus identity",
+    "Schematic modes apply only uniform scaling to each cluster local geometry",
+    "Resetting to original reverses every presentation change without a source edit",
+    "Inherited customization is ignored and nonfinite settings are safely normalized",
+    "Invalid option containers safely restore the original display",
+    "Expansion is supported and manual movement never claims original intercluster distances",
+    "Empty, all-missing, one-cluster and coincident-coordinate populations remain valid",
+    "Source counts, identity fields and complete input arrays are never mutated",
+    "Inhibitory native Seurat array retains every stable ID, coordinate and cluster membership",
+    "CA1_ProS native Seurat array retains every stable ID, coordinate and cluster membership"
+  ],
+  "helper_sha256": "8f6388b2828f75d9a35d1b577c90a2c64298ee772920567d29aff4866b2582ee"
+}

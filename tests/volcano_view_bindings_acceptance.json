@@ -39,5 +39,5 @@
     "Legacy settings receive new view defaults without changing FDR or LFC",
     "Panel selection, gray appearance and imports preserve source fields, both memberships and matched fit IDs"
   ],
-  "app_sha256": "b765b2a950f6a1d82ebdc2dd128aabdf4486e5c636815f63a25f0d4c05fd9f7d"
+  "app_sha256": "00fe7d8177d68bf7a8026ec8f91d2b87f86d27b6be96851908cda55e74daeed5"
 }

@@ -125,7 +125,9 @@ async function scope(pop,branch='original_full',tab='de'){
     assert.strictEqual(a[0],Math.min(...vals));assert.strictEqual(a[1],Math.max(...vals));
     const midpoint=(a[0]+a[1])/2;assert.strictEqual(app.helpers.continuousColor(midpoint,...a),app.helpers.continuousColor(midpoint,...b));
   });
-  app.state.annotation='gene';app.state.overlayGene=gene;
+  // This fixture loads saved cluster summaries only; nucleus-vector behavior
+  // and its measured-expression default are covered by plot_controls_v31.cjs.
+  app.state.annotation='gene';app.state.overlayGene=gene;app.state.expressionResolution='cluster';
   check('Actual gene-overlay values use the shared UMAP range',()=>{
     assert.deepEqual(plain(app.numericRange('scanpy')),plain(app.numericRange('seurat')));
     app.state.sharedScale=false;const left=app.numericRange('scanpy'),right=app.numericRange('seurat');assert(left&&right);

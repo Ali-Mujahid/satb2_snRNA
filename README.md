@@ -145,3 +145,5 @@ license is granted to the study data or other source materials by this README.
 
 
 Hosted compatibility patch `atlas-v3.0.1` gives each compressed data request a content-specific cache URL, so browsers with older marker files load the correct extended payload. The v3.0.0 portable archives and all scientific data are unchanged.
+
+The v3.3 presentation controls add optional compact layouts, per-cluster placement, rotation/reflection, a clearly marked hippocampus-like schematic, reversible individual dot styling, and clean volcano PDFs without label leader lines. See [the presentation guide](docs/ATLAS_V3_3_PRESENTATION.md). Original coordinates, measurements, memberships and DESeq2 results remain unchanged.

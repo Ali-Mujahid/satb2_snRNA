@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "PURE_PRESENTATION_ONLY_MARKER_APPEARANCE_NO_SOURCE_OR_MODEL_EDITS",
+  "checks": 18,
+  "check_names": [
+    "Unedited dots have neutral appearance",
+    "Context key retains identifiers without delimiter collisions",
+    "Whole-gene selection applies to each cluster in that panel",
+    "Specific dot overrides whole-gene appearance completely",
+    "Both-tools selection writes independent keys with the same settings",
+    "Tool, branch, population, cluster and stable gene ID have exact scope",
+    "Reset selected restores inherited whole-gene style",
+    "Reset whole-gene leaves independent dot overrides intact",
+    "Reset panel removes only selected tool and scope",
+    "Boundary factors are clamped and malformed values are neutral",
+    "Import normalization drops invalid keys, inherited entries and unrelated settings",
+    "Malformed contexts cannot create or erase records",
+    "ALL and null cluster selectors target a whole gene while numeric zero remains C0",
+    "Dot style multiplies area and alpha after negative-z styling without changing values",
+    "Missing expressions remain missing under visual styling",
+    "Zero size and opacity are permitted without implying source absence",
+    "Applying resetting and resolving never mutate source maps or input styles",
+    "Export records disclose exact source keys and visual multipliers"
+  ],
+  "helper_sha256": "be29e9a06d81eaef0d08eee793e4445f9bd32e91677b42dcde5bd262ef5a4bf6"
+}
