@@ -1,0 +1,150 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "url": "https://ali-mujahid.github.io/satb2_snRNA/",
+  "tag": "atlas-v3.2.0",
+  "web_commit": "8e463ea2a90cbd1d0a743ecd21a95312b57d4f89",
+  "deployment": "https://github.com/Ali-Mujahid/satb2_snRNA/actions/runs/39068242896",
+  "app_sha256": "b765b2a950f6a1d82ebdc2dd128aabdf4486e5c636815f63a25f0d4c05fd9f7d",
+  "renderer_sha256": "4d7949ef4d88d50a740dde452efcb3a9742159d2b94baa08ba44e5f3d140e2cd",
+  "browser_checks": [
+    "Both tools default to full-range overview plus separate low-y detail",
+    "Gray non-DEG cloud is visibly distinct in both low-y panels",
+    "Full/low/both view selector operates on both tools",
+    "Full-only mode disables the unused low-y maximum input",
+    "Changing low-y maximum from5 to2 updates axes and display-only outside-view counts",
+    "Changing non-DEG radius and opacity changes appearance and appears in downloaded PDF metadata",
+    "All three views downloaded and parsed as PDFs from both tools",
+    "Combined PDFs are one-page A4 portrait; full and low PDFs one-page A4 landscape",
+    "Combined and low-only PDFs rendered and visually inspected",
+    "Custom view, y-limit, radius and opacity survive browser reload",
+    "Original inhibitory75-marker view restored through settings import; new display defaults remain available",
+    "No browser console errors or warnings"
+  ],
+  "source_example": {
+    "population": "CA1_ProS",
+    "branch": "original_full",
+    "endpoint": "PRIMARY total",
+    "maximum_adjusted_P": 0.05,
+    "minimum_absolute_log2FC": 0,
+    "full_finite_genes": 16255,
+    "higher_cKO": 1004,
+    "lower_cKO": 1021,
+    "nonDEG": 14230,
+    "NA_omitted": 0,
+    "low_max5": {
+      "finite_visible": 15680,
+      "above_view_only": 575,
+      "nonDEG_visible": 14230
+    },
+    "low_max2": {
+      "finite_visible": 14873,
+      "above_view_only": 1382,
+      "nonDEG_visible": 14230
+    }
+  },
+  "pdf_downloads": [
+    {
+      "view": "both",
+      "tool": "scanpy",
+      "filename": "CA1_scanpy_volcano_both_v3_2.pdf",
+      "bytes": 6725433,
+      "pages": 1,
+      "page_points": [
+        595.2755905511812,
+        841.8897637795277
+      ],
+      "sha256": "7fcca810a43c175f36bc955130461a2cf4ee71406157c0902699a42a493befea",
+      "selected_view_included": true,
+      "nonDEG_count": 14230,
+      "portrait": true
+    },
+    {
+      "view": "both",
+      "tool": "seurat",
+      "filename": "CA1_seurat_volcano_both_v3_2.pdf",
+      "bytes": 6725433,
+      "pages": 1,
+      "page_points": [
+        595.2755905511812,
+        841.8897637795277
+      ],
+      "sha256": "900d6540540d2e907de7a7ecf9f1026231729edf07c502505f5fdec4c02fc674",
+      "selected_view_included": true,
+      "nonDEG_count": 14230,
+      "portrait": true
+    },
+    {
+      "view": "low",
+      "tool": "scanpy",
+      "filename": "CA1_scanpy_volcano_low_v3_2.pdf",
+      "bytes": 4865125,
+      "pages": 1,
+      "page_points": [
+        841.8897637795277,
+        595.2755905511812
+      ],
+      "sha256": "ed55ff6005878f6fdb5414876220f41da651632d94a6da26c11a731a45bb71c5",
+      "selected_view_included": true,
+      "nonDEG_count": 14230,
+      "portrait": false
+    },
+    {
+      "view": "low",
+      "tool": "seurat",
+      "filename": "CA1_seurat_volcano_low_v3_2.pdf",
+      "bytes": 4865125,
+      "pages": 1,
+      "page_points": [
+        841.8897637795277,
+        595.2755905511812
+      ],
+      "sha256": "cc60d74dcbf5497442bc56a0abd26b698ba69d873bdd2d6949240f280841ca8b",
+      "selected_view_included": true,
+      "nonDEG_count": 14230,
+      "portrait": false
+    },
+    {
+      "view": "full",
+      "tool": "scanpy",
+      "filename": "CA1_scanpy_volcano_full_v3_2.pdf",
+      "bytes": 4864924,
+      "pages": 1,
+      "page_points": [
+        841.8897637795277,
+        595.2755905511812
+      ],
+      "sha256": "d061f41e894b66df0e691ee2e7428b169de1ed2a745503acce0bf31b5423f607",
+      "selected_view_included": true,
+      "nonDEG_count": 14230,
+      "portrait": false
+    },
+    {
+      "view": "full",
+      "tool": "seurat",
+      "filename": "CA1_seurat_volcano_full_v3_2.pdf",
+      "bytes": 4864924,
+      "pages": 1,
+      "page_points": [
+        841.8897637795277,
+        595.2755905511812
+      ],
+      "sha256": "699a44a6666c1995502a0b0ddb1a44f940040954b3d65f16a1dca46f55b731ca",
+      "selected_view_included": true,
+      "nonDEG_count": 14230,
+      "portrait": false
+    }
+  ],
+  "custom_pdf": {
+    "filename": "CA1_scanpy_volcano_low_y2_custom_v3_2.pdf",
+    "sha256": "192574073818724f480b194bcc29377abcf990db84454d149073366089564ca6",
+    "view": "low",
+    "lowYMax": 2,
+    "gray_radius": 2.2,
+    "gray_opacity": 1,
+    "pages": 1
+  },
+  "new_scientific_fits": false,
+  "source_DEGs_or_memberships_changed": false,
+  "new_view_changes_table_search_or_DEG_thresholds": false
+}
