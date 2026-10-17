@@ -61,6 +61,13 @@ async function rejects(name,job,pattern){await assert.rejects(job,pattern);check
  check('Reset preserves the measured-expression default and restores plot-control defaults',()=>{assert.equal(app.state.expressionResolution,'nucleus');assert.equal(app.state.labelStyle,'compact');assert.equal(app.state.volcanoLabelCount,20);assert.equal(JSON.stringify(app.targetMembers('scanpy')),members);});
  const legacy=context({}),legacyApp=legacy.SATB2_APP;await legacyApp.init({manifest:fixtureManifest(nativeSubset,{genes:geneCatalog.genes}),catalog:fitCatalog,headless:true,ignoreSavedState:true,shardLoader:async()=>({encoding:'json',data:plain(nativeSubset)})});
  check('A legacy atlas without source vectors explicitly falls back to cluster summaries',()=>assert.equal(legacyApp.state.expressionResolution,'cluster'));
+ const advertised=context({}),advertisedApp=advertised.SATB2_APP,advertisedManifest=fixtureManifest(nativeSubset,{genes:geneCatalog.genes});advertisedManifest.measurement_contract={source_nucleus_expression_extracted:true};
+ await advertisedApp.init({manifest:advertisedManifest,catalog:fitCatalog,headless:true,ignoreSavedState:true,shardLoader:async()=>({encoding:'json',data:plain(nativeSubset)})});
+ check('An atlas advertising measured nucleus expression never silently falls back when its catalog is absent',()=>assert.equal(advertisedApp.state.expressionResolution,'nucleus'));
+ await rejects('An advertised measured-expression request fails closed when its catalog is unavailable',advertisedApp.ensureNucleusGene(),/not packaged/);
+ legacyApp.state.expressionResolution='nucleus';legacyApp.normalizePlotState(legacyApp.state);
+ check('An explicit individual-nucleus selection survives normalization when its catalog is absent',()=>assert.equal(legacyApp.state.expressionResolution,'nucleus'));
+ await rejects('An explicit measured-expression request in a legacy atlas fails instead of substituting cluster means',legacyApp.ensureNucleusGene(),/not packaged/);
  const tinyBase={schema:'satb2-nucleus-expression-catalog-1',genes:[{gene_id:'g',gene_symbol:'Cck'}],branches:{original_full:{axis_shard:'axis',genes:{g:'vector'}}},shards:{axis:{payload_sha256:'a'.repeat(64)},vector:{}}},tinyCoords={nuclei:[{nucleus_id:'n1',cluster_id:'0',condition:'WT',x_harmony:0,y_harmony:1,x_unintegrated:0,y_unintegrated:1}],clusters:[{cluster_id:'0',reviewed_label:'Fixture'}]};
  async function tinyCase(axis,vector,extra=[]){const tc=context(tinyBase),ta=tc.SATB2_APP,tm=fixtureManifest(tinyCoords,tinyBase);await ta.init({manifest:tm,catalog:{fits:[]},headless:true,ignoreSavedState:true,shardLoader:async id=>({encoding:'json',data:id.endsWith('__coords')?{...tinyCoords,nuclei:[...tinyCoords.nuclei,...extra]}:id==='axis'?axis:vector})});ta.state.overlayGene='g';return ta;}
  const validAxis={branch:'original_full',nucleus_ids:['n1','n2'],library_counts:[10,20]},validVector={branch:'original_full',gene_id:'g',n_source_nuclei:2,axis_payload_sha256:'a'.repeat(64),indices:[0],counts:[2]};
@@ -70,6 +77,19 @@ async function rejects(name,job,pattern){await assert.rejects(job,pattern);check
  tiny=await tinyCase(validAxis,{...validVector,axis_payload_sha256:'b'.repeat(64)});await rejects('A sparse gene vector cannot bind to another source-axis hash',tiny.ensureNucleusGene(),/does not match/);
  for(const [suffix,change] of [['duplicate indices',{indices:[0,0],counts:[1,2]}],['fractional count',{counts:[1.5]}],['unsafe count',{counts:[Number.MAX_SAFE_INTEGER+1]}],['out-of-range index',{indices:[2]}]]){tiny=await tinyCase(validAxis,{...validVector,...change});await rejects('Invalid sparse input rejected: '+suffix,tiny.ensureNucleusGene(),/Invalid sparse source/);}
  tiny=await tinyCase(validAxis,validVector,[{...tinyCoords.nuclei[0],nucleus_id:'absent'}]);await rejects('A displayed nucleus missing from its measured source axis fails closed',tiny.ensureNucleusGene(),/displayed nucleus is absent/);
+ const pdfContext=context(),pdfApp=pdfContext.SATB2_APP;let pdfStartedResolve,pdfRelease,constructedPDF=0,savedPDF=0;
+ const pdfStarted=new Promise(resolve=>pdfStartedResolve=resolve);
+ await pdfApp.init({manifest:fixtureManifest(),catalog:fitCatalog,headless:true,ignoreSavedState:true,shardLoader:async id=>{if(id.endsWith('__coords'))return {encoding:'json',data:plain(nativeSubset)};if(id===geneCatalog.branches.original_full.genes[cck]){pdfStartedResolve();await new Promise(resolve=>pdfRelease=resolve);}return {encoding:'json',data:rawPayload(id)};}});
+ pdfApp.state.annotation='gene';pdfApp.state.overlayGene=cck;
+ pdfContext.jspdf={jsPDF:class {constructor(){constructedPDF++;this.internal={pageSize:{getWidth:()=>297,getHeight:()=>210}};}save(){savedPDF++;}}};
+ // A changed selection must abort before a canvas read or PDF construction. This
+ // intentionally has no canvas fixture: an old/stale plot must not be exported.
+ pdfContext.document={getElementById(){throw Error('Stale PDF path reached a canvas before its pending source expression resolved');}};
+ const pendingPDF=pdfApp.exportPDF('umap','scanpy');
+ let timer;await Promise.race([pdfStarted,new Promise((_,reject)=>timer=setTimeout(()=>reject(Error('PDF export never requested its required source expression')),2000))]);clearTimeout(timer);
+ check('PDF waits for the requested measured-expression vector before constructing a document',()=>{assert.equal(constructedPDF,0);assert.equal(savedPDF,0);});
+ pdfApp.state.palette='magma';pdfRelease();const canceledPDF=await pendingPDF;
+ check('A changed plot selection cancels a pending PDF before drawing or saving stale content',()=>{assert.equal(canceledPDF,undefined);assert.equal(constructedPDF,0);assert.equal(savedPDF,0);});
  const report={status:'PASS',scope:'VM_INTEGRATION_ACTUAL_CCK_VECTORS_AND_NATIVE_COORDINATE_SUBSET_PLUS_SYNTHETIC_EDGE_CASES_NO_BROWSER_NO_NEW_FITS',checks:checks.length,check_names:checks,source_vector_catalog_sha256:hash(fs.readFileSync(path.join(site,'data/GENE_EXPRESSION_CATALOG.json'))),app_sha256:hash(source),selected_actual_nucleus_ids:selected.map(n=>n.nucleus_id),source_native_cluster:String(selected[0].cluster_id)};
  fs.writeFileSync(path.join(__dirname,'plot_controls_v31_acceptance.json'),JSON.stringify(report,null,2)+'\n');console.log(JSON.stringify({status:'PASS',checks:checks.length}));
 })().catch(e=>{console.error(e);process.exitCode=1;});

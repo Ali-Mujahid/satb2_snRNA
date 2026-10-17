@@ -1,0 +1,88 @@
+{
+  "schema": "satb2-v31-remote-expression-acceptance-1",
+  "status": "PASS",
+  "scope": "INDEPENDENT_HTTPS_URLOPEN_ACTUAL_PINNED_GITHUB_BYTES_NO_BROWSER",
+  "release_tag": "atlas-v3.1.0",
+  "tag_commit_reported_by_publisher": "4263d47",
+  "source_provenance_status": "COMPLETE",
+  "source_provenance_sha256": "eda441cb51c8358c36399ff288b81040a6fcb645424337e8433e7f004e089e7e",
+  "catalog_sha256": "1e5e14b410271038738019dc45079b8e5acc804c2239d04d6f62e37880988099",
+  "source_originals_modified": false,
+  "n_remote_files": 6,
+  "all_3_axis_plus_3_Cck_vectors_compressed_and_decoded_SHA256_and_sizes_verified": true,
+  "all_six_CORS_allow_origin_wildcard": true,
+  "files": [
+    {
+      "id": "axis__original_full",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/axis__original_full.json.gz",
+      "status": 200,
+      "gzip_bytes": 768924,
+      "uncompressed_bytes": 3738789,
+      "sha256": "c38c0b0c7bdb6422e6be8a3c7140a97a909479a82466b00b02cf188ebc1b8914",
+      "payload_sha256": "15388eb26c40c27a14bbd2a9d4e12a54287b9b4d7adec02aaf8b0765bd64a923",
+      "all_checks": "PASS",
+      "cors_access_control_allow_origin": "*",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "id": "gene__original_full__ENSMUSG00000032532",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/gene__original_full__ENSMUSG00000032532.json.gz",
+      "status": 200,
+      "gzip_bytes": 97529,
+      "uncompressed_bytes": 307188,
+      "sha256": "e45ba033acad8a8fb1148768923a1e2e55d6ddd6ce96441ce80ca8adfc242f61",
+      "payload_sha256": "3bcaab06768df6305e182e52a921f8156754c8c07ac3e5c5cb144f6b8e7ee018",
+      "all_checks": "PASS",
+      "cors_access_control_allow_origin": "*",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "id": "axis__paired_original",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/axis__paired_original.json.gz",
+      "status": 200,
+      "gzip_bytes": 745876,
+      "uncompressed_bytes": 3612954,
+      "sha256": "cfcd4cef4a033a8c58913db7b64d2071fe5f3b9889c872b752519c762fa0570b",
+      "payload_sha256": "94f937491f0c6b05b1f164ef6d6c65eb278654456ebfbd2acbe609ca17b5e55f",
+      "all_checks": "PASS",
+      "cors_access_control_allow_origin": "*",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "id": "gene__paired_original__ENSMUSG00000032532",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/gene__paired_original__ENSMUSG00000032532.json.gz",
+      "status": 200,
+      "gzip_bytes": 95530,
+      "uncompressed_bytes": 299224,
+      "sha256": "56d86dd60ec65522c210cf5261234e3c4e2a5bd962c0a49f1cb26d69d57ca1ef",
+      "payload_sha256": "ede83e5ef70795ddee04f128ac0224d380ca1e80e3cca506c0d3a3956b58edf8",
+      "all_checks": "PASS",
+      "cors_access_control_allow_origin": "*",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "id": "axis__paired_cellbender",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/axis__paired_cellbender.json.gz",
+      "status": 200,
+      "gzip_bytes": 741042,
+      "uncompressed_bytes": 3600543,
+      "sha256": "3047cb9c0b1cd8ff2cdcc1d86c421bd235f8b5da4009c7b84f3240045d485fcb",
+      "payload_sha256": "ebb77adb8671a9a168a18ae6f1b22c4e80ac1bf07e9beffe620e3748ff7ac59f",
+      "all_checks": "PASS",
+      "cors_access_control_allow_origin": "*",
+      "content_type": "application/octet-stream"
+    },
+    {
+      "id": "gene__paired_cellbender__ENSMUSG00000032532",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/gene__paired_cellbender__ENSMUSG00000032532.json.gz",
+      "status": 200,
+      "gzip_bytes": 49175,
+      "uncompressed_bytes": 151835,
+      "sha256": "3356c11e9e5a909c57ee3a89a00e4b61da9428087e551dfa5b46885a4bb2a603",
+      "payload_sha256": "2135a1d6edf9368ed7a5247721ea49432e87b125cd713800b1b2938b2381705f",
+      "all_checks": "PASS",
+      "cors_access_control_allow_origin": "*",
+      "content_type": "application/octet-stream"
+    }
+  ]
+}
