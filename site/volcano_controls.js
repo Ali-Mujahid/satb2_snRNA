@@ -26,7 +26,7 @@
   function prepare(savedRows, settings) {
     const fdr = finite(settings.deFdr) ? clamp(settings.deFdr, 0, 1) : 0.05;
     const lfc = finite(settings.deLfc) ? Math.max(0, settings.deLfc) : 0;
-    const metadata = {totalRows: savedRows.length, validRows: 0, unavailableFdrRows: 0, invalidFdrRows: 0, invalidEffectRows: 0, omittedRows: 0, zeroAdjustedPRows: 0, cappedRows: 0, eligibleRows: 0, eligibleGenes: 0, labelCount: 0, requestedLabelCount: 0, omittedLabelsForSpace: 0, displayYCap: 320, thresholds: {fdr, absoluteLog2FC: lfc}};
+    const metadata = {totalRows: savedRows.length, validRows: 0, unavailableFdrRows: 0, invalidFdrRows: 0, invalidEffectRows: 0, omittedRows: 0, zeroAdjustedPRows: 0, cappedRows: 0, eligibleRows: 0, eligibleGenes: 0, labelCount: 0, requestedLabelCount: 0, omittedLabelsForSpace: 0, displayYCap: 320, thresholds: {fdr, absoluteLog2FC: lfc}, counts: {up: 0, down: 0, nonsignificant: 0}};
     const rows = [];
     for (const row of savedRows) {
       const missingP = !finite(row.padj), invalidP = !missingP && (row.padj < 0 || row.padj > 1), invalidEffect = !finite(row.log2FoldChange);
@@ -41,6 +41,7 @@
       const id = String(row.gene_id || row.gene || 'unnamed');
       rows.push({row, id, symbol: String(row.gene || row.gene_symbol || id), x: row.log2FoldChange, y: Math.min(320, Math.max(0, rawY)), hit});
       if (hit) metadata.eligibleRows++;
+      metadata.counts[hit ? row.log2FoldChange >= 0 ? 'up' : 'down' : 'nonsignificant']++;
     }
     metadata.validRows = rows.length;
     const ranked = rows.filter(row => row.hit).sort((a, b) => a.row.padj - b.row.padj || Math.abs(b.x) - Math.abs(a.x) || (a.id < b.id ? -1 : a.id > b.id ? 1 : 0));
@@ -52,19 +53,27 @@
     const labels = unique.slice(0, metadata.requestedLabelCount).map(row => ({...row, label: duplicateSymbols.get(row.symbol).size > 1 ? row.symbol + ' [' + row.id + ']' : row.symbol}));
     return {rows, labels, metadata};
   }
-  function draw(plot, savedRows, settings) {
+  function drawPanel(plot, savedRows, settings, mode, lowYMax) {
     settings = settings || {};
     savedRows = Array.isArray(savedRows) ? savedRows : [];
     const {c, width, height} = plot;
     if (!c || !finite(width) || !finite(height) || width < 240 || height < 220) throw new Error('Volcano plot needs a canvas context and dimensions of at least 240 × 220.');
-    const prepared = prepare(savedRows, settings), {rows, labels, metadata} = prepared;
+    const prepared = prepare(savedRows, settings), metadata = prepared.metadata;
+    const rows = mode === 'low' ? prepared.rows.filter(point => point.y <= lowYMax) : prepared.rows;
+    const labels = mode === 'low' ? prepared.labels.filter(point => point.y <= lowYMax) : prepared.labels;
+    metadata.panel = mode; metadata.visibleRows = rows.length; metadata.aboveViewRows = prepared.rows.length - rows.length;
+    metadata.visibleCounts = {up: 0, down: 0, nonsignificant: 0};
+    for (const point of rows) metadata.visibleCounts[point.hit ? point.x >= 0 ? 'up' : 'down' : 'nonsignificant']++;
+    metadata.nonDEGOpacity = clamp(finite(settings.volcanoNSOpacity) ? settings.volcanoNSOpacity : 0.9, 0.1, 1);
+    metadata.nonDEGSize = clamp(finite(settings.volcanoNSSize) ? settings.volcanoNSSize : 1.8, 0.6, 4);
     const colors = {up: cleanColor(settings.volcanoUp, DEFAULTS.up), down: cleanColor(settings.volcanoDown, DEFAULTS.down), nonsignificant: cleanColor(settings.volcanoNS, DEFAULTS.nonsignificant)};
     metadata.colors = colors;
     const left = 72, top = 32, right = width - 22, bottom = height - 91, w = right - left, h = bottom - top;
     let maxX = 1, maxY = 1;
-    for (const point of rows) {maxX = Math.max(maxX, Math.abs(point.x)); maxY = Math.max(maxY, point.y);}
+    // X extent stays identical in the full and low panels; the low view changes only Y.
+    for (const point of prepared.rows) {maxX = Math.max(maxX, Math.abs(point.x)); maxY = Math.max(maxY, point.y);}
     const xStep = niceStep(maxX / 3), roundedX = Math.ceil(maxX / xStep) * xStep, xBound = finite(roundedX) ? roundedX : maxX;
-    const yStep = niceStep(maxY / 5), yBound = Math.min(320, Math.ceil(maxY / yStep) * yStep);
+    const yStep = niceStep(maxY / 5), yBound = mode === 'low' ? lowYMax : Math.min(320, Math.ceil(maxY / yStep) * yStep);
     metadata.axisBounds = {x: [-xBound, xBound], y: [0, yBound]};
     metadata.plotBounds = {left, top, right, bottom};
     metadata.ticks = {x: ticks(-xBound, xBound, 6), y: ticks(0, yBound, 5)};
@@ -95,11 +104,13 @@
     }
     c.save(); c.beginPath(); c.rect(left, top, w, h); c.clip();
     for (const hit of [false, true]) {
-      c.globalAlpha = hit ? 0.85 : 0.4;
+      c.globalAlpha = hit ? 0.85 : metadata.nonDEGOpacity;
       for (const point of rows) if (point.hit === hit) {
-        point.px = clamp(mapX(point.x), left + 1.6, right - 1.6); point.py = clamp(mapY(point.y), top + 1.6, bottom - 1.6);
+        // Preserve true coordinates. Baseline/edge points are clipped geometrically,
+        // never shifted onto a fabricated band or clamped to the zoom cutoff.
+        point.px = mapX(point.x); point.py = mapY(point.y);
         c.fillStyle = hit ? point.x >= 0 ? colors.up : colors.down : colors.nonsignificant;
-        c.beginPath(); c.arc(point.px, point.py, hit ? 1.7 : 1.2, 0, Math.PI * 2); c.fill();
+        c.beginPath(); c.arc(point.px, point.py, hit ? 1.7 : metadata.nonDEGSize, 0, Math.PI * 2); c.fill();
       }
     }
     c.restore();
@@ -107,7 +118,7 @@
     const laneCapacity = Math.max(1, Math.floor((h - 8) / gap)), lanes = [[], []];
     // Keep labels away from dense points; spill into the other lane before omitting a label.
     for (const label of labels) {
-      label.px = clamp(mapX(label.x), left + 1.6, right - 1.6); label.py = clamp(mapY(label.y), top + 1.6, bottom - 1.6);
+      label.px = mapX(label.x); label.py = mapY(label.y);
       let lane = label.x >= 0 ? 1 : 0;
       if (lanes[lane].length >= laneCapacity) lane = 1 - lane;
       if (lanes[lane].length >= laneCapacity) {metadata.omittedLabelsForSpace++; continue;}
@@ -136,19 +147,45 @@
     }
     metadata.labels = layout; metadata.labelCount = layout.length;
     c.font = '10px system-ui, sans-serif'; c.textAlign = 'left'; c.fillStyle = '#3d5868';
-    const status = rows.length ? `${metadata.labelCount} / ${metadata.eligibleGenes} eligible genes labeled; FDR ≤ ${tickText(metadata.thresholds.fdr)}, |log2FC| ≥ ${tickText(metadata.thresholds.absoluteLog2FC)}` : 'No rows with finite log2 fold change and adjusted P in [0, 1]';
+    const status = prepared.rows.length ? `${mode === 'low' ? 'Low-y zoom 0–' + tickText(lowYMax) : 'Full range'} · ${rows.length.toLocaleString()} shown · ${metadata.labelCount} gene labels` : 'No rows with finite log2 fold change and adjusted P in [0, 1]';
     c.fillText(trimText(c, status, w), left, 13);
     const narrow = w < 430;
-    const legend = [{text: narrow ? 'cKO ↑' : 'Higher in cKO', color: colors.up}, {text: narrow ? 'cKO ↓' : 'Lower in cKO', color: colors.down}, {text: narrow ? 'Other' : 'Below thresholds', color: colors.nonsignificant}];
+    const legend = [{text: (narrow ? 'cKO ↑ ' : 'Higher in cKO ') + metadata.visibleCounts.up.toLocaleString(), color: colors.up}, {text: (narrow ? 'cKO ↓ ' : 'Lower in cKO ') + metadata.visibleCounts.down.toLocaleString(), color: colors.down}, {text: (narrow ? 'Non-DEG ' : 'Below thresholds ') + metadata.visibleCounts.nonsignificant.toLocaleString(), color: colors.nonsignificant}];
     let legendX = left;
     for (const item of legend) {c.fillStyle = item.color; c.fillRect(legendX, height - 32, 8, 8); c.fillStyle = '#3d5868'; c.fillText(item.text, legendX + 12, height - 28); legendX += Math.max(narrow ? 58 : 110, item.text.length * 5.4 + 30);}
-    const notes = [`Omitted ${metadata.omittedRows} rows: ${metadata.unavailableFdrRows} unavailable FDR, ${metadata.invalidFdrRows} invalid FDR, ${metadata.invalidEffectRows} unavailable effect.`];
+    const notes = [`All finite rows: ${metadata.counts.up} higher cKO, ${metadata.counts.down} lower cKO, ${metadata.counts.nonsignificant} below DEG thresholds.`, `Omitted ${metadata.omittedRows} unavailable/invalid rows: ${metadata.unavailableFdrRows} unavailable FDR, ${metadata.invalidFdrRows} invalid FDR, ${metadata.invalidEffectRows} unavailable effect.`];
+    if (mode === 'low') notes.push(`${metadata.aboveViewRows} finite points above ${tickText(lowYMax)} are outside this low-y view only; they are retained in the full range and are not NA.`);
     if (metadata.cappedRows) notes.push(`${metadata.cappedRows} point(s) capped at −log10 adjusted P = 320 (${metadata.zeroAdjustedPRows} zero adjusted P).`);
     if (metadata.omittedLabelsForSpace) notes.push(`${metadata.omittedLabelsForSpace} label(s) omitted for space; enlarge the plot or reduce label count.`);
     metadata.note = notes.join(' ');
-    c.fillText(trimText(c, metadata.note, width - left - 10), left, height - 9);
+    const caption = mode === 'low' ? `${metadata.aboveViewRows.toLocaleString()} finite points above view · ${metadata.omittedRows.toLocaleString()} NA/invalid omitted` : `${metadata.counts.nonsignificant.toLocaleString()} non-DEG points retained · ${metadata.omittedRows.toLocaleString()} NA/invalid omitted`;
+    c.fillText(trimText(c, caption, width - left - 10), left, height - 9);
     c.restore();
     return metadata;
+  }
+  function draw(plot, savedRows, settings) {
+    settings = settings || {};
+    const view = ['full', 'low', 'both'].includes(settings.volcanoView) ? settings.volcanoView : 'both';
+    const lowYMax = clamp(finite(settings.volcanoLowYMax) ? settings.volcanoLowYMax : 5, 0.1, 320);
+    if (view !== 'both') {
+      const result = drawPanel(plot, savedRows, settings, view, lowYMax);
+      result.view = view; result.lowYMax = lowYMax;
+      result.lowPanel = view === 'low' ? {panel: 'low', offsetY: 0, axisBounds: result.axisBounds, plotBounds: result.plotBounds, ticks: result.ticks, visibleRows: result.visibleRows, aboveViewRows: result.aboveViewRows, visibleCounts: result.visibleCounts, labelCount: result.labelCount} : null;
+      return result;
+    }
+    if (!finite(plot.height) || plot.height < 440) throw new Error('The combined volcano view needs a canvas height of at least 440 pixels.');
+    const fullHeight = clamp(Math.round(plot.height * 0.5625), 220, plot.height - 220);
+    const full = drawPanel({...plot, height: fullHeight}, savedRows, settings, 'full', lowYMax);
+    const c = plot.c;
+    c.save(); c.translate(0, fullHeight);
+    // The low panel has no overlay labels when paired with the labeled overview.
+    // This keeps the expanded non-DEG cloud readable without hiding source points.
+    const low = drawPanel({...plot, height: plot.height - fullHeight}, savedRows, {...settings, volcanoLabels: false}, 'low', lowYMax);
+    c.restore();
+    full.view = view; full.lowYMax = lowYMax; full.fullPanel = {height: fullHeight, offsetY: 0, axisBounds: full.axisBounds, plotBounds: full.plotBounds, ticks: full.ticks, visibleRows: full.visibleRows, aboveViewRows: 0, visibleCounts: full.visibleCounts, labelCount: full.labelCount};
+    full.lowPanel = {panel: 'low', offsetY: fullHeight, height: plot.height - fullHeight, axisBounds: low.axisBounds, localPlotBounds: low.plotBounds, plotBounds: {...low.plotBounds, top: low.plotBounds.top + fullHeight, bottom: low.plotBounds.bottom + fullHeight}, ticks: low.ticks, visibleRows: low.visibleRows, aboveViewRows: low.aboveViewRows, visibleCounts: low.visibleCounts, labelCount: low.labelCount, note: low.note};
+    full.note += ` Low-y zoom shows ${low.visibleRows} finite points at 0–${tickText(lowYMax)}. ${low.aboveViewRows} finite points above ${tickText(lowYMax)} are outside the low-y view only; they remain in the full range and are not NA.`;
+    return full;
   }
   root.SATB2_VOLCANO = {draw, prepare};
 })(typeof window === 'undefined' ? globalThis : window);

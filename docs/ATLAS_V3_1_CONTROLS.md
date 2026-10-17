@@ -1,6 +1,6 @@
-# Atlas v3.1 plot controls
+# Atlas v3.1–v3.2 plot controls
 
-Open the [web atlas](https://ali-mujahid.github.io/satb2_snRNA/), select a population and count branch, then use the controls below. Export settings to transfer the same view to another browser. Earlier portable archives remain preserved; this guide describes the v3.1 web viewer.
+Open the [web atlas](https://ali-mujahid.github.io/satb2_snRNA/), select a population and count branch, then use the controls below. Export settings to transfer the same view to another browser. Earlier portable archives remain preserved; this guide describes the v3.1 controls and v3.2 volcano views.
 
 ## UMAP colors and single-gene expression
 
@@ -38,3 +38,13 @@ Axes are **log2 fold change (cKO / WT)** and **−log10 adjusted P**, with numer
 **Label top DEGs** defaults to up to **20** eligible genes per plot. Eligible genes are ranked by smallest adjusted P, then greatest absolute log2 fold change, then stable ID. Increase/decrease the maximum or turn labels off. If fewer genes pass, only those genes are eligible; missing/invalid adjusted P or fold change is not replaced. Labels may be omitted if the plot lacks space, with the number reported below the plot. Extremely small/zero adjusted P values have a documented display cap of 320 on the y axis; source values are unchanged.
 
 Choose separate colors for **Higher in cKO**, **Lower in cKO** and **Below selected DEG thresholds**. Threshold guides can be toggled. **Volcano PDF** retains the displayed axes, gene labels, colors and measurement notes. These controls use the exact saved DESeq2 result and never refit it. Source seven-column DEG files remain unchanged.
+
+### Full and low-y views (v3.2)
+
+The default **Both** view stacks two panels vertically: the complete volcano above and a **low-y zoom** below. **Full** shows the complete volcano alone; **Low-y** shows only the zoom. The zoom makes the dense points near adjusted P = 1 easier to inspect without removing high-significance genes from the complete plot.
+
+**Low-y maximum** defaults to 5 on the `−log10 adjusted P` axis and can range from 0.1 to 320. Points above that maximum are outside the zoom and counted in its note; they remain in the full plot and original DEG files. The zoom uses the actual numeric values. It adds no minimum y floor or jitter: adjusted P = 1 has exactly y = 0, and ties can overlap.
+
+Non-DE points below the selected DEG thresholds are light gray by default. Their separate **opacity** (default 0.9; range 0.1–1) and **point size** (default 1.8; range 0.6–4) keep the background population visible; its color remains editable. These settings do not change FDR, fold-change thresholds, eligibility or the DESeq2 result. The PDF exports the chosen full/low-y/both view and its notes. Settings export/import keeps the view, low-y maximum and non-DE appearance; older settings receive the new defaults.
+
+In the combined view, top-gene labels stay on the full overview so that the low-y cloud remains unobstructed. In low-y-only view, only members of the global top-gene label set inside the chosen y range are labeled.

@@ -5,7 +5,7 @@ MapMyCells reference annotation and saved mouse-level DESeq2 comparisons.
 
 **[Open the web atlas](https://ali-mujahid.github.io/satb2_snRNA/)** ·
 **[Data, figures and source downloads](https://ali-mujahid.github.io/satb2_snRNA/downloads.html)** ·
-**[Current release assets](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v3.0.0)**
+**[Portable atlas files](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v3.0.0)**
 
 The website runs in the browser on other computers without R, Python or a
 local server. It supports annotated/gene-colored UMAPs, 60–180-gene dotplot
@@ -26,6 +26,12 @@ and expression color palettes, compact/custom display labels, reverse/A–Z
 marker ordering, and volcano axes with adjustable DEG labels and colors.
 See the [v3.1 control guide](docs/ATLAS_V3_1_CONTROLS.md). These new web controls
 do not change the preserved v3.0.0 portable release archives.
+
+The v3.2 volcano controls make non-DEGs visible with stronger light-gray dots
+and add a full-range overview plus a separate low-y detail panel. The shared
+view selector, low-y maximum, gray-dot size and opacity apply to both tools.
+PDF downloads include the selected full/low/both view; combined plots use a
+portrait page. These display changes preserve every saved DESeq2 value.
 
 ## Study and interpretation
 
