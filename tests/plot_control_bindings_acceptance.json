@@ -1,0 +1,26 @@
+{
+  "status": "PASS",
+  "scope": "ACTUAL_PRIVATE_HANDLER_VM_BINDINGS_NO_BROWSER_NO_SCIENTIFIC_CHANGES",
+  "checks": 18,
+  "check_names": [
+    "Every new plot-binding control exists exactly once in actual HTML",
+    "Reverse button reverses displayed genes and switches to editable selection order",
+    "A–Z button sorts actual symbols without adding or losing genes",
+    "Applying display alias trims text and activates custom display only",
+    "Selecting alias target loads existing display alias into editor",
+    "Reset display alias removes its exact source-keyed entry",
+    "Blank alias is ignored without source-label changes",
+    "Category Apply uses current field and original unshortened category key",
+    "Invalid color cannot replace a valid category override",
+    "Category Reset removes only the selected override",
+    "Volcano numeric/count/color controls update actual saved settings",
+    "Volcano label maximum is clamped to100",
+    "Volcano label/threshold checkbox handlers toggle actual settings",
+    "Automatic gene checkbox uses actual handler",
+    "Expression resolution handler activates cluster mode",
+    "Nucleus mode normalizes unsupported summary metric without inventing individual detection fractions",
+    "Manual expression ranges, zero color, categorical palette and row-label mode are wired",
+    "Every display-handler operation preserves source annotations, coordinates, exact DE members and fit IDs"
+  ],
+  "app_sha256": "d5dd33f11a9ff0960f2018f39c0a79d88698ec2df297765ea5b89d6389e8e26a"
+}

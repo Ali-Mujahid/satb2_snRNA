@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "url": "https://ali-mujahid.github.io/satb2_snRNA/",
+  "web_tag": "atlas-v3.1.1",
+  "web_commit": "1a362ea7c380d5c3e62eeaea414b9ed66b30a035",
+  "expression_data_tag": "atlas-v3.1.0",
+  "deployment_run": "https://github.com/Ali-Mujahid/satb2_snRNA/actions/runs/39066862861",
+  "app_sha256": "d5dd33f11a9ff0960f2018f39c0a79d88698ec2df297765ea5b89d6389e8e26a",
+  "browser_checks": [
+    "Categorical palette changes CA1 UMAP colors in both tools",
+    "Individual superficial-category color override produces the chosen swatch",
+    "SL-like/DL-like labels preserve mixed/weak/conflict uncertainty",
+    "Custom display aliases persist and appear in dotplot PDF legends without changing exact DE fits",
+    "Cck individual-nucleus UMAPs load in both tools",
+    "Individual UMI count and full-library log1p normalized expression modes",
+    "Manual expression limits, Viridis palette and separate zero color",
+    "Paired CellBender per-nucleus expression and Seurat PDF",
+    "All75 screenshot genes on a single plot page in original order",
+    "Reverse/A-Z/pasted marker ordering and focus-order selection respond",
+    "Both volcanoes display numeric axes,20 eligible DEG labels and chosen colors",
+    "Saved settings survive reload with exact color values, gene, alias style and limits",
+    "Eight PDF downloads parsed; volcano and75-gene dotplot page rendered and visually inspected",
+    "Both exact seven-column DEG downloads match source text bytes",
+    "Original user view restored by settings import",
+    "No browser console errors or warnings"
+  ],
+  "pdf_files": [
+    {
+      "filename": "SATB2_v3_1_dots_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 2084850,
+      "sha256": "0b64759a36f9b670b1ce4cbcf8a6eac9a17e4479bffa4b88b52626d8e7f42f34",
+      "pages": 1
+    },
+    {
+      "filename": "SATB2_v3_1_dots_seurat_CA1_ProS_original_full.pdf",
+      "bytes": 2394987,
+      "sha256": "83e5e263ab7a6ef711dbf62480235d42ef9d0973dae05c49ef74250ddf3741ea",
+      "pages": 2
+    },
+    {
+      "filename": "SATB2_v3_1_umap_scanpy_CA1_ProS_original_full (1).pdf",
+      "bytes": 585278,
+      "sha256": "311da75ac9973f197fa6160c2b1c20775a9a3f9d22c029ce299e27d074e2adc8",
+      "pages": 1
+    },
+    {
+      "filename": "SATB2_v3_1_umap_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 584882,
+      "sha256": "01538deb0a1ad80fcf20183d2fcea69a11a95a3a92530b542186afc0e5defcf8",
+      "pages": 1
+    },
+    {
+      "filename": "SATB2_v3_1_umap_seurat_CA1_ProS_original_full.pdf",
+      "bytes": 584882,
+      "sha256": "1dd3a0dc58e9ee2ff99a855d39454d325f45fa162cd83142e6b9bd16258eb7ab",
+      "pages": 1
+    },
+    {
+      "filename": "SATB2_v3_1_umap_seurat_CA1_ProS_paired_cellbender.pdf",
+      "bytes": 585283,
+      "sha256": "b3ed7bb1bcfd9750acd4037a5fd3f633eb1d49a5b10bac8713240f91ac7f2cac",
+      "pages": 1
+    },
+    {
+      "filename": "SATB2_v3_1_volcano_scanpy_CA1_ProS_original_full.pdf",
+      "bytes": 611293,
+      "sha256": "9c8483b0cc4cacb8c39f4147f189c9a2d77bdb0d271eab30e15d00f7aea7f776",
+      "pages": 1
+    },
+    {
+      "filename": "SATB2_v3_1_volcano_seurat_CA1_ProS_original_full.pdf",
+      "bytes": 611293,
+      "sha256": "6268be52e4de8d29056cbc82039b117822b13beeeba0f200a1a2d4050bdac3ad",
+      "pages": 1
+    }
+  ],
+  "source_download_checks": [
+    {
+      "tool": "scanpy",
+      "fit_id": "original_full::scanpy::P0068_scanpy_CA1_ProS_TOTAL::PRIMARY",
+      "bytes": 1881730,
+      "sha256": "4659f79c81e13dc43504ed0b22ea8a41e9b2c0566f390cfe9a0acd2e0109ddd5",
+      "browser_download_exact_source_text": true,
+      "columns": [
+        "gene",
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj"
+      ],
+      "n_gene_rows": 16255
+    },
+    {
+      "tool": "seurat",
+      "fit_id": "original_full::seurat::P0160_seurat_CA1_ProS_TOTAL::PRIMARY",
+      "bytes": 1881730,
+      "sha256": "4659f79c81e13dc43504ed0b22ea8a41e9b2c0566f390cfe9a0acd2e0109ddd5",
+      "browser_download_exact_source_text": true,
+      "columns": [
+        "gene",
+        "baseMean",
+        "log2FoldChange",
+        "lfcSE",
+        "stat",
+        "pvalue",
+        "padj"
+      ],
+      "n_gene_rows": 16255
+    }
+  ],
+  "previous_analyses_modified": false,
+  "new_scientific_fits_performed": false,
+  "individual_nucleus_validation_reference": "site/data/GENE_EXPRESSION_PROVENANCE.json",
+  "source_fingerprint_unchanged": true,
+  "notes": [
+    "Seurat75-gene plot occupies its first PDF page; additional label/provenance notes continue on a second page.",
+    "Controls are a web-viewer update; earlier portable archives remain preserved unchanged."
+  ]
+}
