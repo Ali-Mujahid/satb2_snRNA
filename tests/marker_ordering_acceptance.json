@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "PURE_VM_UI_AND_DESCRIPTIVE_ORDERING_NO_BROWSER",
-  "checks": 29,
+  "checks": 30,
   "check_names": [
     "Screenshot button exists in the actual HTML",
     "One click selects all75 in exact supplied sequence",
@@ -31,8 +31,9 @@
     "Canvas preserves all75 exact screenshot gene labels and fifteen block labels",
     "Auto-ordered canvas columns follow shared reference order",
     "Full-selection PDF renders all75 on one wide plot and includes order provenance",
+    "Dotplot PDF reports the numeric appearance override count without a literal template",
     "PDF exports every selected gene page when capacity is60"
   ],
-  "app_sha256": "00fe7d8177d68bf7a8026ec8f91d2b87f86d27b6be96851908cda55e74daeed5",
+  "app_sha256": "f22f67f8fc026516552ce48eb8a6896d6bc2dc58285071a5e968814aa5e20b2a",
   "helpers_sha256": "4d769b198f4aefb5ecde6675925554f9985ef2110226ff14d75206696965a9ae"
 }

@@ -1,7 +1,7 @@
 {
   "status": "PASS",
   "scope": "ACTUAL_PRESENTATION_HANDLERS_CANVAS_GLYPHS_SETTINGS_AND_NATIVE_TARGET_BINDINGS_NO_SCIENTIFIC_CHANGES",
-  "checks": 33,
+  "checks": 35,
   "check_names": [
     "Every new presentation control exists once in actual HTML and local helper scripts are included",
     "Defaults retain original coordinates and select clean volcano PDFs",
@@ -12,6 +12,7 @@
     "C4 manual edits cannot leak into another source branch",
     "Reset selected C4 restores exact source positions",
     "Compact control activates presentation spacing",
+    "Selecting Compact synchronizes the actual spacing slider and value caption to 0.65",
     "Spacing handler changes displayed centroid distances while keeping local shape",
     "Rotation and reflection controls update reversible presentation state",
     "Hippocampus control produces an explicitly schematic arc",
@@ -19,6 +20,7 @@
     "Restore original resets all global transforms and this scope edits",
     "Changing spacing from original automatically activates compact display",
     "Selecting Original saved coordinates also clears orientation and spacing edits",
+    "Selecting Original synchronizes the actual spacing slider and value caption to 1",
     "Presentation spacing remains enabled in allcells",
     "Presentation spacing remains enabled in Excitatory",
     "Presentation spacing remains enabled in CA1_ProS",
@@ -37,7 +39,7 @@
     "Display-coordinate CSV includes original coordinates and a nonspatial marker",
     "Marker CSV discloses custom glyph appearance while preserving source expression values"
   ],
-  "app_sha256": "c1536d52bb3820d80bd31022dbd3769992823f301d05643d27444ce39f5c3985",
+  "app_sha256": "f22f67f8fc026516552ce48eb8a6896d6bc2dc58285071a5e968814aa5e20b2a",
   "helper_sha256": {
     "presentation_layouts.js": "8f6388b2828f75d9a35d1b577c90a2c64298ee772920567d29aff4866b2582ee",
     "marker_styling.js": "be29e9a06d81eaef0d08eee793e4445f9bd32e91677b42dcde5bd262ef5a4bf6"

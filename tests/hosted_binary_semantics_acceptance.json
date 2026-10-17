@@ -2,7 +2,7 @@
   "status": "PASS",
   "validation_mode": "Pure JavaScript VM on actual produced data, without browser navigation",
   "browser_interaction_inspection_performed": false,
-  "source_app_sha256": "c1536d52bb3820d80bd31022dbd3769992823f301d05643d27444ce39f5c3985",
+  "source_app_sha256": "f22f67f8fc026516552ce48eb8a6896d6bc2dc58285071a5e968814aa5e20b2a",
   "catalog_sha256": "25889b9cae505ecee5d1d4b127849e922effc0f72893cd58a3235ee6d117917a",
   "mouse_catalog_sha256": "655c6f7d89eb53df39597be5edfaabce5ad4104e0e8160fd101384f754cbeaf0",
   "source_helper_sha256": "4d769b198f4aefb5ecde6675925554f9985ef2110226ff14d75206696965a9ae",

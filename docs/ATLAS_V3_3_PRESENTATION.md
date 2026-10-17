@@ -21,17 +21,17 @@ To bring the distant Seurat inhibitory **C4** closer:
 
 ## Make selected marker dots smaller or lighter
 
-In the marker appearance panel, choose **Both tools**, **Scanpy** or **Seurat**, then select a gene from the selected markers. Choose **All clusters** for a whole gene column, or an original cluster ID for one dot. Set the dot **area %**, **opacity %**, or **Hide**, then apply.
+In the marker appearance panel, choose **Both tools**, **Scanpy** or **Seurat**, then select a gene from the selected markers. Choose **Whole gene · every row** for a whole gene column, or an original cluster ID for one dot. Cluster IDs are tool-specific: choosing Both tools with C4 styles C4 in each tool, without implying the same cell population. Set the dot **area %**, **opacity %**, or **Hide**, then apply.
 
 Area changes dot area: 25% area produces half the original diameter. Opacity changes transparency. These adjustments multiply the existing dot appearance, including the controls for negative z-scores. They do not modify expression, z-scores or detected fractions. Hidden or faded dots must not be treated as evidence that a gene is absent.
 
-Whole-gene settings apply to every cluster unless an individual dot has an override. **Reset selected** removes that override and restores the inherited appearance; **Reset panel** clears styles for the chosen tool(s), branch and population. With merged-label grouping, only whole-gene styles apply because one displayed dot can summarize several original clusters.
+Whole-gene settings apply to every cluster unless an individual dot has an override. **Reset selected** removes that override and restores the inherited appearance; **Reset population styles** clears styles for the chosen tool(s), branch and population. With merged-label grouping, only whole-gene styles apply because one displayed dot can summarize several original clusters.
 
-Edited appearance is disclosed in figure/export information. Marker CSVs retain the saved scientific values and include presentation settings. **Export marker styles** saves the exact stable gene IDs, original cluster IDs, scope and multipliers.
+Edited appearance is disclosed in figure/export information. Marker CSVs retain the saved scientific values and include presentation settings. **Download styling** saves the exact stable gene IDs, original cluster IDs, scope and multipliers.
 
 ## Download a clean volcano figure
 
-The default volcano PDF keeps the nucleus category title, axes, ticks, plotted points and selected gene names. Gene labels have no leader lines. The full view and low-y view use the same source values, significance thresholds and colors as the atlas. Select detailed export when you want the additional legend, status and provenance text in the PDF.
+The default volcano PDF keeps the nucleus category title, axes, ticks, plotted points and selected gene names. Gene labels have no leader lines. The full view and low-y view use the same source values, significance thresholds and colors as the atlas. Uncheck **Clean volcano PDF** when you want the additional legend, status and provenance text in the PDF.
 
 Clean figure formatting does not remove provenance from the underlying results. Keep the exact source DEG file and exported settings with a figure so its tool, branch, target, thresholds and color settings can be recovered.
 
