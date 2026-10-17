@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "release_tag": "atlas-v3.3.1",
+  "published_code_commit": "59f55818a48af3008c3ca61c177a6f16a0d3b234",
+  "deployment": "https://github.com/Ali-Mujahid/satb2_snRNA/actions/runs/39073047726",
+  "scope": "Presentation only; no new statistical models or biological annotations",
+  "browser_verification": {
+    "live_version": "3.3.1",
+    "original_compact_and_schematic_controls": true,
+    "compact_spacing_slider_matches_0_65_state": true,
+    "C4_manual_display_edit_only_changed_593_seurat_nuclei": true,
+    "display_coordinate_rows_checked": 17822,
+    "CA1_rotation_and_reflection": true,
+    "marker_values_unchanged_across_2775_rows": true,
+    "style_area_and_opacity_applied_to_37_gene_rows": true,
+    "one_seurat_C4_dot_hidden_only_for_display": true,
+    "latest_marker_PDF_discloses_three_overrides_without_template_text": true,
+    "clean_volcano_downloads_both_tools": true,
+    "clean_combined_full_and_low_y_PDF": true,
+    "clean_volcano_has_type_only_title_with_axes_and_gene_names_in_plot": true,
+    "no_gene_label_leader_lines": true,
+    "PDFs_rendered_and_visually_reviewed": true,
+    "browser_console_errors_or_warnings": 0,
+    "previous_75_marker_user_view_restored": true,
+    "test_styles_removed_after_QA": true
+  },
+  "source_integrity": {
+    "source_fingerprint": "d0876f53645fccbcc78606f80c3bb9961edb4fc4959084bb5a036b3aa502abef",
+    "original_3140_shards_preserved": true,
+    "datasets": 24,
+    "marker_genes": 889,
+    "screenshot_preset_genes": 75,
+    "mouse_genes": 32285,
+    "saved_mouse_endpoints": 1060,
+    "scientific_model_fitting_performed": false,
+    "individual_expression_shards_preserved": 2670
+  },
+  "regression_checks": {
+    "presentation_geometry": 21,
+    "marker_styling": 18,
+    "actual_presentation_controls": 35,
+    "clean_PDF_export": 50,
+    "marker_ordering_and_PDFs": 30,
+    "saved_data_semantics": 84,
+    "existing_plot_bindings": 18,
+    "volcano_view_bindings": 35,
+    "per_nucleus_expression_and_plot_controls": 33
+  },
+  "screenshots": [
+    "screenshots/atlas_v331_compact_inhibitory.png",
+    "screenshots/atlas_v33_clean_volcano_example.png"
+  ]
+}
