@@ -1,0 +1,20 @@
+{
+  "schema": "satb2-nucleus-vector-acceptance-1",
+  "status": "PASS",
+  "tests": 3,
+  "all_2670_compressed_and_decoded_sha256_and_lengths_verified": true,
+  "all_889_registry_ids_have_all_3_branches": true,
+  "source_nucleus_identity_missing_distinct_from_measured_zero": true,
+  "positive_integer_counts_and_full_libraries": true,
+  "all_sparse_indices_strictly_ascending_unique_and_in_range": true,
+  "source_count_input_sha256_verified_before_export": true,
+  "independent_exact_native_nucleus_gene_count_checks": 47031,
+  "native_atomic_gene_sum_mean_checks": 1386,
+  "all_24_existing_coordinates_have_source_identity_coverage": true,
+  "source_registry_count": 889,
+  "source_provenance_sha256": "eda441cb51c8358c36399ff288b81040a6fcb645424337e8433e7f004e089e7e",
+  "catalog_sha256": "1e5e14b410271038738019dc45079b8e5acc804c2239d04d6f62e37880988099",
+  "test_source_sha256": "e051340d183cf9ac88e25296e58cf618833a05bbad0611be1679dfe3d34eec1b",
+  "test_command": "python -m unittest discover -s tests -p test_nucleus_gene_vectors.py -v",
+  "new_statistical_fits": false
+}

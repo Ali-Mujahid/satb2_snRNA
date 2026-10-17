@@ -1,6 +1,6 @@
 {
   "status": "PASS",
-  "checks": 25,
+  "checks": 32,
   "check_names": [
     "Project prefix preserved",
     "Reject disallowed path https://example.com/a.json.gz",
@@ -19,6 +19,13 @@
     "Native gzip exact JSON/null/numeric roundtrip",
     "Pinned raw text source bytes preserved",
     "Pinned raw request is SHA-versioned, omits credentials and rejects redirects",
+    "Exact v3.1 pinned gene vector preserves sparse indices, counts and axis identity",
+    "Pinned gene request is SHA-versioned and credential-free with redirects rejected",
+    "Reject gene vector outside exact trusted release path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/main/gene_expression/a.json.gz",
+    "Reject gene vector outside exact trusted release path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.0.0/gene_expression/a.json.gz",
+    "Reject gene vector outside exact trusted release path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.1/gene_expression/a.json.gz",
+    "Reject gene vector outside exact trusted release path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/../a.json.gz",
+    "Reject gene vector outside exact trusted release path https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.1.0/gene_expression/a.json.gz?x=1",
     "Corrupt compressed bytes rejected",
     "Corrupt decoded payload rejected",
     "Missing binary hash rejected",
@@ -29,5 +36,5 @@
     "Unavailable WebCrypto fails closed"
   ],
   "scope": "VM_ONLY_NO_BROWSER_NO_NETWORK",
-  "app_sha256": "22b70c876c67e90a563a494c20b4f9999d81ec35417e904355ba89117dc58a3b"
+  "app_sha256": "bdf66ae73c666a49fd249744a807bc659c1658fa97616c7084e1eb3fab54c1a5"
 }

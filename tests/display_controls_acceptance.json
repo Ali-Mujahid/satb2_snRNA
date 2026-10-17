@@ -1,0 +1,24 @@
+{
+  "status": "PASS",
+  "scope": "PURE_DISPLAY_HELPERS_NO_SCIENTIFIC_DATA_OR_MODEL_CHANGES",
+  "checks": 16,
+  "check_names": [
+    "Full style preserves source labels exactly, including whitespace and identifiers",
+    "Compact program labels preserve association and uncertainty",
+    "Short program labels remain like/uncertain rather than anatomical assignments",
+    "Native cluster and reference identifiers are not automatically removed",
+    "Unknown labels are retained and no generic string clipping hides qualifiers",
+    "Custom labels are exact source-keyed and retain scientific uncertainty",
+    "Absent and blank custom aliases fall back to compact display",
+    "Category aliases apply to cluster-prefixed rows and whole-label overrides take precedence",
+    "Reference-like and provisional warnings survive custom renaming",
+    "Safe hex validation rejects CSS expressions, short values and nonstrings",
+    "Native palette preserves known categorical colors",
+    "Exact category overrides apply to fixed SL/DL colors under every palette",
+    "Palette colors are deterministic and ignore invalid override values",
+    "Full source keys keep categories distinct when their short labels collide",
+    "Inherited map entries are not treated as a user customization",
+    "Display helpers do not mutate source objects, settings maps or memberships"
+  ],
+  "helper_sha256": "36c62177c573abd08d7daf2ac31e094dd08f0d69427efb8a0317f42cb194bae3"
+}

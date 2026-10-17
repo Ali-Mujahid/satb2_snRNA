@@ -33,6 +33,6 @@
     "Full-selection PDF renders all75 on one wide plot and includes order provenance",
     "PDF exports every selected gene page when capacity is60"
   ],
-  "app_sha256": "22b70c876c67e90a563a494c20b4f9999d81ec35417e904355ba89117dc58a3b",
+  "app_sha256": "5890afed19cbd0eb08eb49b1cda90d1f8cf4005e8312b79245904986b1502d79",
   "helpers_sha256": "4d769b198f4aefb5ecde6675925554f9985ef2110226ff14d75206696965a9ae"
 }

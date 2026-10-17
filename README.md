@@ -21,6 +21,12 @@ moved individually. Scanpy and Seurat share the chosen column order using one
 selected reference tool; their cluster row orders can be adjusted separately.
 See the [marker preset and ordering guide](docs/marker_preset_v3.md).
 
+The v3.1 web controls add individual-nucleus gene expression, separate category
+and expression color palettes, compact/custom display labels, reverse/A–Z
+marker ordering, and volcano axes with adjustable DEG labels and colors.
+See the [v3.1 control guide](docs/ATLAS_V3_1_CONTROLS.md). These new web controls
+do not change the preserved v3.0.0 portable release archives.
+
 ## Study and interpretation
 
 Views cover all nuclei, excitatory nuclei, inhibitory nuclei, CA1/ProS
@@ -34,7 +40,16 @@ Mouse boxplots can select
 all 32,285 source genes and use the selected exact endpoint's recorded size
 factors. Each boxplot point is an independent mouse.
 
-Gene UMAP colors are cluster summaries, not measured per-nucleus expression.
+Gene UMAP resolution is explicit. **Individual nuclei** uses each nucleus's
+exact existing same-branch source count or
+`log1p(10000 × gene count / complete source library)` for all 889 panel genes.
+**Saved cluster summaries** retains the prior cluster-mean/detection/z views;
+uniform colors in that mode do not represent individual-nucleus RNA.
+Both tools join the same branch counts by exact stable nucleus ID while
+retaining their existing coordinates, populations and exclusions. Source
+count zero is distinct from an unavailable source nucleus. The
+[gene-export provenance](site/data/GENE_EXPRESSION_PROVENANCE.json) records
+the three native count-object hashes, full-library checks and ID validation.
 The optional inhibitory spacing control changes display geometry only.
 Seventy original cluster records across overlapping views retain uncertain
 fine identities, with nonbinding parent/“-like” label options. Deep/superficial
@@ -50,7 +65,9 @@ identical shared-count results are not independent statistical replication.
 ## Repository layout
 
 * `site/`: GitHub Pages frontend, verified original interactive data and the
-  separately documented eleven-gene marker extension.
+  separately documented marker and individual-nucleus expression extensions.
+* `gene_expression/`: sparse source-gene vectors and stable nucleus/library
+  axes, fetched from the preserved `atlas-v3.1.0` tag with SHA-256 checks.
 * `data_downloads/`: exact source-download payloads, outside the Pages size
   budget, fetched from the preserved `atlas-v2.1.0` tag with SHA-256 checks.
 * `analysis/`: original and revision workflow/configuration snapshots, marker
@@ -106,6 +123,12 @@ annotations or differential models. All 64,548 added gene × atom × mouse
 integer sums match the 489 existing full-gene native count arrays exactly.
 Validation evidence is under `docs/` and
 `analysis/provenance/`; the hosted browser checks are recorded separately.
+
+The v3.1 individual-nucleus exporter reads the three existing full-gene count
+objects without modifying them. It writes 2,667 gene vectors (889 × three
+branches) and three nucleus/library axes; it does not rerun QC, CellBender,
+normalization-model fitting, clustering, embeddings, annotation or DESeq2.
+The 3,140 prior base-atlas shard descriptors and source fingerprint are unchanged.
 
 GitHub Pages deploys the prebuilt `site/` directory. Source-download URLs are
 pinned to `atlas-v2.1.0`; preserve that tag. Publication helpers verify data
