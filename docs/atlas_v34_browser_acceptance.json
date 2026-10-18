@@ -1,0 +1,217 @@
+{
+  "status": "PASS",
+  "downloads": [
+    {
+      "file": "allcell_panel_inhibitory_values.csv",
+      "rows": 3663,
+      "unique_genes": 99,
+      "native_values_exact": true,
+      "requested_verified_order_exact": true
+    },
+    {
+      "file": "CA1_ProS_panel_values.csv",
+      "rows": 2360,
+      "unique_genes": 118,
+      "native_values_exact": true,
+      "requested_verified_order_exact": true
+    },
+    {
+      "file": "CA1_sublayer_panel_values.csv",
+      "rows": 1940,
+      "unique_genes": 97,
+      "native_values_exact": true,
+      "requested_verified_order_exact": true
+    }
+  ],
+  "pdfs": [
+    {
+      "file": "CA1_ProS_panel_scanpy.pdf",
+      "pages": 1,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": false
+    },
+    {
+      "file": "CA1_ProS_panel_seurat.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    },
+    {
+      "file": "CA1_Wfs1_new_gene_scanpy.pdf",
+      "pages": 1,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": false
+    },
+    {
+      "file": "CA1_sublayer_panel_seurat.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    },
+    {
+      "file": "allcell_panel_scanpy.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    },
+    {
+      "file": "allcell_panel_seurat.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    },
+    {
+      "file": "packed_inhibitory_C4_seurat.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    },
+    {
+      "file": "rounded_inhibitory_scanpy.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    },
+    {
+      "file": "rounded_inhibitory_seurat.pdf",
+      "pages": 2,
+      "complete_plot_pages": 1,
+      "continuation_pages_contain_only_legend_text": true
+    }
+  ],
+  "display_coordinate_rows": 17822,
+  "all_original_coordinates_restored_exactly": true,
+  "source_coordinates_in_adjusted_export_exact": true,
+  "scientific_models_refitted": false,
+  "schema": "satb2-v34-live-browser-acceptance-1",
+  "atlas_url": "https://ali-mujahid.github.io/satb2_snRNA/",
+  "live_version": "3.4.1",
+  "deployed_commit": "7de2ae3a5187803bf500de5d38ed358109c45d5f",
+  "deployment": "https://github.com/Ali-Mujahid/satb2_snRNA/actions/runs/39128737990",
+  "deployment_status": "success",
+  "new_presets_live_verified": [
+    99,
+    118,
+    97
+  ],
+  "new_individual_nucleus_overlay_live_verified": "Wfs1; both tools; exact source counts and full library log1p; shared range 0 to 2.5554027455779567",
+  "layout_live_verified": [
+    "packed",
+    "Seurat C4 up by 5% source span",
+    "rounded with explicit SCHEMATIC warning",
+    "restore original"
+  ],
+  "browser_console_errors_or_warnings": [],
+  "settings_restored_exactly": true,
+  "new_data_pinned_tag": "atlas-v3.4.0",
+  "unresolved_name_policy": "Explicit unavailable names, no fuzzy substitutions or fabricated zero values",
+  "source_models_refitted": false,
+  "supplemental_native_projection_test": "tests/presentation_arranger_projection_v341_acceptance.json",
+  "files": [
+    {
+      "file": "CA1_ProS_panel_name_mapping.csv",
+      "bytes": 12158,
+      "sha256": "7505a1719bf8ed03a92153bfab19c4150eb0c8f1102954abad5e1a89b677287c"
+    },
+    {
+      "file": "CA1_ProS_panel_scanpy.pdf",
+      "bytes": 3075451,
+      "sha256": "5d8085abc1806d4ec1177e2ff0830e5452b8502907f48408020e887e27ac00a2"
+    },
+    {
+      "file": "CA1_ProS_panel_seurat.pdf",
+      "bytes": 3533172,
+      "sha256": "ef86694bdf67e87a69ad31021f70de8b39ea3890e49395e29e99ae2ae0942b34"
+    },
+    {
+      "file": "CA1_ProS_panel_seurat_preview.png",
+      "bytes": 178382,
+      "sha256": "6b22104a7b55ce8ddb0fa3461e878b4ee1af6ab02f307f8a62b149f9dc33055b"
+    },
+    {
+      "file": "CA1_ProS_panel_values.csv",
+      "bytes": 1869938,
+      "sha256": "e0b24a0e724c07e4d47b2261f35ba6d4d88c6ba14c2d6a8b6b52808ca08dbff3"
+    },
+    {
+      "file": "CA1_Wfs1_new_gene_scanpy.pdf",
+      "bytes": 585408,
+      "sha256": "477a07433aa2ed64398074da4a3ba4905c90f5d3777f3cbee8f1d83bfd37f18c"
+    },
+    {
+      "file": "CA1_sublayer_panel_seurat.pdf",
+      "bytes": 2977384,
+      "sha256": "91ccfb7e18c2ebf456da6a66fb72421f8ef08d65b47c7c4aad5d018148c8d724"
+    },
+    {
+      "file": "CA1_sublayer_panel_values.csv",
+      "bytes": 1538450,
+      "sha256": "f7ca5185d3ab42788530c451bb1324d2cc00ef13654edcfa4f6583e4a359fb9f"
+    },
+    {
+      "file": "allcell_panel_inhibitory_values.csv",
+      "bytes": 2914895,
+      "sha256": "a5b0b1e1f6f841584ae34eb7c9e46f269936581d9ce8fa2293082d9dca34b1b7"
+    },
+    {
+      "file": "allcell_panel_name_mapping.csv",
+      "bytes": 8481,
+      "sha256": "23692b7ca787e55c80a1d24067ebb05583bd09bfd2a6eb5b36b2c736bd078eac"
+    },
+    {
+      "file": "allcell_panel_scanpy.pdf",
+      "bytes": 4207122,
+      "sha256": "9aac68f5de0ec788fcaa12c786c7376398f11cb1b4b3af93cdd92d77029ca6c5"
+    },
+    {
+      "file": "allcell_panel_seurat.pdf",
+      "bytes": 4795513,
+      "sha256": "c178aecae56e17de25651fb36f863157dadf6daae9550fdf8dae5f883d5dbf89"
+    },
+    {
+      "file": "marker_panels_live.png",
+      "bytes": 129324,
+      "sha256": "fdb89e2119109bb983b34932dc2ac3f1d7f2e8152865fd10469e1dbfef8f2feb"
+    },
+    {
+      "file": "one_click_presets_live.png",
+      "bytes": 113690,
+      "sha256": "b0817744d6e4fed04207d7a16d07252d16bc689af1fe6b984cdb6eb02901024b"
+    },
+    {
+      "file": "packed_C4_nudged_display_coordinates.csv",
+      "bytes": 3007871,
+      "sha256": "f7d7c24cc5b28b8a6c4bfecc426867df89d7a824297e6b2e91fbd786bcf3c86a"
+    },
+    {
+      "file": "packed_inhibitory_C4_seurat.pdf",
+      "bytes": 589956,
+      "sha256": "bf9ddd8bb96bf12489597def64afdc87886a16e7bf266be0cc641f916d66d719"
+    },
+    {
+      "file": "packed_inhibitory_live.png",
+      "bytes": 396457,
+      "sha256": "ce03c56a2877c742b63d764e4042ca923fdf6d63962af9b7cbab44d1edda0f35"
+    },
+    {
+      "file": "restored_original_display_coordinates.csv",
+      "bytes": 2878497,
+      "sha256": "4bd9196a4fb0ba75d1b9378f9be0ffcb0764691bc8045a05adc7acc9491ce2a0"
+    },
+    {
+      "file": "rounded_inhibitory_live.png",
+      "bytes": 455721,
+      "sha256": "cc1f902b995865ea5a99bf7d34cc4abafcfafed81b9a20a0e3c68cd719a50fc5"
+    },
+    {
+      "file": "rounded_inhibitory_scanpy.pdf",
+      "bytes": 589241,
+      "sha256": "3b95da816fbd10a723d7182840821373e34fd74c35faa36116f77a9b6ff0c079"
+    },
+    {
+      "file": "rounded_inhibitory_seurat.pdf",
+      "bytes": 589920,
+      "sha256": "b9042bcd8cb4af481919cccc5ab1dc26cffed862f897314eea8505e2e941d67d"
+    }
+  ]
+}
