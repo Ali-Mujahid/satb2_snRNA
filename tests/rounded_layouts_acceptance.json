@@ -1,0 +1,122 @@
+{
+  "status": "PASS",
+  "scope": "EXPLICIT_ROUNDED_NONSPATIAL_SCHEMATIC_WITHOUT_SOURCE_COORDINATE_MEMBERSHIP_LABEL_EXPRESSION_OR_MODEL_CHANGES",
+  "checks": 16,
+  "check_names": [
+    "Rounded mode is deterministic and explicitly replaces within- and between-cluster geometry",
+    "Golden-angle discs keep every ID and cluster and retain exact source coordinates separately",
+    "Nucleus display placement follows stable IDs and is independent of source row ordering",
+    "Complete rounded discs are separated, and every point stays within its own outline",
+    "Disc area follows nucleus count above the minimum readability radius",
+    "Rounded schematic differs from the source embedding without changing stored measurements or labels",
+    "Rotation, mirror, explicit manual resize and translation remain reversible",
+    "Missing source coordinates remain missing and empty arrays stay valid",
+    "scanpy allcells: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "scanpy Excitatory: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "scanpy CA1_ProS: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "scanpy Inhibitory: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "seurat allcells: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "seurat Excitatory: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "seurat CA1_ProS: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic",
+    "seurat Inhibitory: all native nuclei, labels, memberships and measurements survive a rounded nonspatial schematic"
+  ],
+  "native": [
+    {
+      "tool": "scanpy",
+      "population": "allcells",
+      "n_nuclei": 107747,
+      "n_clusters": 26,
+      "elapsed_ms": 621,
+      "source_span": 29.087031000000003,
+      "display_span": 19.509342960894728,
+      "gap": 0.24433106040000002,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "scanpy",
+      "population": "Excitatory",
+      "n_nuclei": 60908,
+      "n_clusters": 19,
+      "elapsed_ms": 364,
+      "source_span": 27.187787,
+      "display_span": 18.777010928749,
+      "gap": 0.22837741079999999,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "scanpy",
+      "population": "CA1_ProS",
+      "n_nuclei": 27703,
+      "n_clusters": 9,
+      "elapsed_ms": 163,
+      "source_span": 17.178741,
+      "display_span": 9.221985985584164,
+      "gap": 0.1443014244,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "scanpy",
+      "population": "Inhibitory",
+      "n_nuclei": 8911,
+      "n_clusters": 17,
+      "elapsed_ms": 40,
+      "source_span": 33.056360999999995,
+      "display_span": 19.777319450039258,
+      "gap": 0.2776734324,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "seurat",
+      "population": "allcells",
+      "n_nuclei": 107747,
+      "n_clusters": 29,
+      "elapsed_ms": 550,
+      "source_span": 29.3194742202759,
+      "display_span": 20.821174015324292,
+      "gap": 0.24628358345031756,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "seurat",
+      "population": "Excitatory",
+      "n_nuclei": 60908,
+      "n_clusters": 23,
+      "elapsed_ms": 324,
+      "source_span": 26.85872840881349,
+      "display_span": 18.68092168062746,
+      "gap": 0.2256133186340333,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "seurat",
+      "population": "CA1_ProS",
+      "n_nuclei": 27703,
+      "n_clusters": 11,
+      "elapsed_ms": 138,
+      "source_span": 16.13583612442016,
+      "display_span": 8.772567883642552,
+      "gap": 0.13554102344512933,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    },
+    {
+      "tool": "seurat",
+      "population": "Inhibitory",
+      "n_nuclei": 8911,
+      "n_clusters": 20,
+      "elapsed_ms": 46,
+      "source_span": 25.9340744018554,
+      "display_span": 15.822072841179297,
+      "gap": 0.21784622497558537,
+      "within_cluster_geometry_preserved": false,
+      "source_coordinates_modified": false
+    }
+  ],
+  "helper_sha256": "111e881e368e55e91f7141b809782d7bb58c9d854eb4eec08341693807914b45"
+}

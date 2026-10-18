@@ -1,0 +1,184 @@
+{
+  "status": "PASS",
+  "checks": 44,
+  "scope": "VM_ACTUAL_APP_NATIVE_DATA_NO_NETWORK_NO_MODEL_FITS",
+  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b",
+  "results": [
+    {
+      "name": "Runtime app appends 166 genes and three all-population presets without changing base registry",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / user_20261018_all_cell_types exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / scanpy / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / seurat / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / user_20261018_CA1_ProS exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / scanpy / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / seurat / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / user_20261018_CA1_sublayers exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / scanpy / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "allcells / seurat / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / user_20261018_all_cell_types exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / scanpy / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / seurat / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / user_20261018_CA1_ProS exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / scanpy / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / seurat / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / user_20261018_CA1_sublayers exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / scanpy / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Excitatory / seurat / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / user_20261018_all_cell_types exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / scanpy / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / seurat / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / user_20261018_CA1_ProS exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / scanpy / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / seurat / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / user_20261018_CA1_sublayers exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / scanpy / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "CA1_ProS / seurat / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / user_20261018_all_cell_types exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / scanpy / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / seurat / user_20261018_all_cell_types every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / user_20261018_CA1_ProS exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / scanpy / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / seurat / user_20261018_CA1_ProS every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / user_20261018_CA1_sublayers exact verified gene order in one click and one page",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / scanpy / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "Inhibitory / seurat / user_20261018_CA1_sublayers every selected gene has native source rows",
+      "status": "PASS"
+    },
+    {
+      "name": "original_full cKO new-gene means stay available and z stays unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "original_full new gene individual-nucleus values bind original full-library axis in both tools",
+      "status": "PASS"
+    },
+    {
+      "name": "paired_original cKO new-gene means stay available and z stays unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "paired_original new gene individual-nucleus values bind original full-library axis in both tools",
+      "status": "PASS"
+    },
+    {
+      "name": "paired_cellbender cKO new-gene means stay available and z stays unavailable",
+      "status": "PASS"
+    },
+    {
+      "name": "paired_cellbender new gene individual-nucleus values bind original full-library axis in both tools",
+      "status": "PASS"
+    },
+    {
+      "name": "Unresolved entries never acquire stable IDs or counterfeit data",
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+[
+  {
+    "gene_id": "ENSMUSG00000039474",
+    "gene_symbol": "Wfs1"
+  },
+  {
+    "gene_id": "ENSMUSG00000053025",
+    "gene_symbol": "Sv2b"
+  },
+  {
+    "gene_id": "ENSMUSG00000041708",
+    "gene_symbol": "Mpped1"
+  },
+  {
+    "gene_id": "ENSMUSG00000046442",
+    "gene_symbol": "Ppm1e"
+  },
+  {
+    "gene_id": "ENSMUSG00000027239",
+    "gene_symbol": "Mdk"
+  },
+  {
+    "gene_id": "ENSMUSG00000059991",
+    "gene_symbol": "Nptx2"
+  },
+  {
+    "gene_id": "ENSMUSG00000030905",
+    "gene_symbol": "Crym"
+  },
+  {
+    "gene_id": "ENSMUSG00000029151",
+    "gene_symbol": "Slc30a3"
+  },
+  {
+    "gene_id": "ENSMUSG00000049336",
+    "gene_symbol": "Tenm2"
+  },
+  {
+    "gene_id": "ENSMUSG00000066705",
+    "gene_symbol": "Fxyd6"
+  },
+  {
+    "gene_id": "ENSMUSG00000095139",
+    "gene_symbol": "Pou3f2"
+  },
+  {
+    "gene_id": "ENSMUSG00000040836",
+    "gene_symbol": "Gpr161"
+  },
+  {
+    "gene_id": "ENSMUSG00000048251",
+    "gene_symbol": "Bcl11b"
+  },
+  {
+    "gene_id": "ENSMUSG00000066687",
+    "gene_symbol": "Zbtb16"
+  },
+  {
+    "gene_id": "ENSMUSG00000022054",
+    "gene_symbol": "Nefm"
+  },
+  {
+    "gene_id": "ENSMUSG00000026837",
+    "gene_symbol": "Col5a1"
+  },
+  {
+    "gene_id": "ENSMUSG00000050505",
+    "gene_symbol": "Pcdh20"
+  },
+  {
+    "gene_id": "ENSMUSG00000033318",
+    "gene_symbol": "Gstt2"
+  },
+  {
+    "gene_id": "ENSMUSG00000034684",
+    "gene_symbol": "Sema3f"
+  },
+  {
+    "gene_id": "ENSMUSG00000071862",
+    "gene_symbol": "Lrrtm2"
+  },
+  {
+    "gene_id": "ENSMUSG00000006445",
+    "gene_symbol": "Epha2"
+  },
+  {
+    "gene_id": "ENSMUSG00000033214",
+    "gene_symbol": "Slitrk5"
+  },
+  {
+    "gene_id": "ENSMUSG00000031561",
+    "gene_symbol": "Tenm3"
+  },
+  {
+    "gene_id": "ENSMUSG00000031133",
+    "gene_symbol": "Arhgef6"
+  },
+  {
+    "gene_id": "ENSMUSG00000027347",
+    "gene_symbol": "Rasgrp1"
+  },
+  {
+    "gene_id": "ENSMUSG00000027777",
+    "gene_symbol": "Schip1"
+  },
+  {
+    "gene_id": "ENSMUSG00000030406",
+    "gene_symbol": "Gipr"
+  },
+  {
+    "gene_id": "ENSMUSG00000024517",
+    "gene_symbol": "Grp"
+  },
+  {
+    "gene_id": "ENSMUSG00000038793",
+    "gene_symbol": "Lefty1"
+  },
+  {
+    "gene_id": "ENSMUSG00000037014",
+    "gene_symbol": "Sstr4"
+  },
+  {
+    "gene_id": "ENSMUSG00000038760",
+    "gene_symbol": "Trhr"
+  },
+  {
+    "gene_id": "ENSMUSG00000036437",
+    "gene_symbol": "Npy1r"
+  },
+  {
+    "gene_id": "ENSMUSG00000009394",
+    "gene_symbol": "Syn2"
+  },
+  {
+    "gene_id": "ENSMUSG00000031465",
+    "gene_symbol": "Angpt2"
+  },
+  {
+    "gene_id": "ENSMUSG00000022860",
+    "gene_symbol": "Chodl"
+  },
+  {
+    "gene_id": "ENSMUSG00000028971",
+    "gene_symbol": "Cort"
+  },
+  {
+    "gene_id": "ENSMUSG00000048988",
+    "gene_symbol": "Elfn1"
+  },
+  {
+    "gene_id": "ENSMUSG00000068220",
+    "gene_symbol": "Lgals1"
+  },
+  {
+    "gene_id": "ENSMUSG00000058975",
+    "gene_symbol": "Kcnc1"
+  },
+  {
+    "gene_id": "ENSMUSG00000061762",
+    "gene_symbol": "Tac1"
+  },
+  {
+    "gene_id": "ENSMUSG00000049796",
+    "gene_symbol": "Crh"
+  },
+  {
+    "gene_id": "ENSMUSG00000031654",
+    "gene_symbol": "Cbln1"
+  },
+  {
+    "gene_id": "ENSMUSG00000000214",
+    "gene_symbol": "Th"
+  },
+  {
+    "gene_id": "ENSMUSG00000028004",
+    "gene_symbol": "Npy2r"
+  },
+  {
+    "gene_id": "ENSMUSG00000027168",
+    "gene_symbol": "Pax6"
+  },
+  {
+    "gene_id": "ENSMUSG00000061353",
+    "gene_symbol": "Cxcl12"
+  },
+  {
+    "gene_id": "ENSMUSG00000020932",
+    "gene_symbol": "Gfap"
+  },
+  {
+    "gene_id": "ENSMUSG00000030088",
+    "gene_symbol": "Aldh1l1"
+  },
+  {
+    "gene_id": "ENSMUSG00000005089",
+    "gene_symbol": "Slc1a2"
+  },
+  {
+    "gene_id": "ENSMUSG00000050953",
+    "gene_symbol": "Gja1"
+  },
+  {
+    "gene_id": "ENSMUSG00000033208",
+    "gene_symbol": "S100b"
+  },
+  {
+    "gene_id": "ENSMUSG00000052229",
+    "gene_symbol": "Gpr17"
+  },
+  {
+    "gene_id": "ENSMUSG00000004892",
+    "gene_symbol": "Bcan"
+  },
+  {
+    "gene_id": "ENSMUSG00000006782",
+    "gene_symbol": "Cnp"
+  },
+  {
+    "gene_id": "ENSMUSG00000050121",
+    "gene_symbol": "Opalin"
+  },
+  {
+    "gene_id": "ENSMUSG00000023992",
+    "gene_symbol": "Trem2"
+  },
+  {
+    "gene_id": "ENSMUSG00000030579",
+    "gene_symbol": "Tyrobp"
+  },
+  {
+    "gene_id": "ENSMUSG00000039323",
+    "gene_symbol": "Igfbp2"
+  },
+  {
+    "gene_id": "ENSMUSG00000024936",
+    "gene_symbol": "Kcnk7"
+  },
+  {
+    "gene_id": "ENSMUSG00000042348",
+    "gene_symbol": "Arl15"
+  },
+  {
+    "gene_id": "ENSMUSG00000035152",
+    "gene_symbol": "Ap2b1"
+  },
+  {
+    "gene_id": "ENSMUSG00000033981",
+    "gene_symbol": "Gria2"
+  },
+  {
+    "gene_id": "ENSMUSG00000033676",
+    "gene_symbol": "Gabrb3"
+  },
+  {
+    "gene_id": "ENSMUSG00000039419",
+    "gene_symbol": "Cntnap2"
+  },
+  {
+    "gene_id": "ENSMUSG00000064115",
+    "gene_symbol": "Cadm2"
+  },
+  {
+    "gene_id": "ENSMUSG00000060882",
+    "gene_symbol": "Kcnd2"
+  },
+  {
+    "gene_id": "ENSMUSG00000029088",
+    "gene_symbol": "Kcnip4"
+  },
+  {
+    "gene_id": "ENSMUSG00000001986",
+    "gene_symbol": "Gria3"
+  },
+  {
+    "gene_id": "ENSMUSG00000040640",
+    "gene_symbol": "Erc2"
+  },
+  {
+    "gene_id": "ENSMUSG00000040433",
+    "gene_symbol": "Zbtb38"
+  },
+  {
+    "gene_id": "ENSMUSG00000050965",
+    "gene_symbol": "Prkca"
+  },
+  {
+    "gene_id": "ENSMUSG00000027695",
+    "gene_symbol": "Pld1"
+  },
+  {
+    "gene_id": "ENSMUSG00000043460",
+    "gene_symbol": "Elfn2"
+  },
+  {
+    "gene_id": "ENSMUSG00000054728",
+    "gene_symbol": "Phactr1"
+  },
+  {
+    "gene_id": "ENSMUSG00000047909",
+    "gene_symbol": "Ankrd16"
+  },
+  {
+    "gene_id": "ENSMUSG00000045045",
+    "gene_symbol": "Lrfn4"
+  },
+  {
+    "gene_id": "ENSMUSG00000041417",
+    "gene_symbol": "Pik3r1"
+  },
+  {
+    "gene_id": "ENSMUSG00000054252",
+    "gene_symbol": "Fgfr3"
+  },
+  {
+    "gene_id": "ENSMUSG00000034762",
+    "gene_symbol": "Glis1"
+  },
+  {
+    "gene_id": "ENSMUSG00000033569",
+    "gene_symbol": "Adgrb3"
+  },
+  {
+    "gene_id": "ENSMUSG00000020537",
+    "gene_symbol": "Drg2"
+  },
+  {
+    "gene_id": "ENSMUSG00000045103",
+    "gene_symbol": "Dmd"
+  },
+  {
+    "gene_id": "ENSMUSG00000027238",
+    "gene_symbol": "Frmd5"
+  },
+  {
+    "gene_id": "ENSMUSG00000038580",
+    "gene_symbol": "Sct"
+  },
+  {
+    "gene_id": "ENSMUSG00000061751",
+    "gene_symbol": "Kalrn"
+  },
+  {
+    "gene_id": "ENSMUSG00000066415",
+    "gene_symbol": "Msl2"
+  },
+  {
+    "gene_id": "ENSMUSG00000038910",
+    "gene_symbol": "Plcl2"
+  },
+  {
+    "gene_id": "ENSMUSG00000027827",
+    "gene_symbol": "Kcnab1"
+  },
+  {
+    "gene_id": "ENSMUSG00000026204",
+    "gene_symbol": "Ptprn"
+  },
+  {
+    "gene_id": "ENSMUSG00000039717",
+    "gene_symbol": "Ralyl"
+  },
+  {
+    "gene_id": "ENSMUSG00000061731",
+    "gene_symbol": "Ext1"
+  },
+  {
+    "gene_id": "ENSMUSG00000019699",
+    "gene_symbol": "Akt3"
+  },
+  {
+    "gene_id": "ENSMUSG00000035954",
+    "gene_symbol": "Dock4"
+  },
+  {
+    "gene_id": "ENSMUSG00000034656",
+    "gene_symbol": "Cacna1a"
+  },
+  {
+    "gene_id": "ENSMUSG00000026797",
+    "gene_symbol": "Stxbp1"
+  },
+  {
+    "gene_id": "ENSMUSG00000022973",
+    "gene_symbol": "Synj1"
+  },
+  {
+    "gene_id": "ENSMUSG00000020231",
+    "gene_symbol": "Dip2a"
+  },
+  {
+    "gene_id": "ENSMUSG00000032985",
+    "gene_symbol": "5730522E02Rik"
+  },
+  {
+    "gene_id": "ENSMUSG00000078816",
+    "gene_symbol": "Prkcg"
+  },
+  {
+    "gene_id": "ENSMUSG00000029048",
+    "gene_symbol": "Rer1"
+  },
+  {
+    "gene_id": "ENSMUSG00000041268",
+    "gene_symbol": "Dmxl2"
+  },
+  {
+    "gene_id": "ENSMUSG00000024164",
+    "gene_symbol": "C3"
+  },
+  {
+    "gene_id": "ENSMUSG00000053930",
+    "gene_symbol": "Shisa6"
+  },
+  {
+    "gene_id": "ENSMUSG00000057182",
+    "gene_symbol": "Scn3a"
+  },
+  {
+    "gene_id": "ENSMUSG00000037996",
+    "gene_symbol": "Slc24a2"
+  },
+  {
+    "gene_id": "ENSMUSG00000062257",
+    "gene_symbol": "Opcml"
+  },
+  {
+    "gene_id": "ENSMUSG00000038244",
+    "gene_symbol": "Mical2"
+  },
+  {
+    "gene_id": "ENSMUSG00000021991",
+    "gene_symbol": "Cacna2d3"
+  },
+  {
+    "gene_id": "ENSMUSG00000026109",
+    "gene_symbol": "Tmeff2"
+  },
+  {
+    "gene_id": "ENSMUSG00000007989",
+    "gene_symbol": "Fzd3"
+  },
+  {
+    "gene_id": "ENSMUSG00000022762",
+    "gene_symbol": "Ncam2"
+  },
+  {
+    "gene_id": "ENSMUSG00000009418",
+    "gene_symbol": "Nav1"
+  },
+  {
+    "gene_id": "ENSMUSG00000061080",
+    "gene_symbol": "Lsamp"
+  },
+  {
+    "gene_id": "ENSMUSG00000031834",
+    "gene_symbol": "Pik3r2"
+  },
+  {
+    "gene_id": "ENSMUSG00000031618",
+    "gene_symbol": "Nr3c2"
+  },
+  {
+    "gene_id": "ENSMUSG00000029608",
+    "gene_symbol": "Rph3a"
+  },
+  {
+    "gene_id": "ENSMUSG00000048078",
+    "gene_symbol": "Tenm4"
+  },
+  {
+    "gene_id": "ENSMUSG00000021215",
+    "gene_symbol": "Net1"
+  },
+  {
+    "gene_id": "ENSMUSG00000020181",
+    "gene_symbol": "Nav3"
+  },
+  {
+    "gene_id": "ENSMUSG00000036469",
+    "gene_symbol": "March1"
+  },
+  {
+    "gene_id": "ENSMUSG00000034912",
+    "gene_symbol": "Mdga2"
+  },
+  {
+    "gene_id": "ENSMUSG00000055421",
+    "gene_symbol": "Pcdh9"
+  },
+  {
+    "gene_id": "ENSMUSG00000022861",
+    "gene_symbol": "Dgkg"
+  },
+  {
+    "gene_id": "ENSMUSG00000018427",
+    "gene_symbol": "Ypel2"
+  },
+  {
+    "gene_id": "ENSMUSG00000031246",
+    "gene_symbol": "Sh3bgrl"
+  },
+  {
+    "gene_id": "ENSMUSG00000000861",
+    "gene_symbol": "Bcl11a"
+  },
+  {
+    "gene_id": "ENSMUSG00000043670",
+    "gene_symbol": "Diras1"
+  },
+  {
+    "gene_id": "ENSMUSG00000028033",
+    "gene_symbol": "Kcnq5"
+  },
+  {
+    "gene_id": "ENSMUSG00000079157",
+    "gene_symbol": "Fam155a"
+  },
+  {
+    "gene_id": "ENSMUSG00000075478",
+    "gene_symbol": "Slitrk1"
+  },
+  {
+    "gene_id": "ENSMUSG00000063887",
+    "gene_symbol": "Nlgn1"
+  },
+  {
+    "gene_id": "ENSMUSG00000089916",
+    "gene_symbol": "Gm16160"
+  },
+  {
+    "gene_id": "ENSMUSG00000034777",
+    "gene_symbol": "Vax2"
+  },
+  {
+    "gene_id": "ENSMUSG00000059974",
+    "gene_symbol": "Ntm"
+  },
+  {
+    "gene_id": "ENSMUSG00000023868",
+    "gene_symbol": "Pde10a"
+  },
+  {
+    "gene_id": "ENSMUSG00000096914",
+    "gene_symbol": "Galntl6"
+  },
+  {
+    "gene_id": "ENSMUSG00000028351",
+    "gene_symbol": "Brinp1"
+  },
+  {
+    "gene_id": "ENSMUSG00000056211",
+    "gene_symbol": "R3hdm1"
+  },
+  {
+    "gene_id": "ENSMUSG00000055540",
+    "gene_symbol": "Epha6"
+  },
+  {
+    "gene_id": "ENSMUSG00000052516",
+    "gene_symbol": "Robo2"
+  },
+  {
+    "gene_id": "ENSMUSG00000092341",
+    "gene_symbol": "Malat1"
+  },
+  {
+    "gene_id": "ENSMUSG00000022829",
+    "gene_symbol": "Stxbp5l"
+  },
+  {
+    "gene_id": "ENSMUSG00000022012",
+    "gene_symbol": "Enox1"
+  },
+  {
+    "gene_id": "ENSMUSG00000025551",
+    "gene_symbol": "Fgf14"
+  },
+  {
+    "gene_id": "ENSMUSG00000004698",
+    "gene_symbol": "Hdac9"
+  },
+  {
+    "gene_id": "ENSMUSG00000045659",
+    "gene_symbol": "Plekha7"
+  },
+  {
+    "gene_id": "ENSMUSG00000036452",
+    "gene_symbol": "Arhgap26"
+  },
+  {
+    "gene_id": "ENSMUSG00000021700",
+    "gene_symbol": "Rab3c"
+  },
+  {
+    "gene_id": "ENSMUSG00000054885",
+    "gene_symbol": "4930578G10Rik"
+  },
+  {
+    "gene_id": "ENSMUSG00000031626",
+    "gene_symbol": "Sorbs2"
+  },
+  {
+    "gene_id": "ENSMUSG00000050321",
+    "gene_symbol": "Neto1"
+  },
+  {
+    "gene_id": "ENSMUSG00000034135",
+    "gene_symbol": "Sik3"
+  },
+  {
+    "gene_id": "ENSMUSG00000052512",
+    "gene_symbol": "Nav2"
+  },
+  {
+    "gene_id": "ENSMUSG00000051951",
+    "gene_symbol": "Xkr4"
+  },
+  {
+    "gene_id": "ENSMUSG00000024867",
+    "gene_symbol": "Pip5k1b"
+  },
+  {
+    "gene_id": "ENSMUSG00000028161",
+    "gene_symbol": "Ppp3ca"
+  },
+  {
+    "gene_id": "ENSMUSG00000039578",
+    "gene_symbol": "Ccser1"
+  },
+  {
+    "gene_id": "ENSMUSG00000037492",
+    "gene_symbol": "Zmat4"
+  },
+  {
+    "gene_id": "ENSMUSG00000021313",
+    "gene_symbol": "Ryr2"
+  },
+  {
+    "gene_id": "ENSMUSG00000032238",
+    "gene_symbol": "Rora"
+  },
+  {
+    "gene_id": "ENSMUSG00000061298",
+    "gene_symbol": "Agbl4"
+  },
+  {
+    "gene_id": "ENSMUSG00000042680",
+    "gene_symbol": "Garem1"
+  },
+  {
+    "gene_id": "ENSMUSG00000055026",
+    "gene_symbol": "Gabrg3"
+  },
+  {
+    "gene_id": "ENSMUSG00000060275",
+    "gene_symbol": "Nrg2"
+  }
+]

@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "mode": "READ_ONLY_SAVED_BYTES_AND_DESCRIPTIVE_ARITHMETIC",
+  "new_genes": 166,
+  "total_marker_genes": 1055,
+  "marker_shards": 24,
+  "gene_vector_shards": 498,
+  "marker_summary_rows": 243522,
+  "scaled_rows_checked": 162348,
+  "sparse_nucleus_counts_checked": 21548987,
+  "independent_native_integer_checks_recorded": 974088,
+  "marker_bytes_outside_pages": 22635481,
+  "gene_vector_bytes_outside_pages": 64836996,
+  "original_catalog_hashes_unchanged": true,
+  "old_axes_reused": true,
+  "exact_pinned_tag": "atlas-v3.4.0",
+  "panels": [
+    {
+      "id": "user_20261018_all_cell_types",
+      "requested": 100,
+      "selected": 99,
+      "unresolved_unique": 1
+    },
+    {
+      "id": "user_20261018_CA1_ProS",
+      "requested": 158,
+      "selected": 118,
+      "unresolved_unique": 34
+    },
+    {
+      "id": "user_20261018_CA1_sublayers",
+      "requested": 100,
+      "selected": 97,
+      "unresolved_unique": 3
+    }
+  ],
+  "scientific_model_fitting_performed": false,
+  "elapsed_seconds": 11.329,
+  "validator_sha256": "584a2a1b38c43da171bbeaf7053c3f81a422a9cf1e19912eab72d910db2d76ee",
+  "export_receipt_sha256": "6c5952428ed7ec90a3140e98848382b50781de3a2619ffe6e95916a1c609c3e0"
+}

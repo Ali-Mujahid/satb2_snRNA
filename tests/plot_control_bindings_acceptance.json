@@ -22,5 +22,5 @@
     "Manual expression ranges, zero color, categorical palette and row-label mode are wired",
     "Every display-handler operation preserves source annotations, coordinates, exact DE members and fit IDs"
   ],
-  "app_sha256": "f22f67f8fc026516552ce48eb8a6896d6bc2dc58285071a5e968814aa5e20b2a"
+  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b"
 }

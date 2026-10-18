@@ -1,0 +1,7157 @@
+{
+  "schema": "satb2-user-marker-panel-literal-audit-1",
+  "policy": "Select exact unique source symbols only, preserving first requested occurrence. No aliases, spelling corrections, case-insensitive matches or inferred zeros applied.",
+  "requested_panels_sha256": "b9692a3663cfd6cfb78fb50cda9e3add677d302186a103da6e58e80ae1c31c14",
+  "source_catalog_sha256": "655c6f7d89eb53df39597be5edfaabce5ad4104e0e8160fd101384f754cbeaf0",
+  "baseline_marker_registry_sha256": "2603392e239dcd7c867e7a21b73b30b9fbab2c6d632d3b05a031800687270b26",
+  "source_gene_count": 32285,
+  "baseline_marker_gene_count": 889,
+  "new_exact_gene_count": 164,
+  "selected_unique_gene_count": 279,
+  "panels": [
+    {
+      "id": "user_20261018_all_cell_types",
+      "label": "Your panel · all cell types",
+      "requested_entry_count": 100,
+      "unique_literal_count": 100,
+      "selected_gene_count": 98,
+      "selected_genes": [
+        {
+          "gene_id": "ENSMUSG00000070570",
+          "gene_symbol": "Slc17a7"
+        },
+        {
+          "gene_id": "ENSMUSG00000038331",
+          "gene_symbol": "Satb2"
+        },
+        {
+          "gene_id": "ENSMUSG00000037984",
+          "gene_symbol": "Neurod6"
+        },
+        {
+          "gene_id": "ENSMUSG00000039474",
+          "gene_symbol": "Wfs1"
+        },
+        {
+          "gene_id": "ENSMUSG00000053025",
+          "gene_symbol": "Sv2b"
+        },
+        {
+          "gene_id": "ENSMUSG00000041708",
+          "gene_symbol": "Mpped1"
+        },
+        {
+          "gene_id": "ENSMUSG00000034796",
+          "gene_symbol": "Cpne7"
+        },
+        {
+          "gene_id": "ENSMUSG00000046442",
+          "gene_symbol": "Ppm1e"
+        },
+        {
+          "gene_id": "ENSMUSG00000027239",
+          "gene_symbol": "Mdk"
+        },
+        {
+          "gene_id": "ENSMUSG00000032532",
+          "gene_symbol": "Cck"
+        },
+        {
+          "gene_id": "ENSMUSG00000028222",
+          "gene_symbol": "Calb1"
+        },
+        {
+          "gene_id": "ENSMUSG00000059991",
+          "gene_symbol": "Nptx2"
+        },
+        {
+          "gene_id": "ENSMUSG00000030905",
+          "gene_symbol": "Crym"
+        },
+        {
+          "gene_id": "ENSMUSG00000029151",
+          "gene_symbol": "Slc30a3"
+        },
+        {
+          "gene_id": "ENSMUSG00000049336",
+          "gene_symbol": "Tenm2"
+        },
+        {
+          "gene_id": "ENSMUSG00000032017",
+          "gene_symbol": "Grik4"
+        },
+        {
+          "gene_id": "ENSMUSG00000066705",
+          "gene_symbol": "Fxyd6"
+        },
+        {
+          "gene_id": "ENSMUSG00000095139",
+          "gene_symbol": "Pou3f2"
+        },
+        {
+          "gene_id": "ENSMUSG00000040836",
+          "gene_symbol": "Gpr161"
+        },
+        {
+          "gene_id": "ENSMUSG00000048251",
+          "gene_symbol": "Bcl11b"
+        },
+        {
+          "gene_id": "ENSMUSG00000041540",
+          "gene_symbol": "Sox5"
+        },
+        {
+          "gene_id": "ENSMUSG00000066687",
+          "gene_symbol": "Zbtb16"
+        },
+        {
+          "gene_id": "ENSMUSG00000090125",
+          "gene_symbol": "Pou3f1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022054",
+          "gene_symbol": "Nefm"
+        },
+        {
+          "gene_id": "ENSMUSG00000026193",
+          "gene_symbol": "Fn1"
+        },
+        {
+          "gene_id": "ENSMUSG00000026837",
+          "gene_symbol": "Col5a1"
+        },
+        {
+          "gene_id": "ENSMUSG00000050505",
+          "gene_symbol": "Pcdh20"
+        },
+        {
+          "gene_id": "ENSMUSG00000033318",
+          "gene_symbol": "Gstt2"
+        },
+        {
+          "gene_id": "ENSMUSG00000034684",
+          "gene_symbol": "Sema3f"
+        },
+        {
+          "gene_id": "ENSMUSG00000026344",
+          "gene_symbol": "Lypd1"
+        },
+        {
+          "gene_id": "ENSMUSG00000071862",
+          "gene_symbol": "Lrrtm2"
+        },
+        {
+          "gene_id": "ENSMUSG00000006445",
+          "gene_symbol": "Epha2"
+        },
+        {
+          "gene_id": "ENSMUSG00000033214",
+          "gene_symbol": "Slitrk5"
+        },
+        {
+          "gene_id": "ENSMUSG00000031561",
+          "gene_symbol": "Tenm3"
+        },
+        {
+          "gene_id": "ENSMUSG00000031133",
+          "gene_symbol": "Arhgef6"
+        },
+        {
+          "gene_id": "ENSMUSG00000027347",
+          "gene_symbol": "Rasgrp1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022708",
+          "gene_symbol": "Zbtb20"
+        },
+        {
+          "gene_id": "ENSMUSG00000027777",
+          "gene_symbol": "Schip1"
+        },
+        {
+          "gene_id": "ENSMUSG00000030406",
+          "gene_symbol": "Gipr"
+        },
+        {
+          "gene_id": "ENSMUSG00000019929",
+          "gene_symbol": "Dcn"
+        },
+        {
+          "gene_id": "ENSMUSG00000024517",
+          "gene_symbol": "Grp"
+        },
+        {
+          "gene_id": "ENSMUSG00000041380",
+          "gene_symbol": "Htr2c"
+        },
+        {
+          "gene_id": "ENSMUSG00000038793",
+          "gene_symbol": "Lefty1"
+        },
+        {
+          "gene_id": "ENSMUSG00000037014",
+          "gene_symbol": "Sstr4"
+        },
+        {
+          "gene_id": "ENSMUSG00000038760",
+          "gene_symbol": "Trhr"
+        },
+        {
+          "gene_id": "ENSMUSG00000036437",
+          "gene_symbol": "Npy1r"
+        },
+        {
+          "gene_id": "ENSMUSG00000009394",
+          "gene_symbol": "Syn2"
+        },
+        {
+          "gene_id": "ENSMUSG00000031465",
+          "gene_symbol": "Angpt2"
+        },
+        {
+          "gene_id": "ENSMUSG00000070880",
+          "gene_symbol": "Gad1"
+        },
+        {
+          "gene_id": "ENSMUSG00000026787",
+          "gene_symbol": "Gad2"
+        },
+        {
+          "gene_id": "ENSMUSG00000037771",
+          "gene_symbol": "Slc32a1"
+        },
+        {
+          "gene_id": "ENSMUSG00000004366",
+          "gene_symbol": "Sst"
+        },
+        {
+          "gene_id": "ENSMUSG00000026890",
+          "gene_symbol": "Lhx6"
+        },
+        {
+          "gene_id": "ENSMUSG00000029819",
+          "gene_symbol": "Npy"
+        },
+        {
+          "gene_id": "ENSMUSG00000022860",
+          "gene_symbol": "Chodl"
+        },
+        {
+          "gene_id": "ENSMUSG00000028971",
+          "gene_symbol": "Cort"
+        },
+        {
+          "gene_id": "ENSMUSG00000048988",
+          "gene_symbol": "Elfn1"
+        },
+        {
+          "gene_id": "ENSMUSG00000005716",
+          "gene_symbol": "Pvalb"
+        },
+        {
+          "gene_id": "ENSMUSG00000068220",
+          "gene_symbol": "Lgals1"
+        },
+        {
+          "gene_id": "ENSMUSG00000058975",
+          "gene_symbol": "Kcnc1"
+        },
+        {
+          "gene_id": "ENSMUSG00000040624",
+          "gene_symbol": "Plekhg1"
+        },
+        {
+          "gene_id": "ENSMUSG00000021508",
+          "gene_symbol": "Cxcl14"
+        },
+        {
+          "gene_id": "ENSMUSG00000061762",
+          "gene_symbol": "Tac1"
+        },
+        {
+          "gene_id": "ENSMUSG00000019772",
+          "gene_symbol": "Vip"
+        },
+        {
+          "gene_id": "ENSMUSG00000049796",
+          "gene_symbol": "Crh"
+        },
+        {
+          "gene_id": "ENSMUSG00000031654",
+          "gene_symbol": "Cbln1"
+        },
+        {
+          "gene_id": "ENSMUSG00000000214",
+          "gene_symbol": "Th"
+        },
+        {
+          "gene_id": "ENSMUSG00000010175",
+          "gene_symbol": "Prox1"
+        },
+        {
+          "gene_id": "ENSMUSG00000028004",
+          "gene_symbol": "Npy2r"
+        },
+        {
+          "gene_id": "ENSMUSG00000027270",
+          "gene_symbol": "Lamp5"
+        },
+        {
+          "gene_id": "ENSMUSG00000049001",
+          "gene_symbol": "Ndnf"
+        },
+        {
+          "gene_id": "ENSMUSG00000027168",
+          "gene_symbol": "Pax6"
+        },
+        {
+          "gene_id": "ENSMUSG00000042453",
+          "gene_symbol": "Reln"
+        },
+        {
+          "gene_id": "ENSMUSG00000061353",
+          "gene_symbol": "Cxcl12"
+        },
+        {
+          "gene_id": "ENSMUSG00000029026",
+          "gene_symbol": "Trp73"
+        },
+        {
+          "gene_id": "ENSMUSG00000020932",
+          "gene_symbol": "Gfap"
+        },
+        {
+          "gene_id": "ENSMUSG00000024411",
+          "gene_symbol": "Aqp4"
+        },
+        {
+          "gene_id": "ENSMUSG00000030088",
+          "gene_symbol": "Aldh1l1"
+        },
+        {
+          "gene_id": "ENSMUSG00000005089",
+          "gene_symbol": "Slc1a2"
+        },
+        {
+          "gene_id": "ENSMUSG00000050953",
+          "gene_symbol": "Gja1"
+        },
+        {
+          "gene_id": "ENSMUSG00000033208",
+          "gene_symbol": "S100b"
+        },
+        {
+          "gene_id": "ENSMUSG00000029231",
+          "gene_symbol": "Pdgfra"
+        },
+        {
+          "gene_id": "ENSMUSG00000032911",
+          "gene_symbol": "Cspg4"
+        },
+        {
+          "gene_id": "ENSMUSG00000052229",
+          "gene_symbol": "Gpr17"
+        },
+        {
+          "gene_id": "ENSMUSG00000004892",
+          "gene_symbol": "Bcan"
+        },
+        {
+          "gene_id": "ENSMUSG00000041607",
+          "gene_symbol": "Mbp"
+        },
+        {
+          "gene_id": "ENSMUSG00000031425",
+          "gene_symbol": "Plp1"
+        },
+        {
+          "gene_id": "ENSMUSG00000076439",
+          "gene_symbol": "Mog"
+        },
+        {
+          "gene_id": "ENSMUSG00000036634",
+          "gene_symbol": "Mag"
+        },
+        {
+          "gene_id": "ENSMUSG00000006782",
+          "gene_symbol": "Cnp"
+        },
+        {
+          "gene_id": "ENSMUSG00000030287",
+          "gene_symbol": "Itpr2"
+        },
+        {
+          "gene_id": "ENSMUSG00000050121",
+          "gene_symbol": "Opalin"
+        },
+        {
+          "gene_id": "ENSMUSG00000019970",
+          "gene_symbol": "Sgk1"
+        },
+        {
+          "gene_id": "ENSMUSG00000036887",
+          "gene_symbol": "C1qa"
+        },
+        {
+          "gene_id": "ENSMUSG00000052336",
+          "gene_symbol": "Cx3cr1"
+        },
+        {
+          "gene_id": "ENSMUSG00000036353",
+          "gene_symbol": "P2ry12"
+        },
+        {
+          "gene_id": "ENSMUSG00000023992",
+          "gene_symbol": "Trem2"
+        },
+        {
+          "gene_id": "ENSMUSG00000030579",
+          "gene_symbol": "Tyrobp"
+        }
+      ],
+      "selected_gene_ids": [
+        "ENSMUSG00000070570",
+        "ENSMUSG00000038331",
+        "ENSMUSG00000037984",
+        "ENSMUSG00000039474",
+        "ENSMUSG00000053025",
+        "ENSMUSG00000041708",
+        "ENSMUSG00000034796",
+        "ENSMUSG00000046442",
+        "ENSMUSG00000027239",
+        "ENSMUSG00000032532",
+        "ENSMUSG00000028222",
+        "ENSMUSG00000059991",
+        "ENSMUSG00000030905",
+        "ENSMUSG00000029151",
+        "ENSMUSG00000049336",
+        "ENSMUSG00000032017",
+        "ENSMUSG00000066705",
+        "ENSMUSG00000095139",
+        "ENSMUSG00000040836",
+        "ENSMUSG00000048251",
+        "ENSMUSG00000041540",
+        "ENSMUSG00000066687",
+        "ENSMUSG00000090125",
+        "ENSMUSG00000022054",
+        "ENSMUSG00000026193",
+        "ENSMUSG00000026837",
+        "ENSMUSG00000050505",
+        "ENSMUSG00000033318",
+        "ENSMUSG00000034684",
+        "ENSMUSG00000026344",
+        "ENSMUSG00000071862",
+        "ENSMUSG00000006445",
+        "ENSMUSG00000033214",
+        "ENSMUSG00000031561",
+        "ENSMUSG00000031133",
+        "ENSMUSG00000027347",
+        "ENSMUSG00000022708",
+        "ENSMUSG00000027777",
+        "ENSMUSG00000030406",
+        "ENSMUSG00000019929",
+        "ENSMUSG00000024517",
+        "ENSMUSG00000041380",
+        "ENSMUSG00000038793",
+        "ENSMUSG00000037014",
+        "ENSMUSG00000038760",
+        "ENSMUSG00000036437",
+        "ENSMUSG00000009394",
+        "ENSMUSG00000031465",
+        "ENSMUSG00000070880",
+        "ENSMUSG00000026787",
+        "ENSMUSG00000037771",
+        "ENSMUSG00000004366",
+        "ENSMUSG00000026890",
+        "ENSMUSG00000029819",
+        "ENSMUSG00000022860",
+        "ENSMUSG00000028971",
+        "ENSMUSG00000048988",
+        "ENSMUSG00000005716",
+        "ENSMUSG00000068220",
+        "ENSMUSG00000058975",
+        "ENSMUSG00000040624",
+        "ENSMUSG00000021508",
+        "ENSMUSG00000061762",
+        "ENSMUSG00000019772",
+        "ENSMUSG00000049796",
+        "ENSMUSG00000031654",
+        "ENSMUSG00000000214",
+        "ENSMUSG00000010175",
+        "ENSMUSG00000028004",
+        "ENSMUSG00000027270",
+        "ENSMUSG00000049001",
+        "ENSMUSG00000027168",
+        "ENSMUSG00000042453",
+        "ENSMUSG00000061353",
+        "ENSMUSG00000029026",
+        "ENSMUSG00000020932",
+        "ENSMUSG00000024411",
+        "ENSMUSG00000030088",
+        "ENSMUSG00000005089",
+        "ENSMUSG00000050953",
+        "ENSMUSG00000033208",
+        "ENSMUSG00000029231",
+        "ENSMUSG00000032911",
+        "ENSMUSG00000052229",
+        "ENSMUSG00000004892",
+        "ENSMUSG00000041607",
+        "ENSMUSG00000031425",
+        "ENSMUSG00000076439",
+        "ENSMUSG00000036634",
+        "ENSMUSG00000006782",
+        "ENSMUSG00000030287",
+        "ENSMUSG00000050121",
+        "ENSMUSG00000019970",
+        "ENSMUSG00000036887",
+        "ENSMUSG00000052336",
+        "ENSMUSG00000036353",
+        "ENSMUSG00000023992",
+        "ENSMUSG00000030579"
+      ],
+      "source_resolved_symbols_in_requested_order": [
+        "Slc17a7",
+        "Satb2",
+        "Neurod6",
+        "Wfs1",
+        "Sv2b",
+        "Mpped1",
+        "Cpne7",
+        "Ppm1e",
+        "Mdk",
+        "Cck",
+        "Calb1",
+        "Nptx2",
+        "Crym",
+        "Slc30a3",
+        "Tenm2",
+        "Grik4",
+        "Fxyd6",
+        "Pou3f2",
+        "Gpr161",
+        "Bcl11b",
+        "Sox5",
+        "Zbtb16",
+        "Pou3f1",
+        "Nefm",
+        "Fn1",
+        "Col5a1",
+        "Pcdh20",
+        "Gstt2",
+        "Sema3f",
+        "Lypd1",
+        "Lrrtm2",
+        "Epha2",
+        "Slitrk5",
+        "Tenm3",
+        "Arhgef6",
+        "Rasgrp1",
+        "Zbtb20",
+        "Schip1",
+        "Gipr",
+        "Dcn",
+        "Grp",
+        "Htr2c",
+        "Lefty1",
+        "Sstr4",
+        "Trhr",
+        "Npy1r",
+        "Syn2",
+        "Angpt2",
+        "Gad1",
+        "Gad2",
+        "Slc32a1",
+        "Sst",
+        "Lhx6",
+        "Npy",
+        "Chodl",
+        "Cort",
+        "Elfn1",
+        "Pvalb",
+        "Lgals1",
+        "Kcnc1",
+        "Plekhg1",
+        "Cxcl14",
+        "Tac1",
+        "Vip",
+        "Crh",
+        "Cbln1",
+        "Th",
+        "Prox1",
+        "Npy2r",
+        "Lamp5",
+        "Ndnf",
+        "Pax6",
+        "Reln",
+        "Cxcl12",
+        "Trp73",
+        "Gfap",
+        "Aqp4",
+        "Aldh1l1",
+        "Slc1a2",
+        "Gja1",
+        "S100b",
+        "Pdgfra",
+        "Cspg4",
+        "Gpr17",
+        "Bcan",
+        "Mbp",
+        "Plp1",
+        "Mog",
+        "Mag",
+        "Cnp",
+        "Itpr2",
+        "Opalin",
+        "Sgk1",
+        "C1qa",
+        "Cx3cr1",
+        "P2ry12",
+        "Trem2",
+        "Tyrobp"
+      ],
+      "new_gene_count": 57,
+      "absent_literal_count": 2,
+      "absent_literal_symbols": [
+        "Nov",
+        "Fyna"
+      ],
+      "ambiguous_symbols": [],
+      "repeated_requested_symbols": []
+    },
+    {
+      "id": "user_20261018_CA1_ProS",
+      "label": "Your panel · CA1 / ProS",
+      "requested_entry_count": 158,
+      "unique_literal_count": 152,
+      "selected_gene_count": 115,
+      "selected_genes": [
+        {
+          "gene_id": "ENSMUSG00000039323",
+          "gene_symbol": "Igfbp2"
+        },
+        {
+          "gene_id": "ENSMUSG00000057378",
+          "gene_symbol": "Ryr3"
+        },
+        {
+          "gene_id": "ENSMUSG00000032537",
+          "gene_symbol": "Ephb1"
+        },
+        {
+          "gene_id": "ENSMUSG00000024936",
+          "gene_symbol": "Kcnk7"
+        },
+        {
+          "gene_id": "ENSMUSG00000042348",
+          "gene_symbol": "Arl15"
+        },
+        {
+          "gene_id": "ENSMUSG00000001985",
+          "gene_symbol": "Grik3"
+        },
+        {
+          "gene_id": "ENSMUSG00000010066",
+          "gene_symbol": "Cacna2d2"
+        },
+        {
+          "gene_id": "ENSMUSG00000035152",
+          "gene_symbol": "Ap2b1"
+        },
+        {
+          "gene_id": "ENSMUSG00000046159",
+          "gene_symbol": "Chrm3"
+        },
+        {
+          "gene_id": "ENSMUSG00000033981",
+          "gene_symbol": "Gria2"
+        },
+        {
+          "gene_id": "ENSMUSG00000033676",
+          "gene_symbol": "Gabrb3"
+        },
+        {
+          "gene_id": "ENSMUSG00000046442",
+          "gene_symbol": "Ppm1e"
+        },
+        {
+          "gene_id": "ENSMUSG00000039419",
+          "gene_symbol": "Cntnap2"
+        },
+        {
+          "gene_id": "ENSMUSG00000064115",
+          "gene_symbol": "Cadm2"
+        },
+        {
+          "gene_id": "ENSMUSG00000060882",
+          "gene_symbol": "Kcnd2"
+        },
+        {
+          "gene_id": "ENSMUSG00000029088",
+          "gene_symbol": "Kcnip4"
+        },
+        {
+          "gene_id": "ENSMUSG00000001986",
+          "gene_symbol": "Gria3"
+        },
+        {
+          "gene_id": "ENSMUSG00000026970",
+          "gene_symbol": "Rbms1"
+        },
+        {
+          "gene_id": "ENSMUSG00000042846",
+          "gene_symbol": "Lrrtm3"
+        },
+        {
+          "gene_id": "ENSMUSG00000056222",
+          "gene_symbol": "Spock1"
+        },
+        {
+          "gene_id": "ENSMUSG00000040640",
+          "gene_symbol": "Erc2"
+        },
+        {
+          "gene_id": "ENSMUSG00000040433",
+          "gene_symbol": "Zbtb38"
+        },
+        {
+          "gene_id": "ENSMUSG00000050965",
+          "gene_symbol": "Prkca"
+        },
+        {
+          "gene_id": "ENSMUSG00000038608",
+          "gene_symbol": "Dock10"
+        },
+        {
+          "gene_id": "ENSMUSG00000027695",
+          "gene_symbol": "Pld1"
+        },
+        {
+          "gene_id": "ENSMUSG00000043460",
+          "gene_symbol": "Elfn2"
+        },
+        {
+          "gene_id": "ENSMUSG00000024617",
+          "gene_symbol": "Camk2a"
+        },
+        {
+          "gene_id": "ENSMUSG00000050840",
+          "gene_symbol": "Cdh20"
+        },
+        {
+          "gene_id": "ENSMUSG00000049336",
+          "gene_symbol": "Tenm2"
+        },
+        {
+          "gene_id": "ENSMUSG00000021010",
+          "gene_symbol": "Npas3"
+        },
+        {
+          "gene_id": "ENSMUSG00000054728",
+          "gene_symbol": "Phactr1"
+        },
+        {
+          "gene_id": "ENSMUSG00000047909",
+          "gene_symbol": "Ankrd16"
+        },
+        {
+          "gene_id": "ENSMUSG00000045045",
+          "gene_symbol": "Lrfn4"
+        },
+        {
+          "gene_id": "ENSMUSG00000041417",
+          "gene_symbol": "Pik3r1"
+        },
+        {
+          "gene_id": "ENSMUSG00000054252",
+          "gene_symbol": "Fgfr3"
+        },
+        {
+          "gene_id": "ENSMUSG00000034762",
+          "gene_symbol": "Glis1"
+        },
+        {
+          "gene_id": "ENSMUSG00000033569",
+          "gene_symbol": "Adgrb3"
+        },
+        {
+          "gene_id": "ENSMUSG00000046314",
+          "gene_symbol": "Stxbp6"
+        },
+        {
+          "gene_id": "ENSMUSG00000020537",
+          "gene_symbol": "Drg2"
+        },
+        {
+          "gene_id": "ENSMUSG00000045103",
+          "gene_symbol": "Dmd"
+        },
+        {
+          "gene_id": "ENSMUSG00000027238",
+          "gene_symbol": "Frmd5"
+        },
+        {
+          "gene_id": "ENSMUSG00000038349",
+          "gene_symbol": "Plcl1"
+        },
+        {
+          "gene_id": "ENSMUSG00000038580",
+          "gene_symbol": "Sct"
+        },
+        {
+          "gene_id": "ENSMUSG00000061751",
+          "gene_symbol": "Kalrn"
+        },
+        {
+          "gene_id": "ENSMUSG00000027347",
+          "gene_symbol": "Rasgrp1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022332",
+          "gene_symbol": "Khdrbs3"
+        },
+        {
+          "gene_id": "ENSMUSG00000066415",
+          "gene_symbol": "Msl2"
+        },
+        {
+          "gene_id": "ENSMUSG00000041112",
+          "gene_symbol": "Elmo1"
+        },
+        {
+          "gene_id": "ENSMUSG00000038910",
+          "gene_symbol": "Plcl2"
+        },
+        {
+          "gene_id": "ENSMUSG00000027827",
+          "gene_symbol": "Kcnab1"
+        },
+        {
+          "gene_id": "ENSMUSG00000042757",
+          "gene_symbol": "Tmem108"
+        },
+        {
+          "gene_id": "ENSMUSG00000026204",
+          "gene_symbol": "Ptprn"
+        },
+        {
+          "gene_id": "ENSMUSG00000041607",
+          "gene_symbol": "Mbp"
+        },
+        {
+          "gene_id": "ENSMUSG00000039717",
+          "gene_symbol": "Ralyl"
+        },
+        {
+          "gene_id": "ENSMUSG00000029093",
+          "gene_symbol": "Sorcs2"
+        },
+        {
+          "gene_id": "ENSMUSG00000020053",
+          "gene_symbol": "Igf1"
+        },
+        {
+          "gene_id": "ENSMUSG00000061731",
+          "gene_symbol": "Ext1"
+        },
+        {
+          "gene_id": "ENSMUSG00000053519",
+          "gene_symbol": "Kcnip1"
+        },
+        {
+          "gene_id": "ENSMUSG00000032503",
+          "gene_symbol": "Arpp21"
+        },
+        {
+          "gene_id": "ENSMUSG00000019699",
+          "gene_symbol": "Akt3"
+        },
+        {
+          "gene_id": "ENSMUSG00000035954",
+          "gene_symbol": "Dock4"
+        },
+        {
+          "gene_id": "ENSMUSG00000034656",
+          "gene_symbol": "Cacna1a"
+        },
+        {
+          "gene_id": "ENSMUSG00000026797",
+          "gene_symbol": "Stxbp1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022973",
+          "gene_symbol": "Synj1"
+        },
+        {
+          "gene_id": "ENSMUSG00000020231",
+          "gene_symbol": "Dip2a"
+        },
+        {
+          "gene_id": "ENSMUSG00000076439",
+          "gene_symbol": "Mog"
+        },
+        {
+          "gene_id": "ENSMUSG00000032985",
+          "gene_symbol": "5730522E02Rik"
+        },
+        {
+          "gene_id": "ENSMUSG00000078816",
+          "gene_symbol": "Prkcg"
+        },
+        {
+          "gene_id": "ENSMUSG00000029048",
+          "gene_symbol": "Rer1"
+        },
+        {
+          "gene_id": "ENSMUSG00000041268",
+          "gene_symbol": "Dmxl2"
+        },
+        {
+          "gene_id": "ENSMUSG00000039474",
+          "gene_symbol": "Wfs1"
+        },
+        {
+          "gene_id": "ENSMUSG00000024164",
+          "gene_symbol": "C3"
+        },
+        {
+          "gene_id": "ENSMUSG00000029174",
+          "gene_symbol": "Tbc1d1"
+        },
+        {
+          "gene_id": "ENSMUSG00000053930",
+          "gene_symbol": "Shisa6"
+        },
+        {
+          "gene_id": "ENSMUSG00000057182",
+          "gene_symbol": "Scn3a"
+        },
+        {
+          "gene_id": "ENSMUSG00000037996",
+          "gene_symbol": "Slc24a2"
+        },
+        {
+          "gene_id": "ENSMUSG00000048251",
+          "gene_symbol": "Bcl11b"
+        },
+        {
+          "gene_id": "ENSMUSG00000032517",
+          "gene_symbol": "Mobp"
+        },
+        {
+          "gene_id": "ENSMUSG00000062257",
+          "gene_symbol": "Opcml"
+        },
+        {
+          "gene_id": "ENSMUSG00000038244",
+          "gene_symbol": "Mical2"
+        },
+        {
+          "gene_id": "ENSMUSG00000021991",
+          "gene_symbol": "Cacna2d3"
+        },
+        {
+          "gene_id": "ENSMUSG00000026109",
+          "gene_symbol": "Tmeff2"
+        },
+        {
+          "gene_id": "ENSMUSG00000007989",
+          "gene_symbol": "Fzd3"
+        },
+        {
+          "gene_id": "ENSMUSG00000022762",
+          "gene_symbol": "Ncam2"
+        },
+        {
+          "gene_id": "ENSMUSG00000009418",
+          "gene_symbol": "Nav1"
+        },
+        {
+          "gene_id": "ENSMUSG00000061080",
+          "gene_symbol": "Lsamp"
+        },
+        {
+          "gene_id": "ENSMUSG00000031834",
+          "gene_symbol": "Pik3r2"
+        },
+        {
+          "gene_id": "ENSMUSG00000028677",
+          "gene_symbol": "Rnf220"
+        },
+        {
+          "gene_id": "ENSMUSG00000030235",
+          "gene_symbol": "Slco1c1"
+        },
+        {
+          "gene_id": "ENSMUSG00000031618",
+          "gene_symbol": "Nr3c2"
+        },
+        {
+          "gene_id": "ENSMUSG00000029608",
+          "gene_symbol": "Rph3a"
+        },
+        {
+          "gene_id": "ENSMUSG00000074776",
+          "gene_symbol": "Gm10754"
+        },
+        {
+          "gene_id": "ENSMUSG00000048078",
+          "gene_symbol": "Tenm4"
+        },
+        {
+          "gene_id": "ENSMUSG00000021215",
+          "gene_symbol": "Net1"
+        },
+        {
+          "gene_id": "ENSMUSG00000020181",
+          "gene_symbol": "Nav3"
+        },
+        {
+          "gene_id": "ENSMUSG00000038048",
+          "gene_symbol": "Cntnap5c"
+        },
+        {
+          "gene_id": "ENSMUSG00000036469",
+          "gene_symbol": "March1"
+        },
+        {
+          "gene_id": "ENSMUSG00000034912",
+          "gene_symbol": "Mdga2"
+        },
+        {
+          "gene_id": "ENSMUSG00000055421",
+          "gene_symbol": "Pcdh9"
+        },
+        {
+          "gene_id": "ENSMUSG00000022861",
+          "gene_symbol": "Dgkg"
+        },
+        {
+          "gene_id": "ENSMUSG00000018427",
+          "gene_symbol": "Ypel2"
+        },
+        {
+          "gene_id": "ENSMUSG00000063626",
+          "gene_symbol": "Unc5d"
+        },
+        {
+          "gene_id": "ENSMUSG00000031246",
+          "gene_symbol": "Sh3bgrl"
+        },
+        {
+          "gene_id": "ENSMUSG00000000861",
+          "gene_symbol": "Bcl11a"
+        },
+        {
+          "gene_id": "ENSMUSG00000043670",
+          "gene_symbol": "Diras1"
+        },
+        {
+          "gene_id": "ENSMUSG00000028033",
+          "gene_symbol": "Kcnq5"
+        },
+        {
+          "gene_id": "ENSMUSG00000079157",
+          "gene_symbol": "Fam155a"
+        },
+        {
+          "gene_id": "ENSMUSG00000075478",
+          "gene_symbol": "Slitrk1"
+        },
+        {
+          "gene_id": "ENSMUSG00000063887",
+          "gene_symbol": "Nlgn1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022212",
+          "gene_symbol": "Cpne6"
+        },
+        {
+          "gene_id": "ENSMUSG00000089916",
+          "gene_symbol": "Gm16160"
+        },
+        {
+          "gene_id": "ENSMUSG00000042589",
+          "gene_symbol": "Cux2"
+        },
+        {
+          "gene_id": "ENSMUSG00000034777",
+          "gene_symbol": "Vax2"
+        },
+        {
+          "gene_id": "ENSMUSG00000003746",
+          "gene_symbol": "Man1a"
+        },
+        {
+          "gene_id": "ENSMUSG00000058897",
+          "gene_symbol": "Col25a1"
+        }
+      ],
+      "selected_gene_ids": [
+        "ENSMUSG00000039323",
+        "ENSMUSG00000057378",
+        "ENSMUSG00000032537",
+        "ENSMUSG00000024936",
+        "ENSMUSG00000042348",
+        "ENSMUSG00000001985",
+        "ENSMUSG00000010066",
+        "ENSMUSG00000035152",
+        "ENSMUSG00000046159",
+        "ENSMUSG00000033981",
+        "ENSMUSG00000033676",
+        "ENSMUSG00000046442",
+        "ENSMUSG00000039419",
+        "ENSMUSG00000064115",
+        "ENSMUSG00000060882",
+        "ENSMUSG00000029088",
+        "ENSMUSG00000001986",
+        "ENSMUSG00000026970",
+        "ENSMUSG00000042846",
+        "ENSMUSG00000056222",
+        "ENSMUSG00000040640",
+        "ENSMUSG00000040433",
+        "ENSMUSG00000050965",
+        "ENSMUSG00000038608",
+        "ENSMUSG00000027695",
+        "ENSMUSG00000043460",
+        "ENSMUSG00000024617",
+        "ENSMUSG00000050840",
+        "ENSMUSG00000049336",
+        "ENSMUSG00000021010",
+        "ENSMUSG00000054728",
+        "ENSMUSG00000047909",
+        "ENSMUSG00000045045",
+        "ENSMUSG00000041417",
+        "ENSMUSG00000054252",
+        "ENSMUSG00000034762",
+        "ENSMUSG00000033569",
+        "ENSMUSG00000046314",
+        "ENSMUSG00000020537",
+        "ENSMUSG00000045103",
+        "ENSMUSG00000027238",
+        "ENSMUSG00000038349",
+        "ENSMUSG00000038580",
+        "ENSMUSG00000061751",
+        "ENSMUSG00000027347",
+        "ENSMUSG00000022332",
+        "ENSMUSG00000066415",
+        "ENSMUSG00000041112",
+        "ENSMUSG00000038910",
+        "ENSMUSG00000027827",
+        "ENSMUSG00000042757",
+        "ENSMUSG00000026204",
+        "ENSMUSG00000041607",
+        "ENSMUSG00000039717",
+        "ENSMUSG00000029093",
+        "ENSMUSG00000020053",
+        "ENSMUSG00000061731",
+        "ENSMUSG00000053519",
+        "ENSMUSG00000032503",
+        "ENSMUSG00000019699",
+        "ENSMUSG00000035954",
+        "ENSMUSG00000034656",
+        "ENSMUSG00000026797",
+        "ENSMUSG00000022973",
+        "ENSMUSG00000020231",
+        "ENSMUSG00000076439",
+        "ENSMUSG00000032985",
+        "ENSMUSG00000078816",
+        "ENSMUSG00000029048",
+        "ENSMUSG00000041268",
+        "ENSMUSG00000039474",
+        "ENSMUSG00000024164",
+        "ENSMUSG00000029174",
+        "ENSMUSG00000053930",
+        "ENSMUSG00000057182",
+        "ENSMUSG00000037996",
+        "ENSMUSG00000048251",
+        "ENSMUSG00000032517",
+        "ENSMUSG00000062257",
+        "ENSMUSG00000038244",
+        "ENSMUSG00000021991",
+        "ENSMUSG00000026109",
+        "ENSMUSG00000007989",
+        "ENSMUSG00000022762",
+        "ENSMUSG00000009418",
+        "ENSMUSG00000061080",
+        "ENSMUSG00000031834",
+        "ENSMUSG00000028677",
+        "ENSMUSG00000030235",
+        "ENSMUSG00000031618",
+        "ENSMUSG00000029608",
+        "ENSMUSG00000074776",
+        "ENSMUSG00000048078",
+        "ENSMUSG00000021215",
+        "ENSMUSG00000020181",
+        "ENSMUSG00000038048",
+        "ENSMUSG00000036469",
+        "ENSMUSG00000034912",
+        "ENSMUSG00000055421",
+        "ENSMUSG00000022861",
+        "ENSMUSG00000018427",
+        "ENSMUSG00000063626",
+        "ENSMUSG00000031246",
+        "ENSMUSG00000000861",
+        "ENSMUSG00000043670",
+        "ENSMUSG00000028033",
+        "ENSMUSG00000079157",
+        "ENSMUSG00000075478",
+        "ENSMUSG00000063887",
+        "ENSMUSG00000022212",
+        "ENSMUSG00000089916",
+        "ENSMUSG00000042589",
+        "ENSMUSG00000034777",
+        "ENSMUSG00000003746",
+        "ENSMUSG00000058897"
+      ],
+      "source_resolved_symbols_in_requested_order": [
+        "Igfbp2",
+        "Ryr3",
+        "Ephb1",
+        "Kcnk7",
+        "Arl15",
+        "Grik3",
+        "Cacna2d2",
+        "Ap2b1",
+        "Chrm3",
+        "Gria2",
+        "Gabrb3",
+        "Ppm1e",
+        "Cntnap2",
+        "Cadm2",
+        "Kcnd2",
+        "Kcnip4",
+        "Gria3",
+        "Rbms1",
+        "Lrrtm3",
+        "Spock1",
+        "Erc2",
+        "Zbtb38",
+        "Prkca",
+        "Dock10",
+        "Pld1",
+        "Elfn2",
+        "Camk2a",
+        "Cdh20",
+        "Tenm2",
+        "Npas3",
+        "Phactr1",
+        "Ankrd16",
+        "Lrfn4",
+        "Pik3r1",
+        "Fgfr3",
+        "Glis1",
+        "Adgrb3",
+        "Stxbp6",
+        "Drg2",
+        "Dmd",
+        "Frmd5",
+        "Plcl1",
+        "Sct",
+        "Kalrn",
+        "Rasgrp1",
+        "Khdrbs3",
+        "Msl2",
+        "Elmo1",
+        "Plcl2",
+        "Kcnab1",
+        "Tmem108",
+        "Ptprn",
+        "Mbp",
+        "Ralyl",
+        "Sorcs2",
+        "Igf1",
+        "Ext1",
+        "Kcnip1",
+        "Arpp21",
+        "Akt3",
+        "Dock4",
+        "Cacna1a",
+        "Stxbp1",
+        "Synj1",
+        "Dip2a",
+        "Mog",
+        "5730522E02Rik",
+        "Prkcg",
+        "Rer1",
+        "Dmxl2",
+        "Wfs1",
+        "C3",
+        "Tbc1d1",
+        "Shisa6",
+        "Scn3a",
+        "Slc24a2",
+        "Bcl11b",
+        "Mobp",
+        "Opcml",
+        "Mical2",
+        "Cacna2d3",
+        "Tmeff2",
+        "Fzd3",
+        "Ncam2",
+        "Nav1",
+        "Lsamp",
+        "Pik3r2",
+        "Rnf220",
+        "Slco1c1",
+        "Nr3c2",
+        "Rph3a",
+        "Gm10754",
+        "Tenm4",
+        "Net1",
+        "Nav3",
+        "Cntnap5c",
+        "March1",
+        "Mdga2",
+        "Pcdh9",
+        "Dgkg",
+        "Ypel2",
+        "Unc5d",
+        "Sh3bgrl",
+        "Bcl11a",
+        "Diras1",
+        "Kcnq5",
+        "Fam155a",
+        "Slitrk1",
+        "Nlgn1",
+        "Cpne6",
+        "Gm16160",
+        "Cux2",
+        "Vax2",
+        "Man1a",
+        "Col25a1"
+      ],
+      "new_gene_count": 81,
+      "absent_literal_count": 37,
+      "absent_literal_symbols": [
+        "Hst3b",
+        "Gm2154",
+        "Fam19a1",
+        "Galntl7",
+        "Ppp1r2a",
+        "Ncl1",
+        "Lrrf1",
+        "Fam19a2",
+        "Hnrtp2",
+        "Dsam2",
+        "B830012C17Rik",
+        "Pld1a",
+        "Dst1",
+        "4921509I07Rik",
+        "Fam11a2",
+        "Rorxb",
+        "AC129186.1",
+        "Pptp2",
+        "Egflam1",
+        "Mand2",
+        "Elp2c",
+        "Osbp12",
+        "Pdx4b",
+        "Pdx4a",
+        "Map1",
+        "Dfp2",
+        "Nntc3",
+        "Rorxb2",
+        "Mag2",
+        "Pxd1",
+        "Kcnma2",
+        "Spx10",
+        "Gst1",
+        "Neph1",
+        "St3ft1",
+        "St4",
+        "Sphinap"
+      ],
+      "ambiguous_symbols": [],
+      "repeated_requested_symbols": [
+        {
+          "requested_symbol": "Gabrb3",
+          "positions": [
+            14,
+            147
+          ]
+        },
+        {
+          "requested_symbol": "Cntnap2",
+          "positions": [
+            16,
+            98
+          ]
+        },
+        {
+          "requested_symbol": "Cadm2",
+          "positions": [
+            17,
+            125
+          ]
+        },
+        {
+          "requested_symbol": "Mbp",
+          "positions": [
+            64,
+            134
+          ]
+        },
+        {
+          "requested_symbol": "Dst1",
+          "positions": [
+            66,
+            136
+          ]
+        },
+        {
+          "requested_symbol": "Neph1",
+          "positions": [
+            143,
+            157
+          ]
+        }
+      ]
+    },
+    {
+      "id": "user_20261018_CA1_sublayers",
+      "label": "Your panel · CA1 sublayer-associated programs",
+      "requested_entry_count": 100,
+      "unique_literal_count": 100,
+      "selected_gene_count": 96,
+      "selected_genes": [
+        {
+          "gene_id": "ENSMUSG00000027971",
+          "gene_symbol": "Ndst4"
+        },
+        {
+          "gene_id": "ENSMUSG00000029088",
+          "gene_symbol": "Kcnip4"
+        },
+        {
+          "gene_id": "ENSMUSG00000027966",
+          "gene_symbol": "Col11a1"
+        },
+        {
+          "gene_id": "ENSMUSG00000020704",
+          "gene_symbol": "Asic2"
+        },
+        {
+          "gene_id": "ENSMUSG00000034687",
+          "gene_symbol": "Fras1"
+        },
+        {
+          "gene_id": "ENSMUSG00000028876",
+          "gene_symbol": "Epha10"
+        },
+        {
+          "gene_id": "ENSMUSG00000059974",
+          "gene_symbol": "Ntm"
+        },
+        {
+          "gene_id": "ENSMUSG00000023868",
+          "gene_symbol": "Pde10a"
+        },
+        {
+          "gene_id": "ENSMUSG00000028373",
+          "gene_symbol": "Astn2"
+        },
+        {
+          "gene_id": "ENSMUSG00000021699",
+          "gene_symbol": "Pde4d"
+        },
+        {
+          "gene_id": "ENSMUSG00000070695",
+          "gene_symbol": "Cntnap5a"
+        },
+        {
+          "gene_id": "ENSMUSG00000096914",
+          "gene_symbol": "Galntl6"
+        },
+        {
+          "gene_id": "ENSMUSG00000070866",
+          "gene_symbol": "Zfp804a"
+        },
+        {
+          "gene_id": "ENSMUSG00000060534",
+          "gene_symbol": "Dcc"
+        },
+        {
+          "gene_id": "ENSMUSG00000021991",
+          "gene_symbol": "Cacna2d3"
+        },
+        {
+          "gene_id": "ENSMUSG00000052504",
+          "gene_symbol": "Epha3"
+        },
+        {
+          "gene_id": "ENSMUSG00000036264",
+          "gene_symbol": "Fstl4"
+        },
+        {
+          "gene_id": "ENSMUSG00000003746",
+          "gene_symbol": "Man1a"
+        },
+        {
+          "gene_id": "ENSMUSG00000040640",
+          "gene_symbol": "Erc2"
+        },
+        {
+          "gene_id": "ENSMUSG00000019828",
+          "gene_symbol": "Grm1"
+        },
+        {
+          "gene_id": "ENSMUSG00000026090",
+          "gene_symbol": "2010300C02Rik"
+        },
+        {
+          "gene_id": "ENSMUSG00000028351",
+          "gene_symbol": "Brinp1"
+        },
+        {
+          "gene_id": "ENSMUSG00000055254",
+          "gene_symbol": "Ntrk2"
+        },
+        {
+          "gene_id": "ENSMUSG00000054162",
+          "gene_symbol": "Spock3"
+        },
+        {
+          "gene_id": "ENSMUSG00000063434",
+          "gene_symbol": "Sorcs3"
+        },
+        {
+          "gene_id": "ENSMUSG00000050965",
+          "gene_symbol": "Prkca"
+        },
+        {
+          "gene_id": "ENSMUSG00000028399",
+          "gene_symbol": "Ptprd"
+        },
+        {
+          "gene_id": "ENSMUSG00000022306",
+          "gene_symbol": "Zfpm2"
+        },
+        {
+          "gene_id": "ENSMUSG00000031618",
+          "gene_symbol": "Nr3c2"
+        },
+        {
+          "gene_id": "ENSMUSG00000056211",
+          "gene_symbol": "R3hdm1"
+        },
+        {
+          "gene_id": "ENSMUSG00000055540",
+          "gene_symbol": "Epha6"
+        },
+        {
+          "gene_id": "ENSMUSG00000037996",
+          "gene_symbol": "Slc24a2"
+        },
+        {
+          "gene_id": "ENSMUSG00000048078",
+          "gene_symbol": "Tenm4"
+        },
+        {
+          "gene_id": "ENSMUSG00000063887",
+          "gene_symbol": "Nlgn1"
+        },
+        {
+          "gene_id": "ENSMUSG00000062257",
+          "gene_symbol": "Opcml"
+        },
+        {
+          "gene_id": "ENSMUSG00000036469",
+          "gene_symbol": "March1"
+        },
+        {
+          "gene_id": "ENSMUSG00000052516",
+          "gene_symbol": "Robo2"
+        },
+        {
+          "gene_id": "ENSMUSG00000023034",
+          "gene_symbol": "Nr4a1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022112",
+          "gene_symbol": "Gpc5"
+        },
+        {
+          "gene_id": "ENSMUSG00000045083",
+          "gene_symbol": "Lingo2"
+        },
+        {
+          "gene_id": "ENSMUSG00000092341",
+          "gene_symbol": "Malat1"
+        },
+        {
+          "gene_id": "ENSMUSG00000039058",
+          "gene_symbol": "Ak5"
+        },
+        {
+          "gene_id": "ENSMUSG00000032502",
+          "gene_symbol": "Stac"
+        },
+        {
+          "gene_id": "ENSMUSG00000043557",
+          "gene_symbol": "Mdga1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022829",
+          "gene_symbol": "Stxbp5l"
+        },
+        {
+          "gene_id": "ENSMUSG00000033569",
+          "gene_symbol": "Adgrb3"
+        },
+        {
+          "gene_id": "ENSMUSG00000020121",
+          "gene_symbol": "Srgap1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022012",
+          "gene_symbol": "Enox1"
+        },
+        {
+          "gene_id": "ENSMUSG00000040624",
+          "gene_symbol": "Plekhg1"
+        },
+        {
+          "gene_id": "ENSMUSG00000025551",
+          "gene_symbol": "Fgf14"
+        },
+        {
+          "gene_id": "ENSMUSG00000029108",
+          "gene_symbol": "Pcdh7"
+        },
+        {
+          "gene_id": "ENSMUSG00000019889",
+          "gene_symbol": "Ptprk"
+        },
+        {
+          "gene_id": "ENSMUSG00000004698",
+          "gene_symbol": "Hdac9"
+        },
+        {
+          "gene_id": "ENSMUSG00000039717",
+          "gene_symbol": "Ralyl"
+        },
+        {
+          "gene_id": "ENSMUSG00000042581",
+          "gene_symbol": "Thsd7b"
+        },
+        {
+          "gene_id": "ENSMUSG00000035152",
+          "gene_symbol": "Ap2b1"
+        },
+        {
+          "gene_id": "ENSMUSG00000045659",
+          "gene_symbol": "Plekha7"
+        },
+        {
+          "gene_id": "ENSMUSG00000036452",
+          "gene_symbol": "Arhgap26"
+        },
+        {
+          "gene_id": "ENSMUSG00000066687",
+          "gene_symbol": "Zbtb16"
+        },
+        {
+          "gene_id": "ENSMUSG00000059173",
+          "gene_symbol": "Pde1a"
+        },
+        {
+          "gene_id": "ENSMUSG00000021700",
+          "gene_symbol": "Rab3c"
+        },
+        {
+          "gene_id": "ENSMUSG00000054885",
+          "gene_symbol": "4930578G10Rik"
+        },
+        {
+          "gene_id": "ENSMUSG00000061143",
+          "gene_symbol": "Maml3"
+        },
+        {
+          "gene_id": "ENSMUSG00000021536",
+          "gene_symbol": "Adcy2"
+        },
+        {
+          "gene_id": "ENSMUSG00000031626",
+          "gene_symbol": "Sorbs2"
+        },
+        {
+          "gene_id": "ENSMUSG00000026204",
+          "gene_symbol": "Ptprn"
+        },
+        {
+          "gene_id": "ENSMUSG00000035954",
+          "gene_symbol": "Dock4"
+        },
+        {
+          "gene_id": "ENSMUSG00000050321",
+          "gene_symbol": "Neto1"
+        },
+        {
+          "gene_id": "ENSMUSG00000001986",
+          "gene_symbol": "Gria3"
+        },
+        {
+          "gene_id": "ENSMUSG00000034135",
+          "gene_symbol": "Sik3"
+        },
+        {
+          "gene_id": "ENSMUSG00000027827",
+          "gene_symbol": "Kcnab1"
+        },
+        {
+          "gene_id": "ENSMUSG00000030518",
+          "gene_symbol": "Fam189a1"
+        },
+        {
+          "gene_id": "ENSMUSG00000064293",
+          "gene_symbol": "Cntn4"
+        },
+        {
+          "gene_id": "ENSMUSG00000035681",
+          "gene_symbol": "Kcnc2"
+        },
+        {
+          "gene_id": "ENSMUSG00000052512",
+          "gene_symbol": "Nav2"
+        },
+        {
+          "gene_id": "ENSMUSG00000053414",
+          "gene_symbol": "Hunk"
+        },
+        {
+          "gene_id": "ENSMUSG00000042348",
+          "gene_symbol": "Arl15"
+        },
+        {
+          "gene_id": "ENSMUSG00000046442",
+          "gene_symbol": "Ppm1e"
+        },
+        {
+          "gene_id": "ENSMUSG00000108532",
+          "gene_symbol": "Gm32647"
+        },
+        {
+          "gene_id": "ENSMUSG00000026826",
+          "gene_symbol": "Nr4a2"
+        },
+        {
+          "gene_id": "ENSMUSG00000051951",
+          "gene_symbol": "Xkr4"
+        },
+        {
+          "gene_id": "ENSMUSG00000024867",
+          "gene_symbol": "Pip5k1b"
+        },
+        {
+          "gene_id": "ENSMUSG00000022321",
+          "gene_symbol": "Cdh10"
+        },
+        {
+          "gene_id": "ENSMUSG00000032402",
+          "gene_symbol": "Smad3"
+        },
+        {
+          "gene_id": "ENSMUSG00000028161",
+          "gene_symbol": "Ppp3ca"
+        },
+        {
+          "gene_id": "ENSMUSG00000039578",
+          "gene_symbol": "Ccser1"
+        },
+        {
+          "gene_id": "ENSMUSG00000037492",
+          "gene_symbol": "Zmat4"
+        },
+        {
+          "gene_id": "ENSMUSG00000074968",
+          "gene_symbol": "Ano3"
+        },
+        {
+          "gene_id": "ENSMUSG00000021313",
+          "gene_symbol": "Ryr2"
+        },
+        {
+          "gene_id": "ENSMUSG00000032238",
+          "gene_symbol": "Rora"
+        },
+        {
+          "gene_id": "ENSMUSG00000061298",
+          "gene_symbol": "Agbl4"
+        },
+        {
+          "gene_id": "ENSMUSG00000042680",
+          "gene_symbol": "Garem1"
+        },
+        {
+          "gene_id": "ENSMUSG00000022636",
+          "gene_symbol": "Alcam"
+        },
+        {
+          "gene_id": "ENSMUSG00000054728",
+          "gene_symbol": "Phactr1"
+        },
+        {
+          "gene_id": "ENSMUSG00000055026",
+          "gene_symbol": "Gabrg3"
+        },
+        {
+          "gene_id": "ENSMUSG00000060275",
+          "gene_symbol": "Nrg2"
+        }
+      ],
+      "selected_gene_ids": [
+        "ENSMUSG00000027971",
+        "ENSMUSG00000029088",
+        "ENSMUSG00000027966",
+        "ENSMUSG00000020704",
+        "ENSMUSG00000034687",
+        "ENSMUSG00000028876",
+        "ENSMUSG00000059974",
+        "ENSMUSG00000023868",
+        "ENSMUSG00000028373",
+        "ENSMUSG00000021699",
+        "ENSMUSG00000070695",
+        "ENSMUSG00000096914",
+        "ENSMUSG00000070866",
+        "ENSMUSG00000060534",
+        "ENSMUSG00000021991",
+        "ENSMUSG00000052504",
+        "ENSMUSG00000036264",
+        "ENSMUSG00000003746",
+        "ENSMUSG00000040640",
+        "ENSMUSG00000019828",
+        "ENSMUSG00000026090",
+        "ENSMUSG00000028351",
+        "ENSMUSG00000055254",
+        "ENSMUSG00000054162",
+        "ENSMUSG00000063434",
+        "ENSMUSG00000050965",
+        "ENSMUSG00000028399",
+        "ENSMUSG00000022306",
+        "ENSMUSG00000031618",
+        "ENSMUSG00000056211",
+        "ENSMUSG00000055540",
+        "ENSMUSG00000037996",
+        "ENSMUSG00000048078",
+        "ENSMUSG00000063887",
+        "ENSMUSG00000062257",
+        "ENSMUSG00000036469",
+        "ENSMUSG00000052516",
+        "ENSMUSG00000023034",
+        "ENSMUSG00000022112",
+        "ENSMUSG00000045083",
+        "ENSMUSG00000092341",
+        "ENSMUSG00000039058",
+        "ENSMUSG00000032502",
+        "ENSMUSG00000043557",
+        "ENSMUSG00000022829",
+        "ENSMUSG00000033569",
+        "ENSMUSG00000020121",
+        "ENSMUSG00000022012",
+        "ENSMUSG00000040624",
+        "ENSMUSG00000025551",
+        "ENSMUSG00000029108",
+        "ENSMUSG00000019889",
+        "ENSMUSG00000004698",
+        "ENSMUSG00000039717",
+        "ENSMUSG00000042581",
+        "ENSMUSG00000035152",
+        "ENSMUSG00000045659",
+        "ENSMUSG00000036452",
+        "ENSMUSG00000066687",
+        "ENSMUSG00000059173",
+        "ENSMUSG00000021700",
+        "ENSMUSG00000054885",
+        "ENSMUSG00000061143",
+        "ENSMUSG00000021536",
+        "ENSMUSG00000031626",
+        "ENSMUSG00000026204",
+        "ENSMUSG00000035954",
+        "ENSMUSG00000050321",
+        "ENSMUSG00000001986",
+        "ENSMUSG00000034135",
+        "ENSMUSG00000027827",
+        "ENSMUSG00000030518",
+        "ENSMUSG00000064293",
+        "ENSMUSG00000035681",
+        "ENSMUSG00000052512",
+        "ENSMUSG00000053414",
+        "ENSMUSG00000042348",
+        "ENSMUSG00000046442",
+        "ENSMUSG00000108532",
+        "ENSMUSG00000026826",
+        "ENSMUSG00000051951",
+        "ENSMUSG00000024867",
+        "ENSMUSG00000022321",
+        "ENSMUSG00000032402",
+        "ENSMUSG00000028161",
+        "ENSMUSG00000039578",
+        "ENSMUSG00000037492",
+        "ENSMUSG00000074968",
+        "ENSMUSG00000021313",
+        "ENSMUSG00000032238",
+        "ENSMUSG00000061298",
+        "ENSMUSG00000042680",
+        "ENSMUSG00000022636",
+        "ENSMUSG00000054728",
+        "ENSMUSG00000055026",
+        "ENSMUSG00000060275"
+      ],
+      "source_resolved_symbols_in_requested_order": [
+        "Ndst4",
+        "Kcnip4",
+        "Col11a1",
+        "Asic2",
+        "Fras1",
+        "Epha10",
+        "Ntm",
+        "Pde10a",
+        "Astn2",
+        "Pde4d",
+        "Cntnap5a",
+        "Galntl6",
+        "Zfp804a",
+        "Dcc",
+        "Cacna2d3",
+        "Epha3",
+        "Fstl4",
+        "Man1a",
+        "Erc2",
+        "Grm1",
+        "2010300C02Rik",
+        "Brinp1",
+        "Ntrk2",
+        "Spock3",
+        "Sorcs3",
+        "Prkca",
+        "Ptprd",
+        "Zfpm2",
+        "Nr3c2",
+        "R3hdm1",
+        "Epha6",
+        "Slc24a2",
+        "Tenm4",
+        "Nlgn1",
+        "Opcml",
+        "March1",
+        "Robo2",
+        "Nr4a1",
+        "Gpc5",
+        "Lingo2",
+        "Malat1",
+        "Ak5",
+        "Stac",
+        "Mdga1",
+        "Stxbp5l",
+        "Adgrb3",
+        "Srgap1",
+        "Enox1",
+        "Plekhg1",
+        "Fgf14",
+        "Pcdh7",
+        "Ptprk",
+        "Hdac9",
+        "Ralyl",
+        "Thsd7b",
+        "Ap2b1",
+        "Plekha7",
+        "Arhgap26",
+        "Zbtb16",
+        "Pde1a",
+        "Rab3c",
+        "4930578G10Rik",
+        "Maml3",
+        "Adcy2",
+        "Sorbs2",
+        "Ptprn",
+        "Dock4",
+        "Neto1",
+        "Gria3",
+        "Sik3",
+        "Kcnab1",
+        "Fam189a1",
+        "Cntn4",
+        "Kcnc2",
+        "Nav2",
+        "Hunk",
+        "Arl15",
+        "Ppm1e",
+        "Gm32647",
+        "Nr4a2",
+        "Xkr4",
+        "Pip5k1b",
+        "Cdh10",
+        "Smad3",
+        "Ppp3ca",
+        "Ccser1",
+        "Zmat4",
+        "Ano3",
+        "Ryr2",
+        "Rora",
+        "Agbl4",
+        "Garem1",
+        "Alcam",
+        "Phactr1",
+        "Gabrg3",
+        "Nrg2"
+      ],
+      "new_gene_count": 52,
+      "absent_literal_count": 4,
+      "absent_literal_symbols": [
+        "Pax5l",
+        "AC129186.1",
+        "Gm2133",
+        "Fam19a1"
+      ],
+      "ambiguous_symbols": [],
+      "repeated_requested_symbols": []
+    }
+  ],
+  "entries": [
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 1,
+      "requested_symbol": "Slc17a7",
+      "status": "EXACT_UNIQUE",
+      "first_position": 1,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000070570",
+          "gene_symbol": "Slc17a7"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 2,
+      "requested_symbol": "Satb2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 2,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038331",
+          "gene_symbol": "Satb2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 3,
+      "requested_symbol": "Neurod6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 3,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000037984",
+          "gene_symbol": "Neurod6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 4,
+      "requested_symbol": "Wfs1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 4,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039474",
+          "gene_symbol": "Wfs1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 5,
+      "requested_symbol": "Sv2b",
+      "status": "EXACT_UNIQUE",
+      "first_position": 5,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000053025",
+          "gene_symbol": "Sv2b"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 6,
+      "requested_symbol": "Mpped1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 6,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041708",
+          "gene_symbol": "Mpped1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 7,
+      "requested_symbol": "Cpne7",
+      "status": "EXACT_UNIQUE",
+      "first_position": 7,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034796",
+          "gene_symbol": "Cpne7"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 8,
+      "requested_symbol": "Ppm1e",
+      "status": "EXACT_UNIQUE",
+      "first_position": 8,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000046442",
+          "gene_symbol": "Ppm1e"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 9,
+      "requested_symbol": "Nov",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 9,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 10,
+      "requested_symbol": "Mdk",
+      "status": "EXACT_UNIQUE",
+      "first_position": 10,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027239",
+          "gene_symbol": "Mdk"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 11,
+      "requested_symbol": "Cck",
+      "status": "EXACT_UNIQUE",
+      "first_position": 11,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032532",
+          "gene_symbol": "Cck"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 12,
+      "requested_symbol": "Calb1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 12,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028222",
+          "gene_symbol": "Calb1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 13,
+      "requested_symbol": "Nptx2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 13,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000059991",
+          "gene_symbol": "Nptx2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 14,
+      "requested_symbol": "Crym",
+      "status": "EXACT_UNIQUE",
+      "first_position": 14,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030905",
+          "gene_symbol": "Crym"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 15,
+      "requested_symbol": "Slc30a3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 15,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029151",
+          "gene_symbol": "Slc30a3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 16,
+      "requested_symbol": "Tenm2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 16,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000049336",
+          "gene_symbol": "Tenm2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 17,
+      "requested_symbol": "Grik4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 17,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032017",
+          "gene_symbol": "Grik4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 18,
+      "requested_symbol": "Fxyd6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 18,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000066705",
+          "gene_symbol": "Fxyd6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 19,
+      "requested_symbol": "Pou3f2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 19,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000095139",
+          "gene_symbol": "Pou3f2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 20,
+      "requested_symbol": "Gpr161",
+      "status": "EXACT_UNIQUE",
+      "first_position": 20,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000040836",
+          "gene_symbol": "Gpr161"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 21,
+      "requested_symbol": "Bcl11b",
+      "status": "EXACT_UNIQUE",
+      "first_position": 21,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000048251",
+          "gene_symbol": "Bcl11b"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 22,
+      "requested_symbol": "Sox5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 22,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041540",
+          "gene_symbol": "Sox5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 23,
+      "requested_symbol": "Zbtb16",
+      "status": "EXACT_UNIQUE",
+      "first_position": 23,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000066687",
+          "gene_symbol": "Zbtb16"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 24,
+      "requested_symbol": "Pou3f1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 24,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000090125",
+          "gene_symbol": "Pou3f1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 25,
+      "requested_symbol": "Nefm",
+      "status": "EXACT_UNIQUE",
+      "first_position": 25,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022054",
+          "gene_symbol": "Nefm"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 26,
+      "requested_symbol": "Fn1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 26,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026193",
+          "gene_symbol": "Fn1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 27,
+      "requested_symbol": "Col5a1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 27,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026837",
+          "gene_symbol": "Col5a1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 28,
+      "requested_symbol": "Pcdh20",
+      "status": "EXACT_UNIQUE",
+      "first_position": 28,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050505",
+          "gene_symbol": "Pcdh20"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 29,
+      "requested_symbol": "Gstt2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 29,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033318",
+          "gene_symbol": "Gstt2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 30,
+      "requested_symbol": "Sema3f",
+      "status": "EXACT_UNIQUE",
+      "first_position": 30,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034684",
+          "gene_symbol": "Sema3f"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 31,
+      "requested_symbol": "Lypd1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 31,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026344",
+          "gene_symbol": "Lypd1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 32,
+      "requested_symbol": "Lrrtm2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 32,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000071862",
+          "gene_symbol": "Lrrtm2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 33,
+      "requested_symbol": "Epha2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 33,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000006445",
+          "gene_symbol": "Epha2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 34,
+      "requested_symbol": "Slitrk5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 34,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033214",
+          "gene_symbol": "Slitrk5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 35,
+      "requested_symbol": "Tenm3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 35,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031561",
+          "gene_symbol": "Tenm3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 36,
+      "requested_symbol": "Arhgef6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 36,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031133",
+          "gene_symbol": "Arhgef6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 37,
+      "requested_symbol": "Rasgrp1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 37,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027347",
+          "gene_symbol": "Rasgrp1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 38,
+      "requested_symbol": "Zbtb20",
+      "status": "EXACT_UNIQUE",
+      "first_position": 38,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022708",
+          "gene_symbol": "Zbtb20"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 39,
+      "requested_symbol": "Schip1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 39,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027777",
+          "gene_symbol": "Schip1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 40,
+      "requested_symbol": "Gipr",
+      "status": "EXACT_UNIQUE",
+      "first_position": 40,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030406",
+          "gene_symbol": "Gipr"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 41,
+      "requested_symbol": "Dcn",
+      "status": "EXACT_UNIQUE",
+      "first_position": 41,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000019929",
+          "gene_symbol": "Dcn"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 42,
+      "requested_symbol": "Grp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 42,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000024517",
+          "gene_symbol": "Grp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 43,
+      "requested_symbol": "Htr2c",
+      "status": "EXACT_UNIQUE",
+      "first_position": 43,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041380",
+          "gene_symbol": "Htr2c"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 44,
+      "requested_symbol": "Lefty1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 44,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038793",
+          "gene_symbol": "Lefty1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 45,
+      "requested_symbol": "Sstr4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 45,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000037014",
+          "gene_symbol": "Sstr4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 46,
+      "requested_symbol": "Trhr",
+      "status": "EXACT_UNIQUE",
+      "first_position": 46,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038760",
+          "gene_symbol": "Trhr"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 47,
+      "requested_symbol": "Npy1r",
+      "status": "EXACT_UNIQUE",
+      "first_position": 47,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036437",
+          "gene_symbol": "Npy1r"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 48,
+      "requested_symbol": "Syn2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 48,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000009394",
+          "gene_symbol": "Syn2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 49,
+      "requested_symbol": "Angpt2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 49,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031465",
+          "gene_symbol": "Angpt2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 50,
+      "requested_symbol": "Gad1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 50,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000070880",
+          "gene_symbol": "Gad1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 51,
+      "requested_symbol": "Gad2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 51,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026787",
+          "gene_symbol": "Gad2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 52,
+      "requested_symbol": "Slc32a1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 52,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000037771",
+          "gene_symbol": "Slc32a1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 53,
+      "requested_symbol": "Sst",
+      "status": "EXACT_UNIQUE",
+      "first_position": 53,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000004366",
+          "gene_symbol": "Sst"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 54,
+      "requested_symbol": "Lhx6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 54,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026890",
+          "gene_symbol": "Lhx6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 55,
+      "requested_symbol": "Npy",
+      "status": "EXACT_UNIQUE",
+      "first_position": 55,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029819",
+          "gene_symbol": "Npy"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 56,
+      "requested_symbol": "Chodl",
+      "status": "EXACT_UNIQUE",
+      "first_position": 56,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022860",
+          "gene_symbol": "Chodl"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 57,
+      "requested_symbol": "Cort",
+      "status": "EXACT_UNIQUE",
+      "first_position": 57,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028971",
+          "gene_symbol": "Cort"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 58,
+      "requested_symbol": "Elfn1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 58,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000048988",
+          "gene_symbol": "Elfn1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 59,
+      "requested_symbol": "Pvalb",
+      "status": "EXACT_UNIQUE",
+      "first_position": 59,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000005716",
+          "gene_symbol": "Pvalb"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 60,
+      "requested_symbol": "Lgals1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 60,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000068220",
+          "gene_symbol": "Lgals1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 61,
+      "requested_symbol": "Kcnc1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 61,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000058975",
+          "gene_symbol": "Kcnc1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 62,
+      "requested_symbol": "Plekhg1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 62,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000040624",
+          "gene_symbol": "Plekhg1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 63,
+      "requested_symbol": "Cxcl14",
+      "status": "EXACT_UNIQUE",
+      "first_position": 63,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021508",
+          "gene_symbol": "Cxcl14"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 64,
+      "requested_symbol": "Tac1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 64,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061762",
+          "gene_symbol": "Tac1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 65,
+      "requested_symbol": "Vip",
+      "status": "EXACT_UNIQUE",
+      "first_position": 65,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000019772",
+          "gene_symbol": "Vip"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 66,
+      "requested_symbol": "Crh",
+      "status": "EXACT_UNIQUE",
+      "first_position": 66,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000049796",
+          "gene_symbol": "Crh"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 67,
+      "requested_symbol": "Cbln1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 67,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031654",
+          "gene_symbol": "Cbln1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 68,
+      "requested_symbol": "Th",
+      "status": "EXACT_UNIQUE",
+      "first_position": 68,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000000214",
+          "gene_symbol": "Th"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 69,
+      "requested_symbol": "Prox1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 69,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000010175",
+          "gene_symbol": "Prox1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 70,
+      "requested_symbol": "Npy2r",
+      "status": "EXACT_UNIQUE",
+      "first_position": 70,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028004",
+          "gene_symbol": "Npy2r"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 71,
+      "requested_symbol": "Lamp5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 71,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027270",
+          "gene_symbol": "Lamp5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 72,
+      "requested_symbol": "Ndnf",
+      "status": "EXACT_UNIQUE",
+      "first_position": 72,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000049001",
+          "gene_symbol": "Ndnf"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 73,
+      "requested_symbol": "Pax6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 73,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027168",
+          "gene_symbol": "Pax6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 74,
+      "requested_symbol": "Reln",
+      "status": "EXACT_UNIQUE",
+      "first_position": 74,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042453",
+          "gene_symbol": "Reln"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 75,
+      "requested_symbol": "Cxcl12",
+      "status": "EXACT_UNIQUE",
+      "first_position": 75,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061353",
+          "gene_symbol": "Cxcl12"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 76,
+      "requested_symbol": "Trp73",
+      "status": "EXACT_UNIQUE",
+      "first_position": 76,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029026",
+          "gene_symbol": "Trp73"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 77,
+      "requested_symbol": "Gfap",
+      "status": "EXACT_UNIQUE",
+      "first_position": 77,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020932",
+          "gene_symbol": "Gfap"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 78,
+      "requested_symbol": "Aqp4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 78,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000024411",
+          "gene_symbol": "Aqp4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 79,
+      "requested_symbol": "Aldh1l1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 79,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030088",
+          "gene_symbol": "Aldh1l1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 80,
+      "requested_symbol": "Slc1a2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 80,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000005089",
+          "gene_symbol": "Slc1a2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 81,
+      "requested_symbol": "Gja1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 81,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050953",
+          "gene_symbol": "Gja1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 82,
+      "requested_symbol": "S100b",
+      "status": "EXACT_UNIQUE",
+      "first_position": 82,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033208",
+          "gene_symbol": "S100b"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 83,
+      "requested_symbol": "Pdgfra",
+      "status": "EXACT_UNIQUE",
+      "first_position": 83,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029231",
+          "gene_symbol": "Pdgfra"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 84,
+      "requested_symbol": "Cspg4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 84,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032911",
+          "gene_symbol": "Cspg4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 85,
+      "requested_symbol": "Gpr17",
+      "status": "EXACT_UNIQUE",
+      "first_position": 85,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000052229",
+          "gene_symbol": "Gpr17"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 86,
+      "requested_symbol": "Bcan",
+      "status": "EXACT_UNIQUE",
+      "first_position": 86,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000004892",
+          "gene_symbol": "Bcan"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 87,
+      "requested_symbol": "Fyna",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 87,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 88,
+      "requested_symbol": "Mbp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 88,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041607",
+          "gene_symbol": "Mbp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 89,
+      "requested_symbol": "Plp1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 89,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031425",
+          "gene_symbol": "Plp1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 90,
+      "requested_symbol": "Mog",
+      "status": "EXACT_UNIQUE",
+      "first_position": 90,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000076439",
+          "gene_symbol": "Mog"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 91,
+      "requested_symbol": "Mag",
+      "status": "EXACT_UNIQUE",
+      "first_position": 91,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036634",
+          "gene_symbol": "Mag"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 92,
+      "requested_symbol": "Cnp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 92,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000006782",
+          "gene_symbol": "Cnp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 93,
+      "requested_symbol": "Itpr2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 93,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030287",
+          "gene_symbol": "Itpr2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 94,
+      "requested_symbol": "Opalin",
+      "status": "EXACT_UNIQUE",
+      "first_position": 94,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050121",
+          "gene_symbol": "Opalin"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 95,
+      "requested_symbol": "Sgk1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 95,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000019970",
+          "gene_symbol": "Sgk1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 96,
+      "requested_symbol": "C1qa",
+      "status": "EXACT_UNIQUE",
+      "first_position": 96,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036887",
+          "gene_symbol": "C1qa"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 97,
+      "requested_symbol": "Cx3cr1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 97,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000052336",
+          "gene_symbol": "Cx3cr1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 98,
+      "requested_symbol": "P2ry12",
+      "status": "EXACT_UNIQUE",
+      "first_position": 98,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036353",
+          "gene_symbol": "P2ry12"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 99,
+      "requested_symbol": "Trem2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 99,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000023992",
+          "gene_symbol": "Trem2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_all_cell_types",
+      "position": 100,
+      "requested_symbol": "Tyrobp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 100,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030579",
+          "gene_symbol": "Tyrobp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 1,
+      "requested_symbol": "Hst3b",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 1,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 2,
+      "requested_symbol": "Gm2154",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 2,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 3,
+      "requested_symbol": "Igfbp2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 3,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039323",
+          "gene_symbol": "Igfbp2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 4,
+      "requested_symbol": "Ryr3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 4,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000057378",
+          "gene_symbol": "Ryr3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 5,
+      "requested_symbol": "Fam19a1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 5,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 6,
+      "requested_symbol": "Ephb1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 6,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032537",
+          "gene_symbol": "Ephb1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 7,
+      "requested_symbol": "Kcnk7",
+      "status": "EXACT_UNIQUE",
+      "first_position": 7,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000024936",
+          "gene_symbol": "Kcnk7"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 8,
+      "requested_symbol": "Arl15",
+      "status": "EXACT_UNIQUE",
+      "first_position": 8,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042348",
+          "gene_symbol": "Arl15"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 9,
+      "requested_symbol": "Grik3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 9,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000001985",
+          "gene_symbol": "Grik3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 10,
+      "requested_symbol": "Cacna2d2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 10,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000010066",
+          "gene_symbol": "Cacna2d2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 11,
+      "requested_symbol": "Ap2b1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 11,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000035152",
+          "gene_symbol": "Ap2b1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 12,
+      "requested_symbol": "Chrm3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 12,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000046159",
+          "gene_symbol": "Chrm3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 13,
+      "requested_symbol": "Gria2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 13,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033981",
+          "gene_symbol": "Gria2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 14,
+      "requested_symbol": "Gabrb3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 14,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033676",
+          "gene_symbol": "Gabrb3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 15,
+      "requested_symbol": "Ppm1e",
+      "status": "EXACT_UNIQUE",
+      "first_position": 15,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000046442",
+          "gene_symbol": "Ppm1e"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 16,
+      "requested_symbol": "Cntnap2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 16,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039419",
+          "gene_symbol": "Cntnap2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 17,
+      "requested_symbol": "Cadm2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 17,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000064115",
+          "gene_symbol": "Cadm2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 18,
+      "requested_symbol": "Kcnd2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 18,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000060882",
+          "gene_symbol": "Kcnd2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 19,
+      "requested_symbol": "Kcnip4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 19,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029088",
+          "gene_symbol": "Kcnip4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 20,
+      "requested_symbol": "Gria3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 20,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000001986",
+          "gene_symbol": "Gria3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 21,
+      "requested_symbol": "Rbms1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 21,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026970",
+          "gene_symbol": "Rbms1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 22,
+      "requested_symbol": "Lrrtm3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 22,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042846",
+          "gene_symbol": "Lrrtm3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 23,
+      "requested_symbol": "Spock1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 23,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000056222",
+          "gene_symbol": "Spock1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 24,
+      "requested_symbol": "Erc2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 24,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000040640",
+          "gene_symbol": "Erc2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 25,
+      "requested_symbol": "Zbtb38",
+      "status": "EXACT_UNIQUE",
+      "first_position": 25,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000040433",
+          "gene_symbol": "Zbtb38"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 26,
+      "requested_symbol": "Prkca",
+      "status": "EXACT_UNIQUE",
+      "first_position": 26,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050965",
+          "gene_symbol": "Prkca"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 27,
+      "requested_symbol": "Dock10",
+      "status": "EXACT_UNIQUE",
+      "first_position": 27,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038608",
+          "gene_symbol": "Dock10"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 28,
+      "requested_symbol": "Pld1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 28,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027695",
+          "gene_symbol": "Pld1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 29,
+      "requested_symbol": "Elfn2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 29,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000043460",
+          "gene_symbol": "Elfn2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 30,
+      "requested_symbol": "Camk2a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 30,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000024617",
+          "gene_symbol": "Camk2a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 31,
+      "requested_symbol": "Cdh20",
+      "status": "EXACT_UNIQUE",
+      "first_position": 31,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050840",
+          "gene_symbol": "Cdh20"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 32,
+      "requested_symbol": "Tenm2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 32,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000049336",
+          "gene_symbol": "Tenm2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 33,
+      "requested_symbol": "Npas3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 33,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021010",
+          "gene_symbol": "Npas3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 34,
+      "requested_symbol": "Phactr1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 34,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000054728",
+          "gene_symbol": "Phactr1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 35,
+      "requested_symbol": "Ankrd16",
+      "status": "EXACT_UNIQUE",
+      "first_position": 35,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000047909",
+          "gene_symbol": "Ankrd16"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 36,
+      "requested_symbol": "Lrfn4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 36,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000045045",
+          "gene_symbol": "Lrfn4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 37,
+      "requested_symbol": "Galntl7",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 37,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 38,
+      "requested_symbol": "Pik3r1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 38,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041417",
+          "gene_symbol": "Pik3r1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 39,
+      "requested_symbol": "Fgfr3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 39,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000054252",
+          "gene_symbol": "Fgfr3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 40,
+      "requested_symbol": "Glis1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 40,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034762",
+          "gene_symbol": "Glis1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 41,
+      "requested_symbol": "Adgrb3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 41,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033569",
+          "gene_symbol": "Adgrb3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 42,
+      "requested_symbol": "Stxbp6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 42,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000046314",
+          "gene_symbol": "Stxbp6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 43,
+      "requested_symbol": "Drg2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 43,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020537",
+          "gene_symbol": "Drg2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 44,
+      "requested_symbol": "Dmd",
+      "status": "EXACT_UNIQUE",
+      "first_position": 44,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000045103",
+          "gene_symbol": "Dmd"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 45,
+      "requested_symbol": "Frmd5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 45,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027238",
+          "gene_symbol": "Frmd5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 46,
+      "requested_symbol": "Plcl1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 46,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038349",
+          "gene_symbol": "Plcl1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 47,
+      "requested_symbol": "Sct",
+      "status": "EXACT_UNIQUE",
+      "first_position": 47,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038580",
+          "gene_symbol": "Sct"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 48,
+      "requested_symbol": "Kalrn",
+      "status": "EXACT_UNIQUE",
+      "first_position": 48,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061751",
+          "gene_symbol": "Kalrn"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 49,
+      "requested_symbol": "Ppp1r2a",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 49,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 50,
+      "requested_symbol": "Rasgrp1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 50,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027347",
+          "gene_symbol": "Rasgrp1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 51,
+      "requested_symbol": "Khdrbs3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 51,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022332",
+          "gene_symbol": "Khdrbs3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 52,
+      "requested_symbol": "Msl2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 52,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000066415",
+          "gene_symbol": "Msl2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 53,
+      "requested_symbol": "Elmo1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 53,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041112",
+          "gene_symbol": "Elmo1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 54,
+      "requested_symbol": "Ncl1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 54,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 55,
+      "requested_symbol": "Plcl2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 55,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038910",
+          "gene_symbol": "Plcl2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 56,
+      "requested_symbol": "Lrrf1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 56,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 57,
+      "requested_symbol": "Kcnab1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 57,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027827",
+          "gene_symbol": "Kcnab1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 58,
+      "requested_symbol": "Fam19a2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 58,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 59,
+      "requested_symbol": "Hnrtp2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 59,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 60,
+      "requested_symbol": "Tmem108",
+      "status": "EXACT_UNIQUE",
+      "first_position": 60,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042757",
+          "gene_symbol": "Tmem108"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 61,
+      "requested_symbol": "Ptprn",
+      "status": "EXACT_UNIQUE",
+      "first_position": 61,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026204",
+          "gene_symbol": "Ptprn"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 62,
+      "requested_symbol": "Dsam2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 62,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 63,
+      "requested_symbol": "B830012C17Rik",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 63,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 64,
+      "requested_symbol": "Mbp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 64,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041607",
+          "gene_symbol": "Mbp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 65,
+      "requested_symbol": "Pld1a",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 65,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 66,
+      "requested_symbol": "Dst1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 66,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 67,
+      "requested_symbol": "4921509I07Rik",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 67,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 68,
+      "requested_symbol": "Ralyl",
+      "status": "EXACT_UNIQUE",
+      "first_position": 68,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039717",
+          "gene_symbol": "Ralyl"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 69,
+      "requested_symbol": "Sorcs2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 69,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029093",
+          "gene_symbol": "Sorcs2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 70,
+      "requested_symbol": "Igf1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 70,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020053",
+          "gene_symbol": "Igf1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 71,
+      "requested_symbol": "Fam11a2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 71,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 72,
+      "requested_symbol": "Rorxb",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 72,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 73,
+      "requested_symbol": "Ext1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 73,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061731",
+          "gene_symbol": "Ext1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 74,
+      "requested_symbol": "AC129186.1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 74,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 75,
+      "requested_symbol": "Kcnip1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 75,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000053519",
+          "gene_symbol": "Kcnip1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 76,
+      "requested_symbol": "Arpp21",
+      "status": "EXACT_UNIQUE",
+      "first_position": 76,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032503",
+          "gene_symbol": "Arpp21"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 77,
+      "requested_symbol": "Akt3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 77,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000019699",
+          "gene_symbol": "Akt3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 78,
+      "requested_symbol": "Pptp2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 78,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 79,
+      "requested_symbol": "Dock4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 79,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000035954",
+          "gene_symbol": "Dock4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 80,
+      "requested_symbol": "Cacna1a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 80,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034656",
+          "gene_symbol": "Cacna1a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 81,
+      "requested_symbol": "Egflam1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 81,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 82,
+      "requested_symbol": "Stxbp1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 82,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026797",
+          "gene_symbol": "Stxbp1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 83,
+      "requested_symbol": "Synj1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 83,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022973",
+          "gene_symbol": "Synj1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 84,
+      "requested_symbol": "Dip2a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 84,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020231",
+          "gene_symbol": "Dip2a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 85,
+      "requested_symbol": "Mog",
+      "status": "EXACT_UNIQUE",
+      "first_position": 85,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000076439",
+          "gene_symbol": "Mog"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 86,
+      "requested_symbol": "5730522E02Rik",
+      "status": "EXACT_UNIQUE",
+      "first_position": 86,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032985",
+          "gene_symbol": "5730522E02Rik"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 87,
+      "requested_symbol": "Prkcg",
+      "status": "EXACT_UNIQUE",
+      "first_position": 87,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000078816",
+          "gene_symbol": "Prkcg"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 88,
+      "requested_symbol": "Rer1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 88,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029048",
+          "gene_symbol": "Rer1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 89,
+      "requested_symbol": "Dmxl2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 89,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041268",
+          "gene_symbol": "Dmxl2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 90,
+      "requested_symbol": "Wfs1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 90,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039474",
+          "gene_symbol": "Wfs1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 91,
+      "requested_symbol": "C3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 91,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000024164",
+          "gene_symbol": "C3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 92,
+      "requested_symbol": "Mand2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 92,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 93,
+      "requested_symbol": "Tbc1d1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 93,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029174",
+          "gene_symbol": "Tbc1d1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 94,
+      "requested_symbol": "Shisa6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 94,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000053930",
+          "gene_symbol": "Shisa6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 95,
+      "requested_symbol": "Elp2c",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 95,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 96,
+      "requested_symbol": "Osbp12",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 96,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 97,
+      "requested_symbol": "Scn3a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 97,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000057182",
+          "gene_symbol": "Scn3a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 98,
+      "requested_symbol": "Cntnap2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 16,
+      "repeat_of_position": 16,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039419",
+          "gene_symbol": "Cntnap2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 99,
+      "requested_symbol": "Slc24a2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 99,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000037996",
+          "gene_symbol": "Slc24a2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 100,
+      "requested_symbol": "Pdx4b",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 100,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 101,
+      "requested_symbol": "Pdx4a",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 101,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 102,
+      "requested_symbol": "Bcl11b",
+      "status": "EXACT_UNIQUE",
+      "first_position": 102,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000048251",
+          "gene_symbol": "Bcl11b"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 103,
+      "requested_symbol": "Mobp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 103,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032517",
+          "gene_symbol": "Mobp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 104,
+      "requested_symbol": "Opcml",
+      "status": "EXACT_UNIQUE",
+      "first_position": 104,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000062257",
+          "gene_symbol": "Opcml"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 105,
+      "requested_symbol": "Mical2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 105,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038244",
+          "gene_symbol": "Mical2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 106,
+      "requested_symbol": "Cacna2d3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 106,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021991",
+          "gene_symbol": "Cacna2d3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 107,
+      "requested_symbol": "Map1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 107,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 108,
+      "requested_symbol": "Tmeff2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 108,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026109",
+          "gene_symbol": "Tmeff2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 109,
+      "requested_symbol": "Fzd3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 109,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000007989",
+          "gene_symbol": "Fzd3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 110,
+      "requested_symbol": "Ncam2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 110,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022762",
+          "gene_symbol": "Ncam2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 111,
+      "requested_symbol": "Nav1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 111,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000009418",
+          "gene_symbol": "Nav1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 112,
+      "requested_symbol": "Dfp2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 112,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 113,
+      "requested_symbol": "Lsamp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 113,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061080",
+          "gene_symbol": "Lsamp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 114,
+      "requested_symbol": "Pik3r2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 114,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031834",
+          "gene_symbol": "Pik3r2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 115,
+      "requested_symbol": "Nntc3",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 115,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 116,
+      "requested_symbol": "Rnf220",
+      "status": "EXACT_UNIQUE",
+      "first_position": 116,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028677",
+          "gene_symbol": "Rnf220"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 117,
+      "requested_symbol": "Slco1c1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 117,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030235",
+          "gene_symbol": "Slco1c1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 118,
+      "requested_symbol": "Nr3c2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 118,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031618",
+          "gene_symbol": "Nr3c2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 119,
+      "requested_symbol": "Rorxb2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 119,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 120,
+      "requested_symbol": "Rph3a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 120,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029608",
+          "gene_symbol": "Rph3a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 121,
+      "requested_symbol": "Mag2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 121,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 122,
+      "requested_symbol": "Gm10754",
+      "status": "EXACT_UNIQUE",
+      "first_position": 122,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000074776",
+          "gene_symbol": "Gm10754"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 123,
+      "requested_symbol": "Tenm4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 123,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000048078",
+          "gene_symbol": "Tenm4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 124,
+      "requested_symbol": "Net1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 124,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021215",
+          "gene_symbol": "Net1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 125,
+      "requested_symbol": "Cadm2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 17,
+      "repeat_of_position": 17,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000064115",
+          "gene_symbol": "Cadm2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 126,
+      "requested_symbol": "Pxd1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 126,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 127,
+      "requested_symbol": "Nav3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 127,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020181",
+          "gene_symbol": "Nav3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 128,
+      "requested_symbol": "Kcnma2",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 128,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 129,
+      "requested_symbol": "Cntnap5c",
+      "status": "EXACT_UNIQUE",
+      "first_position": 129,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000038048",
+          "gene_symbol": "Cntnap5c"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 130,
+      "requested_symbol": "March1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 130,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036469",
+          "gene_symbol": "March1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 131,
+      "requested_symbol": "Mdga2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 131,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034912",
+          "gene_symbol": "Mdga2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 132,
+      "requested_symbol": "Pcdh9",
+      "status": "EXACT_UNIQUE",
+      "first_position": 132,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000055421",
+          "gene_symbol": "Pcdh9"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 133,
+      "requested_symbol": "Dgkg",
+      "status": "EXACT_UNIQUE",
+      "first_position": 133,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022861",
+          "gene_symbol": "Dgkg"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 134,
+      "requested_symbol": "Mbp",
+      "status": "EXACT_UNIQUE",
+      "first_position": 64,
+      "repeat_of_position": 64,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000041607",
+          "gene_symbol": "Mbp"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 135,
+      "requested_symbol": "Ypel2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 135,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000018427",
+          "gene_symbol": "Ypel2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 136,
+      "requested_symbol": "Dst1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 66,
+      "repeat_of_position": 66,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 137,
+      "requested_symbol": "Unc5d",
+      "status": "EXACT_UNIQUE",
+      "first_position": 137,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000063626",
+          "gene_symbol": "Unc5d"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 138,
+      "requested_symbol": "Sh3bgrl",
+      "status": "EXACT_UNIQUE",
+      "first_position": 138,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031246",
+          "gene_symbol": "Sh3bgrl"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 139,
+      "requested_symbol": "Bcl11a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 139,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000000861",
+          "gene_symbol": "Bcl11a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 140,
+      "requested_symbol": "Spx10",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 140,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 141,
+      "requested_symbol": "Diras1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 141,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000043670",
+          "gene_symbol": "Diras1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 142,
+      "requested_symbol": "Gst1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 142,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 143,
+      "requested_symbol": "Neph1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 143,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 144,
+      "requested_symbol": "St3ft1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 144,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 145,
+      "requested_symbol": "St4",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 145,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 146,
+      "requested_symbol": "Kcnq5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 146,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028033",
+          "gene_symbol": "Kcnq5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 147,
+      "requested_symbol": "Gabrb3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 14,
+      "repeat_of_position": 14,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033676",
+          "gene_symbol": "Gabrb3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 148,
+      "requested_symbol": "Fam155a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 148,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000079157",
+          "gene_symbol": "Fam155a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 149,
+      "requested_symbol": "Slitrk1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 149,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000075478",
+          "gene_symbol": "Slitrk1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 150,
+      "requested_symbol": "Nlgn1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 150,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000063887",
+          "gene_symbol": "Nlgn1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 151,
+      "requested_symbol": "Cpne6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 151,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022212",
+          "gene_symbol": "Cpne6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 152,
+      "requested_symbol": "Gm16160",
+      "status": "EXACT_UNIQUE",
+      "first_position": 152,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000089916",
+          "gene_symbol": "Gm16160"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 153,
+      "requested_symbol": "Cux2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 153,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042589",
+          "gene_symbol": "Cux2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 154,
+      "requested_symbol": "Vax2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 154,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034777",
+          "gene_symbol": "Vax2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 155,
+      "requested_symbol": "Sphinap",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 155,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 156,
+      "requested_symbol": "Man1a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 156,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000003746",
+          "gene_symbol": "Man1a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 157,
+      "requested_symbol": "Neph1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 143,
+      "repeat_of_position": 143,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_ProS",
+      "position": 158,
+      "requested_symbol": "Col25a1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 158,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000058897",
+          "gene_symbol": "Col25a1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 1,
+      "requested_symbol": "Ndst4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 1,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027971",
+          "gene_symbol": "Ndst4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 2,
+      "requested_symbol": "Kcnip4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 2,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029088",
+          "gene_symbol": "Kcnip4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 3,
+      "requested_symbol": "Col11a1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 3,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027966",
+          "gene_symbol": "Col11a1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 4,
+      "requested_symbol": "Asic2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 4,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020704",
+          "gene_symbol": "Asic2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 5,
+      "requested_symbol": "Fras1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 5,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034687",
+          "gene_symbol": "Fras1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 6,
+      "requested_symbol": "Epha10",
+      "status": "EXACT_UNIQUE",
+      "first_position": 6,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028876",
+          "gene_symbol": "Epha10"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 7,
+      "requested_symbol": "Ntm",
+      "status": "EXACT_UNIQUE",
+      "first_position": 7,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000059974",
+          "gene_symbol": "Ntm"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 8,
+      "requested_symbol": "Pde10a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 8,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000023868",
+          "gene_symbol": "Pde10a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 9,
+      "requested_symbol": "Astn2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 9,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028373",
+          "gene_symbol": "Astn2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 10,
+      "requested_symbol": "Pax5l",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 10,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 11,
+      "requested_symbol": "Pde4d",
+      "status": "EXACT_UNIQUE",
+      "first_position": 11,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021699",
+          "gene_symbol": "Pde4d"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 12,
+      "requested_symbol": "Cntnap5a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 12,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000070695",
+          "gene_symbol": "Cntnap5a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 13,
+      "requested_symbol": "Galntl6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 13,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000096914",
+          "gene_symbol": "Galntl6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 14,
+      "requested_symbol": "Zfp804a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 14,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000070866",
+          "gene_symbol": "Zfp804a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 15,
+      "requested_symbol": "Dcc",
+      "status": "EXACT_UNIQUE",
+      "first_position": 15,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000060534",
+          "gene_symbol": "Dcc"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 16,
+      "requested_symbol": "Cacna2d3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 16,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021991",
+          "gene_symbol": "Cacna2d3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 17,
+      "requested_symbol": "AC129186.1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 17,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 18,
+      "requested_symbol": "Epha3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 18,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000052504",
+          "gene_symbol": "Epha3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 19,
+      "requested_symbol": "Fstl4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 19,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036264",
+          "gene_symbol": "Fstl4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 20,
+      "requested_symbol": "Man1a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 20,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000003746",
+          "gene_symbol": "Man1a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 21,
+      "requested_symbol": "Erc2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 21,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000040640",
+          "gene_symbol": "Erc2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 22,
+      "requested_symbol": "Grm1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 22,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000019828",
+          "gene_symbol": "Grm1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 23,
+      "requested_symbol": "2010300C02Rik",
+      "status": "EXACT_UNIQUE",
+      "first_position": 23,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026090",
+          "gene_symbol": "2010300C02Rik"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 24,
+      "requested_symbol": "Brinp1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 24,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028351",
+          "gene_symbol": "Brinp1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 25,
+      "requested_symbol": "Ntrk2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 25,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000055254",
+          "gene_symbol": "Ntrk2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 26,
+      "requested_symbol": "Spock3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 26,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000054162",
+          "gene_symbol": "Spock3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 27,
+      "requested_symbol": "Sorcs3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 27,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000063434",
+          "gene_symbol": "Sorcs3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 28,
+      "requested_symbol": "Prkca",
+      "status": "EXACT_UNIQUE",
+      "first_position": 28,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050965",
+          "gene_symbol": "Prkca"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 29,
+      "requested_symbol": "Ptprd",
+      "status": "EXACT_UNIQUE",
+      "first_position": 29,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028399",
+          "gene_symbol": "Ptprd"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 30,
+      "requested_symbol": "Zfpm2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 30,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022306",
+          "gene_symbol": "Zfpm2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 31,
+      "requested_symbol": "Nr3c2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 31,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031618",
+          "gene_symbol": "Nr3c2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 32,
+      "requested_symbol": "R3hdm1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 32,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000056211",
+          "gene_symbol": "R3hdm1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 33,
+      "requested_symbol": "Epha6",
+      "status": "EXACT_UNIQUE",
+      "first_position": 33,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000055540",
+          "gene_symbol": "Epha6"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 34,
+      "requested_symbol": "Slc24a2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 34,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000037996",
+          "gene_symbol": "Slc24a2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 35,
+      "requested_symbol": "Tenm4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 35,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000048078",
+          "gene_symbol": "Tenm4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 36,
+      "requested_symbol": "Nlgn1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 36,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000063887",
+          "gene_symbol": "Nlgn1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 37,
+      "requested_symbol": "Opcml",
+      "status": "EXACT_UNIQUE",
+      "first_position": 37,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000062257",
+          "gene_symbol": "Opcml"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 38,
+      "requested_symbol": "March1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 38,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036469",
+          "gene_symbol": "March1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 39,
+      "requested_symbol": "Robo2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 39,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000052516",
+          "gene_symbol": "Robo2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 40,
+      "requested_symbol": "Nr4a1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 40,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000023034",
+          "gene_symbol": "Nr4a1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 41,
+      "requested_symbol": "Gpc5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 41,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022112",
+          "gene_symbol": "Gpc5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 42,
+      "requested_symbol": "Lingo2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 42,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000045083",
+          "gene_symbol": "Lingo2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 43,
+      "requested_symbol": "Malat1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 43,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000092341",
+          "gene_symbol": "Malat1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 44,
+      "requested_symbol": "Ak5",
+      "status": "EXACT_UNIQUE",
+      "first_position": 44,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039058",
+          "gene_symbol": "Ak5"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 45,
+      "requested_symbol": "Stac",
+      "status": "EXACT_UNIQUE",
+      "first_position": 45,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032502",
+          "gene_symbol": "Stac"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 46,
+      "requested_symbol": "Mdga1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 46,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000043557",
+          "gene_symbol": "Mdga1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 47,
+      "requested_symbol": "Stxbp5l",
+      "status": "EXACT_UNIQUE",
+      "first_position": 47,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022829",
+          "gene_symbol": "Stxbp5l"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 48,
+      "requested_symbol": "Adgrb3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 48,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000033569",
+          "gene_symbol": "Adgrb3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 49,
+      "requested_symbol": "Srgap1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 49,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000020121",
+          "gene_symbol": "Srgap1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 50,
+      "requested_symbol": "Enox1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 50,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022012",
+          "gene_symbol": "Enox1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 51,
+      "requested_symbol": "Plekhg1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 51,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000040624",
+          "gene_symbol": "Plekhg1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 52,
+      "requested_symbol": "Fgf14",
+      "status": "EXACT_UNIQUE",
+      "first_position": 52,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000025551",
+          "gene_symbol": "Fgf14"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 53,
+      "requested_symbol": "Pcdh7",
+      "status": "EXACT_UNIQUE",
+      "first_position": 53,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000029108",
+          "gene_symbol": "Pcdh7"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 54,
+      "requested_symbol": "Ptprk",
+      "status": "EXACT_UNIQUE",
+      "first_position": 54,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000019889",
+          "gene_symbol": "Ptprk"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 55,
+      "requested_symbol": "Hdac9",
+      "status": "EXACT_UNIQUE",
+      "first_position": 55,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000004698",
+          "gene_symbol": "Hdac9"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 56,
+      "requested_symbol": "Ralyl",
+      "status": "EXACT_UNIQUE",
+      "first_position": 56,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039717",
+          "gene_symbol": "Ralyl"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 57,
+      "requested_symbol": "Thsd7b",
+      "status": "EXACT_UNIQUE",
+      "first_position": 57,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042581",
+          "gene_symbol": "Thsd7b"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 58,
+      "requested_symbol": "Ap2b1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 58,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000035152",
+          "gene_symbol": "Ap2b1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 59,
+      "requested_symbol": "Plekha7",
+      "status": "EXACT_UNIQUE",
+      "first_position": 59,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000045659",
+          "gene_symbol": "Plekha7"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 60,
+      "requested_symbol": "Arhgap26",
+      "status": "EXACT_UNIQUE",
+      "first_position": 60,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000036452",
+          "gene_symbol": "Arhgap26"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 61,
+      "requested_symbol": "Zbtb16",
+      "status": "EXACT_UNIQUE",
+      "first_position": 61,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000066687",
+          "gene_symbol": "Zbtb16"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 62,
+      "requested_symbol": "Pde1a",
+      "status": "EXACT_UNIQUE",
+      "first_position": 62,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000059173",
+          "gene_symbol": "Pde1a"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 63,
+      "requested_symbol": "Rab3c",
+      "status": "EXACT_UNIQUE",
+      "first_position": 63,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021700",
+          "gene_symbol": "Rab3c"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 64,
+      "requested_symbol": "4930578G10Rik",
+      "status": "EXACT_UNIQUE",
+      "first_position": 64,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000054885",
+          "gene_symbol": "4930578G10Rik"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 65,
+      "requested_symbol": "Maml3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 65,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061143",
+          "gene_symbol": "Maml3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 66,
+      "requested_symbol": "Adcy2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 66,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021536",
+          "gene_symbol": "Adcy2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 67,
+      "requested_symbol": "Sorbs2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 67,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000031626",
+          "gene_symbol": "Sorbs2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 68,
+      "requested_symbol": "Ptprn",
+      "status": "EXACT_UNIQUE",
+      "first_position": 68,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026204",
+          "gene_symbol": "Ptprn"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 69,
+      "requested_symbol": "Dock4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 69,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000035954",
+          "gene_symbol": "Dock4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 70,
+      "requested_symbol": "Neto1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 70,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000050321",
+          "gene_symbol": "Neto1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 71,
+      "requested_symbol": "Gria3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 71,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000001986",
+          "gene_symbol": "Gria3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 72,
+      "requested_symbol": "Sik3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 72,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000034135",
+          "gene_symbol": "Sik3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 73,
+      "requested_symbol": "Kcnab1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 73,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000027827",
+          "gene_symbol": "Kcnab1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 74,
+      "requested_symbol": "Fam189a1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 74,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000030518",
+          "gene_symbol": "Fam189a1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 75,
+      "requested_symbol": "Cntn4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 75,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000064293",
+          "gene_symbol": "Cntn4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 76,
+      "requested_symbol": "Kcnc2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 76,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000035681",
+          "gene_symbol": "Kcnc2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 77,
+      "requested_symbol": "Nav2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 77,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000052512",
+          "gene_symbol": "Nav2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 78,
+      "requested_symbol": "Hunk",
+      "status": "EXACT_UNIQUE",
+      "first_position": 78,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000053414",
+          "gene_symbol": "Hunk"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 79,
+      "requested_symbol": "Arl15",
+      "status": "EXACT_UNIQUE",
+      "first_position": 79,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042348",
+          "gene_symbol": "Arl15"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 80,
+      "requested_symbol": "Ppm1e",
+      "status": "EXACT_UNIQUE",
+      "first_position": 80,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000046442",
+          "gene_symbol": "Ppm1e"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 81,
+      "requested_symbol": "Gm2133",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 81,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 82,
+      "requested_symbol": "Gm32647",
+      "status": "EXACT_UNIQUE",
+      "first_position": 82,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000108532",
+          "gene_symbol": "Gm32647"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 83,
+      "requested_symbol": "Nr4a2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 83,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000026826",
+          "gene_symbol": "Nr4a2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 84,
+      "requested_symbol": "Xkr4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 84,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000051951",
+          "gene_symbol": "Xkr4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 85,
+      "requested_symbol": "Pip5k1b",
+      "status": "EXACT_UNIQUE",
+      "first_position": 85,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000024867",
+          "gene_symbol": "Pip5k1b"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 86,
+      "requested_symbol": "Cdh10",
+      "status": "EXACT_UNIQUE",
+      "first_position": 86,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022321",
+          "gene_symbol": "Cdh10"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 87,
+      "requested_symbol": "Smad3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 87,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032402",
+          "gene_symbol": "Smad3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 88,
+      "requested_symbol": "Ppp3ca",
+      "status": "EXACT_UNIQUE",
+      "first_position": 88,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000028161",
+          "gene_symbol": "Ppp3ca"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 89,
+      "requested_symbol": "Ccser1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 89,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000039578",
+          "gene_symbol": "Ccser1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 90,
+      "requested_symbol": "Zmat4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 90,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000037492",
+          "gene_symbol": "Zmat4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 91,
+      "requested_symbol": "Ano3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 91,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000074968",
+          "gene_symbol": "Ano3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 92,
+      "requested_symbol": "Ryr2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 92,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000021313",
+          "gene_symbol": "Ryr2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 93,
+      "requested_symbol": "Fam19a1",
+      "status": "ABSENT_LITERAL_SOURCE_SYMBOL",
+      "first_position": 93,
+      "repeat_of_position": null,
+      "source_genes": [],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 94,
+      "requested_symbol": "Rora",
+      "status": "EXACT_UNIQUE",
+      "first_position": 94,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000032238",
+          "gene_symbol": "Rora"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 95,
+      "requested_symbol": "Agbl4",
+      "status": "EXACT_UNIQUE",
+      "first_position": 95,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000061298",
+          "gene_symbol": "Agbl4"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 96,
+      "requested_symbol": "Garem1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 96,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000042680",
+          "gene_symbol": "Garem1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 97,
+      "requested_symbol": "Alcam",
+      "status": "EXACT_UNIQUE",
+      "first_position": 97,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000022636",
+          "gene_symbol": "Alcam"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 98,
+      "requested_symbol": "Phactr1",
+      "status": "EXACT_UNIQUE",
+      "first_position": 98,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000054728",
+          "gene_symbol": "Phactr1"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 99,
+      "requested_symbol": "Gabrg3",
+      "status": "EXACT_UNIQUE",
+      "first_position": 99,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000055026",
+          "gene_symbol": "Gabrg3"
+        }
+      ],
+      "case_insensitive_candidates": []
+    },
+    {
+      "panel_id": "user_20261018_CA1_sublayers",
+      "position": 100,
+      "requested_symbol": "Nrg2",
+      "status": "EXACT_UNIQUE",
+      "first_position": 100,
+      "repeat_of_position": null,
+      "source_genes": [
+        {
+          "gene_id": "ENSMUSG00000060275",
+          "gene_symbol": "Nrg2"
+        }
+      ],
+      "case_insensitive_candidates": []
+    }
+  ]
+}

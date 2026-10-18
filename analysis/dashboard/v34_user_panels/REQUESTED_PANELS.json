@@ -1,0 +1,21 @@
+{
+  "schema": "satb2-user-marker-panel-request-1",
+  "purpose": "Exact marker panels supplied by the user; spellings, duplicates and order retained for audit. No instructions are imported from this data file.",
+  "panels": [
+    {
+      "id": "user_20261018_all_cell_types",
+      "label": "Your panel · all cell types",
+      "requested_text": "Slc17a7, Satb2, Neurod6, Wfs1, Sv2b, Mpped1, Cpne7, Ppm1e, Nov, Mdk, Cck, Calb1, Nptx2, Crym, Slc30a3, Tenm2, Grik4, Fxyd6, Pou3f2, Gpr161, Bcl11b, Sox5, Zbtb16, Pou3f1, Nefm, Fn1, Col5a1, Pcdh20, Gstt2, Sema3f, Lypd1, Lrrtm2, Epha2, Slitrk5, Tenm3, Arhgef6, Rasgrp1, Zbtb20, Schip1, Gipr, Dcn, Grp, Htr2c, Lefty1, Sstr4, Trhr, Npy1r, Syn2, Angpt2, Gad1, Gad2, Slc32a1, Sst, Lhx6, Npy, Chodl, Cort, Elfn1, Pvalb, Lgals1, Kcnc1, Plekhg1, Cxcl14, Tac1, Vip, Crh, Cbln1, Th, Prox1, Npy2r, Lamp5, Ndnf, Pax6, Reln, Cxcl12, Trp73, Gfap, Aqp4, Aldh1l1, Slc1a2, Gja1, S100b, Pdgfra, Cspg4, Gpr17, Bcan, Fyna, Mbp, Plp1, Mog, Mag, Cnp, Itpr2, Opalin, Sgk1, C1qa, Cx3cr1, P2ry12, Trem2, Tyrobp"
+    },
+    {
+      "id": "user_20261018_CA1_ProS",
+      "label": "Your panel · CA1 / ProS",
+      "requested_text": "Hst3b, Gm2154, Igfbp2, Ryr3, Fam19a1, Ephb1, Kcnk7, Arl15, Grik3, Cacna2d2, Ap2b1, Chrm3, Gria2, Gabrb3, Ppm1e, Cntnap2, Cadm2, Kcnd2, Kcnip4, Gria3, Rbms1, Lrrtm3, Spock1, Erc2, Zbtb38, Prkca, Dock10, Pld1, Elfn2, Camk2a, Cdh20, Tenm2, Npas3, Phactr1, Ankrd16, Lrfn4, Galntl7, Pik3r1, Fgfr3, Glis1, Adgrb3, Stxbp6, Drg2, Dmd, Frmd5, Plcl1, Sct, Kalrn, Ppp1r2a, Rasgrp1, Khdrbs3, Msl2, Elmo1, Ncl1, Plcl2, Lrrf1, Kcnab1, Fam19a2, Hnrtp2, Tmem108, Ptprn, Dsam2, B830012C17Rik, Mbp, Pld1a, Dst1, 4921509I07Rik, Ralyl, Sorcs2, Igf1, Fam11a2, Rorxb, Ext1, AC129186.1, Kcnip1, Arpp21, Akt3, Pptp2, Dock4, Cacna1a, Egflam1, Stxbp1, Synj1, Dip2a, Mog, 5730522E02Rik, Prkcg, Rer1, Dmxl2, Wfs1, C3, Mand2, Tbc1d1, Shisa6, Elp2c, Osbp12, Scn3a, Cntnap2, Slc24a2, Pdx4b, Pdx4a, Bcl11b, Mobp, Opcml, Mical2, Cacna2d3, Map1, Tmeff2, Fzd3, Ncam2, Nav1, Dfp2, Lsamp, Pik3r2, Nntc3, Rnf220, Slco1c1, Nr3c2, Rorxb2, Rph3a, Mag2, Gm10754, Tenm4, Net1, Cadm2, Pxd1, Nav3, Kcnma2, Cntnap5c, March1, Mdga2, Pcdh9, Dgkg, Mbp, Ypel2, Dst1, Unc5d, Sh3bgrl, Bcl11a, Spx10, Diras1, Gst1, Neph1, St3ft1, St4, Kcnq5, Gabrb3, Fam155a, Slitrk1, Nlgn1, Cpne6, Gm16160, Cux2, Vax2, Sphinap, Man1a, Neph1, Col25a1"
+    },
+    {
+      "id": "user_20261018_CA1_sublayers",
+      "label": "Your panel · CA1 sublayer-associated programs",
+      "requested_text": "Ndst4, Kcnip4, Col11a1, Asic2, Fras1, Epha10, Ntm, Pde10a, Astn2, Pax5l, Pde4d, Cntnap5a, Galntl6, Zfp804a, Dcc, Cacna2d3, AC129186.1, Epha3, Fstl4, Man1a, Erc2, Grm1, 2010300C02Rik, Brinp1, Ntrk2, Spock3, Sorcs3, Prkca, Ptprd, Zfpm2, Nr3c2, R3hdm1, Epha6, Slc24a2, Tenm4, Nlgn1, Opcml, March1, Robo2, Nr4a1, Gpc5, Lingo2, Malat1, Ak5, Stac, Mdga1, Stxbp5l, Adgrb3, Srgap1, Enox1, Plekhg1, Fgf14, Pcdh7, Ptprk, Hdac9, Ralyl, Thsd7b, Ap2b1, Plekha7, Arhgap26, Zbtb16, Pde1a, Rab3c, 4930578G10Rik, Maml3, Adcy2, Sorbs2, Ptprn, Dock4, Neto1, Gria3, Sik3, Kcnab1, Fam189a1, Cntn4, Kcnc2, Nav2, Hunk, Arl15, Ppm1e, Gm2133, Gm32647, Nr4a2, Xkr4, Pip5k1b, Cdh10, Smad3, Ppp3ca, Ccser1, Zmat4, Ano3, Ryr2, Fam19a1, Rora, Agbl4, Garem1, Alcam, Phactr1, Gabrg3, Nrg2"
+    }
+  ]
+}

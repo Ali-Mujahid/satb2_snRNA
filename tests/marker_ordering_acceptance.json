@@ -34,6 +34,6 @@
     "Dotplot PDF reports the numeric appearance override count without a literal template",
     "PDF exports every selected gene page when capacity is60"
   ],
-  "app_sha256": "f22f67f8fc026516552ce48eb8a6896d6bc2dc58285071a5e968814aa5e20b2a",
+  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b",
   "helpers_sha256": "4d769b198f4aefb5ecde6675925554f9985ef2110226ff14d75206696965a9ae"
 }

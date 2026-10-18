@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "scope": "ACTUAL_VISIBLE_ARRANGER_BINDINGS_NUDGES_CANVAS_AND_PDF_PATH_WITHOUT_SCIENTIFIC_CHANGES",
+  "checks": 20,
+  "check_names": [
+    "Arranger is visible above the UMAP plots and all editor IDs occur exactly once",
+    "Visible Bring clusters closer button selects packed mode for both tools and clears old current-scope edits",
+    "Active preset state, packing notice and island-gap caption synchronize to visible controls",
+    "scanpy packed canvas and legend disclose adjusted geometry",
+    "seurat packed canvas and legend disclose adjusted geometry",
+    "Right nudge moves C4 by the requested display X percentage after rotation and mirror",
+    "Up nudge moves C4 in positive display Y after rotation/mirror and preserves its local geometry",
+    "Manual nudges are tool-specific and keyed to branch/population",
+    "Clicking an actual rendered nucleus selects that tool and original C4 in the visible editor",
+    "Sidebar mode changes preserve explicit edits while the visible rounded preset clears them",
+    "Rounded status and active button explicitly identify a non-UMAP schematic",
+    "scanpy rounded canvas visibly warns that it is not original UMAP or anatomy",
+    "scanpy UMAP PDF path includes a schematic image and complete geometry disclosure",
+    "seurat rounded canvas visibly warns that it is not original UMAP or anatomy",
+    "seurat UMAP PDF path includes a schematic image and complete geometry disclosure",
+    "Display-coordinate download retains both source and schematic coordinates and nonspatial flags",
+    "Saved settings round-trip rounded mode and exact per-tool manual positions",
+    "The visible hippocampus button remains a clearly marked nonspatial schematic",
+    "Visible Restore original button recovers every exact coordinate and clears current-scope transforms",
+    "Every preset, nudge, click, export and settings import preserves source measurements, labels, DE rows and matched fits"
+  ],
+  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b",
+  "html_sha256": "48f00122846cfa949a267469fafd5c69f06405ca6e786f3fbb4712f2f229d515",
+  "geometry_sha256": "111e881e368e55e91f7141b809782d7bb58c9d854eb4eec08341693807914b45"
+}

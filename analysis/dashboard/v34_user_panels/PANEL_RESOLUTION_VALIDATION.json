@@ -1,0 +1,15 @@
+{
+  "checks": {
+    "all_358_entries_preserved": true,
+    "all_selections_unique": true,
+    "source_ID_symbol_bindings": true,
+    "export_166_unique": true,
+    "exact_164_unchanged": true,
+    "new_ids_disjoint_old": true,
+    "four_aliases_have_evidence": true,
+    "unresolved_have_no_ID": true,
+    "Fyna_not_replaced": true
+  },
+  "passed": 9,
+  "status": "PASS"
+}

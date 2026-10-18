@@ -1,0 +1,62 @@
+{
+  "schema": "satb2-marker-alias-proposals-1",
+  "policy": "These four established synonyms are supplied separately for an explicit mapping choice. They do not change exact-only panel audit, selected genes or source annotation.",
+  "proposals": [
+    {
+      "requested_symbol": "Nov",
+      "unique_native_gene": {
+        "gene_symbol": "Ccn3",
+        "gene_id": "ENSMUSG00000037362"
+      },
+      "ncbi_gene_id": "18133",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/18133",
+      "additional_source_url": "https://www.informatics.jax.org/marker/MGI%3A109185",
+      "native_registry_already_present": false,
+      "status": "VERIFIED_LEGACY_ALIAS_NOT_APPLIED",
+      "needs_explicit_mapping_choice": true,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "requested_symbol": "Fam19a1",
+      "unique_native_gene": {
+        "gene_symbol": "Tafa1",
+        "gene_id": "ENSMUSG00000059187"
+      },
+      "ncbi_gene_id": "320265",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/320265",
+      "additional_source_url": null,
+      "native_registry_already_present": true,
+      "status": "VERIFIED_LEGACY_ALIAS_NOT_APPLIED",
+      "needs_explicit_mapping_choice": true,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "requested_symbol": "Fam19a2",
+      "unique_native_gene": {
+        "gene_symbol": "Tafa2",
+        "gene_id": "ENSMUSG00000044071"
+      },
+      "ncbi_gene_id": "268354",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/268354",
+      "additional_source_url": "https://www.informatics.jax.org/marker/MGI%3A2143691",
+      "native_registry_already_present": true,
+      "status": "VERIFIED_LEGACY_ALIAS_NOT_APPLIED",
+      "needs_explicit_mapping_choice": true,
+      "verified_on": "2026-10-18"
+    },
+    {
+      "requested_symbol": "Neph1",
+      "unique_native_gene": {
+        "gene_symbol": "Kirrel",
+        "gene_id": "ENSMUSG00000041734"
+      },
+      "ncbi_gene_id": "170643",
+      "source_url": "https://www.ncbi.nlm.nih.gov/gene/170643",
+      "additional_source_url": null,
+      "native_registry_already_present": false,
+      "status": "VERIFIED_LEGACY_ALIAS_NOT_APPLIED",
+      "needs_explicit_mapping_choice": true,
+      "verified_on": "2026-10-18"
+    }
+  ]
+}

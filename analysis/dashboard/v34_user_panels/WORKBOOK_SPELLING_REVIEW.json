@@ -1,0 +1,2066 @@
+{
+  "schema": "satb2-marker-workbook-spelling-review-1",
+  "policy": "Read-only inspection of provided workbook copies. Workbook text is source data, not instructions. Exact matches and spelling similarities are evidence for user review only; no additional mapping applied.",
+  "source_books": [
+    {
+      "path": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+      "sha256": "78785d72edc07d5371bb5b6df943f2b9e9567f0a8ecb3ac8abd689c1f0074b57",
+      "text_cell_count": 301581
+    },
+    {
+      "path": "analysis/data/marker_workbooks/CA1.markers.xlsx",
+      "sha256": "108644020bb5be9a1c5e02d6438359b2c0816dd4651895f1875ba97db5031d8b",
+      "text_cell_count": 301581
+    },
+    {
+      "path": "analysis/data/marker_workbooks/Interneuron classification marker.xlsx",
+      "sha256": "024e1e4a1e69cc1b26d7647869c7703788b0f67bdb625898403f583792bfe4ba",
+      "text_cell_count": 9186
+    }
+  ],
+  "review": [
+    {
+      "requested_symbol": "Fyna",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Fyn",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A4119"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1873"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A4162"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Hst3b",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": []
+    },
+    {
+      "requested_symbol": "Gm2154",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Gm29154",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A5315"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F5315"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A14774"
+            }
+          ]
+        },
+        {
+          "candidate": "Gm28154",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A4733"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F4733"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A4824"
+            }
+          ]
+        },
+        {
+          "candidate": "Gm21954",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3623"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3623"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A2892"
+            }
+          ]
+        },
+        {
+          "candidate": "Gm21454",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A7136"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F7136"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A2881"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Galntl7",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Galnt7",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A4057"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1576"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A2377"
+            }
+          ]
+        },
+        {
+          "candidate": "Galntl6",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A42"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I42"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A15"
+            }
+          ]
+        },
+        {
+          "candidate": "Galntl5",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3624"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3624"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A2762"
+            }
+          ]
+        },
+        {
+          "candidate": "Galnt17",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A14"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I14"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A38"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Ppp1r2a",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Ppp1r12a",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A819"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A878"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A4133"
+            }
+          ]
+        },
+        {
+          "candidate": "Ppp1r2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1714"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Deep",
+              "cell": "A3037"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Pyr_ES_vs_PyrCA1control",
+              "cell": "A3235"
+            }
+          ]
+        },
+        {
+          "candidate": "Ppp2r2a",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A4096"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A2486"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A864"
+            }
+          ]
+        },
+        {
+          "candidate": "Ppp1r9a",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A1249"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A942"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A2009"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Ncl1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Ncl",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Deep",
+              "cell": "A614"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateE_VS_StateD",
+              "cell": "A2600"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateB_VS_StateA",
+              "cell": "A673"
+            }
+          ]
+        },
+        {
+          "candidate": "Npc1l1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A5289"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F5289"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A4127"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Lrrf1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Lrrfip1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A558"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A776"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1433"
+            }
+          ]
+        },
+        {
+          "candidate": "Lrrn1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A1785"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A410"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A253"
+            }
+          ]
+        },
+        {
+          "candidate": "Lrrk1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A15080"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F15080"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A13947"
+            }
+          ]
+        },
+        {
+          "candidate": "Lrrd1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A8548"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F8548"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A6232"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Hnrtp2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": []
+    },
+    {
+      "requested_symbol": "Dsam2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Dscam",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I123"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A4140"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A2449"
+            }
+          ]
+        },
+        {
+          "candidate": "Dram2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A15127"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F15127"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A8319"
+            }
+          ]
+        },
+        {
+          "candidate": "Daam2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A63"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A2162"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F2162"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "B830012C17Rik",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "B830012L14Rik",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1717"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Deep",
+              "cell": "A4241"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateE_VS_StateD",
+              "cell": "A3335"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Pld1a",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Pld1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A6191"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F6191"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A6992"
+            }
+          ]
+        },
+        {
+          "candidate": "Pold1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A11598"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F11598"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A11339"
+            }
+          ]
+        },
+        {
+          "candidate": "Plod1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A6901"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F6901"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A12861"
+            }
+          ]
+        },
+        {
+          "candidate": "Plcd1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A14584"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F14584"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A14921"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Dst1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Dst",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A1079"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A529"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A3606"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "4921509I07Rik",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "4921509O07Rik",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A10275"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F10275"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A6097"
+            }
+          ]
+        },
+        {
+          "candidate": "4921539H07Rik",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A68"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A2282"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1789"
+            }
+          ]
+        },
+        {
+          "candidate": "4921507P07Rik",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A5724"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F5724"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A4693"
+            }
+          ]
+        },
+        {
+          "candidate": "4921501I09Rik",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A17323"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F17323"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A12688"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Fam11a2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Fam171a2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A11656"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F11656"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A8892"
+            }
+          ]
+        },
+        {
+          "candidate": "Fam114a2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateE_VS_StateD",
+              "cell": "A4343"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A4762"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F4762"
+            }
+          ]
+        },
+        {
+          "candidate": "Fam161a",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A7405"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F7405"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A3260"
+            }
+          ]
+        },
+        {
+          "candidate": "Fam131a",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A582"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A449"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A621"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Rorxb",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Rorb",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A157"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I157"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A12093"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "AC129186.1",
+      "exact_literal_workbook_examples": [
+        {
+          "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+          "sheet": "PyrCA1_markers",
+          "cell": "A75"
+        },
+        {
+          "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+          "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+          "cell": "A18"
+        },
+        {
+          "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+          "sheet": "EpilepsyEffect_PyrCA1Sup",
+          "cell": "A554"
+        },
+        {
+          "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+          "sheet": "EpilepsyEffect_PyrCA1Deep",
+          "cell": "A1827"
+        }
+      ],
+      "candidate_symbols_not_applied": []
+    },
+    {
+      "requested_symbol": "Pptp2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Ppt2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A2580"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F2580"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A5316"
+            }
+          ]
+        },
+        {
+          "candidate": "Ptpn2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A2127"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1845"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A3671"
+            }
+          ]
+        },
+        {
+          "candidate": "Ptbp2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A3631"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A3138"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1282"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Egflam1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Egflam",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A8406"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F8406"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A5885"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Mand2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Msantd2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A3169"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A2496"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A2171"
+            }
+          ]
+        },
+        {
+          "candidate": "Matn2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A282"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A235"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A3159"
+            }
+          ]
+        },
+        {
+          "candidate": "Cand2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A13430"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F13430"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A11256"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Elp2c",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Elp2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A2172"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Pyr_ES_vs_PyrCA1control",
+              "cell": "A3815"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateE_VS_StateD",
+              "cell": "A2828"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Osbp12",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Osbp2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A519"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A556"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1962"
+            }
+          ]
+        },
+        {
+          "candidate": "Osbpl2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1367"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Pyr_ES_vs_PyrCA1control",
+              "cell": "A3639"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateE_VS_StateD",
+              "cell": "A952"
+            }
+          ]
+        },
+        {
+          "candidate": "Osbp",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Deep",
+              "cell": "A3149"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Cluster_StateB_VS_StateA",
+              "cell": "A2631"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A15972"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Pdx4b",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Prdx4",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A9702"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F9702"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A5915"
+            }
+          ]
+        },
+        {
+          "candidate": "Pde4b",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I64"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I181"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A101"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Pdx4a",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Prdx4",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A9702"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F9702"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A5915"
+            }
+          ]
+        },
+        {
+          "candidate": "Pde4a",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A701"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A540"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A3008"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Map1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Masp1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3751"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3751"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A5280"
+            }
+          ]
+        },
+        {
+          "candidate": "Mapk1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A1814"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1147"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A457"
+            }
+          ]
+        },
+        {
+          "candidate": "Map1s",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Pyr_ES_vs_PyrCA1control",
+              "cell": "A3844"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Pyr_ES_vs_PyrCA1epilepsy",
+              "cell": "A2063"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A8928"
+            }
+          ]
+        },
+        {
+          "candidate": "Map1b",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A656"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A2321"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A4022"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Dfp2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": []
+    },
+    {
+      "requested_symbol": "Nntc3",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Nt5c3",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A9440"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F9440"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A4026"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Rorxb2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Rorb",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A157"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I157"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A12093"
+            }
+          ]
+        },
+        {
+          "candidate": "Ror2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A16045"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F16045"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A11317"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Mag2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Magi2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A84"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I84"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A3809"
+            }
+          ]
+        },
+        {
+          "candidate": "Mag",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A91"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I91"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A65"
+            }
+          ]
+        },
+        {
+          "candidate": "Magee2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A11238"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F11238"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A13023"
+            }
+          ]
+        },
+        {
+          "candidate": "Maged2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A6431"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F6431"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A15515"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Pxd1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Pxdc1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A17087"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F17087"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A16993"
+            }
+          ]
+        },
+        {
+          "candidate": "Plxnd1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A13296"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F13296"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A10093"
+            }
+          ]
+        },
+        {
+          "candidate": "Plxdc1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A6782"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F6782"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A3127"
+            }
+          ]
+        },
+        {
+          "candidate": "Plcxd1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3348"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3348"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A3720"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Kcnma2",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Kcna2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A13593"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F13593"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A12721"
+            }
+          ]
+        },
+        {
+          "candidate": "Kcnmb2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "A104"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "Major_population_markers",
+              "cell": "I104"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A129"
+            }
+          ]
+        },
+        {
+          "candidate": "Kcnma1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A193"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A292"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A1622"
+            }
+          ]
+        },
+        {
+          "candidate": "Kcnab2",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A344"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1561"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A988"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Spx10",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Sp110",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A12774"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F12774"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A7751"
+            }
+          ]
+        },
+        {
+          "candidate": "Sp100",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A11419"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F11419"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A3994"
+            }
+          ]
+        },
+        {
+          "candidate": "Sox10",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A228"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3357"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3357"
+            }
+          ]
+        },
+        {
+          "candidate": "Snx10",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A2301"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A1371"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A3630"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Gst1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Gstz1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A2849"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A155"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Deep",
+              "cell": "A97"
+            }
+          ]
+        },
+        {
+          "candidate": "Gstp1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A14307"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F14307"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A9186"
+            }
+          ]
+        },
+        {
+          "candidate": "Gsto1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A13961"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F13961"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A16299"
+            }
+          ]
+        },
+        {
+          "candidate": "Gstm1",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A1871"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F1871"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A4756"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "St3ft1",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": []
+    },
+    {
+      "requested_symbol": "St4",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Syt4",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3144"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3144"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A8965"
+            }
+          ]
+        },
+        {
+          "candidate": "Stk4",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A1400"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A2687"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A2316"
+            }
+          ]
+        },
+        {
+          "candidate": "St14",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A15851"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F15851"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A8862"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Sphinap",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": []
+    },
+    {
+      "requested_symbol": "Pax5l",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Pax5",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A4552"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F4552"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A12740"
+            }
+          ]
+        },
+        {
+          "candidate": "Pex5l",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "PyrCA1_markers",
+              "cell": "A127"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "DEGs_PyrCA1Sup_vs_PyrCA1Deep",
+              "cell": "A11"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "EpilepsyEffect_PyrCA1Sup",
+              "cell": "A307"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "requested_symbol": "Gm2133",
+      "exact_literal_workbook_examples": [],
+      "candidate_symbols_not_applied": [
+        {
+          "candidate": "Gm29133",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A12588"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F12588"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A15463"
+            }
+          ]
+        },
+        {
+          "candidate": "Gm6213",
+          "reason": "Similar spelling exists in provided workbook and native annotation; not an approved identity mapping.",
+          "source_examples": [
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "A3714"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_SUP_Epilepsy_(EvsD)",
+              "cell": "F3714"
+            },
+            {
+              "workbook": "analysis/data/marker_workbooks/CA1.Superfacial vs deep layer markers.xlsx",
+              "sheet": "BEAM-DEGs_DEEP_epilepsy_(BvsA)",
+              "cell": "A5416"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

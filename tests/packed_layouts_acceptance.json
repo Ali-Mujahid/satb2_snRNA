@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "scope": "DISPLAY_ONLY_CLUSTER_PACKING_WITHOUT_SOURCE_GEOMETRY_MEMBERSHIP_EXPRESSION_OR_MODEL_CHANGES",
+  "checks": 17,
+  "check_names": [
+    "Packed mode is deterministic and is explicitly an artificial display layout",
+    "Packed 95% core discs have a positive gap without overlap; every peripheral nucleus is retained",
+    "Packing preserves complete within-cluster displacement vectors and all row identities",
+    "A distant island packs near the other clusters while retaining its exact shape",
+    "Gap control changes only packing gap and placement, never local shapes",
+    "100% coverage is available for conservative packing of every source point",
+    "Manual edits remain explicit and resetting returns every exact source double",
+    "Display moves are correctly inverted after rotation and mirror for practical drag controls",
+    "Empty, missing-coordinate, singleton and coincident clusters remain finite and separated",
+    "scanpy allcells: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "scanpy Excitatory: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "scanpy CA1_ProS: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "scanpy Inhibitory: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "seurat allcells: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "seurat Excitatory: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "seurat CA1_ProS: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing",
+    "seurat Inhibitory: frozen native IDs, original counts and exact source coordinates survive nonoverlapping packing"
+  ],
+  "native": [
+    {
+      "tool": "scanpy",
+      "population": "allcells",
+      "n_nuclei": 107747,
+      "n_clusters": 26,
+      "elapsed_ms": 498,
+      "source_span": 29.087031000000003,
+      "display_span": 44.70952130009168,
+      "gap": 0.24433106040000002
+    },
+    {
+      "tool": "scanpy",
+      "population": "Excitatory",
+      "n_nuclei": 60908,
+      "n_clusters": 19,
+      "elapsed_ms": 300,
+      "source_span": 27.187787,
+      "display_span": 51.192571725072085,
+      "gap": 0.22837741079999999
+    },
+    {
+      "tool": "scanpy",
+      "population": "CA1_ProS",
+      "n_nuclei": 27703,
+      "n_clusters": 9,
+      "elapsed_ms": 144,
+      "source_span": 17.178741,
+      "display_span": 35.25884325601782,
+      "gap": 0.1443014244
+    },
+    {
+      "tool": "scanpy",
+      "population": "Inhibitory",
+      "n_nuclei": 8911,
+      "n_clusters": 17,
+      "elapsed_ms": 45,
+      "source_span": 33.056360999999995,
+      "display_span": 32.19380533634705,
+      "gap": 0.2776734324
+    },
+    {
+      "tool": "seurat",
+      "population": "allcells",
+      "n_nuclei": 107747,
+      "n_clusters": 29,
+      "elapsed_ms": 505,
+      "source_span": 29.3194742202759,
+      "display_span": 53.54264133272324,
+      "gap": 0.24628358345031756
+    },
+    {
+      "tool": "seurat",
+      "population": "Excitatory",
+      "n_nuclei": 60908,
+      "n_clusters": 23,
+      "elapsed_ms": 319,
+      "source_span": 26.85872840881349,
+      "display_span": 57.683588507494505,
+      "gap": 0.2256133186340333
+    },
+    {
+      "tool": "seurat",
+      "population": "CA1_ProS",
+      "n_nuclei": 27703,
+      "n_clusters": 11,
+      "elapsed_ms": 136,
+      "source_span": 16.13583612442016,
+      "display_span": 38.364113671385496,
+      "gap": 0.13554102344512933
+    },
+    {
+      "tool": "seurat",
+      "population": "Inhibitory",
+      "n_nuclei": 8911,
+      "n_clusters": 20,
+      "elapsed_ms": 46,
+      "source_span": 25.9340744018554,
+      "display_span": 27.983568111793943,
+      "gap": 0.21784622497558537,
+      "C4_nearest_center_distance_source": 9.472988804288196,
+      "C4_nearest_center_distance_packed": 2.8682917986703855
+    }
+  ],
+  "helper_sha256": "111e881e368e55e91f7141b809782d7bb58c9d854eb4eec08341693807914b45"
+}

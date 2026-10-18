@@ -38,7 +38,7 @@
     "A changed plot selection cancels a pending PDF before drawing or saving stale content"
   ],
   "source_vector_catalog_sha256": "1e5e14b410271038738019dc45079b8e5acc804c2239d04d6f62e37880988099",
-  "app_sha256": "f22f67f8fc026516552ce48eb8a6896d6bc2dc58285071a5e968814aa5e20b2a",
+  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b",
   "selected_actual_nucleus_ids": [
     "cKO_1138_AAACCCGCACTCATGC-1",
     "cKO_1138_AACACTTAGTAATCGT-1",

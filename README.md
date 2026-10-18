@@ -1,3 +1,5 @@
+Current hosted update: **[atlas v3.4.0](https://ali-mujahid.github.io/satb2_snRNA/)** — three ordered user marker presets, 166 additional source-count genes, visible cluster packing and rounded schematics. [Guide and validation](docs/ATLAS_V3_4_USER_PANELS.md). Previous scientific results and portable archives are preserved.
+
 # SATB2 single-nucleus RNA-seq atlas
 
 An interactive Scanpy–Seurat v5 atlas of six WT and six Satb2 cKO mice, with
