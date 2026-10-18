@@ -36,5 +36,5 @@
     "Unavailable WebCrypto fails closed"
   ],
   "scope": "VM_ONLY_NO_BROWSER_NO_NETWORK",
-  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b"
+  "app_sha256": "812a4dfdedf298db4e7fcc86662989f9d53e797be7311e8e4cce03e2a5fb6edd"
 }

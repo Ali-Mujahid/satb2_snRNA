@@ -23,7 +23,7 @@ The controls are now directly **above the two UMAP plots**, with four large butt
 - **Rounded cluster schematic** places the same nuclei in deterministic rounded discs. Disc area approximates nucleus count with a minimum readable radius. Both internal and external geometry are artificial. This is explicitly marked SCHEMATIC on the plot and PDF.
 - **Hippocampus-like schematic** arranges clusters along a C-shaped guide in cluster-ID order. This is an illustration, without anatomical or spatial placement evidence.
 
-Choose **Tool** and **Cluster**, or click a nucleus to select its cluster. The arrow buttons immediately move that cluster; **Move step** sets the distance as a percentage of the original source span. Arrows follow the screen direction after rotation and mirroring. Exact X/Y shift and scale controls are also visible. Advanced rotation, reflection and island gap remain in the left sidebar. One-click presets clear manual adjustments in this population/branch; switching the sidebar display mode retains them.
+Choose **Tool** and **Cluster**, or click a nucleus to select its cluster. The arrow buttons immediately move that cluster; **Move step** sets the distance as a percentage of the original source span. Arrows follow the screen direction after rotation and mirroring. Exact X/Y shift and scale controls are also visible. The frame stays fixed during manual movement so automatic recentering does not cancel the move. Reset zoom fits all current positions again. Advanced rotation, reflection and island gap remain in the left sidebar. One-click presets clear manual adjustments in this population/branch; switching the sidebar display mode retains them.
 
 PDFs show the current display layout and its geometry warning. Display-coordinate CSVs include both original and adjusted coordinates, IDs and a nonspatial flag. Settings export/import preserves these display edits. The original UMAP, memberships, exclusions, biological labels and DESeq2 results remain intact.
 
@@ -36,3 +36,5 @@ PDFs show the current display layout and its geometry warning. Display-coordinat
 - Tests exercise all panels in all four underlying population scopes, both tools, all three count branches, actual layout controls, PDF paths and exact reset.
 
 New data are pinned to immutable `atlas-v3.4.0` paths outside the Pages bundle. The previous portable v3.0 archives are preserved; this update targets the hosted GitHub atlas. No model fit, clustering, annotation, QC or differential analysis was rerun. The stopped inhibitory downsampling analysis remains stopped.
+
+Version 3.4.1 fixes the plotting frame during manual movement; source-data URLs remain pinned to unchanged 3.4.0 exports.

@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "scope": "ACTUAL_NATIVE_BOUNDARY_C4_CANVAS_PROJECTION_REGRESSION_NO_SOURCE_DATA_EDITS",
+  "checks": 15,
+  "check_names": [
+    "Regression uses the original native 8,911 inhibitory nuclei in each tool with source Seurat C4",
+    "original: actual C4 glyphs move upward exactly 5% of source span without auto-fit cancellation or X drift",
+    "original: moving Seurat C4 preserves all Scanpy glyph screen positions",
+    "original: actual right nudge follows screen X while retaining every other cluster position",
+    "packed: actual C4 glyphs move upward exactly 5% of source span without auto-fit cancellation or X drift",
+    "packed: moving Seurat C4 preserves all Scanpy glyph screen positions",
+    "packed: actual right nudge follows screen X while retaining every other cluster position",
+    "rounded: actual C4 glyphs move upward exactly 5% of source span without auto-fit cancellation or X drift",
+    "rounded: moving Seurat C4 preserves all Scanpy glyph screen positions",
+    "rounded: actual right nudge follows screen X while retaining every other cluster position",
+    "Visible numeric Apply uses the same fixed projection as arrow movement for boundary C4",
+    "Manual movement preserves the current pan and zoom rather than resetting either viewport control",
+    "Actual Reset zoom handler releases the frozen frame and fits the current adjusted display",
+    "Changing rotation invalidates the old projection frame and fits the rotated layout",
+    "Restore original recovers exact native geometry after all screen-level movement tests"
+  ],
+  "native_source_hashes": [
+    "916aaa562c2475a5b11f7f610c9b9164728ff4b64e25118a57aee304cf52b244",
+    "9d2db1881ece14daa26ccb3ad86fc8c9a6dc8a975bd1147347a0d796250f834d"
+  ],
+  "metrics": [
+    {
+      "mode": "original",
+      "action": "up",
+      "expected_pixel_delta_y": -19.050342906200857,
+      "actual_first_C4_delta_y": -19.050342906200797,
+      "C4_checked": 593,
+      "other_nuclei_checked": 8318
+    },
+    {
+      "mode": "packed",
+      "action": "up",
+      "expected_pixel_delta_y": -17.330427248493088,
+      "actual_first_C4_delta_y": -17.33042724849311,
+      "C4_checked": 593,
+      "other_nuclei_checked": 8318
+    },
+    {
+      "mode": "rounded",
+      "action": "up",
+      "expected_pixel_delta_y": -31.658267821672542,
+      "actual_first_C4_delta_y": -31.658267821672553,
+      "C4_checked": 593,
+      "other_nuclei_checked": 8318
+    }
+  ],
+  "app_sha256": "812a4dfdedf298db4e7fcc86662989f9d53e797be7311e8e4cce03e2a5fb6edd"
+}

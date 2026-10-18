@@ -39,7 +39,7 @@
     "Display-coordinate CSV includes original coordinates and a nonspatial marker",
     "Marker CSV discloses custom glyph appearance while preserving source expression values"
   ],
-  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b",
+  "app_sha256": "812a4dfdedf298db4e7fcc86662989f9d53e797be7311e8e4cce03e2a5fb6edd",
   "helper_sha256": {
     "presentation_layouts.js": "111e881e368e55e91f7141b809782d7bb58c9d854eb4eec08341693807914b45",
     "marker_styling.js": "be29e9a06d81eaef0d08eee793e4445f9bd32e91677b42dcde5bd262ef5a4bf6"

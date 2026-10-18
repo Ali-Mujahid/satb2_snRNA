@@ -2,7 +2,7 @@
   "status": "PASS",
   "checks": 44,
   "scope": "VM_ACTUAL_APP_NATIVE_DATA_NO_NETWORK_NO_MODEL_FITS",
-  "app_sha256": "14f14e5a84db41f24d3b0d2c7775a19b158428984edc75a31237202448cac69b",
+  "app_sha256": "812a4dfdedf298db4e7fcc86662989f9d53e797be7311e8e4cce03e2a5fb6edd",
   "results": [
     {
       "name": "Runtime app appends 166 genes and three all-population presets without changing base registry",
