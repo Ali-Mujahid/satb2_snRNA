@@ -1,0 +1,10 @@
+{
+  "all_native_rows_independently_matched": 64936,
+  "all_scalar_values_exact": true,
+  "all_native_component_arrays_exact": true,
+  "transport_files_verified": 164,
+  "native7column_tables_verified": 36,
+  "all_native_source_hashes_unchanged": true,
+  "pages_data_bytes": 13092060,
+  "native_download_bytes": 83229124
+}

@@ -1,0 +1,13 @@
+tier	CA1_program	direction	directed_candidate_rows	CA1_only_DE	IN_only_DE	both_sides_DE
+replicate_identity_DE_magnitude	CA1_Deep	CA1_to_IN	161	155	5	1
+replicate_identity_DE_magnitude	CA1_Deep	IN_to_CA1	258	253	3	2
+replicate_identity_DE_magnitude	CA1_Superficial	CA1_to_IN	331	323	6	2
+replicate_identity_DE_magnitude	CA1_Superficial	IN_to_CA1	376	371	2	3
+plus_CPDB_specificity	CA1_Deep	CA1_to_IN	98	96	1	1
+plus_CPDB_specificity	CA1_Deep	IN_to_CA1	204	203	0	1
+plus_CPDB_specificity	CA1_Superficial	CA1_to_IN	160	156	4	0
+plus_CPDB_specificity	CA1_Superficial	IN_to_CA1	272	269	2	1
+plus_consensus_specificity	CA1_Deep	CA1_to_IN	41	41	0	0
+plus_consensus_specificity	CA1_Deep	IN_to_CA1	83	82	0	1
+plus_consensus_specificity	CA1_Superficial	CA1_to_IN	71	71	0	0
+plus_consensus_specificity	CA1_Superficial	IN_to_CA1	129	128	0	1

@@ -1,0 +1,29 @@
+{
+  "status": "VALIDATED_REVIEW_REQUIRED",
+  "nuclei": 29367,
+  "interaction_rows": 64936,
+  "figures_checked": 258,
+  "report_sha256": "f51c0cc5a2e7f8fa824bde9e62d62215f3d4b1a5833cf9b67563a337f0e0791c",
+  "source_hashes_unchanged": {
+    "counts": "e1d33c0f5143789de53de56f4c2faab4e659663418a91c2f92077ec7204a7e3f",
+    "nucleus_annotations": "e582eed6b1f6f067106107372ea9b3742c298659eb4e25ee2b0a8d806fbf70b7",
+    "category_memberships": "a201d223788351fea08947586dc85bb3b74284357a6e2f1caa6d10b4d43097ce",
+    "cluster_annotations": "a84fb3ef8121f2860c849146fcc991f4b4cad0a0b0b5376c5623b22bf4758ee4",
+    "samples": "13d99c9e3031cae30dfe8abd879a5a394547a1e1c252465d03d2387216744270",
+    "in_endpoint_map": "dd70e9124400cfa722c49833e66d4b0f4f6eed84ef2ef3168e50cd9700247ca8",
+    "program_endpoint_map": "dbcfa810f2a0c149d3b1aa5bd58b98f430983d05c8f759d0f5e5f8dd9f62fbe4",
+    "environment_audit": "44182790b29e2a56d4fe4abd8a535423947ffc7edf95647e5be9f6a00e5815e9"
+  },
+  "checks": [
+    "score ranges",
+    "native score formulae",
+    "unique exact LR keys",
+    "84 requested pairs in each condition",
+    "all seven-column projections",
+    "endpoint-specific DE support",
+    "eligible mouse denominators",
+    "untested genotype interaction P remains NA",
+    "all plot assets open",
+    "prior source content unchanged"
+  ]
+}

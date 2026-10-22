@@ -1,0 +1,13 @@
+scope	condition	direction	expression_qualified	rank_priority	DEG_supported	both_sides_DEG	DEG_supported_rank_priority
+IN_clusters	WT	CA1_to_IN	9043	1820	2483	5	675
+IN_clusters	WT	IN_to_CA1	10424	2293	2895	10	847
+IN_clusters	cKO	CA1_to_IN	10395	2007	3002	6	702
+IN_clusters	cKO	IN_to_CA1	11285	2558	3147	10	936
+IN_clusters	pooled	CA1_to_IN	9569	1906	2622	6	691
+IN_clusters	pooled	IN_to_CA1	10902	2427	3103	10	898
+IN_total	WT	CA1_to_IN	477	96	132	0	33
+IN_total	WT	IN_to_CA1	563	133	157	0	48
+IN_total	cKO	CA1_to_IN	546	103	163	0	33
+IN_total	cKO	IN_to_CA1	624	149	171	0	55
+IN_total	pooled	CA1_to_IN	501	100	139	0	34
+IN_total	pooled	IN_to_CA1	607	143	173	0	52

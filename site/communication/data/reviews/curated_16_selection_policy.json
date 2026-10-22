@@ -1,0 +1,11 @@
+{
+  "candidate_count": 16,
+  "filter": "Pooled IN-cluster magnitude_rank<=0.05, any endpoint-specific unambiguous saved DESeq2 padj<0.05, >=3 supporting WT and >=3 supporting cKO mice, IN identity review REFERENCE_SUPPORTED, native CPDB specificity P<=0.05",
+  "selection": "Four diverse manually selected examples per CA1 program/direction quadrant, selected from the filtered table; not a new composite ranking or exhaustive discovery list",
+  "localization_caveat": "Excluded Rims1\u2013Cacna1c from interpreted extracellular shortlist because Rims1 is a presynaptic cytoplasmic scaffold; native full exports unchanged. https://www.ncbi.nlm.nih.gov/datasets/gene/116837/",
+  "no_differential_interaction_test": true,
+  "DESeq2_effect_reference": "signed log2(cKO/WT) of the exact gene and matching existing population endpoint",
+  "symmetric_contact_caveat": "Reversed Nlgn/Nrxn orientations can share exact expression scores; these are prior orientations, not independent demonstrations of physiological signaling direction.",
+  "consensus_specificity_rank_filter_applied": false,
+  "distinction": "The 16-record table uses native CellPhoneDB specificity P<=0.05, not consensus specificity_rank<=0.05. Some examples (e.g. Slit3-Robo1) therefore do not qualify for the stronger consensus-specific tier."
+}

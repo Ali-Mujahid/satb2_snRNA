@@ -1,0 +1,107 @@
+{
+  "python": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/environment/.venv/bin/python",
+  "version": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "liana_version": "2.0.0",
+  "package_versions": {
+    "liana": "2.0.0",
+    "scanpy": "1.12.4",
+    "anndata": "0.13.4",
+    "numpy": "2.5.4",
+    "scipy": "1.18.1",
+    "pandas": "2.3.3",
+    "numba": "0.68.0",
+    "plotnine": "0.15.8",
+    "mudata": "0.4.1",
+    "matplotlib": "3.11.2",
+    "pooch": "1.9.0"
+  },
+  "api_signatures": {
+    "rank_aggregate": "(adata: 'an.AnnData | MuData', groupby: 'str', resource_name: 'str' = 'consensus', expr_prop: 'float' = 0.05, min_cells: 'int' = 5, groupby_pairs: 'DataFrame | None' = None, base: 'float' = np.float64(2.718281828459045), supp_columns: 'list[str] | None' = None, aggregate_method: \"Literal['rra', 'mean']\" = 'rra', consensus_opts: 'list[str] | Literal[False] | None' = None, return_all_lrs: 'bool' = False, key_added: 'str' = 'liana_res', use_raw: 'bool' = False, layer: 'str | None' = None, de_method: 'DeMethod' = 't-test', n_perms: 'int | None' = 1000, seed: 'int' = 1337, n_jobs: 'int' = 1, resource: 'DataFrame | None' = None, interactions: 'list[tuple[str, str]] | None' = None, mdata_kwargs: 'MdataKwargs | None' = None, spatial_key: 'str | None' = None, spatial_kwargs: 'SpatialKwargs | None' = None, inplace: 'bool' = True, verbose: 'bool | None' = False) -> 'DataFrame | dict[str, DataFrame] | None'",
+    "cellphonedb": "(adata: 'an.AnnData | MuData', groupby: 'str', resource_name: 'str' = 'consensus', expr_prop: 'float' = 0.05, min_cells: 'int' = 5, groupby_pairs: 'DataFrame | None' = None, base: 'float' = np.float64(2.718281828459045), supp_columns: 'list[str] | None' = None, return_all_lrs: 'bool' = False, key_added: 'str' = 'liana_res', use_raw: 'bool' = False, layer: 'str | None' = None, de_method: 'DeMethod' = 't-test', n_perms: 'int | None' = 1000, seed: 'int' = 1337, n_jobs: 'int' = 1, resource: 'DataFrame | None' = None, interactions: 'list[tuple[str, str]] | None' = None, spatial_key: 'str | None' = None, spatial_kwargs: 'SpatialKwargs | None' = None, mdata_kwargs: 'MdataKwargs | None' = None, inplace: 'bool' = True, verbose: 'bool | None' = False) -> 'DataFrame | None'",
+    "select_resource": "(resource_name: 'str' = 'consensus') -> 'DataFrame'"
+  },
+  "resource_names": [
+    "baccin2019",
+    "cellcall",
+    "cellchatdb",
+    "cellinker",
+    "cellphonedb",
+    "celltalkdb",
+    "connectomedb2020",
+    "consensus",
+    "embrace",
+    "guide2pharma",
+    "hpmr",
+    "icellnet",
+    "italk",
+    "kirouac2010",
+    "lrdb",
+    "mouseconsensus",
+    "ramilowski2015"
+  ],
+  "bundled_resource_file": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/environment/.venv/lib/python3.12/site-packages/liana/resource/omni_resource.csv",
+  "bundled_resource_sha256": "65e46a428818c0600de66c1574c94ff2f5dc80859998321c03a956d330dd67fb",
+  "mouseconsensus_n_pairs": 3989,
+  "mouseconsensus_columns": [
+    "ligand",
+    "receptor"
+  ],
+  "mouseconsensus_export_sha256": "0b9e2307fcbd482bb608f118d7e03bdbfc93e58d2c2032c844b648e3cca86f71",
+  "network_blocked": true,
+  "methods": [
+    {
+      "Method Name": "CellPhoneDB",
+      "Magnitude Score": "lr_means",
+      "Specificity Score": "cellphone_pvals",
+      "Reference": "Efremova, M., Vento-Tormo, M., Teichmann, S.A. and Vento-Tormo, R., 2020. CellPhoneDB: inferring cell\u2013cell communication from combined expression of multi-subunit ligand\u2013receptor complexes. Nature protocols, 15(4), pp.1484-1506. "
+    },
+    {
+      "Method Name": "Connectome",
+      "Magnitude Score": "expr_prod",
+      "Specificity Score": "scaled_weight",
+      "Reference": "Raredon, M.S.B., Yang, J., Garritano, J., Wang, M., Kushnir, D., Schupp, J.C., Adams, T.S., Greaney, A.M., Leiby, K.L., Kaminski, N. and Kluger, Y., 2022. Computation and visualization of cell\u2013cell signaling topologies in single-cell systems data using Connectome. Scientific reports, 12(1), pp.1-12. "
+    },
+    {
+      "Method Name": "log2FC",
+      "Magnitude Score": null,
+      "Specificity Score": "lr_logfc",
+      "Reference": "Dimitrov, D., T\u00fcrei, D., Garrido-Rodriguez, M., Burmedi, P.L., Nagai, J.S., Boys, C., Ramirez Flores, R.O., Kim, H., Szalai, B., Costa, I.G. and Valdeolivas, A., 2022. Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data. Nature Communications, 13(1), pp.1-13. "
+    },
+    {
+      "Method Name": "NATMI",
+      "Magnitude Score": "expr_prod",
+      "Specificity Score": "spec_weight",
+      "Reference": "Hou, R., Denisenko, E., Ong, H.T., Ramilowski, J.A. and Forrest, A.R., 2020. Predicting cell-to-cell communication networks using NATMI. Nature communications, 11(1), pp.1-11. "
+    },
+    {
+      "Method Name": "SingleCellSignalR",
+      "Magnitude Score": "lrscore",
+      "Specificity Score": null,
+      "Reference": "Cabello-Aguilar, S., Alame, M., Kon-Sun-Tack, F., Fau, C., Lacroix, M. and Colinge, J., 2020. SingleCellSignalR: inference of intercellular networks from single-cell transcriptomics. Nucleic Acids Research, 48(10), pp.e55-e55. "
+    },
+    {
+      "Method Name": "Rank_Aggregate",
+      "Magnitude Score": "magnitude_rank",
+      "Specificity Score": "specificity_rank",
+      "Reference": "Dimitrov, D., T\u00fcrei, D., Garrido-Rodriguez, M., Burmedi, P.L., Nagai, J.S., Boys, C., Ramirez Flores, R.O., Kim, H., Szalai, B., Costa, I.G. and Valdeolivas, A., 2022. Comparison of methods and resources for cell-cell communication inference from single-cell RNA-Seq data. Nature Communications, 13(1), pp.1-13. "
+    },
+    {
+      "Method Name": "Geometric Mean",
+      "Magnitude Score": "lr_gmeans",
+      "Specificity Score": "gmean_pvals",
+      "Reference": "CellPhoneDBv2's permutation approach applied to the geometric means of ligand-receptors' mean, as opposed to their arithmetic mean."
+    },
+    {
+      "Method Name": "scSeqComm",
+      "Magnitude Score": "inter_score",
+      "Specificity Score": null,
+      "Reference": "Baruzzo, G., Cesaro, G., Di Camillo, B. 2022. Identify, quantify and characterize cellular communication from single-cell RNA-sequencing data with scSeqComm. Bioinformatics, 38(7), pp.1920-1929"
+    },
+    {
+      "Method Name": "CellChat",
+      "Magnitude Score": "lr_probs",
+      "Specificity Score": "cellchat_pvals",
+      "Reference": "Jin, S., Guerrero-Juarez, C.F., Zhang, L., Chang, I., Ramos, R., Kuan, C.H., Myung, P., Plikus, M.V. and Nie, Q., 2021. Inference and analysis of cell-cell communication using CellChat. Nature communications, 12(1), pp.1-20. "
+    }
+  ]
+}

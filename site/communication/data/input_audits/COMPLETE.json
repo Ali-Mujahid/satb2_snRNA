@@ -1,0 +1,73 @@
+{
+  "config_sha256": "558f29079998733277fb4aa2e4fded34743820b9866b78dec1c034b5614984cd",
+  "files": {
+    "expression_normalization.json": {
+      "bytes": 1006,
+      "sha256": "333ad48723dffb277fd20d8eb72d46530491884293f4c0c8037e76521f92c8ba"
+    },
+    "feature_mapping.tsv": {
+      "bytes": 2273680,
+      "sha256": "245a060513b0d75376a4fdc8faa1c5453137b80957e9ad2f9ab5c67e37a366d9"
+    },
+    "group_metadata.tsv": {
+      "bytes": 11296,
+      "sha256": "090334cd656662b4ef63ae6d76cf194611b264dafb80e19c1a320c84f85d4b47"
+    },
+    "lr_expression.h5ad": {
+      "bytes": 226953692,
+      "sha256": "0b76ddee0b3d0712178a16629c271517b034b0d59a3ebc06fa3205036874a705"
+    },
+    "nuclei_per_mouse.tsv": {
+      "bytes": 9228,
+      "sha256": "24dd01f387abbf8b9467030ee73a729d38e34eea985339a33c68e373706b791d"
+    },
+    "nucleus_library_sizes.tsv.gz": {
+      "bytes": 675656,
+      "sha256": "26a0edb18cf9634482c553c4f124b85bd1481cb2aed76947bad2c651bd86a7a1"
+    },
+    "resource_coverage.tsv": {
+      "bytes": 191418,
+      "sha256": "1c4b0f44b686b15eda6be9ab24f02a57a2b41af1056c278d127aa75da688cec3"
+    },
+    "source_hashes.json": {
+      "bytes": 44863,
+      "sha256": "bd24242f0f3dce4d9b952ae5e1aae80d3044e7fd9c624cc0bd9b6024a1e5f0b2"
+    },
+    "symbol_ambiguities.tsv": {
+      "bytes": 9613,
+      "sha256": "b6651ba524132dc49bdccbf564b30b82c5814fffd28e70e1267cbe9412c195e9"
+    }
+  },
+  "finished_utc": "2026-10-22T14:23:16.002359+00:00",
+  "group_counts": {
+    "CA1_Deep": 8750,
+    "CA1_Superficial": 11706,
+    "IN_C1": 1718,
+    "IN_C10": 331,
+    "IN_C11": 289,
+    "IN_C12": 278,
+    "IN_C13": 249,
+    "IN_C14": 243,
+    "IN_C15": 239,
+    "IN_C16": 139,
+    "IN_C17": 116,
+    "IN_C18": 94,
+    "IN_C19": 51,
+    "IN_C2": 1307,
+    "IN_C20": 31,
+    "IN_C3": 883,
+    "IN_C4": 593,
+    "IN_C5": 519,
+    "IN_C6": 501,
+    "IN_C7": 481,
+    "IN_C8": 468,
+    "IN_C9": 381
+  },
+  "n_genes": 32245,
+  "n_nuclei": 29367,
+  "prior_sources_unchanged": true,
+  "started_utc": "2026-10-22T14:22:39.111512+00:00",
+  "status": "COMPLETE",
+  "supplemental_IN_Total_nuclei": 8911,
+  "workflow_version": "1.0.0"
+}

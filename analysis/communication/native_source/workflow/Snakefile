@@ -1,0 +1,57 @@
+from pathlib import Path
+
+SOURCE = Path(workflow.basedir).parent
+RUN = Path(config['run_root'])
+RES = RUN / 'results'
+MASTER = str(Path(workflow.configfiles[-1]).resolve())
+PY = config['python_executable']
+ENV = 'OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 NUMBA_NUM_THREADS=4'
+
+rule all:
+    input: str(RES / 'FINAL_VALIDATION.json')
+
+rule prepare:
+    input:
+        master=MASTER,
+        script=str(SOURCE / 'scripts/prepare_inputs.py'),
+        sources=[v['path'] for v in config['inputs'].values()],
+        resource=config['resource_file']
+    output: str(RES / 'prepared/COMPLETE.json')
+    log: str(RUN / 'logs/prepare.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY, env=ENV, out=str(RES / 'prepared')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.master:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule score:
+    input:
+        str(RES / 'prepared/COMPLETE.json'),
+        script=str(SOURCE / 'scripts/run_liana.py')
+    output: str(RES / 'communication/COMPLETE.json')
+    log: str(RUN / 'logs/liana.log')
+    threads: 4
+    resources: mem_mb=8192
+    params: py=PY, env=ENV, cfg=MASTER, prepared=str(RES / 'prepared'), out=str(RES / 'communication')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --prepared {params.prepared:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule plots:
+    input:
+        str(RES / 'communication/COMPLETE.json'),
+        script=str(SOURCE / 'plots/plot_ccc.py')
+    output: str(RES / 'report/index.html')
+    log: str(RUN / 'logs/plots.log')
+    threads: 4
+    resources: mem_mb=6144
+    params: py=PY, env=ENV, results=str(RES / 'communication'), out=str(RES / 'report')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --results {params.results:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule validate:
+    input:
+        str(RES / 'report/index.html'),
+        script=str(SOURCE / 'scripts/validate_outputs.py')
+    output: str(RES / 'FINAL_VALIDATION.json')
+    log: str(RUN / 'logs/validate.log')
+    threads: 4
+    resources: mem_mb=4096
+    params: py=PY, env=ENV, cfg=MASTER, results=str(RES)
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --results {params.results:q} > {log:q} 2>&1'

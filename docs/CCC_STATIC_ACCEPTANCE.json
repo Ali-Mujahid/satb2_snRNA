@@ -1,0 +1,76 @@
+{
+  "status": "PASS",
+  "validation_scope": "Static, native-data, VM/DOM mocks and saved scientific-byte integrity; live HTTPS browser checks recorded separately",
+  "base_atlas_integrity": {
+    "status": "PASS",
+    "shards": 3140,
+    "previous_3140_shards_preserved": true,
+    "site_bytes": 911677444,
+    "n_datasets": 24,
+    "n_marker_genes": 889,
+    "n_screenshot_genes": 75,
+    "n_mouse_genes": 32285,
+    "n_mouse_endpoints": 1060,
+    "scientific_model_fitting_performed": false,
+    "n_gene_expression_shards": 2670,
+    "n_expression_branches": 3,
+    "gene_expression_bytes_outside_pages": 165350996,
+    "coordinate_ids_covered": 1215858,
+    "sparse_nonzero_counts_checked": 57032184,
+    "gene_json_js_catalogs_match": true
+  },
+  "v34_integrity": {
+    "status": "PASS",
+    "mode": "READ_ONLY_SAVED_BYTES_AND_DESCRIPTIVE_ARITHMETIC",
+    "new_genes": 166,
+    "total_marker_genes": 1055,
+    "marker_shards": 24,
+    "gene_vector_shards": 498,
+    "marker_summary_rows": 243522,
+    "scaled_rows_checked": 162348,
+    "sparse_nucleus_counts_checked": 21548987,
+    "independent_native_integer_checks_recorded": 974088,
+    "marker_bytes_outside_pages": 22635481,
+    "gene_vector_bytes_outside_pages": 64836996,
+    "original_catalog_hashes_unchanged": true,
+    "old_axes_reused": true,
+    "exact_pinned_tag": "atlas-v3.4.0",
+    "panels": [
+      {
+        "id": "user_20261018_all_cell_types",
+        "requested": 100,
+        "selected": 99,
+        "unresolved_unique": 1
+      },
+      {
+        "id": "user_20261018_CA1_ProS",
+        "requested": 158,
+        "selected": 118,
+        "unresolved_unique": 34
+      },
+      {
+        "id": "user_20261018_CA1_sublayers",
+        "requested": 100,
+        "selected": 97,
+        "unresolved_unique": 3
+      }
+    ],
+    "scientific_model_fitting_performed": false
+  },
+  "communication_native_rows": 64936,
+  "native_transport_hashes": 164,
+  "default_pooled_DEG_records": 1589,
+  "strict_pooled_records": 324,
+  "strict_CA1_to_IN": 112,
+  "strict_IN_to_CA1": 212,
+  "both_end_DEG_records": 2,
+  "test_suites": [
+    "communication_model.cjs",
+    "communication_charts.cjs",
+    "communication_networks.cjs",
+    "communication_app.cjs"
+  ],
+  "portable_embedded_scripts_compiled": 7,
+  "no_scientific_fits": true,
+  "scientific_sources_modified": false
+}

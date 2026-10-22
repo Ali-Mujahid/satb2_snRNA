@@ -1,0 +1,46 @@
+{
+  "schema": "satb2-communication-portable/v1",
+  "html_file": "SATB2_LR_interactive_offline.html",
+  "bytes": 10173072,
+  "sha256": "3ffdb10a08d6c808df906c4349d340b04dee6680b517fbb8456ec213f4d310af",
+  "embedded_sources": [
+    {
+      "path": "site/vendor/fflate.min.js",
+      "sha256": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83"
+    },
+    {
+      "path": "site/vendor/jspdf.umd.min.js",
+      "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+    },
+    {
+      "path": "site/communication/data/data.js",
+      "sha256": "33b0348b62e8f76dbeab60e4dbad9de3c50e8f85f334c78083f2fbefc43bd533"
+    },
+    {
+      "path": "site/communication/model.js",
+      "sha256": "ae15f26aa9716de7ab25ba4f3e51f74750b1848a77fd90cbdb1315d96bcba91d"
+    },
+    {
+      "path": "site/communication/charts.js",
+      "sha256": "f00393a35f98485cd4d93d79d53ea778f41996d173de8a52530e05bd9f9f0acc"
+    },
+    {
+      "path": "site/communication/networks.js",
+      "sha256": "80a131b72b2425b1d19eba18ee1ec9ab5aa486624c9323819d33b041c0066d4d"
+    },
+    {
+      "path": "site/communication/app.js",
+      "sha256": "6014f21c4ebe94c9b1c3af47340da1d07b75f47244034ee97df9f662c7fc625f"
+    },
+    {
+      "path": "site/communication/styles.css",
+      "sha256": "2f1f16bc0e578fc3fb2fca125c499eefe0e113b5ba0b283016d7940c19756798"
+    }
+  ],
+  "external_render_dependencies": [],
+  "all_six_fits_embedded": true,
+  "matching_LR_component_DESeq2_evidence_embedded": true,
+  "scientific_fits_performed": false,
+  "native_complete_package": "SATB2_CA1_IN_LIANA_20261022.zip",
+  "external_links_require_internet": true
+}

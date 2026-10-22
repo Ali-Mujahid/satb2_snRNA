@@ -1,0 +1,30 @@
+{
+  "workflow_version": "1.0.3",
+  "controller": {
+    "engine": "snakemake",
+    "verified_version": "9.27.0",
+    "environment_scope": "user-selected existing isolated project controller",
+    "catalog_observation": "host_path fallback; source and closure are not lock-bound"
+  },
+  "task_environment": {
+    "python_executable_config_key": "python_executable",
+    "verified_python": "3.12.14 arm64, new isolated task environment",
+    "versions": {
+      "liana": "2.0.0",
+      "scanpy": "1.12.4",
+      "anndata": "0.13.4"
+    },
+    "requirements": "Explicit configured Python with immutable LIANA source, recorded package artifact hashes, offline frozen mouse resource; no installation hooks"
+  },
+  "limits": {
+    "threads": 4,
+    "scientific_processes_at_once": 1,
+    "minimum_available_RAM_GiB": 8,
+    "minimum_available_disk_GiB": 5,
+    "network_access": false,
+    "install_hooks": false,
+    "overwrite_prior_results": false
+  },
+  "reproducibility_limit": "Existing Host PATH Snakemake controller reused by explicit user choice; task environment source/archive and downloaded package artifacts are hash-recorded. Rankings are exploratory, not independent genotype inference.",
+  "execution_scope": "hash-verified completed scores reused; rendering and validation only; no scientific refits"
+}

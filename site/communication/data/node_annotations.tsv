@@ -1,0 +1,24 @@
+group	label	annotation	review
+CA1_Superficial	CA1 Superficial	Superficial-associated expression program enriched	False
+IN_C3	IN C3	046 Vip Gaba	False
+IN_C14	IN C14	046 Vip Gaba	False
+CA1_Deep	CA1 Deep	Deep-associated expression program enriched	False
+IN_C9	IN C9	047 Sncg Gaba	False
+IN_C12	IN C12	Inhibitory; mixed atlas subclasses	True
+IN_C15	IN C15	048 RHP-COA Ndnf Gaba	False
+IN_C13	IN C13	048 RHP-COA Ndnf Gaba	False
+IN_C7	IN C7	049 Lamp5 Gaba	False
+IN_C2	IN C2	053 Sst Gaba	False
+IN_C19	IN C19	Inhibitory; mixed atlas subclasses	True
+IN_C10	IN C10	053 Sst Gaba	False
+IN_C6	IN C6	053 Sst Gaba	False
+IN_C4	IN C4	050 Lamp5 Lhx6 Gaba	False
+IN_C18	IN C18	Inhibitory; mixed atlas subclasses	True
+IN_C16	IN C16	Inhibitory; mixed atlas subclasses	True
+IN_C17	IN C17	053 Sst Gaba	False
+IN_C20	IN C20	052 Pvalb Gaba; Microglia/Other_immune-associated signature review	True
+IN_C8	IN C8	Inhibitory; mixed atlas subclasses	True
+IN_C5	IN C5	052 Pvalb Gaba	False
+IN_C1	IN C1	052 Pvalb Gaba	False
+IN_C11	IN C11	051 Pvalb chandelier Gaba	False
+IN_Total	IN Total	Inhibitory total	True

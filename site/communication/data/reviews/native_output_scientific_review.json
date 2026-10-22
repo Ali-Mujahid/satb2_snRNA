@@ -1,0 +1,101 @@
+{
+  "status": "PASS",
+  "review": "read-only native-output and saved-source verification; no refit",
+  "checks": {
+    "unique_interaction_key": true,
+    "all_numeric_finite": true,
+    "all_ranks_in_0_1": true,
+    "all_subunit_detection_ge_0_1": true,
+    "native_lfc_formula": true,
+    "IN_clusters_pooled_raw_expr_prod": true,
+    "IN_clusters_pooled_raw_cpdb_means": true,
+    "IN_clusters_pooled_raw_gmean": true,
+    "IN_clusters_pooled_cpdb1000_grid": true,
+    "IN_clusters_WT_raw_expr_prod": true,
+    "IN_clusters_WT_raw_cpdb_means": true,
+    "IN_clusters_WT_raw_gmean": true,
+    "IN_clusters_WT_cpdb1000_grid": true,
+    "IN_clusters_cKO_raw_expr_prod": true,
+    "IN_clusters_cKO_raw_cpdb_means": true,
+    "IN_clusters_cKO_raw_gmean": true,
+    "IN_clusters_cKO_cpdb1000_grid": true,
+    "IN_total_pooled_raw_expr_prod": true,
+    "IN_total_pooled_raw_cpdb_means": true,
+    "IN_total_pooled_raw_gmean": true,
+    "IN_total_pooled_cpdb1000_grid": true,
+    "IN_total_WT_raw_expr_prod": true,
+    "IN_total_WT_raw_cpdb_means": true,
+    "IN_total_WT_raw_gmean": true,
+    "IN_total_WT_cpdb1000_grid": true,
+    "IN_total_cKO_raw_expr_prod": true,
+    "IN_total_cKO_raw_cpdb_means": true,
+    "IN_total_cKO_raw_gmean": true,
+    "IN_total_cKO_cpdb1000_grid": true,
+    "ligand_matched_endpoint_primary_DE_support": true,
+    "ligand_all_components_DE_support": true,
+    "receptor_matched_endpoint_primary_DE_support": true,
+    "receptor_all_components_DE_support": true,
+    "any_side_support_formula": true,
+    "both_side_support_formula": true,
+    "WT_sample_support_independent_recount": true,
+    "WT_sample_eligibility_independent_recount": true,
+    "WT_support_within_eligible_and6": true,
+    "cKO_sample_support_independent_recount": true,
+    "cKO_sample_eligibility_independent_recount": true,
+    "cKO_support_within_eligible_and6": true,
+    "IN_C18_never_provides_DE_support": true,
+    "IN_total_never_provides_DE_support": true
+  },
+  "rows": 64936,
+  "mouse_rows": 226930,
+  "counts": [
+    {
+      "scope": "IN_clusters",
+      "condition": "WT",
+      "rows": 19467,
+      "DE_supported": 5378,
+      "both_sides_DE": 15,
+      "support_ge3_both": 15426
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "cKO",
+      "rows": 21680,
+      "DE_supported": 6149,
+      "both_sides_DE": 16,
+      "support_ge3_both": 15725
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "pooled",
+      "rows": 20471,
+      "DE_supported": 5725,
+      "both_sides_DE": 16,
+      "support_ge3_both": 15754
+    },
+    {
+      "scope": "IN_total",
+      "condition": "WT",
+      "rows": 1040,
+      "DE_supported": 289,
+      "both_sides_DE": 0,
+      "support_ge3_both": 1026
+    },
+    {
+      "scope": "IN_total",
+      "condition": "cKO",
+      "rows": 1170,
+      "DE_supported": 334,
+      "both_sides_DE": 0,
+      "support_ge3_both": 1042
+    },
+    {
+      "scope": "IN_total",
+      "condition": "pooled",
+      "rows": 1108,
+      "DE_supported": 312,
+      "both_sides_DE": 0,
+      "support_ge3_both": 1038
+    }
+  ]
+}

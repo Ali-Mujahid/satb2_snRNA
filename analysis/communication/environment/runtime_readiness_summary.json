@@ -1,0 +1,10 @@
+{
+  "n_installed_distributions": 67,
+  "n_runtime_artifacts_with_sha256": 66,
+  "closure_lock_sha256": "9c88dfd0f17d0b23e22182b5f55a6460aa512731128fdbd1faa140c8100e245c",
+  "freeze_sha256": "cede3bfbd1068f6c4c4c6e46df55fe9018637bca8fe57a934cb706e9d63cccd9",
+  "liana_code_file_manifest_sha256": "118ce8f8f25bd4207a76620d42a0edca2bd46770a1edc18ee617ea0a995952d5",
+  "prior_environment_package_closure_unchanged": true,
+  "pip_check": "No broken requirements found.",
+  "scientific_analysis_executed": false
+}

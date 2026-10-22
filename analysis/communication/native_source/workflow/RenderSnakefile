@@ -1,0 +1,46 @@
+from pathlib import Path
+SOURCE = Path(workflow.basedir).parent
+RUN = Path(config['run_root'])
+RES = RUN / 'results'
+MASTER = str(Path(workflow.configfiles[-1]).resolve())
+PY = config['python_executable']
+ENV = 'OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMEXPR_NUM_THREADS=1 NUMBA_NUM_THREADS=4'
+
+rule all:
+    input: str(RES / 'FINAL_VALIDATION.json')
+
+rule reuse_completed_scores:
+    input:
+        master=MASTER,
+        script=str(SOURCE / 'scripts/reuse_completed_scores.py'),
+        source_complete=str(Path(config['completed_results_root']) / 'communication/COMPLETE.json'),
+        completed=[x['path'] for x in config['completed_artifacts']]
+    output: str(RES / 'communication/REUSE_RECEIPT.json'), str(RES / 'report/index.html')
+    log: str(RUN / 'logs/reuse.log')
+    threads: 4
+    resources: mem_mb=2048
+    params: py=PY, env=ENV
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.master:q} > {log:q} 2>&1'
+
+rule gene_complex_networks:
+    input:
+        str(RES / 'communication/REUSE_RECEIPT.json'),
+        script=str(SOURCE / 'plots/plot_gene_circos.py')
+    output: str(RES / 'report/gene_networks/index.html')
+    log: str(RUN / 'logs/gene_networks.log')
+    threads: 4
+    resources: mem_mb=4096
+    params: py=PY, env=ENV, evidence=str(RES / 'communication/tables/interaction_evidence.tsv.gz'), out=str(RES / 'report/gene_networks')
+    shell: 'env {params.env} {params.py:q} {input.script:q} --evidence {params.evidence:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule validate:
+    input:
+        str(RES / 'report/index.html'),
+        str(RES / 'report/gene_networks/index.html'),
+        script=str(SOURCE / 'scripts/validate_outputs.py')
+    output: str(RES / 'FINAL_VALIDATION.json')
+    log: str(RUN / 'logs/validate.log')
+    threads: 4
+    resources: mem_mb=4096
+    params: py=PY, env=ENV, cfg=MASTER, results=str(RES)
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {params.cfg:q} --results {params.results:q} > {log:q} 2>&1'

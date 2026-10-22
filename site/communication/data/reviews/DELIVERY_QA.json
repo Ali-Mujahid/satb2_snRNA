@@ -1,0 +1,65 @@
+{
+  "browser_UI_tested": false,
+  "browser_limit": "Local file protocol blocked by browser tool; no workaround attempted",
+  "native_report_sha256": "f51c0cc5a2e7f8fa824bde9e62d62215f3d4b1a5833cf9b67563a337f0e0791c",
+  "main": {
+    "selector_combinations_checked": 216,
+    "panels": 258,
+    "options": {
+      "scope": [
+        "IN_clusters",
+        "IN_total"
+      ],
+      "direction": [
+        "CA1_to_IN",
+        "IN_to_CA1",
+        "bidirectional"
+      ],
+      "condition": [
+        "WT",
+        "cKO",
+        "pooled"
+      ],
+      "evidence": [
+        "DEG_supported",
+        "all_candidates",
+        "replicated_specific"
+      ],
+      "kind": [
+        "dotplot",
+        "heatmap",
+        "circos",
+        "circle"
+      ],
+      "page": []
+    },
+    "all_link_targets_exist": true
+  },
+  "gene": {
+    "selector_combinations_checked": 18,
+    "panels": 18,
+    "options": {
+      "scope": [
+        "IN_clusters",
+        "IN_total"
+      ],
+      "direction": [
+        "CA1_to_IN",
+        "IN_to_CA1",
+        "bidirectional"
+      ],
+      "condition": [
+        "WT",
+        "cKO",
+        "pooled"
+      ]
+    },
+    "all_link_targets_exist": true
+  },
+  "pdf_files": 276,
+  "png_files": 276,
+  "svg_files": 276,
+  "delivery_index_sha256": "2dd37b29c35e6cbcee51e199b5f3a6fa219ebb0887fc6fe05438c406be122ee1",
+  "javascript_syntax": "PASS; compiled with Node vm.Script without executing browser code",
+  "native_index_unchanged": true
+}

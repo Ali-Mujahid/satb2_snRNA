@@ -1,4 +1,4 @@
-Current hosted update: **[atlas v3.4.1](https://ali-mujahid.github.io/satb2_snRNA/)** — three ordered user marker presets, 166 additional source-count genes, visible cluster packing and rounded schematics. [Guide and validation](docs/ATLAS_V3_4_USER_PANELS.md). Previous scientific results and portable archives are preserved.
+Current hosted update: **[atlas v3.5.0](https://ali-mujahid.github.io/satb2_snRNA/)** — adds the **[interactive CA1–inhibitory ligand–receptor explorer](https://ali-mujahid.github.io/satb2_snRNA/communication/)** with detailed results, adjustable dotplots/heatmaps/circos/circles, WT/cKO comparisons, native tables and an offline HTML download. [Guide and validation](docs/ATLAS_V3_5_COMMUNICATION.md). Previous scientific results and atlas controls are preserved.
 
 # SATB2 single-nucleus RNA-seq atlas
 

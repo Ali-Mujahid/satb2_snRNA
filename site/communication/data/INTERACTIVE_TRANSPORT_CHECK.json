@@ -1,0 +1,35 @@
+{
+  "runtime": "Node VM + actual bundled fflate",
+  "schema": "satb2-liana-atlas/v1",
+  "decoded_sha256": "497f35d40dc99daac8b746b0c37e350d3192a1a13c427db9631c09b34df00fdc",
+  "columns": 48,
+  "datasets": {
+    "IN_clusters|pooled": {
+      "rows": 20471,
+      "eligible_pairs": 80
+    },
+    "IN_clusters|WT": {
+      "rows": 19467,
+      "eligible_pairs": 80
+    },
+    "IN_clusters|cKO": {
+      "rows": 21680,
+      "eligible_pairs": 80
+    },
+    "IN_total|pooled": {
+      "rows": 1108,
+      "eligible_pairs": 4
+    },
+    "IN_total|WT": {
+      "rows": 1040,
+      "eligible_pairs": 4
+    },
+    "IN_total|cKO": {
+      "rows": 1170,
+      "eligible_pairs": 4
+    }
+  },
+  "nodes": 23,
+  "strict324": 324,
+  "cntn3_both_endpoint_candidates": 2
+}
