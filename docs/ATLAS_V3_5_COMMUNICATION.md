@@ -33,3 +33,5 @@ The default pooled DEG-supported tier has 1,589 population-specific records. The
 `scripts/verify_communication_atlas.py` verifies the compressed payload, all six dataset sizes, unique native keys, 164 transport hashes, native-table preservation, links and Pages size. Four Node suites check numerical filters/native evidence, charts, network geometry and actual app code with VM/DOM mocks. These checks do not open native expression objects or fit models. Browser downloads and rendering are verified separately against the deployed HTTPS atlas.
 
 `scripts/build_communication_portable.py` builds the standalone HTML and a source-SHA receipt. `scripts/package_communication_atlas.py` reproducibly transports the completed report; it is not a scoring workflow.
+
+Version3.5.1 preserves the exact visible plot’s settings, native rows, title and filename during asynchronous PDF/PNG generation, including changes made before the pending redraw. Dotplot captions retain the full filtered LR and population-pair totals. The six scientific data fits and all native data URLs remain pinned to3.5.0.

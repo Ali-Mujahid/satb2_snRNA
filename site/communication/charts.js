@@ -185,7 +185,7 @@
     var allLrs = Array.from(lrs.values()).sort(compare), allPairs = Array.from(pairs.values()).sort(compare);
     var orderedLrs = Array.isArray(ctx.lrOrder) ? ctx.lrOrder.map(function (key) { var parts = key.split(ARROW); return lrs.get(key) || { key: key, ligand: parts[0], receptor: parts.slice(1).join(ARROW), rank: Infinity, order: 0 }; }) : allLrs;
     var orderedPairs = Array.isArray(ctx.pairOrder) ? ctx.pairOrder.map(function (key) { var parts = key.split(ARROW); return pairs.get(key) || { key: key, source: parts[0], target: parts.slice(1).join(ARROW), rank: Infinity, order: 0 }; }) : allPairs;
-    return { lrs: orderedLrs.slice(0, setting(o, 'topN', 24, 1, 120)), pairs: orderedPairs.slice(0, setting(o, 'pairLimit', 20, 1, 100)), totalLrs: orderedLrs.length, totalPairs: orderedPairs.length, index: index };
+    return { lrs: orderedLrs.slice(0, setting(o, 'topN', 24, 1, 120)), pairs: orderedPairs.slice(0, setting(o, 'pairLimit', 20, 1, 100)), totalLrs: num(ctx.totalLrs) !== null ? Math.max(orderedLrs.length, Number(ctx.totalLrs)) : orderedLrs.length, totalPairs: num(ctx.totalPairs) !== null ? Math.max(orderedPairs.length, Number(ctx.totalPairs)) : orderedPairs.length, index: index };
   }
   function tooltip(row, metric) {
     return row.source + ' \u2192 ' + row.target + '\n' + row.ligand_complex + ' \u2192 ' + row.receptor_complex + '\n' +

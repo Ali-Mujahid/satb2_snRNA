@@ -2,7 +2,7 @@
 /* Pure VM/data and DOM-mock acceptance checks. This does not launch a browser. */
 const assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),zlib=require('node:zlib');
 const base=path.join(__dirname,'../site/communication'),html=fs.readFileSync(path.join(base,'index.html'),'utf8'),elements=new Map(),downloads=[],pdfs=[],errors=[];
-let nextUrl=0;const blobs=new Map();
+let nextUrl=0,decodeBarrier=null,decodeEntered=0;const blobs=new Map(),drawnImages=[];
 class Element{
  constructor(id,tag='div',attrs=''){this.id=id;this.tagName=tag.toUpperCase();this.type=(attrs.match(/\btype="([^"]*)"/)||[])[1]||'';this.multiple=/\bmultiple\b/.test(attrs);this.value=(attrs.match(/\bvalue="([^"]*)"/)||[])[1]||'';this.dataset={};this.hidden=false;this.disabled=false;this.options=[];this.listeners={};this.textContent='';this._html='';this.attributes=[];this.classList={toggle(){},add(){},remove(){}};}
  set innerHTML(value){this._html=value;for(const m of value.matchAll(/<([\w-]+)\b([^>]*\bid="([^"]+)"[^>]*)>/g))if(!elements.has(m[3]))elements.set(m[3],new Element(m[3],m[1],m[2]));if(this.tagName==='SELECT'){this.options=[...value.matchAll(/<option\b([^>]*)>([\s\S]*?)<\/option>/g)].map(m=>({value:(m[1].match(/value="([^"]*)"/)||[])[1]||'',selected:/\bselected\b/.test(m[1]),textContent:m[2]}));if(!this.value&&this.options.length)this.value=this.options[0].value;}}
@@ -21,9 +21,9 @@ for(const m of html.matchAll(/<([\w-]+)\b([^>]*\bid="([^"]+)"[^>]*)>/g))elements
 for(const m of html.matchAll(/<select\b[^>]*id="([^"]+)"[^>]*>([\s\S]*?)<\/select>/g))elements.get(m[1]).innerHTML=m[2];
 const tabs=[...html.matchAll(/<button\b[^>]*data-view="([^"]+)"[^>]*>/g)].map(m=>{const e=new Element('tab-'+m[1],'button');e.dataset.view=m[1];return e;});
 const document={getElementById:id=>elements.get(id)||null,querySelectorAll:q=>q==='[data-view]'?tabs:[],querySelector:()=>null,body:new Element('body'),createElement:tag=>{
- const el=new Element('',tag);if(tag==='canvas'){el.getContext=()=>({fillRect(){},drawImage(){},fillStyle:''});el.toDataURL=()=> 'data:image/png;base64,AA==';el.toBlob=fn=>fn(new Blob(['PNG'],{type:'image/png'}));}return el;
+ const el=new Element('',tag);if(tag==='canvas'){el.getContext=()=>({fillRect(){},drawImage(img){drawnImages.push(blobs.get(img.src));},fillStyle:''});el.toDataURL=()=> 'data:image/png;base64,AA==';el.toBlob=fn=>fn(new Blob(['PNG'],{type:'image/png'}));}return el;
 }};
-class ImageMock{async decode(){assert.ok(blobs.has(this.src));}}
+class ImageMock{async decode(){assert.ok(blobs.has(this.src));if(decodeBarrier){decodeEntered++;await decodeBarrier.promise;}}}
 class DOMParserMock{parseFromString(s){const attrs={};for(const m of s.slice(0,s.indexOf('>')).matchAll(/(width|height)="([^"]+)"/g))attrs[m[1]]=m[2];return {documentElement:{getAttribute:k=>attrs[k]}};}}
 class PDFMock{constructor(opts){this.opts=opts;pdfs.push(this);}setProperties(p){this.properties=p;}addImage(...args){this.image=args;}save(name){this.name=name;}}
 const window={jspdf:{jsPDF:PDFMock}},store=new Map(),sandbox={window,document,Blob,Image:ImageMock,DOMParser:DOMParserMock,URL:{createObjectURL:b=>{const u='blob:mock/'+ ++nextUrl;blobs.set(u,b);return u;},revokeObjectURL(){}},localStorage:{getItem:k=>store.get(k)||null,setItem:(k,v)=>store.set(k,v)},setTimeout:()=>1,clearTimeout(){},console:{error:e=>errors.push(e.message)},TextDecoder,Uint8Array};
@@ -84,6 +84,18 @@ check('SVG style scoping isolates text/classes in adjacent plots and rewrites lo
  await A.exportPlot(0,'png');assert.equal(downloads.at(-1).blob.type,'image/png');
  await A.exportPlot(0,'pdf');assert.equal(pdfs.length,1);assert.equal(pdfs[0].opts.format[0],1280);assert.equal(pdfs[0].opts.format[1],1080);assert.equal(pdfs[0].image[1],'PNG');assert.equal(pdfs[0].image[4],1280);assert.equal(pdfs[0].image[5],1080);assert.ok(pdfs[0].name.endsWith('.pdf'));
  checks.push('Current styled SVG, JSON, PNG and PDF export code paths complete with finite dimensions (DOM/canvas/PDF mocks)');console.log('PASS '+checks.at(-1));
+ A.setup(data,{...baseState,scope:'IN_clusters',condition:'WT',direction:'CA1_to_IN',view:'circle',edgeColorMode:'custom',edgeColor:'#789abc'});A.render();const initial=A.displayed[0],oldPdfCount=pdfs.length;
+ let releaseDecode;decodeBarrier={promise:new Promise(resolve=>{releaseDecode=resolve;})};const pending=A.exportPlot(0,'pdf');assert.equal(decodeEntered,1,'PDF export must yield during image decoding.');
+ A.change('scope','IN_total');A.change('condition','cKO');A.change('direction','IN_to_CA1');A.change('view','heatmap');A.render();assert.equal(A.state.scope,'IN_total');assert.equal(A.state.condition,'cKO');assert.equal(A.state.view,'heatmap');assert.equal(A.displayed[0].context.scope,'IN_total');
+ decodeBarrier=null;releaseDecode();await pending;
+ assert.equal(pdfs.length,oldPdfCount+1);const resumed=pdfs.at(-1);assert.equal(resumed.name,'SATB2_LR_IN_clusters_WT_CA1_to_IN_circle.pdf','An export begun before navigation retains its original scope, condition, direction and view.');assert.equal(resumed.properties.title,'SATB2 Directed population circle · WT','PDF metadata must describe the original chart, not the current tab.');assert.equal(resumed.opts.format[0],1280);assert.equal(resumed.opts.format[1],1080);assert.equal(await drawnImages.at(-1).text(),initial.svg,'The rasterized SVG must retain the exact initial plot data and style.');
+ checks.push('An in-flight PDF export retains its original plot, title and filename after changing scope, condition, direction and view during image decoding');console.log('PASS '+checks.at(-1));
+ A.setup(data,{...baseState,scope:'IN_clusters',condition:'WT',direction:'CA1_to_IN',view:'circle',edgeColorMode:'custom',edgeColor:'#abcdef',nodeColors:{IN_C1:'#102030'}});A.render();const lastRendered=A.displayed[0];
+ A.change('scope','IN_total');A.change('condition','cKO');A.change('direction','IN_to_CA1');A.change('view','heatmap');A.change('edgeColor','#998877');
+ assert.equal(A.displayed[0],lastRendered,'The debounced redraw has not yet replaced the visible old plot.');assert.equal(A.state.scope,'IN_total');assert.equal(lastRendered.settings.scope,'IN_clusters');
+ await A.exportPlot(0,'json');const beforeRedraw=JSON.parse(await downloads.at(-1).blob.text());assert.equal(beforeRedraw.settings.scope,'IN_clusters');assert.equal(beforeRedraw.settings.condition,'WT');assert.equal(beforeRedraw.settings.view,'circle');assert.equal(beforeRedraw.settings.edgeColor,'#abcdef');assert.equal(beforeRedraw.settings.nodeColors.IN_C1,'#102030');assert.equal(beforeRedraw.scope,'IN_clusters');assert.equal(beforeRedraw.condition,'WT');assert.ok(beforeRedraw.records.every(r=>r.scope==='IN_clusters'&&r.condition==='WT'));
+ await A.exportPlot(0,'pdf');assert.equal(pdfs.at(-1).name,'SATB2_LR_IN_clusters_WT_CA1_to_IN_circle.pdf');assert.equal(pdfs.at(-1).properties.title,'SATB2 Directed population circle · WT');assert.equal(await drawnImages.at(-1).text(),lastRendered.svg);
+ checks.push('Export during a pending debounced redraw uses the visible plot’s deep settings snapshot, exact native records and original PDF provenance');console.log('PASS '+checks.at(-1));
  assert.equal(JSON.stringify(data),original);assert.equal(errors.filter(e=>!/maximum must be greater/.test(e)).length,0,errors.join('\n'));
  console.log(JSON.stringify({status:'PASS',checks:checks.length,mode:'PURE_VM_DATA_DOM_MOCKS_NO_BROWSER',check_names:checks},null,2));
 })().catch(e=>{console.error(e);process.exitCode=1;});

@@ -72,5 +72,7 @@
   ],
   "portable_embedded_scripts_compiled": 7,
   "no_scientific_fits": true,
-  "scientific_sources_modified": false
+  "scientific_sources_modified": false,
+  "app_acceptance_groups_after_export_fix": 11,
+  "async_export_and_pending_redraw_context_preserved": true
 }

@@ -1,8 +1,8 @@
 {
   "schema": "satb2-communication-portable/v1",
   "html_file": "SATB2_LR_interactive_offline.html",
-  "bytes": 10173072,
-  "sha256": "3ffdb10a08d6c808df906c4349d340b04dee6680b517fbb8456ec213f4d310af",
+  "bytes": 10173482,
+  "sha256": "a60faa087afb83635123620b60eb8af0e12f697f4e0ebe9616e13fead757e9f0",
   "embedded_sources": [
     {
       "path": "site/vendor/fflate.min.js",
@@ -22,7 +22,7 @@
     },
     {
       "path": "site/communication/charts.js",
-      "sha256": "f00393a35f98485cd4d93d79d53ea778f41996d173de8a52530e05bd9f9f0acc"
+      "sha256": "1d58220b1d7dfe45669bfac068d3d31d2184f96abe52645d262a14daec6dd759"
     },
     {
       "path": "site/communication/networks.js",
@@ -30,7 +30,7 @@
     },
     {
       "path": "site/communication/app.js",
-      "sha256": "6014f21c4ebe94c9b1c3af47340da1d07b75f47244034ee97df9f662c7fc625f"
+      "sha256": "0f1ebfec2edd0119d8d3ff37139631ab9425abadf58bd65452484d7bbbbbd90c"
     },
     {
       "path": "site/communication/styles.css",

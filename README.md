@@ -1,4 +1,4 @@
-Current hosted update: **[atlas v3.5.0](https://ali-mujahid.github.io/satb2_snRNA/)** — adds the **[interactive CA1–inhibitory ligand–receptor explorer](https://ali-mujahid.github.io/satb2_snRNA/communication/)** with detailed results, adjustable dotplots/heatmaps/circos/circles, WT/cKO comparisons, native tables and an offline HTML download. [Guide and validation](docs/ATLAS_V3_5_COMMUNICATION.md). Previous scientific results and atlas controls are preserved.
+Current hosted update: **[atlas v3.5.1](https://ali-mujahid.github.io/satb2_snRNA/)** — adds the **[interactive CA1–inhibitory ligand–receptor explorer](https://ali-mujahid.github.io/satb2_snRNA/communication/)** with detailed results, adjustable dotplots/heatmaps/circos/circles, WT/cKO comparisons, native tables and an offline HTML download. [Guide and validation](docs/ATLAS_V3_5_COMMUNICATION.md). Previous scientific results and atlas controls are preserved.
 
 # SATB2 single-nucleus RNA-seq atlas
 
