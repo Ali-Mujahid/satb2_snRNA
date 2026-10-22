@@ -34,4 +34,6 @@ The default pooled DEG-supported tier has 1,589 population-specific records. The
 
 `scripts/build_communication_portable.py` builds the standalone HTML and a source-SHA receipt. `scripts/package_communication_atlas.py` reproducibly transports the completed report; it is not a scoring workflow.
 
-Version3.5.1 preserves the exact visible plot’s settings, native rows, title and filename during asynchronous PDF/PNG generation, including changes made before the pending redraw. Dotplot captions retain the full filtered LR and population-pair totals. The six scientific data fits and all native data URLs remain pinned to3.5.0.
+Version 3.5.1 preserves the exact visible plot’s settings, native rows, title and filename during asynchronous PDF/PNG generation, including changes made before the pending redraw. Dotplot captions retain the full filtered LR and population-pair totals. The six scientific data fits and all native data URLs remain pinned to 3.5.0.
+
+Live verification: all five PDF plot downloads were parsed, rendered and visually reviewed. The final SVG, PNG and plot-state downloads and exact component/seven-column exports also passed. See [live acceptance](CCC_LIVE_ACCEPTANCE.json) and [screenshot](images/communication_v351_live.jpg). Settings import passed code tests; its automated browser filechooser test was blocked by the extension’s local-file permission. That permission was not changed.

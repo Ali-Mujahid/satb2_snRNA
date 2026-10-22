@@ -1,0 +1,129 @@
+{
+  "status": "PASS_WITH_DOCUMENTED_AUTOMATION_LIMIT",
+  "version": "3.5.1",
+  "live_url": "https://ali-mujahid.github.io/satb2_snRNA/communication/",
+  "deployment": {
+    "conclusion": "success",
+    "headSha": "9e977fb1ccadf12d3bbf2533c7ad26a4d225030a",
+    "status": "completed",
+    "url": "https://github.com/Ali-Mujahid/satb2_snRNA/actions/runs/39857441464"
+  },
+  "actual_live_counts": {
+    "IN_clusters_DEG_priority": {
+      "pooled": 1589,
+      "WT": 1522,
+      "cKO": 1638
+    },
+    "IN_total_DEG_priority": {
+      "pooled": 86,
+      "WT": 81,
+      "cKO": 88
+    },
+    "pooled_strict": 324,
+    "strict_CA1_to_IN": 112,
+    "strict_IN_to_CA1": 212,
+    "strict_IN_total": 0,
+    "both_endpoint_Cntn3_Ptprg_records": 2
+  },
+  "controls_checked_live": [
+    "condition",
+    "resolution",
+    "evidence tier",
+    "direction",
+    "both-end DEG support",
+    "side-by-side WT/cKO",
+    "custom numeric colors",
+    "dot radius",
+    "LR count using native numeric input",
+    "custom arrow color and size",
+    "edge width",
+    "custom arc color, thickness and gap",
+    "component evidence inspection",
+    "reset settings"
+  ],
+  "PDF_actual_downloads": [
+    {
+      "kind": "dotplot",
+      "file": "SATB2_LR_IN_clusters_WT_both_dotplot.pdf",
+      "bytes": 610540,
+      "pages": 1,
+      "width_pt": 1095.0,
+      "height_pt": 1344.0,
+      "title": "SATB2 Ligand\u2013receptor dotplot \u00b7 WT",
+      "image_count": 1,
+      "sha256": "32f17c2d3cedbdc95e927767c219da80c14724979402e30241fe3b165c0fd6fc"
+    },
+    {
+      "kind": "heatmap",
+      "file": "SATB2_LR_IN_clusters_WT_both_heatmap.pdf",
+      "bytes": 398153,
+      "pages": 1,
+      "width_pt": 1050.0,
+      "height_pt": 1100.0,
+      "title": "SATB2 Interaction heatmap \u00b7 WT",
+      "image_count": 1,
+      "sha256": "d1f9043c9072fcc6f314b6b0ddf81c289d5e10eaeb91564a0649e4fe402fcd83"
+    },
+    {
+      "kind": "circle",
+      "file": "SATB2_LR_IN_clusters_WT_both_circle.pdf",
+      "bytes": 1148326,
+      "pages": 1,
+      "width_pt": 1280.0,
+      "height_pt": 1080.0,
+      "title": "SATB2 Directed population circle \u00b7 WT",
+      "image_count": 1,
+      "sha256": "f4e9f6052ffc073ef5782978da0bb58f2f57bffe2489076393d81a4a5ae50328"
+    },
+    {
+      "kind": "circos",
+      "file": "SATB2_LR_IN_clusters_WT_both_circos.pdf",
+      "bytes": 1386379,
+      "pages": 1,
+      "width_pt": 1280.0,
+      "height_pt": 1080.0,
+      "title": "SATB2 Directed circos ribbons \u00b7 WT",
+      "image_count": 1,
+      "sha256": "69ade44695cb307fb4820686976b6f380b3d1a8d019538807fa6dfd98ebc8a98"
+    },
+    {
+      "kind": "geneCircle",
+      "file": "SATB2_LR_IN_clusters_WT_both_geneCircle.pdf",
+      "bytes": 483794,
+      "pages": 1,
+      "width_pt": 1280.0,
+      "height_pt": 1080.0,
+      "title": "SATB2 Gene / complex circle \u00b7 WT",
+      "image_count": 1,
+      "sha256": "a94a597485dd5a76c5d8b5ca08cc19ebaab32fdcdbed6e40007d8692fb055a5b"
+    }
+  ],
+  "PDF_render_review": "All five actual downloaded PDFs parsed and rendered with Poppler; all five renderings visually inspected, no clipped labels or legends. PDFs use high-resolution raster geometry; SVG preserves vectors.",
+  "final_v351_exports": {
+    "SVG_records": 324,
+    "PNG_size": [
+      3840,
+      3240
+    ],
+    "plot_state_JSON_records": 324,
+    "native_seven_column_rows": 2,
+    "matching_component_symbols": [
+      "Cntn3",
+      "Ptprg"
+    ],
+    "matching_component_signed_effects_correct": true,
+    "release_asset_sha_matches_local": true
+  },
+  "browser_console_errors": [],
+  "offline_HTML": "All render dependencies, six fits and matching LR component evidence embedded; seven inline scripts compile; server asset digest equals local file. Offline file was not browser-opened because local file URLs are outside automation policy.",
+  "settings_import_test": {
+    "code_tests": "PASS",
+    "actual_browser_import": "NOT_AUTOMATED",
+    "reason": "Chrome extension filechooser refused local-file access. The extension setting was not changed and no alternate upload route was attempted. Settings export was tested successfully."
+  },
+  "export_regressions": "11 app acceptance groups pass, including navigation during image decoding and controls changed before a pending redraw; exact visible SVG, settings, records, title and filename retained.",
+  "proof_screenshot": "docs/images/communication_v351_live.jpg",
+  "proof_sha256": "f1fb5eb3dbcfb27421e750e32b95b42ccbf84a261ced6de8617b9f7cd9bedd29",
+  "biological_analysis_rerun": false,
+  "previous_scientific_results_modified": false
+}
