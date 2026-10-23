@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "files": [
+    {
+      "view": "dotplot",
+      "file": "/Users/mujahid357/Downloads/SATB2_DEG_ONLY_LR_IN_clusters_pooled_both_dotplot.pdf",
+      "bytes": 355114,
+      "sha256": "20af2af80f417066c132523b9300f0a31f13b1c15d5e991f4dd1f83fedb7e172",
+      "pages": 1,
+      "roundtrip_render": "PASS"
+    },
+    {
+      "view": "heatmap",
+      "file": "/Users/mujahid357/Downloads/SATB2_DEG_ONLY_LR_IN_clusters_pooled_both_heatmap.pdf",
+      "bytes": 195918,
+      "sha256": "17b92d1bd4140f75cf86ce34c5a46ac23562482a7c22c77b412e76654815f8e0",
+      "pages": 1,
+      "roundtrip_render": "PASS"
+    },
+    {
+      "view": "circos",
+      "file": "/Users/mujahid357/Downloads/SATB2_DEG_ONLY_LR_IN_clusters_pooled_both_circos.pdf",
+      "bytes": 344598,
+      "sha256": "fc29157549967e3e36e65d0f77301db08a93f7b821a7fa12aec283348a737f46",
+      "pages": 1,
+      "roundtrip_render": "PASS"
+    },
+    {
+      "view": "circle",
+      "file": "/Users/mujahid357/Downloads/SATB2_DEG_ONLY_LR_IN_clusters_pooled_both_circle.pdf",
+      "bytes": 248663,
+      "sha256": "a4bbb08b16d3457a7627fc008d2d85c69b1c01cf67f112db0190191e7131b589",
+      "pages": 1,
+      "roundtrip_render": "PASS"
+    },
+    {
+      "view": "geneCircle",
+      "file": "/Users/mujahid357/Downloads/SATB2_DEG_ONLY_LR_IN_clusters_pooled_both_geneCircle.pdf",
+      "bytes": 471509,
+      "sha256": "5aa4fc580450b528a76d30516eb125a6ef29e08f7c7900c254c7a257643cf050",
+      "pages": 1,
+      "roundtrip_render": "PASS"
+    }
+  ]
+}

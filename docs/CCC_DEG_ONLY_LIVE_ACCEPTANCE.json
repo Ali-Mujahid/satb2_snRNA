@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "verified_at_UTC": "2026-10-23T19:45:38.790231+00:00",
+  "release": "atlas-v3.6.0",
+  "published_commit": "6c5e8ce",
+  "live_url": "https://ali-mujahid.github.io/satb2_snRNA/communication/",
+  "browser": "ChatGPT in-app browser via CUA",
+  "deployment_run": "https://github.com/Ali-Mujahid/satb2_snRNA/actions/runs/40012919595",
+  "deployment_conclusion": "success",
+  "deployed_assets": [
+    {
+      "asset": "index.html",
+      "bytes": 23582,
+      "sha256": "d9eac40e43271929b7aec4d5383803705e4a5da316c68bab00569ff66c7f97bb",
+      "exact_deployed_bytes": true
+    },
+    {
+      "asset": "RESULTS.html",
+      "bytes": 10610,
+      "sha256": "13dd6a6919053ea9bbf7bec1fe81435405fe41e37192aedbab05a2386ae58f90",
+      "exact_deployed_bytes": true
+    },
+    {
+      "asset": "data/deg_only_data.js",
+      "bytes": 13404,
+      "sha256": "b59064b8a2fb204fd8905284c8e5b4f8fb8a1c529b681c80b39afcc4d314b548",
+      "exact_deployed_bytes": true
+    },
+    {
+      "asset": "data/DEG_ONLY_MANIFEST.json",
+      "bytes": 58994,
+      "sha256": "3fecc908986b1801a76aad6707df933cb9bc3ab96b233da18fa9ee6caf3a0dc1",
+      "exact_deployed_bytes": true
+    },
+    {
+      "asset": "data/deg_only/index.html",
+      "bytes": 9776,
+      "sha256": "08ad1ed3bd2a7976bd2583383e705410c8c2d4a842917313b46b3fd4b9cd3695",
+      "exact_deployed_bytes": true
+    }
+  ],
+  "live_UI_checks": {
+    "fixed_five_endpoint_scope": true,
+    "both_DEG_gate_checked_disabled": true,
+    "pooled_all_ranks": 16,
+    "pooled_rank_le_05": 8,
+    "WT_cKO_side_by_side": [
+      15,
+      16
+    ],
+    "direction_counts_CA1_to_IN_IN_to_CA1": [
+      6,
+      10
+    ],
+    "ligand_receptor_direction_combinations": {
+      "up→up": 3,
+      "up→down": 2,
+      "down→down": 4,
+      "down→up": 7
+    },
+    "C8_source_zero_records": true,
+    "C8_Calb1_resource_explanation_visible": true,
+    "separate_gene_directions_log2FC_padj_in_table": true,
+    "Cntn3_down_Ptprg_up_exact_component_evidence": true,
+    "custom_up_down_colors_reach_gene_outlines": true,
+    "annotations_hide_show": true,
+    "PDF_downloads_all_five_plot_types": true,
+    "PDF_parse_and_roundtrip": true,
+    "representative_live_PDF_visual_review": [
+      "dotplot",
+      "geneCircle"
+    ],
+    "static_precomputed_PDF_visual_review_all_15": true,
+    "all_16_filtered_rows_in_downloads": true,
+    "seven_column_LR_contract": true,
+    "signed_extended_columns": 57,
+    "console_errors_or_warnings": 0
+  },
+  "scientific_changes": {
+    "model_refits": 0,
+    "native_scores_changed": false,
+    "prior_analyses_overwritten": false,
+    "strict_endpoint_projection": true
+  },
+  "portable_validation": "All scripts/data embedded; strict policy and actual application code tested via pure data/VM/DOM mocks; external links only require internet.",
+  "screenshot": "images/communication_v360_live.png"
+}
