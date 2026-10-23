@@ -1,0 +1,7 @@
+scope	condition	direction	legacy_any_endpoint_DEG_rank_0.05	all_saved_ranks	magnitude_rank_le_0.05	replicated_specific	endpoint_scope_status
+IN_clusters	pooled	CA1_to_IN	691	6	3	0	eligible_requested_population_pairs
+IN_clusters	pooled	IN_to_CA1	898	10	5	2	eligible_requested_population_pairs
+IN_clusters	WT	CA1_to_IN	675	5	3	0	eligible_requested_population_pairs
+IN_clusters	WT	IN_to_CA1	847	10	6	2	eligible_requested_population_pairs
+IN_clusters	cKO	CA1_to_IN	702	6	3	0	eligible_requested_population_pairs
+IN_clusters	cKO	IN_to_CA1	936	10	4	2	eligible_requested_population_pairs

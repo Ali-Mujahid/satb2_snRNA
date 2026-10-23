@@ -1,0 +1,365 @@
+{
+  "CA1_Deep": {
+    "Ptprg": [
+      {
+        "symbol": "Ptprg",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000021745",
+            "log2FoldChange": 0.396662898348867,
+            "padj": 0.0164890846193748
+          }
+        ]
+      }
+    ],
+    "Slit1": [
+      {
+        "symbol": "Slit1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000025020",
+            "log2FoldChange": -0.302420081435827,
+            "padj": 0.0191792001492757
+          }
+        ]
+      }
+    ],
+    "Dcc": [
+      {
+        "symbol": "Dcc",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000060534",
+            "log2FoldChange": 0.287119279102296,
+            "padj": 0.000631401342217106
+          }
+        ]
+      }
+    ],
+    "Ptn": [
+      {
+        "symbol": "Ptn",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000029838",
+            "log2FoldChange": -0.646432817664542,
+            "padj": 5.28169647780048e-05
+          }
+        ]
+      }
+    ],
+    "Plxna1": [
+      {
+        "symbol": "Plxna1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000030084",
+            "log2FoldChange": -0.554600432667862,
+            "padj": 6.45729559585826e-08
+          }
+        ]
+      }
+    ]
+  },
+  "CA1_Superficial": {
+    "Nrxn1": [
+      {
+        "symbol": "Nrxn1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000024109",
+            "log2FoldChange": -0.213199906011135,
+            "padj": 0.00768437782769383
+          }
+        ]
+      }
+    ],
+    "Ptprg": [
+      {
+        "symbol": "Ptprg",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000021745",
+            "log2FoldChange": 0.490436982395737,
+            "padj": 2.92705474648591e-08
+          }
+        ]
+      }
+    ],
+    "App": [
+      {
+        "symbol": "App",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000022892",
+            "log2FoldChange": 0.107326097261656,
+            "padj": 0.0056696570270579
+          }
+        ]
+      }
+    ],
+    "Robo1": [
+      {
+        "symbol": "Robo1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000022883",
+            "log2FoldChange": -0.356839585116053,
+            "padj": 3.80513802676105e-06
+          }
+        ]
+      }
+    ],
+    "Chl1": [
+      {
+        "symbol": "Chl1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000030077",
+            "log2FoldChange": 0.155787714034863,
+            "padj": 0.0229001264066859
+          }
+        ]
+      }
+    ],
+    "Ptn": [
+      {
+        "symbol": "Ptn",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000029838",
+            "log2FoldChange": -1.0156943506422,
+            "padj": 4.67337600907134e-06
+          }
+        ]
+      }
+    ],
+    "Penk": [
+      {
+        "symbol": "Penk",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000045573",
+            "log2FoldChange": 0.805079447138543,
+            "padj": 4.02800047940461e-11
+          }
+        ]
+      }
+    ],
+    "Cntn5": [
+      {
+        "symbol": "Cntn5",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000039488",
+            "log2FoldChange": -0.948528582585692,
+            "padj": 2.9770854941744e-09
+          }
+        ]
+      }
+    ],
+    "Plxna1": [
+      {
+        "symbol": "Plxna1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000030084",
+            "log2FoldChange": -0.715206634516655,
+            "padj": 2.94190927518936e-15
+          }
+        ]
+      }
+    ]
+  },
+  "IN_C1": {
+    "Nlgn1": [
+      {
+        "symbol": "Nlgn1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000063887",
+            "log2FoldChange": 0.414119830035552,
+            "padj": 0.0003485867296883
+          }
+        ]
+      }
+    ],
+    "Grm7": [
+      {
+        "symbol": "Grm7",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000056755",
+            "log2FoldChange": 0.355120311313548,
+            "padj": 0.00776138292600816
+          }
+        ]
+      }
+    ],
+    "Fstl5": [
+      {
+        "symbol": "Fstl5",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000034098",
+            "log2FoldChange": 0.649334307515594,
+            "padj": 0.0430275009621274
+          }
+        ]
+      }
+    ],
+    "Ptprz1": [
+      {
+        "symbol": "Ptprz1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000068748",
+            "log2FoldChange": 0.58999942629199,
+            "padj": 0.0038240844210845
+          }
+        ]
+      }
+    ]
+  },
+  "IN_C6": {
+    "Cntn3": [
+      {
+        "symbol": "Cntn3",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000030075",
+            "log2FoldChange": -0.538345736488978,
+            "padj": 0.00370056392063516
+          }
+        ]
+      }
+    ],
+    "Robo1": [
+      {
+        "symbol": "Robo1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000022883",
+            "log2FoldChange": -0.458226563973235,
+            "padj": 3.38377237193439e-05
+          }
+        ]
+      }
+    ],
+    "Slit2": [
+      {
+        "symbol": "Slit2",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000031558",
+            "log2FoldChange": -1.49305703829644,
+            "padj": 3.48294562700813e-06
+          }
+        ]
+      }
+    ]
+  },
+  "IN_C8": {
+    "Calb1": [
+      {
+        "symbol": "Calb1",
+        "tested_endpoint": true,
+        "ambiguous_symbol": false,
+        "significant_any_stable_id": true,
+        "primary_deg_support": true,
+        "in_mouse_resource": false,
+        "stable_id_results": [
+          {
+            "gene_id": "ENSMUSG00000028222",
+            "log2FoldChange": 1.93206760368337,
+            "padj": 0.0154178430986269
+          }
+        ]
+      }
+    ]
+  }
+}

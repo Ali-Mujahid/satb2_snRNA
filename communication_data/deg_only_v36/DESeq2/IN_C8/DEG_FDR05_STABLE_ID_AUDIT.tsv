@@ -1,0 +1,2 @@
+export_row	gene_id	baseMean	log2FoldChange	lfcSE	stat	pvalue	padj	source_gene_symbol	display_symbol	gene_symbol_missing_exported_NA
+1793	ENSMUSG00000028222	13.1651305477548	1.93206760368337	0.4034081419944	4.78936194527823	1.67312459019283e-06	0.0154178430986269	Calb1	Calb1	FALSE

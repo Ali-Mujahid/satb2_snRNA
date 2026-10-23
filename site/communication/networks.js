@@ -2,7 +2,7 @@
 (function (global) {
   'use strict';
   const TAU = Math.PI * 2, W = 1280, H = 1080, CX = W / 2, CY = 470;
-  const DEFAULTS = Object.freeze({palette:'viridis', lowColor:'#440154', midColor:'#21918c', highColor:'#fde725', reverseScale:false, scaleMode:'auto', colorMin:0, colorMax:1, fontSize:12, opacity:.7, nodeRadius:16, nodeScale:1, edgeWidth:6, arrowSize:9, curvature:.35, arcWidth:16, arcGap:3, ribbonScale:1, edgeColorMode:'source', edgeColor:'#687b9c', arcColorMode:'node', arcColor:'#687b9c', nodeColorMode:'palette', nodeColor:'#4a84a7', geneEdges:12});
+  const DEFAULTS = Object.freeze({palette:'viridis', lowColor:'#440154', midColor:'#21918c', highColor:'#fde725', reverseScale:false, scaleMode:'auto', colorMin:0, colorMax:1, fontSize:12, opacity:.7, nodeRadius:16, nodeScale:1, edgeWidth:6, arrowSize:9, curvature:.35, arcWidth:16, arcGap:3, ribbonScale:1, edgeColorMode:'source', edgeColor:'#687b9c', arcColorMode:'node', arcColor:'#687b9c', nodeColorMode:'palette', nodeColor:'#4a84a7', geneEdges:12, showDEGDirections:true, degUpColor:'#c63d4f', degDownColor:'#397eb5', degMixedColor:'#8b6bb1'});
   const COLORS = ['#2166ac','#b35806','#5e3c99','#1b9e77','#d95f02','#7570b3','#e7298a','#66a61e','#a6761d','#1f78b4','#b2df8a','#e31a1c','#6a3d9a','#ff7f00','#33a02c','#fb9a99','#cab2d6','#b15928','#8dd3c7','#bc80bd','#80b1d3','#fdb462'];
   const esc = x => String(x == null ? '' : x).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]));
   const finite = x => typeof x === 'number' && Number.isFinite(x);
@@ -15,6 +15,27 @@
   const lrKey = row => JSON.stringify([String(row.ligand_complex),String(row.receptor_complex)]);
   const geneKey = row => JSON.stringify([String(row.source),String(row.target),String(row.ligand_complex),String(row.receptor_complex)]);
   const nodeKey = (population,complex,role) => JSON.stringify([population,complex,role]);
+  const degDirection = (row,role) => row && ['up','down','mixed','unavailable'].includes(row[role+'_deg_direction']) ? row[role+'_deg_direction'] : null;
+  const directionSymbol = direction => ({up:'↑',down:'↓',mixed:'mixed',unavailable:'NA'}[direction] || 'NA');
+  const signedRows = (rows,o) => o.showDEGDirections !== false && rows.some(r=>degDirection(r,'ligand') || degDirection(r,'receptor'));
+  function directionCounts(rows) {
+    const counts={},seen=new Set();
+    for (const row of rows) {
+      const l=degDirection(row,'ligand'),r=degDirection(row,'receptor'),key=geneKey(row);
+      if (!l || !r || seen.has(key)) continue;
+      seen.add(key);const combo=l+'→'+r;counts[combo]=(counts[combo] || 0)+1;
+    }
+    return counts;
+  }
+  function directionSummary(counts) { return Object.keys(counts).sort().map(k=>{const [l,r]=k.split('→');return 'L'+directionSymbol(l)+'/R'+directionSymbol(r)+': '+counts[k];}).join(' · '); }
+  function degColor(direction,o) { return safeColor(direction==='up'?o.degUpColor:direction==='down'?o.degDownColor:direction==='mixed'?o.degMixedColor:'#98a4ad',direction==='up'?'#c63d4f':direction==='down'?'#397eb5':'#8b6bb1'); }
+  function degDetails(row,role) {
+    const direction=degDirection(row,role);
+    return direction ? (role==='ligand'?'Ligand':'Receptor')+' DESeq2 cKO vs WT: '+direction+'; log2FC '+format(number(row[role+'_deseq2_log2fc'],null))+'; padj '+format(number(row[role+'_deseq2_padj'],null))+'.' : '';
+  }
+  function degLegend(o) {
+    return '<g class="ccc-deg-legend" font-family="Arial,Helvetica,sans-serif" font-size="12" fill="#526977"><text x="34" y="1051">Gene outline / label: endpoint DESeq2, cKO vs WT.</text><line x1="377" y1="1047" x2="399" y2="1047" stroke="'+esc(degColor('up',o))+'" stroke-width="3"/><text x="407" y="1051">↑ up-regulated</text><line x1="532" y1="1047" x2="554" y2="1047" stroke="'+esc(degColor('down',o))+'" stroke-width="3"/><text x="562" y="1051">↓ down-regulated</text><text x="724" y="1051">Gene directions do not define net interaction activity.</text></g>';
+  }
   function opt(ctx) {
     const o = {...DEFAULTS,...((ctx || {}).options || {})};
     o.fontSize = clamp(number(o.fontSize,12),8,30); o.opacity = clamp(number(o.opacity,.7),.02,1);
@@ -62,10 +83,10 @@
     for (const row of rows) {
       if (!row || row.source == null || row.target == null || row.ligand_complex == null || row.receptor_complex == null) continue;
       const key=pairKey(row.source,row.target); if (eligible && !eligible.has(key)) continue;
-      if (!map.has(key)) map.set(key,{source:String(row.source),target:String(row.target),identities:new Set(),records:0});
-      const p=map.get(key); p.identities.add(lrKey(row)); p.records++;
+      if (!map.has(key)) map.set(key,{source:String(row.source),target:String(row.target),identities:new Set(),records:0,rows:[]});
+      const p=map.get(key); if (!p.identities.has(lrKey(row))) p.rows.push(row);p.identities.add(lrKey(row)); p.records++;
     }
-    return Array.from(map.values()).map(p=>({source:p.source,target:p.target,count:p.identities.size,records:p.records})).sort((a,b)=>pairKey(a.source,a.target).localeCompare(pairKey(b.source,b.target)));
+    return Array.from(map.values()).map(p=>({source:p.source,target:p.target,count:p.identities.size,records:p.records,deg_direction_counts:directionCounts(p.rows)})).sort((a,b)=>pairKey(a.source,a.target).localeCompare(pairKey(b.source,b.target)));
   }
   function summary(rows,ctx) {
     const pairs=aggregate(rows,ctx), degree={};
@@ -79,7 +100,7 @@
     return node ? node.color : safeColor(o.edgeColor,DEFAULTS.edgeColor);
   }
   function metadata(kind,ctx,rows,o,extra) {
-    return {view:kind,condition:ctx.condition || '',scope:ctx.scope || '',direction:ctx.direction || '',input_records:rows.length,display_only:true,options:o,...extra};
+    return {view:kind,condition:ctx.condition || '',scope:ctx.scope || '',direction:ctx.direction || '',input_records:rows.length,display_only:true,options:o,endpoint_deg_direction_counts:directionCounts(rows),...extra};
   }
   function start(kind,ctx,rows,o,extra={}) {
     const titles={circle:'Directed cell-group circle',circos:'Directed cell-group circos',geneCircle:'Ligand–receptor complex circle'};
@@ -88,7 +109,7 @@
       '<title>'+esc(titles[kind]+' — '+subtitle)+'</title><desc>Transcript and prior compatible candidates. Arrowheads indicate the listed ligand sender to receptor receiver. No genotype interaction significance test is implied.</desc>'+
       '<metadata>'+esc(JSON.stringify(metadata(kind,ctx,rows,o,extra)))+'</metadata><rect width="100%" height="100%" fill="#ffffff"/>'+
       '<g font-family="Arial,Helvetica,sans-serif" fill="#243b4b"><text x="32" y="35" font-size="22" font-weight="700">'+esc(titles[kind])+'</text>'+
-      '<text x="32" y="61" font-size="13" fill="#526977">'+esc(subtitle)+'</text></g>';
+      '<text x="32" y="61" font-size="13" fill="#526977">'+esc(subtitle)+'</text>'+(signedRows(rows,o)?'<text x="32" y="86" font-size="12" fill="#526977" data-deg-summary="true">'+esc('Endpoint DEGs, cKO vs WT: '+directionSummary(directionCounts(rows))+' (L = ligand; R = receptor).')+'</text>':'')+'</g>';
   }
   function end(lines,o,domain,label) {
     let s='<g font-family="Arial,Helvetica,sans-serif" fill="#526977" font-size="'+Math.min(14,o.fontSize)+'">';
@@ -139,14 +160,14 @@
     for (const p of s.pairs.slice().sort((a,b)=>a.count-b.count)) {
       const from=lookup.get(p.source),to=lookup.get(p.target); if (!from || !to) continue;
       const fill=edgeColor(p,lookup,domain,o,p.count),width=o.edgeWidth*Math.sqrt(p.count/edgeMax),path=curve(from.position,to.position,from.radius+2,to.radius+3,o);
-      const desc=p.source+' → '+p.target+'; '+p.count+' distinct ligand→receptor identities; listed sender→receiver, not inferred activation or inhibition.';
-      svg+='<g class="ccc-edge" data-source="'+esc(p.source)+'" data-target="'+esc(p.target)+'" data-count="'+p.count+'"><title>'+esc(desc)+'</title><path d="'+path.d+'" fill="none" stroke="'+esc(fill)+'" stroke-width="'+round(width)+'" stroke-opacity="'+o.opacity+'"/>'+arrow(path.end,path.tangent,o.arrowSize,fill,o.opacity)+'</g>';
+      const desc=p.source+' → '+p.target+'; '+p.count+' distinct ligand→receptor identities; listed sender→receiver, not inferred activation or inhibition.'+(Object.keys(p.deg_direction_counts).length?' Endpoint DESeq2 cKO vs WT: '+directionSummary(p.deg_direction_counts)+'. These describe endpoint genes, not aggregate interaction regulation.':'');
+      svg+='<g class="ccc-edge" data-source="'+esc(p.source)+'" data-target="'+esc(p.target)+'" data-count="'+p.count+'" data-deg-counts="'+esc(JSON.stringify(p.deg_direction_counts))+'"><title>'+esc(desc)+'</title><path d="'+path.d+'" fill="none" stroke="'+esc(fill)+'" stroke-width="'+round(width)+'" stroke-opacity="'+o.opacity+'"/>'+arrow(path.end,path.tangent,o.arrowSize,fill,o.opacity)+'</g>';
     }
     svg+='</g><g class="ccc-nodes">';
     for (const n of nodes) {
       svg+='<g class="ccc-node" data-node="'+esc(n.id)+'" data-degree="'+n.degree+'" data-radius="'+round(n.radius)+'"><title>'+esc(n.label+'; incident qualifying LR count '+n.degree+(n.degree?'':'; no qualifying edges in this view; group retained'))+'</title><circle cx="'+round(n.position.x)+'" cy="'+round(n.position.y)+'" r="'+round(n.radius)+'" fill="'+esc(n.degree?n.color:'#ffffff')+'" stroke="'+esc(n.color)+'" stroke-width="1.5"'+(n.degree?'':' stroke-dasharray="2 2"')+'/></g>';
       const p=point(n.angle,360+o.nodeRadius*o.nodeScale*.3),anchor=Math.abs(Math.cos(n.angle))<.15?'middle':Math.cos(n.angle)>0?'start':'end';
-      svg+=textLabel(p.x,p.y,n.label,anchor,o,'ccc-node-label');
+      svg+=textLabel(p.x,Math.max(106+o.fontSize,p.y),n.label,anchor,o,'ccc-node-label');
     }
     svg+='</g>'; if (!s.total) svg+=emptyMessage(o,'the selected cutoffs or endpoints');
     return svg+end(['Arrow: listed ligand sender → receptor receiver; width = distinct qualifying LR count (scale max '+edgeMax+').','Node area = incident LR count (scale max '+degreeMax+'); all selected groups retained. Hollow node = no qualifying edges.','Candidate scores describe transcript/prior compatibility. They do not test genotype interaction changes.'],o,domain,'Edge color: LR count');
@@ -176,14 +197,14 @@
     svg+='<g class="ccc-ribbons" data-edge-count="'+links.length+'">';
     for (const p of links.slice().sort((a,b)=>a.count-b.count)) {
       const fill=edgeColor(p,lookup,domain,o,p.count),from=lookup.get(p.source),to=lookup.get(p.target),sf=p.count/from.degree,tf=p.count/to.degree;
-      svg+='<path class="ccc-ribbon" data-source="'+esc(p.source)+'" data-target="'+esc(p.target)+'" data-count="'+p.count+'" data-source-fraction="'+sf+'" data-target-fraction="'+tf+'" d="'+ribbon(...p.sourceAngles,...p.targetAngles,r,o)+'" fill="'+esc(fill)+'" fill-opacity="'+o.opacity+'" stroke="'+esc(fill)+'" stroke-width=".4"><title>'+esc(p.source+' → '+p.target+'; '+p.count+' distinct qualifying LR identities; sender sector fraction '+format(sf)+'; receiver sector fraction '+format(tf)+'. Equal-sized sectors mean ribbon width is not an absolute comparison across sectors.')+'</title></path>';
+      svg+='<path class="ccc-ribbon" data-source="'+esc(p.source)+'" data-target="'+esc(p.target)+'" data-count="'+p.count+'" data-source-fraction="'+sf+'" data-target-fraction="'+tf+'" data-deg-counts="'+esc(JSON.stringify(p.deg_direction_counts))+'" d="'+ribbon(...p.sourceAngles,...p.targetAngles,r,o)+'" fill="'+esc(fill)+'" fill-opacity="'+o.opacity+'" stroke="'+esc(fill)+'" stroke-width=".4"><title>'+esc(p.source+' → '+p.target+'; '+p.count+' distinct qualifying LR identities; sender sector fraction '+format(sf)+'; receiver sector fraction '+format(tf)+'. Equal-sized sectors mean ribbon width is not an absolute comparison across sectors.'+(Object.keys(p.deg_direction_counts).length?' Endpoint DESeq2 cKO vs WT: '+directionSummary(p.deg_direction_counts)+'. Gene directions do not establish interaction regulation.':''))+'</title></path>';
     }
     svg+='</g><g class="ccc-arcs">';
     for (const n of nodes) {
       const fill=o.arcColorMode==='custom'?safeColor(o.arcColor,DEFAULTS.arcColor):n.color;
       svg+='<path class="ccc-sector" data-node="'+esc(n.id)+'" data-degree="'+n.degree+'" d="'+ringSegment(arcInner,arcInner+o.arcWidth,n.start,n.end)+'" fill="'+esc(fill)+'" fill-opacity="'+(n.degree?1:.3)+'" stroke="#ffffff" stroke-width="1"><title>'+esc(n.label+'; incident qualifying LR count '+n.degree+(n.degree?'':'; no qualifying edges; group retained'))+'</title></path>';
       const a=(n.start+n.end)/2,p=point(a,arcInner+o.arcWidth+24),anchor=Math.abs(Math.cos(a))<.15?'middle':Math.cos(a)>0?'start':'end';
-      svg+=textLabel(p.x,p.y,n.label,anchor,o,'ccc-sector-label');
+      svg+=textLabel(p.x,Math.max(106+o.fontSize,p.y),n.label,anchor,o,'ccc-sector-label');
     }
     svg+='</g>';if (!s.total) svg+=emptyMessage(o,'the selected cutoffs or endpoints');
     return svg+end(['Arrow tip points to the receptor receiver. Sectors are equal sized; all selected groups retained.','Ribbon width = fraction of incident qualifying LR records within each endpoint sector × '+format(o.ribbonScale)+' display scale.','Use circle/heatmap counts for absolute comparisons across groups.'+(o.ribbonScale>1?' Width scale >1 can overlap adjacent ribbons.':''),'Transcript/prior candidates; no measured communication or genotype interaction significance is implied.'],o,domain,'Ribbon color: LR count');
@@ -197,8 +218,9 @@
   function geneCircle(rows,ctx={}) {
     rows=Array.isArray(rows)?rows:[];const o=opt(ctx),pops=populations(rows,ctx,o),popMap=new Map(pops.map((p,i)=>[p.id,{...p,order:i}])),selected=selectedGenes(rows,ctx,o),nodeMap=new Map();
     function add(p,c,role,row) {
-      const key=nodeKey(p,c,role);if (!nodeMap.has(key)) nodeMap.set(key,{id:key,population:p,complex:c,role,props:[],color:popMap.has(p)?popMap.get(p).color:COLORS[nodeMap.size%COLORS.length]});
+      const key=nodeKey(p,c,role);if (!nodeMap.has(key)) nodeMap.set(key,{id:key,population:p,complex:c,role,props:[],directions:new Set(),deEvidence:new Set(),color:popMap.has(p)?popMap.get(p).color:COLORS[nodeMap.size%COLORS.length]});
       const n=nodeMap.get(key),prop=row && number(row[role==='ligand'?'ligand_all_subunit_min_prop':'receptor_all_subunit_min_prop'],null);if (finite(prop)) n.props.push(clamp(prop,0,1));
+      const direction=degDirection(row,role);if(direction){n.directions.add(direction);n.deEvidence.add(degDetails(row,role));}
     }
     for (const e of selected) {add(e.source,e.ligand_complex,'ligand',e.row);add(e.target,e.receptor_complex,'receptor',e.row);}
     const nodes=Array.from(nodeMap.values()).sort((a,b)=>((popMap.get(a.population)||{}).order??999)-((popMap.get(b.population)||{}).order??999)||a.population.localeCompare(b.population)||a.role.localeCompare(b.role)||a.complex.localeCompare(b.complex));
@@ -211,24 +233,27 @@
     for (const e of present.slice().sort((a,b)=>number(a.row.lr_gmeans,0)-number(b.row.lr_gmeans,0))) {
       const from=nodeMap.get(nodeKey(e.source,e.ligand_complex,'ligand')),to=nodeMap.get(nodeKey(e.target,e.receptor_complex,'receptor')),gm=number(e.row.lr_gmeans,null);if (!finite(gm) || gm<0) continue;
       const fill=edgeColor(e,lookup,domain,o,gm),path=curve(from.position,to.position,from.radius+1,to.radius+2,o),width=o.edgeWidth*Math.sqrt(gm/weightMax);
-      svg+='<g class="ccc-gene-edge" data-key="'+esc(e.key)+'" data-gmeans="'+gm+'"><title>'+esc(e.source+': '+e.ligand_complex+' → '+e.target+': '+e.receptor_complex+'; native lr_gmeans '+format(gm)+'; magnitude_rank '+format(number(e.row.magnitude_rank,null))+'. Molecular priors and RNA expression do not establish localization, contact, or signaling activity; condition contrasts are descriptive.')+'</title><path d="'+path.d+'" fill="none" stroke="'+esc(fill)+'" stroke-opacity="'+o.opacity+'" stroke-width="'+round(width)+'"/>'+arrow(path.end,path.tangent,o.arrowSize,fill,o.opacity)+'</g>';
+      svg+='<g class="ccc-gene-edge" data-key="'+esc(e.key)+'" data-gmeans="'+gm+'" data-ligand-deg-direction="'+esc(degDirection(e.row,'ligand') || 'unavailable')+'" data-receptor-deg-direction="'+esc(degDirection(e.row,'receptor') || 'unavailable')+'"><title>'+esc(e.source+': '+e.ligand_complex+' → '+e.target+': '+e.receptor_complex+'; native lr_gmeans '+format(gm)+'; magnitude_rank '+format(number(e.row.magnitude_rank,null))+'. '+degDetails(e.row,'ligand')+' '+degDetails(e.row,'receptor')+' Molecular priors and RNA expression do not establish localization, contact, or signaling activity; condition contrasts are descriptive.')+'</title><path d="'+path.d+'" fill="none" stroke="'+esc(fill)+'" stroke-opacity="'+o.opacity+'" stroke-width="'+round(width)+'"/>'+arrow(path.end,path.tangent,o.arrowSize,fill,o.opacity)+'</g>';
     }
     svg+='</g><g class="ccc-gene-group-arcs">';
     const r0=329,r1=r0+o.arcWidth;
     for (const g of groups) {
       const fill=o.arcColorMode==='custom'?safeColor(o.arcColor,DEFAULTS.arcColor):g.color,label=(popMap.get(g.population)||{}).label || g.population,a=(g.start+g.end)/2,p=point(a,r1+65),anchor=Math.abs(Math.cos(a))<.15?'middle':Math.cos(a)>0?'start':'end';
-      svg+='<path class="ccc-gene-group-arc" data-population="'+esc(g.population)+'" d="'+ringSegment(r0,r1,g.start,g.end)+'" fill="'+esc(fill)+'"><title>'+esc(label+'; '+g.nodes.length+' population × complex × role nodes')+'</title></path>'+textLabel(p.x,p.y,label,anchor,{...o,fontSize:Math.max(9,o.fontSize-1)},'ccc-gene-population-label');
+      const populationFont=Math.max(9,o.fontSize-1),populationY=Math.max(106+populationFont,p.y);
+      svg+='<path class="ccc-gene-group-arc" data-population="'+esc(g.population)+'" d="'+ringSegment(r0,r1,g.start,g.end)+'" fill="'+esc(fill)+'"><title>'+esc(label+'; '+g.nodes.length+' population × complex × role nodes')+'</title></path>'+textLabel(p.x,populationY,label,anchor,{...o,fontSize:populationFont},'ccc-gene-population-label');
     }
     svg+='</g><g class="ccc-gene-nodes">';
     for (const n of nodes) {
-      const p=n.position,r=Math.max(.6,n.radius),fill=n.prop===null?'#ffffff':n.color,description=n.population+'; '+n.role+' complex '+n.complex+'; all-subunit minimum detection fraction '+format(n.prop)+(n.prop===null?'; no matching qualifying record in this condition (NA), not zero expression.':'.');
-      svg+='<g class="ccc-gene-node" data-node="'+esc(n.id)+'" data-population="'+esc(n.population)+'" data-role="'+n.role+'" data-prop="'+(n.prop===null?'NA':n.prop)+'" data-x="'+round(p.x)+'" data-y="'+round(p.y)+'"><title>'+esc(description)+'</title>';
-      if (n.role==='ligand') svg+='<circle cx="'+round(p.x)+'" cy="'+round(p.y)+'" r="'+round(r)+'" fill="'+esc(fill)+'" stroke="'+esc(n.color)+'" stroke-width="1.4"'+(n.prop===null?' stroke-dasharray="2 2"':'')+'/>';
-      else {const half=r*Math.sqrt(Math.PI)/2;svg+='<rect x="'+round(p.x-half)+'" y="'+round(p.y-half)+'" width="'+round(half*2)+'" height="'+round(half*2)+'" fill="'+esc(fill)+'" stroke="'+esc(n.color)+'" stroke-width="1.4"'+(n.prop===null?' stroke-dasharray="2 2"':'')+'/>';}
+      const direction=n.directions.size>1?'mixed':n.directions.size?Array.from(n.directions)[0]:null,signed=o.showDEGDirections!==false&&direction;
+      const p=n.position,r=Math.max(.6,n.radius),fill=n.prop===null?'#ffffff':n.color,outline=signed?degColor(direction,o):n.color,description=n.population+'; '+n.role+' complex '+n.complex+'; all-subunit minimum detection fraction '+format(n.prop)+(n.prop===null?'; no matching qualifying record in this condition (NA), not zero expression.':'.')+(n.deEvidence.size?' '+Array.from(n.deEvidence).join(' ')+' Gene changes do not define net interaction activity.':'');
+      svg+='<g class="ccc-gene-node" data-node="'+esc(n.id)+'" data-population="'+esc(n.population)+'" data-role="'+n.role+'" data-prop="'+(n.prop===null?'NA':n.prop)+'" data-x="'+round(p.x)+'" data-y="'+round(p.y)+'" data-deg-direction="'+esc(direction || 'unavailable')+'"><title>'+esc(description)+'</title>';
+      if (n.role==='ligand') svg+='<circle cx="'+round(p.x)+'" cy="'+round(p.y)+'" r="'+round(r)+'" fill="'+esc(fill)+'" stroke="'+esc(outline)+'" stroke-width="'+(signed?'3':'1.4')+'"'+(n.prop===null?' stroke-dasharray="2 2"':'')+'/>';
+      else {const half=r*Math.sqrt(Math.PI)/2;svg+='<rect x="'+round(p.x-half)+'" y="'+round(p.y-half)+'" width="'+round(half*2)+'" height="'+round(half*2)+'" fill="'+esc(fill)+'" stroke="'+esc(outline)+'" stroke-width="'+(signed?'3':'1.4')+'"'+(n.prop===null?' stroke-dasharray="2 2"':'')+'/>';}
       svg+='</g>';const label=point(n.angle,309),anchor=Math.cos(n.angle)>0?'start':'end',angle=n.angle*180/Math.PI+(Math.cos(n.angle)>0?0:180),complexMax=Math.round(clamp(370/Math.max(8,o.fontSize-1),12,35));
-      svg+='<text class="ccc-gene-complex-label" x="'+round(label.x)+'" y="'+round(label.y)+'" transform="rotate('+round(angle)+' '+round(label.x)+' '+round(label.y)+')" text-anchor="'+anchor+'" font-family="Arial,Helvetica,sans-serif" font-size="'+Math.max(8,o.fontSize-1)+'" fill="#243b4b" stroke="#ffffff" stroke-width="2.5" paint-order="stroke"><title>'+esc(description)+'</title>'+esc(n.complex.length>complexMax?n.complex.slice(0,complexMax-1)+'…':n.complex)+'</text>';
+      svg+='<text class="ccc-gene-complex-label" x="'+round(label.x)+'" y="'+round(label.y)+'" transform="rotate('+round(angle)+' '+round(label.x)+' '+round(label.y)+')" text-anchor="'+anchor+'" font-family="Arial,Helvetica,sans-serif" font-size="'+Math.max(8,o.fontSize-1)+'" fill="#243b4b" stroke="#ffffff" stroke-width="2.5" paint-order="stroke"><title>'+esc(description)+'</title>'+esc((n.complex.length>complexMax?n.complex.slice(0,complexMax-1)+'…':n.complex)+(signed?' '+directionSymbol(direction):''))+'</text>';
     }
     svg+='</g>';if (!present.length) svg+=emptyMessage(o,selected.length?'the fixed selection in this condition':'the selected cutoffs');
+    if (signedRows(rows,o)) svg+=degLegend(o);
     return svg+end(['Shown '+present.length+' / '+selected.length+' selected population × LR records; repeated molecular pairs in different groups are separate edges.','Circle = ligand; equal-area square = receptor. Node area = true minimum detection fraction over all complex subunits.','Hollow dashed node = NA in this condition. Edge width = native lr_gmeans (max '+format(weightMax)+'); arrow = listed receiver.','Candidates require localization/contact validation. Native rank/p-values are not genotype interaction tests.'],o,domain,'Edge color: native lr_gmeans');
   }
   const api=Object.freeze({circle,circos,geneCircle,geneKey,summary,defaults:DEFAULTS});

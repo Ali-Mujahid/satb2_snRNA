@@ -72,28 +72,35 @@ check('Empty, singleton, degenerate, self-edge, escaped labels and extreme contr
 });
 check('Native input records, selected groups and caller settings are never mutated',()=>{assert.equal(JSON.stringify({rows,ctx}),before);});
 const fs=require('fs'),path=require('path'),vm=require('vm'),zlib=require('zlib');
-const packedPath=path.join(__dirname,'../site/communication/data/data.js');
+const packedPath=path.join(__dirname,'../site/communication/data/deg_only_data.js');
 if(fs.existsSync(packedPath)){
   const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(packedPath,'utf8'),sandbox);
   const packed=JSON.parse(zlib.gunzipSync(Buffer.from(sandbox.window.CCC_DATA_GZIP,'base64')));
   require('../site/communication/model.js');const model=global.CCCModel,data=model.decode(packed),ds=data.datasets['IN_clusters|pooled'];
   const state={maxRank:.05,direction:'both',sources:[],targets:[],search:'',tier:'replicated_specific',bothDEG:false};
-  const selected=model.filter(ds.rows,state),nativeNodes=data.nodes.filter(n=>n.id!=='IN_Total');
+  const selected=model.filter(ds.rows,state),nativeNodes=data.nodes;
   const nativeCtx={nodes:nativeNodes,eligiblePairs:model.eligible(ds.eligible_pairs,state),condition:'pooled',scope:'IN_clusters',direction:'both'};
   const saved=JSON.stringify(selected);
-  check('Packaged native strong tier reproduces 324 population-specific records and 112/212 directions',()=>{
-    assert.equal(selected.length,324);assert.equal(selected.filter(r=>r.source.startsWith('CA1_')).length,112);assert.equal(selected.filter(r=>r.source.startsWith('IN_')).length,212);
-    assert.equal(N.summary(selected,nativeCtx).total,324);
+  check('Strict matching-endpoint DEG native strong tier retains two Cntn3→Ptprg records',()=>{
+    assert.equal(selected.length,2);assert.equal(selected.filter(r=>r.source.startsWith('CA1_')).length,0);assert.equal(selected.filter(r=>r.source.startsWith('IN_')).length,2);
+    assert(selected.every(r=>r.source==='IN_C6'&&r.ligand_complex==='Cntn3'&&r.receptor_complex==='Ptprg'));
+    assert.equal(N.summary(selected,nativeCtx).total,2);
   });
-  check('Actual 22-group SVGs render finite geometry with exact native counts and immutable rows',()=>{
+  check('Actual five-group strict SVGs render finite geometry with exact native counts and immutable rows',()=>{
     const a=N.circle(selected,nativeCtx),b=N.circos(selected,nativeCtx),c=N.geneCircle(selected,nativeCtx);
-    assert.equal(attrs(a,'ccc-node').length,22);assert.equal(attrs(b,'ccc-sector').length,22);assert.equal(metadata(a).qualifying_population_lr_records,324);assert.equal(metadata(b).qualifying_population_lr_records,324);
+    assert.equal(attrs(a,'ccc-node').length,5);assert.equal(attrs(b,'ccc-sector').length,5);assert.equal(metadata(a).qualifying_population_lr_records,2);assert.equal(metadata(b).qualifying_population_lr_records,2);
     for(const svg of [a,b,c]){assert(!/(?:NaN|Infinity|undefined)/.test(svg));assert(svg.includes('Transcript')||svg.includes('transcript'));}
-    assert.equal(JSON.stringify(selected),saved);assert.equal(metadata(c).present_edges,12);
+    assert.equal(JSON.stringify(selected),saved);assert.equal(metadata(c).present_edges,2);
   });
-  check('Native total-IN strict empty result remains an honest empty chart with retained selected groups',()=>{
-    const total=data.datasets['IN_total|pooled'],filtered=model.filter(total.rows,state),context={...nativeCtx,nodes:data.nodes.filter(n=>n.id.startsWith('CA1_')||n.id==='IN_Total'),eligiblePairs:total.eligible_pairs};assert.equal(filtered.length,0);
-    assert.equal(attrs(N.circle(filtered,context),'ccc-node').length,3);assert.equal(attrs(N.circos(filtered,context),'ccc-sector').length,3);assert(N.geneCircle(filtered,context).includes('No qualifying ligand–receptor records'));
+  check('All-rank strict native view shows 16 rows and retains C8 without inventing eligible zero edges',()=>{
+    const allState={...state,maxRank:1,tier:'all_candidates',bothDEG:true},all=model.filter(ds.rows,allState),context={...nativeCtx,eligiblePairs:model.eligible(ds.eligible_pairs,allState)};
+    assert.equal(all.length,16);assert.equal(all.filter(r=>r.source.startsWith('CA1_')).length,6);assert.equal(all.filter(r=>r.source.startsWith('IN_')).length,10);
+    assert(!all.some(r=>r.source==='IN_C8'||r.target==='IN_C8'));
+    const circle=N.circle(all,context),circos=N.circos(all,context),gene=N.geneCircle(all,context);
+    assert.equal(metadata(circle).qualifying_population_lr_records,16);assert.equal(metadata(circos).qualifying_population_lr_records,16);
+    assert(attrs(circle,'ccc-node').some(n=>n['data-node']==='IN_C8'&&n['data-degree']==='0'));
+    assert(attrs(circos,'ccc-sector').some(n=>n['data-node']==='IN_C8'&&n['data-degree']==='0'));
+    assert.equal(metadata(gene).present_edges,12);assert.equal(data.datasets['IN_total|pooled'],undefined,'Unrequested total-IN fits are excluded from the corrected active data.');
   });
 }
 console.log(JSON.stringify({status:'PASS',checks:checks.length,scope:'DISPLAY_ONLY_COMMUNICATION_NETWORK_RENDERERS',check_names:checks},null,2));

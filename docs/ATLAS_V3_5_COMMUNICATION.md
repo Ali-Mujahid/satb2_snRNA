@@ -1,3 +1,5 @@
+> Historical v3.5 documentation. Its one-endpoint DEG rule is superseded by the [corrected v3.6 DEG-only results](DEG_ONLY_RESULTS.md).
+
 # Interactive CA1–inhibitory ligand–receptor explorer
 
 The [communication explorer](https://ali-mujahid.github.io/satb2_snRNA/communication/) is linked from the original nuclei atlas and its downloads page. It adds display controls around the completed Seurat original_full analysis. No biological model was rerun and no previous analysis was overwritten.

@@ -1,0 +1,711 @@
+{
+  "status": "PASS",
+  "expected_views": 15,
+  "options": {
+    "maxRank": 1,
+    "tier": "DEG_only",
+    "bothDEG": true,
+    "ligandDirection": "any",
+    "receptorDirection": "any",
+    "directionPair": "any",
+    "search": "",
+    "sources": [],
+    "targets": [],
+    "condition": "pooled",
+    "showDEGDirections": true,
+    "degUpColor": "#c63d4f",
+    "degDownColor": "#397eb5",
+    "degMixedColor": "#8b6bb1",
+    "dotMetric": "magnitude_rank",
+    "heatMetric": "count",
+    "palette": "viridis",
+    "scaleMode": "auto",
+    "reverseScale": false,
+    "opacity": 0.8,
+    "fontSize": 12,
+    "topN": 120,
+    "pairLimit": 80,
+    "order": "rank",
+    "dotRadius": 9,
+    "edgeWidth": 5,
+    "arrowSize": 10,
+    "curvature": 0.35,
+    "arcWidth": 17,
+    "arcGap": 3,
+    "ribbonScale": 1,
+    "nodeScale": 1,
+    "edgeColorMode": "source",
+    "arcColorMode": "node",
+    "geneEdges": 30,
+    "nodeColorMode": "palette"
+  },
+  "source_hashes": {
+    "site/communication/data/deg_only_data.js": "b59064b8a2fb204fd8905284c8e5b4f8fb8a1c529b681c80b39afcc4d314b548",
+    "site/communication/model.js": "68feaa764ec3a80fed6e185121ffee0925d50cfee21593974d2ba7c51ccebfc7",
+    "site/communication/charts.js": "18f730769bf908500e39ef0b171ac367d660efc52dcddfc9f1c90845773d2c66",
+    "site/communication/networks.js": "f34942ffdc5e2813f849f2222ffe6fe5ccba139cf6ef4763e79b0abb26550b8b",
+    "scripts/render_deg_only_figures.cjs": "f83839ad9b6953aab5142c5c047ae90b3ba97042d2beab866d238abbc15fdb4a"
+  },
+  "figures": [
+    {
+      "stem": "strict_DEG_only_pooled_CA1_to_inhibitory_dotplot",
+      "view": "dotplot",
+      "direction": "CA1_to_IN",
+      "direction_label": "CA1_to_inhibitory",
+      "native_rows": 6,
+      "molecular_pairs": 5,
+      "deg_direction_counts": {
+        "down\u2192up": 3,
+        "down\u2192down": 1,
+        "up\u2192up": 2
+      },
+      "source_data_file": "strict_DEG_only_CA1_to_inhibitory_source_rows.tsv",
+      "width_px": 2880,
+      "height_px": 1819,
+      "logical_width": 1440,
+      "logical_height": 909.5,
+      "svg": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_dotplot.svg",
+        "bytes": 25467,
+        "sha256": "008ba15c717f9f0c464ba90856637aaaebb9a9a0a94cbb809e8cf581ef1c0146"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_dotplot.png",
+        "bytes": 241395,
+        "sha256": "8e908150b5c2d467ef0c1d5606ff2d842d8f389c94dfef106dfd882b7128c4e5"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_dotplot.pdf",
+        "bytes": 285127,
+        "sha256": "6168f14ec945f1370dcaafeb4620d16dc7ea86f92d1fe562918d591ae1974dab"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_CA1_to_inhibitory_heatmap",
+      "view": "heatmap",
+      "direction": "CA1_to_IN",
+      "direction_label": "CA1_to_inhibitory",
+      "native_rows": 6,
+      "molecular_pairs": 5,
+      "deg_direction_counts": {
+        "down\u2192up": 3,
+        "down\u2192down": 1,
+        "up\u2192up": 2
+      },
+      "source_data_file": "strict_DEG_only_CA1_to_inhibitory_source_rows.tsv",
+      "width_px": 2800,
+      "height_px": 1637,
+      "logical_width": 1400,
+      "logical_height": 818.5,
+      "svg": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_heatmap.svg",
+        "bytes": 21762,
+        "sha256": "98fe56352bb27d6267e61620bfa59f9d2ed5a65ac667bc51f7b0eabc2305c0f0"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_heatmap.png",
+        "bytes": 176041,
+        "sha256": "8a38f377374afbb7f524e393deaa358c882c71fee55c5af7fe4ae1c5c08f9e1c"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_heatmap.pdf",
+        "bytes": 200469,
+        "sha256": "c894c0807c25e7e2e2e2829f2030aa6e71a9d232556122a56084a8e219b1055c"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_CA1_to_inhibitory_circos",
+      "view": "circos",
+      "direction": "CA1_to_IN",
+      "direction_label": "CA1_to_inhibitory",
+      "native_rows": 6,
+      "molecular_pairs": 5,
+      "deg_direction_counts": {
+        "down\u2192up": 3,
+        "down\u2192down": 1,
+        "up\u2192up": 2
+      },
+      "source_data_file": "strict_DEG_only_CA1_to_inhibitory_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circos.svg",
+        "bytes": 11516,
+        "sha256": "4ba25eed081518be01ed5165382d1d74cebb828aae8b7524b779e298fc84c28d"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circos.png",
+        "bytes": 368618,
+        "sha256": "b78bbba15cb8ab426eb8f5d848e6c9e2a4a85b7e82f26cec631f9b9d840d48e6"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circos.pdf",
+        "bytes": 384911,
+        "sha256": "41ee2cb7987cd246883739466165cfdb8c3bf5c99ad838aa1dd13d2b29b02529"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_CA1_to_inhibitory_circle",
+      "view": "circle",
+      "direction": "CA1_to_IN",
+      "direction_label": "CA1_to_inhibitory",
+      "native_rows": 6,
+      "molecular_pairs": 5,
+      "deg_direction_counts": {
+        "down\u2192up": 3,
+        "down\u2192down": 1,
+        "up\u2192up": 2
+      },
+      "source_data_file": "strict_DEG_only_CA1_to_inhibitory_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circle.svg",
+        "bytes": 10665,
+        "sha256": "fc04d8534400e220698ac292b36c1a62eda31a4dbdeec50b329147d323db9ce2"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circle.png",
+        "bytes": 213121,
+        "sha256": "b1647ff0a645c1c0fcdba27529c3f0857039b56b2e32ac6302f9498159ed8f12"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circle.pdf",
+        "bytes": 236178,
+        "sha256": "c79c0b2fa4f86fdbab6fcd4c0dadec8211d951cdb8ab15170cf39d5007da3cc6"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_CA1_to_inhibitory_geneCircle",
+      "view": "geneCircle",
+      "direction": "CA1_to_IN",
+      "direction_label": "CA1_to_inhibitory",
+      "native_rows": 6,
+      "molecular_pairs": 5,
+      "deg_direction_counts": {
+        "down\u2192up": 3,
+        "down\u2192down": 1,
+        "up\u2192up": 2
+      },
+      "source_data_file": "strict_DEG_only_CA1_to_inhibitory_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_geneCircle.svg",
+        "bytes": 25521,
+        "sha256": "a2fd59ba4069d759ee9741ba8f64efc4114f5e87ac73fa269978823eed854c07"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_geneCircle.png",
+        "bytes": 388550,
+        "sha256": "06f2471f67f2b6ebc824d7a92f927ae2f1dd3fc6649f3a621adcb27a4dbc4812"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_CA1_to_inhibitory_geneCircle.pdf",
+        "bytes": 444371,
+        "sha256": "caa4a0d77d6d5220e8adbed6372afb5caacd30f6c93920cfa4fe76769c5f8010"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_inhibitory_to_CA1_dotplot",
+      "view": "dotplot",
+      "direction": "IN_to_CA1",
+      "direction_label": "inhibitory_to_CA1",
+      "native_rows": 10,
+      "molecular_pairs": 8,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 4,
+        "down\u2192down": 3,
+        "up\u2192up": 1
+      },
+      "source_data_file": "strict_DEG_only_inhibitory_to_CA1_source_rows.tsv",
+      "width_px": 2880,
+      "height_px": 2027,
+      "logical_width": 1440,
+      "logical_height": 1013.5,
+      "svg": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_dotplot.svg",
+        "bytes": 34866,
+        "sha256": "ec4b48a3d31aa10dc52eafafb89da9cc3bb878d00c215571ff975c6e37bbe262"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_dotplot.png",
+        "bytes": 262669,
+        "sha256": "6ab341459480944f95e19713464800f75ca671c7757eb46e6c32d725240e3ffc"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_dotplot.pdf",
+        "bytes": 307461,
+        "sha256": "b0de7438eefa58a83115de919a89374b96782c48cf06a0e4b631867cd1eab18f"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_inhibitory_to_CA1_heatmap",
+      "view": "heatmap",
+      "direction": "IN_to_CA1",
+      "direction_label": "inhibitory_to_CA1",
+      "native_rows": 10,
+      "molecular_pairs": 8,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 4,
+        "down\u2192down": 3,
+        "up\u2192up": 1
+      },
+      "source_data_file": "strict_DEG_only_inhibitory_to_CA1_source_rows.tsv",
+      "width_px": 2800,
+      "height_px": 1637,
+      "logical_width": 1400,
+      "logical_height": 818.5,
+      "svg": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_heatmap.svg",
+        "bytes": 21885,
+        "sha256": "07b0a2cb17132f47aac238293d3e51bb6fd5126bc58833812d1b93baffc3afbe"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_heatmap.png",
+        "bytes": 177911,
+        "sha256": "607349937d4027ee373db76e604f58bb378dbbf6fcbd841eae5b9349f0172f14"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_heatmap.pdf",
+        "bytes": 203083,
+        "sha256": "781ee02cf5130c9d898506b084731fdb0b7a58bda0e47fbeb0a400f6b4a30da8"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_inhibitory_to_CA1_circos",
+      "view": "circos",
+      "direction": "IN_to_CA1",
+      "direction_label": "inhibitory_to_CA1",
+      "native_rows": 10,
+      "molecular_pairs": 8,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 4,
+        "down\u2192down": 3,
+        "up\u2192up": 1
+      },
+      "source_data_file": "strict_DEG_only_inhibitory_to_CA1_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circos.svg",
+        "bytes": 11757,
+        "sha256": "0fd626d469500b7657df0fd1a496c5f554cd3c7eb9406c2c68bf976e616a8849"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circos.png",
+        "bytes": 366227,
+        "sha256": "758cc708ec5bc6fec82ebdba04158e5d8b075655d30057664132c78fa7e705d9"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circos.pdf",
+        "bytes": 380995,
+        "sha256": "db5b3af27fc8b59d0c33ce4b01b7247c201b03fc93f4dfedf18dae0fae7bbd4a"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_inhibitory_to_CA1_circle",
+      "view": "circle",
+      "direction": "IN_to_CA1",
+      "direction_label": "inhibitory_to_CA1",
+      "native_rows": 10,
+      "molecular_pairs": 8,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 4,
+        "down\u2192down": 3,
+        "up\u2192up": 1
+      },
+      "source_data_file": "strict_DEG_only_inhibitory_to_CA1_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circle.svg",
+        "bytes": 10827,
+        "sha256": "924fbcfad00ffb26a65591d7c72453bae5504b3b70ddd17e315a0b75f9074b35"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circle.png",
+        "bytes": 211862,
+        "sha256": "4152340f239ecfa7219fe3ef506f829c4548c7d88d5d8caccc3cf24642bc4de1"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circle.pdf",
+        "bytes": 233928,
+        "sha256": "f0ce6fee3e64327a630dc24b2972127695b369f29b1db00cebc60615d24bc929"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_inhibitory_to_CA1_geneCircle",
+      "view": "geneCircle",
+      "direction": "IN_to_CA1",
+      "direction_label": "inhibitory_to_CA1",
+      "native_rows": 10,
+      "molecular_pairs": 8,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 4,
+        "down\u2192down": 3,
+        "up\u2192up": 1
+      },
+      "source_data_file": "strict_DEG_only_inhibitory_to_CA1_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_geneCircle.svg",
+        "bytes": 33981,
+        "sha256": "65637172f85fdb27f77319ae7480ab4d5a7295015c440c736092894d1d40ad65"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_geneCircle.png",
+        "bytes": 459761,
+        "sha256": "60914ac3ee8b2394232439250115c15a8e78d5f06eda59ae78a3fca2dd04d251"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_inhibitory_to_CA1_geneCircle.pdf",
+        "bytes": 529333,
+        "sha256": "e74214fb4f71c7a5ad370c5f8cf881fed9fe5a60b6a023216e26da8c1ca6c8a0"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_bidirectional_dotplot",
+      "view": "dotplot",
+      "direction": "both",
+      "direction_label": "bidirectional",
+      "native_rows": 16,
+      "molecular_pairs": 13,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 7,
+        "down\u2192down": 4,
+        "up\u2192up": 3
+      },
+      "source_data_file": "strict_DEG_only_bidirectional_source_rows.tsv",
+      "width_px": 2880,
+      "height_px": 2373,
+      "logical_width": 1440,
+      "logical_height": 1186.5,
+      "svg": {
+        "file": "strict_DEG_only_pooled_bidirectional_dotplot.svg",
+        "bytes": 49546,
+        "sha256": "8809a1b5846f032f8f1bbdf7f317cbc0e4d0b9ccf22d31e18e6ca5013ac52e53"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_bidirectional_dotplot.png",
+        "bytes": 326053,
+        "sha256": "b45b520d98939d6cfd836db6e510426c4087d2bbb7df3c541e3958f92125e19c"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_bidirectional_dotplot.pdf",
+        "bytes": 380523,
+        "sha256": "52708a21aa7b5c7113e8b8f5c8687113513e3ade27522a06ce5bcb414ac2d4dd"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_bidirectional_heatmap",
+      "view": "heatmap",
+      "direction": "both",
+      "direction_label": "bidirectional",
+      "native_rows": 16,
+      "molecular_pairs": 13,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 7,
+        "down\u2192down": 4,
+        "up\u2192up": 3
+      },
+      "source_data_file": "strict_DEG_only_bidirectional_source_rows.tsv",
+      "width_px": 2800,
+      "height_px": 1637,
+      "logical_width": 1400,
+      "logical_height": 818.5,
+      "svg": {
+        "file": "strict_DEG_only_pooled_bidirectional_heatmap.svg",
+        "bytes": 22433,
+        "sha256": "45e267a215c2b420bb454579cb6a65996af9a28a319271b03eb8565e03693a89"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_bidirectional_heatmap.png",
+        "bytes": 177538,
+        "sha256": "4d4b8a548777124ba3516f5701bacdf29d672c2fc30c500e4426e1c907106682"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_bidirectional_heatmap.pdf",
+        "bytes": 200138,
+        "sha256": "b2f73d4174f33150a3ad50f7601e31ebe8f792933a9604789075b24eaae481a6"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_bidirectional_circos",
+      "view": "circos",
+      "direction": "both",
+      "direction_label": "bidirectional",
+      "native_rows": 16,
+      "molecular_pairs": 13,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 7,
+        "down\u2192down": 4,
+        "up\u2192up": 3
+      },
+      "source_data_file": "strict_DEG_only_bidirectional_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_bidirectional_circos.svg",
+        "bytes": 14029,
+        "sha256": "011bf30f7b3a4c0a64dc2a8c869ecd93709e9fbf9be642bdb102650ae753440d"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_bidirectional_circos.png",
+        "bytes": 428205,
+        "sha256": "9ff737fccef78a22825887d3e0faf19e911b2bff4f2421692094dec6bf8de20d"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_bidirectional_circos.pdf",
+        "bytes": 455359,
+        "sha256": "ca81d220357caab9c30ef723a35be9eb5a155f3acc3f3819dd9d3d56cc3371b3"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_bidirectional_circle",
+      "view": "circle",
+      "direction": "both",
+      "direction_label": "bidirectional",
+      "native_rows": 16,
+      "molecular_pairs": 13,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 7,
+        "down\u2192down": 4,
+        "up\u2192up": 3
+      },
+      "source_data_file": "strict_DEG_only_bidirectional_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_bidirectional_circle.svg",
+        "bytes": 12717,
+        "sha256": "e1901c0eaf7a01d34f092c6ee5a3c1150f16c20394c992741dca25328e4b9283"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_bidirectional_circle.png",
+        "bytes": 269942,
+        "sha256": "40e7e9108e7270a0a0197d9f9dbcea0e75f3d0446c3c3c0da725700ee63abd2a"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_bidirectional_circle.pdf",
+        "bytes": 297493,
+        "sha256": "75e5b5776c49d298799fa48b8748591bab50f03dbef6f6df88c0bdcf7869b471"
+      }
+    },
+    {
+      "stem": "strict_DEG_only_pooled_bidirectional_geneCircle",
+      "view": "geneCircle",
+      "direction": "both",
+      "direction_label": "bidirectional",
+      "native_rows": 16,
+      "molecular_pairs": 13,
+      "deg_direction_counts": {
+        "up\u2192down": 2,
+        "down\u2192up": 7,
+        "down\u2192down": 4,
+        "up\u2192up": 3
+      },
+      "source_data_file": "strict_DEG_only_bidirectional_source_rows.tsv",
+      "width_px": 3413,
+      "height_px": 2880,
+      "logical_width": 1706.5,
+      "logical_height": 1440,
+      "svg": {
+        "file": "strict_DEG_only_pooled_bidirectional_geneCircle.svg",
+        "bytes": 50476,
+        "sha256": "fc640f248708d8f08c1da9a98014c0ccba552222d2f40b5aa9be64483b64357f"
+      },
+      "png": {
+        "file": "strict_DEG_only_pooled_bidirectional_geneCircle.png",
+        "bytes": 565585,
+        "sha256": "7c5f4b9f6ebc2f9e20d1adf3ed3f233c82e2f9748c9df22b775998b7ec8d4a0b"
+      },
+      "pdf": {
+        "file": "strict_DEG_only_pooled_bidirectional_geneCircle.pdf",
+        "bytes": 650553,
+        "sha256": "bf9d497562a029074a9db29d62e44e4f1f893f12963b51b116103a5c55a1ea3a"
+      }
+    }
+  ],
+  "pdf_roundtrip_checks": [
+    {
+      "file": "strict_DEG_only_pooled_CA1_to_inhibitory_dotplot.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        758
+      ],
+      "roundtrip_sha256": "10678a343ede4a08dfc7bef469c67dec98b7a3b90e3b2fba231b6499a3e05be0",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_CA1_to_inhibitory_heatmap.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        702
+      ],
+      "roundtrip_sha256": "ae01dda55d6bbf1748bae6d4f1c6933015689130d03881db6189950d955ca92b",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circos.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "dfa0296ffe90b0e0b07be8d45947484965ed84e5f655435fe55616d810bf7c9e",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_CA1_to_inhibitory_circle.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "170d5beecb21f7477857d72aac207d8c71d7e604ca2e7af3477ad9654642be76",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_CA1_to_inhibitory_geneCircle.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "5612af0d55a6c1e92db9a521541cf631ffd516beeeeb39bd9f2e79c9a30dad85",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_inhibitory_to_CA1_dotplot.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        845
+      ],
+      "roundtrip_sha256": "1052988932c713e9234a1d06fff9c410094eba1986d0b64242a0b8527046ab4f",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_inhibitory_to_CA1_heatmap.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        702
+      ],
+      "roundtrip_sha256": "55391f2573478615c95bf6dadb0bb49965334bb8ccf83f9a61b758ce07bf45e5",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circos.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "7e915bdbcd79391cd10886caa53e3426ba8accdfcaf10a62d9aae169ef962b81",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_inhibitory_to_CA1_circle.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "d8dca5358c4dabb8a944d026d4dc24da02e19e4d3ac94c5365454af9d95722ee",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_inhibitory_to_CA1_geneCircle.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "a3ec93e87413b18e40e3867ade00dac7a1543ec2893e5c7c944beace75f5e8e6",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_bidirectional_dotplot.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        989
+      ],
+      "roundtrip_sha256": "9e7ea69cd01c8b2780531ae263f289b5aa91042a8d882c8aa5bbd1862310a9f6",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_bidirectional_heatmap.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        702
+      ],
+      "roundtrip_sha256": "bbe897fbf32e22298eab3a44fa35b9e4d14948518fc70be9a498bf978c3de5bf",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_bidirectional_circos.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "6361e84a7f3f0e6c78ec95bc7af959e37544da52cf296903bcc1df2945927187",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_bidirectional_circle.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "e74b35278367b23fb413a588c88818a0721063e8066fe95f546a0cca5b415ba5",
+      "status": "PASS"
+    },
+    {
+      "file": "strict_DEG_only_pooled_bidirectional_geneCircle.pdf",
+      "pages": 1,
+      "roundtrip_dimensions": [
+        1200,
+        1013
+      ],
+      "roundtrip_sha256": "6c126a544e5d4600a85e585ce90323d12f9fa15450923c30c5080d7d377f4bf6",
+      "status": "PASS"
+    }
+  ],
+  "pdf_count": 15,
+  "pdf_encoding": "Rendered at 192 dpi with Unicode-aware SVG fonts, then embedded losslessly into one-page PDFs. Matching vector SVGs are also provided.",
+  "contact_sheet": "CONTACT_SHEET.png"
+}

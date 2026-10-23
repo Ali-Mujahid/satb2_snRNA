@@ -1,0 +1,49 @@
+{
+  "schema": "satb2-communication-portable/v2",
+  "html_file": "SATB2_DEG_ONLY_LR_interactive_offline.html",
+  "bytes": 586137,
+  "sha256": "c5f90fdbef8b6460d8879c20bde677ba5dcf639671a90dc7b76fe3a4e0ba33c4",
+  "embedded_sources": [
+    {
+      "path": "site/vendor/fflate.min.js",
+      "sha256": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83"
+    },
+    {
+      "path": "site/vendor/jspdf.umd.min.js",
+      "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+    },
+    {
+      "path": "site/communication/data/deg_only_data.js",
+      "sha256": "b59064b8a2fb204fd8905284c8e5b4f8fb8a1c529b681c80b39afcc4d314b548"
+    },
+    {
+      "path": "site/communication/model.js",
+      "sha256": "68feaa764ec3a80fed6e185121ffee0925d50cfee21593974d2ba7c51ccebfc7"
+    },
+    {
+      "path": "site/communication/charts.js",
+      "sha256": "18f730769bf908500e39ef0b171ac367d660efc52dcddfc9f1c90845773d2c66"
+    },
+    {
+      "path": "site/communication/networks.js",
+      "sha256": "f34942ffdc5e2813f849f2222ffe6fe5ccba139cf6ef4763e79b0abb26550b8b"
+    },
+    {
+      "path": "site/communication/app.js",
+      "sha256": "6c9ce54ea346a18c7ace3875436601bbcc4abe3f7c692c049dba56860cef7f22"
+    },
+    {
+      "path": "site/communication/styles.css",
+      "sha256": "2f1f16bc0e578fc3fb2fca125c499eefe0e113b5ba0b283016d7940c19756798"
+    }
+  ],
+  "external_render_dependencies": [],
+  "three_strict_DEG_only_projections_embedded": true,
+  "endpoint_count": 5,
+  "strict_record_count": 47,
+  "both_endpoint_all_subunit_DEG_rule": true,
+  "matching_LR_component_DESeq2_evidence_embedded": true,
+  "scientific_fits_performed": false,
+  "native_complete_package": "SATB2_DEG_ONLY_LR_results_20261023.zip",
+  "external_links_require_internet": true
+}

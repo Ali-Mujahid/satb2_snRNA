@@ -25,7 +25,9 @@ jobs:
           python3 scripts/verify_site.py
           python3 scripts/verify_v34_extensions.py
           python3 scripts/verify_communication_atlas.py
-          node tests/communication_model.cjs
+          node tests/communication_deg_only.cjs
+          node tests/communication_deg_ui.cjs
+          node tests/communication_deg_visuals.cjs
           node tests/communication_charts.cjs
           node tests/communication_networks.cjs
           node tests/communication_app.cjs

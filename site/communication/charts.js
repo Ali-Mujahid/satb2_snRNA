@@ -64,6 +64,45 @@
   }
   function lrKey(row) { return String(row.ligand_complex) + ARROW + String(row.receptor_complex); }
   function pairKey(row) { return String(row.source) + ARROW + String(row.target); }
+  function degDirection(row, role) {
+    var value = row[role + '_deg_direction'];
+    return ['up', 'down', 'mixed', 'unavailable'].indexOf(value) >= 0 ? value : null;
+  }
+  function degColor(direction, options) {
+    var o = options || {}, fallback = direction === 'up' ? '#c63d4f' : direction === 'down' ? '#397eb5' : direction === 'mixed' ? '#8b6bb1' : '#98a4ad';
+    var selected = direction === 'up' ? o.degUpColor : direction === 'down' ? o.degDownColor : direction === 'mixed' ? o.degMixedColor : fallback;
+    return /^#[0-9a-f]{6}$/i.test(String(selected || '')) ? selected : fallback;
+  }
+  function degDetails(row, role) {
+    var direction = degDirection(row, role);
+    if (!direction) return '';
+    return '\n' + (role === 'ligand' ? 'Sender ligand' : 'Receiver receptor') + ' DESeq2: ' + direction + ' in cKO vs WT; log2FC = ' + pretty(num(row[role + '_deseq2_log2fc'])) + '; padj = ' + pretty(num(row[role + '_deseq2_padj']));
+  }
+  function directionCounts(rows) {
+    var counts = {}, seen = new Set();
+    rows.forEach(function (row) {
+      var l = degDirection(row, 'ligand'), r = degDirection(row, 'receptor');
+      if (!l || !r) return;
+      var key = pairKey(row) + '\u0000' + lrKey(row);
+      if (seen.has(key)) return;
+      seen.add(key);
+      var combo = l + ARROW + r; counts[combo] = (counts[combo] || 0) + 1;
+    });
+    return counts;
+  }
+  function directionSummary(rows) {
+    var counts = directionCounts(rows), labels = { up: '\u2191', down: '\u2193', mixed: 'mixed', unavailable: 'NA' };
+    return Object.keys(counts).sort().map(function (key) { var parts = key.split(ARROW); return 'L' + labels[parts[0]] + '/R' + labels[parts[1]] + ': ' + counts[key]; }).join(' \u00b7 ');
+  }
+  function hasDirections(rows, options) { return options.showDEGDirections !== false && rows.some(function (r) { return degDirection(r, 'ligand') || degDirection(r, 'receptor'); }); }
+  function degLegend(x, y, o) {
+    var s = text(x, y, 'DESeq2 cKO vs WT:', 'class="small axis"'), offset = 143;
+    [['up', '\u2191 up-regulated'], ['down', '\u2193 down-regulated']].forEach(function (item, i) {
+      var xx = x + offset + i * 147;
+      s += '<line x1="' + xx + '" y1="' + (y - 4) + '" x2="' + (xx + 17) + '" y2="' + (y - 4) + '" stroke="' + degColor(item[0], o) + '" stroke-width="3"/>' + text(xx + 23, y, item[1], 'class="small"');
+    });
+    return s;
+  }
   function rank(row) { var n = num(row.magnitude_rank); return n == null ? Infinity : n; }
   function baseContext(ctx) {
     return Object.assign({ nodes: [], eligiblePairs: [], options: {}, condition: '', scope: '', direction: '' }, ctx || {});
@@ -125,7 +164,7 @@
         var key = source.id + ARROW + target.id, group = groups.get(key), values = group ? Array.from(group.values()) : [];
         var means = values.map(function (r) { return num(r.lr_gmeans); }).filter(function (n) { return n !== null; });
         var tested = eligible.has(key);
-        cells.push({ source: source.id, target: target.id, tested: tested, count: tested ? values.length : null, mean_gmeans: tested && means.length ? means.reduce(function (s, v) { return s + v; }, 0) / means.length : null });
+        cells.push({ source: source.id, target: target.id, tested: tested, count: tested ? values.length : null, mean_gmeans: tested && means.length ? means.reduce(function (s, v) { return s + v; }, 0) / means.length : null, deg_direction_counts: directionCounts(values), deg_direction_summary: directionSummary(values) });
       });
     });
     return cells;
@@ -136,12 +175,14 @@
     if (!nodes.length) return emptySvg(title, 'Select source and target populations to display the matrix.', ctx);
     var f = setting(o, 'fontSize', 12, 8, 24), metric = o.heatMetric === 'mean_gmeans' ? 'mean_gmeans' : 'count';
     var cells = aggregateHeatmap(rows, ctx), info = metricInfo(metric), limits = domain(cells.map(function (c) { return c[metric]; }), ctx, true);
-    var size = Math.max(24, Math.min(43, Math.floor(730 / nodes.length))), left = Math.max(185, Math.ceil(18 * f * .55) + 45), top = 115, side = size * nodes.length;
+    var signed = hasDirections(rows, o);
+    var size = Math.max(24, Math.min(43, Math.floor(730 / nodes.length))), left = Math.max(185, Math.ceil(18 * f * .55) + 45), top = signed ? 140 : 115, side = size * nodes.length;
     var labelDepth = Math.max(142, Math.ceil(18 * f * .55 * .82) + 40);
     var width = Math.max(1050, left + side + 100), legendY = top + side + labelDepth, height = legendY + 117;
     var svg = startSvg(width, height, title, 'Source populations are rows and target populations are columns. ' + info.note, f);
     svg += text(28, 38, title, 'class="title"');
     svg += text(28, 64, info.note, 'class="muted small"');
+    if (signed) svg += text(28, 86, 'Endpoint DEG directions, cKO vs WT: ' + directionSummary(rows) + ' (L = ligand; R = receptor).', 'class="small muted" data-deg-summary="true"');
     svg += text(left + side / 2, top - 20, 'Receiver / target', 'text-anchor="middle" class="axis"');
     svg += '<text transform="translate(28 ' + (top + side / 2) + ') rotate(-90)" text-anchor="middle" class="axis">Sender / source</text>';
     cells.forEach(function (cell) {
@@ -149,7 +190,8 @@
       var x = left + col * size, y = top + row * size, value = cell[metric];
       var fill = !cell.tested ? '#e5e9ee' : value === null ? '#fbfcfd' : color(value, limits[0], limits[1], o);
       var tooltip = cell.source + ' \u2192 ' + cell.target + '\n' + (!cell.tested ? 'NA: this ordered direction was not tested in the selected context.' : metric === 'count' ? 'Distinct qualifying LR identities: ' + cell.count + (cell.count === 0 ? '\nEligible pair; zero candidates passed these filters. This does not establish biological absence.' : '') : 'Mean lr_gmeans: ' + pretty(value) + '\nQualifying LR identities: ' + cell.count + (value === null ? '\nNo qualifying geometric mean is available.' : ''));
-      svg += '<g data-source="' + escape(cell.source) + '" data-target="' + escape(cell.target) + '" data-tested="' + cell.tested + '" data-value="' + (value === null ? '' : value) + '"><title>' + escape(tooltip) + '</title><rect x="' + x + '" y="' + y + '" width="' + size + '" height="' + size + '" fill="' + fill + '" fill-opacity="' + setting(o, 'opacity', .95, .1, 1) + '" stroke="#ffffff" stroke-width="1"/>';
+      if (cell.deg_direction_summary) tooltip += '\nEndpoint DEG directions (cKO vs WT): ' + cell.deg_direction_summary + '\nDirections describe endpoint genes, not net interaction activity.';
+      svg += '<g data-source="' + escape(cell.source) + '" data-target="' + escape(cell.target) + '" data-tested="' + cell.tested + '" data-value="' + (value === null ? '' : value) + '" data-deg-counts="' + escape(JSON.stringify(cell.deg_direction_counts)) + '"><title>' + escape(tooltip) + '</title><rect x="' + x + '" y="' + y + '" width="' + size + '" height="' + size + '" fill="' + fill + '" fill-opacity="' + setting(o, 'opacity', .95, .1, 1) + '" stroke="#ffffff" stroke-width="1"/>';
       if (size >= 27) {
         var displayed = !cell.tested ? 'NA' : value === null ? '\u2014' : pretty(value);
         var c = rgb(fill, '#ffffff'), luminance = .2126 * c[0] + .7152 * c[1] + .0722 * c[2];
@@ -189,7 +231,7 @@
   }
   function tooltip(row, metric) {
     return row.source + ' \u2192 ' + row.target + '\n' + row.ligand_complex + ' \u2192 ' + row.receptor_complex + '\n' +
-      metricInfo(metric).label + ': ' + pretty(num(row[metric])) + '\nMagnitude rank: ' + pretty(num(row.magnitude_rank)) + '\nLR geometric mean: ' + pretty(num(row.lr_gmeans)) + '\nLR group-versus-rest logFC: ' + pretty(num(row.lr_logfc)) + '\nCellPhoneDB specificity P: ' + pretty(num(row.cellphone_pvals)) + '\nMinimum detection across ALL complex subunits: ' + pretty(num(row.lr_prop) == null ? null : clamp(Number(row.lr_prop), 0, 1) * 100) + '%\nMouse expression support WT: ' + pretty(num(row.sample_support_WT)) + ' / ' + pretty(num(row.sample_eligible_WT)) + '; cKO: ' + pretty(num(row.sample_support_cKO)) + ' / ' + pretty(num(row.sample_eligible_cKO)) + '\nMatching endpoint DESeq2 support: ' + (row.deg_supported === true || row.deg_supported === 'True' || row.deg_supported === 1 ? 'yes' : 'no');
+      metricInfo(metric).label + ': ' + pretty(num(row[metric])) + '\nMagnitude rank: ' + pretty(num(row.magnitude_rank)) + '\nLR geometric mean: ' + pretty(num(row.lr_gmeans)) + '\nLR group-versus-rest logFC: ' + pretty(num(row.lr_logfc)) + '\nCellPhoneDB specificity P: ' + pretty(num(row.cellphone_pvals)) + '\nMinimum detection across ALL complex subunits: ' + pretty(num(row.lr_prop) == null ? null : clamp(Number(row.lr_prop), 0, 1) * 100) + '%\nMouse expression support WT: ' + pretty(num(row.sample_support_WT)) + ' / ' + pretty(num(row.sample_eligible_WT)) + '; cKO: ' + pretty(num(row.sample_support_cKO)) + ' / ' + pretty(num(row.sample_eligible_cKO)) + '\nMatching endpoint DESeq2 support: ' + (row.deg_supported === true || row.deg_supported === 'True' || row.deg_supported === 1 ? 'yes' : 'no') + degDetails(row, 'ligand') + degDetails(row, 'receptor') + (degDirection(row, 'ligand') ? '\nEndpoint gene changes do not specify net interaction activity.' : '');
   }
   function dotplot(rows, suppliedCtx) {
     var ctx = baseContext(suppliedCtx), o = ctx.options, data = selectDotplot(rows, ctx);
@@ -198,10 +240,11 @@
     var f = setting(o, 'fontSize', 12, 8, 24), requestedRadius = setting(o, 'dotRadius', 9, 1, 24);
     var rowHeight = Math.max(26, f + 13, Math.ceil(requestedRadius * 2.2)), colWidth = Math.max(39, f + 29, Math.ceil(requestedRadius * 2.2));
     var longest = data.lrs.reduce(function (m, l) { return Math.max(m, (String(l.ligand) + ' \u2192 ' + String(l.receptor)).length); }, 0);
-    var left = clamp(Math.ceil(longest * f * .55) + 35, 215, 520), top = 133;
+    var signed = hasDirections(rows, o);
+    var left = clamp(Math.ceil(longest * f * .55) + 35, 215, 520), top = signed ? 157 : 133;
     var plotWidth = data.pairs.length * colWidth, plotHeight = data.lrs.length * rowHeight;
     var labelDepth = Math.max(153, Math.ceil(31 * f * .55 * .82) + 44);
-    var width = Math.max(1080, left + plotWidth + 60), legendY = top + plotHeight + labelDepth, height = legendY + 135;
+    var width = Math.max(1080, left + plotWidth + 60), legendY = top + plotHeight + labelDepth, height = legendY + (signed ? 183 : 135);
     var metric = ['magnitude_rank', 'lr_gmeans', 'lr_logfc', 'cellphone_pvals'].indexOf(o.dotMetric) >= 0 ? o.dotMetric : 'magnitude_rank';
     var displayedRows = [];
     data.lrs.forEach(function (l) { data.pairs.forEach(function (p) { var r = data.index.get(l.key + '\u0000' + p.key); if (r) displayedRows.push(r); }); });
@@ -211,6 +254,7 @@
     svg += text(28, 38, title, 'class="title"');
     svg += text(28, 64, info.note, 'class="muted small"');
     svg += text(28, 88, data.lrs.length + ' / ' + data.totalLrs + ' LR identities \u00b7 ' + data.pairs.length + ' / ' + data.totalPairs + ' ordered population pairs shown. Full filtered rows remain in the table export.', 'class="muted small"');
+    if (signed) svg += text(28, 112, 'Endpoint DEG directions, cKO vs WT: ' + directionSummary(displayedRows) + '.', 'class="small muted" data-deg-summary="true"');
     svg += text(left + plotWidth / 2, top - 18, 'Sender \u2192 receiver', 'text-anchor="middle" class="axis"');
     data.lrs.forEach(function (lr, j) {
       var y = top + j * rowHeight;
@@ -221,7 +265,17 @@
         if (!row) return;
         var prop = num(row.lr_prop), value = num(row[metric]);
         var rr = prop === null ? 0 : radius * Math.sqrt(clamp(prop, 0, 1));
-        if (rr > 0) svg += '<circle data-lr="' + escape(lr.key) + '" data-pair="' + escape(pair.key) + '" data-fraction="' + clamp(prop, 0, 1) + '" cx="' + (left + (i + .5) * colWidth) + '" cy="' + (y + rowHeight / 2) + '" r="' + rr.toFixed(4) + '" fill="' + color(value, limits[0], limits[1], o) + '" opacity="' + setting(o, 'opacity', .85, .05, 1) + '"><title>' + escape(tooltip(row, metric)) + '</title></circle>';
+        if (rr > 0) {
+          var cx = left + (i + .5) * colWidth, cy = y + rowHeight / 2, ld = degDirection(row, 'ligand'), rd = degDirection(row, 'receptor');
+          svg += '<circle data-lr="' + escape(lr.key) + '" data-pair="' + escape(pair.key) + '" data-fraction="' + clamp(prop, 0, 1) + '" cx="' + cx + '" cy="' + cy + '" r="' + rr.toFixed(4) + '" fill="' + color(value, limits[0], limits[1], o) + '" opacity="' + setting(o, 'opacity', .85, .05, 1) + '" data-ligand-deg-direction="' + escape(ld || 'unavailable') + '" data-receptor-deg-direction="' + escape(rd || 'unavailable') + '"><title>' + escape(tooltip(row, metric)) + '</title></circle>';
+          if (signed && (ld || rd)) {
+            var rim = rr + 1.6;
+            [['ligand', ld, 0], ['receptor', rd, 1]].forEach(function (item) {
+              if (!item[1]) return;
+              svg += '<path class="ccc-deg-dot-rim" data-role="' + item[0] + '" data-deg-direction="' + item[1] + '" d="M' + cx + ',' + (cy - rim).toFixed(4) + ' A' + rim.toFixed(4) + ',' + rim.toFixed(4) + ' 0 0 ' + item[2] + ' ' + cx + ',' + (cy + rim).toFixed(4) + '" fill="none" stroke="' + degColor(item[1], o) + '" stroke-width="2.4"><title>' + escape(tooltip(row, metric)) + '</title></path>';
+            });
+          }
+        }
       });
     });
     data.pairs.forEach(function (pair, i) {
@@ -235,12 +289,16 @@
     var sizeX = Math.max(left + 430, width - 340), baseline = legendY + 26;
     svg += text(sizeX, legendY, 'Minimum all-subunit detection', 'class="axis"');
     [.1, .25, .5, 1].forEach(function (p, i) { var x = sizeX + 24 + i * 63; svg += '<circle cx="' + x + '" cy="' + baseline + '" r="' + (radius * Math.sqrt(p)).toFixed(4) + '" fill="#617d8f"/>' + text(x, legendY + 53, Math.round(p * 100) + '%', 'text-anchor="middle" class="small"'); });
+    if (signed) {
+      svg += degLegend(28, legendY + 93, o);
+      svg += text(28, legendY + 116, 'Dot left rim = sender ligand DEG; right rim = receiver receptor DEG. Fill and area retain the selected score and detection encodings.', 'class="small muted"');
+    }
     svg += text(28, height - 43, 'Dot area = detected fraction (0\u2013100%). An absent dot means no qualifying displayed record, not proof of absent communication.', 'class="small muted"');
     svg += text(28, height - 22, 'Saved RNA/prior-compatible candidates; expression support and component DESeq2 evidence do not establish interaction activity.', 'class="small muted"');
     return svg + '</svg>';
   }
   root.CCCPlots = {
     heatmap: heatmap, dotplot: dotplot, color: color,
-    helpers: { aggregateHeatmap: aggregateHeatmap, selectDotplot: selectDotplot, extent: extent, escape: escape, lrKey: lrKey, pairKey: pairKey, metricInfo: metricInfo }
+    helpers: { aggregateHeatmap: aggregateHeatmap, selectDotplot: selectDotplot, extent: extent, escape: escape, lrKey: lrKey, pairKey: pairKey, metricInfo: metricInfo, directionCounts: directionCounts, directionSummary: directionSummary }
   };
 })(typeof window !== 'undefined' ? window : globalThis);

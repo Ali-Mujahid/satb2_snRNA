@@ -1,0 +1,1696 @@
+{
+  "schema": "satb2-liana-strict-deg-atlas/v1",
+  "atlas_version": "3.6.0",
+  "policy": {
+    "DESeq2_FDR": "padj < 0.05",
+    "effect_direction": "signed original gene DESeq2 log2(cKO / WT)",
+    "endpoint_scope": [
+      "CA1_Deep",
+      "CA1_Superficial",
+      "IN_C1",
+      "IN_C6",
+      "IN_C8"
+    ],
+    "complex_rule": "Every ligand AND every receptor complex subunit is an unambiguous DEG at its exact matching sender or receiver endpoint",
+    "native_rank_rule": "Original complete-universe LIANA scores and ranks are retained; no rank recomputation after DEG selection",
+    "total_inhibitory_fit": "Excluded because IN_Total is not one of the five requested endpoints",
+    "pseudobulk_or_LIANA_refits": 0
+  },
+  "columns": [
+    "source",
+    "target",
+    "ligand_complex",
+    "receptor_complex",
+    "ligand",
+    "receptor",
+    "ligand_means",
+    "receptor_means",
+    "ligand_props",
+    "receptor_props",
+    "ligand_logfc",
+    "receptor_logfc",
+    "lr_means",
+    "cellphone_pvals",
+    "expr_prod",
+    "scaled_weight",
+    "lr_logfc",
+    "spec_weight",
+    "lrscore",
+    "specificity_rank",
+    "magnitude_rank",
+    "lr_gmeans",
+    "direction",
+    "source_label",
+    "source_review",
+    "source_de_endpoint",
+    "source_de_tested",
+    "target_label",
+    "target_review",
+    "target_de_endpoint",
+    "target_de_tested",
+    "ligand_deg_any",
+    "ligand_de_symbol_ambiguous",
+    "ligand_all_subunits_deg",
+    "ligand_all_subunit_min_prop",
+    "receptor_deg_any",
+    "receptor_de_symbol_ambiguous",
+    "receptor_all_subunits_deg",
+    "receptor_all_subunit_min_prop",
+    "deg_supported",
+    "both_sides_deg_supported",
+    "lr_prop",
+    "sample_support_WT",
+    "sample_eligible_WT",
+    "sample_support_cKO",
+    "sample_eligible_cKO",
+    "support_ge3_either_genotype",
+    "support_ge3_both_genotypes",
+    "ligand_deg_direction",
+    "receptor_deg_direction",
+    "ligand_deseq2_log2fc",
+    "receptor_deseq2_log2fc",
+    "ligand_deseq2_padj",
+    "receptor_deseq2_padj",
+    "deg_direction_pair"
+  ],
+  "column_types": {
+    "source": "string",
+    "target": "string",
+    "ligand_complex": "string",
+    "receptor_complex": "string",
+    "ligand": "string",
+    "receptor": "string",
+    "ligand_means": "number",
+    "receptor_means": "number",
+    "ligand_props": "number",
+    "receptor_props": "number",
+    "ligand_logfc": "number",
+    "receptor_logfc": "number",
+    "lr_means": "number",
+    "cellphone_pvals": "number",
+    "expr_prod": "number",
+    "scaled_weight": "number",
+    "lr_logfc": "number",
+    "spec_weight": "number",
+    "lrscore": "number",
+    "specificity_rank": "number",
+    "magnitude_rank": "number",
+    "lr_gmeans": "number",
+    "direction": "string",
+    "source_label": "string",
+    "source_review": "string",
+    "source_de_endpoint": "string",
+    "source_de_tested": "boolean",
+    "target_label": "string",
+    "target_review": "string",
+    "target_de_endpoint": "string",
+    "target_de_tested": "boolean",
+    "ligand_deg_any": "boolean",
+    "ligand_de_symbol_ambiguous": "boolean",
+    "ligand_all_subunits_deg": "boolean",
+    "ligand_all_subunit_min_prop": "number",
+    "receptor_deg_any": "boolean",
+    "receptor_de_symbol_ambiguous": "boolean",
+    "receptor_all_subunits_deg": "boolean",
+    "receptor_all_subunit_min_prop": "number",
+    "deg_supported": "boolean",
+    "both_sides_deg_supported": "boolean",
+    "lr_prop": "number",
+    "sample_support_WT": "integer",
+    "sample_eligible_WT": "integer",
+    "sample_support_cKO": "integer",
+    "sample_eligible_cKO": "integer",
+    "support_ge3_either_genotype": "boolean",
+    "support_ge3_both_genotypes": "boolean",
+    "ligand_deg_direction": "string",
+    "receptor_deg_direction": "string",
+    "ligand_deseq2_log2fc": "number",
+    "receptor_deseq2_log2fc": "number",
+    "ligand_deseq2_padj": "number",
+    "receptor_deseq2_padj": "number",
+    "deg_direction_pair": "string"
+  },
+  "datasets": {
+    "IN_clusters|pooled": {
+      "rows": 16,
+      "eligible_pairs": 12
+    },
+    "IN_clusters|WT": {
+      "rows": 15,
+      "eligible_pairs": 12
+    },
+    "IN_clusters|cKO": {
+      "rows": 16,
+      "eligible_pairs": 12
+    }
+  },
+  "nodes": [
+    {
+      "id": "CA1_Deep",
+      "label": "CA1 Deep",
+      "annotation": "Deep-associated expression program enriched",
+      "review": "REFERENCE_SUPPORTED",
+      "needs_review": false,
+      "de_endpoint": "P0244_seurat_CA1_ProS_LAYER_PROGRAM",
+      "de_tested": true,
+      "de_status": "TESTED_REVIEW_REQUIRED",
+      "native_DEG_FDR05": 742,
+      "deg_up_in_cKO": 360,
+      "deg_down_in_cKO": 382,
+      "deg_resource_genes": 106,
+      "strict_only": true
+    },
+    {
+      "id": "CA1_Superficial",
+      "label": "CA1 Superficial",
+      "annotation": "Superficial-associated expression program enriched",
+      "review": "REFERENCE_SUPPORTED",
+      "needs_review": false,
+      "de_endpoint": "P0247_seurat_CA1_ProS_LAYER_PROGRAM",
+      "de_tested": true,
+      "de_status": "TESTED_REVIEW_REQUIRED",
+      "native_DEG_FDR05": 1825,
+      "deg_up_in_cKO": 928,
+      "deg_down_in_cKO": 897,
+      "deg_resource_genes": 199,
+      "strict_only": true
+    },
+    {
+      "id": "IN_C1",
+      "label": "IN C1",
+      "annotation": "052 Pvalb Gaba",
+      "review": "REFERENCE_SUPPORTED",
+      "needs_review": false,
+      "de_endpoint": "P0140_seurat_Inhibitory_CLUSTER",
+      "de_tested": true,
+      "de_status": "TESTED_REVIEW_REQUIRED",
+      "native_DEG_FDR05": 27,
+      "deg_up_in_cKO": 11,
+      "deg_down_in_cKO": 16,
+      "deg_resource_genes": 7,
+      "strict_only": true
+    },
+    {
+      "id": "IN_C6",
+      "label": "IN C6",
+      "annotation": "053 Sst Gaba",
+      "review": "REFERENCE_SUPPORTED",
+      "needs_review": false,
+      "de_endpoint": "P0145_seurat_Inhibitory_CLUSTER",
+      "de_tested": true,
+      "de_status": "TESTED_REVIEW_REQUIRED",
+      "native_DEG_FDR05": 22,
+      "deg_up_in_cKO": 4,
+      "deg_down_in_cKO": 18,
+      "deg_resource_genes": 5,
+      "strict_only": true
+    },
+    {
+      "id": "IN_C8",
+      "label": "IN C8",
+      "annotation": "Inhibitory; mixed atlas subclasses",
+      "review": "REFERENCE_MIXED_SUBCLASSES",
+      "needs_review": true,
+      "de_endpoint": "P0147_seurat_Inhibitory_CLUSTER",
+      "de_tested": true,
+      "de_status": "TESTED_REVIEW_REQUIRED",
+      "native_DEG_FDR05": 1,
+      "deg_up_in_cKO": 1,
+      "deg_down_in_cKO": 0,
+      "deg_resource_genes": 0,
+      "strict_only": true,
+      "zero_strict_interactions_reason": "Calb1 is the sole saved C8 DEG (up in cKO); it is absent from mouseconsensus ligand/receptor subunits, so C8 has zero strict resource-supported interactions. This is not an omitted analysis or proof of no communication."
+    }
+  ],
+  "provenance": {
+    "analysis_date": "2026-10-22",
+    "final_registered_run": "d397e9d9-03bc-43b0-9bd8-901409248fd6",
+    "final_status": "completed",
+    "scorer": "LIANA 2.0.0 native rank aggregate with native CellPhoneDB scorer",
+    "liana_commit": "c59472ccc9de8360dbbf5016db75f8abde08dd3e",
+    "resource": "mouseconsensus",
+    "resource_ordered_pairs": 3989,
+    "resource_input_represented_pairs": 3946,
+    "expr_prop": 0.1,
+    "min_cells": 5,
+    "n_perms": 1000,
+    "seed": 1337,
+    "mice": {
+      "WT": 6,
+      "cKO": 6
+    },
+    "normalization": "Raw duplicate-symbol RNA counts summed before log1p(CP10k), using full 32,285-feature library denominator; 32,245 collapsed genes",
+    "source_memberships": "Frozen Seurat original_full molecular CA1 deep/superficial programs and inhibitory C1/C6/C8; IN_Total and every other inhibitory endpoint are excluded",
+    "distinct_nuclei": 29367,
+    "no_new_scientific_fits": true,
+    "genotype_interaction_test": false,
+    "source_evidence_sha256": "4f6b7f4e40eebc14b9f400e99fd152dc828551a0e11ce9d42acae298b2b7e0c5",
+    "native_seven_column_projection": [
+      "source",
+      "target",
+      "ligand_complex",
+      "receptor_complex",
+      "lr_logfc",
+      "lr_gmeans",
+      "magnitude_rank"
+    ],
+    "score_semantics": {
+      "lr_logfc": "Native cell-group-versus-rest specificity; not cKO/WT log2 fold change",
+      "lr_gmeans": "Geometric mean of endpoint means of log-normalized expression, using native complex bottleneck rules",
+      "magnitude_rank": "Lower consensus magnitude rank indicates higher priority; not a genotype P value or FDR",
+      "specificity_rank": "Native aggregate cell-context specificity rank; not genotype evidence",
+      "cellphone_pvals": "Native LIANA CellPhoneDB cell-label specificity P; zero is below empirical 1/1000 resolution",
+      "lr_prop": "Minimum detection fraction over every ligand and receptor complex subunit; clamp only for plotting",
+      "ligand_props": "Detection fraction of native mean-expression-limiting ligand subunit; may differ from all-subunit minimum",
+      "receptor_props": "Detection fraction of native mean-expression-limiting receptor subunit; may differ from all-subunit minimum",
+      "deg_supported": "Every retained ligand and receptor subunit is a matching endpoint DEG (not the legacy OR policy)",
+      "sample_support": "Expression-gate support among eligible independent mice, with eligible denominators retained",
+      "ligand_deg_direction": "Original sender endpoint gene DESeq2 sign: positive log2(cKO/WT)=up; negative=down",
+      "receptor_deg_direction": "Original receiver endpoint gene DESeq2 sign: positive log2(cKO/WT)=up; negative=down",
+      "deg_direction_pair": "Ordered ligand→receptor gene effect directions. This is not a signed interaction activity change."
+    },
+    "interpretation_caveats": [
+      "Genotype effects belong to component genes in the original mouse-level DESeq2 fit, including when viewing WT-only or cKO-only native scores; no genotype interaction test was fitted.",
+      "Native lr_logfc remains group-versus-rest specificity, not genotype fold change. Scores and ranks were not refitted or reranked using a DEG-only background.",
+      "Deep/superficial are molecular expression programs, not measured physical layers. C8 has an identity-review flag.",
+      "Calb1 is C8's sole DEG and absent from mouseconsensus. Zero retained C8 interactions is not proof that C8 does not communicate.",
+      "RNA/prior-compatible LR candidates do not establish contact, functional synapses, receptor activation, inhibition or net activity. Reversed Nrxn/Nlgn resource orientations are not independent physiological routes."
+    ],
+    "correction_date": "2026-10-23",
+    "atlas_version": "3.6.0",
+    "selection_policy": "DEG-only: all ligand and receptor complex subunits must be unambiguous padj<0.05 genes in their exact matching sender/receiver DESeq2 endpoints; only CA1 Deep/Superficial and IN C1/C6/C8",
+    "derivation": "Corrected strict projection of completed native pooled/WT/cKO IN_clusters fits. Full-gene expression normalization, scoring background, ranks and all native scientific source files remain unchanged. No refits or expression recomputation.",
+    "endpoint_scope": [
+      "CA1_Deep",
+      "CA1_Superficial",
+      "IN_C1",
+      "IN_C6",
+      "IN_C8"
+    ]
+  },
+  "endpoint_summaries": {
+    "CA1_Deep": {
+      "population_key": "P0244_seurat_CA1_ProS_LAYER_PROGRAM",
+      "analysis_label": "Deep-associated expression program enriched",
+      "native_DEG_FDR05": 742,
+      "up_in_cKO": 360,
+      "down_in_cKO": 382,
+      "unambiguous_DEGs": 742,
+      "ambiguous_significant_symbols": [],
+      "LR_resource_DEG_symbols": [
+        "Abca1",
+        "Adam22",
+        "Adam23",
+        "Adamts3",
+        "Adora1",
+        "Adra2a",
+        "Apod",
+        "Bcan",
+        "Bmp1",
+        "Bmpr1b",
+        "C1qb",
+        "Cadm1",
+        "Cd200",
+        "Cd34",
+        "Cd38",
+        "Cdh7",
+        "Chrm3",
+        "Cntn2",
+        "Cntn4",
+        "Col5a2",
+        "Crhr1",
+        "Crlf1",
+        "Dcbld2",
+        "Dcc",
+        "Dcn",
+        "Dkk2",
+        "Dkk3",
+        "Dscam",
+        "Epha4",
+        "Epha6",
+        "Ephb1",
+        "Ephb2",
+        "Fgf1",
+        "Fgf10",
+        "Fgf12",
+        "Fgf9",
+        "Flt3",
+        "Gfra1",
+        "Gfra2",
+        "Gpc4",
+        "Grem1",
+        "Grm5",
+        "Grm7",
+        "Grp",
+        "Htr2c",
+        "Il1rap",
+        "Il1rapl1",
+        "Il33",
+        "Inha",
+        "Islr2",
+        "Itga4",
+        "Itga7",
+        "Itga8",
+        "Kitl",
+        "Kl",
+        "Lgals8",
+        "Lrp1b",
+        "Lrrtm2",
+        "Mag",
+        "Mas1",
+        "Mc4r",
+        "Mertk",
+        "Ncam2",
+        "Negr1",
+        "Neo1",
+        "Nlgn1",
+        "Npr3",
+        "Nrg2",
+        "Ntng1",
+        "Oprk1",
+        "Orai2",
+        "Pam",
+        "Pard3",
+        "Plxna1",
+        "Prlr",
+        "Ptch2",
+        "Ptn",
+        "Ptprf",
+        "Ptprg",
+        "Ptprk",
+        "Ptprr",
+        "Ptpru",
+        "Rspo2",
+        "Rtn4r",
+        "Ryk",
+        "Ryr2",
+        "Sema3a",
+        "Sema3e",
+        "Slc16a1",
+        "Slit1",
+        "Slitrk3",
+        "Socs2",
+        "St6gal1",
+        "Stab2",
+        "Stx3",
+        "Tgfb2",
+        "Tgfbr1",
+        "Timp2",
+        "Timp3",
+        "Tnxb",
+        "Traf3",
+        "Trf",
+        "Tspan5",
+        "Tyro3",
+        "Unc5c",
+        "Vegfa"
+      ]
+    },
+    "CA1_Superficial": {
+      "population_key": "P0247_seurat_CA1_ProS_LAYER_PROGRAM",
+      "analysis_label": "Superficial-associated expression program enriched",
+      "native_DEG_FDR05": 1825,
+      "up_in_cKO": 928,
+      "down_in_cKO": 897,
+      "unambiguous_DEGs": 1823,
+      "ambiguous_significant_symbols": [
+        "Gm35438",
+        "Pakap"
+      ],
+      "LR_resource_DEG_symbols": [
+        "Acvr1c",
+        "Adam10",
+        "Adam12",
+        "Adamts3",
+        "Adcy1",
+        "Adcy8",
+        "Adora1",
+        "Adra2a",
+        "Agrn",
+        "Alcam",
+        "Alk",
+        "Apod",
+        "App",
+        "Atrn",
+        "Bcan",
+        "Bmp1",
+        "Bmp2",
+        "Bmpr1b",
+        "Boc",
+        "C1qb",
+        "Cadm1",
+        "Ccbe1",
+        "Cd34",
+        "Cd38",
+        "Cdh2",
+        "Cdh7",
+        "Chl1",
+        "Cnr1",
+        "Cntn2",
+        "Cntn3",
+        "Cntn4",
+        "Cntn5",
+        "Col11a1",
+        "Col4a2",
+        "Col5a2",
+        "Col6a1",
+        "Col6a2",
+        "Cr2",
+        "Crhr1",
+        "Crhr2",
+        "Crlf1",
+        "Csf2ra",
+        "Cxcl14",
+        "Dcbld2",
+        "Dclk3",
+        "Dcn",
+        "Dip2a",
+        "Dkk2",
+        "Dscam",
+        "Edil3",
+        "Ednra",
+        "Efna5",
+        "Epha10",
+        "Epha3",
+        "Epha4",
+        "Epha6",
+        "Ephb1",
+        "Ephb2",
+        "Ephb6",
+        "Etv5",
+        "F13a1",
+        "Fabp5",
+        "Fat4",
+        "Fbn1",
+        "Fgf1",
+        "Fgf10",
+        "Fgf12",
+        "Fgf16",
+        "Fgf2",
+        "Fgf9",
+        "Fn1",
+        "Fst",
+        "Fxyd6",
+        "Fzd1",
+        "Gfra1",
+        "Gfra2",
+        "Ghr",
+        "Gpc4",
+        "Grem1",
+        "Grem2",
+        "Grin2b",
+        "Grm5",
+        "Grm7",
+        "Grp",
+        "Hcrtr2",
+        "Htr2c",
+        "Icosl",
+        "Igdcc3",
+        "Igdcc4",
+        "Igfbp4",
+        "Il10rb",
+        "Il15ra",
+        "Il1r1",
+        "Il1rap",
+        "Il1rapl1",
+        "Il33",
+        "Il6st",
+        "Inha",
+        "Itga7",
+        "Itga8",
+        "Jam3",
+        "Kit",
+        "Kitl",
+        "Kl",
+        "Lefty1",
+        "Lgals8",
+        "Lifr",
+        "Lpar1",
+        "Lpl",
+        "Lpp",
+        "Lrp1b",
+        "Lrrc4c",
+        "Lrrtm2",
+        "Mas1",
+        "Mc4r",
+        "Mertk",
+        "Ncam2",
+        "Negr1",
+        "Neo1",
+        "Nlgn1",
+        "Notch2",
+        "Npnt",
+        "Npr3",
+        "Nptx2",
+        "Npy",
+        "Npy5r",
+        "Nrg2",
+        "Nrp1",
+        "Nrxn1",
+        "Ntf3",
+        "Ntng1",
+        "Ntng2",
+        "Ntsr1",
+        "Ocln",
+        "Oprd1",
+        "Oxtr",
+        "Pam",
+        "Pard3",
+        "Pdgfc",
+        "Penk",
+        "Plscr4",
+        "Plxdc2",
+        "Plxna1",
+        "Plxnc1",
+        "Prlr",
+        "Pros1",
+        "Prtg",
+        "Ptn",
+        "Ptprf",
+        "Ptprg",
+        "Ptprm",
+        "Ptprr",
+        "Ptpru",
+        "Qrfpr",
+        "Rims1",
+        "Robo1",
+        "Rspo2",
+        "Rtn4r",
+        "Ryk",
+        "Ryr1",
+        "Ryr2",
+        "Scel",
+        "Sdc2",
+        "Sema3a",
+        "Sema3c",
+        "Sema3d",
+        "Sema4g",
+        "Sema5b",
+        "Sema6d",
+        "Slc16a1",
+        "Slc16a2",
+        "Slitrk3",
+        "Socs2",
+        "Sorcs3",
+        "Sorl1",
+        "St6gal1",
+        "Stx3",
+        "Tacr1",
+        "Tek",
+        "Tgfb2",
+        "Tgfbr1",
+        "Thbs3",
+        "Timp2",
+        "Timp3",
+        "Tnr",
+        "Tnxb",
+        "Traf3",
+        "Trf",
+        "Trpm3",
+        "Tspan14",
+        "Tspan5",
+        "Tyro3",
+        "Unc5c",
+        "Vangl2",
+        "Vcan",
+        "Vegfa",
+        "Wnt2",
+        "Wnt4",
+        "Wnt7a"
+      ]
+    },
+    "IN_C1": {
+      "population_key": "P0140_seurat_Inhibitory_CLUSTER",
+      "analysis_label": "1",
+      "native_DEG_FDR05": 27,
+      "up_in_cKO": 11,
+      "down_in_cKO": 16,
+      "unambiguous_DEGs": 27,
+      "ambiguous_significant_symbols": [],
+      "LR_resource_DEG_symbols": [
+        "Cd200",
+        "Col16a1",
+        "Col4a1",
+        "Fstl5",
+        "Grm7",
+        "Nlgn1",
+        "Ptprz1"
+      ]
+    },
+    "IN_C6": {
+      "population_key": "P0145_seurat_Inhibitory_CLUSTER",
+      "analysis_label": "6",
+      "native_DEG_FDR05": 22,
+      "up_in_cKO": 4,
+      "down_in_cKO": 18,
+      "unambiguous_DEGs": 22,
+      "ambiguous_significant_symbols": [],
+      "LR_resource_DEG_symbols": [
+        "Cdh7",
+        "Cntn3",
+        "Robo1",
+        "Sema6d",
+        "Slit2"
+      ]
+    },
+    "IN_C8": {
+      "population_key": "P0147_seurat_Inhibitory_CLUSTER",
+      "analysis_label": "8",
+      "native_DEG_FDR05": 1,
+      "up_in_cKO": 1,
+      "down_in_cKO": 0,
+      "unambiguous_DEGs": 1,
+      "ambiguous_significant_symbols": [],
+      "LR_resource_DEG_symbols": []
+    }
+  },
+  "counts": [
+    {
+      "scope": "IN_clusters",
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "legacy_any_endpoint_DEG_rank_0.05": 691,
+      "all_saved_ranks": 6,
+      "magnitude_rank_le_0.05": 3,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "eligible_requested_population_pairs"
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "legacy_any_endpoint_DEG_rank_0.05": 898,
+      "all_saved_ranks": 10,
+      "magnitude_rank_le_0.05": 5,
+      "replicated_specific": 2,
+      "endpoint_scope_status": "eligible_requested_population_pairs"
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "legacy_any_endpoint_DEG_rank_0.05": 675,
+      "all_saved_ranks": 5,
+      "magnitude_rank_le_0.05": 3,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "eligible_requested_population_pairs"
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "legacy_any_endpoint_DEG_rank_0.05": 847,
+      "all_saved_ranks": 10,
+      "magnitude_rank_le_0.05": 6,
+      "replicated_specific": 2,
+      "endpoint_scope_status": "eligible_requested_population_pairs"
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "legacy_any_endpoint_DEG_rank_0.05": 702,
+      "all_saved_ranks": 6,
+      "magnitude_rank_le_0.05": 3,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "eligible_requested_population_pairs"
+    },
+    {
+      "scope": "IN_clusters",
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "legacy_any_endpoint_DEG_rank_0.05": 936,
+      "all_saved_ranks": 10,
+      "magnitude_rank_le_0.05": 4,
+      "replicated_specific": 2,
+      "endpoint_scope_status": "eligible_requested_population_pairs"
+    },
+    {
+      "scope": "IN_total",
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "legacy_any_endpoint_DEG_rank_0.05": 34,
+      "all_saved_ranks": 0,
+      "magnitude_rank_le_0.05": 0,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "excluded_not_one_of_requested_five_endpoints"
+    },
+    {
+      "scope": "IN_total",
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "legacy_any_endpoint_DEG_rank_0.05": 52,
+      "all_saved_ranks": 0,
+      "magnitude_rank_le_0.05": 0,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "excluded_not_one_of_requested_five_endpoints"
+    },
+    {
+      "scope": "IN_total",
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "legacy_any_endpoint_DEG_rank_0.05": 33,
+      "all_saved_ranks": 0,
+      "magnitude_rank_le_0.05": 0,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "excluded_not_one_of_requested_five_endpoints"
+    },
+    {
+      "scope": "IN_total",
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "legacy_any_endpoint_DEG_rank_0.05": 48,
+      "all_saved_ranks": 0,
+      "magnitude_rank_le_0.05": 0,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "excluded_not_one_of_requested_five_endpoints"
+    },
+    {
+      "scope": "IN_total",
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "legacy_any_endpoint_DEG_rank_0.05": 33,
+      "all_saved_ranks": 0,
+      "magnitude_rank_le_0.05": 0,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "excluded_not_one_of_requested_five_endpoints"
+    },
+    {
+      "scope": "IN_total",
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "legacy_any_endpoint_DEG_rank_0.05": 55,
+      "all_saved_ranks": 0,
+      "magnitude_rank_le_0.05": 0,
+      "replicated_specific": 0,
+      "endpoint_scope_status": "excluded_not_one_of_requested_five_endpoints"
+    }
+  ],
+  "direction_pair_counts": [
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 2
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 0
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 3
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 0
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 2
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 4
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 3
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 0
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 4
+    },
+    {
+      "condition": "pooled",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 0
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 3
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 2
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 7
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 4
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 1
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 5
+    },
+    {
+      "condition": "pooled",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 0
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 3
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 0
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 2
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 4
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 3
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 0
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 4
+    },
+    {
+      "condition": "WT",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 2
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 2
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 7
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 4
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 1
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 5
+    },
+    {
+      "condition": "WT",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 2
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 2
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 0
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 3
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 0
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "CA1_to_IN",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 2
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 4
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 3
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 0
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 3
+    },
+    {
+      "condition": "cKO",
+      "direction": "IN_to_CA1",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 0
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→up",
+      "records": 3
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "up→down",
+      "records": 2
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→up",
+      "records": 7
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "all_saved_ranks",
+      "deg_direction_pair": "down→down",
+      "records": 4
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→up",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "up→down",
+      "records": 1
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→up",
+      "records": 4
+    },
+    {
+      "condition": "cKO",
+      "direction": "bidirectional",
+      "rank_selection": "magnitude_rank_le_0.05",
+      "deg_direction_pair": "down→down",
+      "records": 1
+    }
+  ],
+  "c8_result": "Calb1 is the sole saved C8 DEG (up in cKO); it is absent from mouseconsensus ligand/receptor subunits, so C8 has zero strict resource-supported interactions. This is not an omitted analysis or proof of no communication.",
+  "components_layout": "components[population_id][complex_name] gives significant matching endpoint subunits only. Gene log2FoldChange/padj are read directly from byte-verified original stable-ID DESeq2 audits, avoiding rounded historical JSON transport values.",
+  "transport": {
+    "file": "deg_only_data.js",
+    "encoding": "window.CCC_DATA_GZIP: base64(gzip(UTF-8 JSON))",
+    "json_bytes": 47812,
+    "gzip_bytes": 9966,
+    "script_bytes": 13404,
+    "json_sha256": "a170fd158dfaf196c1f63254b7470033c463dbaeaa302e166e80c9f622f1c886",
+    "gzip_sha256": "a9e2978488f0931a4720e0c4d44fd61bb1f030e5e1c7a82ca58a5e0630ba1320",
+    "script_sha256": "b59064b8a2fb204fd8905284c8e5b4f8fb8a1c529b681c80b39afcc4d314b548"
+  },
+  "validation": {
+    "native_source_rows": 64936,
+    "strict_saved_records": 47,
+    "unique_population_LR_keys": 16,
+    "allowed_endpoints_only": true,
+    "all_ligand_AND_receptor_subunits_DEG": true,
+    "C8_explicit_eligible_zero_edge_population": true,
+    "native_scores_and_ranks_unchanged": true,
+    "legacy_data_payload_unchanged": true,
+    "no_model_refits": true
+  },
+  "downloads": {
+    "native_downloads_base": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/",
+    "native_tables": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/index.html",
+    "original_DESeq2": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/index.html#gene-deg",
+    "native_evidence": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/interaction_evidence_signed.tsv",
+    "component_evidence": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/strict_component_evidence.json",
+    "readable_manifest": "DEG_ONLY_MANIFEST.json",
+    "audit": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DEG_ONLY_ENDPOINT_AUDIT.json"
+  },
+  "source_hashes": [
+    {
+      "endpoint": "CA1_Deep",
+      "repo_path": "communication_data/existing_DESeq2_exports/CA1_Deep/ALL_RESULTS.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "e94292fa3f9f6e13f4bc281124805806287d5cdaa701e4aedd65b3e2e75abc47"
+    },
+    {
+      "endpoint": "CA1_Deep",
+      "repo_path": "communication_data/existing_DESeq2_exports/CA1_Deep/DEG_FDR05.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/DEG_FDR05.txt",
+      "sha256": "13c646788bca80e053eae6575483c64159a3692078c8af8876e871645cce35bc"
+    },
+    {
+      "endpoint": "CA1_Deep",
+      "repo_path": "communication_data/existing_DESeq2_exports/CA1_Deep/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "sha256": "72601af31cd3aaf17c9ab1962e5da5bb3d31bfdad86fdf4643629cbae4caaa3e"
+    },
+    {
+      "endpoint": "CA1_Superficial",
+      "repo_path": "communication_data/existing_DESeq2_exports/CA1_Superficial/ALL_RESULTS.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "09809ce5487aa4aed9dcdab91db597f665fb1d3b02899f4a23fde913eecaa134"
+    },
+    {
+      "endpoint": "CA1_Superficial",
+      "repo_path": "communication_data/existing_DESeq2_exports/CA1_Superficial/DEG_FDR05.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/DEG_FDR05.txt",
+      "sha256": "45a189811a46f651d83792a919c04fa4f0b7a800412651a3ca0c73e6f91c5979"
+    },
+    {
+      "endpoint": "CA1_Superficial",
+      "repo_path": "communication_data/existing_DESeq2_exports/CA1_Superficial/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "sha256": "776958a4db496191d6f54b961e5e72b5070ba46491b00774876d84dca52385c2"
+    },
+    {
+      "endpoint": "IN_C1",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C1/ALL_RESULTS.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "a06f094c89eaaab128c27796576ad4868c4d33cbb80460b8415f79fb27e1458e"
+    },
+    {
+      "endpoint": "IN_C1",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C1/DEG_FDR05.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/DEG_FDR05.txt",
+      "sha256": "48c1cba6bef54f20bb9a0b63e57817710b2c6c30aaa193dde7218e8ec3c41c3f"
+    },
+    {
+      "endpoint": "IN_C1",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C1/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "sha256": "3fa864f4b828bbd1c7aef28f997519849789739c9f799b348977a0f92ead2ce3"
+    },
+    {
+      "endpoint": "IN_C6",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C6/ALL_RESULTS.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "117bf9b6fe06162df8cc4cdff5fa0668610c3570759eb21b0d36e19e7d5a0cc2"
+    },
+    {
+      "endpoint": "IN_C6",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C6/DEG_FDR05.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/DEG_FDR05.txt",
+      "sha256": "d3284e9226ac36f74f9f06770640a51d6750f2cf61305302b24059d44f8e7fe5"
+    },
+    {
+      "endpoint": "IN_C6",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C6/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "sha256": "cf985d87f0f442e83010f706a3386e067321008ac4416e818755f3a2f6cfb62f"
+    },
+    {
+      "endpoint": "IN_C8",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C8/ALL_RESULTS.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0147_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "675bde2f9206674b76805c79786ffaf3cd726a8dc54cfccef9d7c67d9e137b11"
+    },
+    {
+      "endpoint": "IN_C8",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C8/DEG_FDR05.txt",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0147_seurat_Inhibitory_CLUSTER/PRIMARY/DEG_FDR05.txt",
+      "sha256": "639fe53192b0798c03214afc9c286128e4d4fae377f383941452b1ff873eefbd"
+    },
+    {
+      "endpoint": "IN_C8",
+      "repo_path": "communication_data/existing_DESeq2_exports/IN_C8/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0147_seurat_Inhibitory_CLUSTER/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "sha256": "edf6ba8b01ed323966b5f7d15834d61fcdbc2de87bac4c9c1bd2ff6471ca80cd"
+    },
+    {
+      "repo_path": "communication_data/full_result_tables/interaction_evidence.tsv.gz",
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/runs/20261022_liana_v1/results/communication/tables/interaction_evidence.tsv.gz",
+      "sha256": "4f6b7f4e40eebc14b9f400e99fd152dc828551a0e11ce9d42acae298b2b7e0c5"
+    },
+    {
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/references/mouseconsensus.tsv",
+      "sha256": "0b9e2307fcbd482bb608f118d7e03bdbfc93e58d2c2032c844b648e3cca86f71"
+    },
+    {
+      "native_path": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/runs/20261022_liana_v1/results/prepared/feature_mapping.tsv",
+      "sha256": "245a060513b0d75376a4fdc8faa1c5453137b80957e9ad2f9ab5c67e37a366d9"
+    }
+  ],
+  "legacy_preserved_hashes": {
+    "site/communication/data/data.js": "33b0348b62e8f76dbeab60e4dbad9de3c50e8f85f334c78083f2fbefc43bd533",
+    "site/communication/data/manifest.json": "3d6c7542f98cb0d110d3a99e0c283cbe229fc16453e8dd0a6b5ad2394f45d1f4"
+  },
+  "export_files": [
+    {
+      "path": "pooled/CA1_to_IN_rank_aggregate.tsv",
+      "bytes": 515,
+      "sha256": "98160bdb0a126b1ef2822b737dabd195f6c306e557b848763ec107c2dcfbb933",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/pooled/CA1_to_IN_rank_aggregate.tsv"
+    },
+    {
+      "path": "pooled/CA1_to_IN_signed_extended.tsv",
+      "bytes": 4901,
+      "sha256": "09643bc04952b1826ad468d85e69e34afaa49818e1fd4cab52c232ee75eb067d",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/pooled/CA1_to_IN_signed_extended.tsv"
+    },
+    {
+      "path": "pooled/IN_to_CA1_rank_aggregate.tsv",
+      "bytes": 772,
+      "sha256": "ab4930a3a371f0dedf96b899f7b0d4fb53c7dcdc5de99941920f930b89c17029",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/pooled/IN_to_CA1_rank_aggregate.tsv"
+    },
+    {
+      "path": "pooled/IN_to_CA1_signed_extended.tsv",
+      "bytes": 7533,
+      "sha256": "fda8be7ac228d8b56a6bace1e7811f7041b70ba63a7b205793a1f9d5b5bb59b9",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/pooled/IN_to_CA1_signed_extended.tsv"
+    },
+    {
+      "path": "pooled/bidirectional_rank_aggregate.tsv",
+      "bytes": 1207,
+      "sha256": "d80de7dd0d819c003a291f5afd084f4fda661b041d086e93eb7a1dfd3ad975db",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/pooled/bidirectional_rank_aggregate.tsv"
+    },
+    {
+      "path": "pooled/bidirectional_signed_extended.tsv",
+      "bytes": 11495,
+      "sha256": "2ec360f5d56cf7d052c94f500af8dd4d3fa89c75b8404b621aecda14f0fc3b9d",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/pooled/bidirectional_signed_extended.tsv"
+    },
+    {
+      "path": "WT/CA1_to_IN_rank_aggregate.tsv",
+      "bytes": 440,
+      "sha256": "78fc821f8b0cc87d46c89a46a86ae146d27d45974e8c0420ad17bf2c5907b41f",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/WT/CA1_to_IN_rank_aggregate.tsv"
+    },
+    {
+      "path": "WT/CA1_to_IN_signed_extended.tsv",
+      "bytes": 4231,
+      "sha256": "619ee3282e3b2c6d5fa4e38b6a30e05a72ab68eea473fa0a041c89365d5e067e",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/WT/CA1_to_IN_signed_extended.tsv"
+    },
+    {
+      "path": "WT/IN_to_CA1_rank_aggregate.tsv",
+      "bytes": 802,
+      "sha256": "a6a67d1ee4c60cb31f834951369365c1b2af8367c1c8ab7190e839d5a4bd0c7b",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/WT/IN_to_CA1_rank_aggregate.tsv"
+    },
+    {
+      "path": "WT/IN_to_CA1_signed_extended.tsv",
+      "bytes": 7551,
+      "sha256": "1cb03f48399fe999461dc6bce566161d68b28ec5311f62e9fde2fc603a3c522e",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/WT/IN_to_CA1_signed_extended.tsv"
+    },
+    {
+      "path": "WT/bidirectional_rank_aggregate.tsv",
+      "bytes": 1162,
+      "sha256": "9c3428d77c90bd1ea539c05745b9e6af5bd38cdc75c3f3465e0d4b7af9f025de",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/WT/bidirectional_rank_aggregate.tsv"
+    },
+    {
+      "path": "WT/bidirectional_signed_extended.tsv",
+      "bytes": 10843,
+      "sha256": "3c32b0f82e1852349556bf988dab6e22153d839556383149f83283ccb1f39c08",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/WT/bidirectional_signed_extended.tsv"
+    },
+    {
+      "path": "cKO/CA1_to_IN_rank_aggregate.tsv",
+      "bytes": 515,
+      "sha256": "9a8f7e345ec2457dab8039dc293581d5fa189ffba6c458e9aba82204ad7f2732",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/cKO/CA1_to_IN_rank_aggregate.tsv"
+    },
+    {
+      "path": "cKO/CA1_to_IN_signed_extended.tsv",
+      "bytes": 4890,
+      "sha256": "7002c3eaa4364c274ffa1601ba3789bc2ccb7bd7c92b847ed47f8c74e825f9cd",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/cKO/CA1_to_IN_signed_extended.tsv"
+    },
+    {
+      "path": "cKO/IN_to_CA1_rank_aggregate.tsv",
+      "bytes": 768,
+      "sha256": "6c73c1b341f468f21c109a1070bb3945edb3227f367497065ab3d70850ae71cd",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/cKO/IN_to_CA1_rank_aggregate.tsv"
+    },
+    {
+      "path": "cKO/IN_to_CA1_signed_extended.tsv",
+      "bytes": 7519,
+      "sha256": "ce975653dd427899254cfa6bd49673854e450e2ed645cc3b86275e20e46e0a86",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/cKO/IN_to_CA1_signed_extended.tsv"
+    },
+    {
+      "path": "cKO/bidirectional_rank_aggregate.tsv",
+      "bytes": 1203,
+      "sha256": "2058caf022c2a01e4d0975f72a53d5e051216dad35e5cbe1dc307c5f38f4f681",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/cKO/bidirectional_rank_aggregate.tsv"
+    },
+    {
+      "path": "cKO/bidirectional_signed_extended.tsv",
+      "bytes": 11470,
+      "sha256": "8ac1dd83247a93a652f7c65cd907ec43c7ba3b86fb1cb15bcf435d788883e0ab",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/cKO/bidirectional_signed_extended.tsv"
+    },
+    {
+      "path": "interaction_evidence_signed.tsv",
+      "bytes": 31930,
+      "sha256": "06eca010e278badbc94fcd3c43792710d0db9a6707da16b7e268e82b39902449",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/interaction_evidence_signed.tsv"
+    },
+    {
+      "path": "CONDITION_DIRECTION_COUNTS.tsv",
+      "bytes": 580,
+      "sha256": "0c87094469572fb781b7d5ab8229f14e6fca915702ec8858621ded688e355577",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/CONDITION_DIRECTION_COUNTS.tsv"
+    },
+    {
+      "path": "DESeq2/CA1_Deep/DEG_FDR05.txt",
+      "bytes": 87736,
+      "sha256": "13c646788bca80e053eae6575483c64159a3692078c8af8876e871645cce35bc",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Deep/DEG_FDR05.txt"
+    },
+    {
+      "path": "DESeq2/CA1_Deep/UP_in_cKO.txt",
+      "bytes": 42261,
+      "sha256": "9b26ff37721f7aa0e3b51df89f96680214ad307e567a50448597391dd41af361",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Deep/UP_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/CA1_Deep/DOWN_in_cKO.txt",
+      "bytes": 45527,
+      "sha256": "227fd84b00e15ccb2410346e9f28b341a8958678943a5f1ed12ef7901997842b",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Deep/DOWN_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/CA1_Deep/DEG_FDR05_STABLE_ID_AUDIT.tsv",
+      "bytes": 115209,
+      "sha256": "08ff8041d64437aea9eca685ea7e84dccfd739df0f017de839cde072b5eb364f",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Deep/DEG_FDR05_STABLE_ID_AUDIT.tsv"
+    },
+    {
+      "path": "DESeq2/CA1_Superficial/DEG_FDR05.txt",
+      "bytes": 216278,
+      "sha256": "45a189811a46f651d83792a919c04fa4f0b7a800412651a3ca0c73e6f91c5979",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Superficial/DEG_FDR05.txt"
+    },
+    {
+      "path": "DESeq2/CA1_Superficial/UP_in_cKO.txt",
+      "bytes": 109252,
+      "sha256": "60b3717a00d1bf24947a2f35dad442bfe05588bd6edc4d0be24c261678dbddb2",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Superficial/UP_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/CA1_Superficial/DOWN_in_cKO.txt",
+      "bytes": 107078,
+      "sha256": "da8ddf99a72ba0929cf8f0d9e210be4b62c78be19095c3cd580064eeaebe1102",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Superficial/DOWN_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/CA1_Superficial/DEG_FDR05_STABLE_ID_AUDIT.tsv",
+      "bytes": 284144,
+      "sha256": "6d87cbfd5214ec99fcaa578ef49cb1aa1bedb1b3eaa7a8e367a5ef95123561ef",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/CA1_Superficial/DEG_FDR05_STABLE_ID_AUDIT.tsv"
+    },
+    {
+      "path": "DESeq2/IN_C1/DEG_FDR05.txt",
+      "bytes": 3234,
+      "sha256": "48c1cba6bef54f20bb9a0b63e57817710b2c6c30aaa193dde7218e8ec3c41c3f",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C1/DEG_FDR05.txt"
+    },
+    {
+      "path": "DESeq2/IN_C1/UP_in_cKO.txt",
+      "bytes": 1330,
+      "sha256": "c7d2a31488570c6bad5bceca5f1f38a0c49a38fb212e1588da349bfb455fd546",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C1/UP_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/IN_C1/DOWN_in_cKO.txt",
+      "bytes": 1956,
+      "sha256": "b34122ba5fa57ed178d0f317ef35edbdf1d0ee0f7c9018b4bb4f440bba519514",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C1/DOWN_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/IN_C1/DEG_FDR05_STABLE_ID_AUDIT.tsv",
+      "bytes": 4306,
+      "sha256": "d317c86136080a2e1b281e76e5f1ae8a4f5c235d71337c25ecad34ff33d7c872",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C1/DEG_FDR05_STABLE_ID_AUDIT.tsv"
+    },
+    {
+      "path": "DESeq2/IN_C6/DEG_FDR05.txt",
+      "bytes": 2640,
+      "sha256": "d3284e9226ac36f74f9f06770640a51d6750f2cf61305302b24059d44f8e7fe5",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C6/DEG_FDR05.txt"
+    },
+    {
+      "path": "DESeq2/IN_C6/UP_in_cKO.txt",
+      "bytes": 515,
+      "sha256": "fc3585bad10060a6cfd004778730279f5dc11d095f1837df1c64c0af974ae356",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C6/UP_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/IN_C6/DOWN_in_cKO.txt",
+      "bytes": 2177,
+      "sha256": "d30649d40f68dba8ea08b408d82e9909ebc11eb1fa672d29e6757e03529b32c0",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C6/DOWN_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/IN_C6/DEG_FDR05_STABLE_ID_AUDIT.tsv",
+      "bytes": 3510,
+      "sha256": "99d6ecc3fcd07661786969899228e5af0eacb4e79f1c447b400bac7aa1deadd2",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C6/DEG_FDR05_STABLE_ID_AUDIT.tsv"
+    },
+    {
+      "path": "DESeq2/IN_C8/DEG_FDR05.txt",
+      "bytes": 165,
+      "sha256": "639fe53192b0798c03214afc9c286128e4d4fae377f383941452b1ff873eefbd",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C8/DEG_FDR05.txt"
+    },
+    {
+      "path": "DESeq2/IN_C8/UP_in_cKO.txt",
+      "bytes": 165,
+      "sha256": "639fe53192b0798c03214afc9c286128e4d4fae377f383941452b1ff873eefbd",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C8/UP_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/IN_C8/DOWN_in_cKO.txt",
+      "bytes": 52,
+      "sha256": "7f2ef163c951b8dd07dce5837918aa49a8979e64ed7bac5e82c9bdacbe01396a",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C8/DOWN_in_cKO.txt"
+    },
+    {
+      "path": "DESeq2/IN_C8/DEG_FDR05_STABLE_ID_AUDIT.tsv",
+      "bytes": 281,
+      "sha256": "d4dc8f11db52aa5c8e55781957bfd1222e49cab9d76cf1a76d35485ef8d82523",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DESeq2/IN_C8/DEG_FDR05_STABLE_ID_AUDIT.tsv"
+    },
+    {
+      "path": "ENDPOINT_GENE_DIRECTIONS.tsv",
+      "bytes": 483855,
+      "sha256": "af908f80b1a28994b6b0b6022fc20c480a3ff7422cb3a62bd8c23711e72bd4c3",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/ENDPOINT_GENE_DIRECTIONS.tsv"
+    },
+    {
+      "path": "DIRECTION_PAIR_COUNTS.tsv",
+      "bytes": 3482,
+      "sha256": "946f57f174321adf55fa34e91d07c929b8eb174e2cce1f28364ac6978d143907",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/DIRECTION_PAIR_COUNTS.tsv"
+    },
+    {
+      "path": "strict_component_evidence.json",
+      "bytes": 9193,
+      "sha256": "db63bde2b7a1cf46de2351a8c7c0a2b16506d4e2f8f1597a07561947f514f95e",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.6.0/communication_data/deg_only_v36/strict_component_evidence.json"
+    }
+  ]
+}

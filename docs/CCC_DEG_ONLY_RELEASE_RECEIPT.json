@@ -1,0 +1,15 @@
+{
+  "schema": "satb2-deg-only-release/v1",
+  "file": "SATB2_DEG_ONLY_LR_results_20261023.zip",
+  "bytes": 11487555,
+  "sha256": "99365531229b875299b830e131d144dfe39e47632f3a82333c8f799dfe0b0371",
+  "files": 158,
+  "figure_panels": 15,
+  "figure_formats": [
+    "svg",
+    "png",
+    "pdf"
+  ],
+  "scientific_fits": 0,
+  "original_scores_unchanged": true
+}

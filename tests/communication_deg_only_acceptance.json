@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "checks": 8,
+  "passed": [
+    "new payload cryptographic transport hashes and unchanged legacy files",
+    "only three corrected fits and five exact populations; C8 remains explicitly eligible",
+    "both complete endpoint complexes are significant and signed from exact original DESeq2 evidence",
+    "all 47 saved scalar fields and identity flags equal the untouched original full-background payload",
+    "all-rank and native rank <=0.05 directional counts and ordered gene-sign counts",
+    "nine native seven-column projections and nine signed exports match strict payload values",
+    "five original DEG copies retain exact source bytes and standard seven columns, signed subsets partition them",
+    "every documented immutable download exists with exact bytes and hash"
+  ],
+  "strict_records": 47,
+  "source_scores_unchanged": true,
+  "no_refits": true
+}

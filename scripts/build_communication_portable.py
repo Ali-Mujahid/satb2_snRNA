@@ -43,20 +43,22 @@ def build(destination):
         return 'href="' + LIVE + url + '"'
 
     html = re.sub(r'href="([^"]+)"', link, html)
-    html = html.replace('<title>SATB2 · Ligand–receptor explorer</title>',
-                        '<title>SATB2 · Ligand–receptor explorer · offline</title>')
+    html = html.replace('<title>SATB2 · DEG-only ligand–receptor explorer</title>',
+                        '<title>SATB2 · DEG-only ligand–receptor explorer · offline</title>')
     assert not re.search(r'<script\s+src=', html)
     assert 'CCC_DATA_GZIP' in html and 'gunzipSync' in html
     destination.parent.mkdir(parents=True, exist_ok=True)
     destination.write_text(html)
-    receipt = {'schema': 'satb2-communication-portable/v1',
+    receipt = {'schema': 'satb2-communication-portable/v2',
                'html_file': destination.name, 'bytes': destination.stat().st_size,
                'sha256': hashlib.sha256(destination.read_bytes()).hexdigest(),
                'embedded_sources': sources, 'external_render_dependencies': [],
-               'all_six_fits_embedded': True,
+               'three_strict_DEG_only_projections_embedded': True,
+               'endpoint_count': 5, 'strict_record_count': 47,
+               'both_endpoint_all_subunit_DEG_rule': True,
                'matching_LR_component_DESeq2_evidence_embedded': True,
                'scientific_fits_performed': False,
-               'native_complete_package': 'SATB2_CA1_IN_LIANA_20261022.zip',
+               'native_complete_package': 'SATB2_DEG_ONLY_LR_results_20261023.zip',
                'external_links_require_internet': True}
     return receipt
 
