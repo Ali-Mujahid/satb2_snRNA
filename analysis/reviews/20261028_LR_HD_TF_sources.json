@@ -1,0 +1,217 @@
+{
+  "LIANA_reranking": false,
+  "boundaries": [
+    "The same measured RNA supplies gene DE, module structure, TF target signatures and LR qualification; convergence is not independent validation.",
+    "Native module directions are PC1 score effects, not directions of every member gene and not communication activity effects.",
+    "Original LIANA lr_logfc is group-versus-rest, not genotype logFC; rank is not genotype FDR.",
+    "No significant curated TF overlap involving these leads has both expressed source RNA and matched-partition FDR support; Hoxa5\u2192Ptn is a prior join with source RNA absent.",
+    "No direct Satb2 prior link to these selected LR components is present in the saved used network; absence from a curated resource does not exclude biology.",
+    "Only exact pooled-module identity is used; colors across lineages or consensus fits are not interchangeable."
+  ],
+  "counts": {
+    "Satb2_gene_context_rows": 2,
+    "Satb2_used_prior_links_to_selected_LR_components": 0,
+    "all_component_rows": 10,
+    "all_genuine_used_prior_links_including_Satb2_context": 43,
+    "condition_specific_LR_rows": 15,
+    "ordered_LR_pairs": 5,
+    "primary_FDR_TF_overlap_with_LR_components": 1,
+    "unique_LR_component_endpoint_gene_rows": 8
+  },
+  "date": "2026-10-28",
+  "full_strict_communication_records_preserved": {
+    "WT": 15,
+    "cKO": 16,
+    "pooled": 16
+  },
+  "future_motif_results_included": false,
+  "input_receipts": [
+    {
+      "bytes": 13828,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json",
+      "sha256": "2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a"
+    },
+    {
+      "bytes": 31930,
+      "path": "/Users/mujahid357/Documents/codex_new/satb2_snRNA_github/communication_data/deg_only_v36/interaction_evidence_signed.tsv",
+      "sha256": "06eca010e278badbc94fcd3c43792710d0db9a6707da16b7e268e82b39902449"
+    },
+    {
+      "bytes": 1545106,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "e94292fa3f9f6e13f4bc281124805806287d5cdaa701e4aedd65b3e2e75abc47"
+    },
+    {
+      "bytes": 1672143,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "09809ce5487aa4aed9dcdab91db597f665fb1d3b02899f4a23fde913eecaa134"
+    },
+    {
+      "bytes": 1417446,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "a06f094c89eaaab128c27796576ad4868c4d33cbb80460b8415f79fb27e1458e"
+    },
+    {
+      "bytes": 925841,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "sha256": "117bf9b6fe06162df8cc4cdff5fa0668610c3570759eb21b0d36e19e7d5a0cc2"
+    },
+    {
+      "bytes": 1837179,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/CA1/pooled/module_membership.tsv",
+      "sha256": "e4a4f49fc4e95b03e2e749c307fc535ee7da337b1f59658fcacd79bdc90b3bd9"
+    },
+    {
+      "bytes": 1344443,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/CA1/pooled/all_gene_hub_ranks.tsv",
+      "sha256": "4cab33ce2b03cd5c9444434c4ff8660bc66adfd162409669d42332012b4a3567"
+    },
+    {
+      "bytes": 39761,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/CA1/pooled/module_genotype_leave_one_mouse_out.tsv",
+      "sha256": "a4fd8c3c0109873e6662c95de4ceaea50a09f6ffcee2396d48f58de213b84864"
+    },
+    {
+      "bytes": 1051392,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/IN/pooled/module_membership.tsv",
+      "sha256": "93fcec4dac6576c9842e75b63095091bae7aa25979ebe32727f5edaa178f280a"
+    },
+    {
+      "bytes": 407356,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/IN/pooled/all_gene_hub_ranks.tsv",
+      "sha256": "d4c7dc3b6b2815f37fcc8df4c49d780fa33c0300c0b01a7725feb1e085d2bf55"
+    },
+    {
+      "bytes": 28594,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/IN/pooled/module_genotype_leave_one_mouse_out.tsv",
+      "sha256": "143f64cec696c270aea00d3931fdb62836ba533dba310ec4223429f266af1659"
+    },
+    {
+      "bytes": 9140,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/pooled_module_genotype_associations.tsv",
+      "sha256": "9e6f6609c196ecca2c015f3995c962d6a516aee69f8344cb8b4c7206ec996e7e"
+    },
+    {
+      "bytes": 9937,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/hdwgcna/pooled_module_genotype_same_partition.tsv",
+      "sha256": "4b54e2967f41659eac4b58c95033c6d1249e7819da973d9d092bc178a2d9aecc"
+    },
+    {
+      "bytes": 2034,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/enrichment/STRICT_LR_AND_SATB2_MODULE_LINKS.tsv",
+      "sha256": "a904c24a5027f6f6a0373b1e0566725082b495844fdfc5b4dc040a9b19b9892b"
+    },
+    {
+      "bytes": 1801607,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_mouse/TF_ASSOCIATIONS.tsv",
+      "sha256": "4f81a4892922e2d75b349b7dcb923d0652e5f08fb9cee0f72b63a561da9a9000"
+    },
+    {
+      "bytes": 2065737,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_mouse/TF_SAME_PARTITION_ASSOCIATIONS.tsv",
+      "sha256": "b5387e1eb409471069862c5cc53a1181d860bf23c02b5242ab6ef7a5de5cf516"
+    },
+    {
+      "bytes": 3851513,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/CA1_Deep/mouse_activity_used_signed_prior_edges.tsv",
+      "sha256": "30f4d6506dfa9129ac75a75492ea762ba80b685a6ebead278a3b8d610a4740ab"
+    },
+    {
+      "bytes": 1687776,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/CA1_Deep/all_gene_activity_background_audit.tsv",
+      "sha256": "7dac0aae1b4d61dcd325e32d94d9bfec9429a58198913ccc8a11e860b9a10eec"
+    },
+    {
+      "bytes": 4273792,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/CA1_Superficial/mouse_activity_used_signed_prior_edges.tsv",
+      "sha256": "580063377151e3d04f9906bc573ee1aeb0a3bd3de86308e03218fc8178a22a00"
+    },
+    {
+      "bytes": 1688612,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/CA1_Superficial/all_gene_activity_background_audit.tsv",
+      "sha256": "7569002fa0809e35f9fd2dbe9db3235958c33628e76c597e73b2a8686331a691"
+    },
+    {
+      "bytes": 3016240,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/IN_C1/mouse_activity_used_signed_prior_edges.tsv",
+      "sha256": "ca85e92ade514a2f0f11343c270ccc11d1cb94fa86bfcd022a262c62927ea763"
+    },
+    {
+      "bytes": 1684798,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/IN_C1/all_gene_activity_background_audit.tsv",
+      "sha256": "0f8f804a87cd194798db6bd4dbb3d9ec85a0d1710ce1e3d260ef785cfc078634"
+    },
+    {
+      "bytes": 2018693,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/IN_C6/mouse_activity_used_signed_prior_edges.tsv",
+      "sha256": "25a607d9ecf94792183ff3171cec5055470d2150cfdeb1c124dab19c1769b73a"
+    },
+    {
+      "bytes": 1680672,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/IN_C6/all_gene_activity_background_audit.tsv",
+      "sha256": "3b7eae836b1933eccfe8302e424aa98a843525fceed38dd1899b3bd5385f7a9c"
+    }
+  ],
+  "interpretation_guide": {
+    "bytes": 9359,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/reviews/20261028_completed_LR_HD_TF_integration_guide.md",
+    "sha256": "3743d914b69813d9c008cf4522137bce18759047840a82337b91254bf96d4a97"
+  },
+  "native_files_modified": false,
+  "new_scientific_fits": 0,
+  "outputs": [
+    {
+      "bytes": 8867,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/reviews/20261028_LR_HD_TF_components.tsv",
+      "sha256": "fd12705b850fbc8c052ee0d879e319442e5071489a4ed7ee9b5de48693a75a78"
+    },
+    {
+      "bytes": 3852,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/reviews/20261028_LR_HD_TF_directional_pairs.tsv",
+      "sha256": "65ffade5c282fe526fa065f4ee5bd33ec7034a5213ce4ee5a95b1783bd1e0e37"
+    },
+    {
+      "bytes": 19315,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/reviews/20261028_LR_HD_TF_saved_prior_overlap.tsv",
+      "sha256": "a65baf96d2407a03430f13bc48048372b872bc155928ef3fe1860f0396fcabdd"
+    }
+  ],
+  "primary_FDR_TF_overlap": [
+    {
+      "TF_mouse_score_effect_cKO_minus_WT": "-0.236505834552336",
+      "TF_primary_association_FDR": "0.0284072811692061",
+      "TF_prior_source": "Hoxa5",
+      "TF_same_partition_FDR": "0.101437052928453",
+      "TF_same_partition_effect": "-0.236670337471833",
+      "TF_source_RNA_all_zero_all12": true,
+      "TF_source_RNA_meets_background_gate": false,
+      "TF_source_RNA_mice_count_ge5": "0",
+      "TF_source_RNA_unique_assayed_row": true,
+      "endpoint": "CA1_Superficial",
+      "evidence_boundary": "saved_curated_prior_and_same_dataset_target_signature_not_binding_or_causal_chain",
+      "native_prior_weight": "1",
+      "prior_reference_PMIDs": "15757903",
+      "prior_resources": "DoRothEA-A;ExTRI;HTRI;TFactS;TRRUST",
+      "prior_self_target": "False",
+      "role": "ligand",
+      "source_file": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/CA1_Superficial/mouse_activity_used_signed_prior_edges.tsv",
+      "target_gene": "Ptn",
+      "target_gene_DESeq2_log2FC": "-1.0156943506422",
+      "target_gene_DESeq2_padj": "4.67337600907134e-06"
+    }
+  ],
+  "primary_literature_context": [
+    {
+      "purpose": "PTN\u2013PTPRZ has demonstrated oligodendrocyte-lineage context and inhibitory-ligand biology; supports an identity/context caveat, not proof of contamination in this cohort.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6605312/"
+    }
+  ],
+  "read_only_join_script": {
+    "bytes": 11000,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/reviews/tmp/build_completed_integration_guide_20261028.py",
+    "sha256": "1aae787f1cb0322083ed6634e85ddab2d7b454e4fc39d6a7c8fc5197922770f1"
+  },
+  "schema": "satb2-completed-LR-HD-TF-gene-join/v1",
+  "scope": "Five prespecified selected ordered LR interpretation examples, not an exhaustive list or a new significance filter, plus two CA1 Satb2 context rows. All completed full strict communication datasets are preserved.",
+  "selection_changes": false
+}

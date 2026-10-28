@@ -1,0 +1,55 @@
+{
+  "checklist": [
+    "All23,143 exact nuclei retained and raw native AUC axes aligned",
+    "Every AUC mean equals all exact nuclei in endpoint/mouse",
+    "Six WT +six cKO independent mice, no nucleus pseudo-replication",
+    "Native positive motif contexts and unchanged target weights,>=10 measured targets",
+    "Joint both-lineage primary BH and separate6WT/3cKO +Satb2 sensitivity families",
+    "Exact native Satb2 support, own-gene sensitivity and no forced proxy",
+    "All model/evidence limits retained; no direct-binding or causal claim"
+  ],
+  "checkpoints": {
+    "CA1/prepared": {
+      "completion_sha256": "a8d67f657a488149f47e4e3aa5a23cf2cd2c49f4f71e6ad4dff2847a07a917b4",
+      "n_sealed_files": 7,
+      "summary": {
+        "AUCell_nuclei_window_includes_undetected_RNA": 0,
+        "DEG_or_HVG_selection": false,
+        "Satb2_eligible_RNA": true,
+        "Satb2_in_official_list": true,
+        "downsampled_nuclei": 0,
+        "genotype_blind": true,
+        "n_TF_candidates": 938,
+        "n_genes": 10606,
+        "n_nuclei": 20456,
+        "normalization": "log1p(10000*raw_count/full_original_all_gene_library)"
+      }
+    },
+    "IN/prepared": {
+      "completion_sha256": "7e2b0b6afed4143aeca2cff93ca619d40c705e84609db5a7aaee868c89144424",
+      "n_sealed_files": 7,
+      "summary": {
+        "AUCell_nuclei_window_includes_undetected_RNA": 0,
+        "DEG_or_HVG_selection": false,
+        "Satb2_eligible_RNA": false,
+        "Satb2_in_official_list": true,
+        "downsampled_nuclei": 0,
+        "genotype_blind": true,
+        "n_TF_candidates": 973,
+        "n_genes": 11051,
+        "n_nuclei": 2687,
+        "normalization": "log1p(10000*raw_count/full_original_all_gene_library)"
+      }
+    }
+  },
+  "config": {
+    "bytes": 11037,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/config/pyscenic.v1.json",
+    "sha256": "fdf956e1cab1458a2566c691547be393e49d015fd585c6d25575255d58a79209"
+  },
+  "date_UTC": "2026-10-28T07:43:32.535169+00:00",
+  "results": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+  "schema": "satb2-independent-pyscenic-readonly-audit/v1",
+  "scope": "Read-only hashes, exact axes, counts, all-nucleus mean equality and native-statistic arithmetic; no inference or fit",
+  "status": "PARTIAL_CHECKPOINT_AUDIT"
+}

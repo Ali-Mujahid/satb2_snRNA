@@ -1,0 +1,379 @@
+{
+  "audit_date": "2026-10-28",
+  "config": {
+    "bytes": 11037,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/config/pyscenic.v1.json",
+    "sha256": "fdf956e1cab1458a2566c691547be393e49d015fd585c6d25575255d58a79209"
+  },
+  "limitations": [
+    "This is preparation-only review, not proof that GRN or motif pruning has completed or produced valid regulons.",
+    "Full original raw count matrices were not reloaded or normalized by this auditor. Library denominators and exact nucleus axes were checked against frozen native metadata; original all-gene reconciliation and tested executed code provide the upstream count evidence.",
+    "Sparse expression matrix inspection used the shape/format headers only; file SHA256 seals were independently verified.",
+    "Reference file identities and gene/motif annotation compatibility were checked; this is not an independent genome alignment/build audit.",
+    "The fixed five-percent gate is a coverage rule; absence of an IN Satb2 regulon cannot establish absence of SATB2 function or protein.",
+    "Native motif annotations can include orthology and motif similarity; these are not measured binding evidence in the studied nuclei."
+  ],
+  "lineages": {
+    "CA1": {
+      "DEG_or_HVG_gene_selection": false,
+      "Satb2": {
+        "eligible": true,
+        "normalized_nonconstant": true,
+        "official_TF_list_member": true,
+        "per_endpoint_detection": [
+          {
+            "Satb2_detected_nuclei": 5339,
+            "detected_fraction": 0.6101714285714286,
+            "endpoint": "CA1_Deep",
+            "minimum_detected_nuclei_to_pass": 438,
+            "n_nuclei": 8750,
+            "passes": true,
+            "threshold_fraction": 0.05
+          },
+          {
+            "Satb2_detected_nuclei": 9096,
+            "detected_fraction": 0.7770374167093798,
+            "endpoint": "CA1_Superficial",
+            "minimum_detected_nuclei_to_pass": 586,
+            "n_nuclei": 11706,
+            "passes": true,
+            "threshold_fraction": 0.05
+          }
+        ],
+        "reason": "ELIGIBLE",
+        "valid_unambiguous_symbol": true
+      },
+      "TF_candidate_attrition": {
+        "assayed": 1830,
+        "eligible_for_GRN": 938,
+        "eligible_sources_with_annotation_for_ranked_motif": 645,
+        "eligible_sources_with_any_native_filtered_annotation": 657,
+        "excluded": 922,
+        "manual_TF_additions": 0,
+        "official_unique_candidates": 1860,
+        "reason_counts": {
+          "DETECTED_IN_FEWER_THAN_5_PERCENT_IN_EVERY_ENDPOINT": 889,
+          "ELIGIBLE": 938,
+          "MISSING_OR_AMBIGUOUS_SYMBOL": 3,
+          "NOT_ASSAYED": 30
+        }
+      },
+      "gene_background": {
+        "after_any_endpoint_5percent_detection": 10606,
+        "after_nonconstant_normalized_RNA": 10606,
+        "all_prepared_features": 32245,
+        "reason_counts": {
+          "DETECTED_IN_FEWER_THAN_5_PERCENT_IN_EVERY_ENDPOINT": 21601,
+          "ELIGIBLE": 10606,
+          "MISSING_OR_AMBIGUOUS_SYMBOL": 38
+        },
+        "unambiguous_valid": 32207
+      },
+      "genotype_blind_selection_logic_reconciled_for_all_features": true,
+      "native_marker": {
+        "bytes": 3857,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/COMPLETE.json",
+        "sha256": "a8d67f657a488149f47e4e3aa5a23cf2cd2c49f4f71e6ad4dff2847a07a917b4"
+      },
+      "nucleus_axes": {
+        "all_endpoints_all12_mice": true,
+        "all_nuclei_detected_RNA_exceeds_AUCell_rank_window": true,
+        "endpoint_counts": {
+          "CA1_Deep": 8750,
+          "CA1_Superficial": 11706
+        },
+        "exact_input_metadata_order_and_selected_fields_match": true,
+        "full_original_library_UMI_sums_by_endpoint": {
+          "CA1_Deep": 101915485,
+          "CA1_Superficial": 137592750
+        },
+        "matrix_shape_header_only_inspection": true,
+        "mismatches": [],
+        "n_downsampled_nuclei": 0,
+        "n_mouse_genotypes": {
+          "WT": 6,
+          "cKO": 6
+        },
+        "n_nuclei": 20456,
+        "normalization_full_library_fields_match_original_preparation": true,
+        "sparse_format": "csc",
+        "sparse_matrix_shape": [
+          20456,
+          10606
+        ]
+      },
+      "reference_gene_mapping": [
+        {
+          "eligible_RNA_fraction_mapped": 0.9184423910993778,
+          "eligible_RNA_genes_mapped": 9741,
+          "eligible_RNA_genes_total": 10606,
+          "eligible_TF_sources_mapped_as_genes": 925,
+          "ranking_database": "mm10_500bp_rankings"
+        },
+        {
+          "eligible_RNA_fraction_mapped": 0.9196681123892136,
+          "eligible_RNA_genes_mapped": 9754,
+          "eligible_RNA_genes_total": 10606,
+          "eligible_TF_sources_mapped_as_genes": 925,
+          "ranking_database": "mm10_10kb_rankings"
+        }
+      ],
+      "status": "PREPARATION_AUDIT_PASS"
+    },
+    "IN": {
+      "DEG_or_HVG_gene_selection": false,
+      "Satb2": {
+        "eligible": false,
+        "normalized_nonconstant": true,
+        "official_TF_list_member": true,
+        "per_endpoint_detection": [
+          {
+            "Satb2_detected_nuclei": 65,
+            "detected_fraction": 0.03783469150174622,
+            "endpoint": "IN_C1",
+            "minimum_detected_nuclei_to_pass": 86,
+            "n_nuclei": 1718,
+            "passes": false,
+            "threshold_fraction": 0.05
+          },
+          {
+            "Satb2_detected_nuclei": 10,
+            "detected_fraction": 0.01996007984031936,
+            "endpoint": "IN_C6",
+            "minimum_detected_nuclei_to_pass": 26,
+            "n_nuclei": 501,
+            "passes": false,
+            "threshold_fraction": 0.05
+          },
+          {
+            "Satb2_detected_nuclei": 20,
+            "detected_fraction": 0.042735042735042736,
+            "endpoint": "IN_C8",
+            "minimum_detected_nuclei_to_pass": 24,
+            "n_nuclei": 468,
+            "passes": false,
+            "threshold_fraction": 0.05
+          }
+        ],
+        "reason": "DETECTED_IN_FEWER_THAN_5_PERCENT_IN_EVERY_ENDPOINT",
+        "valid_unambiguous_symbol": true
+      },
+      "TF_candidate_attrition": {
+        "assayed": 1830,
+        "eligible_for_GRN": 973,
+        "eligible_sources_with_annotation_for_ranked_motif": 674,
+        "eligible_sources_with_any_native_filtered_annotation": 685,
+        "excluded": 887,
+        "manual_TF_additions": 0,
+        "official_unique_candidates": 1860,
+        "reason_counts": {
+          "DETECTED_IN_FEWER_THAN_5_PERCENT_IN_EVERY_ENDPOINT": 854,
+          "ELIGIBLE": 973,
+          "MISSING_OR_AMBIGUOUS_SYMBOL": 3,
+          "NOT_ASSAYED": 30
+        }
+      },
+      "gene_background": {
+        "after_any_endpoint_5percent_detection": 11051,
+        "after_nonconstant_normalized_RNA": 11051,
+        "all_prepared_features": 32245,
+        "reason_counts": {
+          "DETECTED_IN_FEWER_THAN_5_PERCENT_IN_EVERY_ENDPOINT": 21156,
+          "ELIGIBLE": 11051,
+          "MISSING_OR_AMBIGUOUS_SYMBOL": 38
+        },
+        "unambiguous_valid": 32207
+      },
+      "genotype_blind_selection_logic_reconciled_for_all_features": true,
+      "native_marker": {
+        "bytes": 3846,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/COMPLETE.json",
+        "sha256": "7e2b0b6afed4143aeca2cff93ca619d40c705e84609db5a7aaee868c89144424"
+      },
+      "nucleus_axes": {
+        "all_endpoints_all12_mice": true,
+        "all_nuclei_detected_RNA_exceeds_AUCell_rank_window": true,
+        "endpoint_counts": {
+          "IN_C1": 1718,
+          "IN_C6": 501,
+          "IN_C8": 468
+        },
+        "exact_input_metadata_order_and_selected_fields_match": true,
+        "full_original_library_UMI_sums_by_endpoint": {
+          "IN_C1": 17429666,
+          "IN_C6": 3849621,
+          "IN_C8": 3745995
+        },
+        "matrix_shape_header_only_inspection": true,
+        "mismatches": [],
+        "n_downsampled_nuclei": 0,
+        "n_mouse_genotypes": {
+          "WT": 6,
+          "cKO": 6
+        },
+        "n_nuclei": 2687,
+        "normalization_full_library_fields_match_original_preparation": true,
+        "sparse_format": "csc",
+        "sparse_matrix_shape": [
+          2687,
+          11051
+        ]
+      },
+      "reference_gene_mapping": [
+        {
+          "eligible_RNA_fraction_mapped": 0.9200072391638766,
+          "eligible_RNA_genes_mapped": 10167,
+          "eligible_RNA_genes_total": 11051,
+          "eligible_TF_sources_mapped_as_genes": 959,
+          "ranking_database": "mm10_500bp_rankings"
+        },
+        {
+          "eligible_RNA_fraction_mapped": 0.9214550719391911,
+          "eligible_RNA_genes_mapped": 10183,
+          "eligible_RNA_genes_total": 11051,
+          "eligible_TF_sources_mapped_as_genes": 959,
+          "ranking_database": "mm10_10kb_rankings"
+        }
+      ],
+      "status": "PREPARATION_AUDIT_PASS"
+    }
+  },
+  "native_files_modified": false,
+  "native_run": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1",
+  "reference_compatibility": {
+    "Satb2_filtered_annotation_rows": 207,
+    "Satb2_ranked_annotation_rows": 77,
+    "Satb2_ranked_description_classes": {
+      "direct_annotation": 3,
+      "orthology_or_motif_similarity": 74
+    },
+    "Satb2_unique_ranked_annotated_motifs": 23,
+    "all_ranked_motifs_have_compatible_annotation": true,
+    "annotation_raw_rows": 252126,
+    "native_filter_TFs_with_ranked_motif": 1378,
+    "native_filter_unique_TFs": 1412,
+    "native_filter_unique_motifs": 25692,
+    "official_TF_list_contains_Satb2": true,
+    "official_TF_list_unique_count": 1860,
+    "ranking_resources": [
+      {
+        "Satb2_gene_present": true,
+        "gene_types": [
+          "int16"
+        ],
+        "n_genes": 24068,
+        "n_motifs": 5032,
+        "name": "mm10_500bp_rankings"
+      },
+      {
+        "Satb2_gene_present": true,
+        "gene_types": [
+          "int16"
+        ],
+        "n_genes": 24130,
+        "n_motifs": 5032,
+        "name": "mm10_10kb_rankings"
+      }
+    ],
+    "reference_receipts": [
+      {
+        "bytes": 11726,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/allTFs_mm.txt",
+        "sha256": "17a95e142147fb7dc063d7b9e84262746b0b64f622793b3cc5df0eddf2f1194c"
+      },
+      {
+        "bytes": 113107706,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+        "sha256": "5b64aad9df9804d50c50484c92d5192bdd5d2056cb105bdd343c0af2f94cce83"
+      },
+      {
+        "bytes": 238348346,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "sha256": "3d5ba3281faab0c4f959f0b9447093e164015d1caad3e43a98ccebb6625bcb59"
+      },
+      {
+        "bytes": 237172098,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "sha256": "8fc014f1879355a5e94b155f8b55511e3b47842cceed9d3e17235f60afb85ebc"
+      }
+    ],
+    "scope": "Arrow schema and motif index column only; no full ranking matrix loaded, no scientific inference",
+    "shared_ranked_motifs": 5032
+  },
+  "schema": "satb2-pyscenic-preparation-readonly-audit/v1",
+  "scientific_models_run_by_auditor": false,
+  "status": "PASS_PREPARATION_ONLY",
+  "verified_native_output_count": 14,
+  "verified_output_receipts": [
+    {
+      "bytes": 175251,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/AUCell_detection_window_audit.tsv.gz",
+      "sha256": "b9ae71f406f89df1765462c84c92af3c70c6027827800eaf149fc7e82f6acb47"
+    },
+    {
+      "bytes": 113491,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/TF_CANDIDATE_COVERAGE.tsv",
+      "sha256": "d44fba891a90bb8dc54cbcb108cedeccaae7e31e793acf7e0e9f3fe0867f33d2"
+    },
+    {
+      "bytes": 5884,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/eligible_official_TFs.txt",
+      "sha256": "bfbbe207dd61cb0cceeda5ee28af7869151274d85160e4a1e27f63a813ef1446"
+    },
+    {
+      "bytes": 554891425,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/expression_cells_by_genes.npz",
+      "sha256": "ed8a6eb7fff09ca9c75d2046666c67a4f3684d701d33f9b449bc6c7241f3ed18"
+    },
+    {
+      "bytes": 71521,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/expression_genes.tsv",
+      "sha256": "fd6eb364ba15a31a7c14a50823219ae8311c5e901cd38deeacc3daf8c668abbc"
+    },
+    {
+      "bytes": 683250,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/gene_background_audit.tsv.gz",
+      "sha256": "af416b42669b62498c7d8f5daac10dbda4c69172853ebb1741d8c7096a2f2649"
+    },
+    {
+      "bytes": 722802,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/CA1/prepared/nucleus_metadata.tsv.gz",
+      "sha256": "c3f373d00dcdffabf04a0692c045ba8cc58756864b24cea4dfaafc57d56596ef"
+    },
+    {
+      "bytes": 25557,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/AUCell_detection_window_audit.tsv.gz",
+      "sha256": "b34781d641b9ffcbd0c9603409814a65d365e46b9dd57d96eb728d38a943b057"
+    },
+    {
+      "bytes": 110126,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/TF_CANDIDATE_COVERAGE.tsv",
+      "sha256": "6ef2dbf15887d5f1fd3cc6729e59cf6588f2c71932d5223c3e0173e23fb4840f"
+    },
+    {
+      "bytes": 6085,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/eligible_official_TFs.txt",
+      "sha256": "05d2dd4fc4e956426d8d0ddf8e4b343f9bd439116a522e1d6c03d3e6b244d250"
+    },
+    {
+      "bytes": 52675931,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/expression_cells_by_genes.npz",
+      "sha256": "9d9df49c04a7f99804e20915b0efa268993bc3ba5aeeb12c52219e7c1127c894"
+    },
+    {
+      "bytes": 74507,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/expression_genes.tsv",
+      "sha256": "e4790fa46370dc671eeed25f98c61982141009e3dd5fbd780500c8fe705a08ab"
+    },
+    {
+      "bytes": 642111,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/gene_background_audit.tsv.gz",
+      "sha256": "dd77b366fd1fde3699a90b8ca20c608365a248c81a80c5c10db0dbd2a3464413"
+    },
+    {
+      "bytes": 99427,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/prepared/nucleus_metadata.tsv.gz",
+      "sha256": "5254bbdc55df7cf26c25c83cb1fd48256a21a2e6d50ee8a166b1d337ab4f7e93"
+    }
+  ]
+}
