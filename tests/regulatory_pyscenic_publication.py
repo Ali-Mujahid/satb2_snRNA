@@ -19,6 +19,7 @@ def rec(path):return p.receipt(path)
 def native_files(folder):return {str(x.relative_to(folder)):p.receipt(x,folder) for x in p.all_files(folder)}
 
 with tempfile.TemporaryDirectory(prefix='SYNTHETIC_PYSCENIC_TRANSPORT_ONLY_') as tmp:
+    original_index_bytes=(ROOT/'site/regulatory/index.html').read_bytes()
     t=Path(tmp).resolve();endpoints=[{'id':ep,'family':a,'source_endpoint_id':b,'n_nuclei':c,'membership_sha256':d} for ep,(a,b,c,d) in v.EXPECTED.items()]
     mice=[{'id':m,'genotype':g} for m,g in v.MICE.items()]
     base={'schema':p.SCHEMA,'analysis_id':'SYNTHETIC_HD_TRANSPORT','source_fingerprint':'a'*64,'status':'partial','endpoints':endpoints,'samples':mice,
@@ -56,12 +57,14 @@ with tempfile.TemporaryDirectory(prefix='SYNTHETIC_PYSCENIC_TRANSPORT_ONLY_') as
     shared={name:{ep:rec(ref) for ep in p.TF_ENDPOINTS} for name in ('source_pseudobulks','existing_deseq2')}
     hc=t/'HD_CONFIG.json';write(hc,{'run_root':str(hd_run),'R_wrapper':rec(wrapper),'inputs':{'samples':rec(samples)},**shared})
     write(hr/'FINAL_VALIDATION.json',{'status':'SYNTHETIC_MOCKED','analysis_id':hd['analysis_id'],'source_fingerprint':hd['source_fingerprint']})
+    write(hr/'atlas/data.json',p.encoded(hd))
     png=base64.b64decode('iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mP8/x8AAusB9Wl6bAAAAABJRU5ErkJggg==')
     write(hr/'hdwgcna/CA1/pooled/figures/SYNTHETIC_HD.png',png)
     hv={'final':p.load(hr/'FINAL_VALIDATION.json'),'config':p.load(hc),'payload':hd,'manifest':{'analysis_id':hd['analysis_id'],'source_fingerprint':hd['source_fingerprint'],'branches':{lin+'_pooled':{'validated_complete':True} for lin in ('CA1','IN')}},'files':native_files(hr),'bindings':{'R_wrapper':rec(wrapper)}}
     tr=t/'TF/results';ts=t/'TF_SOURCE';(ts/'scripts').mkdir(parents=True)
     for name in ('run_tf_activity.py','analyze_tf_mouse.R','package_tf_results.py'):(ts/'scripts'/name).write_text('# SYNTHETIC, never executed\n')
     tc=t/'TF_CONFIG.json';write(tc,shared);write(tr/'FINAL_VALIDATION.json',{'status':'SYNTHETIC_MOCKED'})
+    write(tr/'atlas/data.json',p.encoded(tf))
     write(tr/'tf_mouse/figures/SYNTHETIC_TF.png',png)
     tv={'final':{'analysis_id':tf['analysis_id'],'source_fingerprint':tf['source_fingerprint']},'config':shared,'payload':tf,'manifest':{'analysis_id':tf['analysis_id'],'source_fingerprint':tf['source_fingerprint'],'completed_primary':'curated_mouse_CollecTRI_ULM_and_independent_mouse_associations','blocked_optional':'pySCENIC_motif_cache_missing'},'files':native_files(tr),'bindings':{'shared':rec(ref)}}
     pr=t/'PS/results';src=t/'PS_SOURCE';(src/'scripts').mkdir(parents=True)
@@ -126,12 +129,27 @@ with tempfile.TemporaryDirectory(prefix='SYNTHETIC_PYSCENIC_TRANSPORT_ONLY_') as
     assert all(r['archive_path'] in archived for r in aliases) and any('reference_ready' in name for name in archived)
     assert not any(r['sha256'] in {x['sha256'] for x in external} for r in contents['files'])
     assert 'resource-blocked' not in (out/'site/regulatory/downloads.html').read_text() and 'native positive pySCENIC' in (out/'site/regulatory/gallery.html').read_text()
+    for page in (out/'site/regulatory/index.html',out/'release_assets/SATB2_regulatory_interactive_offline.html'):
+        text=page.read_text()
+        assert 'Gene programs, TF activity &amp; motif regulons' in text
+        assert 'analysis has completed' in text and 'no eligible positive regulons' in text
+        assert 'curated CollecTRI analysis and its separate self-target sensitivity' in text and 'Read the motif/AUCell models separately for their actual genotype effects.' in text
+        assert 'Earlier resource-blocked reports remain preserved as historical records' in text
+        assert 'Motif-supported pySCENIC inference remains unavailable' not in text and '<b>SATB2 activity is not FDR-significant</b>' not in text
+        assert 'blob/atlas-v3.7.0/analysis/reviews/20261026_regulatory_findings.md' not in text
+        assert 'Show curated SATB2 activity in all five populations' in text
+    base_index=(ROOT/'site/regulatory/index.html').read_text()
+    assert (ROOT/'site/regulatory/index.html').read_bytes()==original_index_bytes,'The deployed/source index must remain unchanged during stage-only rendering'
+    assert p.completed_motif_index(p.completed_motif_index(base_index))==p.completed_motif_index(base_index),'Completed motif wording must be stable if the next build starts from a prior completed template'
     extracted=t/'EXTRACTED'
     with zipfile.ZipFile(report['complete_native_zip']['path']) as z:z.extractall(extracted)
     helper=next(extracted.rglob('VALIDATE_EXTRACTED.py'));proc=subprocess.run([sys.executable,'-B',str(helper)],capture_output=True,text=True,check=True);assert proc.stdout.startswith('PASS ')
     readme=(helper.parent/'README.txt').read_text();assert p.digest(ready) in readme
     for row in external:
         assert row['sha256'] in readme and str(row['bytes']) in readme and row['download_provenance']['requested_url'] in readme
+    assert (helper.parent/'results/atlas/data.json').read_bytes()==p.encoded(hd)
+    assert (helper.parent/'tf_component/results/atlas/data.json').read_bytes()==p.encoded(tf)
+    assert any(m['id']=='pyscenic_motif' and m['status']=='not_available' for m in json.loads((helper.parent/'tf_component/results/atlas/data.json').read_bytes())['methods'])
     assert all(Path(name).read_bytes()==content for name,content in original_bytes.items()) and not args.site_dir.exists()
     reject(lambda:p.decode_data(out/'site/regulatory/data.js'),'Synthetic')
     print('PASS Three-component native archive/figure gallery/offline transport: exact immutable native bytes, external official references, deduplicated selected raw inputs and extraction checks')

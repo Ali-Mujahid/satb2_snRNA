@@ -794,6 +794,28 @@ def downloads_page(zip_assets, release, offline_url, zip_sha, tables, tf_complet
     return page.encode()
 
 
+def completed_motif_index(index):
+    """Scope static presentation to a verified third component, no new findings."""
+    index = index.replace('SATB2 · Gene programs and TF activity', 'SATB2 · Gene programs, TF activity and motif regulons')
+    index = index.replace('Gene programs &amp; TF activity', 'Gene programs, TF activity &amp; motif regulons')
+    index = index.replace('hdWGCNA modules · curated TF activity · independent-mouse comparisons', 'hdWGCNA modules · curated TF activity · native positive motif regulons / AUCell · independent-mouse comparisons')
+    index = index.replace('Show SATB2 activity in all five populations', 'Show curated SATB2 activity in all five populations')
+    interpretation = ('<details id="completed-regulatory-interpretation" class="card prose" open><summary>What these completed methods support</summary>'
+        '<p>The native positive pySCENIC discovery, motif-pruning and AUCell analysis has completed. CA1 and inhibitory regulons retain their own gene sets. Eligible target sets have nucleus-level AUCell scores and independent-mouse summaries; a completed lineage can have no eligible positive regulons, in which case activity remains unavailable. Completion does not guarantee a regulon for every TF or demonstrate binding or causality.</p>'
+        '<p>The earlier SATB2 nonsignificance statement concerns the <b>curated CollecTRI analysis and its separate self-target sensitivity</b>. Read the motif/AUCell models separately for their actual genotype effects. Coexpression eigengenes, curated TF scores, native AUCell AUC, gene DESeq2 effects and their FDR families answer different questions.</p>'
+        '<p>The matched official mouse motif references were acquired and verified for this new component. Earlier resource-blocked reports remain preserved as historical records of their own runs. For the actual motif definitions, eligibility, native scores and original mouse associations, use the <b>Methods &amp; source</b>, <b>Coverage &amp; eligibility</b> and <b>Saved WT–cKO effects</b> tabs, the <a href="gallery.html">native motif figure gallery</a>, and the <a href="downloads.html">exact tables and source archive</a>.</p></details>')
+    index, count = re.subn(r'<details\b[^>]*>\s*<summary>What (?:the completed analyses|these completed methods) support</summary>[\s\S]*?</details>', lambda _: interpretation, index, count=1)
+    require(count == 1, "Cannot identify the static regulatory interpretation to scope to completed motif results")
+    # The older report is valid historical evidence, but is not the new motif
+    # findings guide. Do not silently relabel or retarget it to a guessed file.
+    index = re.sub(r'<a href="https://github\.com/Ali-Mujahid/satb2_snRNA/blob/atlas-v3\.7\.0/analysis/reviews/20261026_regulatory_findings\.md">[\s\S]*?</a>', '<a href="gallery.html">Native motif details &amp; figures</a>', index)
+    index = index.replace('Network colors show saved RNA-correlation signs or curated regulatory-prior signs.', 'Network colors show source-declared RNA coexpression signs, curated-prior signs, or positive motif-pruned candidate membership. Native pySCENIC weights inherit GRNBoost2 importance; they are not binding affinities or WT–cKO effects. Native selfgene membership is not evidence of self-binding.')
+    if 'AUCell AUC is not a P value;' not in index:
+        index = index.replace('Native within-mouse gene-set FDR and mouse-level genotype-association FDR answer different questions.', 'Native within-mouse gene-set FDR and mouse-level genotype-association FDR answer different questions. AUCell AUC is not a P value; motif-regulon genotype-association FDR comes from its own independent-mouse model family.')
+    require('Motif-supported pySCENIC inference remains unavailable' not in index and '<b>SATB2 activity is not FDR-significant</b>' not in index, "An obsolete current motif-block/global SATB2 statement remains in the completed three-component page")
+    return index
+
+
 def verify_outdir(outdir):
     outdir = Path(outdir).resolve()
     r = load(outdir / "PUBLICATION_RECEIPT.json")
@@ -932,6 +954,8 @@ def build(args):
     (staged / "downloads.html").write_bytes(downloads_page(zip_assets, release, offline_url, digest(zip_path), sorted(tables, key=lambda r: r["path"]), bool(tf_component), bool(pyscenic_component)))
     (staged / "figure_manifest.json").write_bytes(encoded({"schema": "satb2-regulatory-native-gallery/v1", "source_fingerprint": payload["source_fingerprint"], "figures": records, "native_bytes_preserved": True, "raster_resizing_performed": False}))
     index = ui.joinpath("index.html").read_text()
+    if pyscenic_component:
+        index = completed_motif_index(index)
     index = re.sub(r'<nav id="publication-links"[\s\S]*?</nav>', "", index)
     index = re.sub(r'<script src="data\.js(?:\?[^"]*)?"></script>', "", index)
     index = re.sub(r'(["\'])(app\.js|styles\.css)(?:\?v=[a-zA-Z0-9]+)?\1', lambda m: m.group(1) + m.group(2) + m.group(1), index)
