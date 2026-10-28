@@ -1,0 +1,52 @@
+from pathlib import Path
+SOURCE=Path(workflow.basedir).parent
+RUN=Path(config['run_root'])
+RESULTS=RUN/'results'
+MASTER=str(Path(workflow.configfiles[-1]).resolve())
+PYTHON=config['python_executable']
+RSCRIPT=config['Rscript_executable']
+ENV='OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 VECLIB_MAXIMUM_THREADS=2 NUMEXPR_NUM_THREADS=2'
+REUSE=config['reuse_completed_native']
+BOUND=[r['path'] for r in config['inputs'].values()]+[r['path'] for r in config['existing_deseq2'].values()]+[r['path'] for r in config['source_pseudobulks'].values()]+[config[k]['path'] for k in ['strict_lr_pooled','runtime_manifest','R_wrapper']]
+
+rule all:
+    input: str(RESULTS/'FINAL_VALIDATION.json')
+
+rule copy_completed_native:
+    input:
+        config=MASTER,
+        inventory=REUSE['inventory']['path'],
+        native_config=REUSE['native_config']['path'],
+        sources=BOUND,
+        script=str(SOURCE/'scripts/copy_completed_native.py'),
+        fitting_script=str(SOURCE/'scripts/run_hdwgcna.R')
+    output: str(RESULTS/'REUSED_NATIVE_RECEIPT.json')
+    params: py=PYTHON, env=ENV, out=str(RESULTS)
+    log: str(RUN/'logs/copy_completed_native.log')
+    threads: 2
+    resources: mem_mb=2000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --results {params.out:q} > {log:q} 2>&1'
+
+rule enrich:
+    input:
+        str(RESULTS/'REUSED_NATIVE_RECEIPT.json'),
+        script=str(SOURCE/'scripts/enrich_modules.R'),
+        config=MASTER
+    output: str(RESULTS/'enrichment/COMPLETE.json')
+    params: R=RSCRIPT, env=ENV, res=str(RESULTS/'hdwgcna'),out=str(RESULTS/'enrichment')
+    log: str(RUN/'logs/enrich.log')
+    threads: 2
+    resources: mem_mb=6000
+    shell: 'env {params.env} {params.R:q} {input.script:q} --config {input.config:q} --results {params.res:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule package:
+    input:
+        str(RESULTS/'enrichment/COMPLETE.json'),
+        script=str(SOURCE/'scripts/package_results.py'),
+        config=MASTER
+    output: str(RESULTS/'FINAL_VALIDATION.json')
+    params: py=PYTHON, env=ENV,res=str(RESULTS)
+    log: str(RUN/'logs/package.log')
+    threads: 2
+    resources: mem_mb=8000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --results {params.res:q} > {log:q} 2>&1'

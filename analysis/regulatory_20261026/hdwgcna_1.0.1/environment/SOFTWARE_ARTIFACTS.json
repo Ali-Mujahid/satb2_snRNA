@@ -1,0 +1,116 @@
+{
+  "hdWGCNA_commit": "e3344d1f7bbac4264adf94f7aa31e0802fa8282d",
+  "external_packages_not_modified": true,
+  "archives": [
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/GO.db_3.23.1.tar.gz",
+      "bytes": 24217612,
+      "sha256": "1f015449fd1f7cc0f9bd54b78ec73b197bf9905a79f8514fbe2fee288715da2b"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/GeneOverlap_1.49.0.tgz",
+      "bytes": 551815,
+      "sha256": "abf097dc6192aaaad48eacc5de6cbb90be297ba0073d91a91a491ca2a6005600"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/Hmisc_5.3-0.tgz",
+      "bytes": 3729331,
+      "sha256": "db7c9cd41f9cfa3467671ad0133aff3aca28dbbbfacc87da1a5e3a6a246e31dd"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/UCell_2.17.1.tgz",
+      "bytes": 2398352,
+      "sha256": "b4af97bf735acb66a95d156bd68658493c46f26cef3b5acd0b98d05303a2f31c"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/WGCNA_1.74.tgz",
+      "bytes": 3284715,
+      "sha256": "449443cfe2b560a57ed0da7955e21851acb57647d4ad40397d1e4fb2c52575b0"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/WriteXLS_6.8.0.tgz",
+      "bytes": 812225,
+      "sha256": "6a1d658f5b55a6c7102e9b5bf0d15d9ab80d086ab9784272ea30b0a342f43d31"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/checkmate_2.3.4.tgz",
+      "bytes": 821158,
+      "sha256": "12bbc527ed8dbb9edceff5f07e30639d1008bedc05b8338171f2245a2171bbe9"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/dynamicTreeCut_1.63-1.tgz",
+      "bytes": 90523,
+      "sha256": "b0599ef00fadd730b5b21a5c949ceb4195f48c7dd9a1d28d9284542e77e36a21"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/enrichR_3.4.tgz",
+      "bytes": 263594,
+      "sha256": "ec34b9993f8f0bafd9e25d62dd84399e2758da43215e0aa53b152ae93431e8f9"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/fastcluster_1.3.0.tgz",
+      "bytes": 272281,
+      "sha256": "3a20409a73617a9e6aca24844111bbce19b110cb036ea52756f3a246fb606aa4"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/ggforce_0.5.0.tgz",
+      "bytes": 2802501,
+      "sha256": "3ae33db21d2ad19bf58c5c01cc287cf8cf100ab61f36c458b30e8664b9df33b3"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/ggraph_2.2.2.tgz",
+      "bytes": 5396262,
+      "sha256": "8970a7fb32e01f3a426901945e1177f1b742a6854fb173648d2aad7900501158"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/graphlayouts_1.2.5.tgz",
+      "bytes": 3606603,
+      "sha256": "00cf38688eb2831a2c34790d7b7d1bf84d276f200d008213e1d5412fc179a297"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/hdWGCNA_e3344d1.tar.gz",
+      "bytes": 204611821,
+      "sha256": "270c7453b038fd745918be5c724d399c001f4442986dece5217270b9dd58495f"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/htmlTable_2.5.0.tgz",
+      "bytes": 438402,
+      "sha256": "7da52e8f62b5cd8d1c8e96c7e98e15024bba5f55a2bdf4043acd5bbfc2d924cc"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/impute_1.87.0.tgz",
+      "bytes": 663007,
+      "sha256": "f8535997c67b9284a025d6759bb9d3445ee8e5793a9be1950b8f42373712d177"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/org.Mm.eg.db_3.23.0.tar.gz",
+      "bytes": 93064586,
+      "sha256": "507a54cf51dbd5c0b00706bbc7a741c2fd89c9d7d3be406a04939b7dc6114544"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/preprocessCore_1.75.1.tgz",
+      "bytes": 219445,
+      "sha256": "71d13047d978d12300a81c0c67c2fd4324d5753a06ef1bfe4ce47a44fed28f98"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/proxy_0.4-29.tgz",
+      "bytes": 198835,
+      "sha256": "5bcfadff765a218e5e13123570119ad3059ec02c8df60e8731ae238640cdb8a9"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/tester_0.3.0.tgz",
+      "bytes": 230626,
+      "sha256": "746b56c764765633bf6627eb8ae3f53ca67fe74ac06c9de87d924636ce5a7c4f"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/tidygraph_1.3.1.tgz",
+      "bytes": 643917,
+      "sha256": "61be4777d63ae73dd65ddeb4f47fc0f7b546a035c7f3f633efc5809bae554e08"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/downloads/tweenr_2.0.3.tgz",
+      "bytes": 961075,
+      "sha256": "dc328f814714531e1ac4ccde4bfe6ed9c47dc344e125341a92899fec2d13e639"
+    }
+  ]
+}

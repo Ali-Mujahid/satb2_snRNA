@@ -1,0 +1,39 @@
+{
+  "status": "READY",
+  "retrieved_utc": "2026-10-26T10:19:44.689428+00:00",
+  "decoupler": "2.3.0",
+  "python": "3.12.14",
+  "n_links": 43226,
+  "n_TFs": 1165,
+  "n_targets": 6582,
+  "Satb2_source_links": 33,
+  "Satb2_target_links": 4,
+  "orthology": {
+    "source": "HCOP",
+    "min_evidence": 3,
+    "one_to_many": 5,
+    "native_mapping_policy": "Exact decoupler2.3.0 translation; not exclusively direct native-mouse binding evidence"
+  },
+  "records": [
+    {
+      "name": "CollecTRI_regulons.csv",
+      "url": "https://zenodo.org/records/8192729/files/CollecTRI_regulons.csv?download=1",
+      "bytes": 4345649,
+      "sha256": "4473c9189dd53dacc80297709ad1452dda1086a1cc2185f9a56146c261668701"
+    },
+    {
+      "name": "human_mouse_hcop_fifteen_column.txt.gz",
+      "url": "https://storage.googleapis.com/public-download-files/hcop/human_mouse_hcop_fifteen_column.txt.gz",
+      "bytes": 3454647,
+      "sha256": "0cfb78e4eb273751e0557e8230445a60e844bfaf958e32740d4a266fb41cdb35"
+    },
+    {
+      "name": "collectri_mouse_native_decoupler_2.3.0.tsv",
+      "operation": "native decoupler.op.collectri(mouse, remove_complexes=False, license=academic)",
+      "bytes": 2394828,
+      "sha256": "b88b9b0ed1a3892d0067da0e5486d49dd98723f0192517dec1edb56e0af22ee0"
+    }
+  ],
+  "study_data_read": false,
+  "scientific_model_fits": 0
+}

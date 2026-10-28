@@ -1,0 +1,759 @@
+{
+  "GitHub_actions_performed": false,
+  "TF_activity_run": true,
+  "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery__SATB2_CollecTRI_TF_20261026_v1",
+  "archive_members_SHA256_and_CRC_verified": true,
+  "complete_native_zip": {
+    "bytes": 786821374,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/release_assets/SATB2_regulatory_complete_native_results_source.zip",
+    "sha256": "511e21e409f6e30be85abe8e73b3062b8d27b152b6473f0bed6a7c6954868f56"
+  },
+  "components": {
+    "curated_tf_activity": {
+      "analysis_id": "SATB2_CollecTRI_TF_20261026_v1",
+      "configuration": {
+        "bytes": 13828,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json",
+        "sha256": "2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a"
+      },
+      "native_final_validation_sha256": "07a5e88445d12d23b59a28b670318e63bfc17069726b2ced78fe28e51b9537a3",
+      "source": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow",
+      "source_fingerprint": "77d4f76e3b31d0f792664f2c747d6907843b9bf62e48e38f3cde1e37187bca2f"
+    },
+    "hdWGCNA": {
+      "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery",
+      "configuration": {
+        "bytes": 12230,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json",
+        "sha256": "7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61"
+      },
+      "native_final_validation_sha256": "aa4ef34c1cfdf895c804b9131678a0753e669488b35aace0445db248fa6cdefa",
+      "source": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow",
+      "source_fingerprint": "6537591f866c36b8af59751dc6b174c57bdd5480934ae60db4bab0029073e37e"
+    }
+  },
+  "configuration": {
+    "bytes": 12230,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json",
+    "sha256": "7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61"
+  },
+  "frozen_memberships_and_mouse_rosters_identical": true,
+  "installed_site_files": [],
+  "motif_regulon_run": false,
+  "native_figure_groups": 58,
+  "native_final_validation_sha256": "aa4ef34c1cfdf895c804b9131678a0753e669488b35aace0445db248fa6cdefa",
+  "native_source_inputs_unchanged": true,
+  "new_pages_bytes": 18278517,
+  "new_pages_limit": 30000000,
+  "prospective_site_bytes": 930039456,
+  "publication_condition": "Upload and verify every RELEASE_ASSETS.json asset before deploying the site. This script does not publish anything.",
+  "required_release_assets": 2,
+  "schema": "satb2-regulatory-publication/v1",
+  "scientific_fits_performed": false,
+  "scientific_source": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow",
+  "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461",
+  "stage_only": true,
+  "staged_files": [
+    {
+      "bytes": 263143,
+      "path": "ARCHIVE_CONTENTS.json",
+      "sha256": "dd0dc4809c7b0bac25ea66eca77c226a5d84390eede69724dfc9817ae47f3a56"
+    },
+    {
+      "bytes": 146262,
+      "path": "NATIVE_FILE_RECEIPTS.json",
+      "sha256": "971fc94c3db3544bdeb7738f435ec0778c87ab1d6a1d6db17be77fa493539e4d"
+    },
+    {
+      "bytes": 1568,
+      "path": "PORTABLE_RECEIPT.json",
+      "sha256": "48322b52854c2ca6ad87eb9cbdf989a54301932fd7275a9bcad6d2e9a9b680ef"
+    },
+    {
+      "bytes": 976,
+      "path": "RELEASE_ASSETS.json",
+      "sha256": "effb0d3b8fcb78d047555e18222e2dea85d9fb218a5404f41f5ab812b33f79f8"
+    },
+    {
+      "bytes": 786821374,
+      "path": "release_assets/SATB2_regulatory_complete_native_results_source.zip",
+      "sha256": "511e21e409f6e30be85abe8e73b3062b8d27b152b6473f0bed6a7c6954868f56"
+    },
+    {
+      "bytes": 9484097,
+      "path": "release_assets/SATB2_regulatory_interactive_offline.html",
+      "sha256": "bc5f3428003bef869130eb6667ff57491d3871ab7adc396dab757b4cc3aca8f2"
+    },
+    {
+      "bytes": 9324,
+      "path": "site/regulatory/README.md",
+      "sha256": "4a50607f72c2daeac588f41def2eff5f6ef293efddb7cf302dc559c141b2392d"
+    },
+    {
+      "bytes": 45768,
+      "path": "site/regulatory/app.js",
+      "sha256": "e72a9d81b0406ba15a6853610dec0e53dd5032239d8c89049dbc40108feed43d"
+    },
+    {
+      "bytes": 8967217,
+      "path": "site/regulatory/data.js",
+      "sha256": "b5adb03dad7de0a53161723e6f939371e1d0ad2eb3aa744c5d87b91f35417346"
+    },
+    {
+      "bytes": 52574,
+      "path": "site/regulatory/downloads.html",
+      "sha256": "3a445b0068f143fdfa93baac1f35ff0e441a96e06f8bb73205bce75f2954deba"
+    },
+    {
+      "bytes": 108064,
+      "path": "site/regulatory/figure_manifest.json",
+      "sha256": "e4f657e7205c5c081568415f05ebe80a7d1f98869d90b818fa94a50a6aa7e04f"
+    },
+    {
+      "bytes": 101499,
+      "path": "site/regulatory/figures/regulatory__00da807f69__tf_component__results__tf_activity__IN_C6__activity_heatmap_display_z.png",
+      "sha256": "1f0e2f52eccce42c30ef8a651f5bd8d89b45101139bd521cae87fc9496342f60"
+    },
+    {
+      "bytes": 124577,
+      "path": "site/regulatory/figures/regulatory__03e362acee__tf_component__results__tf_mouse__figures__TF_association_volcano.pdf",
+      "sha256": "b6f9c0bc23d979da6dbc8c02a224d28f70e1fea90bddfb133cfa5ad534d900aa"
+    },
+    {
+      "bytes": 23549,
+      "path": "site/regulatory/figures/regulatory__07b385ef0b__results__hdwgcna__CA1__pooled__figures__mouse_eigengene_heatmap.pdf",
+      "sha256": "0d5471cd815c9d34ebfb4afa4e53bc7764e587c3523ab49b92379a7c719c86d8"
+    },
+    {
+      "bytes": 25992,
+      "path": "site/regulatory/figures/regulatory__0ca4bf1bc1__tf_component__results__tf_activity__CA1_Deep__activity_heatmap_display_z.pdf",
+      "sha256": "599de4a1d8df952486b5af0b3f264e4aaf27076ef6314848e2bca1e89896790a"
+    },
+    {
+      "bytes": 17765,
+      "path": "site/regulatory/figures/regulatory__0dfba994a1__results__hdwgcna__IN__consensus__figures__top_hubs.pdf",
+      "sha256": "b184ef2e5e11fc2ea1d7a94e2158779e832e2e8e80e5994cbff53f96c0636773"
+    },
+    {
+      "bytes": 63400,
+      "path": "site/regulatory/figures/regulatory__138b9e1292__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_4.pdf",
+      "sha256": "a86647aaf5d92b5dce15c65dcee69f1c45297ad4759d9dda607647c98e274806"
+    },
+    {
+      "bytes": 21947,
+      "path": "site/regulatory/figures/regulatory__13c071d78d__results__hdwgcna__CA1__consensus__figures__module_RNA_dotplot.pdf",
+      "sha256": "b51cd298931198a68be59cdecba8261e8b6b9e772aa206afac04a96c14721f20"
+    },
+    {
+      "bytes": 72518,
+      "path": "site/regulatory/figures/regulatory__14954bbbad__results__hdwgcna__IN__consensus__figures__module_RNA_dotplot.png",
+      "sha256": "9e6c1c3e658fbb540ddddd9a456794bf1a99bfb5dce65ced63c6009406443d4d"
+    },
+    {
+      "bytes": 77095,
+      "path": "site/regulatory/figures/regulatory__14cc919c08__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_3.pdf",
+      "sha256": "e0c6784d0560891a84f7506c5d90ca3cfa356bb2c12bffbd96e17bab294d4a7e"
+    },
+    {
+      "bytes": 26547,
+      "path": "site/regulatory/figures/regulatory__168763f439__tf_component__results__tf_activity__IN_C1__mouse_box_dot_native_units.pdf",
+      "sha256": "c07834c841bf4be8e9603a1fe6d98c57f78ba3b024825910c6c736d18bb1f7b9"
+    },
+    {
+      "bytes": 22542,
+      "path": "site/regulatory/figures/regulatory__182d2ddae7__results__hdwgcna__CA1__pooled__figures__module_RNA_dotplot.pdf",
+      "sha256": "d02c8b1912f9deb745c98e35655246c55ccb7b8d17faa48e40b5727bc7aa2940"
+    },
+    {
+      "bytes": 84425,
+      "path": "site/regulatory/figures/regulatory__2048cb61a3__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_3.pdf",
+      "sha256": "da57633159911299f8bbf15fb2b26009cc984d6cfb1aa323ec589d08b63ffed6"
+    },
+    {
+      "bytes": 231670,
+      "path": "site/regulatory/figures/regulatory__213532715f__results__enrichment__GO_BP_dotplot.png",
+      "sha256": "3e9c3d24d4902b62048561abceb185dd6c60ac8171c20c474e1ebd25c94f3a8a"
+    },
+    {
+      "bytes": 103787,
+      "path": "site/regulatory/figures/regulatory__22ed1170e5__results__hdwgcna__IN__consensus__figures__top_hubs.png",
+      "sha256": "f452f8db076ebc7087eee2419fcae3a1345e14f5d54e2cb9694d411ddfa56fac"
+    },
+    {
+      "bytes": 104156,
+      "path": "site/regulatory/figures/regulatory__24738bec3b__tf_component__results__tf_activity__CA1_Superficial__activity_heatmap_display_z.png",
+      "sha256": "323de93abcccba699230fd5b0b30d19fb7f623b4dc1fdf7172fff6c98cc1583b"
+    },
+    {
+      "bytes": 120932,
+      "path": "site/regulatory/figures/regulatory__24e5f89589__tf_component__results__tf_mouse__figures__TF_same_partition_volcano.pdf",
+      "sha256": "13c8015f7841c891b3d0532dcddfb89a9cfa5b49bc4027b635c11fb3abf2f34a"
+    },
+    {
+      "bytes": 18366,
+      "path": "site/regulatory/figures/regulatory__2987783527__results__hdwgcna__IN__pooled__figures__mouse_eigengene_heatmap.pdf",
+      "sha256": "4ca65dfb221281ca8a179c1ca90578d7427ba397169278afb32c0e072cd473d5"
+    },
+    {
+      "bytes": 17833,
+      "path": "site/regulatory/figures/regulatory__29e7631f06__results__hdwgcna__IN__pooled__figures__module_RNA_dotplot.pdf",
+      "sha256": "5371c87673b0cf0b24f5d1dc496d42e93f7eab88649146eb3dacee6d0c7965b0"
+    },
+    {
+      "bytes": 24319,
+      "path": "site/regulatory/figures/regulatory__2b1b738666__tf_component__results__tf_mouse__figures__CA1_Deep_Satb2_top5_mouse_scores.pdf",
+      "sha256": "5f0efe12dfd53a86285c9d62abf9703fbb281291a21f40266f1e3dada70aa954"
+    },
+    {
+      "bytes": 77923,
+      "path": "site/regulatory/figures/regulatory__30947d2b83__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_3.pdf",
+      "sha256": "fb337b963f5cc130b369461b0c21bce13aea3c13d5ff8d251a61246e1a6f4ee1"
+    },
+    {
+      "bytes": 75296,
+      "path": "site/regulatory/figures/regulatory__3c4f2151b5__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_3.pdf",
+      "sha256": "31c505e5c67cfbdfb359e084246436e069459a84c9453b4610aa687eb13a0a46"
+    },
+    {
+      "bytes": 115346,
+      "path": "site/regulatory/figures/regulatory__3f4f3531a3__tf_component__results__tf_mouse__figures__CA1_Superficial_Satb2_top5_mouse_scores.png",
+      "sha256": "a0c06fc999a958391c8a4318d5668d2ff0680787cde821dc362faf449827a518"
+    },
+    {
+      "bytes": 76814,
+      "path": "site/regulatory/figures/regulatory__40790c6229__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_2.pdf",
+      "sha256": "3ec5368c4a16f33d60cb971dfffde671ca105e9e42cfdfb94474a5e79609540b"
+    },
+    {
+      "bytes": 96677,
+      "path": "site/regulatory/figures/regulatory__43781372b9__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_4.png",
+      "sha256": "862467c2685455daff29040432ece6e62c91f3fe38b2ef38b8b7661a12ec1f0b"
+    },
+    {
+      "bytes": 22998,
+      "path": "site/regulatory/figures/regulatory__48b9d20a80__results__hdwgcna__CA1__consensus__figures__mouse_eigengene_heatmap.pdf",
+      "sha256": "79b4a576d942f4b4e2c9f0e152d54ee6d73a05b5149fb077d12ac49426c8f123"
+    },
+    {
+      "bytes": 139490,
+      "path": "site/regulatory/figures/regulatory__4c7e77ff7a__results__hdwgcna__figures__pooled_module_genotype_associations.png",
+      "sha256": "68bc6ce0f45b86994655fe9c6cf5f1ddd6e3b48fb432b3a80bfe77126a9bdfdb"
+    },
+    {
+      "bytes": 83918,
+      "path": "site/regulatory/figures/regulatory__4d0f1b4886__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_3.png",
+      "sha256": "c9e29e0b4761fd8fa6b8061b1a5feda75d5e904c9c701c93dd0064970327339c"
+    },
+    {
+      "bytes": 23032,
+      "path": "site/regulatory/figures/regulatory__4d5ea39ebe__results__hdwgcna__figures__pooled_module_genotype_associations.pdf",
+      "sha256": "5f097e3da8892c05ba0b8903fe0d0d8bb2c5e95faab3c7d21421bd222aceab0c"
+    },
+    {
+      "bytes": 85332,
+      "path": "site/regulatory/figures/regulatory__508139a388__results__hdwgcna__CA1__pooled__figures__soft_power_diagnostics.png",
+      "sha256": "7aff61d16239a544fe59fcac234e340a0de9e16e12630baed0272773b7a7bbb2"
+    },
+    {
+      "bytes": 82297,
+      "path": "site/regulatory/figures/regulatory__51c73bf595__results__hdwgcna__IN__pooled__figures__soft_power_diagnostics.png",
+      "sha256": "0c8be0e0d36c5c0315126291f892812bd1cd592e903d8309ca206c8f0b8b01de"
+    },
+    {
+      "bytes": 26313,
+      "path": "site/regulatory/figures/regulatory__557fccd123__tf_component__results__tf_activity__IN_C1__activity_heatmap_display_z.pdf",
+      "sha256": "af8d31f71927d0c03fa5667a4a208c52c9710f9b7075cdd8f46a759df167000e"
+    },
+    {
+      "bytes": 26223,
+      "path": "site/regulatory/figures/regulatory__5834efe6c1__tf_component__results__tf_activity__CA1_Deep__mouse_box_dot_native_units.pdf",
+      "sha256": "2756596dbcd048d74474612b7f49d0a8d2620f483d1dcb3dc1b02c88944ada19"
+    },
+    {
+      "bytes": 51125,
+      "path": "site/regulatory/figures/regulatory__598a79b889__results__hdwgcna__IN__pooled__figures__mouse_eigengene_heatmap.png",
+      "sha256": "bf3c08d826c6546769fdc2b9f1bf873868505239ab4cfdd6941d2098a506d8a5"
+    },
+    {
+      "bytes": 26152,
+      "path": "site/regulatory/figures/regulatory__59be87a692__tf_component__results__tf_activity__CA1_Superficial__mouse_box_dot_native_units.pdf",
+      "sha256": "984a35022453877a29046107e22848a881b1f1529795599dc087c4af780ad86f"
+    },
+    {
+      "bytes": 77474,
+      "path": "site/regulatory/figures/regulatory__5a5bf68242__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_1.pdf",
+      "sha256": "b67a513057e9a4c9227b5a63cbc51c47139cfae493cbd5b9eec7dfeabb004eac"
+    },
+    {
+      "bytes": 80927,
+      "path": "site/regulatory/figures/regulatory__5bf8529872__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_2.pdf",
+      "sha256": "a6a61afae7399f952f8d9767ec04313e2369297eb13bf9c901b9ae7844a0b4bf"
+    },
+    {
+      "bytes": 125768,
+      "path": "site/regulatory/figures/regulatory__5c7e35f4da__tf_component__results__tf_mouse__figures__IN_C8_Satb2_top5_mouse_scores.png",
+      "sha256": "774d35b061633e944ff2ffc8be6b2c9aedc7871f9b26ec8fa2fe2d14e2eb2a3b"
+    },
+    {
+      "bytes": 23072,
+      "path": "site/regulatory/figures/regulatory__5d102de781__results__hdwgcna__figures__pooled_module_genotype_same_partition.pdf",
+      "sha256": "d5b539af6aec04c6675cd95450c03aac46daa76435845bfe5d8c09c93ef608dc"
+    },
+    {
+      "bytes": 142980,
+      "path": "site/regulatory/figures/regulatory__60fe8aceb1__results__hdwgcna__figures__pooled_module_genotype_same_partition.png",
+      "sha256": "c8b6a03d5bef9c2bbd9e13cdba56b69c5ebbde1bc57bc96c25e547432a497702"
+    },
+    {
+      "bytes": 89221,
+      "path": "site/regulatory/figures/regulatory__610763d0fc__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_3.png",
+      "sha256": "a69d8684a3a8389277baee42bdb003e582b5afabd0d98863eee775f6fc459560"
+    },
+    {
+      "bytes": 303895,
+      "path": "site/regulatory/figures/regulatory__65c3680abc__tf_component__results__tf_mouse__figures__TF_association_volcano.png",
+      "sha256": "c2ed5ad97de0f5ac8049479e55068497d8afa1f4e5d59840aeb34d0f25dbdcba"
+    },
+    {
+      "bytes": 106339,
+      "path": "site/regulatory/figures/regulatory__6e5f4d048b__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_2.png",
+      "sha256": "06841daa6cb267c5d9d65cbd3bb9e781816dc49b7e16d3805a3ef74432595043"
+    },
+    {
+      "bytes": 102777,
+      "path": "site/regulatory/figures/regulatory__6fcca72535__tf_component__results__tf_activity__IN_C8__mouse_box_dot_native_units.png",
+      "sha256": "9640266b7a882195c7d0de0bfa93fa693f585effc3f09d2ce1c3d19f0cc4ee46"
+    },
+    {
+      "bytes": 122110,
+      "path": "site/regulatory/figures/regulatory__724f4464f3__tf_component__results__tf_mouse__figures__IN_C6_Satb2_top5_mouse_scores.png",
+      "sha256": "0b4ce30c5bc77074b74dbc2afac94285efa73929d8d8a8c39b7865b83bfdcadd"
+    },
+    {
+      "bytes": 102718,
+      "path": "site/regulatory/figures/regulatory__737d548832__tf_component__results__tf_activity__CA1_Deep__activity_heatmap_display_z.png",
+      "sha256": "db3a3a75fe6ffdf63e0219ba674ca4f5b40691149934d32572aa538a795afaa4"
+    },
+    {
+      "bytes": 157599,
+      "path": "site/regulatory/figures/regulatory__73dce00334__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_4.png",
+      "sha256": "12ffdd53667db453954bd7d401c89e2120dbf6ac8b6d2748fba5393ce61aafd3"
+    },
+    {
+      "bytes": 222034,
+      "path": "site/regulatory/figures/regulatory__758289906c__results__hdwgcna__CA1__pooled__figures__top_hubs.png",
+      "sha256": "583893451377a92496b55d7797382db56bf12543ad6e9214d871deecde4b8c6d"
+    },
+    {
+      "bytes": 102756,
+      "path": "site/regulatory/figures/regulatory__7595cbc927__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_1.png",
+      "sha256": "a4d68728656ebe045cedf51c8eccf4e2acd3903e36bbaf459eed5e50ffd2f774"
+    },
+    {
+      "bytes": 22164,
+      "path": "site/regulatory/figures/regulatory__78da7bce75__results__hdwgcna__figures__consensus_module_genotype_same_partition.pdf",
+      "sha256": "57ae44ffb4fba06d8237ab4e49d36ddb91219a62dd84138ad310dd45818c3283"
+    },
+    {
+      "bytes": 21596,
+      "path": "site/regulatory/figures/regulatory__7a1f40e5f8__results__hdwgcna__CA1__pooled__figures__top_hubs.pdf",
+      "sha256": "82d0d9e51ff6801d90448fd749488a6df3d27c7ea1b807603cdb00295e3228d6"
+    },
+    {
+      "bytes": 119961,
+      "path": "site/regulatory/figures/regulatory__7cd291cc8e__tf_component__results__tf_mouse__figures__IN_C1_Satb2_top5_mouse_scores.png",
+      "sha256": "0fec6ee5026d2293addbd9338761dfe1d541fd4a2cce9dd17755eff27427b6f4"
+    },
+    {
+      "bytes": 89427,
+      "path": "site/regulatory/figures/regulatory__8427ab2ac1__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_2.png",
+      "sha256": "0ad6bb6e924b52d31331695672283348c3d03db80940f8782140c9673609b6fb"
+    },
+    {
+      "bytes": 79435,
+      "path": "site/regulatory/figures/regulatory__85f7aeb453__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_2.pdf",
+      "sha256": "fea8750cb0f445067c62bb6d9c62db84af7174649e223ed4e4495415ab97fe6f"
+    },
+    {
+      "bytes": 21405,
+      "path": "site/regulatory/figures/regulatory__877c0138b0__results__hdwgcna__IN__pooled__figures__soft_power_diagnostics.pdf",
+      "sha256": "232036effc1277b196d7ba4c8af209c610b37ab5337edeab86f8e4c624a96c5d"
+    },
+    {
+      "bytes": 82948,
+      "path": "site/regulatory/figures/regulatory__89213cb4ba__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_2.png",
+      "sha256": "c695fce91a0f9ed78240dc259b6ef323e6e4f086417042217ec684d29e20029c"
+    },
+    {
+      "bytes": 14838,
+      "path": "site/regulatory/figures/regulatory__89a2778c13__results__hdwgcna__IN__pooled__figures__metacell_coverage.pdf",
+      "sha256": "9f16a8b7905e1e9cf804e8a51762126e76665fb4c9adee3ba7587314783d4ffe"
+    },
+    {
+      "bytes": 18255,
+      "path": "site/regulatory/figures/regulatory__8c940bf91c__results__hdwgcna__CA1__pooled__figures__metacell_coverage.pdf",
+      "sha256": "e026fd3cce894a7d6bb97511930baf47759e4439d69bde412254973d828b8dec"
+    },
+    {
+      "bytes": 121675,
+      "path": "site/regulatory/figures/regulatory__8df56ba4f8__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_3.png",
+      "sha256": "b295f44ca6d2bf498a3cfd4f03de758eb7988aa535ff7779e3b653d572f39d28"
+    },
+    {
+      "bytes": 113542,
+      "path": "site/regulatory/figures/regulatory__930c50107d__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_4.png",
+      "sha256": "3f2894a554ddff494ca358cc5c8acef4e9487e9b7f3afdbc41358ba3f6887409"
+    },
+    {
+      "bytes": 78033,
+      "path": "site/regulatory/figures/regulatory__9562fc5ae0__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_2.pdf",
+      "sha256": "6436fb7b4c961a1e7e205260cad601018424dd70ec0e5ebc4ffba2c9117f870e"
+    },
+    {
+      "bytes": 24065,
+      "path": "site/regulatory/figures/regulatory__95a9e5952f__results__enrichment__GO_BP_dotplot.pdf",
+      "sha256": "8fec67a2802f831bd942fd64d3de0f2f0ef41c1ee3198d8020273ae6eba305ac"
+    },
+    {
+      "bytes": 77822,
+      "path": "site/regulatory/figures/regulatory__97b499eb54__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_1.pdf",
+      "sha256": "b2251819ed2724bf14373ab85a1cdbd26d1274a3cccb5657e0cc8f91ada04ba4"
+    },
+    {
+      "bytes": 120231,
+      "path": "site/regulatory/figures/regulatory__9cb1488ae3__results__hdwgcna__figures__consensus_module_genotype_same_partition.png",
+      "sha256": "daf7a04ac754f29818e9426145a05702da45385317125614f0ea04ce0d9008c6"
+    },
+    {
+      "bytes": 72165,
+      "path": "site/regulatory/figures/regulatory__9cb520268a__results__hdwgcna__CA1__consensus__figures__mouse_eigengene_heatmap.png",
+      "sha256": "4fac6346b4ad34b68c860a25f5d5d1ba8765cedd081e26df8e91fac1959f8a37"
+    },
+    {
+      "bytes": 79657,
+      "path": "site/regulatory/figures/regulatory__9d06d295b7__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_1.pdf",
+      "sha256": "6166bec618c6ff2d2c243ec7e559562d8bad5fc1cbfbdf69e1fda0cf5d07af5e"
+    },
+    {
+      "bytes": 48974,
+      "path": "site/regulatory/figures/regulatory__9dcd0ebb67__results__hdwgcna__IN__consensus__figures__mouse_eigengene_heatmap.png",
+      "sha256": "a68c5635b746e20dbf54365f65b308093f249127be229a3ddd49160fe6d1e3a3"
+    },
+    {
+      "bytes": 74912,
+      "path": "site/regulatory/figures/regulatory__a1002a0ff7__results__hdwgcna__CA1__pooled__figures__mouse_eigengene_heatmap.png",
+      "sha256": "4986cf3cffbe9b862951c004193421d1612e738760b09bf62624ec9726ba7caa"
+    },
+    {
+      "bytes": 105566,
+      "path": "site/regulatory/figures/regulatory__a406078e17__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_3.png",
+      "sha256": "e9564fe801cee86a7cf4d1060fab5b4629daa98a6b08aff85aaf4f709fc4210b"
+    },
+    {
+      "bytes": 62140,
+      "path": "site/regulatory/figures/regulatory__a6104d0326__results__hdwgcna__CA1__pooled__figures__metacell_coverage.png",
+      "sha256": "ac64919ec47b2d4a005447fd08aaea76e16abd5ce7809a189ac8ec1c45fda2d9"
+    },
+    {
+      "bytes": 280829,
+      "path": "site/regulatory/figures/regulatory__a759c87b29__tf_component__results__tf_mouse__figures__TF_same_partition_volcano.png",
+      "sha256": "f13b5f7cc6fe1c9c13ee3e9e100909eb6155240ba07eb75ad58d038d3948d664"
+    },
+    {
+      "bytes": 26286,
+      "path": "site/regulatory/figures/regulatory__aa91cdfbc7__tf_component__results__tf_activity__IN_C6__activity_heatmap_display_z.pdf",
+      "sha256": "d02e1677802981a652730e98be0ad7f1a45ba735c99f75c0677de388ae7960cf"
+    },
+    {
+      "bytes": 59147,
+      "path": "site/regulatory/figures/regulatory__acdb41a77e__tf_component__results__tf_mouse__figures__Satb2_self_target_sensitivity.png",
+      "sha256": "a35627fb1c1fdcf49f5255faa95df69c87ad04ac47e3b65a4b5a336ce565f576"
+    },
+    {
+      "bytes": 53281,
+      "path": "site/regulatory/figures/regulatory__b5011f7675__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_4.pdf",
+      "sha256": "d041eef95ec6b314b984dba6fd308dbdd69b5683fc89371daf57ad068991cef1"
+    },
+    {
+      "bytes": 22463,
+      "path": "site/regulatory/figures/regulatory__b6c0b6caa1__results__hdwgcna__figures__consensus_module_genotype_associations.pdf",
+      "sha256": "c2ce2c4c2027acd6a81e8dd68e9c38ad842939215f509a77e227b217cf1cf710"
+    },
+    {
+      "bytes": 24761,
+      "path": "site/regulatory/figures/regulatory__b775617f03__tf_component__results__tf_mouse__figures__TF_effect_heatmap.pdf",
+      "sha256": "aa7594feb3a33fcafb82a93117b9b5c227e52d0a48a41f9e8beb3d7cc47937be"
+    },
+    {
+      "bytes": 111641,
+      "path": "site/regulatory/figures/regulatory__b863a445c8__tf_component__results__tf_activity__CA1_Superficial__mouse_box_dot_native_units.png",
+      "sha256": "214f7278cfe83e1d65401c76e96cb0ae00eb40d203fad07ded8456281eb595bd"
+    },
+    {
+      "bytes": 51568,
+      "path": "site/regulatory/figures/regulatory__b9a3872fa2__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_4.pdf",
+      "sha256": "868652fff126ccf273abe6d33b0c2604dd32975859e18df3ba9cf4017c603d46"
+    },
+    {
+      "bytes": 24205,
+      "path": "site/regulatory/figures/regulatory__bb20c8062c__tf_component__results__tf_mouse__figures__IN_C1_Satb2_top5_mouse_scores.pdf",
+      "sha256": "50dfe4dee140e5d9059c99ac18f08dd98d0c90fd041d30df92066e1ae6f1260d"
+    },
+    {
+      "bytes": 24255,
+      "path": "site/regulatory/figures/regulatory__be52b1df8f__results__hdwgcna__CA1__consensus__figures__soft_power_diagnostics.pdf",
+      "sha256": "0d7e2852f5b5f814323564402cd71fafcb02e3d6e76cb1d037d0d08b6bb390e3"
+    },
+    {
+      "bytes": 85068,
+      "path": "site/regulatory/figures/regulatory__c0fb2756ee__results__hdwgcna__IN__pooled__figures__module_RNA_dotplot.png",
+      "sha256": "c30822d5f2bf8651ccff2463acd3ea11adc583ba64811700d222e4fd9e59ffb8"
+    },
+    {
+      "bytes": 102580,
+      "path": "site/regulatory/figures/regulatory__c381074974__tf_component__results__tf_activity__IN_C8__activity_heatmap_display_z.png",
+      "sha256": "5bddcecae33b81c204168246a38a1d2587823b7e7f93568c26cebfe02203e728"
+    },
+    {
+      "bytes": 21374,
+      "path": "site/regulatory/figures/regulatory__c4f9fd7fac__results__hdwgcna__CA1__pooled__figures__soft_power_diagnostics.pdf",
+      "sha256": "44e07b58343fc6c7842fbdd9979e4edf5985b0d9f491b153d25dde8ea174c63b"
+    },
+    {
+      "bytes": 182239,
+      "path": "site/regulatory/figures/regulatory__c7ba98d98a__results__hdwgcna__CA1__consensus__figures__top_hubs.png",
+      "sha256": "e9e29d35527ca81bb70f4b57d25199f848e278777320e070d77ae601645a8ef3"
+    },
+    {
+      "bytes": 117623,
+      "path": "site/regulatory/figures/regulatory__cb02cb7054__tf_component__results__tf_mouse__figures__CA1_Deep_Satb2_top5_mouse_scores.png",
+      "sha256": "977eb37eaaf6f5d15fd02cf0f3177c0448755f62b5217c135f33275347b24bf8"
+    },
+    {
+      "bytes": 17049,
+      "path": "site/regulatory/figures/regulatory__cbd0181fdc__tf_component__results__tf_mouse__figures__Satb2_self_target_sensitivity.pdf",
+      "sha256": "4a256bccceb128686d502518889fe7e4e05bd738a190dc6a2e4742d0b52f261d"
+    },
+    {
+      "bytes": 95617,
+      "path": "site/regulatory/figures/regulatory__cc0f061935__results__hdwgcna__CA1__pooled__figures__module_RNA_dotplot.png",
+      "sha256": "b507fa4210073201b7332847ebca8b89fcdcc0fde5cc5a299d4751de5dbdbac3"
+    },
+    {
+      "bytes": 26948,
+      "path": "site/regulatory/figures/regulatory__cc6db80eb1__tf_component__results__tf_activity__CA1_Superficial__activity_heatmap_display_z.pdf",
+      "sha256": "ca0b230961d072072130fb6cfe530824a4116a871a7e14db6510e2b26c893671"
+    },
+    {
+      "bytes": 24411,
+      "path": "site/regulatory/figures/regulatory__cd878aa6ff__tf_component__results__tf_mouse__figures__IN_C8_Satb2_top5_mouse_scores.pdf",
+      "sha256": "70a8d3f2fb65bf9ccbdb6c5680e780937f37d25030a2f0e6a5845fc3fe86878c"
+    },
+    {
+      "bytes": 16546,
+      "path": "site/regulatory/figures/regulatory__ce7601106c__results__hdwgcna__IN__consensus__figures__module_RNA_dotplot.pdf",
+      "sha256": "a93b90ce8885b50115a13b221a0a639a28a2bb99837d42d81a4a7897237af94a"
+    },
+    {
+      "bytes": 63089,
+      "path": "site/regulatory/figures/regulatory__d0675af858__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_4.pdf",
+      "sha256": "8803a652ab9ea472147014a2a3fc5f18dbefa03284b265ee80d51705c81d74cf"
+    },
+    {
+      "bytes": 69078,
+      "path": "site/regulatory/figures/regulatory__d0a9ee8aab__results__hdwgcna__IN__pooled__figures__metacell_coverage.png",
+      "sha256": "bb0a878a1f0c0666eddb802d6598cd5578a46b52dfeb8f0bdcce77af3821cead"
+    },
+    {
+      "bytes": 100052,
+      "path": "site/regulatory/figures/regulatory__d107866e15__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_1.png",
+      "sha256": "6010bb7782f333906459380d2a44d62e11de2af9163cacbd58ff1fedb12a672c"
+    },
+    {
+      "bytes": 119198,
+      "path": "site/regulatory/figures/regulatory__d367c0f4d9__results__hdwgcna__figures__consensus_module_genotype_associations.png",
+      "sha256": "b85fceade5cc511b7201048b767312214e8ec9a57623a340c9a21b62da4f18b2"
+    },
+    {
+      "bytes": 109571,
+      "path": "site/regulatory/figures/regulatory__d3bc30ec48__tf_component__results__tf_activity__IN_C1__mouse_box_dot_native_units.png",
+      "sha256": "1246fe4b98ea034d65be2cfe6b8fa2571ba6980ba3b4bdd01a930cd3734f9228"
+    },
+    {
+      "bytes": 100787,
+      "path": "site/regulatory/figures/regulatory__d518d60ec0__results__hdwgcna__IN__consensus__figures__soft_power_diagnostics.png",
+      "sha256": "8b06bf711d76338339f81221c2d3934d2834adfb54e1b40c92b80885929c1c36"
+    },
+    {
+      "bytes": 98899,
+      "path": "site/regulatory/figures/regulatory__d73486797a__tf_component__results__tf_activity__IN_C1__activity_heatmap_display_z.png",
+      "sha256": "69b18f5cf77c6e80a11998c574fea1cbdf2cf839d12363adef75dccbad5dc4bc"
+    },
+    {
+      "bytes": 24098,
+      "path": "site/regulatory/figures/regulatory__d85f9615e0__tf_component__results__tf_mouse__figures__CA1_Superficial_Satb2_top5_mouse_scores.pdf",
+      "sha256": "36f75b99377421337688ae9085746dfa862fff9c67630f5d979e94a2bea96da1"
+    },
+    {
+      "bytes": 123607,
+      "path": "site/regulatory/figures/regulatory__dc9c5ec671__results__hdwgcna__IN__pooled__figures__top_hubs.png",
+      "sha256": "975b432a22d2ee0ea68e91630fce1d93fa56467589bbb7e20058cb7ec0b135c5"
+    },
+    {
+      "bytes": 26313,
+      "path": "site/regulatory/figures/regulatory__debee6bd3a__tf_component__results__tf_activity__IN_C8__activity_heatmap_display_z.pdf",
+      "sha256": "2a70a4de61fe336fd30d12c0b11035a3b0fe469704918f0a4fe7ce589d5bf8be"
+    },
+    {
+      "bytes": 99350,
+      "path": "site/regulatory/figures/regulatory__deedc275a6__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_1.png",
+      "sha256": "29635d08e96608b1da7029fb960857cb19ffee6cdff824a70dd03264f6b6ae1f"
+    },
+    {
+      "bytes": 108666,
+      "path": "site/regulatory/figures/regulatory__e16960adf6__tf_component__results__tf_activity__CA1_Deep__mouse_box_dot_native_units.png",
+      "sha256": "b6a6117c88029c3a1f7d42526e24ce59aaa0b79fecbe3ad0b644787bcdbf47c8"
+    },
+    {
+      "bytes": 20286,
+      "path": "site/regulatory/figures/regulatory__e39fad81f2__results__hdwgcna__CA1__consensus__figures__top_hubs.pdf",
+      "sha256": "22a5d32a09f69854d93e917319439ed5c2bf0ea765da835cb65065d60fc29d00"
+    },
+    {
+      "bytes": 85017,
+      "path": "site/regulatory/figures/regulatory__e5f28aa3d5__results__hdwgcna__CA1__consensus__figures__module_RNA_dotplot.png",
+      "sha256": "55920a03458e215acdda528cf35f39159715edb3ee42a7e79942c0c987538409"
+    },
+    {
+      "bytes": 26136,
+      "path": "site/regulatory/figures/regulatory__e619ecc19f__tf_component__results__tf_activity__IN_C6__mouse_box_dot_native_units.pdf",
+      "sha256": "fe5a6b1f6c75b473baf3b5427a2494ea3083207bb69bb69fa1f5193162408ff6"
+    },
+    {
+      "bytes": 130310,
+      "path": "site/regulatory/figures/regulatory__e67ceb89c1__tf_component__results__tf_activity__IN_C6__mouse_box_dot_native_units.png",
+      "sha256": "a54c7e600c29827292b94655fb9215e52c3ba4effdce75b45ac4eedc87ee7e3b"
+    },
+    {
+      "bytes": 96844,
+      "path": "site/regulatory/figures/regulatory__e76559561f__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_2.png",
+      "sha256": "bcbdbbefc1cc2c51a03195ea0c54ab60cf95c72c053b4685b931ad8fe254dc50"
+    },
+    {
+      "bytes": 23829,
+      "path": "site/regulatory/figures/regulatory__eac308b397__tf_component__results__tf_mouse__figures__IN_C6_Satb2_top5_mouse_scores.pdf",
+      "sha256": "3127dac1a3f6ac18aae6eb0938e36ea8a0ac2ac1714d5cf61b3abf515be42923"
+    },
+    {
+      "bytes": 17991,
+      "path": "site/regulatory/figures/regulatory__ef03df11cb__results__hdwgcna__IN__consensus__figures__mouse_eigengene_heatmap.pdf",
+      "sha256": "bf6ba2279684d481804a4c50dab33df2f0e1235faebf1f8b19fe5442a895fa51"
+    },
+    {
+      "bytes": 83209,
+      "path": "site/regulatory/figures/regulatory__ef49d40252__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_1.pdf",
+      "sha256": "9c77e3ecb4ec721ed69a5ef4cb13b31f2d47f2d9950b37cf77d3a44204c3833d"
+    },
+    {
+      "bytes": 26032,
+      "path": "site/regulatory/figures/regulatory__ef510c5d84__tf_component__results__tf_activity__IN_C8__mouse_box_dot_native_units.pdf",
+      "sha256": "b3be9c291885f9b6d5be295064ad0b5b64a67e225c445ffdc8acba5ffc041db1"
+    },
+    {
+      "bytes": 106382,
+      "path": "site/regulatory/figures/regulatory__f35afce4c7__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_4.png",
+      "sha256": "5cb82aa7b5ab252858974a637f20429e522e0dbc79dea4b4b29c6a292fb6f956"
+    },
+    {
+      "bytes": 121018,
+      "path": "site/regulatory/figures/regulatory__f400c11df7__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_1.png",
+      "sha256": "a202fded884afda0ab4d2bdbd0bc2f40b282a504cd76295d8469a197916e17ca"
+    },
+    {
+      "bytes": 93092,
+      "path": "site/regulatory/figures/regulatory__f7a624f315__tf_component__results__tf_mouse__figures__TF_effect_heatmap.png",
+      "sha256": "1db7fbb11dac70b2ff4ebcb97e22c1e0a0e0790938837bce73a6fb9f8ace5d99"
+    },
+    {
+      "bytes": 24100,
+      "path": "site/regulatory/figures/regulatory__f91cbb7efc__results__hdwgcna__IN__consensus__figures__soft_power_diagnostics.pdf",
+      "sha256": "9a9261377d99915d84520d9b13ead39169bf915e95c897af5d1f0947c8c55011"
+    },
+    {
+      "bytes": 101738,
+      "path": "site/regulatory/figures/regulatory__f99e08fcd8__results__hdwgcna__CA1__consensus__figures__soft_power_diagnostics.png",
+      "sha256": "a57f21734154a260805014a331fa6e9a2c42010b5045b5292cfb3f5239c74bea"
+    },
+    {
+      "bytes": 18418,
+      "path": "site/regulatory/figures/regulatory__fef59fe51d__results__hdwgcna__IN__pooled__figures__top_hubs.pdf",
+      "sha256": "2463a8978c569c5b7973d7063b2d1e1e0a81b5687ea1a74e44453aa05443352f"
+    },
+    {
+      "bytes": 187553,
+      "path": "site/regulatory/gallery.html",
+      "sha256": "72acb002bac2028b531dbd9a999d742cba54a1aaa260a580511ea8eb57613b0b"
+    },
+    {
+      "bytes": 13173,
+      "path": "site/regulatory/index.html",
+      "sha256": "6bae0367271a763bc2735c54c90980c2be7a6b933774dca30b4c622446efb3cf"
+    },
+    {
+      "bytes": 4810,
+      "path": "site/regulatory/manifest.json",
+      "sha256": "a3a4dcf7e98b51213bef16ea1a74eec92a27a673ecb73816c7bf483e3de2b0a6"
+    },
+    {
+      "bytes": 4697,
+      "path": "site/regulatory/styles.css",
+      "sha256": "d5e48945117047d5781201e17d758a37463b515688ce4ff42c9cf8dd6ad7737c"
+    },
+    {
+      "bytes": 33044,
+      "path": "site/vendor/fflate.min.js",
+      "sha256": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83"
+    },
+    {
+      "bytes": 420165,
+      "path": "site/vendor/jspdf.umd.min.js",
+      "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+    }
+  ],
+  "standalone_HTML": {
+    "bytes": 9484097,
+    "embedded_sources": [
+      {
+        "bytes": 33044,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/vendor/fflate.min.js",
+        "sha256": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83"
+      },
+      {
+        "bytes": 420165,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/vendor/jspdf.umd.min.js",
+        "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+      },
+      {
+        "bytes": 8967217,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/regulatory/data.js",
+        "sha256": "b5adb03dad7de0a53161723e6f939371e1d0ad2eb3aa744c5d87b91f35417346"
+      },
+      {
+        "bytes": 45768,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/regulatory/app.js",
+        "sha256": "e72a9d81b0406ba15a6853610dec0e53dd5032239d8c89049dbc40108feed43d"
+      },
+      {
+        "bytes": 4697,
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/regulatory/styles.css",
+        "sha256": "d5e48945117047d5781201e17d758a37463b515688ce4ff42c9cf8dd6ad7737c"
+      }
+    ],
+    "external_render_dependencies": [],
+    "file": "SATB2_regulatory_interactive_offline.html",
+    "scientific_fits_performed": false,
+    "sha256": "bc5f3428003bef869130eb6667ff57491d3871ab7adc396dab757b4cc3aca8f2"
+  },
+  "status": "PREPARED_COMPLETE_ONLY",
+  "total_site_limit": 950000000
+}

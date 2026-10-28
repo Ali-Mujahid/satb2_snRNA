@@ -1,0 +1,17 @@
+args <- commandArgs(trailingOnly=TRUE)
+stopifnot(length(args)==1)
+env_root <- normalizePath(args[[1]], mustWork=TRUE)
+lib <- file.path(env_root, "R-library")
+cache <- file.path(env_root, "downloads")
+dir.create(lib, recursive=TRUE, showWarnings=FALSE)
+dir.create(cache, recursive=TRUE, showWarnings=FALSE)
+.libPaths(c(lib, .libPaths()))
+options(repos=BiocManager::repositories(), timeout=600, Ncpus=2)
+required <- c("WGCNA", "enrichR", "tester", "proxy", "ggraph", "tidygraph", "UCell", "GeneOverlap")
+missing <- required[!vapply(required, requireNamespace, quietly=TRUE, FUN.VALUE=logical(1))]
+writeLines(capture.output(sessionInfo()), file.path(env_root, "R_before_sessionInfo.txt"))
+if(length(missing)) BiocManager::install(missing, lib=lib, update=FALSE, ask=FALSE, type="binary", destdir=cache)
+failed <- required[!vapply(required, requireNamespace, quietly=TRUE, FUN.VALUE=logical(1))]
+write.table(as.data.frame(installed.packages()[,c("Package","Version","LibPath")]), file.path(env_root,"R_installed_packages.tsv"), sep="\t", quote=FALSE, row.names=FALSE)
+if(length(failed)) stop("Missing dependencies after isolated setup: ", paste(failed,collapse=", "))
+writeLines(capture.output(sessionInfo()), file.path(env_root, "R_dependency_sessionInfo.txt"))

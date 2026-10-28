@@ -1,0 +1,152 @@
+{
+  "TF_activity_run": true,
+  "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery__SATB2_CollecTRI_TF_20261026_v1",
+  "components": {
+    "curated_tf_activity": {
+      "analysis_id": "SATB2_CollecTRI_TF_20261026_v1",
+      "blocked_optional": "pySCENIC_motif_cache_missing",
+      "completed_primary": "curated_mouse_CollecTRI_ULM_and_independent_mouse_associations",
+      "original_sources_unchanged": true,
+      "record_counts": {
+        "coverage": 5825,
+        "edges": 90951,
+        "effects": 5825,
+        "embeddings": 0,
+        "endpoints": 5,
+        "features": 1165,
+        "methods": 2,
+        "nodes": 92768,
+        "samples": 12,
+        "values": 69900
+      },
+      "schema": "satb2-regulatory-transport/v1",
+      "scientific_fits_in_packager": false,
+      "source_fingerprint": "77d4f76e3b31d0f792664f2c747d6907843b9bf62e48e38f3cde1e37187bca2f",
+      "status": "partial",
+      "transport": {
+        "data.js": {
+          "bytes": 8382993,
+          "sha256": "521bc7ca774bea8416ea065ec2365ebf916c65af19bf85db64ea320c80970636"
+        },
+        "data.json": {
+          "bytes": 100397652,
+          "sha256": "7559275fff989a58b69ea715c7f380054a6ea8ea068332289a4a8ae8092e706c"
+        },
+        "data.json.gz": {
+          "bytes": 6287162,
+          "sha256": "e3af5db704882a0d003a6c6153ff1898ee121c9435861e7783279bffa90e615b"
+        },
+        "downloads.json": {
+          "bytes": 48983,
+          "sha256": "912ca3a37d9c47741af16799b6392b5e392eea2981b570a5aba1e724e3310e59"
+        }
+      }
+    },
+    "hdWGCNA": {
+      "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery",
+      "branches": {
+        "CA1_consensus": {
+          "method_id": "hdwgcna_CA1_consensus",
+          "n_hubs": 160,
+          "n_modules": 8,
+          "n_mouse_values": 192,
+          "n_native_edges": 1520,
+          "n_unavailable_edge_weights": 0,
+          "status": "NETWORK_COMPLETE",
+          "validated_complete": true
+        },
+        "CA1_pooled": {
+          "method_id": "hdwgcna_CA1_pooled",
+          "n_hubs": 200,
+          "n_modules": 10,
+          "n_mouse_values": 240,
+          "n_native_edges": 1900,
+          "n_unavailable_edge_weights": 0,
+          "status": "NETWORK_COMPLETE",
+          "validated_complete": true
+        },
+        "IN_consensus": {
+          "method_id": "hdwgcna_IN_consensus",
+          "n_hubs": 80,
+          "n_modules": 4,
+          "n_mouse_values": 144,
+          "n_native_edges": 760,
+          "n_unavailable_edge_weights": 0,
+          "status": "NETWORK_COMPLETE",
+          "validated_complete": true
+        },
+        "IN_pooled": {
+          "method_id": "hdwgcna_IN_pooled",
+          "n_hubs": 100,
+          "n_modules": 5,
+          "n_mouse_values": 180,
+          "n_native_edges": 950,
+          "n_unavailable_edge_weights": 0,
+          "status": "NETWORK_COMPLETE",
+          "validated_complete": true
+        }
+      },
+      "original_sources_unchanged": true,
+      "record_counts": {
+        "coverage": 120,
+        "edges": 5130,
+        "effects": 63,
+        "embeddings": 0,
+        "endpoints": 5,
+        "features": 27,
+        "hubs": 540,
+        "methods": 4,
+        "nodes": 540,
+        "samples": 12,
+        "values": 756
+      },
+      "schema": "satb2-regulatory-transport/v1",
+      "scientific_fits_in_packager": false,
+      "source_fingerprint": "6537591f866c36b8af59751dc6b174c57bdd5480934ae60db4bab0029073e37e",
+      "status": "complete",
+      "transport": {
+        "data.js": {
+          "bytes": 345317,
+          "sha256": "1dfc993ab4082d64abfb38e32cc1ed497e770d1445ff5f9ae87ad267b93eafca"
+        },
+        "data.json": {
+          "bytes": 3539471,
+          "sha256": "4cd91ded9a4eb9717c29f79a22c5411ebd02c2e8bff3861455c001b7fe7d0536"
+        },
+        "data.json.gz": {
+          "bytes": 258898,
+          "sha256": "7c3c88a6ca75e9d19a2b6baab5a51c65c647407c5ee29b42628c63aa88fd3b03"
+        },
+        "downloads.json": {
+          "bytes": 36387,
+          "sha256": "e7673a2338f427c1f769ed6d6f86e063447cc14d68335f8849b8e964ba9c2f7c"
+        }
+      }
+    }
+  },
+  "motif_regulon_run": false,
+  "native_component_bytes_unchanged": true,
+  "record_counts": {
+    "coverage": 5945,
+    "edges": 96081,
+    "effects": 5888,
+    "embeddings": 0,
+    "endpoints": 5,
+    "features": 1192,
+    "hubs": 540,
+    "methods": 6,
+    "nodes": 93308,
+    "samples": 12,
+    "values": 70656
+  },
+  "schema": "satb2-regulatory-combined-transport/v1",
+  "scientific_fits_in_publication_builder": false,
+  "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461",
+  "status": "partial",
+  "transport": {
+    "data.js": {
+      "bytes": 8967217,
+      "sha256": "b5adb03dad7de0a53161723e6f939371e1d0ad2eb3aa744c5d87b91f35417346"
+    }
+  }
+}

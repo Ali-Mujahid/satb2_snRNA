@@ -1,0 +1,293 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"schema_version\": 3,\n  \"ok\": true,\n  \"runnable\": true,\n  \"request\": {\n    \"pipeline\": \"satb2-collectri-tf-20261026\",\n    \"workflow_version_id\": \"version-bc9442c759a42c60161d652be9fe6ce6\",\n    \"target\": {\n      \"target_id\": \"local\",\n      \"provider\": \"ngs-analysis-workbench\"\n    },\n    \"display_name\": \"SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity\",\n    \"first_run_id\": \"snakemake-satb2-collectri-tf-20261026-20261026-103502-75b1b8b7\",\n    \"attempt_number\": 1,\n    \"workflow\": \"workflow/Snakefile\",\n    \"run_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1\",\n    \"config_file\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/collectri.v1.json\",\n    \"config_sha256\": \"sha256:2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a\",\n    \"workflow_sha256\": \"sha256:c9f7466d3f1754a14213f7d9f0d68fc62376014c376d796f28bbc66b4a86b06c\",\n    \"cores\": 2,\n    \"runtime_snapshot_id\": \"runtime-bc215781236c47a0bb8fb9bce80c9302\",\n    \"controller_candidate_id\": \"controller-d0112de3b00b2b27fc79db4190fc1cf5\",\n    \"workflow_source\": {\n      \"engine\": \"snakemake\",\n      \"kind\": \"local\",\n      \"root\": \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/workflow-catalog/satb2-collectri-tf-20261026/version-bc9442c759a42c60161d652be9fe6ce6\",\n      \"entrypoint\": \"workflow/Snakefile\",\n      \"source_sha256\": \"sha256:c9f7466d3f1754a14213f7d9f0d68fc62376014c376d796f28bbc66b4a86b06c\"\n    },\n    \"run_id\": \"snakemake-satb2-collectri-tf-20261026-20261026-103502-75b1b8b7\"\n  },\n  \"command_argv\": [\n    \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n    \"--snakefile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow/workflow/Snakefile\",\n    \"--configfile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json\",\n    \"--directory\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results\",\n    \"--cores\",\n    \"2\",\n    \"--printshellcmds\"\n  ],\n  \"readiness\": {\n    \"ok\": true,\n    \"status\": \"ready\",\n    \"binding\": \"snakemake\",\n    \"pipeline\": \"satb2-collectri-tf-20261026\",\n    \"target\": {\n      \"target_id\": \"local\",\n      \"provider\": \"ngs-analysis-workbench\"\n    },\n    \"readiness_id\": \"readiness-4dbca6e065c8916bfe352722429d2853\",\n    \"scope\": \"exact_request_and_runtime_snapshot\",\n    \"snapshot_id\": \"runtime-bc215781236c47a0bb8fb9bce80c9302\",\n    \"observed_at\": \"2026-10-26T10:32:44.806419Z\",\n    \"expires_at\": \"2026-10-26T10:37:44.806419Z\",\n    \"host\": {\n      \"os\": \"darwin\",\n      \"arch\": \"arm64\"\n    },\n    \"commands\": [\n      {\n        \"name\": \"nextflow\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: nextflow\"\n      },\n      {\n        \"name\": \"snakemake\",\n        \"path\": \"/Users/mujahid357/.local/bin/snakemake\",\n        \"state\": \"ready\",\n        \"version\": \"9.27.0\",\n        \"message\": null\n      },\n      {\n        \"name\": \"java\",\n        \"path\": \"/usr/bin/java\",\n        \"state\": \"ready\",\n        \"version\": \"java version \\\"24.0.1\\\" 2025-04-15\",\n        \"message\": null\n      },\n      {\n        \"name\": \"docker\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: docker\"\n      },\n      {\n        \"name\": \"conda\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: conda\"\n      },\n      {\n        \"name\": \"mamba\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: mamba\"\n      },\n      {\n        \"name\": \"micromamba\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: micromamba\"\n      },\n      {\n        \"name\": \"pixi\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: pixi\"\n      },\n      {\n        \"name\": \"podman\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: podman\"\n      },\n      {\n        \"name\": \"apptainer\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: apptainer\"\n      },\n      {\n        \"name\": \"singularity\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: singularity\"\n      }\n    ],\n    \"controller_candidates\": [\n      {\n        \"candidate_id\": \"controller-d0112de3b00b2b27fc79db4190fc1cf5\",\n        \"controller\": \"snakemake\",\n        \"source\": \"host_path\",\n        \"manager\": null,\n        \"executable_path\": \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n        \"environment_path\": null,\n        \"version\": \"9.27.0\",\n        \"platform\": {\n          \"os\": \"darwin\",\n          \"arch\": \"arm64\"\n        },\n        \"platform_matches_host\": true,\n        \"active\": true,\n        \"manifest_path\": null,\n        \"lockfile_path\": null,\n        \"declared_channels\": [],\n        \"launch_argv_prefix\": [\n          \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\"\n        ],\n        \"recommended\": false,\n        \"recommendation_reason\": \"Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound\"\n      }\n    ],\n    \"selected_controller\": {\n      \"candidate_id\": \"controller-d0112de3b00b2b27fc79db4190fc1cf5\",\n      \"controller\": \"snakemake\",\n      \"source\": \"host_path\",\n      \"manager\": null,\n      \"executable_path\": \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n      \"environment_path\": null,\n      \"version\": \"9.27.0\",\n      \"platform\": {\n        \"os\": \"darwin\",\n        \"arch\": \"arm64\"\n      },\n      \"platform_matches_host\": true,\n      \"active\": true,\n      \"manifest_path\": null,\n      \"lockfile_path\": null,\n      \"declared_channels\": [],\n      \"launch_argv_prefix\": [\n        \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\"\n      ],\n      \"recommended\": false,\n      \"recommendation_reason\": \"Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound\"\n    },\n    \"docker\": {\n      \"path\": null,\n      \"context\": null,\n      \"endpoint\": null,\n      \"endpoint_is_local\": null,\n      \"daemon_reachable\": false,\n      \"server_version\": null,\n      \"server_os\": null,\n      \"server_arch\": null,\n      \"message\": \"Docker CLI is missing\"\n    },\n    \"requirements\": [\n      {\n        \"id\": \"snakemake\",\n        \"layer\": \"workflow_controller\",\n        \"capability\": \"command\",\n        \"value\": \"snakemake\",\n        \"source\": \"request.binding\",\n        \"detail\": \"the Snakemake binding executes workflows with Snakemake\",\n        \"probe_mode\": \"version\"\n      }\n    ],\n    \"evidence\": [\n      {\n        \"kind\": \"runtime_snapshot\",\n        \"source\": \"runtime-bc215781236c47a0bb8fb9bce80c9302\",\n        \"detail\": \"observations for compute target local\"\n      }\n    ],\n    \"blockers\": [],\n    \"unknowns\": [],\n    \"warnings\": [\n      \"container image architecture is not verified until the workflow resolves concrete images\",\n      \"using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound\"\n    ]\n  },\n  \"input_summary\": {\n    \"source\": \"config_file\",\n    \"path\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/collectri.v1.json\",\n    \"sha256\": \"sha256:2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a\",\n    \"record_count\": null,\n    \"sample_count\": null,\n    \"read_layout\": null\n  },\n  \"effects\": {\n    \"run_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1\",\n    \"output_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results\",\n    \"work_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results\",\n    \"launch_log\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/logs/snakemake.log\",\n    \"local_writes\": [\n      \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/ngs_runs/.mcp/workspace.json\",\n      \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/registry.sqlite3\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json\",\n      \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/runs/4a56558f-f3ec-55ad-afd0-c7f44514b7de/workflow/approved_plan.json\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/.snakemake\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/logs/snakemake.log\"\n    ],\n    \"downloads\": [],\n    \"network_access\": []\n  },\n  \"preparation\": null,\n  \"blockers\": [],\n  \"warnings\": [\n    \"workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config\",\n    \"container image architecture is not verified until the workflow resolves concrete images\",\n    \"using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound\"\n  ],\n  \"monitoring\": {\n    \"terminal_statuses\": [\n      \"completed\",\n      \"failed\",\n      \"canceled\",\n      \"orphaned\"\n    ],\n    \"log_paths\": [\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/logs/snakemake.log\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/.snakemake/log\"\n    ],\n    \"artifact_paths\": [\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/artifact_index.json\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json\"\n    ]\n  },\n  \"kind\": \"plan\",\n  \"status\": \"ready\",\n  \"binding\": \"snakemake\",\n  \"plan_name\": \"SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity\",\n  \"plan_id\": \"ngs-plan-db49a0b2c04b0429\",\n  \"plan_checksum\": \"sha256:db49a0b2c04b042975adda64c8fbc12bf213324ff9e2896f8d04f2533244c931\",\n  \"plan_registry\": {\n    \"scope\": \"plugin_control_plane\",\n    \"workspace_effects\": false\n  }\n}"
+    }
+  ],
+  "structuredContent": {
+    "schema_version": 3,
+    "ok": true,
+    "runnable": true,
+    "request": {
+      "pipeline": "satb2-collectri-tf-20261026",
+      "workflow_version_id": "version-bc9442c759a42c60161d652be9fe6ce6",
+      "target": {
+        "target_id": "local",
+        "provider": "ngs-analysis-workbench"
+      },
+      "display_name": "SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity",
+      "first_run_id": "snakemake-satb2-collectri-tf-20261026-20261026-103502-75b1b8b7",
+      "attempt_number": 1,
+      "workflow": "workflow/Snakefile",
+      "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1",
+      "config_file": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/collectri.v1.json",
+      "config_sha256": "sha256:2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a",
+      "workflow_sha256": "sha256:c9f7466d3f1754a14213f7d9f0d68fc62376014c376d796f28bbc66b4a86b06c",
+      "cores": 2,
+      "runtime_snapshot_id": "runtime-bc215781236c47a0bb8fb9bce80c9302",
+      "controller_candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+      "workflow_source": {
+        "engine": "snakemake",
+        "kind": "local",
+        "root": "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/workflow-catalog/satb2-collectri-tf-20261026/version-bc9442c759a42c60161d652be9fe6ce6",
+        "entrypoint": "workflow/Snakefile",
+        "source_sha256": "sha256:c9f7466d3f1754a14213f7d9f0d68fc62376014c376d796f28bbc66b4a86b06c"
+      },
+      "run_id": "snakemake-satb2-collectri-tf-20261026-20261026-103502-75b1b8b7"
+    },
+    "command_argv": [
+      "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+      "--snakefile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow/workflow/Snakefile",
+      "--configfile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json",
+      "--directory",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results",
+      "--cores",
+      "2",
+      "--printshellcmds"
+    ],
+    "readiness": {
+      "ok": true,
+      "status": "ready",
+      "binding": "snakemake",
+      "pipeline": "satb2-collectri-tf-20261026",
+      "target": {
+        "target_id": "local",
+        "provider": "ngs-analysis-workbench"
+      },
+      "readiness_id": "readiness-4dbca6e065c8916bfe352722429d2853",
+      "scope": "exact_request_and_runtime_snapshot",
+      "snapshot_id": "runtime-bc215781236c47a0bb8fb9bce80c9302",
+      "observed_at": "2026-10-26T10:32:44.806419Z",
+      "expires_at": "2026-10-26T10:37:44.806419Z",
+      "host": {
+        "os": "darwin",
+        "arch": "arm64"
+      },
+      "commands": [
+        {
+          "name": "nextflow",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: nextflow"
+        },
+        {
+          "name": "snakemake",
+          "path": "/Users/mujahid357/.local/bin/snakemake",
+          "state": "ready",
+          "version": "9.27.0",
+          "message": null
+        },
+        {
+          "name": "java",
+          "path": "/usr/bin/java",
+          "state": "ready",
+          "version": "java version \"24.0.1\" 2025-04-15",
+          "message": null
+        },
+        {
+          "name": "docker",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: docker"
+        },
+        {
+          "name": "conda",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: conda"
+        },
+        {
+          "name": "mamba",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: mamba"
+        },
+        {
+          "name": "micromamba",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: micromamba"
+        },
+        {
+          "name": "pixi",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: pixi"
+        },
+        {
+          "name": "podman",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: podman"
+        },
+        {
+          "name": "apptainer",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: apptainer"
+        },
+        {
+          "name": "singularity",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: singularity"
+        }
+      ],
+      "controller_candidates": [
+        {
+          "candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+          "controller": "snakemake",
+          "source": "host_path",
+          "manager": null,
+          "executable_path": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+          "environment_path": null,
+          "version": "9.27.0",
+          "platform": {
+            "os": "darwin",
+            "arch": "arm64"
+          },
+          "platform_matches_host": true,
+          "active": true,
+          "manifest_path": null,
+          "lockfile_path": null,
+          "declared_channels": [],
+          "launch_argv_prefix": [
+            "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake"
+          ],
+          "recommended": false,
+          "recommendation_reason": "Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound"
+        }
+      ],
+      "selected_controller": {
+        "candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+        "controller": "snakemake",
+        "source": "host_path",
+        "manager": null,
+        "executable_path": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+        "environment_path": null,
+        "version": "9.27.0",
+        "platform": {
+          "os": "darwin",
+          "arch": "arm64"
+        },
+        "platform_matches_host": true,
+        "active": true,
+        "manifest_path": null,
+        "lockfile_path": null,
+        "declared_channels": [],
+        "launch_argv_prefix": [
+          "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake"
+        ],
+        "recommended": false,
+        "recommendation_reason": "Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound"
+      },
+      "docker": {
+        "path": null,
+        "context": null,
+        "endpoint": null,
+        "endpoint_is_local": null,
+        "daemon_reachable": false,
+        "server_version": null,
+        "server_os": null,
+        "server_arch": null,
+        "message": "Docker CLI is missing"
+      },
+      "requirements": [
+        {
+          "id": "snakemake",
+          "layer": "workflow_controller",
+          "capability": "command",
+          "value": "snakemake",
+          "source": "request.binding",
+          "detail": "the Snakemake binding executes workflows with Snakemake",
+          "probe_mode": "version"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "runtime_snapshot",
+          "source": "runtime-bc215781236c47a0bb8fb9bce80c9302",
+          "detail": "observations for compute target local"
+        }
+      ],
+      "blockers": [],
+      "unknowns": [],
+      "warnings": [
+        "container image architecture is not verified until the workflow resolves concrete images",
+        "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+      ]
+    },
+    "input_summary": {
+      "source": "config_file",
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/collectri.v1.json",
+      "sha256": "sha256:2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a",
+      "record_count": null,
+      "sample_count": null,
+      "read_layout": null
+    },
+    "effects": {
+      "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1",
+      "output_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results",
+      "work_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results",
+      "launch_log": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/logs/snakemake.log",
+      "local_writes": [
+        "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/ngs_runs/.mcp/workspace.json",
+        "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/registry.sqlite3",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json",
+        "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/runs/4a56558f-f3ec-55ad-afd0-c7f44514b7de/workflow/approved_plan.json",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/.snakemake",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/logs/snakemake.log"
+      ],
+      "downloads": [],
+      "network_access": []
+    },
+    "preparation": null,
+    "blockers": [],
+    "warnings": [
+      "workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config",
+      "container image architecture is not verified until the workflow resolves concrete images",
+      "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+    ],
+    "monitoring": {
+      "terminal_statuses": [
+        "completed",
+        "failed",
+        "canceled",
+        "orphaned"
+      ],
+      "log_paths": [
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/logs/snakemake.log",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/.snakemake/log"
+      ],
+      "artifact_paths": [
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/artifact_index.json",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json"
+      ]
+    },
+    "kind": "plan",
+    "status": "ready",
+    "binding": "snakemake",
+    "plan_name": "SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity",
+    "plan_id": "ngs-plan-db49a0b2c04b0429",
+    "plan_checksum": "sha256:db49a0b2c04b042975adda64c8fbc12bf213324ff9e2896f8d04f2533244c931",
+    "plan_registry": {
+      "scope": "plugin_control_plane",
+      "workspace_effects": false
+    }
+  },
+  "isError": false
+}

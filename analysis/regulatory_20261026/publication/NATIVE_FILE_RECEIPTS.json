@@ -1,0 +1,3826 @@
+{
+  "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery__SATB2_CollecTRI_TF_20261026_v1",
+  "component_receipts": {
+    "curated_tf_activity": [
+      {
+        "bytes": 25992,
+        "path": "tf_activity/CA1_Deep/activity_heatmap_display_z.pdf",
+        "sha256": "599de4a1d8df952486b5af0b3f264e4aaf27076ef6314848e2bca1e89896790a"
+      },
+      {
+        "bytes": 102718,
+        "path": "tf_activity/CA1_Deep/activity_heatmap_display_z.png",
+        "sha256": "db3a3a75fe6ffdf63e0219ba674ca4f5b40691149934d32572aa538a795afaa4"
+      },
+      {
+        "bytes": 76268,
+        "path": "tf_activity/CA1_Deep/activity_heatmap_display_z.svg",
+        "sha256": "7179e64804d774641acbb53273b4f3055371be72d77ed9ba7ec45c61de71dc00"
+      },
+      {
+        "bytes": 1687776,
+        "path": "tf_activity/CA1_Deep/all_gene_activity_background_audit.tsv",
+        "sha256": "7dac0aae1b4d61dcd325e32d94d9bfec9429a58198913ccc8a11e860b9a10eec"
+      },
+      {
+        "bytes": 679342,
+        "path": "tf_activity/CA1_Deep/all_results_wald_background_audit.tsv",
+        "sha256": "19793db57a0935c54ef9c5e249b444853c835f0d8c9396a2836665025bc392b0"
+      },
+      {
+        "bytes": 925871,
+        "path": "tf_activity/CA1_Deep/mouse_activity_all_TF_target_coverage.tsv",
+        "sha256": "587ce3d39ef515b97a2c2787f50821248a519b0fe389ef788d65d2cf8620d8a0"
+      },
+      {
+        "bytes": 793429,
+        "path": "tf_activity/CA1_Deep/mouse_activity_input_log1p_original_sizefactor.tsv.gz",
+        "sha256": "a26e089dd451da709406d90cc65dc39f69f16eb139f47a25713cb7b18a5a9d08"
+      },
+      {
+        "bytes": 1884305,
+        "path": "tf_activity/CA1_Deep/mouse_activity_long.tsv",
+        "sha256": "81d652e90693ecfa33e534d8f48824dd001ee03b07c80d5ef5ad27a44c8db22c"
+      },
+      {
+        "bytes": 152713,
+        "path": "tf_activity/CA1_Deep/mouse_activity_native_escore.tsv",
+        "sha256": "dd9101c7bcb156c5492ac416ca6c3dc25d21230e2677bf10303257c912181303"
+      },
+      {
+        "bytes": 152267,
+        "path": "tf_activity/CA1_Deep/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "1f728c23b80bd8eefd9174100edb1d280e63e9ab7210a24e8d27112db4c6a3a3"
+      },
+      {
+        "bytes": 3851513,
+        "path": "tf_activity/CA1_Deep/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "30f4d6506dfa9129ac75a75492ea762ba80b685a6ebead278a3b8d610a4740ab"
+      },
+      {
+        "bytes": 26223,
+        "path": "tf_activity/CA1_Deep/mouse_box_dot_native_units.pdf",
+        "sha256": "2756596dbcd048d74474612b7f49d0a8d2620f483d1dcb3dc1b02c88944ada19"
+      },
+      {
+        "bytes": 108666,
+        "path": "tf_activity/CA1_Deep/mouse_box_dot_native_units.png",
+        "sha256": "b6a6117c88029c3a1f7d42526e24ce59aaa0b79fecbe3ad0b644787bcdbf47c8"
+      },
+      {
+        "bytes": 108823,
+        "path": "tf_activity/CA1_Deep/mouse_box_dot_native_units.svg",
+        "sha256": "8c154d354789f5018246cb6f6753eec0ec5c7db84590b7d9eb62bf99a0d6515c"
+      },
+      {
+        "bytes": 1129,
+        "path": "tf_activity/CA1_Deep/mouse_normalization_coverage_audit.tsv",
+        "sha256": "0d964df2d3a41adeb039b5882d8c319836257dc1de5da43c6e99c999dd9dd4ef"
+      },
+      {
+        "bytes": 1531,
+        "path": "tf_activity/CA1_Deep/plot_TF_selection.tsv",
+        "sha256": "6146fa6f9120388ead908b696dcb00c3f050ed78f3bcb5c0e182ec94c7d19659"
+      },
+      {
+        "bytes": 4312,
+        "path": "tf_activity/CA1_Deep/self_excluded/mouse_activity_long.tsv",
+        "sha256": "49cd3f5b59ce60e58251a3e0ad1e8b74deeeab9c2da9bb13e53a68a9c8046e08"
+      },
+      {
+        "bytes": 365,
+        "path": "tf_activity/CA1_Deep/self_excluded/mouse_activity_native_escore.tsv",
+        "sha256": "9046863d80f359cb503a45d0d25f8dbe36ac1a5a123f2cd605f7a146cd1405c3"
+      },
+      {
+        "bytes": 353,
+        "path": "tf_activity/CA1_Deep/self_excluded/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "d35e20c2708bce17d39c046682dccea6776f1e2fd11757abcbd8a1c46d0e3c8b"
+      },
+      {
+        "bytes": 1127,
+        "path": "tf_activity/CA1_Deep/self_excluded/mouse_activity_target_coverage.tsv",
+        "sha256": "12914489c7dd07aa40614ce9eef290438dac951cd7436f29ad5bb74438761df8"
+      },
+      {
+        "bytes": 840,
+        "path": "tf_activity/CA1_Deep/self_excluded/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "312c69ddada91b5043bc837a6c0f9fa1f945559ea91bebfa96912830d6fb46a7"
+      },
+      {
+        "bytes": 751,
+        "path": "tf_activity/CA1_Deep/self_excluded/status.json",
+        "sha256": "58efc62d904e13406b2239755ec2b3992fffe408acaa10105e0c4c9158574827"
+      },
+      {
+        "bytes": 588,
+        "path": "tf_activity/CA1_Deep/self_excluded/wald_contrast_enrichment_long.tsv",
+        "sha256": "43be2684f149d89dbc2413af4c4df3797407eb0eb4229a4524edb8aabb59a5f0"
+      },
+      {
+        "bytes": 49,
+        "path": "tf_activity/CA1_Deep/self_excluded/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "53eae1016ef8c696212f9efdc97d87c77d1e66fca489ef30ddda269075b8da52"
+      },
+      {
+        "bytes": 48,
+        "path": "tf_activity/CA1_Deep/self_excluded/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "0eac04f76f90e6e1650ed8dc41d0c951963161ead1be1761e9e438560c400a5f"
+      },
+      {
+        "bytes": 1028,
+        "path": "tf_activity/CA1_Deep/self_excluded/wald_contrast_enrichment_target_coverage.tsv",
+        "sha256": "aabeee6a2ca47ec060deeb91db2f2c0a7fd4229b8498192240a8abd5bca87d88"
+      },
+      {
+        "bytes": 753,
+        "path": "tf_activity/CA1_Deep/self_excluded/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "aa2971eaa06e84b0a228fb62eab0af4efe40c2c77826e1a9811bf34bc891a4e1"
+      },
+      {
+        "bytes": 765017,
+        "path": "tf_activity/CA1_Deep/wald_contrast_enrichment_all_TF_target_coverage.tsv",
+        "sha256": "4063f47576ad2175078f131ed4a20c5464a3bdc8603cdf0f3eb37498a2a90d1e"
+      },
+      {
+        "bytes": 166252,
+        "path": "tf_activity/CA1_Deep/wald_contrast_enrichment_long.tsv",
+        "sha256": "de8f0176a3eee3eb74e74a7f423ad6fcc3c00f0e9ab13b9f082108150db2892d"
+      },
+      {
+        "bytes": 14670,
+        "path": "tf_activity/CA1_Deep/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "2708bfd307d86be147eedfd534f3ebbf161684b578cc07ffd67f7691b1607530"
+      },
+      {
+        "bytes": 14529,
+        "path": "tf_activity/CA1_Deep/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "7d105a238f1b7756ceef78c5c1b7f363fbe445dd1d1352116a954ec443b2eda7"
+      },
+      {
+        "bytes": 2923301,
+        "path": "tf_activity/CA1_Deep/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "dc0455437fd36e425607c89c99c4481a4a3eec4895d0f24dc7f190b88b1ff055"
+      },
+      {
+        "bytes": 170719,
+        "path": "tf_activity/CA1_Deep/wald_contrast_input_original_finite_statistics.tsv.gz",
+        "sha256": "a7108525b5b11dd6e4ddfb740e23c6ea3c898039077fca47cd12f307dceab628"
+      },
+      {
+        "bytes": 26948,
+        "path": "tf_activity/CA1_Superficial/activity_heatmap_display_z.pdf",
+        "sha256": "ca0b230961d072072130fb6cfe530824a4116a871a7e14db6510e2b26c893671"
+      },
+      {
+        "bytes": 104156,
+        "path": "tf_activity/CA1_Superficial/activity_heatmap_display_z.png",
+        "sha256": "323de93abcccba699230fd5b0b30d19fb7f623b4dc1fdf7172fff6c98cc1583b"
+      },
+      {
+        "bytes": 78407,
+        "path": "tf_activity/CA1_Superficial/activity_heatmap_display_z.svg",
+        "sha256": "7623263791e1ca872f94f6b57ce0548eb5a8f342868223834bbe85e7f6dfaa7e"
+      },
+      {
+        "bytes": 1688612,
+        "path": "tf_activity/CA1_Superficial/all_gene_activity_background_audit.tsv",
+        "sha256": "7569002fa0809e35f9fd2dbe9db3235958c33628e76c597e73b2a8686331a691"
+      },
+      {
+        "bytes": 730279,
+        "path": "tf_activity/CA1_Superficial/all_results_wald_background_audit.tsv",
+        "sha256": "708eab8a3de5958946a0afb0589c897400faed33463bda094988ea73502085ab"
+      },
+      {
+        "bytes": 954210,
+        "path": "tf_activity/CA1_Superficial/mouse_activity_all_TF_target_coverage.tsv",
+        "sha256": "3a302ec41c8575fb72ea7c176136ec361b2b96dcca531960f9b8df3ba2b13c99"
+      },
+      {
+        "bytes": 894497,
+        "path": "tf_activity/CA1_Superficial/mouse_activity_input_log1p_original_sizefactor.tsv.gz",
+        "sha256": "a9dffcaa6564bdef37c92118412190a8f1cda2b6fe612cd9ddbfd10dbc49eec7"
+      },
+      {
+        "bytes": 1993415,
+        "path": "tf_activity/CA1_Superficial/mouse_activity_long.tsv",
+        "sha256": "d6c87785feb7abb6978e46379217f818dbba2c0a3c4fd95497fca94959e2d8e8"
+      },
+      {
+        "bytes": 156476,
+        "path": "tf_activity/CA1_Superficial/mouse_activity_native_escore.tsv",
+        "sha256": "b48a1a9044c5ec56162820790bb4cc05362c0624bcbc5cd5fb3acd0ac01d99d3"
+      },
+      {
+        "bytes": 156242,
+        "path": "tf_activity/CA1_Superficial/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "493dc306135f8ba2e954a454168c2476b1252b608be78a3884f7f33ed45a737e"
+      },
+      {
+        "bytes": 4273792,
+        "path": "tf_activity/CA1_Superficial/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "580063377151e3d04f9906bc573ee1aeb0a3bd3de86308e03218fc8178a22a00"
+      },
+      {
+        "bytes": 26152,
+        "path": "tf_activity/CA1_Superficial/mouse_box_dot_native_units.pdf",
+        "sha256": "984a35022453877a29046107e22848a881b1f1529795599dc087c4af780ad86f"
+      },
+      {
+        "bytes": 111641,
+        "path": "tf_activity/CA1_Superficial/mouse_box_dot_native_units.png",
+        "sha256": "214f7278cfe83e1d65401c76e96cb0ae00eb40d203fad07ded8456281eb595bd"
+      },
+      {
+        "bytes": 106733,
+        "path": "tf_activity/CA1_Superficial/mouse_box_dot_native_units.svg",
+        "sha256": "0451562588644d84a94077a354d6605268edf7b035e17a987ab6e1faa020b2ef"
+      },
+      {
+        "bytes": 1140,
+        "path": "tf_activity/CA1_Superficial/mouse_normalization_coverage_audit.tsv",
+        "sha256": "4e3afeb258cd5e2e2318cbe87dd7cebb302023e0c72699b3a59958746ec05eb1"
+      },
+      {
+        "bytes": 1544,
+        "path": "tf_activity/CA1_Superficial/plot_TF_selection.tsv",
+        "sha256": "4efdc1e44a7531e430d30f0fff4946544255e86c4188bd06526f988621f23bbf"
+      },
+      {
+        "bytes": 4396,
+        "path": "tf_activity/CA1_Superficial/self_excluded/mouse_activity_long.tsv",
+        "sha256": "fc84229e2b0b0a996d9e52e9fd34e1a4e60fefff8e990bf0a9eba011dd6905da"
+      },
+      {
+        "bytes": 354,
+        "path": "tf_activity/CA1_Superficial/self_excluded/mouse_activity_native_escore.tsv",
+        "sha256": "1ab6ac6fe68077e46d8469ad4e5f26bce9d7f2a67df2ad4be5e4ae648b454ab9"
+      },
+      {
+        "bytes": 353,
+        "path": "tf_activity/CA1_Superficial/self_excluded/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "92aaa537106e447695e45daa128ff8240391963674d1b43edc6f77f50951bb4d"
+      },
+      {
+        "bytes": 1195,
+        "path": "tf_activity/CA1_Superficial/self_excluded/mouse_activity_target_coverage.tsv",
+        "sha256": "bf0d31629556c8d0222e33992002bacfaffe376ccf9cdb97120d0ef40d39d348"
+      },
+      {
+        "bytes": 1125,
+        "path": "tf_activity/CA1_Superficial/self_excluded/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "2e13e8e03a72c1dea7448689db91d9ec9bf959ae9863212ea6621efa2b5b62d7"
+      },
+      {
+        "bytes": 758,
+        "path": "tf_activity/CA1_Superficial/self_excluded/status.json",
+        "sha256": "e838a686fabaeed478e0d6eb08ba79030f50be6b203cccdf52b7d916d598a806"
+      },
+      {
+        "bytes": 594,
+        "path": "tf_activity/CA1_Superficial/self_excluded/wald_contrast_enrichment_long.tsv",
+        "sha256": "f80e942c5f2f6c846d493342ba9885033ffaa899295d7bfd2e3a3002690bb2f2"
+      },
+      {
+        "bytes": 48,
+        "path": "tf_activity/CA1_Superficial/self_excluded/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "a4adb44b85dab88a953074f04bf1fe0c41257a3f85be220f75587a85d874d56e"
+      },
+      {
+        "bytes": 48,
+        "path": "tf_activity/CA1_Superficial/self_excluded/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "8feacc4b194a5bdc6a8122f13e90c529d16ccf557bf12b3d5e339718af5dec5d"
+      },
+      {
+        "bytes": 1035,
+        "path": "tf_activity/CA1_Superficial/self_excluded/wald_contrast_enrichment_target_coverage.tsv",
+        "sha256": "f11742ac6baba29a8df8777dc90360b0b4e887a14e74959cd0bd57c700b1e7cd"
+      },
+      {
+        "bytes": 753,
+        "path": "tf_activity/CA1_Superficial/self_excluded/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "aa2971eaa06e84b0a228fb62eab0af4efe40c2c77826e1a9811bf34bc891a4e1"
+      },
+      {
+        "bytes": 794648,
+        "path": "tf_activity/CA1_Superficial/wald_contrast_enrichment_all_TF_target_coverage.tsv",
+        "sha256": "03de8f9e92f63ba66f7ea5e8ecf545d38881da33dd3868e72d4c0281aa356ff3"
+      },
+      {
+        "bytes": 174851,
+        "path": "tf_activity/CA1_Superficial/wald_contrast_enrichment_long.tsv",
+        "sha256": "0c9effd40080c5d1e71d9305ff67c2e690c989e809e33bbafd5ef9af3249f696"
+      },
+      {
+        "bytes": 15118,
+        "path": "tf_activity/CA1_Superficial/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "a7ef012ad245ebc6ecc043cb8ad784bc174cd75979d40b7753e13936fc4d7155"
+      },
+      {
+        "bytes": 14989,
+        "path": "tf_activity/CA1_Superficial/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "9901c5a795a54f6e17dc86f138205d670e18566e35969fcf9127919d636c4bc9"
+      },
+      {
+        "bytes": 3257170,
+        "path": "tf_activity/CA1_Superficial/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "8df61c321d42df96a68ea27bc5b8c39cb16899441cb7c1b013b749482542b50f"
+      },
+      {
+        "bytes": 184010,
+        "path": "tf_activity/CA1_Superficial/wald_contrast_input_original_finite_statistics.tsv.gz",
+        "sha256": "040d15a7d6e5db64c52cb0aa7fc16f8b4d83fbf17b9c4f944aac91c450d84d08"
+      },
+      {
+        "bytes": 61628,
+        "path": "tf_activity/COMPLETE.json",
+        "sha256": "26fa58f842e1575ef22c14c3bf2b0159ddfccc2542d6b3ad404911fab6717d29"
+      },
+      {
+        "bytes": 26313,
+        "path": "tf_activity/IN_C1/activity_heatmap_display_z.pdf",
+        "sha256": "af8d31f71927d0c03fa5667a4a208c52c9710f9b7075cdd8f46a759df167000e"
+      },
+      {
+        "bytes": 98899,
+        "path": "tf_activity/IN_C1/activity_heatmap_display_z.png",
+        "sha256": "69b18f5cf77c6e80a11998c574fea1cbdf2cf839d12363adef75dccbad5dc4bc"
+      },
+      {
+        "bytes": 76259,
+        "path": "tf_activity/IN_C1/activity_heatmap_display_z.svg",
+        "sha256": "daf8e1d7be3781a5fc618e4f28267040f30c6a0f7e94dab8b21a1ff99d9aa05f"
+      },
+      {
+        "bytes": 1684798,
+        "path": "tf_activity/IN_C1/all_gene_activity_background_audit.tsv",
+        "sha256": "0f8f804a87cd194798db6bd4dbb3d9ec85a0d1710ce1e3d260ef785cfc078634"
+      },
+      {
+        "bytes": 646486,
+        "path": "tf_activity/IN_C1/all_results_wald_background_audit.tsv",
+        "sha256": "26a3fc348c15882422748b572d7f833b011c191e3017cee4313deeac0bcc65fc"
+      },
+      {
+        "bytes": 840997,
+        "path": "tf_activity/IN_C1/mouse_activity_all_TF_target_coverage.tsv",
+        "sha256": "f0449aa7f82fab20bdf3dec001ec688e599ad5a7b955cd0f77bfbf590909a68e"
+      },
+      {
+        "bytes": 473821,
+        "path": "tf_activity/IN_C1/mouse_activity_input_log1p_original_sizefactor.tsv.gz",
+        "sha256": "3dd6765c63f47c6fbca3fb8ca80ad76afe4920418cf9a01984b5307ca6383c13"
+      },
+      {
+        "bytes": 1649060,
+        "path": "tf_activity/IN_C1/mouse_activity_long.tsv",
+        "sha256": "db5313fdee4c79cb3dbd7ab25e1c1b8c94394c1a9730317aaee8226957b491e8"
+      },
+      {
+        "bytes": 138990,
+        "path": "tf_activity/IN_C1/mouse_activity_native_escore.tsv",
+        "sha256": "794c1eb2de1c84bf3f2973ba9451fca97fdaebd927023d924148c921afcda2c0"
+      },
+      {
+        "bytes": 137741,
+        "path": "tf_activity/IN_C1/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "e8cedf58041984ec44c314cb56488113da52522329aad34d78840bee2f3d643c"
+      },
+      {
+        "bytes": 3016240,
+        "path": "tf_activity/IN_C1/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "ca85e92ade514a2f0f11343c270ccc11d1cb94fa86bfcd022a262c62927ea763"
+      },
+      {
+        "bytes": 26547,
+        "path": "tf_activity/IN_C1/mouse_box_dot_native_units.pdf",
+        "sha256": "c07834c841bf4be8e9603a1fe6d98c57f78ba3b024825910c6c736d18bb1f7b9"
+      },
+      {
+        "bytes": 109571,
+        "path": "tf_activity/IN_C1/mouse_box_dot_native_units.png",
+        "sha256": "1246fe4b98ea034d65be2cfe6b8fa2571ba6980ba3b4bdd01a930cd3734f9228"
+      },
+      {
+        "bytes": 112004,
+        "path": "tf_activity/IN_C1/mouse_box_dot_native_units.svg",
+        "sha256": "f60268b2e4ce25a4f50a8599990df6e8517e015f5425e6043305808a9ca11f99"
+      },
+      {
+        "bytes": 1122,
+        "path": "tf_activity/IN_C1/mouse_normalization_coverage_audit.tsv",
+        "sha256": "291037d1ce35276e12ff1097c75053c766000a7ef9a38437b4adba868679f924"
+      },
+      {
+        "bytes": 1535,
+        "path": "tf_activity/IN_C1/plot_TF_selection.tsv",
+        "sha256": "7d646cfe9310f3f737feb6a7071703d6a65531c04c08951630fe4286fa8a0fc8"
+      },
+      {
+        "bytes": 4191,
+        "path": "tf_activity/IN_C1/self_excluded/mouse_activity_long.tsv",
+        "sha256": "4f6d66d97f766dd2bed6cfdd44e64dd78c3da696ef64a17b0eb7d0e99fba1311"
+      },
+      {
+        "bytes": 338,
+        "path": "tf_activity/IN_C1/self_excluded/mouse_activity_native_escore.tsv",
+        "sha256": "fb3a7b6429465b4fa4c763db3c087f79066a667bbfb95008f8f752043b40a6e3"
+      },
+      {
+        "bytes": 360,
+        "path": "tf_activity/IN_C1/self_excluded/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "d37606fb5c51890956575683d754fd293df6aa7555cc8ff8812d9d199c16768f"
+      },
+      {
+        "bytes": 1050,
+        "path": "tf_activity/IN_C1/self_excluded/mouse_activity_target_coverage.tsv",
+        "sha256": "51fdedd7fb1d96152d42c8a56cf5b73b1fc57f421ec2b5bf1488f318c6c61f6f"
+      },
+      {
+        "bytes": 667,
+        "path": "tf_activity/IN_C1/self_excluded/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "465a6343de5b0f5189f15ed04fb4afe2df91bbfb988a399bc748179ac03472af"
+      },
+      {
+        "bytes": 748,
+        "path": "tf_activity/IN_C1/self_excluded/status.json",
+        "sha256": "1fe0254f496abcbec6f8c7970da3315b29f2891a2e412b2179df56810517e0e7"
+      },
+      {
+        "bytes": 579,
+        "path": "tf_activity/IN_C1/self_excluded/wald_contrast_enrichment_long.tsv",
+        "sha256": "1b95540886219c8a5d7d1ad7e9a80b98816bdbe1cc19c521132fb7d83e780490"
+      },
+      {
+        "bytes": 48,
+        "path": "tf_activity/IN_C1/self_excluded/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "2753c639ac1ce4c7af525e816d60486544a1310989895557b3490a51f08dcc07"
+      },
+      {
+        "bytes": 48,
+        "path": "tf_activity/IN_C1/self_excluded/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "f4ff436815ed4c3d3ff98a4ebb1f674a5a7df262e45c12f8256bbc6ba751e4c0"
+      },
+      {
+        "bytes": 980,
+        "path": "tf_activity/IN_C1/self_excluded/wald_contrast_enrichment_target_coverage.tsv",
+        "sha256": "e098e598516443792d7390deb33e0e844a3c7205a2b3ffad170f4a32ee1828d3"
+      },
+      {
+        "bytes": 667,
+        "path": "tf_activity/IN_C1/self_excluded/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "465a6343de5b0f5189f15ed04fb4afe2df91bbfb988a399bc748179ac03472af"
+      },
+      {
+        "bytes": 749017,
+        "path": "tf_activity/IN_C1/wald_contrast_enrichment_all_TF_target_coverage.tsv",
+        "sha256": "93e5c85c1d3cfd2f4b038f2afeec211de5ee48419bc7b03bcfef8219e8fb0b3e"
+      },
+      {
+        "bytes": 160370,
+        "path": "tf_activity/IN_C1/wald_contrast_enrichment_long.tsv",
+        "sha256": "8e998c1c8c2250fe3c0db1310a1780f469469be21b14f5211f8c21ff2a7e19e5"
+      },
+      {
+        "bytes": 14561,
+        "path": "tf_activity/IN_C1/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "b60a1b46907d8a626f24e32be73b808fca182afc41232050b4f4372ebe8f08aa"
+      },
+      {
+        "bytes": 14474,
+        "path": "tf_activity/IN_C1/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "898d365609972fa738951a4689cdd256412dd64dabe037057314ff9a156e65e0"
+      },
+      {
+        "bytes": 2814049,
+        "path": "tf_activity/IN_C1/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "782986e0401815f8565496a9433a2a4ab2134fb5a7763c3aa5654beaa3fdb84e"
+      },
+      {
+        "bytes": 161956,
+        "path": "tf_activity/IN_C1/wald_contrast_input_original_finite_statistics.tsv.gz",
+        "sha256": "c5f2f1cc8f938828cacafbe070c2b52bf75f1667f72a24477b8a1f67682acb1d"
+      },
+      {
+        "bytes": 26286,
+        "path": "tf_activity/IN_C6/activity_heatmap_display_z.pdf",
+        "sha256": "d02e1677802981a652730e98be0ad7f1a45ba735c99f75c0677de388ae7960cf"
+      },
+      {
+        "bytes": 101499,
+        "path": "tf_activity/IN_C6/activity_heatmap_display_z.png",
+        "sha256": "1f0e2f52eccce42c30ef8a651f5bd8d89b45101139bd521cae87fc9496342f60"
+      },
+      {
+        "bytes": 75985,
+        "path": "tf_activity/IN_C6/activity_heatmap_display_z.svg",
+        "sha256": "477a40260607901a9be272db3caf45411946e50f837d1a30a2e7e383a07a5ee9"
+      },
+      {
+        "bytes": 1680672,
+        "path": "tf_activity/IN_C6/all_gene_activity_background_audit.tsv",
+        "sha256": "3b7eae836b1933eccfe8302e424aa98a843525fceed38dd1899b3bd5385f7a9c"
+      },
+      {
+        "bytes": 453657,
+        "path": "tf_activity/IN_C6/all_results_wald_background_audit.tsv",
+        "sha256": "e5457db3577eff07a8114147a03c685aac8a9c60041f45e3cfe974373c94fb53"
+      },
+      {
+        "bytes": 746865,
+        "path": "tf_activity/IN_C6/mouse_activity_all_TF_target_coverage.tsv",
+        "sha256": "294b7ccf2db8d55472e94ccd53e87c0e2243327fe585cccf0c218ec0a020c528"
+      },
+      {
+        "bytes": 251741,
+        "path": "tf_activity/IN_C6/mouse_activity_input_log1p_original_sizefactor.tsv.gz",
+        "sha256": "9ef94b7de7cd723413942f8b5e8c12559af58eaf0edbd744da885fbf22aa571b"
+      },
+      {
+        "bytes": 1348354,
+        "path": "tf_activity/IN_C6/mouse_activity_long.tsv",
+        "sha256": "c84e77bac1fa875162665f500f4f2b3d65ed5331cc662cd9a3d2ad4dc5b9e237"
+      },
+      {
+        "bytes": 114649,
+        "path": "tf_activity/IN_C6/mouse_activity_native_escore.tsv",
+        "sha256": "2679b26d4830f95024d31bd5678e447dd532201c90a1036478a355bb6d44b0a8"
+      },
+      {
+        "bytes": 114062,
+        "path": "tf_activity/IN_C6/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "45536eb09d16065399f0681bf9576658a624a42c1f0eaf7d1b4f9a1d58a23aac"
+      },
+      {
+        "bytes": 2018693,
+        "path": "tf_activity/IN_C6/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "25a607d9ecf94792183ff3171cec5055470d2150cfdeb1c124dab19c1769b73a"
+      },
+      {
+        "bytes": 26136,
+        "path": "tf_activity/IN_C6/mouse_box_dot_native_units.pdf",
+        "sha256": "fe5a6b1f6c75b473baf3b5427a2494ea3083207bb69bb69fa1f5193162408ff6"
+      },
+      {
+        "bytes": 130310,
+        "path": "tf_activity/IN_C6/mouse_box_dot_native_units.png",
+        "sha256": "a54c7e600c29827292b94655fb9215e52c3ba4effdce75b45ac4eedc87ee7e3b"
+      },
+      {
+        "bytes": 101767,
+        "path": "tf_activity/IN_C6/mouse_box_dot_native_units.svg",
+        "sha256": "55797ef3e8cf64c31481965417c132ca67d451bc97ca1b3223f847f2ff2f4fcb"
+      },
+      {
+        "bytes": 1102,
+        "path": "tf_activity/IN_C6/mouse_normalization_coverage_audit.tsv",
+        "sha256": "fbde60edf3e18c1db1ae94cf596ecdf6bc5f93679f849955207e5f9c72f220ba"
+      },
+      {
+        "bytes": 1537,
+        "path": "tf_activity/IN_C6/plot_TF_selection.tsv",
+        "sha256": "e22b7282bb745ec4d27756413c4a3c7508bfd167cc84863d87018b6b10443294"
+      },
+      {
+        "bytes": 4153,
+        "path": "tf_activity/IN_C6/self_excluded/mouse_activity_long.tsv",
+        "sha256": "10633bcbb002c6f659ee36eeaa3700c2ccb018e98ac97fd997a629e8e7ef6fe7"
+      },
+      {
+        "bytes": 339,
+        "path": "tf_activity/IN_C6/self_excluded/mouse_activity_native_escore.tsv",
+        "sha256": "c197e83f3418eb7f711e265261623c23cd9ed8d501f98d312271b763416e3119"
+      },
+      {
+        "bytes": 367,
+        "path": "tf_activity/IN_C6/self_excluded/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "2668a57d0237aa6365e9683ecc6b5c5b7b8c5d519ad277086c76eb94db4cd25c"
+      },
+      {
+        "bytes": 997,
+        "path": "tf_activity/IN_C6/self_excluded/mouse_activity_target_coverage.tsv",
+        "sha256": "1ea6e9774c364690a18a302ca0f3b12474001c0b377aacea5a5ee50bbf72e03a"
+      },
+      {
+        "bytes": 530,
+        "path": "tf_activity/IN_C6/self_excluded/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "afcaa190fbb937a1ebdd17da0965476f8cbf5ed2108c6a5bb4b2d17c0e1c4e42"
+      },
+      {
+        "bytes": 744,
+        "path": "tf_activity/IN_C6/self_excluded/status.json",
+        "sha256": "09eef0b0a5ae3b2c4efa33c7028c90c1537876a1d49e8dc41e8356830ee60b59"
+      },
+      {
+        "bytes": 577,
+        "path": "tf_activity/IN_C6/self_excluded/wald_contrast_enrichment_long.tsv",
+        "sha256": "81a40a8464613461780ff3f3896337b904a9131f348d01c2fb108ad14fd0f04e"
+      },
+      {
+        "bytes": 49,
+        "path": "tf_activity/IN_C6/self_excluded/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "82a8b6e8ec5446d6eb7a9cac25778c315b648fc28ac8781a5db4467f6f7a6a31"
+      },
+      {
+        "bytes": 47,
+        "path": "tf_activity/IN_C6/self_excluded/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "8f0c81e97b93fc6874a12007a92e421ebc967f5e3ac50daea824584f5c35172e"
+      },
+      {
+        "bytes": 924,
+        "path": "tf_activity/IN_C6/self_excluded/wald_contrast_enrichment_target_coverage.tsv",
+        "sha256": "bb92392990702366666442d5faf2af59422a668f1442e359ea6e60e9ed16a7fc"
+      },
+      {
+        "bytes": 530,
+        "path": "tf_activity/IN_C6/self_excluded/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "afcaa190fbb937a1ebdd17da0965476f8cbf5ed2108c6a5bb4b2d17c0e1c4e42"
+      },
+      {
+        "bytes": 647239,
+        "path": "tf_activity/IN_C6/wald_contrast_enrichment_all_TF_target_coverage.tsv",
+        "sha256": "7ab2ef45beaf3445ca9a1f53ed971a09b88bd9e6c940b6e05a8bea17cb190356"
+      },
+      {
+        "bytes": 132209,
+        "path": "tf_activity/IN_C6/wald_contrast_enrichment_long.tsv",
+        "sha256": "5aaeef107f099f2f7bfbc5fcd2a5cfc99b157cb0dfaba630ec63cefbbe7c7266"
+      },
+      {
+        "bytes": 11977,
+        "path": "tf_activity/IN_C6/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "b328e3ec0f2c03218984017c0f0d991a2cd66fb05cdf220a5548342497caad43"
+      },
+      {
+        "bytes": 11969,
+        "path": "tf_activity/IN_C6/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "71293d05904ac1c6cf8f62d64dfa8c2ff67c6fcf85b252f356f17b96f44fda1c"
+      },
+      {
+        "bytes": 1882898,
+        "path": "tf_activity/IN_C6/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "1318cd351c32291a96cfeeb1c0d126d1e37644a6b486a4fd88335f7006292091"
+      },
+      {
+        "bytes": 114233,
+        "path": "tf_activity/IN_C6/wald_contrast_input_original_finite_statistics.tsv.gz",
+        "sha256": "0f67dbe0f8009a866401838d55376b468494d29f90eb8a69a651934a386049e6"
+      },
+      {
+        "bytes": 26313,
+        "path": "tf_activity/IN_C8/activity_heatmap_display_z.pdf",
+        "sha256": "2a70a4de61fe336fd30d12c0b11035a3b0fe469704918f0a4fe7ce589d5bf8be"
+      },
+      {
+        "bytes": 102580,
+        "path": "tf_activity/IN_C8/activity_heatmap_display_z.png",
+        "sha256": "5bddcecae33b81c204168246a38a1d2587823b7e7f93568c26cebfe02203e728"
+      },
+      {
+        "bytes": 76583,
+        "path": "tf_activity/IN_C8/activity_heatmap_display_z.svg",
+        "sha256": "af7165c0ffe415141cf5bddea45906a95c5462d9b19a8393c0ec68f527be07b1"
+      },
+      {
+        "bytes": 1680833,
+        "path": "tf_activity/IN_C8/all_gene_activity_background_audit.tsv",
+        "sha256": "cd7cd925ebeac3dd94a68b0b812e377ce168b5ccdcbaacda093ad546723c06a5"
+      },
+      {
+        "bytes": 465453,
+        "path": "tf_activity/IN_C8/all_results_wald_background_audit.tsv",
+        "sha256": "5e24c4417bc005ab24adaaee043d1f68fc8e3c1bb4b7baff7aea5424bde7c756"
+      },
+      {
+        "bytes": 751405,
+        "path": "tf_activity/IN_C8/mouse_activity_all_TF_target_coverage.tsv",
+        "sha256": "3b0f773b7f69427451884592973d850da12e07dc797ffe8d9b047b486f02a4dc"
+      },
+      {
+        "bytes": 254132,
+        "path": "tf_activity/IN_C8/mouse_activity_input_log1p_original_sizefactor.tsv.gz",
+        "sha256": "d089fe8763022b611b1ed3f7afade8bdf41ee30e7fe88f17afb15a733fe9b5e5"
+      },
+      {
+        "bytes": 1386074,
+        "path": "tf_activity/IN_C8/mouse_activity_long.tsv",
+        "sha256": "cfe75d2c22e1b6df064de4bbfdc8c59019f98df618a5c02d02eb3f6f540d48e9"
+      },
+      {
+        "bytes": 118018,
+        "path": "tf_activity/IN_C8/mouse_activity_native_escore.tsv",
+        "sha256": "920a1b055367ad907df2f3bd2c5fc19ceffb97438cc4bd1bf98dc76ba9d448d1"
+      },
+      {
+        "bytes": 117181,
+        "path": "tf_activity/IN_C8/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "1dc53b7250f8699c0ba6a587c8829182d0cd3a34adf27e819c537c42678c5be8"
+      },
+      {
+        "bytes": 2085745,
+        "path": "tf_activity/IN_C8/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "57479e025d31a791c417801708c44f2fbb19162d38d644da7a7b8ea34e3b7640"
+      },
+      {
+        "bytes": 26032,
+        "path": "tf_activity/IN_C8/mouse_box_dot_native_units.pdf",
+        "sha256": "b3be9c291885f9b6d5be295064ad0b5b64a67e225c445ffdc8acba5ffc041db1"
+      },
+      {
+        "bytes": 102777,
+        "path": "tf_activity/IN_C8/mouse_box_dot_native_units.png",
+        "sha256": "9640266b7a882195c7d0de0bfa93fa693f585effc3f09d2ce1c3d19f0cc4ee46"
+      },
+      {
+        "bytes": 101154,
+        "path": "tf_activity/IN_C8/mouse_box_dot_native_units.svg",
+        "sha256": "336cb8a79fe1a5590f6c90db6ac78f3e137255f1c5cb794e95d960bdea873b21"
+      },
+      {
+        "bytes": 1103,
+        "path": "tf_activity/IN_C8/mouse_normalization_coverage_audit.tsv",
+        "sha256": "5117c49cf4a5d145a76eaa3797fbf69f8a4e822859ddbdc19c3fcc3b27bd3090"
+      },
+      {
+        "bytes": 1540,
+        "path": "tf_activity/IN_C8/plot_TF_selection.tsv",
+        "sha256": "a988723dae30909d200ad12e882ddffb76ce72b489b719a9660d0714228243ce"
+      },
+      {
+        "bytes": 4169,
+        "path": "tf_activity/IN_C8/self_excluded/mouse_activity_long.tsv",
+        "sha256": "82039230f0c8d9e529d7ba6810cc9b2d7759ccbc6499fdab98eab52c6d0ef24b"
+      },
+      {
+        "bytes": 340,
+        "path": "tf_activity/IN_C8/self_excluded/mouse_activity_native_escore.tsv",
+        "sha256": "4120474c3e0f61dca6cbcb1a7f981e746bd930de913db655de460cdb45df65e3"
+      },
+      {
+        "bytes": 370,
+        "path": "tf_activity/IN_C8/self_excluded/mouse_activity_native_gene_set_fdr.tsv",
+        "sha256": "008a0ee7f00498936851e82f7b38ed8d91e8329bcf015a3cde89100f78107474"
+      },
+      {
+        "bytes": 1019,
+        "path": "tf_activity/IN_C8/self_excluded/mouse_activity_target_coverage.tsv",
+        "sha256": "90a6456f3149fcda06b9ddd9beae2a449c2801383aa8aa708c9e5c6cce9159f9"
+      },
+      {
+        "bytes": 620,
+        "path": "tf_activity/IN_C8/self_excluded/mouse_activity_used_signed_prior_edges.tsv",
+        "sha256": "2a3516b864e72bac9c12f6a72d1e3f3ad57980870f02bd25af9f86a2fcb41fba"
+      },
+      {
+        "bytes": 746,
+        "path": "tf_activity/IN_C8/self_excluded/status.json",
+        "sha256": "ce8db3dab21677a77e28c1447713e41fcbc2f7b1230abaacedc902a903e19f17"
+      },
+      {
+        "bytes": 579,
+        "path": "tf_activity/IN_C8/self_excluded/wald_contrast_enrichment_long.tsv",
+        "sha256": "ba48c3cc93f6b69c7f7f944968135ea4d6d31195e806a7d05fcd2e62a9ae58c3"
+      },
+      {
+        "bytes": 47,
+        "path": "tf_activity/IN_C8/self_excluded/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "519e625fbfbe4c91773512479c004f49c06cebe1df2be0e4b290edb25dc58ac2"
+      },
+      {
+        "bytes": 50,
+        "path": "tf_activity/IN_C8/self_excluded/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "1d619f316eec7b93212abe807f984c59ec2feca39fd98dc5295b18801dafad57"
+      },
+      {
+        "bytes": 963,
+        "path": "tf_activity/IN_C8/self_excluded/wald_contrast_enrichment_target_coverage.tsv",
+        "sha256": "0c1295711900faed773f0d767bdebd7dae0ebf045c82d182deab3648f207bb9f"
+      },
+      {
+        "bytes": 620,
+        "path": "tf_activity/IN_C8/self_excluded/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "2a3516b864e72bac9c12f6a72d1e3f3ad57980870f02bd25af9f86a2fcb41fba"
+      },
+      {
+        "bytes": 653267,
+        "path": "tf_activity/IN_C8/wald_contrast_enrichment_all_TF_target_coverage.tsv",
+        "sha256": "db2cfaebc91784612b3b5a24a2f270409eeb655411f7d506f600751f849dcf09"
+      },
+      {
+        "bytes": 135976,
+        "path": "tf_activity/IN_C8/wald_contrast_enrichment_long.tsv",
+        "sha256": "829956e9a1779c5b22f4ace76d5b7ba40452d62746a900225becac3f63389838"
+      },
+      {
+        "bytes": 12387,
+        "path": "tf_activity/IN_C8/wald_contrast_enrichment_native_escore.tsv",
+        "sha256": "28fb2b3c04dfdcd7e0a4a55a486aed4963ffe2f70b3716d1b363b134424278da"
+      },
+      {
+        "bytes": 12320,
+        "path": "tf_activity/IN_C8/wald_contrast_enrichment_native_gene_set_fdr.tsv",
+        "sha256": "e823e55cb276ff938beb2d7745c9d6882bfb3e58c9f6b07422dae7df8c117ee2"
+      },
+      {
+        "bytes": 1945561,
+        "path": "tf_activity/IN_C8/wald_contrast_enrichment_used_signed_prior_edges.tsv",
+        "sha256": "29c9e98dfe7b621f2a793ff305f08f70758a0649492968e3e8c92520b3db2057"
+      },
+      {
+        "bytes": 117011,
+        "path": "tf_activity/IN_C8/wald_contrast_input_original_finite_statistics.tsv.gz",
+        "sha256": "ccff9e6eb462349b640d99f0ce2954fb3d25802dbf54744d9431cc9fa04fedc3"
+      },
+      {
+        "bytes": 33853,
+        "path": "tf_activity/PROVENANCE.json",
+        "sha256": "0b816a4bc4498b3578d5dba51178a032e376fffe8f9d6bef7f72b15ac635b378"
+      },
+      {
+        "bytes": 20297,
+        "path": "tf_activity/SATB2_NO_SELF_TARGET_ACTIVITY_PER_MOUSE.tsv",
+        "sha256": "e8e6a7b02e4f6f2260f62c53a3e0d9de077e721513a086e67caeb88d84d92bb3"
+      },
+      {
+        "bytes": 6610,
+        "path": "tf_activity/SATB2_NO_SELF_TARGET_COVERAGE.tsv",
+        "sha256": "e52006e072f15ccd0e3ad4e6ab58d6d9d47077511b8db86d606595b8e477ad67"
+      },
+      {
+        "bytes": 2085,
+        "path": "tf_activity/SATB2_NO_SELF_TARGET_WALD_CONTRAST_ENRICHMENT.tsv",
+        "sha256": "90704caf45f970a6e4187311a83131c3125d41ed7187edbdf2dc13796e2d2bc4"
+      },
+      {
+        "bytes": 13558,
+        "path": "tf_activity/STARTED.json",
+        "sha256": "87470e4b2104f0b0f7ec50cc01f954a6f63057334646f361913deda69aa09fe3"
+      },
+      {
+        "bytes": 8260348,
+        "path": "tf_activity/TF_ACTIVITY_PER_MOUSE.tsv",
+        "sha256": "e12e448a0706099762f3688f9476d445779f955413b2ca5fff72638c054ac842"
+      },
+      {
+        "bytes": 7825458,
+        "path": "tf_activity/TF_TARGET_COVERAGE.tsv",
+        "sha256": "2596148d968b54a41e79acb879884bd1aa28ef61773b572348346f04a2642cfe"
+      },
+      {
+        "bytes": 768890,
+        "path": "tf_activity/TF_WALD_CONTRAST_ENRICHMENT.tsv",
+        "sha256": "6dff9d132551fd5dc2b1580ad28b499c5145ef41c3aee431ed1fa30a3bd2282c"
+      },
+      {
+        "bytes": 74010,
+        "path": "tf_mouse/COMPLETE.json",
+        "sha256": "432059719177a07f7223e9cc21444652672d8b7ce8376d58a99df97e0926244d"
+      },
+      {
+        "bytes": 115,
+        "path": "tf_mouse/MODEL_SUMMARY.tsv",
+        "sha256": "1ef798249e3f5be31cf609d368f2f58285fb0355f7eeef2aaf86b705107098be"
+      },
+      {
+        "bytes": 394,
+        "path": "tf_mouse/MOUSE_PARTITION_AUDIT.tsv",
+        "sha256": "d1a574300402033a87c28282547b58df59344f15833cb14df217477e0d353c23"
+      },
+      {
+        "bytes": 68168,
+        "path": "tf_mouse/PROVENANCE.json",
+        "sha256": "d1e58b49cc0a760c3c8c1a4867167c8a776e3bc561a1834d16abecbc34708660"
+      },
+      {
+        "bytes": 2277,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_ASSOCIATIONS.tsv",
+        "sha256": "a16ce80f263bf79b4e2fc97834f7c78b000a0763734aec8b5810adb5e8e1e816"
+      },
+      {
+        "bytes": 18919,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_LOO_MODELS.tsv",
+        "sha256": "c97fcad4095fab7a9cc2c98959dea8fe1c407481b2dc2e884781016e1d38dcba"
+      },
+      {
+        "bytes": 1211,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_LOO_STABILITY.tsv",
+        "sha256": "09fb31bd86f76c8629c8bf675dd579a99e9d385a59246d0ff860046269dbe46c"
+      },
+      {
+        "bytes": 834,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_MODEL_ELIGIBILITY.tsv",
+        "sha256": "98e77a12ac4be07c047f807807ef6dcc38e210e8fd230e276ce4b94390fb1259"
+      },
+      {
+        "bytes": 1831,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_MOUSE_BOOTSTRAP.tsv",
+        "sha256": "763599bc5874efacf6691e810519e54fe8ea9856026ed2a7cf0b7853e7f73475"
+      },
+      {
+        "bytes": 21152,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_MOUSE_SCORES.tsv",
+        "sha256": "f4d0f2dafc57725678033d1358034c97e6b70f656f8d5e39b69e1fa6a2459f8b"
+      },
+      {
+        "bytes": 2515,
+        "path": "tf_mouse/SATB2_NO_SELF_TARGET_SAME_PARTITION_ASSOCIATIONS.tsv",
+        "sha256": "3eea061c37e16af537cbb71c7e98786c3f3bcdaa91d8c6a7452c47c4ba4df8fd"
+      },
+      {
+        "bytes": 350,
+        "path": "tf_mouse/SATB2_STATUS.tsv",
+        "sha256": "fd8cf99d6570481c7b625cd6226a3f0809da2df01b6414664b205e4a1550d7af"
+      },
+      {
+        "bytes": 1801607,
+        "path": "tf_mouse/TF_ASSOCIATIONS.tsv",
+        "sha256": "4f81a4892922e2d75b349b7dcb923d0652e5f08fb9cee0f72b63a561da9a9000"
+      },
+      {
+        "bytes": 10003507,
+        "path": "tf_mouse/TF_LOO_MODELS.tsv",
+        "sha256": "07f496bb37d210df9a49e4726f345378a5890c3d14146b49ffcaf1cdb04d2abf"
+      },
+      {
+        "bytes": 501379,
+        "path": "tf_mouse/TF_LOO_STABILITY.tsv",
+        "sha256": "e000d73857c698fb0d33e409bf0b0a60ba072217268780321dd6fa04cf1c61fa"
+      },
+      {
+        "bytes": 773785,
+        "path": "tf_mouse/TF_MODEL_ELIGIBILITY.tsv",
+        "sha256": "455eba2401d385cf07f9d549c0e2257200b01efee658c23a046cb70e221f9b82"
+      },
+      {
+        "bytes": 829656,
+        "path": "tf_mouse/TF_MOUSE_BOOTSTRAP.tsv",
+        "sha256": "1998005f0587801f86bd75275e7ed39d24b167b81261c088887d9d675951f339"
+      },
+      {
+        "bytes": 8719980,
+        "path": "tf_mouse/TF_MOUSE_SCORES.tsv",
+        "sha256": "136260c74791e7bc6a5b943633c993e77cb8cc146923c2a4d264143160ed6d36"
+      },
+      {
+        "bytes": 5776,
+        "path": "tf_mouse/TF_PLOT_SELECTION.tsv",
+        "sha256": "fd63e58338e3f5b097627ccea9a24e65cec1551c8c9329a50a51162dc34a62b2"
+      },
+      {
+        "bytes": 2065737,
+        "path": "tf_mouse/TF_SAME_PARTITION_ASSOCIATIONS.tsv",
+        "sha256": "b5387e1eb409471069862c5cc53a1181d860bf23c02b5242ab6ef7a5de5cf516"
+      },
+      {
+        "bytes": 24319,
+        "path": "tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.pdf",
+        "sha256": "5f0efe12dfd53a86285c9d62abf9703fbb281291a21f40266f1e3dada70aa954"
+      },
+      {
+        "bytes": 117623,
+        "path": "tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.png",
+        "sha256": "977eb37eaaf6f5d15fd02cf0f3177c0448755f62b5217c135f33275347b24bf8"
+      },
+      {
+        "bytes": 211584,
+        "path": "tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.svg",
+        "sha256": "3d82bfc069eae251bca0b27b099889914f339275cda404b13f7ae69c80731a57"
+      },
+      {
+        "bytes": 24098,
+        "path": "tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.pdf",
+        "sha256": "36f75b99377421337688ae9085746dfa862fff9c67630f5d979e94a2bea96da1"
+      },
+      {
+        "bytes": 115346,
+        "path": "tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.png",
+        "sha256": "a0c06fc999a958391c8a4318d5668d2ff0680787cde821dc362faf449827a518"
+      },
+      {
+        "bytes": 210233,
+        "path": "tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.svg",
+        "sha256": "55fc79573bb71c4f4b3d283959858240d434061270fd720eae71baf8c7c3df8a"
+      },
+      {
+        "bytes": 24205,
+        "path": "tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.pdf",
+        "sha256": "50dfe4dee140e5d9059c99ac18f08dd98d0c90fd041d30df92066e1ae6f1260d"
+      },
+      {
+        "bytes": 119961,
+        "path": "tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.png",
+        "sha256": "0fec6ee5026d2293addbd9338761dfe1d541fd4a2cce9dd17755eff27427b6f4"
+      },
+      {
+        "bytes": 213594,
+        "path": "tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.svg",
+        "sha256": "45e36651ee92de23c1fdb24566676d0704dcf52cb26d5b0a978bd3fad23119a6"
+      },
+      {
+        "bytes": 23829,
+        "path": "tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.pdf",
+        "sha256": "3127dac1a3f6ac18aae6eb0938e36ea8a0ac2ac1714d5cf61b3abf515be42923"
+      },
+      {
+        "bytes": 122110,
+        "path": "tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.png",
+        "sha256": "0b4ce30c5bc77074b74dbc2afac94285efa73929d8d8a8c39b7865b83bfdcadd"
+      },
+      {
+        "bytes": 216344,
+        "path": "tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.svg",
+        "sha256": "466c6ff55ee9853bcdd65e781cd673ebcdc51af06d30dab5b144364954c1b7ca"
+      },
+      {
+        "bytes": 24411,
+        "path": "tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.pdf",
+        "sha256": "70a8d3f2fb65bf9ccbdb6c5680e780937f37d25030a2f0e6a5845fc3fe86878c"
+      },
+      {
+        "bytes": 125768,
+        "path": "tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.png",
+        "sha256": "774d35b061633e944ff2ffc8be6b2c9aedc7871f9b26ec8fa2fe2d14e2eb2a3b"
+      },
+      {
+        "bytes": 219101,
+        "path": "tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.svg",
+        "sha256": "5db89c733b11cba9d96482d371a1a97c32f2021a8b5a4b43646e0ea051584e6f"
+      },
+      {
+        "bytes": 17049,
+        "path": "tf_mouse/figures/Satb2_self_target_sensitivity.pdf",
+        "sha256": "4a256bccceb128686d502518889fe7e4e05bd738a190dc6a2e4742d0b52f261d"
+      },
+      {
+        "bytes": 59147,
+        "path": "tf_mouse/figures/Satb2_self_target_sensitivity.png",
+        "sha256": "a35627fb1c1fdcf49f5255faa95df69c87ad04ac47e3b65a4b5a336ce565f576"
+      },
+      {
+        "bytes": 120125,
+        "path": "tf_mouse/figures/Satb2_self_target_sensitivity.svg",
+        "sha256": "d5074e2f429cf4e05e6a54c1b6f6db3f22af9233fb92ac1dc18790b5e57f90fd"
+      },
+      {
+        "bytes": 124577,
+        "path": "tf_mouse/figures/TF_association_volcano.pdf",
+        "sha256": "b6f9c0bc23d979da6dbc8c02a224d28f70e1fea90bddfb133cfa5ad534d900aa"
+      },
+      {
+        "bytes": 303895,
+        "path": "tf_mouse/figures/TF_association_volcano.png",
+        "sha256": "c2ed5ad97de0f5ac8049479e55068497d8afa1f4e5d59840aeb34d0f25dbdcba"
+      },
+      {
+        "bytes": 1378137,
+        "path": "tf_mouse/figures/TF_association_volcano.svg",
+        "sha256": "ffd0fddaf2e45f2e495c7a3aa7e203d3e07574d7008dd5aab2683acad1647b5e"
+      },
+      {
+        "bytes": 24761,
+        "path": "tf_mouse/figures/TF_effect_heatmap.pdf",
+        "sha256": "aa7594feb3a33fcafb82a93117b9b5c227e52d0a48a41f9e8beb3d7cc47937be"
+      },
+      {
+        "bytes": 93092,
+        "path": "tf_mouse/figures/TF_effect_heatmap.png",
+        "sha256": "1db7fbb11dac70b2ff4ebcb97e22c1e0a0e0790938837bce73a6fb9f8ace5d99"
+      },
+      {
+        "bytes": 182647,
+        "path": "tf_mouse/figures/TF_effect_heatmap.svg",
+        "sha256": "12a82791397c9caa4cc413203ca656ed86bd33bce396455c4cf2d6c998f8483c"
+      },
+      {
+        "bytes": 120932,
+        "path": "tf_mouse/figures/TF_same_partition_volcano.pdf",
+        "sha256": "13c8015f7841c891b3d0532dcddfb89a9cfa5b49bc4027b635c11fb3abf2f34a"
+      },
+      {
+        "bytes": 280829,
+        "path": "tf_mouse/figures/TF_same_partition_volcano.png",
+        "sha256": "f13b5f7cc6fe1c9c13ee3e9e100909eb6155240ba07eb75ad58d038d3948d664"
+      },
+      {
+        "bytes": 1355134,
+        "path": "tf_mouse/figures/TF_same_partition_volcano.svg",
+        "sha256": "1b084261a844b22dbbb471ed0758390505844ff33cb5f51594269970145c470f"
+      },
+      {
+        "bytes": 1183,
+        "path": "tf_mouse/sessionInfo.txt",
+        "sha256": "aa120b65aa04b55dd0b738773ca883d5ffe7aba6e013e577aa4ca08d25fcbaa0"
+      },
+      {
+        "bytes": 8382993,
+        "path": "atlas/data.js",
+        "sha256": "521bc7ca774bea8416ea065ec2365ebf916c65af19bf85db64ea320c80970636"
+      },
+      {
+        "bytes": 100397652,
+        "path": "atlas/data.json",
+        "sha256": "7559275fff989a58b69ea715c7f380054a6ea8ea068332289a4a8ae8092e706c"
+      },
+      {
+        "bytes": 6287162,
+        "path": "atlas/data.json.gz",
+        "sha256": "e3af5db704882a0d003a6c6153ff1898ee121c9435861e7783279bffa90e615b"
+      },
+      {
+        "bytes": 48983,
+        "path": "atlas/downloads.json",
+        "sha256": "912ca3a37d9c47741af16799b6392b5e392eea2981b570a5aba1e724e3310e59"
+      },
+      {
+        "bytes": 1223,
+        "path": "atlas/manifest.json",
+        "sha256": "7fe72170781eb659fed9e6643329e037ca8f08cd93a73c8bf50843919791c5f0"
+      },
+      {
+        "bytes": 46284,
+        "path": "FINAL_VALIDATION.json",
+        "sha256": "07a5e88445d12d23b59a28b670318e63bfc17069726b2ced78fe28e51b9537a3"
+      }
+    ],
+    "hdWGCNA": [
+      {
+        "bytes": 47096,
+        "path": "REUSED_NATIVE_RECEIPT.json",
+        "sha256": "4e209676528297258a8e9e03861cb736e48e683ae81af8dd334936b0dd367636"
+      },
+      {
+        "bytes": 690,
+        "path": "enrichment/COMPLETE.json",
+        "sha256": "c338dce387d762e1876bcb6b30c4c0d0bfae7e18a4b15039a889abbd50fe864d"
+      },
+      {
+        "bytes": 619,
+        "path": "enrichment/GO_ANNOTATION_COVERAGE.tsv",
+        "sha256": "ebd189d9b9ac713ac0cb2ee2b01f9f50d2e8fab6c9a826bad44e863d942c4f06"
+      },
+      {
+        "bytes": 9685907,
+        "path": "enrichment/GO_BP_ALL_TESTS.tsv",
+        "sha256": "9b59e3cd13e4fc32d398ca5ed1d3029966b0159932c2de256c0831ecff1f18c9"
+      },
+      {
+        "bytes": 414837,
+        "path": "enrichment/GO_BP_FDR05.tsv",
+        "sha256": "487b6070d8e1555f69f6788b78474a2303a8ccabbbfb7428e25a65cc87d4aa62"
+      },
+      {
+        "bytes": 24065,
+        "path": "enrichment/GO_BP_dotplot.pdf",
+        "sha256": "8fec67a2802f831bd942fd64d3de0f2f0ef41c1ee3198d8020273ae6eba305ac"
+      },
+      {
+        "bytes": 231670,
+        "path": "enrichment/GO_BP_dotplot.png",
+        "sha256": "3e9c3d24d4902b62048561abceb185dd6c60ac8171c20c474e1ebd25c94f3a8a"
+      },
+      {
+        "bytes": 225561,
+        "path": "enrichment/GO_BP_dotplot.svg",
+        "sha256": "e81e5904a31d6a415e7de46f79b2736121d4a50a0e43764f855b119fe98a2021"
+      },
+      {
+        "bytes": 898,
+        "path": "enrichment/ORIGINAL_DEG_ELIGIBILITY_COVERAGE.tsv",
+        "sha256": "a7eaa5a568e502e9ab9007c17c3538d315dad0a58ed5d94bb295758e1d74574c"
+      },
+      {
+        "bytes": 35205,
+        "path": "enrichment/ORIGINAL_DEG_MODULE_ENRICHMENT.tsv",
+        "sha256": "89763bac27b5a20e5f8e76ef40f321ff6dd521249473bfdd5c4c25bd3f50556c"
+      },
+      {
+        "bytes": 2034,
+        "path": "enrichment/STRICT_LR_AND_SATB2_MODULE_LINKS.tsv",
+        "sha256": "a904c24a5027f6f6a0373b1e0566725082b495844fdfc5b4dc040a9b19b9892b"
+      },
+      {
+        "bytes": 995652,
+        "path": "hdwgcna/CA1/consensus/all_gene_hub_ranks.tsv",
+        "sha256": "8cf1c6f359ef1979925b7ad1b526f79339627f371c5d3a2b4a8c3ae8bf1518b7"
+      },
+      {
+        "bytes": 194524162,
+        "path": "hdwgcna/CA1/consensus/analysis_state.rds",
+        "sha256": "61f0b0effd5c435a069d5716682cf1d4c5e62aa713af41845d5988612c0ff035"
+      },
+      {
+        "bytes": 3768,
+        "path": "hdwgcna/CA1/consensus/completed.json",
+        "sha256": "e2e4fdcee50d7dd9bd9b1de3018cfb84ae8531457c6a924359a89dd1e956332e"
+      },
+      {
+        "bytes": 57,
+        "path": "hdwgcna/CA1/consensus/consensus_coverage.tsv",
+        "sha256": "8c4ce1df3305fdda876430489e173da5ecfc12c140fd7d86ebc682d75b170369"
+      },
+      {
+        "bytes": 2647,
+        "path": "hdwgcna/CA1/consensus/effects.tsv",
+        "sha256": "c2956dcd2e56d07cfabd002a62b8a4f736f04d4a7c62f0c3916cf24c4f5ca556"
+      },
+      {
+        "bytes": 434,
+        "path": "hdwgcna/CA1/consensus/eigengene_orientation.tsv",
+        "sha256": "9499c30ecf46abc51886463c07451a18503418582fe996572f9f908850549526"
+      },
+      {
+        "bytes": 77474,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.pdf",
+        "sha256": "b67a513057e9a4c9227b5a63cbc51c47139cfae493cbd5b9eec7dfeabb004eac"
+      },
+      {
+        "bytes": 102756,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.png",
+        "sha256": "a4d68728656ebe045cedf51c8eccf4e2acd3903e36bbaf459eed5e50ffd2f774"
+      },
+      {
+        "bytes": 1905092,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.svg",
+        "sha256": "c12b6a4b8ae01e3d7168f516eb0c7a3b1a92b6f35dce6c62897cc4da83de2b89"
+      },
+      {
+        "bytes": 76814,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.pdf",
+        "sha256": "3ec5368c4a16f33d60cb971dfffde671ca105e9e42cfdfb94474a5e79609540b"
+      },
+      {
+        "bytes": 82948,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.png",
+        "sha256": "c695fce91a0f9ed78240dc259b6ef323e6e4f086417042217ec684d29e20029c"
+      },
+      {
+        "bytes": 1873893,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.svg",
+        "sha256": "322f02b71d4b65c3c6b1598be0d11e8e384dac9f85e715ef4ccfa09c67053a0e"
+      },
+      {
+        "bytes": 77095,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.pdf",
+        "sha256": "e0c6784d0560891a84f7506c5d90ca3cfa356bb2c12bffbd96e17bab294d4a7e"
+      },
+      {
+        "bytes": 105566,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.png",
+        "sha256": "e9564fe801cee86a7cf4d1060fab5b4629daa98a6b08aff85aaf4f709fc4210b"
+      },
+      {
+        "bytes": 1862714,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.svg",
+        "sha256": "982e3558d39a5e446e241f0824981e07e31bae2e8d256c354341a55401b9bf59"
+      },
+      {
+        "bytes": 53281,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.pdf",
+        "sha256": "d041eef95ec6b314b984dba6fd308dbdd69b5683fc89371daf57ad068991cef1"
+      },
+      {
+        "bytes": 96677,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.png",
+        "sha256": "862467c2685455daff29040432ece6e62c91f3fe38b2ef38b8b7661a12ec1f0b"
+      },
+      {
+        "bytes": 1075333,
+        "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.svg",
+        "sha256": "6a330dd46d0978dd1549da103438c1ed2896785dd3937c31b8053d4777a03332"
+      },
+      {
+        "bytes": 21947,
+        "path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.pdf",
+        "sha256": "b51cd298931198a68be59cdecba8261e8b6b9e772aa206afac04a96c14721f20"
+      },
+      {
+        "bytes": 85017,
+        "path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.png",
+        "sha256": "55920a03458e215acdda528cf35f39159715edb3ee42a7e79942c0c987538409"
+      },
+      {
+        "bytes": 112062,
+        "path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.svg",
+        "sha256": "247988e9d0608cd68a5931465f687ecb3a014393f41c6fbe566a8e62dff58fe6"
+      },
+      {
+        "bytes": 22998,
+        "path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.pdf",
+        "sha256": "79b4a576d942f4b4e2c9f0e152d54ee6d73a05b5149fb077d12ac49426c8f123"
+      },
+      {
+        "bytes": 72165,
+        "path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.png",
+        "sha256": "4fac6346b4ad34b68c860a25f5d5d1ba8765cedd081e26df8e91fac1959f8a37"
+      },
+      {
+        "bytes": 178464,
+        "path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.svg",
+        "sha256": "801ab6a4ccf366e76f4c8c7d52b9f0fd6601aca4b6d8d8c29a5d02acd3a0f793"
+      },
+      {
+        "bytes": 24255,
+        "path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.pdf",
+        "sha256": "0d7e2852f5b5f814323564402cd71fafcb02e3d6e76cb1d037d0d08b6bb390e3"
+      },
+      {
+        "bytes": 101738,
+        "path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.png",
+        "sha256": "a57f21734154a260805014a331fa6e9a2c42010b5045b5292cfb3f5239c74bea"
+      },
+      {
+        "bytes": 146348,
+        "path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.svg",
+        "sha256": "dbca62c3f54b1a5fd44a642c9a49d990d91ada4ddae5005a72654256e93ff8ff"
+      },
+      {
+        "bytes": 20286,
+        "path": "hdwgcna/CA1/consensus/figures/top_hubs.pdf",
+        "sha256": "22a5d32a09f69854d93e917319439ed5c2bf0ea765da835cb65065d60fc29d00"
+      },
+      {
+        "bytes": 182239,
+        "path": "hdwgcna/CA1/consensus/figures/top_hubs.png",
+        "sha256": "e9e29d35527ca81bb70f4b57d25199f848e278777320e070d77ae601645a8ef3"
+      },
+      {
+        "bytes": 240260,
+        "path": "hdwgcna/CA1/consensus/figures/top_hubs.svg",
+        "sha256": "c27c96e6a6a4195d8f2d0d0008fa8a76ff6e5be632e7a97cfd45992562562d6c"
+      },
+      {
+        "bytes": 10724,
+        "path": "hdwgcna/CA1/consensus/fixed_module_connectivity_stability.tsv",
+        "sha256": "5313d9be455f1e2edfaadc1450b06c2f46df03346c20585bf98dc3fe21bba54f"
+      },
+      {
+        "bytes": 36731,
+        "path": "hdwgcna/CA1/consensus/hub_genes.tsv",
+        "sha256": "b8a62a0abb725768966f1be8b23411b4052588cda4b90dbd5ed1f0928bfe6471"
+      },
+      {
+        "bytes": 25473,
+        "path": "hdwgcna/CA1/consensus/module_eigengenes_mouse.tsv",
+        "sha256": "519ab2711b295ba9544bf64da6b20c55e1193c4e62d1ba3ef95e832c0cb1f314"
+      },
+      {
+        "bytes": 2647,
+        "path": "hdwgcna/CA1/consensus/module_genotype_associations_unadjusted.tsv",
+        "sha256": "c2956dcd2e56d07cfabd002a62b8a4f736f04d4a7c62f0c3916cf24c4f5ca556"
+      },
+      {
+        "bytes": 32282,
+        "path": "hdwgcna/CA1/consensus/module_genotype_leave_one_mouse_out.tsv",
+        "sha256": "205fd23a5682514ddd0f6fa2e43f75adbeb4989840bebae31c28f5e39cdfe88a"
+      },
+      {
+        "bytes": 1874,
+        "path": "hdwgcna/CA1/consensus/module_genotype_mouse_bootstrap.tsv",
+        "sha256": "1dd7dd601e14e0598f8f2fe7905399d382b412e2f2872039ec9ab129f7b78f7a"
+      },
+      {
+        "bytes": 2991,
+        "path": "hdwgcna/CA1/consensus/module_genotype_same_partition_unadjusted.tsv",
+        "sha256": "3df9c7a96f12547fbc17ddd0f7d52d92b95120b73e7810d19038c6eab0a34a00"
+      },
+      {
+        "bytes": 1516182,
+        "path": "hdwgcna/CA1/consensus/module_membership.tsv",
+        "sha256": "288358b84ca8a74bd9327233e6365805a38649dabb85eb7c1c7b776f15be9fef"
+      },
+      {
+        "bytes": 1516182,
+        "path": "hdwgcna/CA1/consensus/modules.tsv",
+        "sha256": "288358b84ca8a74bd9327233e6365805a38649dabb85eb7c1c7b776f15be9fef"
+      },
+      {
+        "bytes": 25473,
+        "path": "hdwgcna/CA1/consensus/mouse_endpoint_eigengenes.tsv",
+        "sha256": "519ab2711b295ba9544bf64da6b20c55e1193c4e62d1ba3ef95e832c0cb1f314"
+      },
+      {
+        "bytes": 123652,
+        "path": "hdwgcna/CA1/consensus/network_edges.tsv",
+        "sha256": "6a5aa4330a70e58a53324b575c11d57f141a4b0ef6c7167028e3999ec6f04981"
+      },
+      {
+        "bytes": 3488362,
+        "path": "hdwgcna/CA1/consensus/network_genes.tsv",
+        "sha256": "a3e2fdd402b22b4aa9c806deb4f3475df81eae93906f271fe724cffeff90c89e"
+      },
+      {
+        "bytes": 2336646,
+        "path": "hdwgcna/CA1/consensus/nucleus_eigengenes.tsv.gz",
+        "sha256": "a36459c6a2522c93cc4a043f4e3a5ef9515383a52475c32c048623052de995ce"
+      },
+      {
+        "bytes": 1478,
+        "path": "hdwgcna/CA1/consensus/pooled_consensus_module_overlap.tsv",
+        "sha256": "46104e9f0ed4b1b92780dd678361755180162ef184982cb8e6d959fb9c78a173"
+      },
+      {
+        "bytes": 132,
+        "path": "hdwgcna/CA1/consensus/run_identity.json",
+        "sha256": "76b9df23a7c3181783d99c2f0be9983755b0bdacb8480bb16b2495e775b09367"
+      },
+      {
+        "bytes": 162,
+        "path": "hdwgcna/CA1/consensus/selected_power.json",
+        "sha256": "482a68c7437ac4fbef6a6de7808ea025252269bf6693a1883ce0d7dae075ae67"
+      },
+      {
+        "bytes": 4552,
+        "path": "hdwgcna/CA1/consensus/soft_power_diagnostics.tsv",
+        "sha256": "52a5973d4617c585b7fefe45fbf3b6e60d056eda21699d22d8bc473a86ae68e1"
+      },
+      {
+        "bytes": 506,
+        "path": "hdwgcna/CA1/consensus/status.json",
+        "sha256": "e2dbd2d1440555fbc83e3f2f36734270809dec33ac8eb789be4418e691b112e4"
+      },
+      {
+        "bytes": 123652,
+        "path": "hdwgcna/CA1/consensus/top_hub_coexpression_edges.tsv",
+        "sha256": "6a5aa4330a70e58a53324b575c11d57f141a4b0ef6c7167028e3999ec6f04981"
+      },
+      {
+        "bytes": 36731,
+        "path": "hdwgcna/CA1/consensus/top_hubs.tsv",
+        "sha256": "b8a62a0abb725768966f1be8b23411b4052588cda4b90dbd5ed1f0928bfe6471"
+      },
+      {
+        "bytes": 1344443,
+        "path": "hdwgcna/CA1/pooled/all_gene_hub_ranks.tsv",
+        "sha256": "4cab33ce2b03cd5c9444434c4ff8660bc66adfd162409669d42332012b4a3567"
+      },
+      {
+        "bytes": 195022321,
+        "path": "hdwgcna/CA1/pooled/analysis_state.rds",
+        "sha256": "ac6fa620fb2cae017ccf3015cbfc2f4d5dc5c66c7cb223bc599f4a4235a727b2"
+      },
+      {
+        "bytes": 4263,
+        "path": "hdwgcna/CA1/pooled/completed.json",
+        "sha256": "c45524ad4837ddb42239a82ac77b67ac24983bc4b3fd39ba3e8166780546acc2"
+      },
+      {
+        "bytes": 3252,
+        "path": "hdwgcna/CA1/pooled/effects.tsv",
+        "sha256": "be1ef563bf4bcebacba0ff1b1ac47566c23b4b83806e308cb455a411fc11f4be"
+      },
+      {
+        "bytes": 531,
+        "path": "hdwgcna/CA1/pooled/eigengene_orientation.tsv",
+        "sha256": "aea6d208f1ecf164088b9b54708b02b448f1c0658fd63ddb4821279534554001"
+      },
+      {
+        "bytes": 79657,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.pdf",
+        "sha256": "6166bec618c6ff2d2c243ec7e559562d8bad5fc1cbfbdf69e1fda0cf5d07af5e"
+      },
+      {
+        "bytes": 99350,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.png",
+        "sha256": "29635d08e96608b1da7029fb960857cb19ffee6cdff824a70dd03264f6b6ae1f"
+      },
+      {
+        "bytes": 1889994,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.svg",
+        "sha256": "da9c74426d768d4100ab140725b252b559367b83feb5dbc9603c68def9af57af"
+      },
+      {
+        "bytes": 78033,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.pdf",
+        "sha256": "6436fb7b4c961a1e7e205260cad601018424dd70ec0e5ebc4ffba2c9117f870e"
+      },
+      {
+        "bytes": 89427,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.png",
+        "sha256": "0ad6bb6e924b52d31331695672283348c3d03db80940f8782140c9673609b6fb"
+      },
+      {
+        "bytes": 1853719,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.svg",
+        "sha256": "87286709b1cf0ac982c84755ed4eead2e979b50a38bdf7ce12327d24451ebf3e"
+      },
+      {
+        "bytes": 75296,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.pdf",
+        "sha256": "31c505e5c67cfbdfb359e084246436e069459a84c9453b4610aa687eb13a0a46"
+      },
+      {
+        "bytes": 83918,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.png",
+        "sha256": "c9e29e0b4761fd8fa6b8061b1a5feda75d5e904c9c701c93dd0064970327339c"
+      },
+      {
+        "bytes": 1875833,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.svg",
+        "sha256": "1c0dad1ee9d3924c258d7260fb1eb7d36d36cf1eef8f14aeb5d56ceac76b0636"
+      },
+      {
+        "bytes": 51568,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.pdf",
+        "sha256": "868652fff126ccf273abe6d33b0c2604dd32975859e18df3ba9cf4017c603d46"
+      },
+      {
+        "bytes": 106382,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.png",
+        "sha256": "5cb82aa7b5ab252858974a637f20429e522e0dbc79dea4b4b29c6a292fb6f956"
+      },
+      {
+        "bytes": 1036408,
+        "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.svg",
+        "sha256": "b268828d435450e3fa137f7035f1dccd1d41c928b1ae6421ba08ffb92538e39b"
+      },
+      {
+        "bytes": 18255,
+        "path": "hdwgcna/CA1/pooled/figures/metacell_coverage.pdf",
+        "sha256": "e026fd3cce894a7d6bb97511930baf47759e4439d69bde412254973d828b8dec"
+      },
+      {
+        "bytes": 62140,
+        "path": "hdwgcna/CA1/pooled/figures/metacell_coverage.png",
+        "sha256": "ac64919ec47b2d4a005447fd08aaea76e16abd5ce7809a189ac8ec1c45fda2d9"
+      },
+      {
+        "bytes": 92986,
+        "path": "hdwgcna/CA1/pooled/figures/metacell_coverage.svg",
+        "sha256": "d00119e5036d8d80cfaf208e72d6b4bd7c6baa6cd76fe812561d41ea09a722d9"
+      },
+      {
+        "bytes": 22542,
+        "path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.pdf",
+        "sha256": "d02c8b1912f9deb745c98e35655246c55ccb7b8d17faa48e40b5727bc7aa2940"
+      },
+      {
+        "bytes": 95617,
+        "path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.png",
+        "sha256": "b507fa4210073201b7332847ebca8b89fcdcc0fde5cc5a299d4751de5dbdbac3"
+      },
+      {
+        "bytes": 115258,
+        "path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.svg",
+        "sha256": "fb5205f41d486c3ac922863f21ffc1478fc3fde6083f0cc4653f1042d3e104a4"
+      },
+      {
+        "bytes": 23549,
+        "path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.pdf",
+        "sha256": "0d5471cd815c9d34ebfb4afa4e53bc7764e587c3523ab49b92379a7c719c86d8"
+      },
+      {
+        "bytes": 74912,
+        "path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.png",
+        "sha256": "4986cf3cffbe9b862951c004193421d1612e738760b09bf62624ec9726ba7caa"
+      },
+      {
+        "bytes": 193186,
+        "path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.svg",
+        "sha256": "fc4c20e2b886c141a84826db448ebb9be39074df503433cc052d97608a4dbf68"
+      },
+      {
+        "bytes": 21374,
+        "path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.pdf",
+        "sha256": "44e07b58343fc6c7842fbdd9979e4edf5985b0d9f491b153d25dde8ea174c63b"
+      },
+      {
+        "bytes": 85332,
+        "path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.png",
+        "sha256": "7aff61d16239a544fe59fcac234e340a0de9e16e12630baed0272773b7a7bbb2"
+      },
+      {
+        "bytes": 118625,
+        "path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.svg",
+        "sha256": "67826b8a2c5aa3326fdd12f5fe164fd0eb8c02688ea88ff9d960a402b2276681"
+      },
+      {
+        "bytes": 21596,
+        "path": "hdwgcna/CA1/pooled/figures/top_hubs.pdf",
+        "sha256": "82d0d9e51ff6801d90448fd749488a6df3d27c7ea1b807603cdb00295e3228d6"
+      },
+      {
+        "bytes": 222034,
+        "path": "hdwgcna/CA1/pooled/figures/top_hubs.png",
+        "sha256": "583893451377a92496b55d7797382db56bf12543ad6e9214d871deecde4b8c6d"
+      },
+      {
+        "bytes": 281888,
+        "path": "hdwgcna/CA1/pooled/figures/top_hubs.svg",
+        "sha256": "7f1f3cf6f84abfcb2d429299640bd84bc4811d75365ef9dc46d9e92a2c9538aa"
+      },
+      {
+        "bytes": 13434,
+        "path": "hdwgcna/CA1/pooled/fixed_module_connectivity_stability.tsv",
+        "sha256": "ce04831db80d04187ba20b0ea801e86ce44ece435de4b98d53b5136cfefbb86f"
+      },
+      {
+        "bytes": 53456,
+        "path": "hdwgcna/CA1/pooled/hub_genes.tsv",
+        "sha256": "956e2e0b0a05d28ce2308180ebd02d94072b041b2bcbe6a536c20c3baaa810ad"
+      },
+      {
+        "bytes": 1179,
+        "path": "hdwgcna/CA1/pooled/metacell_coverage.tsv",
+        "sha256": "092f29523fbbf68bd736fba83b4eba9445ef529a857fb4d4945cd1270bc12509"
+      },
+      {
+        "bytes": 211310,
+        "path": "hdwgcna/CA1/pooled/metacell_membership.tsv.gz",
+        "sha256": "56ebe095796f4055160e4c16ac271e3db70949d2432489eddc118bc40dc4a8bb"
+      },
+      {
+        "bytes": 905894,
+        "path": "hdwgcna/CA1/pooled/metacell_metadata.tsv",
+        "sha256": "ca6453b739006ecd3660dfd235ff481d2896616542a45239baa30c7366326950"
+      },
+      {
+        "bytes": 31885,
+        "path": "hdwgcna/CA1/pooled/module_eigengenes_mouse.tsv",
+        "sha256": "4de1f88a94cdcb1b828d0ddc9b31b51a75ba5bd827d9f0c36b16bb8e78df3e4f"
+      },
+      {
+        "bytes": 3252,
+        "path": "hdwgcna/CA1/pooled/module_genotype_associations_unadjusted.tsv",
+        "sha256": "be1ef563bf4bcebacba0ff1b1ac47566c23b4b83806e308cb455a411fc11f4be"
+      },
+      {
+        "bytes": 39761,
+        "path": "hdwgcna/CA1/pooled/module_genotype_leave_one_mouse_out.tsv",
+        "sha256": "a4fd8c3c0109873e6662c95de4ceaea50a09f6ffcee2396d48f58de213b84864"
+      },
+      {
+        "bytes": 2250,
+        "path": "hdwgcna/CA1/pooled/module_genotype_mouse_bootstrap.tsv",
+        "sha256": "c122eea3ce74cd5b273954778a367acbd7f68fb10fa3aaff1d0711d1bd71bd99"
+      },
+      {
+        "bytes": 3670,
+        "path": "hdwgcna/CA1/pooled/module_genotype_same_partition_unadjusted.tsv",
+        "sha256": "6bbc1b542ff87c9ea32cdaf10d26897038899ecc99ddbc5c102b68cf3f087a6b"
+      },
+      {
+        "bytes": 1837179,
+        "path": "hdwgcna/CA1/pooled/module_membership.tsv",
+        "sha256": "e4a4f49fc4e95b03e2e749c307fc535ee7da337b1f59658fcacd79bdc90b3bd9"
+      },
+      {
+        "bytes": 1837179,
+        "path": "hdwgcna/CA1/pooled/modules.tsv",
+        "sha256": "e4a4f49fc4e95b03e2e749c307fc535ee7da337b1f59658fcacd79bdc90b3bd9"
+      },
+      {
+        "bytes": 31885,
+        "path": "hdwgcna/CA1/pooled/mouse_endpoint_eigengenes.tsv",
+        "sha256": "4de1f88a94cdcb1b828d0ddc9b31b51a75ba5bd827d9f0c36b16bb8e78df3e4f"
+      },
+      {
+        "bytes": 154763,
+        "path": "hdwgcna/CA1/pooled/network_edges.tsv",
+        "sha256": "d3688b107cfc4928948ef3b8a3bb36467b300b119b57efc927cfc875ca39c2ed"
+      },
+      {
+        "bytes": 3305485,
+        "path": "hdwgcna/CA1/pooled/network_gene_selection.tsv",
+        "sha256": "f84b79bb37fc65bd99f69051e045ea4d49166683194844287d9911be15a0a6a3"
+      },
+      {
+        "bytes": 3488362,
+        "path": "hdwgcna/CA1/pooled/network_genes.tsv",
+        "sha256": "a3e2fdd402b22b4aa9c806deb4f3475df81eae93906f271fe724cffeff90c89e"
+      },
+      {
+        "bytes": 124731,
+        "path": "hdwgcna/CA1/pooled/network_genes_tested.tsv",
+        "sha256": "f897dd2f48da8c85a04297be0b48d93f48052676beeb408882bb27eb31be815d"
+      },
+      {
+        "bytes": 2715239,
+        "path": "hdwgcna/CA1/pooled/nucleus_eigengenes.tsv.gz",
+        "sha256": "9709f5459dc05b3d0b7c9807089416704d265af729fe5ed251b479504a195812"
+      },
+      {
+        "bytes": 1783,
+        "path": "hdwgcna/CA1/pooled/provenance.json",
+        "sha256": "2e7c8dd6256831b5df2eb77e57dd18ddaa55f4e9b6669463f361086f0280f6bb"
+      },
+      {
+        "bytes": 132,
+        "path": "hdwgcna/CA1/pooled/run_identity.json",
+        "sha256": "99d509464a8ce40e08989bae64fb5607e6e199e9b797b4a1366f8fd9109dcb43"
+      },
+      {
+        "bytes": 64,
+        "path": "hdwgcna/CA1/pooled/selected_power.json",
+        "sha256": "96cace95e138c92b76825544a8e566beb45a649dc9e6ba275ebc7be6bd47c16b"
+      },
+      {
+        "bytes": 2231,
+        "path": "hdwgcna/CA1/pooled/soft_power_diagnostics.tsv",
+        "sha256": "119a66d70ae9074148d511d5e6e7cf57a03759a9c08bfe2bc0fd4ec15aa500fe"
+      },
+      {
+        "bytes": 504,
+        "path": "hdwgcna/CA1/pooled/status.json",
+        "sha256": "1929d608c235553d1deab1d01296f4e18133f4f6f57b6e8b6f20a3eb10a92960"
+      },
+      {
+        "bytes": 154763,
+        "path": "hdwgcna/CA1/pooled/top_hub_coexpression_edges.tsv",
+        "sha256": "d3688b107cfc4928948ef3b8a3bb36467b300b119b57efc927cfc875ca39c2ed"
+      },
+      {
+        "bytes": 53456,
+        "path": "hdwgcna/CA1/pooled/top_hubs.tsv",
+        "sha256": "956e2e0b0a05d28ce2308180ebd02d94072b041b2bcbe6a536c20c3baaa810ad"
+      },
+      {
+        "bytes": 458302,
+        "path": "hdwgcna/IN/consensus/all_gene_hub_ranks.tsv",
+        "sha256": "6d37f96a451e16fdbe581d3696445d0d0a59785433a6f836f708b5fd6653d0c1"
+      },
+      {
+        "bytes": 40730226,
+        "path": "hdwgcna/IN/consensus/analysis_state.rds",
+        "sha256": "36a41920b33d1c80bf35640a1fed4bd2d3fe4202fccc39a672bfb810046013d5"
+      },
+      {
+        "bytes": 3767,
+        "path": "hdwgcna/IN/consensus/completed.json",
+        "sha256": "bd82c7d1c970af9d6e1921770fff00d48cbf84c2cf2f6afe94c318d3a821012c"
+      },
+      {
+        "bytes": 57,
+        "path": "hdwgcna/IN/consensus/consensus_coverage.tsv",
+        "sha256": "d31c1ab2867bf935da7eeeb0482142ae05719c02d35bea636a3553bbe48b870e"
+      },
+      {
+        "bytes": 1952,
+        "path": "hdwgcna/IN/consensus/effects.tsv",
+        "sha256": "000b59ed199c192b32ca70ca7c5f3844628f5e7a11936822a7c4168be199992c"
+      },
+      {
+        "bytes": 244,
+        "path": "hdwgcna/IN/consensus/eigengene_orientation.tsv",
+        "sha256": "d03c7f5ccdec56c95b2b6e0f6266c3c6a70706222da741386e1ee37ca9d71e6b"
+      },
+      {
+        "bytes": 77822,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.pdf",
+        "sha256": "b2251819ed2724bf14373ab85a1cdbd26d1274a3cccb5657e0cc8f91ada04ba4"
+      },
+      {
+        "bytes": 100052,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.png",
+        "sha256": "6010bb7782f333906459380d2a44d62e11de2af9163cacbd58ff1fedb12a672c"
+      },
+      {
+        "bytes": 1868338,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.svg",
+        "sha256": "14a4373059c7ad2341420e01a18d9d85e2a998d0e395096a8004cf68ff9a30d1"
+      },
+      {
+        "bytes": 80927,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.pdf",
+        "sha256": "a6a61afae7399f952f8d9767ec04313e2369297eb13bf9c901b9ae7844a0b4bf"
+      },
+      {
+        "bytes": 106339,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.png",
+        "sha256": "06841daa6cb267c5d9d65cbd3bb9e781816dc49b7e16d3805a3ef74432595043"
+      },
+      {
+        "bytes": 1891166,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.svg",
+        "sha256": "f0f2be4f1575036c253cb8b07969a4da6939ca392b2b8b963c5bc630a1c2e778"
+      },
+      {
+        "bytes": 84425,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.pdf",
+        "sha256": "da57633159911299f8bbf15fb2b26009cc984d6cfb1aa323ec589d08b63ffed6"
+      },
+      {
+        "bytes": 121675,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.png",
+        "sha256": "b295f44ca6d2bf498a3cfd4f03de758eb7988aa535ff7779e3b653d572f39d28"
+      },
+      {
+        "bytes": 1894170,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.svg",
+        "sha256": "cccfcc2f4e53357893bab44686ad4914865567efdc7f9c88c924b8bf8d5619ba"
+      },
+      {
+        "bytes": 63400,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.pdf",
+        "sha256": "a86647aaf5d92b5dce15c65dcee69f1c45297ad4759d9dda607647c98e274806"
+      },
+      {
+        "bytes": 157599,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.png",
+        "sha256": "12ffdd53667db453954bd7d401c89e2120dbf6ac8b6d2748fba5393ce61aafd3"
+      },
+      {
+        "bytes": 1349324,
+        "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.svg",
+        "sha256": "fc0ca1239ec2d79cc8288adf8d17030a27d1e53662d0724d90a8d3ac3fba2f2d"
+      },
+      {
+        "bytes": 16546,
+        "path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.pdf",
+        "sha256": "a93b90ce8885b50115a13b221a0a639a28a2bb99837d42d81a4a7897237af94a"
+      },
+      {
+        "bytes": 72518,
+        "path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.png",
+        "sha256": "9e6c1c3e658fbb540ddddd9a456794bf1a99bfb5dce65ced63c6009406443d4d"
+      },
+      {
+        "bytes": 89683,
+        "path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.svg",
+        "sha256": "6cc5479e7cfd2d35bb2630ecd63695ddb4b2bbf03c9a72e4e8e6a1ba4b28acde"
+      },
+      {
+        "bytes": 17991,
+        "path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.pdf",
+        "sha256": "bf6ba2279684d481804a4c50dab33df2f0e1235faebf1f8b19fe5442a895fa51"
+      },
+      {
+        "bytes": 48974,
+        "path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.png",
+        "sha256": "a68c5635b746e20dbf54365f65b308093f249127be229a3ddd49160fe6d1e3a3"
+      },
+      {
+        "bytes": 155058,
+        "path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.svg",
+        "sha256": "851edc4011af8e7ff27d498d0b72c6965a69c1a20bdcdfcfe0c9acb0c7a4e552"
+      },
+      {
+        "bytes": 24100,
+        "path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.pdf",
+        "sha256": "9a9261377d99915d84520d9b13ead39169bf915e95c897af5d1f0947c8c55011"
+      },
+      {
+        "bytes": 100787,
+        "path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.png",
+        "sha256": "8b06bf711d76338339f81221c2d3934d2834adfb54e1b40c92b80885929c1c36"
+      },
+      {
+        "bytes": 148520,
+        "path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.svg",
+        "sha256": "d180af36916e250cf5da1a62eb0292f4361cca5c3e848bc333856c701e49f581"
+      },
+      {
+        "bytes": 17765,
+        "path": "hdwgcna/IN/consensus/figures/top_hubs.pdf",
+        "sha256": "b184ef2e5e11fc2ea1d7a94e2158779e832e2e8e80e5994cbff53f96c0636773"
+      },
+      {
+        "bytes": 103787,
+        "path": "hdwgcna/IN/consensus/figures/top_hubs.png",
+        "sha256": "f452f8db076ebc7087eee2419fcae3a1345e14f5d54e2cb9694d411ddfa56fac"
+      },
+      {
+        "bytes": 160758,
+        "path": "hdwgcna/IN/consensus/figures/top_hubs.svg",
+        "sha256": "6068489a087c2e5188b0bdded4d447d416b644d8db3c7afa8ea5f4b76ea0caae"
+      },
+      {
+        "bytes": 5437,
+        "path": "hdwgcna/IN/consensus/fixed_module_connectivity_stability.tsv",
+        "sha256": "d0c117ff9d4ac1937aea1bb112e287f9728ff579e25eb4cc2386671f9be44a6a"
+      },
+      {
+        "bytes": 12412,
+        "path": "hdwgcna/IN/consensus/hub_genes.tsv",
+        "sha256": "b2b31bc6e4aae9e6ba1b2b7a3a5f96612057bb80c579ea1ff4ccf4a8e11c6b6d"
+      },
+      {
+        "bytes": 18124,
+        "path": "hdwgcna/IN/consensus/module_eigengenes_mouse.tsv",
+        "sha256": "667055ad5b85148ed7d836e39625dcbc99e4be350cde252cf3a5b2d84e203e01"
+      },
+      {
+        "bytes": 1952,
+        "path": "hdwgcna/IN/consensus/module_genotype_associations_unadjusted.tsv",
+        "sha256": "000b59ed199c192b32ca70ca7c5f3844628f5e7a11936822a7c4168be199992c"
+      },
+      {
+        "bytes": 23379,
+        "path": "hdwgcna/IN/consensus/module_genotype_leave_one_mouse_out.tsv",
+        "sha256": "f6fcce69454a1cf00d93912f91b2e466ae10658ee39abe03b2ee96c0d54cfd97"
+      },
+      {
+        "bytes": 1356,
+        "path": "hdwgcna/IN/consensus/module_genotype_mouse_bootstrap.tsv",
+        "sha256": "4e23a2207415521db58ccfa02860a3fdb96f6846068d22ed9410604aa34a1df3"
+      },
+      {
+        "bytes": 2211,
+        "path": "hdwgcna/IN/consensus/module_genotype_same_partition_unadjusted.tsv",
+        "sha256": "bab50cdfae2c93e50bed173c97374145f161b16003700133710f5ffd5fd1d568"
+      },
+      {
+        "bytes": 1031280,
+        "path": "hdwgcna/IN/consensus/module_membership.tsv",
+        "sha256": "56f5d188e81b2670dd6b00b50f3ad4690fe143454cac4a0199a54434eed48ebb"
+      },
+      {
+        "bytes": 1031280,
+        "path": "hdwgcna/IN/consensus/modules.tsv",
+        "sha256": "56f5d188e81b2670dd6b00b50f3ad4690fe143454cac4a0199a54434eed48ebb"
+      },
+      {
+        "bytes": 18124,
+        "path": "hdwgcna/IN/consensus/mouse_endpoint_eigengenes.tsv",
+        "sha256": "667055ad5b85148ed7d836e39625dcbc99e4be350cde252cf3a5b2d84e203e01"
+      },
+      {
+        "bytes": 62647,
+        "path": "hdwgcna/IN/consensus/network_edges.tsv",
+        "sha256": "79eaaf53331ba519a753342e243ce6e9f4283632019715acc2e10049a4ff90e1"
+      },
+      {
+        "bytes": 3720918,
+        "path": "hdwgcna/IN/consensus/network_genes.tsv",
+        "sha256": "d56f97b3e5159b0d287c09cf2253cc7f1268f2c9eaf7fe9410aa0191ca404122"
+      },
+      {
+        "bytes": 208189,
+        "path": "hdwgcna/IN/consensus/nucleus_eigengenes.tsv.gz",
+        "sha256": "995f8c24a3343b56bdcecc531d6e5ae64c07650445ef055cc0f4e8c2fbd3bcb9"
+      },
+      {
+        "bytes": 496,
+        "path": "hdwgcna/IN/consensus/pooled_consensus_module_overlap.tsv",
+        "sha256": "014764b17a6c3d2237ab59193064196587d5d287e8ab2eda5b00e1d7165521ee"
+      },
+      {
+        "bytes": 132,
+        "path": "hdwgcna/IN/consensus/run_identity.json",
+        "sha256": "a2ab64a93cf289d0e62086b8c4b83173a564da69c3e26cc777c3403563f045e8"
+      },
+      {
+        "bytes": 162,
+        "path": "hdwgcna/IN/consensus/selected_power.json",
+        "sha256": "d7888375d2cfcaeceb5fe8de1c318c5cd2fa57ff68a3c980ac76c16139ecad61"
+      },
+      {
+        "bytes": 4546,
+        "path": "hdwgcna/IN/consensus/soft_power_diagnostics.tsv",
+        "sha256": "97fc6211c56558022f9e20e2c87eac6c4b879ff4f4558f17334cd214336dbe2a"
+      },
+      {
+        "bytes": 503,
+        "path": "hdwgcna/IN/consensus/status.json",
+        "sha256": "c19889f0bab038e539bbd291bea97e2430832bb8a5101a3ae7f5ed9eaa3ee062"
+      },
+      {
+        "bytes": 62647,
+        "path": "hdwgcna/IN/consensus/top_hub_coexpression_edges.tsv",
+        "sha256": "79eaaf53331ba519a753342e243ce6e9f4283632019715acc2e10049a4ff90e1"
+      },
+      {
+        "bytes": 12412,
+        "path": "hdwgcna/IN/consensus/top_hubs.tsv",
+        "sha256": "b2b31bc6e4aae9e6ba1b2b7a3a5f96612057bb80c579ea1ff4ccf4a8e11c6b6d"
+      },
+      {
+        "bytes": 407356,
+        "path": "hdwgcna/IN/pooled/all_gene_hub_ranks.tsv",
+        "sha256": "d4c7dc3b6b2815f37fcc8df4c49d780fa33c0300c0b01a7725feb1e085d2bf55"
+      },
+      {
+        "bytes": 40751600,
+        "path": "hdwgcna/IN/pooled/analysis_state.rds",
+        "sha256": "6f2022aa8b7c13e8b4234b20dadd64522af0d3a118083b1d5177fcb0309700e9"
+      },
+      {
+        "bytes": 4262,
+        "path": "hdwgcna/IN/pooled/completed.json",
+        "sha256": "42f050d624a98a4ec95d901b36fabdedda42dceb0bacf430b8196858b8867dd4"
+      },
+      {
+        "bytes": 2361,
+        "path": "hdwgcna/IN/pooled/effects.tsv",
+        "sha256": "f50a2c5fa0d3df0e8206c2374ce6b4ef7bcbd3670de89187da52749609453019"
+      },
+      {
+        "bytes": 292,
+        "path": "hdwgcna/IN/pooled/eigengene_orientation.tsv",
+        "sha256": "32a15af5836a5ddc86d67c30ea1d76be1b9e246ce92ce09d45a4fd5d424a6db9"
+      },
+      {
+        "bytes": 83209,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.pdf",
+        "sha256": "9c77e3ecb4ec721ed69a5ef4cb13b31f2d47f2d9950b37cf77d3a44204c3833d"
+      },
+      {
+        "bytes": 121018,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.png",
+        "sha256": "a202fded884afda0ab4d2bdbd0bc2f40b282a504cd76295d8469a197916e17ca"
+      },
+      {
+        "bytes": 1905794,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.svg",
+        "sha256": "98fba9699eae3958cbd8c2a63fb0942ff37c61680d0aaf979e20dec6adfa8ea7"
+      },
+      {
+        "bytes": 79435,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.pdf",
+        "sha256": "fea8750cb0f445067c62bb6d9c62db84af7174649e223ed4e4495415ab97fe6f"
+      },
+      {
+        "bytes": 96844,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.png",
+        "sha256": "bcbdbbefc1cc2c51a03195ea0c54ab60cf95c72c053b4685b931ad8fe254dc50"
+      },
+      {
+        "bytes": 1868181,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.svg",
+        "sha256": "507e765585b63777d5ddb560cd1289e10acbb0db55c421618e7e417c5bda4dcc"
+      },
+      {
+        "bytes": 77923,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.pdf",
+        "sha256": "fb337b963f5cc130b369461b0c21bce13aea3c13d5ff8d251a61246e1a6f4ee1"
+      },
+      {
+        "bytes": 89221,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.png",
+        "sha256": "a69d8684a3a8389277baee42bdb003e582b5afabd0d98863eee775f6fc459560"
+      },
+      {
+        "bytes": 1901615,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.svg",
+        "sha256": "69f585642de00fd8b860fc1ce69ff185a24d6862831f92c66561ee1236738848"
+      },
+      {
+        "bytes": 63089,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.pdf",
+        "sha256": "8803a652ab9ea472147014a2a3fc5f18dbefa03284b265ee80d51705c81d74cf"
+      },
+      {
+        "bytes": 113542,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.png",
+        "sha256": "3f2894a554ddff494ca358cc5c8acef4e9487e9b7f3afdbc41358ba3f6887409"
+      },
+      {
+        "bytes": 1321069,
+        "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.svg",
+        "sha256": "0b6fe007c6f457ef20c0a74ec13af5270ab46b8ced0ddac0c92556cb3a1ce61c"
+      },
+      {
+        "bytes": 14838,
+        "path": "hdwgcna/IN/pooled/figures/metacell_coverage.pdf",
+        "sha256": "9f16a8b7905e1e9cf804e8a51762126e76665fb4c9adee3ba7587314783d4ffe"
+      },
+      {
+        "bytes": 69078,
+        "path": "hdwgcna/IN/pooled/figures/metacell_coverage.png",
+        "sha256": "bb0a878a1f0c0666eddb802d6598cd5578a46b52dfeb8f0bdcce77af3821cead"
+      },
+      {
+        "bytes": 98846,
+        "path": "hdwgcna/IN/pooled/figures/metacell_coverage.svg",
+        "sha256": "8976834391eb5afcafbf750b18815aef8c1b1821ae0d271ea5b72191670f8463"
+      },
+      {
+        "bytes": 17833,
+        "path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.pdf",
+        "sha256": "5371c87673b0cf0b24f5d1dc496d42e93f7eab88649146eb3dacee6d0c7965b0"
+      },
+      {
+        "bytes": 85068,
+        "path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.png",
+        "sha256": "c30822d5f2bf8651ccff2463acd3ea11adc583ba64811700d222e4fd9e59ffb8"
+      },
+      {
+        "bytes": 98622,
+        "path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.svg",
+        "sha256": "4072b303f57d70abae9f78297659ddcab9378338d52df1d4c3eb8fcae5b25e6b"
+      },
+      {
+        "bytes": 18366,
+        "path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.pdf",
+        "sha256": "4ca65dfb221281ca8a179c1ca90578d7427ba397169278afb32c0e072cd473d5"
+      },
+      {
+        "bytes": 51125,
+        "path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.png",
+        "sha256": "bf3c08d826c6546769fdc2b9f1bf873868505239ab4cfdd6941d2098a506d8a5"
+      },
+      {
+        "bytes": 167661,
+        "path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.svg",
+        "sha256": "e9f0d389462af8017829bf473ce6fd982c3324d96c87ac04b3a6a6d8984ed2de"
+      },
+      {
+        "bytes": 21405,
+        "path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.pdf",
+        "sha256": "232036effc1277b196d7ba4c8af209c610b37ab5337edeab86f8e4c624a96c5d"
+      },
+      {
+        "bytes": 82297,
+        "path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.png",
+        "sha256": "0c8be0e0d36c5c0315126291f892812bd1cd592e903d8309ca206c8f0b8b01de"
+      },
+      {
+        "bytes": 119659,
+        "path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.svg",
+        "sha256": "750b2e08fab37d9a9989b09ff504ca377ced9ec4afdf9a0fcf164ba4db45bb6e"
+      },
+      {
+        "bytes": 18418,
+        "path": "hdwgcna/IN/pooled/figures/top_hubs.pdf",
+        "sha256": "2463a8978c569c5b7973d7063b2d1e1e0a81b5687ea1a74e44453aa05443352f"
+      },
+      {
+        "bytes": 123607,
+        "path": "hdwgcna/IN/pooled/figures/top_hubs.png",
+        "sha256": "975b432a22d2ee0ea68e91630fce1d93fa56467589bbb7e20058cb7ec0b135c5"
+      },
+      {
+        "bytes": 182479,
+        "path": "hdwgcna/IN/pooled/figures/top_hubs.svg",
+        "sha256": "2a6efefc9a6202246636d169d19e8dee2d9f3153243aaad60b90550fe93f32a9"
+      },
+      {
+        "bytes": 6716,
+        "path": "hdwgcna/IN/pooled/fixed_module_connectivity_stability.tsv",
+        "sha256": "c1108d98bbed99bfbccec42687e7cdac7149d8217e39f8dcfd7faaa8dded7f63"
+      },
+      {
+        "bytes": 17377,
+        "path": "hdwgcna/IN/pooled/hub_genes.tsv",
+        "sha256": "176fa25fbe02498b2f0fce86d263f9c26a52eb4c912ac392b2c53e9f0405474b"
+      },
+      {
+        "bytes": 1441,
+        "path": "hdwgcna/IN/pooled/metacell_coverage.tsv",
+        "sha256": "7434273358b2b46d045bf82c4f879071ecccd7a8a8d5e38ec56296e60f315c59"
+      },
+      {
+        "bytes": 26109,
+        "path": "hdwgcna/IN/pooled/metacell_membership.tsv.gz",
+        "sha256": "366ec6a240192c6499bb6f96aa1e581a4bc9e151545279006fcba33141ec985a"
+      },
+      {
+        "bytes": 118607,
+        "path": "hdwgcna/IN/pooled/metacell_metadata.tsv",
+        "sha256": "7cd22c5203a05cedbcd886183b6cf6484b43f87c15225379fa350330e673a3cd"
+      },
+      {
+        "bytes": 22620,
+        "path": "hdwgcna/IN/pooled/module_eigengenes_mouse.tsv",
+        "sha256": "f0452589b9aad60c902f9584650842a7f11d0741823c8d4ca57b762d34d9af1f"
+      },
+      {
+        "bytes": 2361,
+        "path": "hdwgcna/IN/pooled/module_genotype_associations_unadjusted.tsv",
+        "sha256": "f50a2c5fa0d3df0e8206c2374ce6b4ef7bcbd3670de89187da52749609453019"
+      },
+      {
+        "bytes": 28594,
+        "path": "hdwgcna/IN/pooled/module_genotype_leave_one_mouse_out.tsv",
+        "sha256": "143f64cec696c270aea00d3931fdb62836ba533dba310ec4223429f266af1659"
+      },
+      {
+        "bytes": 1618,
+        "path": "hdwgcna/IN/pooled/module_genotype_mouse_bootstrap.tsv",
+        "sha256": "6e9507ea78cdf3c67ab88f4a1620ecfdfba1f4f3a0badce0adb75bd088d77411"
+      },
+      {
+        "bytes": 2685,
+        "path": "hdwgcna/IN/pooled/module_genotype_same_partition_unadjusted.tsv",
+        "sha256": "44e7c30641603e78079a4cc3f1fb8a7979315d1e488a3d0a262ef64405056cd4"
+      },
+      {
+        "bytes": 1051392,
+        "path": "hdwgcna/IN/pooled/module_membership.tsv",
+        "sha256": "93fcec4dac6576c9842e75b63095091bae7aa25979ebe32727f5edaa178f280a"
+      },
+      {
+        "bytes": 1051392,
+        "path": "hdwgcna/IN/pooled/modules.tsv",
+        "sha256": "93fcec4dac6576c9842e75b63095091bae7aa25979ebe32727f5edaa178f280a"
+      },
+      {
+        "bytes": 22620,
+        "path": "hdwgcna/IN/pooled/mouse_endpoint_eigengenes.tsv",
+        "sha256": "f0452589b9aad60c902f9584650842a7f11d0741823c8d4ca57b762d34d9af1f"
+      },
+      {
+        "bytes": 78105,
+        "path": "hdwgcna/IN/pooled/network_edges.tsv",
+        "sha256": "6cfcbd41de9e829d6af14c566e1c85ea939e1664e15e548e1ba6238035b3a43a"
+      },
+      {
+        "bytes": 3538488,
+        "path": "hdwgcna/IN/pooled/network_gene_selection.tsv",
+        "sha256": "15665f6ddf9abc96b1537717ab3e02d27340629b91ffcf813fb50d5513d24057"
+      },
+      {
+        "bytes": 3720918,
+        "path": "hdwgcna/IN/pooled/network_genes.tsv",
+        "sha256": "d56f97b3e5159b0d287c09cf2253cc7f1268f2c9eaf7fe9410aa0191ca404122"
+      },
+      {
+        "bytes": 129964,
+        "path": "hdwgcna/IN/pooled/network_genes_tested.tsv",
+        "sha256": "d58720f046b72b9bf78986b0fe2a50136279d2f0343bbc6a08ee32d1f9518414"
+      },
+      {
+        "bytes": 235022,
+        "path": "hdwgcna/IN/pooled/nucleus_eigengenes.tsv.gz",
+        "sha256": "255a8e193d57a2e60ef53ca9ee98dd35897c813d17ebb181b4fbc78bc3d5a81f"
+      },
+      {
+        "bytes": 1783,
+        "path": "hdwgcna/IN/pooled/provenance.json",
+        "sha256": "88a2cd65ec93400c8714610ed7ab4968c6b097390fb2755d65d9b0a6551da007"
+      },
+      {
+        "bytes": 132,
+        "path": "hdwgcna/IN/pooled/run_identity.json",
+        "sha256": "0f1e98c727c4f4ba0e21e85bd959193034bc24300be298e98660ee12081e4724"
+      },
+      {
+        "bytes": 64,
+        "path": "hdwgcna/IN/pooled/selected_power.json",
+        "sha256": "569e3743113751b4124dfe1948495c9275d7bf6bc1ee713066b5570abbd8543d"
+      },
+      {
+        "bytes": 2228,
+        "path": "hdwgcna/IN/pooled/soft_power_diagnostics.tsv",
+        "sha256": "455656d2733f47f8e6994a44d831eac6fd509763cb87d52e159dfef5273ad38f"
+      },
+      {
+        "bytes": 500,
+        "path": "hdwgcna/IN/pooled/status.json",
+        "sha256": "1b87c5852a83388fb9a17729687f9d60be6d0ad9fd0f21054fd70ea0fc5d9cba"
+      },
+      {
+        "bytes": 78105,
+        "path": "hdwgcna/IN/pooled/top_hub_coexpression_edges.tsv",
+        "sha256": "6cfcbd41de9e829d6af14c566e1c85ea939e1664e15e548e1ba6238035b3a43a"
+      },
+      {
+        "bytes": 17377,
+        "path": "hdwgcna/IN/pooled/top_hubs.tsv",
+        "sha256": "176fa25fbe02498b2f0fce86d263f9c26a52eb4c912ac392b2c53e9f0405474b"
+      },
+      {
+        "bytes": 7479,
+        "path": "hdwgcna/consensus_module_genotype_associations.tsv",
+        "sha256": "0f1fca2b36248f68c8ef01af32fedfcda1814a82e2b9640261c96d1acd568e7b"
+      },
+      {
+        "bytes": 8119,
+        "path": "hdwgcna/consensus_module_genotype_same_partition.tsv",
+        "sha256": "eab5f04554bc338c4d223b0b4572e89f03e216b65e83dcf8c0144b4bf0f3deaa"
+      },
+      {
+        "bytes": 22463,
+        "path": "hdwgcna/figures/consensus_module_genotype_associations.pdf",
+        "sha256": "c2ce2c4c2027acd6a81e8dd68e9c38ad842939215f509a77e227b217cf1cf710"
+      },
+      {
+        "bytes": 119198,
+        "path": "hdwgcna/figures/consensus_module_genotype_associations.png",
+        "sha256": "b85fceade5cc511b7201048b767312214e8ec9a57623a340c9a21b62da4f18b2"
+      },
+      {
+        "bytes": 160439,
+        "path": "hdwgcna/figures/consensus_module_genotype_associations.svg",
+        "sha256": "57e808df7dafd113a80b0b2224f2d25ff37dabd411a92b902e8faf804c6931c0"
+      },
+      {
+        "bytes": 22164,
+        "path": "hdwgcna/figures/consensus_module_genotype_same_partition.pdf",
+        "sha256": "57ae44ffb4fba06d8237ab4e49d36ddb91219a62dd84138ad310dd45818c3283"
+      },
+      {
+        "bytes": 120231,
+        "path": "hdwgcna/figures/consensus_module_genotype_same_partition.png",
+        "sha256": "daf7a04ac754f29818e9426145a05702da45385317125614f0ea04ce0d9008c6"
+      },
+      {
+        "bytes": 158808,
+        "path": "hdwgcna/figures/consensus_module_genotype_same_partition.svg",
+        "sha256": "535475a5f2d499c47c3e6aee5b9ab4e8eb73eebf5b3c4b3d9b2ba514298c7986"
+      },
+      {
+        "bytes": 23032,
+        "path": "hdwgcna/figures/pooled_module_genotype_associations.pdf",
+        "sha256": "5f097e3da8892c05ba0b8903fe0d0d8bb2c5e95faab3c7d21421bd222aceab0c"
+      },
+      {
+        "bytes": 139490,
+        "path": "hdwgcna/figures/pooled_module_genotype_associations.png",
+        "sha256": "68bc6ce0f45b86994655fe9c6cf5f1ddd6e3b48fb432b3a80bfe77126a9bdfdb"
+      },
+      {
+        "bytes": 181473,
+        "path": "hdwgcna/figures/pooled_module_genotype_associations.svg",
+        "sha256": "489ec9410516d5587087313112aac3093faacfea0cf4938008e3084aea69ac2d"
+      },
+      {
+        "bytes": 23072,
+        "path": "hdwgcna/figures/pooled_module_genotype_same_partition.pdf",
+        "sha256": "d5b539af6aec04c6675cd95450c03aac46daa76435845bfe5d8c09c93ef608dc"
+      },
+      {
+        "bytes": 142980,
+        "path": "hdwgcna/figures/pooled_module_genotype_same_partition.png",
+        "sha256": "c8b6a03d5bef9c2bbd9e13cdba56b69c5ebbde1bc57bc96c25e547432a497702"
+      },
+      {
+        "bytes": 182603,
+        "path": "hdwgcna/figures/pooled_module_genotype_same_partition.svg",
+        "sha256": "815928dab7a2c71461de2fc2c86d896d28a4a9de8cf6e5ed335cfcf8f2fee513"
+      },
+      {
+        "bytes": 9140,
+        "path": "hdwgcna/pooled_module_genotype_associations.tsv",
+        "sha256": "9e6f6609c196ecca2c015f3995c962d6a516aee69f8344cb8b4c7206ec996e7e"
+      },
+      {
+        "bytes": 9937,
+        "path": "hdwgcna/pooled_module_genotype_same_partition.tsv",
+        "sha256": "4b54e2967f41659eac4b58c95033c6d1249e7819da973d9d092bc178a2d9aecc"
+      },
+      {
+        "bytes": 132,
+        "path": "hdwgcna/run_identity.json",
+        "sha256": "71c3e12f719fd34fc77c0d42336ce350503e242613d3867b1641e43ccb0fee6e"
+      },
+      {
+        "bytes": 1723,
+        "path": "hdwgcna/run_parameters.json",
+        "sha256": "044002589ebd8c430011c62891568c9d1d140b21880daf7bb5ecd013740ee6f9"
+      },
+      {
+        "bytes": 5424,
+        "path": "hdwgcna/sessionInfo.txt",
+        "sha256": "ddfb5d3bf94d5dfe87be6bd1eca8abcf5de10b367f5abc4091865530513eb96f"
+      },
+      {
+        "bytes": 238,
+        "path": "hdwgcna/workflow_status.json",
+        "sha256": "1b0ecc51a8144b8e97033bc4bd3facc196cc3c5d6e3165826efcfe91925f2359"
+      },
+      {
+        "bytes": 4405,
+        "path": "prepared/COMPLETE.json",
+        "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+      },
+      {
+        "bytes": 4718,
+        "path": "prepared/duplicate_symbol_audit.tsv",
+        "sha256": "ab898036f07bd74c2e0f064743fb6c46054d545ec3acb0ae058ec85b70e8807c"
+      },
+      {
+        "bytes": 807,
+        "path": "prepared/expression_normalization.json",
+        "sha256": "c034254cadae2572db9704532410dbb4e7975bf7b3e614e02ba412b1d355a277"
+      },
+      {
+        "bytes": 1920100,
+        "path": "prepared/feature_mapping.tsv",
+        "sha256": "fcec4e9e41e16f2907c8fdb9dac44a0576762078b428c70b56662c0cd4edbd87"
+      },
+      {
+        "bytes": 282356,
+        "path": "prepared/frozen_candidates_before_after_keep.tsv.gz",
+        "sha256": "4a67c68c2514c5e0347239a27ddb3e07d09287577700ef6bcbd5b8b13201a856"
+      },
+      {
+        "bytes": 3015,
+        "path": "prepared/frozen_membership_audit.tsv",
+        "sha256": "8e0506e504659f00ec509a342422e2057ccde359ec0542bdf05f482acea3237f"
+      },
+      {
+        "bytes": 19179408,
+        "path": "prepared/lineages/CA1/cells.tsv",
+        "sha256": "9102f2afe3c93b7ec8f5991dcdf607d3d5997d1e1efac281848d4bd2ac02e218"
+      },
+      {
+        "bytes": 208113008,
+        "path": "prepared/lineages/CA1/counts.mtx.gz",
+        "sha256": "5854cd68856904422428138307b5fd55e89ae109567ac586975d88475d7e6348"
+      },
+      {
+        "bytes": 1553719,
+        "path": "prepared/lineages/CA1/genes.tsv",
+        "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+      },
+      {
+        "bytes": 2390731,
+        "path": "prepared/lineages/IN/cells.tsv",
+        "sha256": "a02c6fa25c758bea814946bc37e32d61fcbee7de218e961ec711447c3c9ac59d"
+      },
+      {
+        "bytes": 25753115,
+        "path": "prepared/lineages/IN/counts.mtx.gz",
+        "sha256": "9903aa896db0bc4ed39743dc1a1faea1d7e2981e78129372d13e6883c4fb3a40"
+      },
+      {
+        "bytes": 1553719,
+        "path": "prepared/lineages/IN/genes.tsv",
+        "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+      },
+      {
+        "bytes": 3262,
+        "path": "prepared/mouse_coverage.tsv",
+        "sha256": "c5fffee4baa711d1958cd05b9dc45d85d0c320a2b768310fca0e7826505c68bb"
+      },
+      {
+        "bytes": 865297,
+        "path": "prepared/nucleus_metadata.tsv.gz",
+        "sha256": "18860eb2f411d357138be0050fbb03d5175a29fcbc3a8d1603307ee8d2bfb873"
+      },
+      {
+        "bytes": 1921,
+        "path": "prepared/raw_count_source_verification.tsv",
+        "sha256": "a934496e7be222e98c71954d2c067d9fc311a385c63834dd718523d21f1d00e4"
+      },
+      {
+        "bytes": 10637,
+        "path": "prepared/source_hashes.json",
+        "sha256": "4f6cbca9c5fe6797250b6e110cf0a56fa22616f1019a8951e181626629558876"
+      },
+      {
+        "bytes": 345317,
+        "path": "atlas/data.js",
+        "sha256": "1dfc993ab4082d64abfb38e32cc1ed497e770d1445ff5f9ae87ad267b93eafca"
+      },
+      {
+        "bytes": 3539471,
+        "path": "atlas/data.json",
+        "sha256": "4cd91ded9a4eb9717c29f79a22c5411ebd02c2e8bff3861455c001b7fe7d0536"
+      },
+      {
+        "bytes": 258898,
+        "path": "atlas/data.json.gz",
+        "sha256": "7c3c88a6ca75e9d19a2b6baab5a51c65c647407c5ee29b42628c63aa88fd3b03"
+      },
+      {
+        "bytes": 36387,
+        "path": "atlas/downloads.json",
+        "sha256": "e7673a2338f427c1f769ed6d6f86e063447cc14d68335f8849b8e964ba9c2f7c"
+      },
+      {
+        "bytes": 2231,
+        "path": "atlas/manifest.json",
+        "sha256": "90723de33da358c3b94aa67c7cf628df4a1223c146f3bfae037722be93c3cb41"
+      },
+      {
+        "bytes": 68142,
+        "path": "FINAL_VALIDATION.json",
+        "sha256": "aa4ef34c1cfdf895c804b9131678a0753e669488b35aace0445db248fa6cdefa"
+      }
+    ]
+  },
+  "files": [
+    {
+      "bytes": 47096,
+      "path": "REUSED_NATIVE_RECEIPT.json",
+      "sha256": "4e209676528297258a8e9e03861cb736e48e683ae81af8dd334936b0dd367636"
+    },
+    {
+      "bytes": 690,
+      "path": "enrichment/COMPLETE.json",
+      "sha256": "c338dce387d762e1876bcb6b30c4c0d0bfae7e18a4b15039a889abbd50fe864d"
+    },
+    {
+      "bytes": 619,
+      "path": "enrichment/GO_ANNOTATION_COVERAGE.tsv",
+      "sha256": "ebd189d9b9ac713ac0cb2ee2b01f9f50d2e8fab6c9a826bad44e863d942c4f06"
+    },
+    {
+      "bytes": 9685907,
+      "path": "enrichment/GO_BP_ALL_TESTS.tsv",
+      "sha256": "9b59e3cd13e4fc32d398ca5ed1d3029966b0159932c2de256c0831ecff1f18c9"
+    },
+    {
+      "bytes": 414837,
+      "path": "enrichment/GO_BP_FDR05.tsv",
+      "sha256": "487b6070d8e1555f69f6788b78474a2303a8ccabbbfb7428e25a65cc87d4aa62"
+    },
+    {
+      "bytes": 24065,
+      "path": "enrichment/GO_BP_dotplot.pdf",
+      "sha256": "8fec67a2802f831bd942fd64d3de0f2f0ef41c1ee3198d8020273ae6eba305ac"
+    },
+    {
+      "bytes": 231670,
+      "path": "enrichment/GO_BP_dotplot.png",
+      "sha256": "3e9c3d24d4902b62048561abceb185dd6c60ac8171c20c474e1ebd25c94f3a8a"
+    },
+    {
+      "bytes": 225561,
+      "path": "enrichment/GO_BP_dotplot.svg",
+      "sha256": "e81e5904a31d6a415e7de46f79b2736121d4a50a0e43764f855b119fe98a2021"
+    },
+    {
+      "bytes": 898,
+      "path": "enrichment/ORIGINAL_DEG_ELIGIBILITY_COVERAGE.tsv",
+      "sha256": "a7eaa5a568e502e9ab9007c17c3538d315dad0a58ed5d94bb295758e1d74574c"
+    },
+    {
+      "bytes": 35205,
+      "path": "enrichment/ORIGINAL_DEG_MODULE_ENRICHMENT.tsv",
+      "sha256": "89763bac27b5a20e5f8e76ef40f321ff6dd521249473bfdd5c4c25bd3f50556c"
+    },
+    {
+      "bytes": 2034,
+      "path": "enrichment/STRICT_LR_AND_SATB2_MODULE_LINKS.tsv",
+      "sha256": "a904c24a5027f6f6a0373b1e0566725082b495844fdfc5b4dc040a9b19b9892b"
+    },
+    {
+      "bytes": 995652,
+      "path": "hdwgcna/CA1/consensus/all_gene_hub_ranks.tsv",
+      "sha256": "8cf1c6f359ef1979925b7ad1b526f79339627f371c5d3a2b4a8c3ae8bf1518b7"
+    },
+    {
+      "bytes": 194524162,
+      "path": "hdwgcna/CA1/consensus/analysis_state.rds",
+      "sha256": "61f0b0effd5c435a069d5716682cf1d4c5e62aa713af41845d5988612c0ff035"
+    },
+    {
+      "bytes": 3768,
+      "path": "hdwgcna/CA1/consensus/completed.json",
+      "sha256": "e2e4fdcee50d7dd9bd9b1de3018cfb84ae8531457c6a924359a89dd1e956332e"
+    },
+    {
+      "bytes": 57,
+      "path": "hdwgcna/CA1/consensus/consensus_coverage.tsv",
+      "sha256": "8c4ce1df3305fdda876430489e173da5ecfc12c140fd7d86ebc682d75b170369"
+    },
+    {
+      "bytes": 2647,
+      "path": "hdwgcna/CA1/consensus/effects.tsv",
+      "sha256": "c2956dcd2e56d07cfabd002a62b8a4f736f04d4a7c62f0c3916cf24c4f5ca556"
+    },
+    {
+      "bytes": 434,
+      "path": "hdwgcna/CA1/consensus/eigengene_orientation.tsv",
+      "sha256": "9499c30ecf46abc51886463c07451a18503418582fe996572f9f908850549526"
+    },
+    {
+      "bytes": 77474,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.pdf",
+      "sha256": "b67a513057e9a4c9227b5a63cbc51c47139cfae493cbd5b9eec7dfeabb004eac"
+    },
+    {
+      "bytes": 102756,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.png",
+      "sha256": "a4d68728656ebe045cedf51c8eccf4e2acd3903e36bbaf459eed5e50ffd2f774"
+    },
+    {
+      "bytes": 1905092,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.svg",
+      "sha256": "c12b6a4b8ae01e3d7168f516eb0c7a3b1a92b6f35dce6c62897cc4da83de2b89"
+    },
+    {
+      "bytes": 76814,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.pdf",
+      "sha256": "3ec5368c4a16f33d60cb971dfffde671ca105e9e42cfdfb94474a5e79609540b"
+    },
+    {
+      "bytes": 82948,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.png",
+      "sha256": "c695fce91a0f9ed78240dc259b6ef323e6e4f086417042217ec684d29e20029c"
+    },
+    {
+      "bytes": 1873893,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.svg",
+      "sha256": "322f02b71d4b65c3c6b1598be0d11e8e384dac9f85e715ef4ccfa09c67053a0e"
+    },
+    {
+      "bytes": 77095,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.pdf",
+      "sha256": "e0c6784d0560891a84f7506c5d90ca3cfa356bb2c12bffbd96e17bab294d4a7e"
+    },
+    {
+      "bytes": 105566,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.png",
+      "sha256": "e9564fe801cee86a7cf4d1060fab5b4629daa98a6b08aff85aaf4f709fc4210b"
+    },
+    {
+      "bytes": 1862714,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.svg",
+      "sha256": "982e3558d39a5e446e241f0824981e07e31bae2e8d256c354341a55401b9bf59"
+    },
+    {
+      "bytes": 53281,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.pdf",
+      "sha256": "d041eef95ec6b314b984dba6fd308dbdd69b5683fc89371daf57ad068991cef1"
+    },
+    {
+      "bytes": 96677,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.png",
+      "sha256": "862467c2685455daff29040432ece6e62c91f3fe38b2ef38b8b7661a12ec1f0b"
+    },
+    {
+      "bytes": 1075333,
+      "path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.svg",
+      "sha256": "6a330dd46d0978dd1549da103438c1ed2896785dd3937c31b8053d4777a03332"
+    },
+    {
+      "bytes": 21947,
+      "path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.pdf",
+      "sha256": "b51cd298931198a68be59cdecba8261e8b6b9e772aa206afac04a96c14721f20"
+    },
+    {
+      "bytes": 85017,
+      "path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.png",
+      "sha256": "55920a03458e215acdda528cf35f39159715edb3ee42a7e79942c0c987538409"
+    },
+    {
+      "bytes": 112062,
+      "path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.svg",
+      "sha256": "247988e9d0608cd68a5931465f687ecb3a014393f41c6fbe566a8e62dff58fe6"
+    },
+    {
+      "bytes": 22998,
+      "path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.pdf",
+      "sha256": "79b4a576d942f4b4e2c9f0e152d54ee6d73a05b5149fb077d12ac49426c8f123"
+    },
+    {
+      "bytes": 72165,
+      "path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.png",
+      "sha256": "4fac6346b4ad34b68c860a25f5d5d1ba8765cedd081e26df8e91fac1959f8a37"
+    },
+    {
+      "bytes": 178464,
+      "path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.svg",
+      "sha256": "801ab6a4ccf366e76f4c8c7d52b9f0fd6601aca4b6d8d8c29a5d02acd3a0f793"
+    },
+    {
+      "bytes": 24255,
+      "path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.pdf",
+      "sha256": "0d7e2852f5b5f814323564402cd71fafcb02e3d6e76cb1d037d0d08b6bb390e3"
+    },
+    {
+      "bytes": 101738,
+      "path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.png",
+      "sha256": "a57f21734154a260805014a331fa6e9a2c42010b5045b5292cfb3f5239c74bea"
+    },
+    {
+      "bytes": 146348,
+      "path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.svg",
+      "sha256": "dbca62c3f54b1a5fd44a642c9a49d990d91ada4ddae5005a72654256e93ff8ff"
+    },
+    {
+      "bytes": 20286,
+      "path": "hdwgcna/CA1/consensus/figures/top_hubs.pdf",
+      "sha256": "22a5d32a09f69854d93e917319439ed5c2bf0ea765da835cb65065d60fc29d00"
+    },
+    {
+      "bytes": 182239,
+      "path": "hdwgcna/CA1/consensus/figures/top_hubs.png",
+      "sha256": "e9e29d35527ca81bb70f4b57d25199f848e278777320e070d77ae601645a8ef3"
+    },
+    {
+      "bytes": 240260,
+      "path": "hdwgcna/CA1/consensus/figures/top_hubs.svg",
+      "sha256": "c27c96e6a6a4195d8f2d0d0008fa8a76ff6e5be632e7a97cfd45992562562d6c"
+    },
+    {
+      "bytes": 10724,
+      "path": "hdwgcna/CA1/consensus/fixed_module_connectivity_stability.tsv",
+      "sha256": "5313d9be455f1e2edfaadc1450b06c2f46df03346c20585bf98dc3fe21bba54f"
+    },
+    {
+      "bytes": 36731,
+      "path": "hdwgcna/CA1/consensus/hub_genes.tsv",
+      "sha256": "b8a62a0abb725768966f1be8b23411b4052588cda4b90dbd5ed1f0928bfe6471"
+    },
+    {
+      "bytes": 25473,
+      "path": "hdwgcna/CA1/consensus/module_eigengenes_mouse.tsv",
+      "sha256": "519ab2711b295ba9544bf64da6b20c55e1193c4e62d1ba3ef95e832c0cb1f314"
+    },
+    {
+      "bytes": 2647,
+      "path": "hdwgcna/CA1/consensus/module_genotype_associations_unadjusted.tsv",
+      "sha256": "c2956dcd2e56d07cfabd002a62b8a4f736f04d4a7c62f0c3916cf24c4f5ca556"
+    },
+    {
+      "bytes": 32282,
+      "path": "hdwgcna/CA1/consensus/module_genotype_leave_one_mouse_out.tsv",
+      "sha256": "205fd23a5682514ddd0f6fa2e43f75adbeb4989840bebae31c28f5e39cdfe88a"
+    },
+    {
+      "bytes": 1874,
+      "path": "hdwgcna/CA1/consensus/module_genotype_mouse_bootstrap.tsv",
+      "sha256": "1dd7dd601e14e0598f8f2fe7905399d382b412e2f2872039ec9ab129f7b78f7a"
+    },
+    {
+      "bytes": 2991,
+      "path": "hdwgcna/CA1/consensus/module_genotype_same_partition_unadjusted.tsv",
+      "sha256": "3df9c7a96f12547fbc17ddd0f7d52d92b95120b73e7810d19038c6eab0a34a00"
+    },
+    {
+      "bytes": 1516182,
+      "path": "hdwgcna/CA1/consensus/module_membership.tsv",
+      "sha256": "288358b84ca8a74bd9327233e6365805a38649dabb85eb7c1c7b776f15be9fef"
+    },
+    {
+      "bytes": 1516182,
+      "path": "hdwgcna/CA1/consensus/modules.tsv",
+      "sha256": "288358b84ca8a74bd9327233e6365805a38649dabb85eb7c1c7b776f15be9fef"
+    },
+    {
+      "bytes": 25473,
+      "path": "hdwgcna/CA1/consensus/mouse_endpoint_eigengenes.tsv",
+      "sha256": "519ab2711b295ba9544bf64da6b20c55e1193c4e62d1ba3ef95e832c0cb1f314"
+    },
+    {
+      "bytes": 123652,
+      "path": "hdwgcna/CA1/consensus/network_edges.tsv",
+      "sha256": "6a5aa4330a70e58a53324b575c11d57f141a4b0ef6c7167028e3999ec6f04981"
+    },
+    {
+      "bytes": 3488362,
+      "path": "hdwgcna/CA1/consensus/network_genes.tsv",
+      "sha256": "a3e2fdd402b22b4aa9c806deb4f3475df81eae93906f271fe724cffeff90c89e"
+    },
+    {
+      "bytes": 2336646,
+      "path": "hdwgcna/CA1/consensus/nucleus_eigengenes.tsv.gz",
+      "sha256": "a36459c6a2522c93cc4a043f4e3a5ef9515383a52475c32c048623052de995ce"
+    },
+    {
+      "bytes": 1478,
+      "path": "hdwgcna/CA1/consensus/pooled_consensus_module_overlap.tsv",
+      "sha256": "46104e9f0ed4b1b92780dd678361755180162ef184982cb8e6d959fb9c78a173"
+    },
+    {
+      "bytes": 132,
+      "path": "hdwgcna/CA1/consensus/run_identity.json",
+      "sha256": "76b9df23a7c3181783d99c2f0be9983755b0bdacb8480bb16b2495e775b09367"
+    },
+    {
+      "bytes": 162,
+      "path": "hdwgcna/CA1/consensus/selected_power.json",
+      "sha256": "482a68c7437ac4fbef6a6de7808ea025252269bf6693a1883ce0d7dae075ae67"
+    },
+    {
+      "bytes": 4552,
+      "path": "hdwgcna/CA1/consensus/soft_power_diagnostics.tsv",
+      "sha256": "52a5973d4617c585b7fefe45fbf3b6e60d056eda21699d22d8bc473a86ae68e1"
+    },
+    {
+      "bytes": 506,
+      "path": "hdwgcna/CA1/consensus/status.json",
+      "sha256": "e2dbd2d1440555fbc83e3f2f36734270809dec33ac8eb789be4418e691b112e4"
+    },
+    {
+      "bytes": 123652,
+      "path": "hdwgcna/CA1/consensus/top_hub_coexpression_edges.tsv",
+      "sha256": "6a5aa4330a70e58a53324b575c11d57f141a4b0ef6c7167028e3999ec6f04981"
+    },
+    {
+      "bytes": 36731,
+      "path": "hdwgcna/CA1/consensus/top_hubs.tsv",
+      "sha256": "b8a62a0abb725768966f1be8b23411b4052588cda4b90dbd5ed1f0928bfe6471"
+    },
+    {
+      "bytes": 1344443,
+      "path": "hdwgcna/CA1/pooled/all_gene_hub_ranks.tsv",
+      "sha256": "4cab33ce2b03cd5c9444434c4ff8660bc66adfd162409669d42332012b4a3567"
+    },
+    {
+      "bytes": 195022321,
+      "path": "hdwgcna/CA1/pooled/analysis_state.rds",
+      "sha256": "ac6fa620fb2cae017ccf3015cbfc2f4d5dc5c66c7cb223bc599f4a4235a727b2"
+    },
+    {
+      "bytes": 4263,
+      "path": "hdwgcna/CA1/pooled/completed.json",
+      "sha256": "c45524ad4837ddb42239a82ac77b67ac24983bc4b3fd39ba3e8166780546acc2"
+    },
+    {
+      "bytes": 3252,
+      "path": "hdwgcna/CA1/pooled/effects.tsv",
+      "sha256": "be1ef563bf4bcebacba0ff1b1ac47566c23b4b83806e308cb455a411fc11f4be"
+    },
+    {
+      "bytes": 531,
+      "path": "hdwgcna/CA1/pooled/eigengene_orientation.tsv",
+      "sha256": "aea6d208f1ecf164088b9b54708b02b448f1c0658fd63ddb4821279534554001"
+    },
+    {
+      "bytes": 79657,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.pdf",
+      "sha256": "6166bec618c6ff2d2c243ec7e559562d8bad5fc1cbfbdf69e1fda0cf5d07af5e"
+    },
+    {
+      "bytes": 99350,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.png",
+      "sha256": "29635d08e96608b1da7029fb960857cb19ffee6cdff824a70dd03264f6b6ae1f"
+    },
+    {
+      "bytes": 1889994,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.svg",
+      "sha256": "da9c74426d768d4100ab140725b252b559367b83feb5dbc9603c68def9af57af"
+    },
+    {
+      "bytes": 78033,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.pdf",
+      "sha256": "6436fb7b4c961a1e7e205260cad601018424dd70ec0e5ebc4ffba2c9117f870e"
+    },
+    {
+      "bytes": 89427,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.png",
+      "sha256": "0ad6bb6e924b52d31331695672283348c3d03db80940f8782140c9673609b6fb"
+    },
+    {
+      "bytes": 1853719,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.svg",
+      "sha256": "87286709b1cf0ac982c84755ed4eead2e979b50a38bdf7ce12327d24451ebf3e"
+    },
+    {
+      "bytes": 75296,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.pdf",
+      "sha256": "31c505e5c67cfbdfb359e084246436e069459a84c9453b4610aa687eb13a0a46"
+    },
+    {
+      "bytes": 83918,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.png",
+      "sha256": "c9e29e0b4761fd8fa6b8061b1a5feda75d5e904c9c701c93dd0064970327339c"
+    },
+    {
+      "bytes": 1875833,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.svg",
+      "sha256": "1c0dad1ee9d3924c258d7260fb1eb7d36d36cf1eef8f14aeb5d56ceac76b0636"
+    },
+    {
+      "bytes": 51568,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.pdf",
+      "sha256": "868652fff126ccf273abe6d33b0c2604dd32975859e18df3ba9cf4017c603d46"
+    },
+    {
+      "bytes": 106382,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.png",
+      "sha256": "5cb82aa7b5ab252858974a637f20429e522e0dbc79dea4b4b29c6a292fb6f956"
+    },
+    {
+      "bytes": 1036408,
+      "path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.svg",
+      "sha256": "b268828d435450e3fa137f7035f1dccd1d41c928b1ae6421ba08ffb92538e39b"
+    },
+    {
+      "bytes": 18255,
+      "path": "hdwgcna/CA1/pooled/figures/metacell_coverage.pdf",
+      "sha256": "e026fd3cce894a7d6bb97511930baf47759e4439d69bde412254973d828b8dec"
+    },
+    {
+      "bytes": 62140,
+      "path": "hdwgcna/CA1/pooled/figures/metacell_coverage.png",
+      "sha256": "ac64919ec47b2d4a005447fd08aaea76e16abd5ce7809a189ac8ec1c45fda2d9"
+    },
+    {
+      "bytes": 92986,
+      "path": "hdwgcna/CA1/pooled/figures/metacell_coverage.svg",
+      "sha256": "d00119e5036d8d80cfaf208e72d6b4bd7c6baa6cd76fe812561d41ea09a722d9"
+    },
+    {
+      "bytes": 22542,
+      "path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.pdf",
+      "sha256": "d02c8b1912f9deb745c98e35655246c55ccb7b8d17faa48e40b5727bc7aa2940"
+    },
+    {
+      "bytes": 95617,
+      "path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.png",
+      "sha256": "b507fa4210073201b7332847ebca8b89fcdcc0fde5cc5a299d4751de5dbdbac3"
+    },
+    {
+      "bytes": 115258,
+      "path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.svg",
+      "sha256": "fb5205f41d486c3ac922863f21ffc1478fc3fde6083f0cc4653f1042d3e104a4"
+    },
+    {
+      "bytes": 23549,
+      "path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.pdf",
+      "sha256": "0d5471cd815c9d34ebfb4afa4e53bc7764e587c3523ab49b92379a7c719c86d8"
+    },
+    {
+      "bytes": 74912,
+      "path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.png",
+      "sha256": "4986cf3cffbe9b862951c004193421d1612e738760b09bf62624ec9726ba7caa"
+    },
+    {
+      "bytes": 193186,
+      "path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.svg",
+      "sha256": "fc4c20e2b886c141a84826db448ebb9be39074df503433cc052d97608a4dbf68"
+    },
+    {
+      "bytes": 21374,
+      "path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.pdf",
+      "sha256": "44e07b58343fc6c7842fbdd9979e4edf5985b0d9f491b153d25dde8ea174c63b"
+    },
+    {
+      "bytes": 85332,
+      "path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.png",
+      "sha256": "7aff61d16239a544fe59fcac234e340a0de9e16e12630baed0272773b7a7bbb2"
+    },
+    {
+      "bytes": 118625,
+      "path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.svg",
+      "sha256": "67826b8a2c5aa3326fdd12f5fe164fd0eb8c02688ea88ff9d960a402b2276681"
+    },
+    {
+      "bytes": 21596,
+      "path": "hdwgcna/CA1/pooled/figures/top_hubs.pdf",
+      "sha256": "82d0d9e51ff6801d90448fd749488a6df3d27c7ea1b807603cdb00295e3228d6"
+    },
+    {
+      "bytes": 222034,
+      "path": "hdwgcna/CA1/pooled/figures/top_hubs.png",
+      "sha256": "583893451377a92496b55d7797382db56bf12543ad6e9214d871deecde4b8c6d"
+    },
+    {
+      "bytes": 281888,
+      "path": "hdwgcna/CA1/pooled/figures/top_hubs.svg",
+      "sha256": "7f1f3cf6f84abfcb2d429299640bd84bc4811d75365ef9dc46d9e92a2c9538aa"
+    },
+    {
+      "bytes": 13434,
+      "path": "hdwgcna/CA1/pooled/fixed_module_connectivity_stability.tsv",
+      "sha256": "ce04831db80d04187ba20b0ea801e86ce44ece435de4b98d53b5136cfefbb86f"
+    },
+    {
+      "bytes": 53456,
+      "path": "hdwgcna/CA1/pooled/hub_genes.tsv",
+      "sha256": "956e2e0b0a05d28ce2308180ebd02d94072b041b2bcbe6a536c20c3baaa810ad"
+    },
+    {
+      "bytes": 1179,
+      "path": "hdwgcna/CA1/pooled/metacell_coverage.tsv",
+      "sha256": "092f29523fbbf68bd736fba83b4eba9445ef529a857fb4d4945cd1270bc12509"
+    },
+    {
+      "bytes": 211310,
+      "path": "hdwgcna/CA1/pooled/metacell_membership.tsv.gz",
+      "sha256": "56ebe095796f4055160e4c16ac271e3db70949d2432489eddc118bc40dc4a8bb"
+    },
+    {
+      "bytes": 905894,
+      "path": "hdwgcna/CA1/pooled/metacell_metadata.tsv",
+      "sha256": "ca6453b739006ecd3660dfd235ff481d2896616542a45239baa30c7366326950"
+    },
+    {
+      "bytes": 31885,
+      "path": "hdwgcna/CA1/pooled/module_eigengenes_mouse.tsv",
+      "sha256": "4de1f88a94cdcb1b828d0ddc9b31b51a75ba5bd827d9f0c36b16bb8e78df3e4f"
+    },
+    {
+      "bytes": 3252,
+      "path": "hdwgcna/CA1/pooled/module_genotype_associations_unadjusted.tsv",
+      "sha256": "be1ef563bf4bcebacba0ff1b1ac47566c23b4b83806e308cb455a411fc11f4be"
+    },
+    {
+      "bytes": 39761,
+      "path": "hdwgcna/CA1/pooled/module_genotype_leave_one_mouse_out.tsv",
+      "sha256": "a4fd8c3c0109873e6662c95de4ceaea50a09f6ffcee2396d48f58de213b84864"
+    },
+    {
+      "bytes": 2250,
+      "path": "hdwgcna/CA1/pooled/module_genotype_mouse_bootstrap.tsv",
+      "sha256": "c122eea3ce74cd5b273954778a367acbd7f68fb10fa3aaff1d0711d1bd71bd99"
+    },
+    {
+      "bytes": 3670,
+      "path": "hdwgcna/CA1/pooled/module_genotype_same_partition_unadjusted.tsv",
+      "sha256": "6bbc1b542ff87c9ea32cdaf10d26897038899ecc99ddbc5c102b68cf3f087a6b"
+    },
+    {
+      "bytes": 1837179,
+      "path": "hdwgcna/CA1/pooled/module_membership.tsv",
+      "sha256": "e4a4f49fc4e95b03e2e749c307fc535ee7da337b1f59658fcacd79bdc90b3bd9"
+    },
+    {
+      "bytes": 1837179,
+      "path": "hdwgcna/CA1/pooled/modules.tsv",
+      "sha256": "e4a4f49fc4e95b03e2e749c307fc535ee7da337b1f59658fcacd79bdc90b3bd9"
+    },
+    {
+      "bytes": 31885,
+      "path": "hdwgcna/CA1/pooled/mouse_endpoint_eigengenes.tsv",
+      "sha256": "4de1f88a94cdcb1b828d0ddc9b31b51a75ba5bd827d9f0c36b16bb8e78df3e4f"
+    },
+    {
+      "bytes": 154763,
+      "path": "hdwgcna/CA1/pooled/network_edges.tsv",
+      "sha256": "d3688b107cfc4928948ef3b8a3bb36467b300b119b57efc927cfc875ca39c2ed"
+    },
+    {
+      "bytes": 3305485,
+      "path": "hdwgcna/CA1/pooled/network_gene_selection.tsv",
+      "sha256": "f84b79bb37fc65bd99f69051e045ea4d49166683194844287d9911be15a0a6a3"
+    },
+    {
+      "bytes": 3488362,
+      "path": "hdwgcna/CA1/pooled/network_genes.tsv",
+      "sha256": "a3e2fdd402b22b4aa9c806deb4f3475df81eae93906f271fe724cffeff90c89e"
+    },
+    {
+      "bytes": 124731,
+      "path": "hdwgcna/CA1/pooled/network_genes_tested.tsv",
+      "sha256": "f897dd2f48da8c85a04297be0b48d93f48052676beeb408882bb27eb31be815d"
+    },
+    {
+      "bytes": 2715239,
+      "path": "hdwgcna/CA1/pooled/nucleus_eigengenes.tsv.gz",
+      "sha256": "9709f5459dc05b3d0b7c9807089416704d265af729fe5ed251b479504a195812"
+    },
+    {
+      "bytes": 1783,
+      "path": "hdwgcna/CA1/pooled/provenance.json",
+      "sha256": "2e7c8dd6256831b5df2eb77e57dd18ddaa55f4e9b6669463f361086f0280f6bb"
+    },
+    {
+      "bytes": 132,
+      "path": "hdwgcna/CA1/pooled/run_identity.json",
+      "sha256": "99d509464a8ce40e08989bae64fb5607e6e199e9b797b4a1366f8fd9109dcb43"
+    },
+    {
+      "bytes": 64,
+      "path": "hdwgcna/CA1/pooled/selected_power.json",
+      "sha256": "96cace95e138c92b76825544a8e566beb45a649dc9e6ba275ebc7be6bd47c16b"
+    },
+    {
+      "bytes": 2231,
+      "path": "hdwgcna/CA1/pooled/soft_power_diagnostics.tsv",
+      "sha256": "119a66d70ae9074148d511d5e6e7cf57a03759a9c08bfe2bc0fd4ec15aa500fe"
+    },
+    {
+      "bytes": 504,
+      "path": "hdwgcna/CA1/pooled/status.json",
+      "sha256": "1929d608c235553d1deab1d01296f4e18133f4f6f57b6e8b6f20a3eb10a92960"
+    },
+    {
+      "bytes": 154763,
+      "path": "hdwgcna/CA1/pooled/top_hub_coexpression_edges.tsv",
+      "sha256": "d3688b107cfc4928948ef3b8a3bb36467b300b119b57efc927cfc875ca39c2ed"
+    },
+    {
+      "bytes": 53456,
+      "path": "hdwgcna/CA1/pooled/top_hubs.tsv",
+      "sha256": "956e2e0b0a05d28ce2308180ebd02d94072b041b2bcbe6a536c20c3baaa810ad"
+    },
+    {
+      "bytes": 458302,
+      "path": "hdwgcna/IN/consensus/all_gene_hub_ranks.tsv",
+      "sha256": "6d37f96a451e16fdbe581d3696445d0d0a59785433a6f836f708b5fd6653d0c1"
+    },
+    {
+      "bytes": 40730226,
+      "path": "hdwgcna/IN/consensus/analysis_state.rds",
+      "sha256": "36a41920b33d1c80bf35640a1fed4bd2d3fe4202fccc39a672bfb810046013d5"
+    },
+    {
+      "bytes": 3767,
+      "path": "hdwgcna/IN/consensus/completed.json",
+      "sha256": "bd82c7d1c970af9d6e1921770fff00d48cbf84c2cf2f6afe94c318d3a821012c"
+    },
+    {
+      "bytes": 57,
+      "path": "hdwgcna/IN/consensus/consensus_coverage.tsv",
+      "sha256": "d31c1ab2867bf935da7eeeb0482142ae05719c02d35bea636a3553bbe48b870e"
+    },
+    {
+      "bytes": 1952,
+      "path": "hdwgcna/IN/consensus/effects.tsv",
+      "sha256": "000b59ed199c192b32ca70ca7c5f3844628f5e7a11936822a7c4168be199992c"
+    },
+    {
+      "bytes": 244,
+      "path": "hdwgcna/IN/consensus/eigengene_orientation.tsv",
+      "sha256": "d03c7f5ccdec56c95b2b6e0f6266c3c6a70706222da741386e1ee37ca9d71e6b"
+    },
+    {
+      "bytes": 77822,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.pdf",
+      "sha256": "b2251819ed2724bf14373ab85a1cdbd26d1274a3cccb5657e0cc8f91ada04ba4"
+    },
+    {
+      "bytes": 100052,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.png",
+      "sha256": "6010bb7782f333906459380d2a44d62e11de2af9163cacbd58ff1fedb12a672c"
+    },
+    {
+      "bytes": 1868338,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.svg",
+      "sha256": "14a4373059c7ad2341420e01a18d9d85e2a998d0e395096a8004cf68ff9a30d1"
+    },
+    {
+      "bytes": 80927,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.pdf",
+      "sha256": "a6a61afae7399f952f8d9767ec04313e2369297eb13bf9c901b9ae7844a0b4bf"
+    },
+    {
+      "bytes": 106339,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.png",
+      "sha256": "06841daa6cb267c5d9d65cbd3bb9e781816dc49b7e16d3805a3ef74432595043"
+    },
+    {
+      "bytes": 1891166,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.svg",
+      "sha256": "f0f2be4f1575036c253cb8b07969a4da6939ca392b2b8b963c5bc630a1c2e778"
+    },
+    {
+      "bytes": 84425,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.pdf",
+      "sha256": "da57633159911299f8bbf15fb2b26009cc984d6cfb1aa323ec589d08b63ffed6"
+    },
+    {
+      "bytes": 121675,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.png",
+      "sha256": "b295f44ca6d2bf498a3cfd4f03de758eb7988aa535ff7779e3b653d572f39d28"
+    },
+    {
+      "bytes": 1894170,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.svg",
+      "sha256": "cccfcc2f4e53357893bab44686ad4914865567efdc7f9c88c924b8bf8d5619ba"
+    },
+    {
+      "bytes": 63400,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.pdf",
+      "sha256": "a86647aaf5d92b5dce15c65dcee69f1c45297ad4759d9dda607647c98e274806"
+    },
+    {
+      "bytes": 157599,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.png",
+      "sha256": "12ffdd53667db453954bd7d401c89e2120dbf6ac8b6d2748fba5393ce61aafd3"
+    },
+    {
+      "bytes": 1349324,
+      "path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.svg",
+      "sha256": "fc0ca1239ec2d79cc8288adf8d17030a27d1e53662d0724d90a8d3ac3fba2f2d"
+    },
+    {
+      "bytes": 16546,
+      "path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.pdf",
+      "sha256": "a93b90ce8885b50115a13b221a0a639a28a2bb99837d42d81a4a7897237af94a"
+    },
+    {
+      "bytes": 72518,
+      "path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.png",
+      "sha256": "9e6c1c3e658fbb540ddddd9a456794bf1a99bfb5dce65ced63c6009406443d4d"
+    },
+    {
+      "bytes": 89683,
+      "path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.svg",
+      "sha256": "6cc5479e7cfd2d35bb2630ecd63695ddb4b2bbf03c9a72e4e8e6a1ba4b28acde"
+    },
+    {
+      "bytes": 17991,
+      "path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.pdf",
+      "sha256": "bf6ba2279684d481804a4c50dab33df2f0e1235faebf1f8b19fe5442a895fa51"
+    },
+    {
+      "bytes": 48974,
+      "path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.png",
+      "sha256": "a68c5635b746e20dbf54365f65b308093f249127be229a3ddd49160fe6d1e3a3"
+    },
+    {
+      "bytes": 155058,
+      "path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.svg",
+      "sha256": "851edc4011af8e7ff27d498d0b72c6965a69c1a20bdcdfcfe0c9acb0c7a4e552"
+    },
+    {
+      "bytes": 24100,
+      "path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.pdf",
+      "sha256": "9a9261377d99915d84520d9b13ead39169bf915e95c897af5d1f0947c8c55011"
+    },
+    {
+      "bytes": 100787,
+      "path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.png",
+      "sha256": "8b06bf711d76338339f81221c2d3934d2834adfb54e1b40c92b80885929c1c36"
+    },
+    {
+      "bytes": 148520,
+      "path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.svg",
+      "sha256": "d180af36916e250cf5da1a62eb0292f4361cca5c3e848bc333856c701e49f581"
+    },
+    {
+      "bytes": 17765,
+      "path": "hdwgcna/IN/consensus/figures/top_hubs.pdf",
+      "sha256": "b184ef2e5e11fc2ea1d7a94e2158779e832e2e8e80e5994cbff53f96c0636773"
+    },
+    {
+      "bytes": 103787,
+      "path": "hdwgcna/IN/consensus/figures/top_hubs.png",
+      "sha256": "f452f8db076ebc7087eee2419fcae3a1345e14f5d54e2cb9694d411ddfa56fac"
+    },
+    {
+      "bytes": 160758,
+      "path": "hdwgcna/IN/consensus/figures/top_hubs.svg",
+      "sha256": "6068489a087c2e5188b0bdded4d447d416b644d8db3c7afa8ea5f4b76ea0caae"
+    },
+    {
+      "bytes": 5437,
+      "path": "hdwgcna/IN/consensus/fixed_module_connectivity_stability.tsv",
+      "sha256": "d0c117ff9d4ac1937aea1bb112e287f9728ff579e25eb4cc2386671f9be44a6a"
+    },
+    {
+      "bytes": 12412,
+      "path": "hdwgcna/IN/consensus/hub_genes.tsv",
+      "sha256": "b2b31bc6e4aae9e6ba1b2b7a3a5f96612057bb80c579ea1ff4ccf4a8e11c6b6d"
+    },
+    {
+      "bytes": 18124,
+      "path": "hdwgcna/IN/consensus/module_eigengenes_mouse.tsv",
+      "sha256": "667055ad5b85148ed7d836e39625dcbc99e4be350cde252cf3a5b2d84e203e01"
+    },
+    {
+      "bytes": 1952,
+      "path": "hdwgcna/IN/consensus/module_genotype_associations_unadjusted.tsv",
+      "sha256": "000b59ed199c192b32ca70ca7c5f3844628f5e7a11936822a7c4168be199992c"
+    },
+    {
+      "bytes": 23379,
+      "path": "hdwgcna/IN/consensus/module_genotype_leave_one_mouse_out.tsv",
+      "sha256": "f6fcce69454a1cf00d93912f91b2e466ae10658ee39abe03b2ee96c0d54cfd97"
+    },
+    {
+      "bytes": 1356,
+      "path": "hdwgcna/IN/consensus/module_genotype_mouse_bootstrap.tsv",
+      "sha256": "4e23a2207415521db58ccfa02860a3fdb96f6846068d22ed9410604aa34a1df3"
+    },
+    {
+      "bytes": 2211,
+      "path": "hdwgcna/IN/consensus/module_genotype_same_partition_unadjusted.tsv",
+      "sha256": "bab50cdfae2c93e50bed173c97374145f161b16003700133710f5ffd5fd1d568"
+    },
+    {
+      "bytes": 1031280,
+      "path": "hdwgcna/IN/consensus/module_membership.tsv",
+      "sha256": "56f5d188e81b2670dd6b00b50f3ad4690fe143454cac4a0199a54434eed48ebb"
+    },
+    {
+      "bytes": 1031280,
+      "path": "hdwgcna/IN/consensus/modules.tsv",
+      "sha256": "56f5d188e81b2670dd6b00b50f3ad4690fe143454cac4a0199a54434eed48ebb"
+    },
+    {
+      "bytes": 18124,
+      "path": "hdwgcna/IN/consensus/mouse_endpoint_eigengenes.tsv",
+      "sha256": "667055ad5b85148ed7d836e39625dcbc99e4be350cde252cf3a5b2d84e203e01"
+    },
+    {
+      "bytes": 62647,
+      "path": "hdwgcna/IN/consensus/network_edges.tsv",
+      "sha256": "79eaaf53331ba519a753342e243ce6e9f4283632019715acc2e10049a4ff90e1"
+    },
+    {
+      "bytes": 3720918,
+      "path": "hdwgcna/IN/consensus/network_genes.tsv",
+      "sha256": "d56f97b3e5159b0d287c09cf2253cc7f1268f2c9eaf7fe9410aa0191ca404122"
+    },
+    {
+      "bytes": 208189,
+      "path": "hdwgcna/IN/consensus/nucleus_eigengenes.tsv.gz",
+      "sha256": "995f8c24a3343b56bdcecc531d6e5ae64c07650445ef055cc0f4e8c2fbd3bcb9"
+    },
+    {
+      "bytes": 496,
+      "path": "hdwgcna/IN/consensus/pooled_consensus_module_overlap.tsv",
+      "sha256": "014764b17a6c3d2237ab59193064196587d5d287e8ab2eda5b00e1d7165521ee"
+    },
+    {
+      "bytes": 132,
+      "path": "hdwgcna/IN/consensus/run_identity.json",
+      "sha256": "a2ab64a93cf289d0e62086b8c4b83173a564da69c3e26cc777c3403563f045e8"
+    },
+    {
+      "bytes": 162,
+      "path": "hdwgcna/IN/consensus/selected_power.json",
+      "sha256": "d7888375d2cfcaeceb5fe8de1c318c5cd2fa57ff68a3c980ac76c16139ecad61"
+    },
+    {
+      "bytes": 4546,
+      "path": "hdwgcna/IN/consensus/soft_power_diagnostics.tsv",
+      "sha256": "97fc6211c56558022f9e20e2c87eac6c4b879ff4f4558f17334cd214336dbe2a"
+    },
+    {
+      "bytes": 503,
+      "path": "hdwgcna/IN/consensus/status.json",
+      "sha256": "c19889f0bab038e539bbd291bea97e2430832bb8a5101a3ae7f5ed9eaa3ee062"
+    },
+    {
+      "bytes": 62647,
+      "path": "hdwgcna/IN/consensus/top_hub_coexpression_edges.tsv",
+      "sha256": "79eaaf53331ba519a753342e243ce6e9f4283632019715acc2e10049a4ff90e1"
+    },
+    {
+      "bytes": 12412,
+      "path": "hdwgcna/IN/consensus/top_hubs.tsv",
+      "sha256": "b2b31bc6e4aae9e6ba1b2b7a3a5f96612057bb80c579ea1ff4ccf4a8e11c6b6d"
+    },
+    {
+      "bytes": 407356,
+      "path": "hdwgcna/IN/pooled/all_gene_hub_ranks.tsv",
+      "sha256": "d4c7dc3b6b2815f37fcc8df4c49d780fa33c0300c0b01a7725feb1e085d2bf55"
+    },
+    {
+      "bytes": 40751600,
+      "path": "hdwgcna/IN/pooled/analysis_state.rds",
+      "sha256": "6f2022aa8b7c13e8b4234b20dadd64522af0d3a118083b1d5177fcb0309700e9"
+    },
+    {
+      "bytes": 4262,
+      "path": "hdwgcna/IN/pooled/completed.json",
+      "sha256": "42f050d624a98a4ec95d901b36fabdedda42dceb0bacf430b8196858b8867dd4"
+    },
+    {
+      "bytes": 2361,
+      "path": "hdwgcna/IN/pooled/effects.tsv",
+      "sha256": "f50a2c5fa0d3df0e8206c2374ce6b4ef7bcbd3670de89187da52749609453019"
+    },
+    {
+      "bytes": 292,
+      "path": "hdwgcna/IN/pooled/eigengene_orientation.tsv",
+      "sha256": "32a15af5836a5ddc86d67c30ea1d76be1b9e246ce92ce09d45a4fd5d424a6db9"
+    },
+    {
+      "bytes": 83209,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.pdf",
+      "sha256": "9c77e3ecb4ec721ed69a5ef4cb13b31f2d47f2d9950b37cf77d3a44204c3833d"
+    },
+    {
+      "bytes": 121018,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.png",
+      "sha256": "a202fded884afda0ab4d2bdbd0bc2f40b282a504cd76295d8469a197916e17ca"
+    },
+    {
+      "bytes": 1905794,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.svg",
+      "sha256": "98fba9699eae3958cbd8c2a63fb0942ff37c61680d0aaf979e20dec6adfa8ea7"
+    },
+    {
+      "bytes": 79435,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.pdf",
+      "sha256": "fea8750cb0f445067c62bb6d9c62db84af7174649e223ed4e4495415ab97fe6f"
+    },
+    {
+      "bytes": 96844,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.png",
+      "sha256": "bcbdbbefc1cc2c51a03195ea0c54ab60cf95c72c053b4685b931ad8fe254dc50"
+    },
+    {
+      "bytes": 1868181,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.svg",
+      "sha256": "507e765585b63777d5ddb560cd1289e10acbb0db55c421618e7e417c5bda4dcc"
+    },
+    {
+      "bytes": 77923,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.pdf",
+      "sha256": "fb337b963f5cc130b369461b0c21bce13aea3c13d5ff8d251a61246e1a6f4ee1"
+    },
+    {
+      "bytes": 89221,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.png",
+      "sha256": "a69d8684a3a8389277baee42bdb003e582b5afabd0d98863eee775f6fc459560"
+    },
+    {
+      "bytes": 1901615,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.svg",
+      "sha256": "69f585642de00fd8b860fc1ce69ff185a24d6862831f92c66561ee1236738848"
+    },
+    {
+      "bytes": 63089,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.pdf",
+      "sha256": "8803a652ab9ea472147014a2a3fc5f18dbefa03284b265ee80d51705c81d74cf"
+    },
+    {
+      "bytes": 113542,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.png",
+      "sha256": "3f2894a554ddff494ca358cc5c8acef4e9487e9b7f3afdbc41358ba3f6887409"
+    },
+    {
+      "bytes": 1321069,
+      "path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.svg",
+      "sha256": "0b6fe007c6f457ef20c0a74ec13af5270ab46b8ced0ddac0c92556cb3a1ce61c"
+    },
+    {
+      "bytes": 14838,
+      "path": "hdwgcna/IN/pooled/figures/metacell_coverage.pdf",
+      "sha256": "9f16a8b7905e1e9cf804e8a51762126e76665fb4c9adee3ba7587314783d4ffe"
+    },
+    {
+      "bytes": 69078,
+      "path": "hdwgcna/IN/pooled/figures/metacell_coverage.png",
+      "sha256": "bb0a878a1f0c0666eddb802d6598cd5578a46b52dfeb8f0bdcce77af3821cead"
+    },
+    {
+      "bytes": 98846,
+      "path": "hdwgcna/IN/pooled/figures/metacell_coverage.svg",
+      "sha256": "8976834391eb5afcafbf750b18815aef8c1b1821ae0d271ea5b72191670f8463"
+    },
+    {
+      "bytes": 17833,
+      "path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.pdf",
+      "sha256": "5371c87673b0cf0b24f5d1dc496d42e93f7eab88649146eb3dacee6d0c7965b0"
+    },
+    {
+      "bytes": 85068,
+      "path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.png",
+      "sha256": "c30822d5f2bf8651ccff2463acd3ea11adc583ba64811700d222e4fd9e59ffb8"
+    },
+    {
+      "bytes": 98622,
+      "path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.svg",
+      "sha256": "4072b303f57d70abae9f78297659ddcab9378338d52df1d4c3eb8fcae5b25e6b"
+    },
+    {
+      "bytes": 18366,
+      "path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.pdf",
+      "sha256": "4ca65dfb221281ca8a179c1ca90578d7427ba397169278afb32c0e072cd473d5"
+    },
+    {
+      "bytes": 51125,
+      "path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.png",
+      "sha256": "bf3c08d826c6546769fdc2b9f1bf873868505239ab4cfdd6941d2098a506d8a5"
+    },
+    {
+      "bytes": 167661,
+      "path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.svg",
+      "sha256": "e9f0d389462af8017829bf473ce6fd982c3324d96c87ac04b3a6a6d8984ed2de"
+    },
+    {
+      "bytes": 21405,
+      "path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.pdf",
+      "sha256": "232036effc1277b196d7ba4c8af209c610b37ab5337edeab86f8e4c624a96c5d"
+    },
+    {
+      "bytes": 82297,
+      "path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.png",
+      "sha256": "0c8be0e0d36c5c0315126291f892812bd1cd592e903d8309ca206c8f0b8b01de"
+    },
+    {
+      "bytes": 119659,
+      "path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.svg",
+      "sha256": "750b2e08fab37d9a9989b09ff504ca377ced9ec4afdf9a0fcf164ba4db45bb6e"
+    },
+    {
+      "bytes": 18418,
+      "path": "hdwgcna/IN/pooled/figures/top_hubs.pdf",
+      "sha256": "2463a8978c569c5b7973d7063b2d1e1e0a81b5687ea1a74e44453aa05443352f"
+    },
+    {
+      "bytes": 123607,
+      "path": "hdwgcna/IN/pooled/figures/top_hubs.png",
+      "sha256": "975b432a22d2ee0ea68e91630fce1d93fa56467589bbb7e20058cb7ec0b135c5"
+    },
+    {
+      "bytes": 182479,
+      "path": "hdwgcna/IN/pooled/figures/top_hubs.svg",
+      "sha256": "2a6efefc9a6202246636d169d19e8dee2d9f3153243aaad60b90550fe93f32a9"
+    },
+    {
+      "bytes": 6716,
+      "path": "hdwgcna/IN/pooled/fixed_module_connectivity_stability.tsv",
+      "sha256": "c1108d98bbed99bfbccec42687e7cdac7149d8217e39f8dcfd7faaa8dded7f63"
+    },
+    {
+      "bytes": 17377,
+      "path": "hdwgcna/IN/pooled/hub_genes.tsv",
+      "sha256": "176fa25fbe02498b2f0fce86d263f9c26a52eb4c912ac392b2c53e9f0405474b"
+    },
+    {
+      "bytes": 1441,
+      "path": "hdwgcna/IN/pooled/metacell_coverage.tsv",
+      "sha256": "7434273358b2b46d045bf82c4f879071ecccd7a8a8d5e38ec56296e60f315c59"
+    },
+    {
+      "bytes": 26109,
+      "path": "hdwgcna/IN/pooled/metacell_membership.tsv.gz",
+      "sha256": "366ec6a240192c6499bb6f96aa1e581a4bc9e151545279006fcba33141ec985a"
+    },
+    {
+      "bytes": 118607,
+      "path": "hdwgcna/IN/pooled/metacell_metadata.tsv",
+      "sha256": "7cd22c5203a05cedbcd886183b6cf6484b43f87c15225379fa350330e673a3cd"
+    },
+    {
+      "bytes": 22620,
+      "path": "hdwgcna/IN/pooled/module_eigengenes_mouse.tsv",
+      "sha256": "f0452589b9aad60c902f9584650842a7f11d0741823c8d4ca57b762d34d9af1f"
+    },
+    {
+      "bytes": 2361,
+      "path": "hdwgcna/IN/pooled/module_genotype_associations_unadjusted.tsv",
+      "sha256": "f50a2c5fa0d3df0e8206c2374ce6b4ef7bcbd3670de89187da52749609453019"
+    },
+    {
+      "bytes": 28594,
+      "path": "hdwgcna/IN/pooled/module_genotype_leave_one_mouse_out.tsv",
+      "sha256": "143f64cec696c270aea00d3931fdb62836ba533dba310ec4223429f266af1659"
+    },
+    {
+      "bytes": 1618,
+      "path": "hdwgcna/IN/pooled/module_genotype_mouse_bootstrap.tsv",
+      "sha256": "6e9507ea78cdf3c67ab88f4a1620ecfdfba1f4f3a0badce0adb75bd088d77411"
+    },
+    {
+      "bytes": 2685,
+      "path": "hdwgcna/IN/pooled/module_genotype_same_partition_unadjusted.tsv",
+      "sha256": "44e7c30641603e78079a4cc3f1fb8a7979315d1e488a3d0a262ef64405056cd4"
+    },
+    {
+      "bytes": 1051392,
+      "path": "hdwgcna/IN/pooled/module_membership.tsv",
+      "sha256": "93fcec4dac6576c9842e75b63095091bae7aa25979ebe32727f5edaa178f280a"
+    },
+    {
+      "bytes": 1051392,
+      "path": "hdwgcna/IN/pooled/modules.tsv",
+      "sha256": "93fcec4dac6576c9842e75b63095091bae7aa25979ebe32727f5edaa178f280a"
+    },
+    {
+      "bytes": 22620,
+      "path": "hdwgcna/IN/pooled/mouse_endpoint_eigengenes.tsv",
+      "sha256": "f0452589b9aad60c902f9584650842a7f11d0741823c8d4ca57b762d34d9af1f"
+    },
+    {
+      "bytes": 78105,
+      "path": "hdwgcna/IN/pooled/network_edges.tsv",
+      "sha256": "6cfcbd41de9e829d6af14c566e1c85ea939e1664e15e548e1ba6238035b3a43a"
+    },
+    {
+      "bytes": 3538488,
+      "path": "hdwgcna/IN/pooled/network_gene_selection.tsv",
+      "sha256": "15665f6ddf9abc96b1537717ab3e02d27340629b91ffcf813fb50d5513d24057"
+    },
+    {
+      "bytes": 3720918,
+      "path": "hdwgcna/IN/pooled/network_genes.tsv",
+      "sha256": "d56f97b3e5159b0d287c09cf2253cc7f1268f2c9eaf7fe9410aa0191ca404122"
+    },
+    {
+      "bytes": 129964,
+      "path": "hdwgcna/IN/pooled/network_genes_tested.tsv",
+      "sha256": "d58720f046b72b9bf78986b0fe2a50136279d2f0343bbc6a08ee32d1f9518414"
+    },
+    {
+      "bytes": 235022,
+      "path": "hdwgcna/IN/pooled/nucleus_eigengenes.tsv.gz",
+      "sha256": "255a8e193d57a2e60ef53ca9ee98dd35897c813d17ebb181b4fbc78bc3d5a81f"
+    },
+    {
+      "bytes": 1783,
+      "path": "hdwgcna/IN/pooled/provenance.json",
+      "sha256": "88a2cd65ec93400c8714610ed7ab4968c6b097390fb2755d65d9b0a6551da007"
+    },
+    {
+      "bytes": 132,
+      "path": "hdwgcna/IN/pooled/run_identity.json",
+      "sha256": "0f1e98c727c4f4ba0e21e85bd959193034bc24300be298e98660ee12081e4724"
+    },
+    {
+      "bytes": 64,
+      "path": "hdwgcna/IN/pooled/selected_power.json",
+      "sha256": "569e3743113751b4124dfe1948495c9275d7bf6bc1ee713066b5570abbd8543d"
+    },
+    {
+      "bytes": 2228,
+      "path": "hdwgcna/IN/pooled/soft_power_diagnostics.tsv",
+      "sha256": "455656d2733f47f8e6994a44d831eac6fd509763cb87d52e159dfef5273ad38f"
+    },
+    {
+      "bytes": 500,
+      "path": "hdwgcna/IN/pooled/status.json",
+      "sha256": "1b87c5852a83388fb9a17729687f9d60be6d0ad9fd0f21054fd70ea0fc5d9cba"
+    },
+    {
+      "bytes": 78105,
+      "path": "hdwgcna/IN/pooled/top_hub_coexpression_edges.tsv",
+      "sha256": "6cfcbd41de9e829d6af14c566e1c85ea939e1664e15e548e1ba6238035b3a43a"
+    },
+    {
+      "bytes": 17377,
+      "path": "hdwgcna/IN/pooled/top_hubs.tsv",
+      "sha256": "176fa25fbe02498b2f0fce86d263f9c26a52eb4c912ac392b2c53e9f0405474b"
+    },
+    {
+      "bytes": 7479,
+      "path": "hdwgcna/consensus_module_genotype_associations.tsv",
+      "sha256": "0f1fca2b36248f68c8ef01af32fedfcda1814a82e2b9640261c96d1acd568e7b"
+    },
+    {
+      "bytes": 8119,
+      "path": "hdwgcna/consensus_module_genotype_same_partition.tsv",
+      "sha256": "eab5f04554bc338c4d223b0b4572e89f03e216b65e83dcf8c0144b4bf0f3deaa"
+    },
+    {
+      "bytes": 22463,
+      "path": "hdwgcna/figures/consensus_module_genotype_associations.pdf",
+      "sha256": "c2ce2c4c2027acd6a81e8dd68e9c38ad842939215f509a77e227b217cf1cf710"
+    },
+    {
+      "bytes": 119198,
+      "path": "hdwgcna/figures/consensus_module_genotype_associations.png",
+      "sha256": "b85fceade5cc511b7201048b767312214e8ec9a57623a340c9a21b62da4f18b2"
+    },
+    {
+      "bytes": 160439,
+      "path": "hdwgcna/figures/consensus_module_genotype_associations.svg",
+      "sha256": "57e808df7dafd113a80b0b2224f2d25ff37dabd411a92b902e8faf804c6931c0"
+    },
+    {
+      "bytes": 22164,
+      "path": "hdwgcna/figures/consensus_module_genotype_same_partition.pdf",
+      "sha256": "57ae44ffb4fba06d8237ab4e49d36ddb91219a62dd84138ad310dd45818c3283"
+    },
+    {
+      "bytes": 120231,
+      "path": "hdwgcna/figures/consensus_module_genotype_same_partition.png",
+      "sha256": "daf7a04ac754f29818e9426145a05702da45385317125614f0ea04ce0d9008c6"
+    },
+    {
+      "bytes": 158808,
+      "path": "hdwgcna/figures/consensus_module_genotype_same_partition.svg",
+      "sha256": "535475a5f2d499c47c3e6aee5b9ab4e8eb73eebf5b3c4b3d9b2ba514298c7986"
+    },
+    {
+      "bytes": 23032,
+      "path": "hdwgcna/figures/pooled_module_genotype_associations.pdf",
+      "sha256": "5f097e3da8892c05ba0b8903fe0d0d8bb2c5e95faab3c7d21421bd222aceab0c"
+    },
+    {
+      "bytes": 139490,
+      "path": "hdwgcna/figures/pooled_module_genotype_associations.png",
+      "sha256": "68bc6ce0f45b86994655fe9c6cf5f1ddd6e3b48fb432b3a80bfe77126a9bdfdb"
+    },
+    {
+      "bytes": 181473,
+      "path": "hdwgcna/figures/pooled_module_genotype_associations.svg",
+      "sha256": "489ec9410516d5587087313112aac3093faacfea0cf4938008e3084aea69ac2d"
+    },
+    {
+      "bytes": 23072,
+      "path": "hdwgcna/figures/pooled_module_genotype_same_partition.pdf",
+      "sha256": "d5b539af6aec04c6675cd95450c03aac46daa76435845bfe5d8c09c93ef608dc"
+    },
+    {
+      "bytes": 142980,
+      "path": "hdwgcna/figures/pooled_module_genotype_same_partition.png",
+      "sha256": "c8b6a03d5bef9c2bbd9e13cdba56b69c5ebbde1bc57bc96c25e547432a497702"
+    },
+    {
+      "bytes": 182603,
+      "path": "hdwgcna/figures/pooled_module_genotype_same_partition.svg",
+      "sha256": "815928dab7a2c71461de2fc2c86d896d28a4a9de8cf6e5ed335cfcf8f2fee513"
+    },
+    {
+      "bytes": 9140,
+      "path": "hdwgcna/pooled_module_genotype_associations.tsv",
+      "sha256": "9e6f6609c196ecca2c015f3995c962d6a516aee69f8344cb8b4c7206ec996e7e"
+    },
+    {
+      "bytes": 9937,
+      "path": "hdwgcna/pooled_module_genotype_same_partition.tsv",
+      "sha256": "4b54e2967f41659eac4b58c95033c6d1249e7819da973d9d092bc178a2d9aecc"
+    },
+    {
+      "bytes": 132,
+      "path": "hdwgcna/run_identity.json",
+      "sha256": "71c3e12f719fd34fc77c0d42336ce350503e242613d3867b1641e43ccb0fee6e"
+    },
+    {
+      "bytes": 1723,
+      "path": "hdwgcna/run_parameters.json",
+      "sha256": "044002589ebd8c430011c62891568c9d1d140b21880daf7bb5ecd013740ee6f9"
+    },
+    {
+      "bytes": 5424,
+      "path": "hdwgcna/sessionInfo.txt",
+      "sha256": "ddfb5d3bf94d5dfe87be6bd1eca8abcf5de10b367f5abc4091865530513eb96f"
+    },
+    {
+      "bytes": 238,
+      "path": "hdwgcna/workflow_status.json",
+      "sha256": "1b0ecc51a8144b8e97033bc4bd3facc196cc3c5d6e3165826efcfe91925f2359"
+    },
+    {
+      "bytes": 4405,
+      "path": "prepared/COMPLETE.json",
+      "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+    },
+    {
+      "bytes": 4718,
+      "path": "prepared/duplicate_symbol_audit.tsv",
+      "sha256": "ab898036f07bd74c2e0f064743fb6c46054d545ec3acb0ae058ec85b70e8807c"
+    },
+    {
+      "bytes": 807,
+      "path": "prepared/expression_normalization.json",
+      "sha256": "c034254cadae2572db9704532410dbb4e7975bf7b3e614e02ba412b1d355a277"
+    },
+    {
+      "bytes": 1920100,
+      "path": "prepared/feature_mapping.tsv",
+      "sha256": "fcec4e9e41e16f2907c8fdb9dac44a0576762078b428c70b56662c0cd4edbd87"
+    },
+    {
+      "bytes": 282356,
+      "path": "prepared/frozen_candidates_before_after_keep.tsv.gz",
+      "sha256": "4a67c68c2514c5e0347239a27ddb3e07d09287577700ef6bcbd5b8b13201a856"
+    },
+    {
+      "bytes": 3015,
+      "path": "prepared/frozen_membership_audit.tsv",
+      "sha256": "8e0506e504659f00ec509a342422e2057ccde359ec0542bdf05f482acea3237f"
+    },
+    {
+      "bytes": 19179408,
+      "path": "prepared/lineages/CA1/cells.tsv",
+      "sha256": "9102f2afe3c93b7ec8f5991dcdf607d3d5997d1e1efac281848d4bd2ac02e218"
+    },
+    {
+      "bytes": 208113008,
+      "path": "prepared/lineages/CA1/counts.mtx.gz",
+      "sha256": "5854cd68856904422428138307b5fd55e89ae109567ac586975d88475d7e6348"
+    },
+    {
+      "bytes": 1553719,
+      "path": "prepared/lineages/CA1/genes.tsv",
+      "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+    },
+    {
+      "bytes": 2390731,
+      "path": "prepared/lineages/IN/cells.tsv",
+      "sha256": "a02c6fa25c758bea814946bc37e32d61fcbee7de218e961ec711447c3c9ac59d"
+    },
+    {
+      "bytes": 25753115,
+      "path": "prepared/lineages/IN/counts.mtx.gz",
+      "sha256": "9903aa896db0bc4ed39743dc1a1faea1d7e2981e78129372d13e6883c4fb3a40"
+    },
+    {
+      "bytes": 1553719,
+      "path": "prepared/lineages/IN/genes.tsv",
+      "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+    },
+    {
+      "bytes": 3262,
+      "path": "prepared/mouse_coverage.tsv",
+      "sha256": "c5fffee4baa711d1958cd05b9dc45d85d0c320a2b768310fca0e7826505c68bb"
+    },
+    {
+      "bytes": 865297,
+      "path": "prepared/nucleus_metadata.tsv.gz",
+      "sha256": "18860eb2f411d357138be0050fbb03d5175a29fcbc3a8d1603307ee8d2bfb873"
+    },
+    {
+      "bytes": 1921,
+      "path": "prepared/raw_count_source_verification.tsv",
+      "sha256": "a934496e7be222e98c71954d2c067d9fc311a385c63834dd718523d21f1d00e4"
+    },
+    {
+      "bytes": 10637,
+      "path": "prepared/source_hashes.json",
+      "sha256": "4f6cbca9c5fe6797250b6e110cf0a56fa22616f1019a8951e181626629558876"
+    },
+    {
+      "bytes": 345317,
+      "path": "atlas/data.js",
+      "sha256": "1dfc993ab4082d64abfb38e32cc1ed497e770d1445ff5f9ae87ad267b93eafca"
+    },
+    {
+      "bytes": 3539471,
+      "path": "atlas/data.json",
+      "sha256": "4cd91ded9a4eb9717c29f79a22c5411ebd02c2e8bff3861455c001b7fe7d0536"
+    },
+    {
+      "bytes": 258898,
+      "path": "atlas/data.json.gz",
+      "sha256": "7c3c88a6ca75e9d19a2b6baab5a51c65c647407c5ee29b42628c63aa88fd3b03"
+    },
+    {
+      "bytes": 36387,
+      "path": "atlas/downloads.json",
+      "sha256": "e7673a2338f427c1f769ed6d6f86e063447cc14d68335f8849b8e964ba9c2f7c"
+    },
+    {
+      "bytes": 2231,
+      "path": "atlas/manifest.json",
+      "sha256": "90723de33da358c3b94aa67c7cf628df4a1223c146f3bfae037722be93c3cb41"
+    },
+    {
+      "bytes": 68142,
+      "path": "FINAL_VALIDATION.json",
+      "sha256": "aa4ef34c1cfdf895c804b9131678a0753e669488b35aace0445db248fa6cdefa"
+    }
+  ],
+  "native_prefixes": {
+    "curated_tf_activity": "tf_component/results/",
+    "hdWGCNA": "results/"
+  },
+  "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461"
+}

@@ -1,0 +1,47 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"ok\": true,\n  \"status\": \"starting\",\n  \"run_id\": \"snakemake-satb2-hdwgcna-20261026-20261026-110747-aeebc0a6\",\n  \"registry_run_id\": \"54ace3f1-80e2-439c-b810-fae72950596d\",\n  \"revision\": 1,\n  \"pid\": null,\n  \"workflow\": \"workflow/RecoverSnakefile\",\n  \"run_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery\",\n  \"command_argv\": [\n    \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n    \"--snakefile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow/workflow/RecoverSnakefile\",\n    \"--configfile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json\",\n    \"--directory\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results\",\n    \"--cores\",\n    \"2\",\n    \"--printshellcmds\"\n  ],\n  \"plan_checksum\": \"sha256:950325fdddcbf2121aa57a7a9cf0487b12b5c4f7ace5d928d842eb6b14bb206b\",\n  \"process_owned\": true,\n  \"display_name\": \"SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only\",\n  \"target\": {\n    \"target_id\": \"local\",\n    \"provider\": \"ngs-analysis-workbench\"\n  },\n  \"warnings\": [\n    \"workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config\",\n    \"container image architecture is not verified until the workflow resolves concrete images\",\n    \"using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound\"\n  ],\n  \"kind\": \"run\",\n  \"binding\": \"snakemake\",\n  \"plan_name\": \"SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only\",\n  \"plan_id\": \"ngs-plan-950325fdddcbf212\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "ok": true,
+    "status": "starting",
+    "run_id": "snakemake-satb2-hdwgcna-20261026-20261026-110747-aeebc0a6",
+    "registry_run_id": "54ace3f1-80e2-439c-b810-fae72950596d",
+    "revision": 1,
+    "pid": null,
+    "workflow": "workflow/RecoverSnakefile",
+    "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery",
+    "command_argv": [
+      "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+      "--snakefile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow/workflow/RecoverSnakefile",
+      "--configfile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json",
+      "--directory",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results",
+      "--cores",
+      "2",
+      "--printshellcmds"
+    ],
+    "plan_checksum": "sha256:950325fdddcbf2121aa57a7a9cf0487b12b5c4f7ace5d928d842eb6b14bb206b",
+    "process_owned": true,
+    "display_name": "SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only",
+    "target": {
+      "target_id": "local",
+      "provider": "ngs-analysis-workbench"
+    },
+    "warnings": [
+      "workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config",
+      "container image architecture is not verified until the workflow resolves concrete images",
+      "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+    ],
+    "kind": "run",
+    "binding": "snakemake",
+    "plan_name": "SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only",
+    "plan_id": "ngs-plan-950325fdddcbf212"
+  },
+  "isError": false
+}

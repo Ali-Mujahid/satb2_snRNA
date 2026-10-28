@@ -1,0 +1,293 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"schema_version\": 3,\n  \"ok\": true,\n  \"runnable\": true,\n  \"request\": {\n    \"pipeline\": \"satb2-hdwgcna-20261026\",\n    \"workflow_version_id\": \"version-81aae2cfed2a6019514ef48d233f4259\",\n    \"target\": {\n      \"target_id\": \"local\",\n      \"provider\": \"ngs-analysis-workbench\"\n    },\n    \"display_name\": \"SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only\",\n    \"first_run_id\": \"snakemake-satb2-hdwgcna-20261026-20261026-110747-aeebc0a6\",\n    \"attempt_number\": 1,\n    \"workflow\": \"workflow/RecoverSnakefile\",\n    \"run_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery\",\n    \"config_file\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json\",\n    \"config_sha256\": \"sha256:7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61\",\n    \"workflow_sha256\": \"sha256:42fcb8e31f8dd53495085b510ddb3e308afb470adaae9b8863367bed8b29fdf6\",\n    \"cores\": 2,\n    \"runtime_snapshot_id\": \"runtime-55ff650ec95743348d2b0b1701bef51c\",\n    \"controller_candidate_id\": \"controller-d0112de3b00b2b27fc79db4190fc1cf5\",\n    \"workflow_source\": {\n      \"engine\": \"snakemake\",\n      \"kind\": \"local\",\n      \"root\": \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/workflow-catalog/satb2-hdwgcna-20261026/version-81aae2cfed2a6019514ef48d233f4259\",\n      \"entrypoint\": \"workflow/RecoverSnakefile\",\n      \"source_sha256\": \"sha256:42fcb8e31f8dd53495085b510ddb3e308afb470adaae9b8863367bed8b29fdf6\"\n    },\n    \"run_id\": \"snakemake-satb2-hdwgcna-20261026-20261026-110747-aeebc0a6\"\n  },\n  \"command_argv\": [\n    \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n    \"--snakefile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow/workflow/RecoverSnakefile\",\n    \"--configfile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json\",\n    \"--directory\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results\",\n    \"--cores\",\n    \"2\",\n    \"--printshellcmds\"\n  ],\n  \"readiness\": {\n    \"ok\": true,\n    \"status\": \"ready\",\n    \"binding\": \"snakemake\",\n    \"pipeline\": \"satb2-hdwgcna-20261026\",\n    \"target\": {\n      \"target_id\": \"local\",\n      \"provider\": \"ngs-analysis-workbench\"\n    },\n    \"readiness_id\": \"readiness-dcf0047ff91f50a5081c99cd3f7f8071\",\n    \"scope\": \"exact_request_and_runtime_snapshot\",\n    \"snapshot_id\": \"runtime-55ff650ec95743348d2b0b1701bef51c\",\n    \"observed_at\": \"2026-10-26T11:05:19.518609Z\",\n    \"expires_at\": \"2026-10-26T11:10:19.518609Z\",\n    \"host\": {\n      \"os\": \"darwin\",\n      \"arch\": \"arm64\"\n    },\n    \"commands\": [\n      {\n        \"name\": \"nextflow\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: nextflow\"\n      },\n      {\n        \"name\": \"snakemake\",\n        \"path\": \"/Users/mujahid357/.local/bin/snakemake\",\n        \"state\": \"ready\",\n        \"version\": \"9.27.0\",\n        \"message\": null\n      },\n      {\n        \"name\": \"java\",\n        \"path\": \"/usr/bin/java\",\n        \"state\": \"ready\",\n        \"version\": \"java version \\\"24.0.1\\\" 2025-04-15\",\n        \"message\": null\n      },\n      {\n        \"name\": \"docker\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: docker\"\n      },\n      {\n        \"name\": \"conda\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: conda\"\n      },\n      {\n        \"name\": \"mamba\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: mamba\"\n      },\n      {\n        \"name\": \"micromamba\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: micromamba\"\n      },\n      {\n        \"name\": \"pixi\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: pixi\"\n      },\n      {\n        \"name\": \"podman\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: podman\"\n      },\n      {\n        \"name\": \"apptainer\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: apptainer\"\n      },\n      {\n        \"name\": \"singularity\",\n        \"path\": null,\n        \"state\": \"missing\",\n        \"version\": null,\n        \"message\": \"command is not available: singularity\"\n      }\n    ],\n    \"controller_candidates\": [\n      {\n        \"candidate_id\": \"controller-d0112de3b00b2b27fc79db4190fc1cf5\",\n        \"controller\": \"snakemake\",\n        \"source\": \"host_path\",\n        \"manager\": null,\n        \"executable_path\": \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n        \"environment_path\": null,\n        \"version\": \"9.27.0\",\n        \"platform\": {\n          \"os\": \"darwin\",\n          \"arch\": \"arm64\"\n        },\n        \"platform_matches_host\": true,\n        \"active\": true,\n        \"manifest_path\": null,\n        \"lockfile_path\": null,\n        \"declared_channels\": [],\n        \"launch_argv_prefix\": [\n          \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\"\n        ],\n        \"recommended\": false,\n        \"recommendation_reason\": \"Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound\"\n      }\n    ],\n    \"selected_controller\": {\n      \"candidate_id\": \"controller-d0112de3b00b2b27fc79db4190fc1cf5\",\n      \"controller\": \"snakemake\",\n      \"source\": \"host_path\",\n      \"manager\": null,\n      \"executable_path\": \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n      \"environment_path\": null,\n      \"version\": \"9.27.0\",\n      \"platform\": {\n        \"os\": \"darwin\",\n        \"arch\": \"arm64\"\n      },\n      \"platform_matches_host\": true,\n      \"active\": true,\n      \"manifest_path\": null,\n      \"lockfile_path\": null,\n      \"declared_channels\": [],\n      \"launch_argv_prefix\": [\n        \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\"\n      ],\n      \"recommended\": false,\n      \"recommendation_reason\": \"Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound\"\n    },\n    \"docker\": {\n      \"path\": null,\n      \"context\": null,\n      \"endpoint\": null,\n      \"endpoint_is_local\": null,\n      \"daemon_reachable\": false,\n      \"server_version\": null,\n      \"server_os\": null,\n      \"server_arch\": null,\n      \"message\": \"Docker CLI is missing\"\n    },\n    \"requirements\": [\n      {\n        \"id\": \"snakemake\",\n        \"layer\": \"workflow_controller\",\n        \"capability\": \"command\",\n        \"value\": \"snakemake\",\n        \"source\": \"request.binding\",\n        \"detail\": \"the Snakemake binding executes workflows with Snakemake\",\n        \"probe_mode\": \"version\"\n      }\n    ],\n    \"evidence\": [\n      {\n        \"kind\": \"runtime_snapshot\",\n        \"source\": \"runtime-55ff650ec95743348d2b0b1701bef51c\",\n        \"detail\": \"observations for compute target local\"\n      }\n    ],\n    \"blockers\": [],\n    \"unknowns\": [],\n    \"warnings\": [\n      \"container image architecture is not verified until the workflow resolves concrete images\",\n      \"using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound\"\n    ]\n  },\n  \"input_summary\": {\n    \"source\": \"config_file\",\n    \"path\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json\",\n    \"sha256\": \"sha256:7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61\",\n    \"record_count\": null,\n    \"sample_count\": null,\n    \"read_layout\": null\n  },\n  \"effects\": {\n    \"run_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery\",\n    \"output_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results\",\n    \"work_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results\",\n    \"launch_log\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/logs/snakemake.log\",\n    \"local_writes\": [\n      \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/ngs_runs/.mcp/workspace.json\",\n      \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/registry.sqlite3\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json\",\n      \"/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/runs/79f92982-a097-55da-b356-433b1ce9bdf9/workflow/approved_plan.json\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/.snakemake\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/logs/snakemake.log\"\n    ],\n    \"downloads\": [],\n    \"network_access\": []\n  },\n  \"preparation\": null,\n  \"blockers\": [],\n  \"warnings\": [\n    \"workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config\",\n    \"container image architecture is not verified until the workflow resolves concrete images\",\n    \"using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound\"\n  ],\n  \"monitoring\": {\n    \"terminal_statuses\": [\n      \"completed\",\n      \"failed\",\n      \"canceled\",\n      \"orphaned\"\n    ],\n    \"log_paths\": [\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/logs/snakemake.log\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/.snakemake/log\"\n    ],\n    \"artifact_paths\": [\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/artifact_index.json\",\n      \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json\"\n    ]\n  },\n  \"kind\": \"plan\",\n  \"status\": \"ready\",\n  \"binding\": \"snakemake\",\n  \"plan_name\": \"SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only\",\n  \"plan_id\": \"ngs-plan-950325fdddcbf212\",\n  \"plan_checksum\": \"sha256:950325fdddcbf2121aa57a7a9cf0487b12b5c4f7ace5d928d842eb6b14bb206b\",\n  \"plan_registry\": {\n    \"scope\": \"plugin_control_plane\",\n    \"workspace_effects\": false\n  }\n}"
+    }
+  ],
+  "structuredContent": {
+    "schema_version": 3,
+    "ok": true,
+    "runnable": true,
+    "request": {
+      "pipeline": "satb2-hdwgcna-20261026",
+      "workflow_version_id": "version-81aae2cfed2a6019514ef48d233f4259",
+      "target": {
+        "target_id": "local",
+        "provider": "ngs-analysis-workbench"
+      },
+      "display_name": "SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only",
+      "first_run_id": "snakemake-satb2-hdwgcna-20261026-20261026-110747-aeebc0a6",
+      "attempt_number": 1,
+      "workflow": "workflow/RecoverSnakefile",
+      "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery",
+      "config_file": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json",
+      "config_sha256": "sha256:7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61",
+      "workflow_sha256": "sha256:42fcb8e31f8dd53495085b510ddb3e308afb470adaae9b8863367bed8b29fdf6",
+      "cores": 2,
+      "runtime_snapshot_id": "runtime-55ff650ec95743348d2b0b1701bef51c",
+      "controller_candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+      "workflow_source": {
+        "engine": "snakemake",
+        "kind": "local",
+        "root": "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/workflow-catalog/satb2-hdwgcna-20261026/version-81aae2cfed2a6019514ef48d233f4259",
+        "entrypoint": "workflow/RecoverSnakefile",
+        "source_sha256": "sha256:42fcb8e31f8dd53495085b510ddb3e308afb470adaae9b8863367bed8b29fdf6"
+      },
+      "run_id": "snakemake-satb2-hdwgcna-20261026-20261026-110747-aeebc0a6"
+    },
+    "command_argv": [
+      "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+      "--snakefile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow/workflow/RecoverSnakefile",
+      "--configfile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json",
+      "--directory",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results",
+      "--cores",
+      "2",
+      "--printshellcmds"
+    ],
+    "readiness": {
+      "ok": true,
+      "status": "ready",
+      "binding": "snakemake",
+      "pipeline": "satb2-hdwgcna-20261026",
+      "target": {
+        "target_id": "local",
+        "provider": "ngs-analysis-workbench"
+      },
+      "readiness_id": "readiness-dcf0047ff91f50a5081c99cd3f7f8071",
+      "scope": "exact_request_and_runtime_snapshot",
+      "snapshot_id": "runtime-55ff650ec95743348d2b0b1701bef51c",
+      "observed_at": "2026-10-26T11:05:19.518609Z",
+      "expires_at": "2026-10-26T11:10:19.518609Z",
+      "host": {
+        "os": "darwin",
+        "arch": "arm64"
+      },
+      "commands": [
+        {
+          "name": "nextflow",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: nextflow"
+        },
+        {
+          "name": "snakemake",
+          "path": "/Users/mujahid357/.local/bin/snakemake",
+          "state": "ready",
+          "version": "9.27.0",
+          "message": null
+        },
+        {
+          "name": "java",
+          "path": "/usr/bin/java",
+          "state": "ready",
+          "version": "java version \"24.0.1\" 2025-04-15",
+          "message": null
+        },
+        {
+          "name": "docker",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: docker"
+        },
+        {
+          "name": "conda",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: conda"
+        },
+        {
+          "name": "mamba",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: mamba"
+        },
+        {
+          "name": "micromamba",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: micromamba"
+        },
+        {
+          "name": "pixi",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: pixi"
+        },
+        {
+          "name": "podman",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: podman"
+        },
+        {
+          "name": "apptainer",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: apptainer"
+        },
+        {
+          "name": "singularity",
+          "path": null,
+          "state": "missing",
+          "version": null,
+          "message": "command is not available: singularity"
+        }
+      ],
+      "controller_candidates": [
+        {
+          "candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+          "controller": "snakemake",
+          "source": "host_path",
+          "manager": null,
+          "executable_path": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+          "environment_path": null,
+          "version": "9.27.0",
+          "platform": {
+            "os": "darwin",
+            "arch": "arm64"
+          },
+          "platform_matches_host": true,
+          "active": true,
+          "manifest_path": null,
+          "lockfile_path": null,
+          "declared_channels": [],
+          "launch_argv_prefix": [
+            "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake"
+          ],
+          "recommended": false,
+          "recommendation_reason": "Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound"
+        }
+      ],
+      "selected_controller": {
+        "candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+        "controller": "snakemake",
+        "source": "host_path",
+        "manager": null,
+        "executable_path": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+        "environment_path": null,
+        "version": "9.27.0",
+        "platform": {
+          "os": "darwin",
+          "arch": "arm64"
+        },
+        "platform_matches_host": true,
+        "active": true,
+        "manifest_path": null,
+        "lockfile_path": null,
+        "declared_channels": [],
+        "launch_argv_prefix": [
+          "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake"
+        ],
+        "recommended": false,
+        "recommendation_reason": "Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound"
+      },
+      "docker": {
+        "path": null,
+        "context": null,
+        "endpoint": null,
+        "endpoint_is_local": null,
+        "daemon_reachable": false,
+        "server_version": null,
+        "server_os": null,
+        "server_arch": null,
+        "message": "Docker CLI is missing"
+      },
+      "requirements": [
+        {
+          "id": "snakemake",
+          "layer": "workflow_controller",
+          "capability": "command",
+          "value": "snakemake",
+          "source": "request.binding",
+          "detail": "the Snakemake binding executes workflows with Snakemake",
+          "probe_mode": "version"
+        }
+      ],
+      "evidence": [
+        {
+          "kind": "runtime_snapshot",
+          "source": "runtime-55ff650ec95743348d2b0b1701bef51c",
+          "detail": "observations for compute target local"
+        }
+      ],
+      "blockers": [],
+      "unknowns": [],
+      "warnings": [
+        "container image architecture is not verified until the workflow resolves concrete images",
+        "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+      ]
+    },
+    "input_summary": {
+      "source": "config_file",
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json",
+      "sha256": "sha256:7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61",
+      "record_count": null,
+      "sample_count": null,
+      "read_layout": null
+    },
+    "effects": {
+      "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery",
+      "output_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results",
+      "work_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results",
+      "launch_log": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/logs/snakemake.log",
+      "local_writes": [
+        "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/ngs_runs/.mcp/workspace.json",
+        "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/registry.sqlite3",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/workflow",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json",
+        "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/runs/79f92982-a097-55da-b356-433b1ce9bdf9/workflow/approved_plan.json",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/.snakemake",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/logs/snakemake.log"
+      ],
+      "downloads": [],
+      "network_access": []
+    },
+    "preparation": null,
+    "blockers": [],
+    "warnings": [
+      "workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config",
+      "container image architecture is not verified until the workflow resolves concrete images",
+      "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+    ],
+    "monitoring": {
+      "terminal_statuses": [
+        "completed",
+        "failed",
+        "canceled",
+        "orphaned"
+      ],
+      "log_paths": [
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/logs/snakemake.log",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/.snakemake/log"
+      ],
+      "artifact_paths": [
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/artifact_index.json",
+        "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/config/hdwgcna.v1_0_2_export_recovery.json"
+      ]
+    },
+    "kind": "plan",
+    "status": "ready",
+    "binding": "snakemake",
+    "plan_name": "SATB2 hdWGCNA export recovery — copy verified completed fits; enrichment and atlas only",
+    "plan_id": "ngs-plan-950325fdddcbf212",
+    "plan_checksum": "sha256:950325fdddcbf2121aa57a7a9cf0487b12b5c4f7ace5d928d842eb6b14bb206b",
+    "plan_registry": {
+      "scope": "plugin_control_plane",
+      "workspace_effects": false
+    }
+  },
+  "isError": false
+}

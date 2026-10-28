@@ -1,0 +1,373 @@
+{
+  "schema": "satb2-regulatory-source-snapshots/v1",
+  "status": "NATIVE_AVAILABLE_ANALYSES_COMPLETE",
+  "motif_inference": "BLOCKED_REFERENCE_UNAVAILABLE",
+  "native_runs_still_running_at_source_copy": false,
+  "files": [
+    {
+      "path": "ANALYSIS_PLAN.md",
+      "bytes": 6725,
+      "sha256": "e01e4045a5f646e8141651ca78cbd2565495398eaa58fa2582ad1246eaed4feb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3086,
+      "sha256": "74c23f18861c15377f4e872804ebc2fba848df880eef6a28180a1174b3b5c9e5"
+    },
+    {
+      "path": "TF_AND_REGULON_PLAN.md",
+      "bytes": 5640,
+      "sha256": "ed6c37543151dd6f8d7baeea80b27b408076fa27f3efcd57d2445c7c0ea0c7d4"
+    },
+    {
+      "path": "collectri_1.0.0/ANALYSIS_PLAN.md",
+      "bytes": 5640,
+      "sha256": "ed6c37543151dd6f8d7baeea80b27b408076fa27f3efcd57d2445c7c0ea0c7d4"
+    },
+    {
+      "path": "collectri_1.0.0/EXECUTED_CONFIG.json",
+      "bytes": 13828,
+      "sha256": "2e3afa2308071133d53b1a9a9b87de96921af3adf6a380c568f50e06d4ea907a"
+    },
+    {
+      "path": "collectri_1.0.0/README.md",
+      "bytes": 1900,
+      "sha256": "d5d8d5d2be6e97c9274e3ca29ba2fd06dc9d5017db4c27694128ba600a798718"
+    },
+    {
+      "path": "collectri_1.0.0/docs/TF_MOUSE_CONTRACT.md",
+      "bytes": 8259,
+      "sha256": "273f4191d1bce259098cb039754a64ee2c59794b1656ea614dd1bad7572b5df6"
+    },
+    {
+      "path": "collectri_1.0.0/environment/R_installed_packages.tsv",
+      "bytes": 35024,
+      "sha256": "58b86a5f9533a1275412c452612c8f06b51e78abcc3ed867f3b7e49f90905bdf"
+    },
+    {
+      "path": "collectri_1.0.0/environment/R_runtime_manifest.tsv",
+      "bytes": 56598,
+      "sha256": "912dec832cae9971ae11697dbf558c27971f8dc48ec207039cc1274192d32406"
+    },
+    {
+      "path": "collectri_1.0.0/environment/decoupler_install_report.json",
+      "bytes": 827364,
+      "sha256": "03486ad96b8c6eb216319dd88867d222227c1922abb22543cb76ea4f6d5cb7f9"
+    },
+    {
+      "path": "collectri_1.0.0/environment/decoupler_requirements.freeze.txt",
+      "bytes": 898,
+      "sha256": "1d75c74e3763830551ed98ba512958758077c3bf95bee25df7132b401a99c6b7"
+    },
+    {
+      "path": "collectri_1.0.0/environment/decoupler_versions.json",
+      "bytes": 1258,
+      "sha256": "95643c40cfc29742a5d13d8e116f5e55336a2f4506f45472b32b6c6851c3097d"
+    },
+    {
+      "path": "collectri_1.0.0/environment/run_R.sh",
+      "bytes": 267,
+      "sha256": "b4a8e56184aff29ac60fb85669f828cbe3d6cb18c270dda37b38b0fdc547f091"
+    },
+    {
+      "path": "collectri_1.0.0/runtime_contract.json",
+      "bytes": 898,
+      "sha256": "00ebab2003f1fda6b83c4078b49cd9e47710477d19944801a961b841e629f019"
+    },
+    {
+      "path": "collectri_1.0.0/scripts/analyze_tf_mouse.R",
+      "bytes": 32225,
+      "sha256": "574cf8f901a65552dea2a3ad3ae3faf963a9b411dd186f4e29f4d28e360ea5ae"
+    },
+    {
+      "path": "collectri_1.0.0/scripts/package_tf_results.py",
+      "bytes": 31532,
+      "sha256": "cfe5440c2149976c6f001fe71b0286e17b592a737621a95993fdc8183278939c"
+    },
+    {
+      "path": "collectri_1.0.0/scripts/run_tf_activity.py",
+      "bytes": 35311,
+      "sha256": "d4ade0f056eaa61618dc9eef9f6b1f55622eeda9db0e095ebae05a6763d0e04d"
+    },
+    {
+      "path": "collectri_1.0.0/tests/test_tf_mouse.R",
+      "bytes": 3909,
+      "sha256": "2cabff6e8992501a163f33d9af4132d4f91acbd06bed16a8e0be11c0d4ee683e"
+    },
+    {
+      "path": "collectri_1.0.0/workflow/Snakefile",
+      "bytes": 2212,
+      "sha256": "90ca03abc8f2444f0983d74c1894a6bb29c9b5d4d303f24ea842d4a35005d790"
+    },
+    {
+      "path": "collectri_execution_plan.json",
+      "bytes": 24496,
+      "sha256": "659299f0ac03b839fa800adee210c3d68662e1f68f2704856fc3bad94ee9dbf7"
+    },
+    {
+      "path": "collectri_run_receipt.json",
+      "bytes": 4186,
+      "sha256": "5367cdef8e4888f897b0f4519ac9bb75433526e8da4d6f10e77cde8fd29c657d"
+    },
+    {
+      "path": "hd_export_recovery_plan.json",
+      "bytes": 25248,
+      "sha256": "974a3fa13fa201bd768373bb980e16b3523f5dea15668643b79962ed6940f238"
+    },
+    {
+      "path": "hd_export_recovery_run_receipt.json",
+      "bytes": 4352,
+      "sha256": "2bb6bd107ba552efd8044f0c9d14407dabe32eafd71e4a07b3dc78fa34108228"
+    },
+    {
+      "path": "hdwgcna_1.0.1/ANALYSIS_PLAN.md",
+      "bytes": 6725,
+      "sha256": "e01e4045a5f646e8141651ca78cbd2565495398eaa58fa2582ad1246eaed4feb"
+    },
+    {
+      "path": "hdwgcna_1.0.1/EXECUTED_CONFIG.json",
+      "bytes": 11353,
+      "sha256": "ad59dd5cc71c7321ae49c52769ba7de80daaf2d005721b9dc8acc0ddc1f789bb"
+    },
+    {
+      "path": "hdwgcna_1.0.1/README.md",
+      "bytes": 2613,
+      "sha256": "cb0f374e914d4e3dfc1cb2f06386bb0b5ad887346ac1d29fce2023cb4532dff3"
+    },
+    {
+      "path": "hdwgcna_1.0.1/config/README.md",
+      "bytes": 1706,
+      "sha256": "5d8f67e6bb1b808861517496a30dcc379ca2bc78a5432ec28eed2794da1625c0"
+    },
+    {
+      "path": "hdwgcna_1.0.1/docs/HDWGCNA_CONTRACT.md",
+      "bytes": 12274,
+      "sha256": "bb790eab1848edd65ce659e7e6b568a01a21720829affdbc24fac5ea1752b3e5"
+    },
+    {
+      "path": "hdwgcna_1.0.1/docs/PREPARE_INPUTS_CONTRACT.md",
+      "bytes": 9930,
+      "sha256": "7d72045f6ed99be12d7f1432176216a0b1329c25906914d0ee862207c7d856af"
+    },
+    {
+      "path": "hdwgcna_1.0.1/environment/R_ready_sessionInfo.txt",
+      "bytes": 5722,
+      "sha256": "51b877cb574dc4fe7092357a4f7da52ae3aaccf68549dcc1a4c8add73eec30bf"
+    },
+    {
+      "path": "hdwgcna_1.0.1/environment/R_runtime_manifest.tsv",
+      "bytes": 56598,
+      "sha256": "912dec832cae9971ae11697dbf558c27971f8dc48ec207039cc1274192d32406"
+    },
+    {
+      "path": "hdwgcna_1.0.1/environment/SOFTWARE_ARTIFACTS.json",
+      "bytes": 5462,
+      "sha256": "aace5ceb779729fda84900533d374dc3d481ad888c4602df2b47d4054e6abf86"
+    },
+    {
+      "path": "hdwgcna_1.0.1/environment/run_R.sh",
+      "bytes": 267,
+      "sha256": "b4a8e56184aff29ac60fb85669f828cbe3d6cb18c270dda37b38b0fdc547f091"
+    },
+    {
+      "path": "hdwgcna_1.0.1/environment/setup_hdwgcna.R",
+      "bytes": 1259,
+      "sha256": "91ebe0f7c6ca57e3ffde91d46a14b6ada07eea627ff843e303529933e40db303"
+    },
+    {
+      "path": "hdwgcna_1.0.1/runtime_contract.json",
+      "bytes": 1695,
+      "sha256": "cd7f14a64927b42fba263a4d9ce73c9d46c47d51d70280062e22c2bddc544863"
+    },
+    {
+      "path": "hdwgcna_1.0.1/scripts/README_hdwgcna.md",
+      "bytes": 12274,
+      "sha256": "bb790eab1848edd65ce659e7e6b568a01a21720829affdbc24fac5ea1752b3e5"
+    },
+    {
+      "path": "hdwgcna_1.0.1/scripts/enrich_modules.R",
+      "bytes": 9564,
+      "sha256": "3382383552f8c482cdc4efcc2b6629072535db4074a6efabe48356e89fc5c08c"
+    },
+    {
+      "path": "hdwgcna_1.0.1/scripts/package_results.py",
+      "bytes": 27692,
+      "sha256": "2d06d86f467ccd1490d26ea6c93acb76a2237690d144a537df4db8e3522fcdee"
+    },
+    {
+      "path": "hdwgcna_1.0.1/scripts/prepare_inputs.py",
+      "bytes": 30985,
+      "sha256": "7c66ca9566280af8f0e0484e0276c0cba31138ee7bb4b610c3c1654605881274"
+    },
+    {
+      "path": "hdwgcna_1.0.1/scripts/run_hdwgcna.R",
+      "bytes": 43948,
+      "sha256": "47af339447c49550c802b67218ea07c7fcc563cd7c16612af04307e9a0f31185"
+    },
+    {
+      "path": "hdwgcna_1.0.1/workflow/Snakefile",
+      "bytes": 2785,
+      "sha256": "025ed5c6cab71ec42244dd97f7556630c7f88ce410384679678f8a73f355aa9a"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/ANALYSIS_PLAN.md",
+      "bytes": 6725,
+      "sha256": "e01e4045a5f646e8141651ca78cbd2565495398eaa58fa2582ad1246eaed4feb"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/EXECUTED_CONFIG.json",
+      "bytes": 12230,
+      "sha256": "7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/README.md",
+      "bytes": 3202,
+      "sha256": "038282025e40a32bd636b832b63297eb6e9f9ab3f60399d89ac93bbef9007294"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/RECOVERY_PLAN.md",
+      "bytes": 1445,
+      "sha256": "4a54e03b97991b5b6441e0b810fe342cefa8655312162a9204d6b63162f38924"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/config/README.md",
+      "bytes": 1706,
+      "sha256": "5d8f67e6bb1b808861517496a30dcc379ca2bc78a5432ec28eed2794da1625c0"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/docs/HDWGCNA_CONTRACT.md",
+      "bytes": 12274,
+      "sha256": "bb790eab1848edd65ce659e7e6b568a01a21720829affdbc24fac5ea1752b3e5"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/docs/PREPARE_INPUTS_CONTRACT.md",
+      "bytes": 9930,
+      "sha256": "7d72045f6ed99be12d7f1432176216a0b1329c25906914d0ee862207c7d856af"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/environment/R_ready_sessionInfo.txt",
+      "bytes": 5722,
+      "sha256": "51b877cb574dc4fe7092357a4f7da52ae3aaccf68549dcc1a4c8add73eec30bf"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/environment/R_runtime_manifest.tsv",
+      "bytes": 56598,
+      "sha256": "912dec832cae9971ae11697dbf558c27971f8dc48ec207039cc1274192d32406"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/environment/SOFTWARE_ARTIFACTS.json",
+      "bytes": 5462,
+      "sha256": "aace5ceb779729fda84900533d374dc3d481ad888c4602df2b47d4054e6abf86"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/environment/run_R.sh",
+      "bytes": 267,
+      "sha256": "b4a8e56184aff29ac60fb85669f828cbe3d6cb18c270dda37b38b0fdc547f091"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/environment/setup_hdwgcna.R",
+      "bytes": 1259,
+      "sha256": "91ebe0f7c6ca57e3ffde91d46a14b6ada07eea627ff843e303529933e40db303"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/hdwgcna.complete_fit_copy_inventory.v1.json",
+      "bytes": 46266,
+      "sha256": "dbf99b63f66b26261a251005c46693ce63c76a1e74c2359f3ad5ca201bae91c7"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/hdwgcna.v1_0_1.json",
+      "bytes": 11353,
+      "sha256": "ad59dd5cc71c7321ae49c52769ba7de80daaf2d005721b9dc8acc0ddc1f789bb"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/runtime_contract.json",
+      "bytes": 1780,
+      "sha256": "7544dc382f8f635c4813bfcec62287f4607597e8e7d288e09ef22132e56c556e"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/README_hdwgcna.md",
+      "bytes": 12274,
+      "sha256": "bb790eab1848edd65ce659e7e6b568a01a21720829affdbc24fac5ea1752b3e5"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/copy_completed_native.py",
+      "bytes": 6100,
+      "sha256": "93699234d3c2a9065573c5b70688b4b3c08204b82f8cb34e7b21668f49b73def"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/enrich_modules.R",
+      "bytes": 9633,
+      "sha256": "d709e9478153df617efcccc5bd9afdeb36f2d788bb5ba9abf40fa2328fa13d9a"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/package_results.py",
+      "bytes": 36722,
+      "sha256": "4609f56804f238b0f770e3e75cd8c3cc0725f54b6b7651174d20715de8afbd9f"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/prepare_inputs.py",
+      "bytes": 30985,
+      "sha256": "7c66ca9566280af8f0e0484e0276c0cba31138ee7bb4b610c3c1654605881274"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/run_hdwgcna.R",
+      "bytes": 43948,
+      "sha256": "47af339447c49550c802b67218ea07c7fcc563cd7c16612af04307e9a0f31185"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/scripts/test_copy_completed_native_synthetic.py",
+      "bytes": 3084,
+      "sha256": "8403907928276b95e90fc17f101d469998f72e65fa556565e6b756604ec8b72f"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/workflow/RecoverSnakefile",
+      "bytes": 2289,
+      "sha256": "b036384f0ec41ec0589adc1799220db0b1e2fd1caa75e2321238bdcda86c0cc3"
+    },
+    {
+      "path": "hdwgcna_1.0.2_export_recovery/workflow/Snakefile",
+      "bytes": 2785,
+      "sha256": "025ed5c6cab71ec42244dd97f7556630c7f88ce410384679678f8a73f355aa9a"
+    },
+    {
+      "path": "publication/ARCHIVE_CONTENTS.json",
+      "bytes": 263143,
+      "sha256": "dd0dc4809c7b0bac25ea66eca77c226a5d84390eede69724dfc9817ae47f3a56"
+    },
+    {
+      "path": "publication/NATIVE_FILE_RECEIPTS.json",
+      "bytes": 146262,
+      "sha256": "971fc94c3db3544bdeb7738f435ec0778c87ab1d6a1d6db17be77fa493539e4d"
+    },
+    {
+      "path": "publication/PORTABLE_RECEIPT.json",
+      "bytes": 1568,
+      "sha256": "48322b52854c2ca6ad87eb9cbdf989a54301932fd7275a9bcad6d2e9a9b680ef"
+    },
+    {
+      "path": "publication/PUBLICATION_RECEIPT.json",
+      "bytes": 37044,
+      "sha256": "f2c45365b2f0bb8d6fbde8fc4a2856a6a2840302767138aaf3daf0ff05a5d870"
+    },
+    {
+      "path": "publication/RELEASE_ASSETS.json",
+      "bytes": 976,
+      "sha256": "effb0d3b8fcb78d047555e18222e2dea85d9fb218a5404f41f5ab812b33f79f8"
+    },
+    {
+      "path": "pySCENIC_REFERENCE_STATUS.md",
+      "bytes": 1850,
+      "sha256": "51d0a01a64a30ae1f9c26d4d361ae536896b1d552b3bbecb9269386e52702cd3"
+    },
+    {
+      "path": "references/CollecTRI_MANIFEST.json",
+      "bytes": 1344,
+      "sha256": "91d9bfadc7c1a19289993552089d3df6421e4a3f6b5c74c19d0c8d1a4112efc6"
+    },
+    {
+      "path": "references/cisTarget_blocked_manifest.json",
+      "bytes": 11432,
+      "sha256": "1838263160a0330b48c248a036ef36ba8ca55e15e78f272cbe29485b0c555bba"
+    }
+  ]
+}

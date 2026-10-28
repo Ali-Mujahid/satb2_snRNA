@@ -1,0 +1,8 @@
+{
+  "workflow_version": "1.0.0",
+  "controller": {"engine": "snakemake", "verified_version": "9.27.0", "scope": "user-selected existing project controller"},
+  "task_environment": {"python_executable_config_key": "python_executable", "Rscript_executable_config_key": "Rscript_executable", "versions": {"decoupler": "2.3.0", "R": "4.6.1"}},
+  "limits": {"threads": 2, "scientific_processes_at_once": 1, "nominal_task_memory_MB": 4000, "network_access": false, "install_hooks": false, "overwrite_prior_results": false},
+  "execution_scope": "New native ULM activity scores, separate continuous independent-mouse associations and supplement from existing finite original Wald statistics; no new gene DESeq2 fit or motif inference",
+  "reproducibility_limit": "Existing controller and base R closure are not fully lockfile-backed; task software versions and artifact hashes are recorded separately."
+}

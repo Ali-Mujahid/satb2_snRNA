@@ -1,0 +1,244 @@
+{
+  "schema": "satb2-pyscenic-mm10-reference-setup/v1",
+  "retrieved_utc": "2026-10-26T10:11:54.280838+00:00",
+  "status": "BLOCKED_OFFICIAL_RESOURCE_CONNECTION_REFUSED",
+  "scope": "reference download setup only; no scientific analysis",
+  "disk_free_before_bytes": 13790322688,
+  "minimum_free_before_bytes": 6442450944,
+  "per_file_max_bytes": 2147483648,
+  "aggregate_download_max_bytes": 3000000000,
+  "official_mirror_provenance": [
+    "https://github.com/aertslab/SCENIC/blob/master/vignettes/FAQ.md",
+    "https://github.com/aertslab/RcisTarget"
+  ],
+  "dns": {
+    "resources.aertslab.org": [
+      "134.58.50.9"
+    ],
+    "resources-mirror.aertslab.org": [
+      "134.58.50.9"
+    ]
+  },
+  "range_probes": [
+    {
+      "url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources.aertslab.org port 443 after 32 ms: Couldn't connect to server",
+      "response": {
+        "url_effective": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "http_code": 0,
+        "response_code": 0,
+        "remote_ip": "",
+        "remote_port": 0,
+        "local_ip": "",
+        "exitcode": 7,
+        "errormsg": "Failed to connect to resources.aertslab.org port 443 after 32 ms: Couldn't connect to server",
+        "size_download": 0,
+        "time_total": 0.032566,
+        "content_type": null,
+        "num_redirects": 0,
+        "ssl_verify_result": 0
+      },
+      "probe_body_bytes": 0
+    },
+    {
+      "url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "forced_ipv4": true,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+      "response": {
+        "url_effective": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "http_code": 0,
+        "response_code": 0,
+        "remote_ip": "",
+        "remote_port": 0,
+        "local_ip": "",
+        "exitcode": 7,
+        "errormsg": "Failed to connect to resources.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+        "size_download": 0,
+        "time_total": 0.033032,
+        "content_type": null,
+        "num_redirects": 0,
+        "ssl_verify_result": 0
+      },
+      "probe_body_bytes": 0
+    },
+    {
+      "url": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources-mirror.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+      "response": {
+        "url_effective": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "http_code": 0,
+        "response_code": 0,
+        "remote_ip": "",
+        "remote_port": 0,
+        "local_ip": "",
+        "exitcode": 7,
+        "errormsg": "Failed to connect to resources-mirror.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+        "size_download": 0,
+        "time_total": 0.033043,
+        "content_type": null,
+        "num_redirects": 0,
+        "ssl_verify_result": 0
+      },
+      "probe_body_bytes": 0
+    },
+    {
+      "url": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "forced_ipv4": true,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources-mirror.aertslab.org port 443 after 32 ms: Couldn't connect to server",
+      "response": {
+        "url_effective": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "http_code": 0,
+        "response_code": 0,
+        "remote_ip": "",
+        "remote_port": 0,
+        "local_ip": "",
+        "exitcode": 7,
+        "errormsg": "Failed to connect to resources-mirror.aertslab.org port 443 after 32 ms: Couldn't connect to server",
+        "size_download": 0,
+        "time_total": 0.032541,
+        "content_type": null,
+        "num_redirects": 0,
+        "ssl_verify_result": 0
+      },
+      "probe_body_bytes": 0
+    }
+  ],
+  "database_bytes_downloaded": 0,
+  "note": "Both names currently resolve to the same IPv4 address. Connection errors occur before TLS or HTTP response; this does not distinguish remote service outage from routing or firewall rejection.",
+  "desired_resources": [
+    {
+      "key": "mouse_tf_list",
+      "source_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "official_mirror_url": "https://resources-mirror.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "indexed_human_size": null,
+      "head_content_length_bytes": null,
+      "downloaded_file_bytes": null,
+      "sha256": null,
+      "official_sha1_available_from_cached_official_sidecar": null,
+      "status": "BLOCKED_BEFORE_TLS_HTTP"
+    },
+    {
+      "key": "mm10_500bp_rankings",
+      "source_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "official_mirror_url": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "indexed_human_size": "227M",
+      "head_content_length_bytes": null,
+      "downloaded_file_bytes": null,
+      "sha256": null,
+      "official_sha1_available_from_cached_official_sidecar": "ae6acc3118f5510594393b8457dcf23b0405a9c5",
+      "status": "BLOCKED_BEFORE_TLS_HTTP"
+    },
+    {
+      "key": "mm10_10kb_rankings",
+      "source_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "official_mirror_url": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "indexed_human_size": "226M",
+      "head_content_length_bytes": null,
+      "downloaded_file_bytes": null,
+      "sha256": null,
+      "official_sha1_available_from_cached_official_sidecar": null,
+      "status": "BLOCKED_BEFORE_TLS_HTTP"
+    },
+    {
+      "key": "mgi_v10_motif2tf",
+      "source_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "official_mirror_url": "https://resources-mirror.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "indexed_human_size": "108M",
+      "head_content_length_bytes": null,
+      "downloaded_file_bytes": null,
+      "sha256": null,
+      "official_sha1_available_from_cached_official_sidecar": null,
+      "status": "BLOCKED_BEFORE_TLS_HTTP"
+    }
+  ],
+  "additional_range_probes": [
+    {
+      "resource": "mouse_tf_list",
+      "url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+      "http_code": 0,
+      "time_total": 0.033131,
+      "probe_body_bytes": 0
+    },
+    {
+      "resource": "mouse_tf_list",
+      "url": "https://resources-mirror.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources-mirror.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+      "http_code": 0,
+      "time_total": 0.033454,
+      "probe_body_bytes": 0
+    },
+    {
+      "resource": "mm10_10kb_rankings",
+      "url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources.aertslab.org port 443 after 33 ms: Couldn't connect to server",
+      "http_code": 0,
+      "time_total": 0.033084,
+      "probe_body_bytes": 0
+    },
+    {
+      "resource": "mm10_10kb_rankings",
+      "url": "https://resources-mirror.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources-mirror.aertslab.org port 443 after 32 ms: Couldn't connect to server",
+      "http_code": 0,
+      "time_total": 0.032489,
+      "probe_body_bytes": 0
+    },
+    {
+      "resource": "mgi_v10_motif2tf",
+      "url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources.aertslab.org port 443 after 31 ms: Couldn't connect to server",
+      "http_code": 0,
+      "time_total": 0.031845,
+      "probe_body_bytes": 0
+    },
+    {
+      "resource": "mgi_v10_motif2tf",
+      "url": "https://resources-mirror.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "forced_ipv4": false,
+      "returncode": 7,
+      "stderr": "curl: (7) Failed to connect to resources-mirror.aertslab.org port 443 after 31 ms: Couldn't connect to server",
+      "http_code": 0,
+      "time_total": 0.031247,
+      "probe_body_bytes": 0
+    }
+  ],
+  "direct_tcp_probe": {
+    "status": "failed",
+    "exception_type": "ConnectionRefusedError",
+    "errno": 61,
+    "message": "[Errno 61] Connection refused",
+    "ip": "134.58.50.9",
+    "port": 443,
+    "seconds": 0.032
+  },
+  "finished_utc": "2026-10-26T10:12:24.915906+00:00",
+  "official_checksum_registry_url": "https://resources.aertslab.org/cistarget/databases/sha256sum.txt",
+  "checksum_registry_status": "unavailable; no verified currentSHA256 obtained",
+  "fallback_tf_list_audit": {
+    "source_url": "https://raw.githubusercontent.com/aertslab/SCENICprotocol/37e555c112cc4f55a26ef3f7c232ffe9238ae476/example/allTFs_mm.txt",
+    "retrieved_previous_readonly_audit": true,
+    "saved_locally": false,
+    "bytes": 10772,
+    "unique_tf_count": 1721,
+    "sha256": "eefa8f6fe3a3e7039baa121ee42847892faf581cd4979cefd9b5d500b160f61b",
+    "contains_Satb2": false,
+    "current_resource_server_file_equivalence": "unverified; do not silently substitute or appendSatb2"
+  }
+}

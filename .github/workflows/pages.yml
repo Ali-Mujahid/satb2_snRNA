@@ -25,6 +25,11 @@ jobs:
           python3 scripts/verify_site.py
           python3 scripts/verify_v34_extensions.py
           python3 scripts/verify_communication_atlas.py
+          python3 scripts/verify_regulatory_atlas.py
+          python3 tests/regulatory_verification.py
+          python3 tests/regulatory_publication.py
+          python3 tests/regulatory_recovery.py
+          node tests/regulatory.cjs
           node tests/communication_deg_only.cjs
           node tests/communication_deg_ui.cjs
           node tests/communication_deg_visuals.cjs

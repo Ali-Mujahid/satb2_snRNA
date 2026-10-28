@@ -1,0 +1,7 @@
+# Export-only recovery1.0.2
+
+All four hdWGCNA networks and mouse association tables in the1.0.1 run completed. Enrichment failed only when automatic SVG selection required absent svglite; its automatic PDF device also substituted the Unicode minus glyph. Preserve that failed lifecycle and every original file. This version uses explicit working grDevices::svg and cairo_pdf devices and does not install software.
+
+Entrypoint workflow/RecoverSnakefile contains no network fitting rule. It verifies a SHA256-frozen250-file inventory, the original preparation receipt and all four completed native checkpoint MD5 receipts, then copies only prepared/ and hdwgcna/ into a fresh recovery root. The original native fitting script remains byte-identical. Recovery and native configurations must match in every scientific key; only run_root, workflow_version and the explicit reuse_completed_native receipt differ. Every source and copied file is rehashed before publication.
+
+Recompute the unchanged offline enrichment specification into a new folder and package using the explicitly recorded original scientific configuration plus the new recovery configuration. No failed enrichment output is copied, and no old analysis or fitted network is overwritten or refitted. The original fit warnings, sparsity/Pearson fallback, partial technical-partition confounding and mixed C8 identity remain limitations, rather than being hidden by the export repair.

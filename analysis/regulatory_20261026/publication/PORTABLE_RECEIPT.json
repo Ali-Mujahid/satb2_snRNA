@@ -1,0 +1,34 @@
+{
+  "bytes": 9484097,
+  "embedded_sources": [
+    {
+      "bytes": 33044,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/vendor/fflate.min.js",
+      "sha256": "462ef8041fc970e3615a20a9dd2b2e3047a073b2da729ef4f02b634bba8b7b83"
+    },
+    {
+      "bytes": 420165,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/vendor/jspdf.umd.min.js",
+      "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+    },
+    {
+      "bytes": 8967217,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/regulatory/data.js",
+      "sha256": "b5adb03dad7de0a53161723e6f939371e1d0ad2eb3aa744c5d87b91f35417346"
+    },
+    {
+      "bytes": 45768,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/regulatory/app.js",
+      "sha256": "e72a9d81b0406ba15a6853610dec0e53dd5032239d8c89049dbc40108feed43d"
+    },
+    {
+      "bytes": 4697,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/site/regulatory/styles.css",
+      "sha256": "d5e48945117047d5781201e17d758a37463b515688ce4ff42c9cf8dd6ad7737c"
+    }
+  ],
+  "external_render_dependencies": [],
+  "file": "SATB2_regulatory_interactive_offline.html",
+  "scientific_fits_performed": false,
+  "sha256": "bc5f3428003bef869130eb6667ff57491d3871ab7adc396dab757b4cc3aca8f2"
+}

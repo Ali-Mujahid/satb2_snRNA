@@ -1,0 +1,2096 @@
+{
+  "figures": [
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 24065,
+          "component": "hdWGCNA",
+          "component_relative_path": "enrichment/GO_BP_dotplot.pdf",
+          "href": "figures/regulatory__95a9e5952f__results__enrichment__GO_BP_dotplot.pdf",
+          "location": "Pages",
+          "native_path": "results/enrichment/GO_BP_dotplot.pdf",
+          "sha256": "8fec67a2802f831bd942fd64d3de0f2f0ef41c1ee3198d8020273ae6eba305ac"
+        },
+        "png": {
+          "bytes": 231670,
+          "component": "hdWGCNA",
+          "component_relative_path": "enrichment/GO_BP_dotplot.png",
+          "href": "figures/regulatory__213532715f__results__enrichment__GO_BP_dotplot.png",
+          "location": "Pages",
+          "native_path": "results/enrichment/GO_BP_dotplot.png",
+          "sha256": "3e9c3d24d4902b62048561abceb185dd6c60ac8171c20c474e1ebd25c94f3a8a"
+        },
+        "svg": {
+          "bytes": 225561,
+          "component": "hdWGCNA",
+          "component_relative_path": "enrichment/GO_BP_dotplot.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/enrichment/GO_BP_dotplot.svg",
+          "sha256": "e81e5904a31d6a415e7de46f79b2736121d4a50a0e43764f855b119fe98a2021"
+        }
+      },
+      "label": "enrichment · GO BP dotplot",
+      "lineage": "other",
+      "network": "other",
+      "source_stem": "enrichment/GO_BP_dotplot"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 77474,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.pdf",
+          "href": "figures/regulatory__5a5bf68242__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_1.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.pdf",
+          "sha256": "b67a513057e9a4c9227b5a63cbc51c47139cfae493cbd5b9eec7dfeabb004eac"
+        },
+        "png": {
+          "bytes": 102756,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.png",
+          "href": "figures/regulatory__7595cbc927__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_1.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.png",
+          "sha256": "a4d68728656ebe045cedf51c8eccf4e2acd3903e36bbaf459eed5e50ffd2f774"
+        },
+        "svg": {
+          "bytes": 1905092,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1.svg",
+          "sha256": "c12b6a4b8ae01e3d7168f516eb0c7a3b1a92b6f35dce6c62897cc4da83de2b89"
+        }
+      },
+      "label": "CA1 · consensus · gene dendrogram block 1",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_1"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 76814,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.pdf",
+          "href": "figures/regulatory__40790c6229__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_2.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.pdf",
+          "sha256": "3ec5368c4a16f33d60cb971dfffde671ca105e9e42cfdfb94474a5e79609540b"
+        },
+        "png": {
+          "bytes": 82948,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.png",
+          "href": "figures/regulatory__89213cb4ba__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_2.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.png",
+          "sha256": "c695fce91a0f9ed78240dc259b6ef323e6e4f086417042217ec684d29e20029c"
+        },
+        "svg": {
+          "bytes": 1873893,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2.svg",
+          "sha256": "322f02b71d4b65c3c6b1598be0d11e8e384dac9f85e715ef4ccfa09c67053a0e"
+        }
+      },
+      "label": "CA1 · consensus · gene dendrogram block 2",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_2"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 77095,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.pdf",
+          "href": "figures/regulatory__14cc919c08__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_3.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.pdf",
+          "sha256": "e0c6784d0560891a84f7506c5d90ca3cfa356bb2c12bffbd96e17bab294d4a7e"
+        },
+        "png": {
+          "bytes": 105566,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.png",
+          "href": "figures/regulatory__a406078e17__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_3.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.png",
+          "sha256": "e9564fe801cee86a7cf4d1060fab5b4629daa98a6b08aff85aaf4f709fc4210b"
+        },
+        "svg": {
+          "bytes": 1862714,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3.svg",
+          "sha256": "982e3558d39a5e446e241f0824981e07e31bae2e8d256c354341a55401b9bf59"
+        }
+      },
+      "label": "CA1 · consensus · gene dendrogram block 3",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_3"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 53281,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.pdf",
+          "href": "figures/regulatory__b5011f7675__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_4.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.pdf",
+          "sha256": "d041eef95ec6b314b984dba6fd308dbdd69b5683fc89371daf57ad068991cef1"
+        },
+        "png": {
+          "bytes": 96677,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.png",
+          "href": "figures/regulatory__43781372b9__results__hdwgcna__CA1__consensus__figures__gene_dendrogram_block_4.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.png",
+          "sha256": "862467c2685455daff29040432ece6e62c91f3fe38b2ef38b8b7661a12ec1f0b"
+        },
+        "svg": {
+          "bytes": 1075333,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4.svg",
+          "sha256": "6a330dd46d0978dd1549da103438c1ed2896785dd3937c31b8053d4777a03332"
+        }
+      },
+      "label": "CA1 · consensus · gene dendrogram block 4",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/gene_dendrogram_block_4"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 21947,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.pdf",
+          "href": "figures/regulatory__13c071d78d__results__hdwgcna__CA1__consensus__figures__module_RNA_dotplot.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/module_RNA_dotplot.pdf",
+          "sha256": "b51cd298931198a68be59cdecba8261e8b6b9e772aa206afac04a96c14721f20"
+        },
+        "png": {
+          "bytes": 85017,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.png",
+          "href": "figures/regulatory__e5f28aa3d5__results__hdwgcna__CA1__consensus__figures__module_RNA_dotplot.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/module_RNA_dotplot.png",
+          "sha256": "55920a03458e215acdda528cf35f39159715edb3ee42a7e79942c0c987538409"
+        },
+        "svg": {
+          "bytes": 112062,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/module_RNA_dotplot.svg",
+          "sha256": "247988e9d0608cd68a5931465f687ecb3a014393f41c6fbe566a8e62dff58fe6"
+        }
+      },
+      "label": "CA1 · consensus · module RNA dotplot",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/module_RNA_dotplot"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 22998,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.pdf",
+          "href": "figures/regulatory__48b9d20a80__results__hdwgcna__CA1__consensus__figures__mouse_eigengene_heatmap.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.pdf",
+          "sha256": "79b4a576d942f4b4e2c9f0e152d54ee6d73a05b5149fb077d12ac49426c8f123"
+        },
+        "png": {
+          "bytes": 72165,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.png",
+          "href": "figures/regulatory__9cb520268a__results__hdwgcna__CA1__consensus__figures__mouse_eigengene_heatmap.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.png",
+          "sha256": "4fac6346b4ad34b68c860a25f5d5d1ba8765cedd081e26df8e91fac1959f8a37"
+        },
+        "svg": {
+          "bytes": 178464,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap.svg",
+          "sha256": "801ab6a4ccf366e76f4c8c7d52b9f0fd6601aca4b6d8d8c29a5d02acd3a0f793"
+        }
+      },
+      "label": "CA1 · consensus · mouse eigengene heatmap",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/mouse_eigengene_heatmap"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 24255,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.pdf",
+          "href": "figures/regulatory__be52b1df8f__results__hdwgcna__CA1__consensus__figures__soft_power_diagnostics.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/soft_power_diagnostics.pdf",
+          "sha256": "0d7e2852f5b5f814323564402cd71fafcb02e3d6e76cb1d037d0d08b6bb390e3"
+        },
+        "png": {
+          "bytes": 101738,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.png",
+          "href": "figures/regulatory__f99e08fcd8__results__hdwgcna__CA1__consensus__figures__soft_power_diagnostics.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/soft_power_diagnostics.png",
+          "sha256": "a57f21734154a260805014a331fa6e9a2c42010b5045b5292cfb3f5239c74bea"
+        },
+        "svg": {
+          "bytes": 146348,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/soft_power_diagnostics.svg",
+          "sha256": "dbca62c3f54b1a5fd44a642c9a49d990d91ada4ddae5005a72654256e93ff8ff"
+        }
+      },
+      "label": "CA1 · consensus · soft power diagnostics",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/soft_power_diagnostics"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 20286,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/top_hubs.pdf",
+          "href": "figures/regulatory__e39fad81f2__results__hdwgcna__CA1__consensus__figures__top_hubs.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/top_hubs.pdf",
+          "sha256": "22a5d32a09f69854d93e917319439ed5c2bf0ea765da835cb65065d60fc29d00"
+        },
+        "png": {
+          "bytes": 182239,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/top_hubs.png",
+          "href": "figures/regulatory__c7ba98d98a__results__hdwgcna__CA1__consensus__figures__top_hubs.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/top_hubs.png",
+          "sha256": "e9e29d35527ca81bb70f4b57d25199f848e278777320e070d77ae601645a8ef3"
+        },
+        "svg": {
+          "bytes": 240260,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/consensus/figures/top_hubs.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/consensus/figures/top_hubs.svg",
+          "sha256": "c27c96e6a6a4195d8f2d0d0008fa8a76ff6e5be632e7a97cfd45992562562d6c"
+        }
+      },
+      "label": "CA1 · consensus · top hubs",
+      "lineage": "CA1",
+      "network": "consensus",
+      "source_stem": "hdwgcna/CA1/consensus/figures/top_hubs"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 79657,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.pdf",
+          "href": "figures/regulatory__9d06d295b7__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_1.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.pdf",
+          "sha256": "6166bec618c6ff2d2c243ec7e559562d8bad5fc1cbfbdf69e1fda0cf5d07af5e"
+        },
+        "png": {
+          "bytes": 99350,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.png",
+          "href": "figures/regulatory__deedc275a6__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_1.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.png",
+          "sha256": "29635d08e96608b1da7029fb960857cb19ffee6cdff824a70dd03264f6b6ae1f"
+        },
+        "svg": {
+          "bytes": 1889994,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1.svg",
+          "sha256": "da9c74426d768d4100ab140725b252b559367b83feb5dbc9603c68def9af57af"
+        }
+      },
+      "label": "CA1 · pooled · gene dendrogram block 1",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_1"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 78033,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.pdf",
+          "href": "figures/regulatory__9562fc5ae0__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_2.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.pdf",
+          "sha256": "6436fb7b4c961a1e7e205260cad601018424dd70ec0e5ebc4ffba2c9117f870e"
+        },
+        "png": {
+          "bytes": 89427,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.png",
+          "href": "figures/regulatory__8427ab2ac1__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_2.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.png",
+          "sha256": "0ad6bb6e924b52d31331695672283348c3d03db80940f8782140c9673609b6fb"
+        },
+        "svg": {
+          "bytes": 1853719,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2.svg",
+          "sha256": "87286709b1cf0ac982c84755ed4eead2e979b50a38bdf7ce12327d24451ebf3e"
+        }
+      },
+      "label": "CA1 · pooled · gene dendrogram block 2",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_2"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 75296,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.pdf",
+          "href": "figures/regulatory__3c4f2151b5__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_3.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.pdf",
+          "sha256": "31c505e5c67cfbdfb359e084246436e069459a84c9453b4610aa687eb13a0a46"
+        },
+        "png": {
+          "bytes": 83918,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.png",
+          "href": "figures/regulatory__4d0f1b4886__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_3.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.png",
+          "sha256": "c9e29e0b4761fd8fa6b8061b1a5feda75d5e904c9c701c93dd0064970327339c"
+        },
+        "svg": {
+          "bytes": 1875833,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3.svg",
+          "sha256": "1c0dad1ee9d3924c258d7260fb1eb7d36d36cf1eef8f14aeb5d56ceac76b0636"
+        }
+      },
+      "label": "CA1 · pooled · gene dendrogram block 3",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_3"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 51568,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.pdf",
+          "href": "figures/regulatory__b9a3872fa2__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_4.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.pdf",
+          "sha256": "868652fff126ccf273abe6d33b0c2604dd32975859e18df3ba9cf4017c603d46"
+        },
+        "png": {
+          "bytes": 106382,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.png",
+          "href": "figures/regulatory__f35afce4c7__results__hdwgcna__CA1__pooled__figures__gene_dendrogram_block_4.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.png",
+          "sha256": "5cb82aa7b5ab252858974a637f20429e522e0dbc79dea4b4b29c6a292fb6f956"
+        },
+        "svg": {
+          "bytes": 1036408,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4.svg",
+          "sha256": "b268828d435450e3fa137f7035f1dccd1d41c928b1ae6421ba08ffb92538e39b"
+        }
+      },
+      "label": "CA1 · pooled · gene dendrogram block 4",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/gene_dendrogram_block_4"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 18255,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/metacell_coverage.pdf",
+          "href": "figures/regulatory__8c940bf91c__results__hdwgcna__CA1__pooled__figures__metacell_coverage.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/metacell_coverage.pdf",
+          "sha256": "e026fd3cce894a7d6bb97511930baf47759e4439d69bde412254973d828b8dec"
+        },
+        "png": {
+          "bytes": 62140,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/metacell_coverage.png",
+          "href": "figures/regulatory__a6104d0326__results__hdwgcna__CA1__pooled__figures__metacell_coverage.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/metacell_coverage.png",
+          "sha256": "ac64919ec47b2d4a005447fd08aaea76e16abd5ce7809a189ac8ec1c45fda2d9"
+        },
+        "svg": {
+          "bytes": 92986,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/metacell_coverage.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/metacell_coverage.svg",
+          "sha256": "d00119e5036d8d80cfaf208e72d6b4bd7c6baa6cd76fe812561d41ea09a722d9"
+        }
+      },
+      "label": "CA1 · pooled · metacell coverage",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/metacell_coverage"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 22542,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.pdf",
+          "href": "figures/regulatory__182d2ddae7__results__hdwgcna__CA1__pooled__figures__module_RNA_dotplot.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/module_RNA_dotplot.pdf",
+          "sha256": "d02c8b1912f9deb745c98e35655246c55ccb7b8d17faa48e40b5727bc7aa2940"
+        },
+        "png": {
+          "bytes": 95617,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.png",
+          "href": "figures/regulatory__cc0f061935__results__hdwgcna__CA1__pooled__figures__module_RNA_dotplot.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/module_RNA_dotplot.png",
+          "sha256": "b507fa4210073201b7332847ebca8b89fcdcc0fde5cc5a299d4751de5dbdbac3"
+        },
+        "svg": {
+          "bytes": 115258,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/module_RNA_dotplot.svg",
+          "sha256": "fb5205f41d486c3ac922863f21ffc1478fc3fde6083f0cc4653f1042d3e104a4"
+        }
+      },
+      "label": "CA1 · pooled · module RNA dotplot",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/module_RNA_dotplot"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 23549,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.pdf",
+          "href": "figures/regulatory__07b385ef0b__results__hdwgcna__CA1__pooled__figures__mouse_eigengene_heatmap.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.pdf",
+          "sha256": "0d5471cd815c9d34ebfb4afa4e53bc7764e587c3523ab49b92379a7c719c86d8"
+        },
+        "png": {
+          "bytes": 74912,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.png",
+          "href": "figures/regulatory__a1002a0ff7__results__hdwgcna__CA1__pooled__figures__mouse_eigengene_heatmap.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.png",
+          "sha256": "4986cf3cffbe9b862951c004193421d1612e738760b09bf62624ec9726ba7caa"
+        },
+        "svg": {
+          "bytes": 193186,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap.svg",
+          "sha256": "fc4c20e2b886c141a84826db448ebb9be39074df503433cc052d97608a4dbf68"
+        }
+      },
+      "label": "CA1 · pooled · mouse eigengene heatmap",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/mouse_eigengene_heatmap"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 21374,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.pdf",
+          "href": "figures/regulatory__c4f9fd7fac__results__hdwgcna__CA1__pooled__figures__soft_power_diagnostics.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/soft_power_diagnostics.pdf",
+          "sha256": "44e07b58343fc6c7842fbdd9979e4edf5985b0d9f491b153d25dde8ea174c63b"
+        },
+        "png": {
+          "bytes": 85332,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.png",
+          "href": "figures/regulatory__508139a388__results__hdwgcna__CA1__pooled__figures__soft_power_diagnostics.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/soft_power_diagnostics.png",
+          "sha256": "7aff61d16239a544fe59fcac234e340a0de9e16e12630baed0272773b7a7bbb2"
+        },
+        "svg": {
+          "bytes": 118625,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/soft_power_diagnostics.svg",
+          "sha256": "67826b8a2c5aa3326fdd12f5fe164fd0eb8c02688ea88ff9d960a402b2276681"
+        }
+      },
+      "label": "CA1 · pooled · soft power diagnostics",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/soft_power_diagnostics"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 21596,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/top_hubs.pdf",
+          "href": "figures/regulatory__7a1f40e5f8__results__hdwgcna__CA1__pooled__figures__top_hubs.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/top_hubs.pdf",
+          "sha256": "82d0d9e51ff6801d90448fd749488a6df3d27c7ea1b807603cdb00295e3228d6"
+        },
+        "png": {
+          "bytes": 222034,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/top_hubs.png",
+          "href": "figures/regulatory__758289906c__results__hdwgcna__CA1__pooled__figures__top_hubs.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/top_hubs.png",
+          "sha256": "583893451377a92496b55d7797382db56bf12543ad6e9214d871deecde4b8c6d"
+        },
+        "svg": {
+          "bytes": 281888,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/CA1/pooled/figures/top_hubs.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/CA1/pooled/figures/top_hubs.svg",
+          "sha256": "7f1f3cf6f84abfcb2d429299640bd84bc4811d75365ef9dc46d9e92a2c9538aa"
+        }
+      },
+      "label": "CA1 · pooled · top hubs",
+      "lineage": "CA1",
+      "network": "pooled",
+      "source_stem": "hdwgcna/CA1/pooled/figures/top_hubs"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 77822,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.pdf",
+          "href": "figures/regulatory__97b499eb54__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_1.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.pdf",
+          "sha256": "b2251819ed2724bf14373ab85a1cdbd26d1274a3cccb5657e0cc8f91ada04ba4"
+        },
+        "png": {
+          "bytes": 100052,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.png",
+          "href": "figures/regulatory__d107866e15__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_1.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.png",
+          "sha256": "6010bb7782f333906459380d2a44d62e11de2af9163cacbd58ff1fedb12a672c"
+        },
+        "svg": {
+          "bytes": 1868338,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_1.svg",
+          "sha256": "14a4373059c7ad2341420e01a18d9d85e2a998d0e395096a8004cf68ff9a30d1"
+        }
+      },
+      "label": "IN · consensus · gene dendrogram block 1",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_1"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 80927,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.pdf",
+          "href": "figures/regulatory__5bf8529872__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_2.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.pdf",
+          "sha256": "a6a61afae7399f952f8d9767ec04313e2369297eb13bf9c901b9ae7844a0b4bf"
+        },
+        "png": {
+          "bytes": 106339,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.png",
+          "href": "figures/regulatory__6e5f4d048b__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_2.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.png",
+          "sha256": "06841daa6cb267c5d9d65cbd3bb9e781816dc49b7e16d3805a3ef74432595043"
+        },
+        "svg": {
+          "bytes": 1891166,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_2.svg",
+          "sha256": "f0f2be4f1575036c253cb8b07969a4da6939ca392b2b8b963c5bc630a1c2e778"
+        }
+      },
+      "label": "IN · consensus · gene dendrogram block 2",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_2"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 84425,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.pdf",
+          "href": "figures/regulatory__2048cb61a3__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_3.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.pdf",
+          "sha256": "da57633159911299f8bbf15fb2b26009cc984d6cfb1aa323ec589d08b63ffed6"
+        },
+        "png": {
+          "bytes": 121675,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.png",
+          "href": "figures/regulatory__8df56ba4f8__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_3.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.png",
+          "sha256": "b295f44ca6d2bf498a3cfd4f03de758eb7988aa535ff7779e3b653d572f39d28"
+        },
+        "svg": {
+          "bytes": 1894170,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_3.svg",
+          "sha256": "cccfcc2f4e53357893bab44686ad4914865567efdc7f9c88c924b8bf8d5619ba"
+        }
+      },
+      "label": "IN · consensus · gene dendrogram block 3",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_3"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 63400,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.pdf",
+          "href": "figures/regulatory__138b9e1292__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_4.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.pdf",
+          "sha256": "a86647aaf5d92b5dce15c65dcee69f1c45297ad4759d9dda607647c98e274806"
+        },
+        "png": {
+          "bytes": 157599,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.png",
+          "href": "figures/regulatory__73dce00334__results__hdwgcna__IN__consensus__figures__gene_dendrogram_block_4.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.png",
+          "sha256": "12ffdd53667db453954bd7d401c89e2120dbf6ac8b6d2748fba5393ce61aafd3"
+        },
+        "svg": {
+          "bytes": 1349324,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/gene_dendrogram_block_4.svg",
+          "sha256": "fc0ca1239ec2d79cc8288adf8d17030a27d1e53662d0724d90a8d3ac3fba2f2d"
+        }
+      },
+      "label": "IN · consensus · gene dendrogram block 4",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/gene_dendrogram_block_4"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 16546,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.pdf",
+          "href": "figures/regulatory__ce7601106c__results__hdwgcna__IN__consensus__figures__module_RNA_dotplot.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/module_RNA_dotplot.pdf",
+          "sha256": "a93b90ce8885b50115a13b221a0a639a28a2bb99837d42d81a4a7897237af94a"
+        },
+        "png": {
+          "bytes": 72518,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.png",
+          "href": "figures/regulatory__14954bbbad__results__hdwgcna__IN__consensus__figures__module_RNA_dotplot.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/module_RNA_dotplot.png",
+          "sha256": "9e6c1c3e658fbb540ddddd9a456794bf1a99bfb5dce65ced63c6009406443d4d"
+        },
+        "svg": {
+          "bytes": 89683,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/module_RNA_dotplot.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/module_RNA_dotplot.svg",
+          "sha256": "6cc5479e7cfd2d35bb2630ecd63695ddb4b2bbf03c9a72e4e8e6a1ba4b28acde"
+        }
+      },
+      "label": "IN · consensus · module RNA dotplot",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/module_RNA_dotplot"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 17991,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.pdf",
+          "href": "figures/regulatory__ef03df11cb__results__hdwgcna__IN__consensus__figures__mouse_eigengene_heatmap.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.pdf",
+          "sha256": "bf6ba2279684d481804a4c50dab33df2f0e1235faebf1f8b19fe5442a895fa51"
+        },
+        "png": {
+          "bytes": 48974,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.png",
+          "href": "figures/regulatory__9dcd0ebb67__results__hdwgcna__IN__consensus__figures__mouse_eigengene_heatmap.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.png",
+          "sha256": "a68c5635b746e20dbf54365f65b308093f249127be229a3ddd49160fe6d1e3a3"
+        },
+        "svg": {
+          "bytes": 155058,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap.svg",
+          "sha256": "851edc4011af8e7ff27d498d0b72c6965a69c1a20bdcdfcfe0c9acb0c7a4e552"
+        }
+      },
+      "label": "IN · consensus · mouse eigengene heatmap",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/mouse_eigengene_heatmap"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 24100,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.pdf",
+          "href": "figures/regulatory__f91cbb7efc__results__hdwgcna__IN__consensus__figures__soft_power_diagnostics.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/soft_power_diagnostics.pdf",
+          "sha256": "9a9261377d99915d84520d9b13ead39169bf915e95c897af5d1f0947c8c55011"
+        },
+        "png": {
+          "bytes": 100787,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.png",
+          "href": "figures/regulatory__d518d60ec0__results__hdwgcna__IN__consensus__figures__soft_power_diagnostics.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/soft_power_diagnostics.png",
+          "sha256": "8b06bf711d76338339f81221c2d3934d2834adfb54e1b40c92b80885929c1c36"
+        },
+        "svg": {
+          "bytes": 148520,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/soft_power_diagnostics.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/soft_power_diagnostics.svg",
+          "sha256": "d180af36916e250cf5da1a62eb0292f4361cca5c3e848bc333856c701e49f581"
+        }
+      },
+      "label": "IN · consensus · soft power diagnostics",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/soft_power_diagnostics"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 17765,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/top_hubs.pdf",
+          "href": "figures/regulatory__0dfba994a1__results__hdwgcna__IN__consensus__figures__top_hubs.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/top_hubs.pdf",
+          "sha256": "b184ef2e5e11fc2ea1d7a94e2158779e832e2e8e80e5994cbff53f96c0636773"
+        },
+        "png": {
+          "bytes": 103787,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/top_hubs.png",
+          "href": "figures/regulatory__22ed1170e5__results__hdwgcna__IN__consensus__figures__top_hubs.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/consensus/figures/top_hubs.png",
+          "sha256": "f452f8db076ebc7087eee2419fcae3a1345e14f5d54e2cb9694d411ddfa56fac"
+        },
+        "svg": {
+          "bytes": 160758,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/consensus/figures/top_hubs.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/consensus/figures/top_hubs.svg",
+          "sha256": "6068489a087c2e5188b0bdded4d447d416b644d8db3c7afa8ea5f4b76ea0caae"
+        }
+      },
+      "label": "IN · consensus · top hubs",
+      "lineage": "IN",
+      "network": "consensus",
+      "source_stem": "hdwgcna/IN/consensus/figures/top_hubs"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 83209,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.pdf",
+          "href": "figures/regulatory__ef49d40252__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_1.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.pdf",
+          "sha256": "9c77e3ecb4ec721ed69a5ef4cb13b31f2d47f2d9950b37cf77d3a44204c3833d"
+        },
+        "png": {
+          "bytes": 121018,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.png",
+          "href": "figures/regulatory__f400c11df7__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_1.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.png",
+          "sha256": "a202fded884afda0ab4d2bdbd0bc2f40b282a504cd76295d8469a197916e17ca"
+        },
+        "svg": {
+          "bytes": 1905794,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_1.svg",
+          "sha256": "98fba9699eae3958cbd8c2a63fb0942ff37c61680d0aaf979e20dec6adfa8ea7"
+        }
+      },
+      "label": "IN · pooled · gene dendrogram block 1",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_1"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 79435,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.pdf",
+          "href": "figures/regulatory__85f7aeb453__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_2.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.pdf",
+          "sha256": "fea8750cb0f445067c62bb6d9c62db84af7174649e223ed4e4495415ab97fe6f"
+        },
+        "png": {
+          "bytes": 96844,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.png",
+          "href": "figures/regulatory__e76559561f__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_2.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.png",
+          "sha256": "bcbdbbefc1cc2c51a03195ea0c54ab60cf95c72c053b4685b931ad8fe254dc50"
+        },
+        "svg": {
+          "bytes": 1868181,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_2.svg",
+          "sha256": "507e765585b63777d5ddb560cd1289e10acbb0db55c421618e7e417c5bda4dcc"
+        }
+      },
+      "label": "IN · pooled · gene dendrogram block 2",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_2"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 77923,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.pdf",
+          "href": "figures/regulatory__30947d2b83__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_3.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.pdf",
+          "sha256": "fb337b963f5cc130b369461b0c21bce13aea3c13d5ff8d251a61246e1a6f4ee1"
+        },
+        "png": {
+          "bytes": 89221,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.png",
+          "href": "figures/regulatory__610763d0fc__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_3.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.png",
+          "sha256": "a69d8684a3a8389277baee42bdb003e582b5afabd0d98863eee775f6fc459560"
+        },
+        "svg": {
+          "bytes": 1901615,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_3.svg",
+          "sha256": "69f585642de00fd8b860fc1ce69ff185a24d6862831f92c66561ee1236738848"
+        }
+      },
+      "label": "IN · pooled · gene dendrogram block 3",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_3"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 63089,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.pdf",
+          "href": "figures/regulatory__d0675af858__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_4.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.pdf",
+          "sha256": "8803a652ab9ea472147014a2a3fc5f18dbefa03284b265ee80d51705c81d74cf"
+        },
+        "png": {
+          "bytes": 113542,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.png",
+          "href": "figures/regulatory__930c50107d__results__hdwgcna__IN__pooled__figures__gene_dendrogram_block_4.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.png",
+          "sha256": "3f2894a554ddff494ca358cc5c8acef4e9487e9b7f3afdbc41358ba3f6887409"
+        },
+        "svg": {
+          "bytes": 1321069,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/gene_dendrogram_block_4.svg",
+          "sha256": "0b6fe007c6f457ef20c0a74ec13af5270ab46b8ced0ddac0c92556cb3a1ce61c"
+        }
+      },
+      "label": "IN · pooled · gene dendrogram block 4",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/gene_dendrogram_block_4"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 14838,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/metacell_coverage.pdf",
+          "href": "figures/regulatory__89a2778c13__results__hdwgcna__IN__pooled__figures__metacell_coverage.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/metacell_coverage.pdf",
+          "sha256": "9f16a8b7905e1e9cf804e8a51762126e76665fb4c9adee3ba7587314783d4ffe"
+        },
+        "png": {
+          "bytes": 69078,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/metacell_coverage.png",
+          "href": "figures/regulatory__d0a9ee8aab__results__hdwgcna__IN__pooled__figures__metacell_coverage.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/metacell_coverage.png",
+          "sha256": "bb0a878a1f0c0666eddb802d6598cd5578a46b52dfeb8f0bdcce77af3821cead"
+        },
+        "svg": {
+          "bytes": 98846,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/metacell_coverage.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/metacell_coverage.svg",
+          "sha256": "8976834391eb5afcafbf750b18815aef8c1b1821ae0d271ea5b72191670f8463"
+        }
+      },
+      "label": "IN · pooled · metacell coverage",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/metacell_coverage"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 17833,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.pdf",
+          "href": "figures/regulatory__29e7631f06__results__hdwgcna__IN__pooled__figures__module_RNA_dotplot.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/module_RNA_dotplot.pdf",
+          "sha256": "5371c87673b0cf0b24f5d1dc496d42e93f7eab88649146eb3dacee6d0c7965b0"
+        },
+        "png": {
+          "bytes": 85068,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.png",
+          "href": "figures/regulatory__c0fb2756ee__results__hdwgcna__IN__pooled__figures__module_RNA_dotplot.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/module_RNA_dotplot.png",
+          "sha256": "c30822d5f2bf8651ccff2463acd3ea11adc583ba64811700d222e4fd9e59ffb8"
+        },
+        "svg": {
+          "bytes": 98622,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/module_RNA_dotplot.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/module_RNA_dotplot.svg",
+          "sha256": "4072b303f57d70abae9f78297659ddcab9378338d52df1d4c3eb8fcae5b25e6b"
+        }
+      },
+      "label": "IN · pooled · module RNA dotplot",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/module_RNA_dotplot"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 18366,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.pdf",
+          "href": "figures/regulatory__2987783527__results__hdwgcna__IN__pooled__figures__mouse_eigengene_heatmap.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.pdf",
+          "sha256": "4ca65dfb221281ca8a179c1ca90578d7427ba397169278afb32c0e072cd473d5"
+        },
+        "png": {
+          "bytes": 51125,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.png",
+          "href": "figures/regulatory__598a79b889__results__hdwgcna__IN__pooled__figures__mouse_eigengene_heatmap.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.png",
+          "sha256": "bf3c08d826c6546769fdc2b9f1bf873868505239ab4cfdd6941d2098a506d8a5"
+        },
+        "svg": {
+          "bytes": 167661,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap.svg",
+          "sha256": "e9f0d389462af8017829bf473ce6fd982c3324d96c87ac04b3a6a6d8984ed2de"
+        }
+      },
+      "label": "IN · pooled · mouse eigengene heatmap",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/mouse_eigengene_heatmap"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 21405,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.pdf",
+          "href": "figures/regulatory__877c0138b0__results__hdwgcna__IN__pooled__figures__soft_power_diagnostics.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/soft_power_diagnostics.pdf",
+          "sha256": "232036effc1277b196d7ba4c8af209c610b37ab5337edeab86f8e4c624a96c5d"
+        },
+        "png": {
+          "bytes": 82297,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.png",
+          "href": "figures/regulatory__51c73bf595__results__hdwgcna__IN__pooled__figures__soft_power_diagnostics.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/soft_power_diagnostics.png",
+          "sha256": "0c8be0e0d36c5c0315126291f892812bd1cd592e903d8309ca206c8f0b8b01de"
+        },
+        "svg": {
+          "bytes": 119659,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/soft_power_diagnostics.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/soft_power_diagnostics.svg",
+          "sha256": "750b2e08fab37d9a9989b09ff504ca377ced9ec4afdf9a0fcf164ba4db45bb6e"
+        }
+      },
+      "label": "IN · pooled · soft power diagnostics",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/soft_power_diagnostics"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 18418,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/top_hubs.pdf",
+          "href": "figures/regulatory__fef59fe51d__results__hdwgcna__IN__pooled__figures__top_hubs.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/top_hubs.pdf",
+          "sha256": "2463a8978c569c5b7973d7063b2d1e1e0a81b5687ea1a74e44453aa05443352f"
+        },
+        "png": {
+          "bytes": 123607,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/top_hubs.png",
+          "href": "figures/regulatory__dc9c5ec671__results__hdwgcna__IN__pooled__figures__top_hubs.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/IN/pooled/figures/top_hubs.png",
+          "sha256": "975b432a22d2ee0ea68e91630fce1d93fa56467589bbb7e20058cb7ec0b135c5"
+        },
+        "svg": {
+          "bytes": 182479,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/IN/pooled/figures/top_hubs.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/IN/pooled/figures/top_hubs.svg",
+          "sha256": "2a6efefc9a6202246636d169d19e8dee2d9f3153243aaad60b90550fe93f32a9"
+        }
+      },
+      "label": "IN · pooled · top hubs",
+      "lineage": "IN",
+      "network": "pooled",
+      "source_stem": "hdwgcna/IN/pooled/figures/top_hubs"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 22463,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/consensus_module_genotype_associations.pdf",
+          "href": "figures/regulatory__b6c0b6caa1__results__hdwgcna__figures__consensus_module_genotype_associations.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/consensus_module_genotype_associations.pdf",
+          "sha256": "c2ce2c4c2027acd6a81e8dd68e9c38ad842939215f509a77e227b217cf1cf710"
+        },
+        "png": {
+          "bytes": 119198,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/consensus_module_genotype_associations.png",
+          "href": "figures/regulatory__d367c0f4d9__results__hdwgcna__figures__consensus_module_genotype_associations.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/consensus_module_genotype_associations.png",
+          "sha256": "b85fceade5cc511b7201048b767312214e8ec9a57623a340c9a21b62da4f18b2"
+        },
+        "svg": {
+          "bytes": 160439,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/consensus_module_genotype_associations.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/figures/consensus_module_genotype_associations.svg",
+          "sha256": "57e808df7dafd113a80b0b2224f2d25ff37dabd411a92b902e8faf804c6931c0"
+        }
+      },
+      "label": "consensus module genotype associations",
+      "lineage": "other",
+      "network": "other",
+      "source_stem": "hdwgcna/figures/consensus_module_genotype_associations"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 22164,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/consensus_module_genotype_same_partition.pdf",
+          "href": "figures/regulatory__78da7bce75__results__hdwgcna__figures__consensus_module_genotype_same_partition.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/consensus_module_genotype_same_partition.pdf",
+          "sha256": "57ae44ffb4fba06d8237ab4e49d36ddb91219a62dd84138ad310dd45818c3283"
+        },
+        "png": {
+          "bytes": 120231,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/consensus_module_genotype_same_partition.png",
+          "href": "figures/regulatory__9cb1488ae3__results__hdwgcna__figures__consensus_module_genotype_same_partition.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/consensus_module_genotype_same_partition.png",
+          "sha256": "daf7a04ac754f29818e9426145a05702da45385317125614f0ea04ce0d9008c6"
+        },
+        "svg": {
+          "bytes": 158808,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/consensus_module_genotype_same_partition.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/figures/consensus_module_genotype_same_partition.svg",
+          "sha256": "535475a5f2d499c47c3e6aee5b9ab4e8eb73eebf5b3c4b3d9b2ba514298c7986"
+        }
+      },
+      "label": "consensus module genotype same partition",
+      "lineage": "other",
+      "network": "other",
+      "source_stem": "hdwgcna/figures/consensus_module_genotype_same_partition"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 23032,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/pooled_module_genotype_associations.pdf",
+          "href": "figures/regulatory__4d5ea39ebe__results__hdwgcna__figures__pooled_module_genotype_associations.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/pooled_module_genotype_associations.pdf",
+          "sha256": "5f097e3da8892c05ba0b8903fe0d0d8bb2c5e95faab3c7d21421bd222aceab0c"
+        },
+        "png": {
+          "bytes": 139490,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/pooled_module_genotype_associations.png",
+          "href": "figures/regulatory__4c7e77ff7a__results__hdwgcna__figures__pooled_module_genotype_associations.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/pooled_module_genotype_associations.png",
+          "sha256": "68bc6ce0f45b86994655fe9c6cf5f1ddd6e3b48fb432b3a80bfe77126a9bdfdb"
+        },
+        "svg": {
+          "bytes": 181473,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/pooled_module_genotype_associations.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/figures/pooled_module_genotype_associations.svg",
+          "sha256": "489ec9410516d5587087313112aac3093faacfea0cf4938008e3084aea69ac2d"
+        }
+      },
+      "label": "pooled module genotype associations",
+      "lineage": "other",
+      "network": "other",
+      "source_stem": "hdwgcna/figures/pooled_module_genotype_associations"
+    },
+    {
+      "component": "hdWGCNA",
+      "files": {
+        "pdf": {
+          "bytes": 23072,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/pooled_module_genotype_same_partition.pdf",
+          "href": "figures/regulatory__5d102de781__results__hdwgcna__figures__pooled_module_genotype_same_partition.pdf",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/pooled_module_genotype_same_partition.pdf",
+          "sha256": "d5b539af6aec04c6675cd95450c03aac46daa76435845bfe5d8c09c93ef608dc"
+        },
+        "png": {
+          "bytes": 142980,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/pooled_module_genotype_same_partition.png",
+          "href": "figures/regulatory__60fe8aceb1__results__hdwgcna__figures__pooled_module_genotype_same_partition.png",
+          "location": "Pages",
+          "native_path": "results/hdwgcna/figures/pooled_module_genotype_same_partition.png",
+          "sha256": "c8b6a03d5bef9c2bbd9e13cdba56b69c5ebbde1bc57bc96c25e547432a497702"
+        },
+        "svg": {
+          "bytes": 182603,
+          "component": "hdWGCNA",
+          "component_relative_path": "hdwgcna/figures/pooled_module_genotype_same_partition.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "results/hdwgcna/figures/pooled_module_genotype_same_partition.svg",
+          "sha256": "815928dab7a2c71461de2fc2c86d896d28a4a9de8cf6e5ed335cfcf8f2fee513"
+        }
+      },
+      "label": "pooled module genotype same partition",
+      "lineage": "other",
+      "network": "other",
+      "source_stem": "hdwgcna/figures/pooled_module_genotype_same_partition"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 25992,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Deep/activity_heatmap_display_z.pdf",
+          "href": "figures/regulatory__0ca4bf1bc1__tf_component__results__tf_activity__CA1_Deep__activity_heatmap_display_z.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Deep/activity_heatmap_display_z.pdf",
+          "sha256": "599de4a1d8df952486b5af0b3f264e4aaf27076ef6314848e2bca1e89896790a"
+        },
+        "png": {
+          "bytes": 102718,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Deep/activity_heatmap_display_z.png",
+          "href": "figures/regulatory__737d548832__tf_component__results__tf_activity__CA1_Deep__activity_heatmap_display_z.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Deep/activity_heatmap_display_z.png",
+          "sha256": "db3a3a75fe6ffdf63e0219ba674ca4f5b40691149934d32572aa538a795afaa4"
+        },
+        "svg": {
+          "bytes": 76268,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Deep/activity_heatmap_display_z.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/CA1_Deep/activity_heatmap_display_z.svg",
+          "sha256": "7179e64804d774641acbb53273b4f3055371be72d77ed9ba7ec45c61de71dc00"
+        }
+      },
+      "label": "TF activity · tf activity · CA1 Deep · activity heatmap display z",
+      "lineage": "CA1",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/CA1_Deep/activity_heatmap_display_z"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26223,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Deep/mouse_box_dot_native_units.pdf",
+          "href": "figures/regulatory__5834efe6c1__tf_component__results__tf_activity__CA1_Deep__mouse_box_dot_native_units.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Deep/mouse_box_dot_native_units.pdf",
+          "sha256": "2756596dbcd048d74474612b7f49d0a8d2620f483d1dcb3dc1b02c88944ada19"
+        },
+        "png": {
+          "bytes": 108666,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Deep/mouse_box_dot_native_units.png",
+          "href": "figures/regulatory__e16960adf6__tf_component__results__tf_activity__CA1_Deep__mouse_box_dot_native_units.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Deep/mouse_box_dot_native_units.png",
+          "sha256": "b6a6117c88029c3a1f7d42526e24ce59aaa0b79fecbe3ad0b644787bcdbf47c8"
+        },
+        "svg": {
+          "bytes": 108823,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Deep/mouse_box_dot_native_units.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/CA1_Deep/mouse_box_dot_native_units.svg",
+          "sha256": "8c154d354789f5018246cb6f6753eec0ec5c7db84590b7d9eb62bf99a0d6515c"
+        }
+      },
+      "label": "TF activity · tf activity · CA1 Deep · mouse box dot native units",
+      "lineage": "CA1",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/CA1_Deep/mouse_box_dot_native_units"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26948,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Superficial/activity_heatmap_display_z.pdf",
+          "href": "figures/regulatory__cc6db80eb1__tf_component__results__tf_activity__CA1_Superficial__activity_heatmap_display_z.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Superficial/activity_heatmap_display_z.pdf",
+          "sha256": "ca0b230961d072072130fb6cfe530824a4116a871a7e14db6510e2b26c893671"
+        },
+        "png": {
+          "bytes": 104156,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Superficial/activity_heatmap_display_z.png",
+          "href": "figures/regulatory__24738bec3b__tf_component__results__tf_activity__CA1_Superficial__activity_heatmap_display_z.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Superficial/activity_heatmap_display_z.png",
+          "sha256": "323de93abcccba699230fd5b0b30d19fb7f623b4dc1fdf7172fff6c98cc1583b"
+        },
+        "svg": {
+          "bytes": 78407,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Superficial/activity_heatmap_display_z.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/CA1_Superficial/activity_heatmap_display_z.svg",
+          "sha256": "7623263791e1ca872f94f6b57ce0548eb5a8f342868223834bbe85e7f6dfaa7e"
+        }
+      },
+      "label": "TF activity · tf activity · CA1 Superficial · activity heatmap display z",
+      "lineage": "CA1",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/CA1_Superficial/activity_heatmap_display_z"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26152,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Superficial/mouse_box_dot_native_units.pdf",
+          "href": "figures/regulatory__59be87a692__tf_component__results__tf_activity__CA1_Superficial__mouse_box_dot_native_units.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Superficial/mouse_box_dot_native_units.pdf",
+          "sha256": "984a35022453877a29046107e22848a881b1f1529795599dc087c4af780ad86f"
+        },
+        "png": {
+          "bytes": 111641,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Superficial/mouse_box_dot_native_units.png",
+          "href": "figures/regulatory__b863a445c8__tf_component__results__tf_activity__CA1_Superficial__mouse_box_dot_native_units.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/CA1_Superficial/mouse_box_dot_native_units.png",
+          "sha256": "214f7278cfe83e1d65401c76e96cb0ae00eb40d203fad07ded8456281eb595bd"
+        },
+        "svg": {
+          "bytes": 106733,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/CA1_Superficial/mouse_box_dot_native_units.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/CA1_Superficial/mouse_box_dot_native_units.svg",
+          "sha256": "0451562588644d84a94077a354d6605268edf7b035e17a987ab6e1faa020b2ef"
+        }
+      },
+      "label": "TF activity · tf activity · CA1 Superficial · mouse box dot native units",
+      "lineage": "CA1",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/CA1_Superficial/mouse_box_dot_native_units"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26313,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C1/activity_heatmap_display_z.pdf",
+          "href": "figures/regulatory__557fccd123__tf_component__results__tf_activity__IN_C1__activity_heatmap_display_z.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C1/activity_heatmap_display_z.pdf",
+          "sha256": "af8d31f71927d0c03fa5667a4a208c52c9710f9b7075cdd8f46a759df167000e"
+        },
+        "png": {
+          "bytes": 98899,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C1/activity_heatmap_display_z.png",
+          "href": "figures/regulatory__d73486797a__tf_component__results__tf_activity__IN_C1__activity_heatmap_display_z.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C1/activity_heatmap_display_z.png",
+          "sha256": "69b18f5cf77c6e80a11998c574fea1cbdf2cf839d12363adef75dccbad5dc4bc"
+        },
+        "svg": {
+          "bytes": 76259,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C1/activity_heatmap_display_z.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/IN_C1/activity_heatmap_display_z.svg",
+          "sha256": "daf8e1d7be3781a5fc618e4f28267040f30c6a0f7e94dab8b21a1ff99d9aa05f"
+        }
+      },
+      "label": "TF activity · tf activity · IN C1 · activity heatmap display z",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/IN_C1/activity_heatmap_display_z"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26547,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C1/mouse_box_dot_native_units.pdf",
+          "href": "figures/regulatory__168763f439__tf_component__results__tf_activity__IN_C1__mouse_box_dot_native_units.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C1/mouse_box_dot_native_units.pdf",
+          "sha256": "c07834c841bf4be8e9603a1fe6d98c57f78ba3b024825910c6c736d18bb1f7b9"
+        },
+        "png": {
+          "bytes": 109571,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C1/mouse_box_dot_native_units.png",
+          "href": "figures/regulatory__d3bc30ec48__tf_component__results__tf_activity__IN_C1__mouse_box_dot_native_units.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C1/mouse_box_dot_native_units.png",
+          "sha256": "1246fe4b98ea034d65be2cfe6b8fa2571ba6980ba3b4bdd01a930cd3734f9228"
+        },
+        "svg": {
+          "bytes": 112004,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C1/mouse_box_dot_native_units.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/IN_C1/mouse_box_dot_native_units.svg",
+          "sha256": "f60268b2e4ce25a4f50a8599990df6e8517e015f5425e6043305808a9ca11f99"
+        }
+      },
+      "label": "TF activity · tf activity · IN C1 · mouse box dot native units",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/IN_C1/mouse_box_dot_native_units"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26286,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C6/activity_heatmap_display_z.pdf",
+          "href": "figures/regulatory__aa91cdfbc7__tf_component__results__tf_activity__IN_C6__activity_heatmap_display_z.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C6/activity_heatmap_display_z.pdf",
+          "sha256": "d02e1677802981a652730e98be0ad7f1a45ba735c99f75c0677de388ae7960cf"
+        },
+        "png": {
+          "bytes": 101499,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C6/activity_heatmap_display_z.png",
+          "href": "figures/regulatory__00da807f69__tf_component__results__tf_activity__IN_C6__activity_heatmap_display_z.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C6/activity_heatmap_display_z.png",
+          "sha256": "1f0e2f52eccce42c30ef8a651f5bd8d89b45101139bd521cae87fc9496342f60"
+        },
+        "svg": {
+          "bytes": 75985,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C6/activity_heatmap_display_z.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/IN_C6/activity_heatmap_display_z.svg",
+          "sha256": "477a40260607901a9be272db3caf45411946e50f837d1a30a2e7e383a07a5ee9"
+        }
+      },
+      "label": "TF activity · tf activity · IN C6 · activity heatmap display z",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/IN_C6/activity_heatmap_display_z"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26136,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C6/mouse_box_dot_native_units.pdf",
+          "href": "figures/regulatory__e619ecc19f__tf_component__results__tf_activity__IN_C6__mouse_box_dot_native_units.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C6/mouse_box_dot_native_units.pdf",
+          "sha256": "fe5a6b1f6c75b473baf3b5427a2494ea3083207bb69bb69fa1f5193162408ff6"
+        },
+        "png": {
+          "bytes": 130310,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C6/mouse_box_dot_native_units.png",
+          "href": "figures/regulatory__e67ceb89c1__tf_component__results__tf_activity__IN_C6__mouse_box_dot_native_units.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C6/mouse_box_dot_native_units.png",
+          "sha256": "a54c7e600c29827292b94655fb9215e52c3ba4effdce75b45ac4eedc87ee7e3b"
+        },
+        "svg": {
+          "bytes": 101767,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C6/mouse_box_dot_native_units.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/IN_C6/mouse_box_dot_native_units.svg",
+          "sha256": "55797ef3e8cf64c31481965417c132ca67d451bc97ca1b3223f847f2ff2f4fcb"
+        }
+      },
+      "label": "TF activity · tf activity · IN C6 · mouse box dot native units",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/IN_C6/mouse_box_dot_native_units"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26313,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C8/activity_heatmap_display_z.pdf",
+          "href": "figures/regulatory__debee6bd3a__tf_component__results__tf_activity__IN_C8__activity_heatmap_display_z.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C8/activity_heatmap_display_z.pdf",
+          "sha256": "2a70a4de61fe336fd30d12c0b11035a3b0fe469704918f0a4fe7ce589d5bf8be"
+        },
+        "png": {
+          "bytes": 102580,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C8/activity_heatmap_display_z.png",
+          "href": "figures/regulatory__c381074974__tf_component__results__tf_activity__IN_C8__activity_heatmap_display_z.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C8/activity_heatmap_display_z.png",
+          "sha256": "5bddcecae33b81c204168246a38a1d2587823b7e7f93568c26cebfe02203e728"
+        },
+        "svg": {
+          "bytes": 76583,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C8/activity_heatmap_display_z.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/IN_C8/activity_heatmap_display_z.svg",
+          "sha256": "af7165c0ffe415141cf5bddea45906a95c5462d9b19a8393c0ec68f527be07b1"
+        }
+      },
+      "label": "TF activity · tf activity · IN C8 · activity heatmap display z",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/IN_C8/activity_heatmap_display_z"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 26032,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C8/mouse_box_dot_native_units.pdf",
+          "href": "figures/regulatory__ef510c5d84__tf_component__results__tf_activity__IN_C8__mouse_box_dot_native_units.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C8/mouse_box_dot_native_units.pdf",
+          "sha256": "b3be9c291885f9b6d5be295064ad0b5b64a67e225c445ffdc8acba5ffc041db1"
+        },
+        "png": {
+          "bytes": 102777,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C8/mouse_box_dot_native_units.png",
+          "href": "figures/regulatory__6fcca72535__tf_component__results__tf_activity__IN_C8__mouse_box_dot_native_units.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_activity/IN_C8/mouse_box_dot_native_units.png",
+          "sha256": "9640266b7a882195c7d0de0bfa93fa693f585effc3f09d2ce1c3d19f0cc4ee46"
+        },
+        "svg": {
+          "bytes": 101154,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_activity/IN_C8/mouse_box_dot_native_units.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_activity/IN_C8/mouse_box_dot_native_units.svg",
+          "sha256": "336cb8a79fe1a5590f6c90db6ac78f3e137255f1c5cb794e95d960bdea873b21"
+        }
+      },
+      "label": "TF activity · tf activity · IN C8 · mouse box dot native units",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_activity/IN_C8/mouse_box_dot_native_units"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 24319,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.pdf",
+          "href": "figures/regulatory__2b1b738666__tf_component__results__tf_mouse__figures__CA1_Deep_Satb2_top5_mouse_scores.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.pdf",
+          "sha256": "5f0efe12dfd53a86285c9d62abf9703fbb281291a21f40266f1e3dada70aa954"
+        },
+        "png": {
+          "bytes": 117623,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.png",
+          "href": "figures/regulatory__cb02cb7054__tf_component__results__tf_mouse__figures__CA1_Deep_Satb2_top5_mouse_scores.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.png",
+          "sha256": "977eb37eaaf6f5d15fd02cf0f3177c0448755f62b5217c135f33275347b24bf8"
+        },
+        "svg": {
+          "bytes": 211584,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores.svg",
+          "sha256": "3d82bfc069eae251bca0b27b099889914f339275cda404b13f7ae69c80731a57"
+        }
+      },
+      "label": "TF activity · tf mouse · CA1 Deep Satb2 top5 mouse scores",
+      "lineage": "CA1",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/CA1_Deep_Satb2_top5_mouse_scores"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 24098,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.pdf",
+          "href": "figures/regulatory__d85f9615e0__tf_component__results__tf_mouse__figures__CA1_Superficial_Satb2_top5_mouse_scores.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.pdf",
+          "sha256": "36f75b99377421337688ae9085746dfa862fff9c67630f5d979e94a2bea96da1"
+        },
+        "png": {
+          "bytes": 115346,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.png",
+          "href": "figures/regulatory__3f4f3531a3__tf_component__results__tf_mouse__figures__CA1_Superficial_Satb2_top5_mouse_scores.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.png",
+          "sha256": "a0c06fc999a958391c8a4318d5668d2ff0680787cde821dc362faf449827a518"
+        },
+        "svg": {
+          "bytes": 210233,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores.svg",
+          "sha256": "55fc79573bb71c4f4b3d283959858240d434061270fd720eae71baf8c7c3df8a"
+        }
+      },
+      "label": "TF activity · tf mouse · CA1 Superficial Satb2 top5 mouse scores",
+      "lineage": "CA1",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/CA1_Superficial_Satb2_top5_mouse_scores"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 24205,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.pdf",
+          "href": "figures/regulatory__bb20c8062c__tf_component__results__tf_mouse__figures__IN_C1_Satb2_top5_mouse_scores.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.pdf",
+          "sha256": "50dfe4dee140e5d9059c99ac18f08dd98d0c90fd041d30df92066e1ae6f1260d"
+        },
+        "png": {
+          "bytes": 119961,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.png",
+          "href": "figures/regulatory__7cd291cc8e__tf_component__results__tf_mouse__figures__IN_C1_Satb2_top5_mouse_scores.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.png",
+          "sha256": "0fec6ee5026d2293addbd9338761dfe1d541fd4a2cce9dd17755eff27427b6f4"
+        },
+        "svg": {
+          "bytes": 213594,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores.svg",
+          "sha256": "45e36651ee92de23c1fdb24566676d0704dcf52cb26d5b0a978bd3fad23119a6"
+        }
+      },
+      "label": "TF activity · tf mouse · IN C1 Satb2 top5 mouse scores",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/IN_C1_Satb2_top5_mouse_scores"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 23829,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.pdf",
+          "href": "figures/regulatory__eac308b397__tf_component__results__tf_mouse__figures__IN_C6_Satb2_top5_mouse_scores.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.pdf",
+          "sha256": "3127dac1a3f6ac18aae6eb0938e36ea8a0ac2ac1714d5cf61b3abf515be42923"
+        },
+        "png": {
+          "bytes": 122110,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.png",
+          "href": "figures/regulatory__724f4464f3__tf_component__results__tf_mouse__figures__IN_C6_Satb2_top5_mouse_scores.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.png",
+          "sha256": "0b4ce30c5bc77074b74dbc2afac94285efa73929d8d8a8c39b7865b83bfdcadd"
+        },
+        "svg": {
+          "bytes": 216344,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores.svg",
+          "sha256": "466c6ff55ee9853bcdd65e781cd673ebcdc51af06d30dab5b144364954c1b7ca"
+        }
+      },
+      "label": "TF activity · tf mouse · IN C6 Satb2 top5 mouse scores",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/IN_C6_Satb2_top5_mouse_scores"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 24411,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.pdf",
+          "href": "figures/regulatory__cd878aa6ff__tf_component__results__tf_mouse__figures__IN_C8_Satb2_top5_mouse_scores.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.pdf",
+          "sha256": "70a8d3f2fb65bf9ccbdb6c5680e780937f37d25030a2f0e6a5845fc3fe86878c"
+        },
+        "png": {
+          "bytes": 125768,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.png",
+          "href": "figures/regulatory__5c7e35f4da__tf_component__results__tf_mouse__figures__IN_C8_Satb2_top5_mouse_scores.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.png",
+          "sha256": "774d35b061633e944ff2ffc8be6b2c9aedc7871f9b26ec8fa2fe2d14e2eb2a3b"
+        },
+        "svg": {
+          "bytes": 219101,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores.svg",
+          "sha256": "5db89c733b11cba9d96482d371a1a97c32f2021a8b5a4b43646e0ea051584e6f"
+        }
+      },
+      "label": "TF activity · tf mouse · IN C8 Satb2 top5 mouse scores",
+      "lineage": "IN",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/IN_C8_Satb2_top5_mouse_scores"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 17049,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/Satb2_self_target_sensitivity.pdf",
+          "href": "figures/regulatory__cbd0181fdc__tf_component__results__tf_mouse__figures__Satb2_self_target_sensitivity.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/Satb2_self_target_sensitivity.pdf",
+          "sha256": "4a256bccceb128686d502518889fe7e4e05bd738a190dc6a2e4742d0b52f261d"
+        },
+        "png": {
+          "bytes": 59147,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/Satb2_self_target_sensitivity.png",
+          "href": "figures/regulatory__acdb41a77e__tf_component__results__tf_mouse__figures__Satb2_self_target_sensitivity.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/Satb2_self_target_sensitivity.png",
+          "sha256": "a35627fb1c1fdcf49f5255faa95df69c87ad04ac47e3b65a4b5a336ce565f576"
+        },
+        "svg": {
+          "bytes": 120125,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/Satb2_self_target_sensitivity.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/Satb2_self_target_sensitivity.svg",
+          "sha256": "d5074e2f429cf4e05e6a54c1b6f6db3f22af9233fb92ac1dc18790b5e57f90fd"
+        }
+      },
+      "label": "TF activity · tf mouse · Satb2 self target sensitivity",
+      "lineage": "other",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/Satb2_self_target_sensitivity"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 124577,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_association_volcano.pdf",
+          "href": "figures/regulatory__03e362acee__tf_component__results__tf_mouse__figures__TF_association_volcano.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_association_volcano.pdf",
+          "sha256": "b6f9c0bc23d979da6dbc8c02a224d28f70e1fea90bddfb133cfa5ad534d900aa"
+        },
+        "png": {
+          "bytes": 303895,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_association_volcano.png",
+          "href": "figures/regulatory__65c3680abc__tf_component__results__tf_mouse__figures__TF_association_volcano.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_association_volcano.png",
+          "sha256": "c2ed5ad97de0f5ac8049479e55068497d8afa1f4e5d59840aeb34d0f25dbdcba"
+        },
+        "svg": {
+          "bytes": 1378137,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_association_volcano.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_association_volcano.svg",
+          "sha256": "ffd0fddaf2e45f2e495c7a3aa7e203d3e07574d7008dd5aab2683acad1647b5e"
+        }
+      },
+      "label": "TF activity · tf mouse · TF association volcano",
+      "lineage": "other",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/TF_association_volcano"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 24761,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_effect_heatmap.pdf",
+          "href": "figures/regulatory__b775617f03__tf_component__results__tf_mouse__figures__TF_effect_heatmap.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_effect_heatmap.pdf",
+          "sha256": "aa7594feb3a33fcafb82a93117b9b5c227e52d0a48a41f9e8beb3d7cc47937be"
+        },
+        "png": {
+          "bytes": 93092,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_effect_heatmap.png",
+          "href": "figures/regulatory__f7a624f315__tf_component__results__tf_mouse__figures__TF_effect_heatmap.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_effect_heatmap.png",
+          "sha256": "1db7fbb11dac70b2ff4ebcb97e22c1e0a0e0790938837bce73a6fb9f8ace5d99"
+        },
+        "svg": {
+          "bytes": 182647,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_effect_heatmap.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_effect_heatmap.svg",
+          "sha256": "12a82791397c9caa4cc413203ca656ed86bd33bce396455c4cf2d6c998f8483c"
+        }
+      },
+      "label": "TF activity · tf mouse · TF effect heatmap",
+      "lineage": "other",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/TF_effect_heatmap"
+    },
+    {
+      "component": "curated_tf_activity",
+      "files": {
+        "pdf": {
+          "bytes": 120932,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_same_partition_volcano.pdf",
+          "href": "figures/regulatory__24e5f89589__tf_component__results__tf_mouse__figures__TF_same_partition_volcano.pdf",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_same_partition_volcano.pdf",
+          "sha256": "13c8015f7841c891b3d0532dcddfb89a9cfa5b49bc4027b635c11fb3abf2f34a"
+        },
+        "png": {
+          "bytes": 280829,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_same_partition_volcano.png",
+          "href": "figures/regulatory__a759c87b29__tf_component__results__tf_mouse__figures__TF_same_partition_volcano.png",
+          "location": "Pages",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_same_partition_volcano.png",
+          "sha256": "f13b5f7cc6fe1c9c13ee3e9e100909eb6155240ba07eb75ad58d038d3948d664"
+        },
+        "svg": {
+          "bytes": 1355134,
+          "component": "curated_tf_activity",
+          "component_relative_path": "tf_mouse/figures/TF_same_partition_volcano.svg",
+          "href": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/atlas-v3.7.0/SATB2_regulatory_complete_native_results_source.zip",
+          "location": "complete_native_ZIP",
+          "native_path": "tf_component/results/tf_mouse/figures/TF_same_partition_volcano.svg",
+          "sha256": "1b084261a844b22dbbb471ed0758390505844ff33cb5f51594269970145c470f"
+        }
+      },
+      "label": "TF activity · tf mouse · TF same partition volcano",
+      "lineage": "other",
+      "network": "curated_tf_activity",
+      "source_stem": "tf_component/tf_mouse/figures/TF_same_partition_volcano"
+    }
+  ],
+  "native_bytes_preserved": true,
+  "raster_resizing_performed": false,
+  "schema": "satb2-regulatory-native-gallery/v1",
+  "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461"
+}

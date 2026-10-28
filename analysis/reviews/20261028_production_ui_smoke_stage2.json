@@ -1,0 +1,445 @@
+{
+  "schema": "satb2-regulatory-production-ui-smoke/v1",
+  "status": "PASS",
+  "created_at_utc": "2026-10-28T07:14:18.843Z",
+  "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery__SATB2_CollecTRI_TF_20261026_v1",
+  "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461",
+  "app": {
+    "path": "/Users/mujahid357/Documents/codex_new/satb2_snRNA_github/site/regulatory/app.js",
+    "sha256": "e72a9d81b0406ba15a6853610dec0e53dd5032239d8c89049dbc40108feed43d"
+  },
+  "data": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_2/site/regulatory/data.js",
+    "sha256": "b5adb03dad7de0a53161723e6f939371e1d0ad2eb3aa744c5d87b91f35417346"
+  },
+  "counts": {
+    "values": 70656,
+    "features": 1192,
+    "edges": 96081,
+    "nodes": 93308,
+    "effects": 5888,
+    "coverage": 5945,
+    "hubs": 540
+  },
+  "timings": [
+    {
+      "label": "decode_production_payload",
+      "milliseconds": 341.16
+    },
+    {
+      "label": "validatePayload_production",
+      "milliseconds": 858.94
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_heatmap",
+      "milliseconds": 32.88
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_dotplot",
+      "milliseconds": 21.37
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_replicates",
+      "milliseconds": 21.88
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_network",
+      "milliseconds": 11.53
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_hubs",
+      "milliseconds": 0.12
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_effects",
+      "milliseconds": 0.83
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_coverage",
+      "milliseconds": 0.54
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_all_feature_heatmap",
+      "milliseconds": 24.5
+    },
+    {
+      "label": "hdwgcna_CA1_pooled_all_feature_network",
+      "milliseconds": 14.8
+    },
+    {
+      "label": "hdwgcna_IN_pooled_heatmap",
+      "milliseconds": 21.9
+    },
+    {
+      "label": "hdwgcna_IN_pooled_dotplot",
+      "milliseconds": 18.84
+    },
+    {
+      "label": "hdwgcna_IN_pooled_replicates",
+      "milliseconds": 18.68
+    },
+    {
+      "label": "hdwgcna_IN_pooled_network",
+      "milliseconds": 10.29
+    },
+    {
+      "label": "hdwgcna_IN_pooled_hubs",
+      "milliseconds": 0.06
+    },
+    {
+      "label": "hdwgcna_IN_pooled_effects",
+      "milliseconds": 0.49
+    },
+    {
+      "label": "hdwgcna_IN_pooled_coverage",
+      "milliseconds": 0.42
+    },
+    {
+      "label": "hdwgcna_IN_pooled_all_feature_heatmap",
+      "milliseconds": 23.39
+    },
+    {
+      "label": "hdwgcna_IN_pooled_all_feature_network",
+      "milliseconds": 12.03
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_heatmap",
+      "milliseconds": 22.5
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_dotplot",
+      "milliseconds": 20.56
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_replicates",
+      "milliseconds": 20.12
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_network",
+      "milliseconds": 9.64
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_hubs",
+      "milliseconds": 0.06
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_effects",
+      "milliseconds": 0.45
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_coverage",
+      "milliseconds": 0.41
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_all_feature_heatmap",
+      "milliseconds": 22.42
+    },
+    {
+      "label": "hdwgcna_CA1_consensus_all_feature_network",
+      "milliseconds": 13.53
+    },
+    {
+      "label": "hdwgcna_IN_consensus_heatmap",
+      "milliseconds": 23.75
+    },
+    {
+      "label": "hdwgcna_IN_consensus_dotplot",
+      "milliseconds": 23.66
+    },
+    {
+      "label": "hdwgcna_IN_consensus_replicates",
+      "milliseconds": 21.1
+    },
+    {
+      "label": "hdwgcna_IN_consensus_network",
+      "milliseconds": 10.35
+    },
+    {
+      "label": "hdwgcna_IN_consensus_hubs",
+      "milliseconds": 0.06
+    },
+    {
+      "label": "hdwgcna_IN_consensus_effects",
+      "milliseconds": 0.47
+    },
+    {
+      "label": "hdwgcna_IN_consensus_coverage",
+      "milliseconds": 0.43
+    },
+    {
+      "label": "hdwgcna_IN_consensus_all_feature_heatmap",
+      "milliseconds": 22.87
+    },
+    {
+      "label": "hdwgcna_IN_consensus_all_feature_network",
+      "milliseconds": 10.43
+    },
+    {
+      "label": "collectri_ulm_heatmap",
+      "milliseconds": 31.87
+    },
+    {
+      "label": "collectri_ulm_dotplot",
+      "milliseconds": 32.1
+    },
+    {
+      "label": "collectri_ulm_replicates",
+      "milliseconds": 30.21
+    },
+    {
+      "label": "collectri_ulm_network",
+      "milliseconds": 32.48
+    },
+    {
+      "label": "collectri_ulm_hubs",
+      "milliseconds": 0.04
+    },
+    {
+      "label": "collectri_ulm_effects",
+      "milliseconds": 1.69
+    },
+    {
+      "label": "collectri_ulm_coverage",
+      "milliseconds": 0.99
+    },
+    {
+      "label": "collectri_ulm_all_feature_heatmap",
+      "milliseconds": 538.2
+    },
+    {
+      "label": "collectri_ulm_all_feature_network",
+      "milliseconds": 753.75
+    },
+    {
+      "label": "SATB2_one_click_all_five_endpoints",
+      "milliseconds": 34.71
+    },
+    {
+      "label": "SATB2_prior_network_60_nodes_arc",
+      "milliseconds": 30.4
+    }
+  ],
+  "maximum_timed_call_ms": 858.94,
+  "rendered_views": [
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "heatmap",
+      "rows": 24,
+      "svg_bytes": 25488
+    },
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "dotplot",
+      "rows": 24,
+      "svg_bytes": 27112
+    },
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "replicates",
+      "rows": 24,
+      "svg_bytes": 18616
+    },
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "network",
+      "rows": 190,
+      "svg_bytes": 69359
+    },
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "hubs",
+      "rows": 20,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "effects",
+      "rows": 2,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_CA1_pooled",
+      "view": "coverage",
+      "rows": 0,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "heatmap",
+      "rows": 36,
+      "svg_bytes": 28851
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "dotplot",
+      "rows": 36,
+      "svg_bytes": 31225
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "replicates",
+      "rows": 36,
+      "svg_bytes": 22761
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "network",
+      "rows": 190,
+      "svg_bytes": 69432
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "hubs",
+      "rows": 20,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "effects",
+      "rows": 3,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_IN_pooled",
+      "view": "coverage",
+      "rows": 0,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "heatmap",
+      "rows": 24,
+      "svg_bytes": 25601
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "dotplot",
+      "rows": 24,
+      "svg_bytes": 27183
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "replicates",
+      "rows": 24,
+      "svg_bytes": 18650
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "network",
+      "rows": 190,
+      "svg_bytes": 70022
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "hubs",
+      "rows": 20,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "effects",
+      "rows": 2,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_CA1_consensus",
+      "view": "coverage",
+      "rows": 0,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "heatmap",
+      "rows": 36,
+      "svg_bytes": 29197
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "dotplot",
+      "rows": 36,
+      "svg_bytes": 31637
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "replicates",
+      "rows": 36,
+      "svg_bytes": 22823
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "network",
+      "rows": 190,
+      "svg_bytes": 70010
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "hubs",
+      "rows": 20,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "effects",
+      "rows": 3,
+      "svg_bytes": 0
+    },
+    {
+      "method": "hdwgcna_IN_consensus",
+      "view": "coverage",
+      "rows": 0,
+      "svg_bytes": 0
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "heatmap",
+      "rows": 60,
+      "svg_bytes": 36802
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "dotplot",
+      "rows": 60,
+      "svg_bytes": 40764
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "replicates",
+      "rows": 60,
+      "svg_bytes": 31250
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "network",
+      "rows": 73,
+      "svg_bytes": 33364
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "hubs",
+      "rows": 0,
+      "svg_bytes": 0
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "effects",
+      "rows": 5,
+      "svg_bytes": 0
+    },
+    {
+      "method": "collectri_ulm",
+      "view": "coverage",
+      "rows": 5,
+      "svg_bytes": 0
+    }
+  ],
+  "satb2_rows": 60,
+  "satb2_endpoints": 5,
+  "mouse_z_reference_preserved_across_genotype_filters": true,
+  "saved_effects_unchanged_by_display_filter": true,
+  "HD_undirected_TF_prior_directed": true,
+  "blocked_motif_and_activity_umap_unavailable": true,
+  "source_data_immutable": true,
+  "browser_test_performed": false,
+  "scientific_models_run": false,
+  "published": false
+}

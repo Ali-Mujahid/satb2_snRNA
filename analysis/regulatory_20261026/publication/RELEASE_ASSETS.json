@@ -1,0 +1,21 @@
+{
+  "assets": [
+    {
+      "asset_name": "SATB2_regulatory_complete_native_results_source.zip",
+      "bytes": 786821374,
+      "kind": "complete_native_archive",
+      "local_path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/release_assets/SATB2_regulatory_complete_native_results_source.zip",
+      "sha256": "511e21e409f6e30be85abe8e73b3062b8d27b152b6473f0bed6a7c6954868f56"
+    },
+    {
+      "asset_name": "SATB2_regulatory_interactive_offline.html",
+      "bytes": 9484097,
+      "kind": "interactive_offline_HTML",
+      "local_path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/deliverables/atlas_v3_7_0_staging_3/release_assets/SATB2_regulatory_interactive_offline.html",
+      "sha256": "bc5f3428003bef869130eb6667ff57491d3871ab7adc396dab757b4cc3aca8f2"
+    }
+  ],
+  "every_listed_asset_required_before_publication": true,
+  "status": "PREPARED_NOT_UPLOADED",
+  "tag": "atlas-v3.7.0"
+}

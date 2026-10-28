@@ -1,0 +1,35 @@
+{
+  "workflow_version": "1.0.1",
+  "controller": {
+    "engine": "snakemake",
+    "verified_version": "9.27.0",
+    "environment_scope": "user-selected existing project controller",
+    "catalog_observation": "host_path fallback, not a lock-bound controller closure"
+  },
+  "task_environment": {
+    "python_executable_config_key": "python_executable",
+    "Rscript_executable_config_key": "Rscript_executable",
+    "verified_python": "existing isolated CCC Python 3.12.14 arm64; no package mutations",
+    "verified_R": "R4.6.1 x86_64/Rosetta; isolated project R-library ahead of read-only existing libraries",
+    "versions": {
+      "hdWGCNA": "0.4.12",
+      "WGCNA": "1.74",
+      "Seurat": "5.6.0",
+      "GO.db": "3.23.1",
+      "org.Mm.eg.db": "3.23.0"
+    },
+    "requirements": "Explicit preinstalled package runtime, immutable hdWGCNA source archive and recorded artifact hashes; no installation hooks"
+  },
+  "limits": {
+    "threads": 4,
+    "scientific_processes_at_once": 1,
+    "minimum_available_RAM_GiB": 24,
+    "minimum_available_disk_GiB": 6,
+    "max_block_size": 3000,
+    "network_access": false,
+    "install_hooks": false,
+    "overwrite_prior_results": false
+  },
+  "reproducibility_limit": "Existing controller and base R dependency closure are not fully lockfile-backed; archive hashes, installed package versions, source hashes and all scientific input identities are recorded separately. Existing packages are never upgraded by this workflow.",
+  "execution_scope": "New exact input derivation and hdWGCNA fits; original DESeq2 gene results and strict communication results are reused without refits. All metacells remain within independent mice and endpoints."
+}

@@ -1,0 +1,64 @@
+from pathlib import Path
+SOURCE = Path(workflow.basedir).parent
+RUN = Path(config['run_root'])
+RESULTS = RUN / 'results'
+MASTER = str(Path(workflow.configfiles[-1]).resolve())
+PYTHON = config['python_executable']
+RSCRIPT = config['Rscript_executable']
+ENV = 'OMP_NUM_THREADS=4 OPENBLAS_NUM_THREADS=4 VECLIB_MAXIMUM_THREADS=4 NUMEXPR_NUM_THREADS=4'
+BOUND_INPUTS = [item['path'] for item in config['inputs'].values()]
+BOUND_INPUTS += [item['path'] for item in config['existing_deseq2'].values()]
+BOUND_INPUTS += [item['path'] for item in config['source_pseudobulks'].values()]
+BOUND_INPUTS += [config['strict_lr_pooled']['path'], config['runtime_manifest']['path'], config['R_wrapper']['path']]
+
+rule all:
+    input: str(RESULTS / 'FINAL_VALIDATION.json')
+
+rule prepare:
+    input:
+        config=MASTER,
+        sources=BOUND_INPUTS,
+        script=str(SOURCE / 'scripts/prepare_inputs.py')
+    output:
+        complete=str(RESULTS / 'prepared/COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(RESULTS / 'prepared')
+    log: str(RUN / 'logs/prepare.log')
+    threads: 4
+    resources: mem_mb=10000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule hdwgcna:
+    input:
+        prepared=str(RESULTS / 'prepared/COMPLETE.json'),
+        script=str(SOURCE / 'scripts/run_hdwgcna.R'),
+        config=MASTER
+    output: str(RESULTS / 'hdwgcna/workflow_status.json')
+    params: R=RSCRIPT, env=ENV, inp=str(RESULTS / 'prepared/lineages'), out=str(RESULTS / 'hdwgcna')
+    log: str(RUN / 'logs/hdwgcna.log')
+    threads: 4
+    resources: mem_mb=36000
+    shell: 'env {params.env} {params.R:q} {input.script:q} --config {input.config:q} --input-dir {params.inp:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule enrich:
+    input:
+        str(RESULTS / 'hdwgcna/workflow_status.json'),
+        script=str(SOURCE / 'scripts/enrich_modules.R'),
+        config=MASTER
+    output: str(RESULTS / 'enrichment/COMPLETE.json')
+    params: R=RSCRIPT, env=ENV, res=str(RESULTS / 'hdwgcna'), out=str(RESULTS / 'enrichment')
+    log: str(RUN / 'logs/enrich.log')
+    threads: 4
+    resources: mem_mb=6000
+    shell: 'env {params.env} {params.R:q} {input.script:q} --config {input.config:q} --results {params.res:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule package:
+    input:
+        str(RESULTS / 'enrichment/COMPLETE.json'),
+        script=str(SOURCE / 'scripts/package_results.py'),
+        config=MASTER
+    output: str(RESULTS / 'FINAL_VALIDATION.json')
+    params: py=PYTHON, env=ENV, res=str(RESULTS)
+    log: str(RUN / 'logs/package.log')
+    threads: 4
+    resources: mem_mb=8000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --results {params.res:q} > {log:q} 2>&1'

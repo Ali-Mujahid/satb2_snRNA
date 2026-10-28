@@ -1,0 +1,47 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\n  \"ok\": true,\n  \"status\": \"starting\",\n  \"run_id\": \"snakemake-satb2-collectri-tf-20261026-20261026-103502-75b1b8b7\",\n  \"registry_run_id\": \"aa3fe6be-fb68-40a0-8f30-8f4db2c5e934\",\n  \"revision\": 1,\n  \"pid\": null,\n  \"workflow\": \"workflow/Snakefile\",\n  \"run_dir\": \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1\",\n  \"command_argv\": [\n    \"/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake\",\n    \"--snakefile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow/workflow/Snakefile\",\n    \"--configfile\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json\",\n    \"--directory\",\n    \"/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results\",\n    \"--cores\",\n    \"2\",\n    \"--printshellcmds\"\n  ],\n  \"plan_checksum\": \"sha256:db49a0b2c04b042975adda64c8fbc12bf213324ff9e2896f8d04f2533244c931\",\n  \"process_owned\": true,\n  \"display_name\": \"SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity\",\n  \"target\": {\n    \"target_id\": \"local\",\n    \"provider\": \"ngs-analysis-workbench\"\n  },\n  \"warnings\": [\n    \"workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config\",\n    \"container image architecture is not verified until the workflow resolves concrete images\",\n    \"using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound\"\n  ],\n  \"kind\": \"run\",\n  \"binding\": \"snakemake\",\n  \"plan_name\": \"SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity\",\n  \"plan_id\": \"ngs-plan-db49a0b2c04b0429\"\n}"
+    }
+  ],
+  "structuredContent": {
+    "ok": true,
+    "status": "starting",
+    "run_id": "snakemake-satb2-collectri-tf-20261026-20261026-103502-75b1b8b7",
+    "registry_run_id": "aa3fe6be-fb68-40a0-8f30-8f4db2c5e934",
+    "revision": 1,
+    "pid": null,
+    "workflow": "workflow/Snakefile",
+    "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1",
+    "command_argv": [
+      "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+      "--snakefile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/workflow/workflow/Snakefile",
+      "--configfile",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/config/collectri.v1.json",
+      "--directory",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results",
+      "--cores",
+      "2",
+      "--printshellcmds"
+    ],
+    "plan_checksum": "sha256:db49a0b2c04b042975adda64c8fbc12bf213324ff9e2896f8d04f2533244c931",
+    "process_owned": true,
+    "display_name": "SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity",
+    "target": {
+      "target_id": "local",
+      "provider": "ngs-analysis-workbench"
+    },
+    "warnings": [
+      "workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config",
+      "container image architecture is not verified until the workflow resolves concrete images",
+      "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+    ],
+    "kind": "run",
+    "binding": "snakemake",
+    "plan_name": "SATB2 native CollecTRI activity — all12 mice, five frozen endpoints and self-target sensitivity",
+    "plan_id": "ngs-plan-db49a0b2c04b0429"
+  },
+  "isError": false
+}

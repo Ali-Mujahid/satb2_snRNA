@@ -1,0 +1,50 @@
+from pathlib import Path
+SOURCE = Path(workflow.basedir).parent
+RUN = Path(config['run_root'])
+RESULTS = RUN / 'results'
+MASTER = str(Path(workflow.configfiles[-1]).resolve())
+PYTHON = config['python_executable']
+RSCRIPT = config['Rscript_executable']
+ENV = 'OMP_NUM_THREADS=2 OPENBLAS_NUM_THREADS=2 VECLIB_MAXIMUM_THREADS=2 NUMBA_NUM_THREADS=2 NUMEXPR_NUM_THREADS=2'
+BOUND = [config['samples']['path'], config['references_mouse_collectri']['path']]
+for group in ['source_pseudobulks','fitted_size_factors','existing_deseq2','existing_deseq2_stable_id','endpoint_mouse_metadata','additional_hash_inputs']:
+    BOUND += [r['path'] for r in config[group].values()]
+
+rule all:
+    input: str(RESULTS / 'FINAL_VALIDATION.json')
+
+rule activity:
+    input:
+        config=MASTER,
+        sources=BOUND,
+        script=str(SOURCE / 'scripts/run_tf_activity.py')
+    output: str(RESULTS / 'tf_activity/COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(RESULTS / 'tf_activity')
+    log: str(RUN / 'logs/activity.log')
+    threads: 2
+    resources: mem_mb=4000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule mouse_associations:
+    input:
+        str(RESULTS / 'tf_activity/COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/analyze_tf_mouse.R')
+    output: str(RESULTS / 'tf_mouse/COMPLETE.json')
+    params: R=RSCRIPT, env=ENV, inp=str(RESULTS / 'tf_activity'), out=str(RESULTS / 'tf_mouse')
+    log: str(RUN / 'logs/mouse_associations.log')
+    threads: 2
+    resources: mem_mb=3000
+    shell: 'env {params.env} {params.R:q} {input.script:q} --config {input.config:q} --input-dir {params.inp:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule package:
+    input:
+        str(RESULTS / 'tf_mouse/COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/package_tf_results.py')
+    output: str(RESULTS / 'FINAL_VALIDATION.json')
+    params: py=PYTHON, env=ENV, res=str(RESULTS)
+    log: str(RUN / 'logs/package.log')
+    threads: 2
+    resources: mem_mb=4000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --results {params.res:q} > {log:q} 2>&1'
