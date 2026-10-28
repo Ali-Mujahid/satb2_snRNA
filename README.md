@@ -157,6 +157,7 @@ The v3.3 presentation controls add optional compact layouts, per-cluster placeme
 ## Separate follow-ups — 28 October 2026
 
 [Follow-up results reader](https://ali-mujahid.github.io/satb2_snRNA/followups/)
+([live validation](docs/FOLLOWUPS_20261028_LIVE_REVIEW.md))
 provides four separate sections for scCODA, strict DEG-only CellChat, Monocle3
 and the blocked scVelo input assessment. The
 [dedicated release](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/followups-20261028-v1.0.0)

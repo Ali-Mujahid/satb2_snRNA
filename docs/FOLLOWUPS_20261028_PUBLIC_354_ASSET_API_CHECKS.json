@@ -1,0 +1,3194 @@
+{
+  "status": "PASS_PUBLIC_CANONICAL_SIZE_SHA256",
+  "release_id": 426721873,
+  "asset_count": 354,
+  "all_expected_assets_and_two_metadata_present": true,
+  "assets": [
+    {
+      "name": "followups-007096912bd3-IN_to_CA1_WT_circos.png",
+      "id": 685162652,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-007096912bd3-IN_to_CA1_WT_circos.png",
+      "bytes": 194559,
+      "sha256": "640823081220ef4b3c1d8150c6623885648518e9c1b527ea0cfec40b16723c64",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-00f6dab88d12-IN_to_CA1_WT_circos.pdf",
+      "id": 685151692,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-00f6dab88d12-IN_to_CA1_WT_circos.pdf",
+      "bytes": 17440,
+      "sha256": "f258c8336eed5b0a66c5ea4bbee6b0e89de59dd05996b4a4030bfe120716bde1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-039ee04cfb9d-IN_to_CA1_WT_circle.png",
+      "id": 685151685,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-039ee04cfb9d-IN_to_CA1_WT_circle.png",
+      "bytes": 117774,
+      "sha256": "ee866b73a1976e7c677f2024113154ea020d17dc2a32dff3df80a65230cfffce",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0479db5f7912-raw_stacked_proportions.png",
+      "id": 685157131,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0479db5f7912-raw_stacked_proportions.png",
+      "bytes": 143590,
+      "sha256": "c75f2e798d2bcedff1bfe74d521d862e3736aa0ab6bddbf7b55ef78c1d30a9d6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-05e810a220a1-raw_stacked_proportions.png",
+      "id": 685155841,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-05e810a220a1-raw_stacked_proportions.png",
+      "bytes": 83302,
+      "sha256": "fa71c670491ae4c334f8d5044edd1902936b2ab51f42f976341ddbac5c40e154",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0745b88516a7-bidirectional_LR.tsv",
+      "id": 685153754,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0745b88516a7-bidirectional_LR.tsv",
+      "bytes": 28567,
+      "sha256": "416a3a9277e2ed48ca9caabe4ddf40a80e09b0d5e87b972a2f0f1210661f1039",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-075f11b3fc9c-IN_to_CA1_cKO_circos.pdf",
+      "id": 685151814,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-075f11b3fc9c-IN_to_CA1_cKO_circos.pdf",
+      "bytes": 17610,
+      "sha256": "4363ad2f63e72051ff6e4825ba59dc69f138d3f6e2a55c86509137a532f96045",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-07d98c0aa955-bidirectional_cKO_circle.pdf",
+      "id": 685152059,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-07d98c0aa955-bidirectional_cKO_circle.pdf",
+      "bytes": 7326,
+      "sha256": "e50cd72e848231ce971cdbee4257bcce005977e8d2df621e6e9edcce798301db",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-07fc39370891-raw_stacked_proportions.pdf",
+      "id": 685153992,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-07fc39370891-raw_stacked_proportions.pdf",
+      "bytes": 20091,
+      "sha256": "b3b46b1de07a5e95f8d90437bb84999ff56a0b0268097218e7d2a8c0ce9df010",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-084069e887ad-graph_associated_gene_overlays.png",
+      "id": 685159915,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-084069e887ad-graph_associated_gene_overlays.png",
+      "bytes": 423856,
+      "sha256": "4b2fe6198a6380fc5851c9bf93b353fcf2203e7677e2dbcd4f28fe1f19ecc1e6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-08bfdbb7393b-raw_stacked_proportions.pdf",
+      "id": 685154938,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-08bfdbb7393b-raw_stacked_proportions.pdf",
+      "bytes": 27205,
+      "sha256": "e04d17d15122d118b327f49284dd418ec4a2bd999f966b2000e9512cb3d03986",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-096d7eb4e615-raw_stacked_proportions.png",
+      "id": 685156464,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-096d7eb4e615-raw_stacked_proportions.png",
+      "bytes": 90196,
+      "sha256": "6161e23425de583012329a7d1b4fc957da5d047a130d4c22582bc414ef6f762e",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-09a89576ec1e-bidirectional_WT_circos.pdf",
+      "id": 685163010,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-09a89576ec1e-bidirectional_WT_circos.pdf",
+      "bytes": 21888,
+      "sha256": "bde3e6b93f52ff3e51291482ba0f85b00a36d95c9fc8a62ecea5e43005d94198",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0ae39507de8b-CA1_to_IN_pathway_heatmap.pdf",
+      "id": 685164337,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0ae39507de8b-CA1_to_IN_pathway_heatmap.pdf",
+      "bytes": 6273,
+      "sha256": "dabcb42c34ac6601da85b359a072320c579487e255389155efa653711a581421",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0c415257f638-same_partition_display_cells.tsv",
+      "id": 685161911,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0c415257f638-same_partition_display_cells.tsv",
+      "bytes": 41563,
+      "sha256": "d4ed7955afa7deaa709744cf0092c412082b782eb5d1440c2ea26071a65f85ed",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0c955506ef2d-native_effect_intervals.pdf",
+      "id": 685156721,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0c955506ef2d-native_effect_intervals.pdf",
+      "bytes": 27555,
+      "sha256": "a33185c8fe02fe48514061a8c4a24883765e965282730cea23940782723ba9f8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0d0daee32ee2-library_denominators.tsv",
+      "id": 685161790,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0d0daee32ee2-library_denominators.tsv",
+      "bytes": 59029,
+      "sha256": "bcb2030903ce970af8140db4d8fcc1790fcfd4de7ba41fd87fabd87f10178a27",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0d9d505ce7bf-CA1_to_IN_pathway_heatmap.pdf",
+      "id": 685162446,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0d9d505ce7bf-CA1_to_IN_pathway_heatmap.pdf",
+      "bytes": 6271,
+      "sha256": "34c6ccc3a410f8eb758600c044c9600301b95880fd9f42062754d685aeddfee4",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0ddc40da2c9f-native_effect_intervals.pdf",
+      "id": 685153783,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0ddc40da2c9f-native_effect_intervals.pdf",
+      "bytes": 20260,
+      "sha256": "6905ce9e09f76c3ee3ccaba06de57965ef50b721fdc1e41409cf725e409ee3b8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0e079094af18-unrooted_sequencing_partition.pdf",
+      "id": 685158331,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0e079094af18-unrooted_sequencing_partition.pdf",
+      "bytes": 2264845,
+      "sha256": "e6ed93fb2ad348239de801f7e5ca5caa735db26cbf0282720ab668749ff640cb",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0e48aadba85c-IN_to_CA1_dotplot_page1.png",
+      "id": 685151889,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0e48aadba85c-IN_to_CA1_dotplot_page1.png",
+      "bytes": 133319,
+      "sha256": "b9aec3353115a73602ce675f90418bf9ac366331f541612ddcbb89a4a60651c3",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-0e898ba1ea75-bidirectional_pathway_heatmap.pdf",
+      "id": 685165453,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0e898ba1ea75-bidirectional_pathway_heatmap.pdf",
+      "bytes": 6589,
+      "sha256": "c51f31a268de355a5484e720793f33bbb6ce8cc96c241e6bdfa02f5753e272b3",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1002f9841d32-raw_stacked_proportions.png",
+      "id": 685154486,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1002f9841d32-raw_stacked_proportions.png",
+      "bytes": 93834,
+      "sha256": "8fb34dd56d1ccdba54cdcc446c7be3e7234367938d4670499ac82474880268bf",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-10204bb990f5-embedding_cells.tsv",
+      "id": 685159686,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-10204bb990f5-embedding_cells.tsv",
+      "bytes": 54889,
+      "sha256": "cd905e716fa04e43036a12bc8a7daf90c337acaf157781dbe6cbc62b63cee526",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1131f77eeeba-IN_to_CA1_WT_circos.pdf",
+      "id": 685164557,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1131f77eeeba-IN_to_CA1_WT_circos.pdf",
+      "bytes": 17417,
+      "sha256": "b7b1ef718e7f792e292b7c3b22592af456b7c0b0cc7f4983bbae13a307a82e46",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-14e19aa80e73-native_effect_intervals.pdf",
+      "id": 685154496,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-14e19aa80e73-native_effect_intervals.pdf",
+      "bytes": 20775,
+      "sha256": "01479f172b9a0ee1adf2fd80c78d03a4be9b5bba9aefea7817da45de17d9c225",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-153830722bcf-unrooted_partition.pdf",
+      "id": 685161481,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-153830722bcf-unrooted_partition.pdf",
+      "bytes": 57714,
+      "sha256": "abdbe28d509e3b74261686c7558a51daecebd3f7e4ab5b81cd619ded953d13b9",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-155cad410643-gene_modules.tsv",
+      "id": 685158479,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-155cad410643-gene_modules.tsv",
+      "bytes": 425833,
+      "sha256": "245525c7188d88aeb47cfcef6673308f3bac568c98e34b1176f38d47b3c414de",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-16836722a2c2-IN_to_CA1_cKO_circle.pdf",
+      "id": 685151751,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-16836722a2c2-IN_to_CA1_cKO_circle.pdf",
+      "bytes": 5965,
+      "sha256": "e7c999c22a046e7e0f0d4aabd7ee88e7ef5ef3a979574892c9d58b0320001d55",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1761d19c4824-raw_stacked_proportions.pdf",
+      "id": 685156019,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1761d19c4824-raw_stacked_proportions.pdf",
+      "bytes": 19536,
+      "sha256": "e9094a4e79a2c1d46df64592fc07bbbb34ccf07eeb3754f16d2c3fdc53e7acff",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-184fe0581564-raw_mouse_proportions.png",
+      "id": 685156818,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-184fe0581564-raw_mouse_proportions.png",
+      "bytes": 168552,
+      "sha256": "9b0ef892352e6ac968d53ff2394c651945952c54678e9ff1d1774f726df37eb5",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-19b201b328c1-bidirectional_dotplot_page1.png",
+      "id": 685163506,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-19b201b328c1-bidirectional_dotplot_page1.png",
+      "bytes": 179732,
+      "sha256": "1a701e1665f984195b0ff62ac2a91c10e0ae8b964683ba545d2e0a54e8d332e6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1a972a2aa1f7-bidirectional_cKO_circos.pdf",
+      "id": 685163319,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1a972a2aa1f7-bidirectional_cKO_circos.pdf",
+      "bytes": 21990,
+      "sha256": "06a6819098307eace74cf30bab324fe2464aa499582d65cb36d389aaf2812c12",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1b25ff31941e-unrooted_sequencing_partition.png",
+      "id": 685159373,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1b25ff31941e-unrooted_sequencing_partition.png",
+      "bytes": 181250,
+      "sha256": "5a77694a1015fefa21325918cb8930c486427640626724989b3d1824d595239d",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1d501da98652-CA1_to_IN_cKO_circle.pdf",
+      "id": 685151363,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1d501da98652-CA1_to_IN_cKO_circle.pdf",
+      "bytes": 6379,
+      "sha256": "32943618e150ce34af1f2f2bc5aa07a8ce69e7b0d31adf03bdd53f6994c4c2d8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-1da4a32cfff2-raw_stacked_proportions.pdf",
+      "id": 685156225,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-1da4a32cfff2-raw_stacked_proportions.pdf",
+      "bytes": 19992,
+      "sha256": "293f4ee3a29532775a929a133004df101d9b0e3bed2a5fd5084f60a44aa6c6bb",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-20364fae60d3-unrooted_endpoint.png",
+      "id": 685158067,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-20364fae60d3-unrooted_endpoint.png",
+      "bytes": 677590,
+      "sha256": "af77870d52c0ca3d807496613ffd83b4f323e11880b56c077dbfaecf96782c84",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-203846b27633-arbitrary_reference_distance.pdf",
+      "id": 685158773,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-203846b27633-arbitrary_reference_distance.pdf",
+      "bytes": 206467,
+      "sha256": "da9bf77be53fffbd3e2b394bb72186b2bda091a28b435c3acf8993d442d9878f",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-21f462f1fec5-bidirectional_dotplot_page1.png",
+      "id": 685153382,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-21f462f1fec5-bidirectional_dotplot_page1.png",
+      "bytes": 171762,
+      "sha256": "99ad1d224694ec17920b82826351409222d759a2a7adc197b5ee45e732c1e916",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2422e9abd153-bidirectional_dotplot_page1.pdf",
+      "id": 685163345,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2422e9abd153-bidirectional_dotplot_page1.pdf",
+      "bytes": 8175,
+      "sha256": "b9302b0d9d7d738043695eeaa1a469aa2d7063a9f89451b4ff14cc0e2765c37f",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-24bf476c645e-CA1_to_IN_cKO_circos.pdf",
+      "id": 685152534,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-24bf476c645e-CA1_to_IN_cKO_circos.pdf",
+      "bytes": 18893,
+      "sha256": "9748e5a68a2836b233f782cba880b527554cd67213545e7e537c90b496ee1aba",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-24ee9ee67f69-IN_to_CA1_dotplot_page1.png",
+      "id": 685164807,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-24ee9ee67f69-IN_to_CA1_dotplot_page1.png",
+      "bytes": 141901,
+      "sha256": "39147ad25f75a74816383d02c2175457944e283b1fb36df52370b5f6164c6e8c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-252ab831060c-raw_mouse_proportions.pdf",
+      "id": 685157007,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-252ab831060c-raw_mouse_proportions.pdf",
+      "bytes": 37949,
+      "sha256": "73f4fc5964e29b2ebf19b0d9b59859046a84531eb4fb48a186e2215bac50cae9",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-25c395b85710-raw_mouse_proportions.png",
+      "id": 685154373,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-25c395b85710-raw_mouse_proportions.png",
+      "bytes": 102966,
+      "sha256": "62839014a8b76b320b32679ff01e3e4ccda0845b63de4595322e2198c096408f",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-25fa5676213b-bidirectional_cKO_circle.png",
+      "id": 685165133,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-25fa5676213b-bidirectional_cKO_circle.png",
+      "bytes": 154640,
+      "sha256": "efd5e8cb01bc0ddf8e87660ae5f6552ce8d109de41c9ba67acd8843e118e4a9b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2636463d39e9-CA1_to_IN_cKO_circle.png",
+      "id": 685162192,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2636463d39e9-CA1_to_IN_cKO_circle.png",
+      "bytes": 125430,
+      "sha256": "11710975e3cea8eadcb8334bedc3e53ab90d6a4e867c7d71082e9cc443b94ab0",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-26a661ddf350-gene_modules.tsv",
+      "id": 685160517,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-26a661ddf350-gene_modules.tsv",
+      "bytes": 66720,
+      "sha256": "e672150f93782fa7950555ed689f3480e3443aeae8b9db6a70ef4e19f835f212",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-26b477e737df-CA1_to_IN_dotplot_page1.png",
+      "id": 685152655,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-26b477e737df-CA1_to_IN_dotplot_page1.png",
+      "bytes": 136148,
+      "sha256": "c29770c6b47c2ebc4486e6026a3c1723c19089cbff1bcd9db31d94aea093e9cc",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-28e908a3e574-arbitrary_reference_distance.pdf",
+      "id": 685157602,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-28e908a3e574-arbitrary_reference_distance.pdf",
+      "bytes": 2367293,
+      "sha256": "f1b1c26ee4512a470eac27bdae949219c686bd4a05226ff8f107f190be5b253e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-294d8d7c4084-unrooted_partition.pdf",
+      "id": 685159148,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-294d8d7c4084-unrooted_partition.pdf",
+      "bytes": 197493,
+      "sha256": "ba7a5213ae2c69e93894985215d581918aba6a29ed5406b435bf0b4d30ed21b8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-29d1ab2525b0-native_effect_intervals.pdf",
+      "id": 685155478,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-29d1ab2525b0-native_effect_intervals.pdf",
+      "bytes": 26089,
+      "sha256": "d6fe3596b22ce51e83560f8610d1cf7b446411295470176bfeeeed0ec6f6bc9e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2a326d61f8dd-IN_to_CA1_cKO_circos.png",
+      "id": 685162773,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2a326d61f8dd-IN_to_CA1_cKO_circos.png",
+      "bytes": 196239,
+      "sha256": "3646584255cb6789819486452806b0cb71c87dede33bbaea093366d0fb074105",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2aeb034d5ce9-CA1_to_IN_cKO_circle.png",
+      "id": 685152517,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2aeb034d5ce9-CA1_to_IN_cKO_circle.png",
+      "bytes": 117335,
+      "sha256": "612a75b57a115e1c0988c4b3168beb7a71ab6ce788d08c201f4a515159d56023",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2b72105f88ce-IN_to_CA1_dotplot_page1.pdf",
+      "id": 685164776,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2b72105f88ce-IN_to_CA1_dotplot_page1.pdf",
+      "bytes": 7247,
+      "sha256": "5edb673396609f020346e5fcdd251323736bc0d1cb830d06f0d6a683b32705f5",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2bccf13ec09f-graph_test_all.tsv.gz",
+      "id": 685160551,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2bccf13ec09f-graph_test_all.tsv.gz",
+      "bytes": 545695,
+      "sha256": "201b071b679e3ffdd2f76e06adbd44d6009ef208c560e2d5c08c58032f3e2292",
+      "content_type": "application/gzip",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2d35f42e3b5b-bidirectional_WT_circle.png",
+      "id": 685153157,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2d35f42e3b5b-bidirectional_WT_circle.png",
+      "bytes": 146965,
+      "sha256": "1213ee012cafac9d61fc423b7d164646247ff9fa849667138f255ed4545337f6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-2eee20448740-IN_to_CA1_WT_circos.pdf",
+      "id": 685162597,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-2eee20448740-IN_to_CA1_WT_circos.pdf",
+      "bytes": 17319,
+      "sha256": "6c76792d1fc6d18443360c95a9d611a197cb895ce42da7fc0850f34f80dcd01e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-3011185f84ac-graph_associated_gene_overlays.pdf",
+      "id": 685158811,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-3011185f84ac-graph_associated_gene_overlays.pdf",
+      "bytes": 2339041,
+      "sha256": "9b0dd958421fd246df8d56e78ab571f595d86b0c45478c10bddbc2b6aa9a47f6",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-30290e3f3785-raw_stacked_proportions.png",
+      "id": 685154717,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-30290e3f3785-raw_stacked_proportions.png",
+      "bytes": 90029,
+      "sha256": "af73f96dbd05b5618717c0de874e7bfd78282830bbb2824b3ef4581324325bc9",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-30d36eda3535-IN_to_CA1_cKO_circle.png",
+      "id": 685152903,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-30d36eda3535-IN_to_CA1_cKO_circle.png",
+      "bytes": 117615,
+      "sha256": "0ab197a3f6dc2fa237a0bd0ba156318fefec2327338ac77043d6f62ffaed39c6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-323216e4f961-raw_stacked_proportions.pdf",
+      "id": 685155633,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-323216e4f961-raw_stacked_proportions.pdf",
+      "bytes": 25206,
+      "sha256": "df1122fd41382af3578c0912268d29211f51c7a6be25bfb958763707163a95a9",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-32766496ec62-module_mouse_heatmap.png",
+      "id": 685157868,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-32766496ec62-module_mouse_heatmap.png",
+      "bytes": 185501,
+      "sha256": "422d1972d31822d3added8443b264b228e7ec1b1a6e332b82b6c81c1aaf007ca",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-34505846ef52-bidirectional_pathway_heatmap.png",
+      "id": 685165450,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-34505846ef52-bidirectional_pathway_heatmap.png",
+      "bytes": 141550,
+      "sha256": "50fb3f016751390d43c8102e8f962d51ba951cfa3cce9d60d73c2a0fa903307b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-35ac496096be-bidirectional_dotplot_page1.pdf",
+      "id": 685152177,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-35ac496096be-bidirectional_dotplot_page1.pdf",
+      "bytes": 8175,
+      "sha256": "f59a852b5da4aae3c3c33a27e44631ec1d209838266acf54abd74f54e83af520",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-35bf18a847ed-graph_associated_gene_overlays.png",
+      "id": 685157744,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-35bf18a847ed-graph_associated_gene_overlays.png",
+      "bytes": 1618390,
+      "sha256": "9f3366ab6e80a43951ff4736d446ab509c8edf22f7e1e2c0006a4c21c1d3d011",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-363be3565f50-same_partition_display_cells.tsv",
+      "id": 685159683,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-363be3565f50-same_partition_display_cells.tsv",
+      "bytes": 143839,
+      "sha256": "53a9753cbaeb943bb048dc840a12336e9a6e4b8a1c7f599b415c50a148005ef0",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-36c057c9c8d5-unrooted_partition.png",
+      "id": 685161495,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-36c057c9c8d5-unrooted_partition.png",
+      "bytes": 87065,
+      "sha256": "a6934fa7ff131eee1ed63ab76ee0c09bfcdd8a8d576bc682cfc5ed80fc558231",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-37d77853d307-IN_to_CA1_pathway_heatmap.pdf",
+      "id": 685153063,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-37d77853d307-IN_to_CA1_pathway_heatmap.pdf",
+      "bytes": 6217,
+      "sha256": "f5f669ecade12d0d0a1083385a6a01700e7cff8618ab2496b99b2a706da5d348",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-38182d8d4a15-native_effect_intervals.pdf",
+      "id": 685156905,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-38182d8d4a15-native_effect_intervals.pdf",
+      "bytes": 26029,
+      "sha256": "e034ae69bbe51803fe96f5d76391f77e47a4d7a8eb3f7ccff2a39c3e71a60d11",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-389c2f64b065-embedding_cells.tsv",
+      "id": 685158664,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-389c2f64b065-embedding_cells.tsv",
+      "bytes": 188237,
+      "sha256": "f3a263f85e81b2f0708c51dc7af826a6bd7c7dfbcb74c104dd4af165737aea11",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-3a95395923a7-pathway_mouse_boxplots.pdf",
+      "id": 685153531,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-3a95395923a7-pathway_mouse_boxplots.pdf",
+      "bytes": 13820,
+      "sha256": "9fb8ed2afb49180bb567d8da8555caea7a31e0374cb10c08e12fa76eb405dbf5",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-3d77c8554a6e-IN_to_CA1_cKO_circle.png",
+      "id": 685164655,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-3d77c8554a6e-IN_to_CA1_cKO_circle.png",
+      "bytes": 125795,
+      "sha256": "bc6342176d3d00a8ee8a1714d13b0d58013c4a760b7e5c9bd1de94d7d4cf1681",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-3db6dd27e8a4-native_effect_intervals.png",
+      "id": 685155737,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-3db6dd27e8a4-native_effect_intervals.png",
+      "bytes": 50452,
+      "sha256": "c745fbbc9e6046d9b9ecdfeafddb7aae045ba154e2fc6e6496deadfd0466dd67",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-3fda67259741-unrooted_sequencing_partition.png",
+      "id": 685158378,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-3fda67259741-unrooted_sequencing_partition.png",
+      "bytes": 670670,
+      "sha256": "52b68f7c01ac2c1b434d6e1a639df2426a414ce786a43dd1f285257f412b4317",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-40a5b1dd6741-unrooted_condition.pdf",
+      "id": 685160072,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-40a5b1dd6741-unrooted_condition.pdf",
+      "bytes": 61551,
+      "sha256": "00057cb106188828411a79a5fb81c2f24167380921e2c9f1063e2fe1fd2b4c82",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-410691d842d6-bidirectional_WT_circos.pdf",
+      "id": 685151977,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-410691d842d6-bidirectional_WT_circos.pdf",
+      "bytes": 22006,
+      "sha256": "ae330a4f0f7c1b2dc855c9137f1f465ea10d5ab27ef3c93d2e7f77b332551f2d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4135189caff4-CA1_to_IN_cKO_circos.png",
+      "id": 685152618,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4135189caff4-CA1_to_IN_cKO_circos.png",
+      "bytes": 203905,
+      "sha256": "5355c557185eb0f77fb6fdc772d5ba8b4ac28c064fdcebbcf762de83dee4d6e8",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4241bf10ca9b-CA1_to_IN_dotplot_page1.pdf",
+      "id": 685164243,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4241bf10ca9b-CA1_to_IN_dotplot_page1.pdf",
+      "bytes": 7230,
+      "sha256": "026846b82883a958f2808c51163678e7e1cd33d606bbd2683fb476670e411dc7",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-43720d7d47a4-CA1_to_IN_pathway_heatmap.png",
+      "id": 685162481,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-43720d7d47a4-CA1_to_IN_pathway_heatmap.png",
+      "bytes": 121329,
+      "sha256": "499471e39e9b87a3a56bbe6884860ab53fda805b4758f1b3ccd17372e5d51bc7",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4420dc6107cb-strict_DEG_within_mouse_LR_scores.tsv",
+      "id": 685153768,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4420dc6107cb-strict_DEG_within_mouse_LR_scores.tsv",
+      "bytes": 28567,
+      "sha256": "416a3a9277e2ed48ca9caabe4ddf40a80e09b0d5e87b972a2f0f1210661f1039",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-46179c569dc6-all_mouse_counts_and_proportions.tsv",
+      "id": 685157446,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-46179c569dc6-all_mouse_counts_and_proportions.tsv",
+      "bytes": 152521,
+      "sha256": "3ce779d78b996ea6213ccdc0be7c14a3b0e16a6a8057bfd42a3e7ed1e7b29198",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-466660f216f6-unrooted_sample.png",
+      "id": 685159262,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-466660f216f6-unrooted_sample.png",
+      "bytes": 194489,
+      "sha256": "f4b5cc9b8953e2ad5049403176adc2ecc6da5d7b5650fc3d07c4aedd2616e9d5",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-474e6e915601-CA1_to_IN_WT_circos.png",
+      "id": 685152453,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-474e6e915601-CA1_to_IN_WT_circos.png",
+      "bytes": 205525,
+      "sha256": "f82025f070fcdad900ce81224574ca8fdd7e1778bdfedc07b3ab19b179e57ad0",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-477db41efff0-graph_associated_gene_overlays.png",
+      "id": 685158896,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-477db41efff0-graph_associated_gene_overlays.png",
+      "bytes": 1055846,
+      "sha256": "0d6da44f7d5e33b6e86bc2701527ade837ed4cf3103361408182b719b7e65aef",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4785aef5014c-native_effect_intervals.pdf",
+      "id": 685156266,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4785aef5014c-native_effect_intervals.pdf",
+      "bytes": 20828,
+      "sha256": "6ef3b2710a85551d1ec0ead6f1fad20ec7ba60d087f4c8666ff97f508470b14c",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-48be8ff6b4b8-CA1_to_IN_dotplot_page1.pdf",
+      "id": 685151485,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-48be8ff6b4b8-CA1_to_IN_dotplot_page1.pdf",
+      "bytes": 7231,
+      "sha256": "311806670ba14ad9acc2c59ea08cae58732f45cdca6a55806d50c2c8f62e1934",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-48d53cb38de2-graph_associated_gene_overlays.pdf",
+      "id": 685161023,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-48d53cb38de2-graph_associated_gene_overlays.pdf",
+      "bytes": 824773,
+      "sha256": "1362d61d0f27dd628dd5f324057091457c7925bfc2b7818bfe3f55d9ed87705b",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4932c0857f7b-raw_mouse_proportions.png",
+      "id": 685155126,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4932c0857f7b-raw_mouse_proportions.png",
+      "bytes": 168794,
+      "sha256": "738eb4ec7b5aafe79ff4eaad0b457851d420ccccfd617201a1af624ca0201921",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-49b79f9538ac-raw_stacked_proportions.png",
+      "id": 685156027,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-49b79f9538ac-raw_stacked_proportions.png",
+      "bytes": 80839,
+      "sha256": "886783451bdcd4bfc63ea3da43e376a71653dd93790bb153a8aa33529872058d",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4b877542d117-arbitrary_reference_distance.png",
+      "id": 685157681,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4b877542d117-arbitrary_reference_distance.png",
+      "bytes": 595158,
+      "sha256": "432fe88b8a9ea308076e97f81af2d546cbe09cab1a3aa642878a9ea91f5dbe2c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4c5b13b4edfe-CA1_to_IN_WT_circos.pdf",
+      "id": 685163888,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4c5b13b4edfe-CA1_to_IN_WT_circos.pdf",
+      "bytes": 19003,
+      "sha256": "cfb1a13918ce7f9be79d9f1426c8b17ebf3e7bbddfd3b32796e08d86887980b1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4e1140cb68c7-bidirectional_cKO_circle.png",
+      "id": 685152093,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4e1140cb68c7-bidirectional_cKO_circle.png",
+      "bytes": 146372,
+      "sha256": "44960c9fdeb822c29529af190a5ca3a1c9fc8984d797fcd02aeca188f987b0f2",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-4fa9d5abba2f-CA1_to_IN_WT_circle.pdf",
+      "id": 685152368,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-4fa9d5abba2f-CA1_to_IN_WT_circle.pdf",
+      "bytes": 6371,
+      "sha256": "b56d786089def3c6e004b5d9a2c8552a5155a75e3a1350ab5ff82c00524b53e6",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-509ad89824d4-unrooted_condition.pdf",
+      "id": 685159034,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-509ad89824d4-unrooted_condition.pdf",
+      "bytes": 197737,
+      "sha256": "17be09ab37f9b1576c85e1439e623dd4479fc3b4dbe837fc64a4e046dcfe29ab",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-522a07429ebb-bidirectional_WT_circle.png",
+      "id": 685164991,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-522a07429ebb-bidirectional_WT_circle.png",
+      "bytes": 155391,
+      "sha256": "953a731b9d822ea1e0d6fb8cd068ef87dfb768be17badf8edead10b34e49cf47",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-52b0c1166908-raw_stacked_proportions.png",
+      "id": 685156890,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-52b0c1166908-raw_stacked_proportions.png",
+      "bytes": 156098,
+      "sha256": "c0e717344e15e66a54f8d981dace71d0808aeccfda088240c36979efa81d9f5b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-52c3e374953a-module_mouse_heatmap.pdf",
+      "id": 685157838,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-52c3e374953a-module_mouse_heatmap.pdf",
+      "bytes": 15782,
+      "sha256": "19a42dbd63bfa68829f995d8ebb7f35921f0fb4317724e2632e17a3cfda03b44",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5348a55525d8-native_effect_intervals.pdf",
+      "id": 685155254,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5348a55525d8-native_effect_intervals.pdf",
+      "bytes": 26391,
+      "sha256": "7d5f9848cd6d592ea3c9f3c467f0ce8df5190ea6c43cf910649e4ea93f5d44b1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-535daaba0cb1-bidirectional_cKO_circle.png",
+      "id": 685153277,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-535daaba0cb1-bidirectional_cKO_circle.png",
+      "bytes": 146610,
+      "sha256": "b8b64b74d561b236b5cad241e25c9af3e1c8ca48e1b0214e344db21b53ee8e67",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-53c7c09c00f3-native_effect_intervals.pdf",
+      "id": 685154016,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-53c7c09c00f3-native_effect_intervals.pdf",
+      "bytes": 20483,
+      "sha256": "480ee821e60c548a5ae159885cc678bf251c7e7698e5ed724c4d13ec7e868ffd",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-53d7f6e3db5b-pathway_mouse_boxplots.pdf",
+      "id": 685163722,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-53d7f6e3db5b-pathway_mouse_boxplots.pdf",
+      "bytes": 13542,
+      "sha256": "9800cae499dfd8146e19c564cfcd2688a11c793518f6d459a1b8d844ac35b7b1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-53dd6f27b8c7-unrooted_condition.pdf",
+      "id": 685161228,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-53dd6f27b8c7-unrooted_condition.pdf",
+      "bytes": 57790,
+      "sha256": "9013c07b954ba9a47ff2a4dd6fa4283e125ffa6b62a824b0b75f8f0b0fb961ec",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-548671a5e2b6-module_candidate_reconciliation.tsv",
+      "id": 685161872,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-548671a5e2b6-module_candidate_reconciliation.tsv",
+      "bytes": 51581,
+      "sha256": "7368b9e8d2b84f9422e1599114a6fef7ad0e3375b90c8944e79650d8e2daade4",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5649c6f15e2d-CA1_to_IN_WT_circle.png",
+      "id": 685163884,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5649c6f15e2d-CA1_to_IN_WT_circle.png",
+      "bytes": 125508,
+      "sha256": "2c5a6bcc297c75ffb9ba075c3a1e7b09d21416703a5ae966a0410be875057afe",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-57caf82f14da-unrooted_partition.pdf",
+      "id": 685160247,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-57caf82f14da-unrooted_partition.pdf",
+      "bytes": 61467,
+      "sha256": "7fa170af5b75a09efc28c2fdfe586475493b7781606308c5860f957c20168a26",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-584cbb3915d2-unrooted_condition.png",
+      "id": 685160088,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-584cbb3915d2-unrooted_condition.png",
+      "bytes": 86705,
+      "sha256": "b995f19325606312e8f4f45ca16ad43a82c487417902bb6b2814e9012b62b9a2",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-59b9ce9aff2d-module_mouse_heatmap.png",
+      "id": 685158967,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-59b9ce9aff2d-module_mouse_heatmap.png",
+      "bytes": 79361,
+      "sha256": "4d9709e021e47fc6a0eebb1ac35775319fd9cb382fe2b8be5dd52f03eec351f9",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5a7b18d9e207-bidirectional_cKO_circos.png",
+      "id": 685153349,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5a7b18d9e207-bidirectional_cKO_circos.png",
+      "bytes": 230649,
+      "sha256": "d6421be44abdc012c7d8e7eb7accc1866b33cfb0f7dbfef14abe8d0a6a39f25f",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5af085055844-module_mouse_heatmap.png",
+      "id": 685159989,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5af085055844-module_mouse_heatmap.png",
+      "bytes": 77126,
+      "sha256": "b68b53e45be08c3fabd6b4b64b116faeb8816978cbb84e684cb68d9c8254c779",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5b48525657cb-same_partition_display_cells.tsv",
+      "id": 685160867,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5b48525657cb-same_partition_display_cells.tsv",
+      "bytes": 42174,
+      "sha256": "bc9af64e6af9ec4f838754308f19349ef080add50dd569f00d8c9aef86725c5b",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5be174fa69e4-IN_to_CA1_pathway_heatmap.png",
+      "id": 685164861,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5be174fa69e4-IN_to_CA1_pathway_heatmap.png",
+      "bytes": 117824,
+      "sha256": "3b42a3299e97c775e42d3bac3a7d3e1b86e68bc0835cf20903e69f84650ee853",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5ce4ad75e45b-unrooted_condition.png",
+      "id": 685159036,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5ce4ad75e45b-unrooted_condition.png",
+      "bytes": 176840,
+      "sha256": "d5c496407bd721ffd013dbe4703567a6048bb9f7b8a33e11bedd8ee1ae5e607c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-5e8805220385-raw_mouse_proportions.pdf",
+      "id": 685154826,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-5e8805220385-raw_mouse_proportions.pdf",
+      "bytes": 38244,
+      "sha256": "689161c5c3473dc01fe410cb979ca053c39b0c0e3b4914afeb460c31b0c65830",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-60e8889d0500-CA1_to_IN_WT_circos.png",
+      "id": 685151362,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-60e8889d0500-CA1_to_IN_WT_circos.png",
+      "bytes": 205447,
+      "sha256": "4ed04ff75bc18c90d4818882d5aff5e5d6e1aca77219918a7b19b71cddc1c7c9",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-613c6c9398c4-pathway_mouse_boxplots.png",
+      "id": 685153634,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-613c6c9398c4-pathway_mouse_boxplots.png",
+      "bytes": 231682,
+      "sha256": "2b85ea1b72319c7953d9e3621d644ea2c8c901743fee738101a940de06e4afd4",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-616e4cd84af5-IN_to_CA1_WT_circos.png",
+      "id": 685151746,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-616e4cd84af5-IN_to_CA1_WT_circos.png",
+      "bytes": 186772,
+      "sha256": "d35dbb580351cb935dcab284a5e3f479dd4999c72a4e6f4e136ea5f1c77ed476",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-62eab9895c8b-IN_to_CA1_dotplot_page1.pdf",
+      "id": 685151823,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-62eab9895c8b-IN_to_CA1_dotplot_page1.pdf",
+      "bytes": 7360,
+      "sha256": "1e9a581d544a3db87f5e28dde4c77049aa5202c6a16b72272af5ff0755003e03",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-63907bb7167f-raw_mouse_proportions.pdf",
+      "id": 685156780,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-63907bb7167f-raw_mouse_proportions.pdf",
+      "bytes": 41028,
+      "sha256": "36df026fb46ebc941ac31570e97936507d09b95130c91b4ab90421d1dabc3cc0",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-64ddd9dd2c20-bidirectional_WT_circos.png",
+      "id": 685152056,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-64ddd9dd2c20-bidirectional_WT_circos.png",
+      "bytes": 224240,
+      "sha256": "2c6bae0dfd1e39882a9f14d24dba817348eedb1b7d31552adab04a18cde6da3e",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-65d474e700cf-native_effect_intervals.pdf",
+      "id": 685154744,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-65d474e700cf-native_effect_intervals.pdf",
+      "bytes": 27025,
+      "sha256": "e07497bb823fbf442131de1bca43510c66c59c475b27f01816e7c14e412d1975",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6644172c03d3-IN_to_CA1_pathway_heatmap.png",
+      "id": 685153068,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6644172c03d3-IN_to_CA1_pathway_heatmap.png",
+      "bytes": 114172,
+      "sha256": "51094a29aecd67b30f66b3bd294cf30ed168e7cf7d1987cd1aff6f5c0eebba33",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-673dce299286-unrooted_partition.png",
+      "id": 685159208,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-673dce299286-unrooted_partition.png",
+      "bytes": 175127,
+      "sha256": "70afc2d55212be49d6d05bbf4484db94556e2c48318ee4849af817b5d806f05c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-675931b34bf5-reference_distances.tsv",
+      "id": 685161887,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-675931b34bf5-reference_distances.tsv",
+      "bytes": 100610,
+      "sha256": "bb38567edf0bba31f5eb5b7eff665f67d131b42b0917c3ea36e94fef0d319f42",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-67b7dc2a1b55-raw_mouse_proportions.pdf",
+      "id": 685154613,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-67b7dc2a1b55-raw_mouse_proportions.pdf",
+      "bytes": 21434,
+      "sha256": "790ddec4d0f69ab87037d631af1fc694161bde1778ccff993beb312487af17fe",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-685a444d571e-native_effect_intervals.png",
+      "id": 685156340,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-685a444d571e-native_effect_intervals.png",
+      "bytes": 59099,
+      "sha256": "ed6f91a41e2c71b59e913bf564439d9ec84c18074f64f65ac679335168b4616c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-686e554c098f-IN_to_CA1_cKO_circos.png",
+      "id": 685151821,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-686e554c098f-IN_to_CA1_cKO_circos.png",
+      "bytes": 188453,
+      "sha256": "5d3e3e229fc099c5f56a1a87ca8d72b29e0ccea5aeb41af1c1dfe62d73919b67",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6873499adabf-raw_mouse_proportions.pdf",
+      "id": 685156598,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6873499adabf-raw_mouse_proportions.pdf",
+      "bytes": 41512,
+      "sha256": "a3ed7faf089de0a21476a57a4e339efc2922c554139fa79dc2250ea4389be183",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-68cbd4595be5-library_denominators.tsv",
+      "id": 685160665,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-68cbd4595be5-library_denominators.tsv",
+      "bytes": 63110,
+      "sha256": "d5d67d5c2554af2c2ff567725faa31f5910489633c33b83b55a893a424dcc254",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-68d5dc60aa8e-bidirectional_dotplot_page1.png",
+      "id": 685152229,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-68d5dc60aa8e-bidirectional_dotplot_page1.png",
+      "bytes": 169697,
+      "sha256": "a46e41f130950b6a791560b1a4526cf0fd4defce213bd40533567e41eb77c717",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6aa4eba2fb9c-bidirectional_pathway_heatmap.pdf",
+      "id": 685152255,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6aa4eba2fb9c-bidirectional_pathway_heatmap.pdf",
+      "bytes": 6610,
+      "sha256": "9651a2af599841fdf83e806c2701745eb6581fed3588cb9a991cf8d3468fd98d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6b77d4c4136d-IN_to_CA1_dotplot_page1.png",
+      "id": 685153005,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6b77d4c4136d-IN_to_CA1_dotplot_page1.png",
+      "bytes": 134198,
+      "sha256": "7c34ba77fc0f073f4dce6a718cfdbdb54705c2930b14f8fd7bf6befbdb10146f",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6ca072ba6b18-native_effect_intervals.pdf",
+      "id": 685157167,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6ca072ba6b18-native_effect_intervals.pdf",
+      "bytes": 26288,
+      "sha256": "b35981dfe5c0c4210db7673ea4dd37fbe964fc5fe120e554d0d109c844bed9c4",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6d71ecd9b805-unrooted_sample.pdf",
+      "id": 685158253,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6d71ecd9b805-unrooted_sample.pdf",
+      "bytes": 2273098,
+      "sha256": "06fc3cd0108c57a853b05d8a6dfd1f3afa0a2d02038ae9e63da092fd9d111070",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6d7e15a9c0fd-native_effect_intervals.png",
+      "id": 685155920,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6d7e15a9c0fd-native_effect_intervals.png",
+      "bytes": 51104,
+      "sha256": "dae7b87d83d80f9686d60868be2d9e02bd003b6bad637e57a5f6d6fd4b3e0718",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6e4a3ed43b7b-raw_stacked_proportions.png",
+      "id": 685154950,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6e4a3ed43b7b-raw_stacked_proportions.png",
+      "bytes": 142269,
+      "sha256": "72289cf05af0044f2d246e2add5e42d78108a9c27add57ddf25c70fe127a1433",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6e7183bb9887-CA1_to_IN_cKO_circos.pdf",
+      "id": 685164160,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6e7183bb9887-CA1_to_IN_cKO_circos.pdf",
+      "bytes": 18768,
+      "sha256": "96dc0b0d1d9a77278a70214756bf43f3c834266d01af822b8b36b34ec3ec380e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6ea92039d0b1-module_candidate_reconciliation.tsv",
+      "id": 685160701,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6ea92039d0b1-module_candidate_reconciliation.tsv",
+      "bytes": 37072,
+      "sha256": "6474364ca653829ad34c5e443acd3b6e62121042b3e913ee9b1eb83e3dd09ff8",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-6f162dc7501e-IN_to_CA1_cKO_circos.png",
+      "id": 685152988,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-6f162dc7501e-IN_to_CA1_cKO_circos.png",
+      "bytes": 187659,
+      "sha256": "3d1ac1c2a740e0574a97cb64bce0681981de7811c57ce00833d9fc61f75f0eb4",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-70207fd9e9cb-IN_to_CA1_WT_circle.pdf",
+      "id": 685164465,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-70207fd9e9cb-IN_to_CA1_WT_circle.pdf",
+      "bytes": 5979,
+      "sha256": "cf5cca3cb89216e12bf519ef4c1f99559c331779f55a2b2100582fd97117c57c",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-70b08f1b64bf-raw_stacked_proportions.png",
+      "id": 685155443,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-70b08f1b64bf-raw_stacked_proportions.png",
+      "bytes": 131168,
+      "sha256": "d40a278af4894ff5034697df7c6371c9ee198e3a11ae956698d3ece259ed275b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-711919f58aca-bidirectional_cKO_circos.pdf",
+      "id": 685165211,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-711919f58aca-bidirectional_cKO_circos.pdf",
+      "bytes": 21993,
+      "sha256": "1a957cc372df1af2a0f114dd05d746ca703f166d2f24a9a05b9a583781cfba15",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-711a29991686-CA1_to_IN_cKO_circos.png",
+      "id": 685151474,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-711a29991686-CA1_to_IN_cKO_circos.png",
+      "bytes": 203417,
+      "sha256": "0f0e709bebd40f142742949ab1d898f7dc85c14f74494a6e7660591740161c8c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-71642d39ef88-bidirectional_LR.tsv",
+      "id": 685153649,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-71642d39ef88-bidirectional_LR.tsv",
+      "bytes": 28229,
+      "sha256": "85de73ab79d7bc549c03ae1ce25f6f2d1d40b801e034115c7e2464b984fccea9",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7205b55a041d-native_effect_intervals.png",
+      "id": 685156989,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7205b55a041d-native_effect_intervals.png",
+      "bytes": 116209,
+      "sha256": "61f09afd51cd4b860993308433f4b92a6c67cdae322db2a8ac53ad78e6f18e77",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-72f2fb2862c1-bidirectional_WT_circos.png",
+      "id": 685153195,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-72f2fb2862c1-bidirectional_WT_circos.png",
+      "bytes": 225587,
+      "sha256": "28e95328aa6a2d58ee8bb8ca0c255c99744a7b4ad3a81a39067969fe5489769c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-73005f5acdfc-module_mouse_heatmap.pdf",
+      "id": 685158904,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-73005f5acdfc-module_mouse_heatmap.pdf",
+      "bytes": 8476,
+      "sha256": "9b617f74bb4b8c9d68df4de31bb94f34abf7fcf302fb6553eae61ea316fcec7a",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-73f7c262e824-native_effect_intervals.pdf",
+      "id": 685156075,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-73f7c262e824-native_effect_intervals.pdf",
+      "bytes": 20775,
+      "sha256": "949252f5bf93c13c9822f5cadc81d7de54b871bcc9e0a231dc2a71d086e84844",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-767fdb941c29-CA1_to_IN_cKO_circos.pdf",
+      "id": 685162295,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-767fdb941c29-CA1_to_IN_cKO_circos.pdf",
+      "bytes": 18774,
+      "sha256": "aa512c867d28bdc160b042cf2b7e09e174f4bba1fd041ae944c3e937a6b724b9",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-76a7309a2537-module_mouse_heatmap.png",
+      "id": 685161197,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-76a7309a2537-module_mouse_heatmap.png",
+      "bytes": 77417,
+      "sha256": "432b985a003302cf9d7a201e74ae54865d7a3a47850b24ef7b9afb3c05dfdcfd",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7710b73af29a-gene_modules.tsv",
+      "id": 685161754,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7710b73af29a-gene_modules.tsv",
+      "bytes": 92568,
+      "sha256": "e83e80028570931595f38d821a80fcf4755922ffe18632f8032c78c105ad047d",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-78bc255a34a9-raw_mouse_proportions.png",
+      "id": 685154626,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-78bc255a34a9-raw_mouse_proportions.png",
+      "bytes": 102286,
+      "sha256": "6850a17d4b322a267f1798e6f0b03ced2a51b791b00c81ab21fec93e3fc1a005",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-78ed1f39b783-raw_stacked_proportions.png",
+      "id": 685157442,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-78ed1f39b783-raw_stacked_proportions.png",
+      "bytes": 142908,
+      "sha256": "16bfe615102a79fd532b79e17f2330d41da0f4d1bf14f90fc348d67f2a026636",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-78f121410cd0-bidirectional_WT_circle.pdf",
+      "id": 685151959,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-78f121410cd0-bidirectional_WT_circle.pdf",
+      "bytes": 7320,
+      "sha256": "0a1b460c6a082ec524c2397e870464dba39b6f63ac83f5654255c3ff3af11ba4",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7936bb4dec0b-graph_test_all.tsv.gz",
+      "id": 685161756,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7936bb4dec0b-graph_test_all.tsv.gz",
+      "bytes": 570574,
+      "sha256": "db5139846de52aa32c3cc28ceabb093dadc0a7aa1f8621b2b51a8559f8fb14a3",
+      "content_type": "application/gzip",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-796aeaf9c02c-composition.json",
+      "id": 685157538,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-796aeaf9c02c-composition.json",
+      "bytes": 83324,
+      "sha256": "6950ddf2ad443cf585f7441d51bb33ac80e63e13ab12e86e55a6c2ee4c1da308",
+      "content_type": "application/json",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7a5a2924e440-unrooted_sequencing_partition.pdf",
+      "id": 685159336,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7a5a2924e440-unrooted_sequencing_partition.pdf",
+      "bytes": 197065,
+      "sha256": "fa0f2262bf135058c441ce3da5e0fed061d8448a0e29b1be5811f14fe5f6dd98",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7aad1f03996b-raw_mouse_proportions.pdf",
+      "id": 685155923,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7aad1f03996b-raw_mouse_proportions.pdf",
+      "bytes": 24053,
+      "sha256": "82d1ecc229958edce13f5f101e14362f2ef9eb4c723cbc1cdb725203fc1cd722",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7ad8007de1ef-raw_stacked_proportions.pdf",
+      "id": 685157120,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7ad8007de1ef-raw_stacked_proportions.pdf",
+      "bytes": 26301,
+      "sha256": "195a7f274fba5d863c966afb7191e230f31d411a8ab92bd89666608d888f2bc2",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7add8d166e66-CA1_to_IN_cKO_circle.pdf",
+      "id": 685162190,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7add8d166e66-CA1_to_IN_cKO_circle.pdf",
+      "bytes": 6398,
+      "sha256": "738448dde59ebbe4d04380b5271f25f1aaff1605b85fb827c0f3bc09c694760e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7bd3f0025351-bidirectional_cKO_circle.png",
+      "id": 685163170,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7bd3f0025351-bidirectional_cKO_circle.png",
+      "bytes": 154453,
+      "sha256": "717781d1e79fb1d950313d475c28c3a6b1d4535b7a5de0700046eaafdf8f7b11",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7e065fe54e6d-raw_mouse_proportions.png",
+      "id": 685156609,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7e065fe54e6d-raw_mouse_proportions.png",
+      "bytes": 164836,
+      "sha256": "03efc73ca0bda141407d168f1cd65ac5991a60f33946d73bffdde9d509d5c767",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7ede826ed4ae-bidirectional_WT_circle.pdf",
+      "id": 685153082,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7ede826ed4ae-bidirectional_WT_circle.pdf",
+      "bytes": 7319,
+      "sha256": "87de7bdc44fc29d0b9a2cb2ce4e89c96aace14d12d988c76a53c251f8e1099ed",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-7fcbc203f6c1-IN_to_CA1_WT_circle.pdf",
+      "id": 685162553,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-7fcbc203f6c1-IN_to_CA1_WT_circle.pdf",
+      "bytes": 5979,
+      "sha256": "7a35aaeaf7f1033d3915117545597ebe92d417a3651048c84172c82311cf9344",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-81fc5d7fc358-module_candidate_reconciliation.tsv",
+      "id": 685159542,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-81fc5d7fc358-module_candidate_reconciliation.tsv",
+      "bytes": 94347,
+      "sha256": "1faec7afa1d1678bd47781a6c2ef3a9dfbbda04357d68bce47cfe439db9977b9",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8219db1299b8-native_effect_intervals.png",
+      "id": 685154606,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8219db1299b8-native_effect_intervals.png",
+      "bytes": 58499,
+      "sha256": "efa96186c6474669ce6cc0b5283c4317462f6b7422b33163519d7dac333cd792",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-82320832b265-IN_to_CA1_dotplot_page1.pdf",
+      "id": 685152992,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-82320832b265-IN_to_CA1_dotplot_page1.pdf",
+      "bytes": 7258,
+      "sha256": "7ef968ea5088e7515091c67e0c6410887ecdf32cc2933a2894a66b20eff02982",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-83761415d2dc-unrooted_sample.png",
+      "id": 685161629,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-83761415d2dc-unrooted_sample.png",
+      "bytes": 106951,
+      "sha256": "d47f90108854e3b09f2460ca9fdee0b8915bb9068654726692c1b7c5a9b86fa6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8447fa9fcf85-graph_associated_gene_overlays.pdf",
+      "id": 685157680,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8447fa9fcf85-graph_associated_gene_overlays.pdf",
+      "bytes": 4409487,
+      "sha256": "3a720680883ab3bab6767f4b30b890b1db70ab23e0b41c49a4e7d6c46446ddf4",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8472e8104f70-unrooted_condition.png",
+      "id": 685157983,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8472e8104f70-unrooted_condition.png",
+      "bytes": 704575,
+      "sha256": "8f011c0f11041d8047c6e855d561a00b171f6cbbceea5bed7a75029240b12eb4",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-84b74d649314-native_effect_intervals.png",
+      "id": 685156584,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-84b74d649314-native_effect_intervals.png",
+      "bytes": 137085,
+      "sha256": "df9a786cb90279eaae31fcd0ab112ff02f9ba9aa0d2669cdccb2dfa19e359845",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-85bb7af1a02d-arbitrary_reference_distance.pdf",
+      "id": 685159792,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-85bb7af1a02d-arbitrary_reference_distance.pdf",
+      "bytes": 65005,
+      "sha256": "761108cb9b3dc64acc9e2845bb1e9b5a42139766200a92543f0b0b60e90618c7",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-85f34d007163-unrooted_endpoint.png",
+      "id": 685160239,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-85f34d007163-unrooted_endpoint.png",
+      "bytes": 86617,
+      "sha256": "ecf5c7d21961d3b186fd512406cbb9d8d7d7ed004678d23ab593689698b6f19b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-860ed800176c-unrooted_sample.png",
+      "id": 685160365,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-860ed800176c-unrooted_sample.png",
+      "bytes": 103470,
+      "sha256": "ca29d182540dc8811a5353f040e538f0e170aa53d7168f2241dd52191507042f",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-877589c7f6de-raw_mouse_proportions.pdf",
+      "id": 685156346,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-877589c7f6de-raw_mouse_proportions.pdf",
+      "bytes": 21474,
+      "sha256": "a3aada2b05bbb1bf59b2c36f05248359c09fffe2b305a0a63b9d8713e357cdc1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8859124c5dd4-CA1_to_IN_WT_circle.png",
+      "id": 685151292,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8859124c5dd4-CA1_to_IN_WT_circle.png",
+      "bytes": 116561,
+      "sha256": "6922dbed15cb001b862ce66f2a4dd2f139ba2d1ad8c2d3112df9a536accc0873",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-886b4e6e1e11-IN_to_CA1_cKO_circle.pdf",
+      "id": 685152893,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-886b4e6e1e11-IN_to_CA1_cKO_circle.pdf",
+      "bytes": 5967,
+      "sha256": "1166c048e5c9bc8f59d5c16ee7bc24c8e5d7d3fc4564c2320f848b169c38d135",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-899cb715a49f-raw_mouse_proportions.png",
+      "id": 685155963,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-899cb715a49f-raw_mouse_proportions.png",
+      "bytes": 80486,
+      "sha256": "c0a9a6b2ee42d46fd0823f7a7c32c8601c455d5b1c0a78e7ea20d38c839e56c7",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8a0969a830c4-raw_mouse_proportions.pdf",
+      "id": 685154376,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8a0969a830c4-raw_mouse_proportions.pdf",
+      "bytes": 21515,
+      "sha256": "2ca5ca949d4dbcd8ff00a3b63b7176712c5c623f81d4359047562e77e18cd88a",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8a288d4de68e-CA1_to_IN_cKO_circos.png",
+      "id": 685164227,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8a288d4de68e-CA1_to_IN_cKO_circos.png",
+      "bytes": 212167,
+      "sha256": "1c283c15846a33c3769b64dc133d54b2b294c2514a15d5435ab425e976393431",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8a604258ca68-unrooted_condition.png",
+      "id": 685161322,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8a604258ca68-unrooted_condition.png",
+      "bytes": 89702,
+      "sha256": "703cb113d26802f6e2a464e0b19a62a8b42cdb03cc9de89db8e6ed48956307ee",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8a70b6212520-raw_stacked_proportions.png",
+      "id": 685154237,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8a70b6212520-raw_stacked_proportions.png",
+      "bytes": 81150,
+      "sha256": "da9f74a4b14134ee905489e2ac7d9243ac016c42223ef9e1613543befdad55f4",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8bb39692a9ab-pathway_mouse_boxplots.pdf",
+      "id": 685152342,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8bb39692a9ab-pathway_mouse_boxplots.pdf",
+      "bytes": 13675,
+      "sha256": "f9e79afd821e4f7a2bc3c5b76f921a3343466bc27998031e22bed2a6d9ca1373",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8c28da1f58e6-unrooted_condition.pdf",
+      "id": 685157939,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8c28da1f58e6-unrooted_condition.pdf",
+      "bytes": 2274677,
+      "sha256": "72eec40ed5e1408cfeb7181c5bd35deb791af4273308e88c06ff16688784ea8c",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8c85893de14d-bidirectional_cKO_circos.pdf",
+      "id": 685152143,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8c85893de14d-bidirectional_cKO_circos.pdf",
+      "bytes": 22113,
+      "sha256": "8f74c8537ab2c9c8685c42eb228987d94475abfd33d4b819b79509905713d338",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-8fa9d0b54c6e-unrooted_sequencing_partition.png",
+      "id": 685161652,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-8fa9d0b54c6e-unrooted_sequencing_partition.png",
+      "bytes": 95204,
+      "sha256": "7c466199a829bffc194aa45ad94ad255194371c5f8e11f2bc93072f135660ccc",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-90de8918922f-raw_mouse_proportions.png",
+      "id": 685153896,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-90de8918922f-raw_mouse_proportions.png",
+      "bytes": 84853,
+      "sha256": "3a6c4ac79303ca065d640efe02795432a1d38fdc07bf5e61b077ca13a0dc8b99",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-910d6cd59557-CA1_to_IN_pathway_heatmap.png",
+      "id": 685152723,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-910d6cd59557-CA1_to_IN_pathway_heatmap.png",
+      "bytes": 114364,
+      "sha256": "b660b68c9e3b2eb0c014fdf4b1af649e89053b07356f67bf341e7b04ac34f1fc",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-913cf4867b5a-raw_mouse_proportions.png",
+      "id": 685157032,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-913cf4867b5a-raw_mouse_proportions.png",
+      "bytes": 172532,
+      "sha256": "e688a16775e88e8c745a2d8f271cc9766cccf25cbe3f68428835259d7ea5507b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-918917788e4d-CA1_to_IN_cKO_circle.png",
+      "id": 685164079,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-918917788e4d-CA1_to_IN_cKO_circle.png",
+      "bytes": 125450,
+      "sha256": "9673fcd5cab623aa4fb4004b9fe8cb172d86ccc03118e1eeb6340154bf45f6bd",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-921adc809aa4-raw_stacked_proportions.pdf",
+      "id": 685154463,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-921adc809aa4-raw_stacked_proportions.pdf",
+      "bytes": 19996,
+      "sha256": "7ad426380e965b6b2ab3b555ec45067e92b57f57e253151336c35f0924d3686e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9287a48e1e08-raw_stacked_proportions.png",
+      "id": 685155236,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9287a48e1e08-raw_stacked_proportions.png",
+      "bytes": 142159,
+      "sha256": "8fad13edef9a2bda5e0a8faac388e17c4865c275b47fd97c3ef29d5647f5f729",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-934e1047ca68-bidirectional_cKO_circle.pdf",
+      "id": 685153281,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-934e1047ca68-bidirectional_cKO_circle.pdf",
+      "bytes": 7328,
+      "sha256": "81f28ec1b6ce30dc1296895196ff89275041939c781d61ef20e5a6f7667cd3a0",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9399969302b4-IN_to_CA1_cKO_circos.pdf",
+      "id": 685164678,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9399969302b4-IN_to_CA1_cKO_circos.pdf",
+      "bytes": 17412,
+      "sha256": "85bc273dce977a6c6511903b30b0664aa7f9fdef0ce4375afbedea4a3bfdd0e0",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-93c8ad21268c-CA1_to_IN_pathway_heatmap.png",
+      "id": 685164386,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-93c8ad21268c-CA1_to_IN_pathway_heatmap.png",
+      "bytes": 121395,
+      "sha256": "20980c254b908d78ec632a11d97434ee2d1de1cae27e82a53793e3d50b45f993",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-94473bc5d4b0-raw_mouse_proportions.pdf",
+      "id": 685156153,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-94473bc5d4b0-raw_mouse_proportions.pdf",
+      "bytes": 21558,
+      "sha256": "37e6cecd90b7beecbc9afc3b0f1eecb16a7555930b8b1d8735bc18a424c5f474",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-950f4df16fdb-all_native_effect_calls.tsv",
+      "id": 685157564,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-950f4df16fdb-all_native_effect_calls.tsv",
+      "bytes": 32676,
+      "sha256": "ed688530d9ea1b53ff1f70de8169080a7879cf7dd9bf2157de0da2358347c826",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-957079f35658-IN_to_CA1_dotplot_page1.pdf",
+      "id": 685162798,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-957079f35658-IN_to_CA1_dotplot_page1.pdf",
+      "bytes": 7364,
+      "sha256": "1ae948ce5e4e0c252c1c94b7a193867d83c8742a13b8e6f9d132015d61ffaabe",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-95fcd30e7f53-raw_stacked_proportions.pdf",
+      "id": 685156452,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-95fcd30e7f53-raw_stacked_proportions.pdf",
+      "bytes": 19664,
+      "sha256": "752124ebe2135f8d7ebdac04d443a6da4cc9cf4e94768dcfc392341f0c17cb57",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-96315c7f3482-raw_mouse_proportions.pdf",
+      "id": 685153875,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-96315c7f3482-raw_mouse_proportions.pdf",
+      "bytes": 24252,
+      "sha256": "32315d394ce9fbe1417bd39e8ed4feb5b477d465ee430cc476c5ed74fb434e36",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-963289951a1c-module_mouse_endpoint_display_z.tsv",
+      "id": 685158630,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-963289951a1c-module_mouse_endpoint_display_z.tsv",
+      "bytes": 21056,
+      "sha256": "0c514e7abbd7e60e876d08a0a410a07fe6d00e9ed2b1bebc63fe12e48f25f572",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-96e157bee6e4-raw_mouse_proportions.png",
+      "id": 685155750,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-96e157bee6e4-raw_mouse_proportions.png",
+      "bytes": 84039,
+      "sha256": "9725fc5ac5bfb2b9a39c302ff3722e0c705e980efc02d2c8d4ec31346854257b",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-97b8687cd14b-native_effect_intervals.png",
+      "id": 685154368,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-97b8687cd14b-native_effect_intervals.png",
+      "bytes": 58532,
+      "sha256": "f989472b94e425804a69aaee4d7e2176ebad1b3f0ff3d30c5d17e1ea4480fe69",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-98795e6dd446-IN_to_CA1_cKO_circle.pdf",
+      "id": 685162666,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-98795e6dd446-IN_to_CA1_cKO_circle.pdf",
+      "bytes": 5984,
+      "sha256": "20813d8e0c7d1e2d60390107536acdd8b13636a6a5e86955eefe25917cdb2334",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-99244d859089-unrooted_endpoint.pdf",
+      "id": 685160149,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-99244d859089-unrooted_endpoint.pdf",
+      "bytes": 61346,
+      "sha256": "5acb16144d201d6731a7a1613bde8be628d539d1ca9df822d11461b9805c28eb",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-997c2042bca6-unrooted_sequencing_partition.png",
+      "id": 685160500,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-997c2042bca6-unrooted_sequencing_partition.png",
+      "bytes": 93024,
+      "sha256": "88f79d77a979f245133ce2e818e066a4eef43eb17eff7a6bfbe4f7bfd895eb2c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9ad7d4fa5a53-bidirectional_WT_circle.pdf",
+      "id": 685164890,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9ad7d4fa5a53-bidirectional_WT_circle.pdf",
+      "bytes": 7339,
+      "sha256": "607a1a6ab85d171833fa2a13a3f2fdd123c2bb35903677ae7cbda0fab86a6050",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9be676e22686-native_effect_intervals.pdf",
+      "id": 685155858,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9be676e22686-native_effect_intervals.pdf",
+      "bytes": 20485,
+      "sha256": "92fd05ba95ca66eeca1aed6f2247c56f20bdf6dcbe8586f86a7678fa5658af65",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9c2c417b0a1e-CA1_to_IN_cKO_circos.pdf",
+      "id": 685151472,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9c2c417b0a1e-CA1_to_IN_cKO_circos.pdf",
+      "bytes": 18900,
+      "sha256": "99df04cd744830559e2a63509976690fcc50306a8354bfb0c7d4dd66fc3c024d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9c916c36c3df-native_effect_intervals.png",
+      "id": 685154818,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9c916c36c3df-native_effect_intervals.png",
+      "bytes": 120844,
+      "sha256": "780fc58b223e82da5269baa33f4a4884b141c488f4281cd25edc3251125ac910",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9dbe1a695a07-bidirectional_pathway_heatmap.pdf",
+      "id": 685163513,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9dbe1a695a07-bidirectional_pathway_heatmap.pdf",
+      "bytes": 6612,
+      "sha256": "f1d7bcff69eb37c47ca42436a7e9a3930c9a1eb3bf8d00541c798ae1330008f8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9e310174c0d3-raw_stacked_proportions.pdf",
+      "id": 685156688,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9e310174c0d3-raw_stacked_proportions.pdf",
+      "bytes": 28340,
+      "sha256": "b01048b33af7e9de2ad7978639d574432159e0cb76cc49bdd33f53720ec5ab88",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-9eda9ecbbd75-graph_associated_gene_overlays.pdf",
+      "id": 685159855,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-9eda9ecbbd75-graph_associated_gene_overlays.pdf",
+      "bytes": 892521,
+      "sha256": "7cbc33e2e590cf8045d533ffda38bc0eaf72f9645711346a153d6536e2be2d54",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a0c3a06e2b1b-pathway_mouse_boxplots.png",
+      "id": 685165614,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a0c3a06e2b1b-pathway_mouse_boxplots.png",
+      "bytes": 231162,
+      "sha256": "9bacec032e519b0e9aeaee3cfab7d83c859877a5aadcfe604b76f28630a24e96",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a17aa38459ee-IN_to_CA1_pathway_heatmap.png",
+      "id": 685162911,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a17aa38459ee-IN_to_CA1_pathway_heatmap.png",
+      "bytes": 119761,
+      "sha256": "a41d716e10207aa71151ef060af837e11615d4869ed1f7e5314e791a794c84ac",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a29a668dfe6e-native_effect_intervals.pdf",
+      "id": 685154987,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a29a668dfe6e-native_effect_intervals.pdf",
+      "bytes": 26869,
+      "sha256": "3c0524ed061344329d588463ea26aa40e32320a3bf77eb558a4e70b0fc3bc77c",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a2ff5980038d-IN_to_CA1_cKO_circos.pdf",
+      "id": 685162770,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a2ff5980038d-IN_to_CA1_cKO_circos.pdf",
+      "bytes": 17484,
+      "sha256": "bc6ab5090e15f2230bb571834d7f7e9a2292d003031a49d78b831c3d52508b5c",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a3c15a97a0c5-raw_mouse_proportions.pdf",
+      "id": 685155118,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a3c15a97a0c5-raw_mouse_proportions.pdf",
+      "bytes": 37831,
+      "sha256": "1395f5554103513bf3e6080eb40fff5157722fb589884ffe333a69271ced2b2e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a44c25389cfa-bidirectional_cKO_circle.pdf",
+      "id": 685163148,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a44c25389cfa-bidirectional_cKO_circle.pdf",
+      "bytes": 7346,
+      "sha256": "87091be8eb4ddbbaf9f206bf055fb4674fb2cc5388fc5c90eb94e38ea8b2c7ca",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a4ff6b0b12c1-graph_test_all.tsv.gz",
+      "id": 685159473,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a4ff6b0b12c1-graph_test_all.tsv.gz",
+      "bytes": 594274,
+      "sha256": "5008d1258ad73236446d20b3ab0f64d12edb7c929ddc405f4bbfc6b64e5989bf",
+      "content_type": "application/gzip",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a4ffb07f21d8-native_effect_intervals.png",
+      "id": 685155099,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a4ffb07f21d8-native_effect_intervals.png",
+      "bytes": 115019,
+      "sha256": "532fdd68e5d2211ae00934c7ee7fae257ff0f494c3d40924f60007ab04f101d6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a6094306d3a4-raw_mouse_proportions.png",
+      "id": 685155357,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a6094306d3a4-raw_mouse_proportions.png",
+      "bytes": 163322,
+      "sha256": "cbd7b77df7a33f57d97f54238ac1c00b53723808e24548189e680402493e7bd1",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a620f1f16853-pathway_mouse_boxplots.png",
+      "id": 685163719,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a620f1f16853-pathway_mouse_boxplots.png",
+      "bytes": 222638,
+      "sha256": "8a27478f2419dcb897a2c828f3810c96d586f71eb9ee2f20978782b214c751f3",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a69660b032b4-CA1_to_IN_pathway_heatmap.pdf",
+      "id": 685152714,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a69660b032b4-CA1_to_IN_pathway_heatmap.pdf",
+      "bytes": 6265,
+      "sha256": "91a33d809bb8b768a655b23d93b6ddb951a834d96eccae78b1cb5ca956a3dc47",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a76588a4c9a0-bidirectional_cKO_circos.png",
+      "id": 685165301,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a76588a4c9a0-bidirectional_cKO_circos.png",
+      "bytes": 237642,
+      "sha256": "080457611c8346bcac59b08e2710566dde2bcb9ef650d4504efb607b00200705",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a8a6952b539f-CA1_to_IN_WT_circle.pdf",
+      "id": 685163759,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a8a6952b539f-CA1_to_IN_WT_circle.pdf",
+      "bytes": 6389,
+      "sha256": "1cae7531b990ce8fec87f8bf7dab98109dcc9b6a3dcdd15c16d0e5d779c664ca",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a8c7675f9e2b-bidirectional_dotplot_page1.pdf",
+      "id": 685165316,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a8c7675f9e2b-bidirectional_dotplot_page1.pdf",
+      "bytes": 8096,
+      "sha256": "b90d12b9e731d91b08db778d50a0accf51e58b5375027d76d8988aef6bcccc31",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a940ef2cc260-bidirectional_pathway_heatmap.png",
+      "id": 685153509,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a940ef2cc260-bidirectional_pathway_heatmap.png",
+      "bytes": 142465,
+      "sha256": "8c27188af56db40c110afccc515ea6330231ca42556d2a5f35710a61a59338f9",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-a9bec1eb0fba-arbitrary_reference_distance.png",
+      "id": 685161012,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-a9bec1eb0fba-arbitrary_reference_distance.png",
+      "bytes": 89535,
+      "sha256": "538f4223ec477de45286a45c832e81265316118bc4fc9b99b7ad76183c083a70",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-aa35d70dbd48-same_partition_display_cells.tsv",
+      "id": 685158632,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-aa35d70dbd48-same_partition_display_cells.tsv",
+      "bytes": 1888800,
+      "sha256": "4befe3fbf348e7e7e287be6508aa95dc893dff0f478090fced65a4abaac277ce",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ab793429049a-raw_mouse_proportions.pdf",
+      "id": 685155749,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ab793429049a-raw_mouse_proportions.pdf",
+      "bytes": 24244,
+      "sha256": "4e2cec0b6a56bbbcaa8b560946dd34445849938d84fc33b7bf33d1028f0b99d4",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ab7d9cddb85a-unrooted_endpoint.png",
+      "id": 685159145,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ab7d9cddb85a-unrooted_endpoint.png",
+      "bytes": 176461,
+      "sha256": "3d1e7ba0b5cbd70edcd85caf1606866402fad21e46bcf7ba60f1db84b1a00f20",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ac7bd3689311-IN_to_CA1_dotplot_page1.png",
+      "id": 685162878,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ac7bd3689311-IN_to_CA1_dotplot_page1.png",
+      "bytes": 141630,
+      "sha256": "83723c7ea5f0542836092635369816ebff533b81973dcbe3279683c004318e44",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ac86982afb8a-CA1_to_IN_dotplot_page1.png",
+      "id": 685151537,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ac86982afb8a-CA1_to_IN_dotplot_page1.png",
+      "bytes": 136149,
+      "sha256": "3b02ebdcd6eb6df33d84e021d37218e148de36ab587de6ea5131119b406ba253",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-acd7694cc260-bidirectional_WT_circos.pdf",
+      "id": 685164992,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-acd7694cc260-bidirectional_WT_circos.pdf",
+      "bytes": 21946,
+      "sha256": "e86329af16b75e36a7237605655b33ddd91b1aa724b3467ee01c05d3e1091293",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-aded1050d846-graph_test_all.tsv.gz",
+      "id": 685158486,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-aded1050d846-graph_test_all.tsv.gz",
+      "bytes": 599879,
+      "sha256": "4907ffa82296948738eb390348918addca417dbe5ef6ba7227ccd425d3ec8338",
+      "content_type": "application/gzip",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ae4c45f78857-native_effect_intervals.png",
+      "id": 685157271,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ae4c45f78857-native_effect_intervals.png",
+      "bytes": 121553,
+      "sha256": "9caeded40fe83ffaf4ccaeee15f93f0f9ee0d03e6fb5a8b350ff12c205737fbd",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-af05f68e0187-bidirectional_cKO_circos.pdf",
+      "id": 685153312,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-af05f68e0187-bidirectional_cKO_circos.pdf",
+      "bytes": 22118,
+      "sha256": "e9a8fac476d6c838cd66c90bfa843d0f9366433ab026b1667c11702e60a37e3f",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-af197edf755d-unrooted_sequencing_partition.pdf",
+      "id": 685160418,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-af197edf755d-unrooted_sequencing_partition.pdf",
+      "bytes": 61649,
+      "sha256": "25095dfa2165987d28cfc4c26584c96fb0e79a3513021451c097910145598f40",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-af1a9836b015-raw_mouse_proportions.png",
+      "id": 685156180,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-af1a9836b015-raw_mouse_proportions.png",
+      "bytes": 106343,
+      "sha256": "6ba3ccec3fdd3a30ab068693301237e1b2703bc307dccac851eb23c9b529bb6d",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-b0b4cb4941f5-raw_mouse_proportions.png",
+      "id": 685156372,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-b0b4cb4941f5-raw_mouse_proportions.png",
+      "bytes": 104465,
+      "sha256": "d1a602f8636909fde8a76688ea3c68ddcb04a3861c3ccf850580254ca56f275f",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-b58161dd0574-unrooted_partition.pdf",
+      "id": 685158151,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-b58161dd0574-unrooted_partition.pdf",
+      "bytes": 2278122,
+      "sha256": "cbb1ab4005834f2ae78fbcf0546a61317dbe5391996bb7506a038068e4a6a3db",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-b85cba24b821-CA1_to_IN_cKO_circle.png",
+      "id": 685151370,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-b85cba24b821-CA1_to_IN_cKO_circle.png",
+      "bytes": 117324,
+      "sha256": "f61a29749bfa80ed049b9547d7609d4b9546c46c5eaa8cb3a3e1c24c619ea48a",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-b86c3c8b9b50-CA1_to_IN_WT_circos.png",
+      "id": 685163949,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-b86c3c8b9b50-CA1_to_IN_WT_circos.png",
+      "bytes": 213571,
+      "sha256": "9d03bc445638b463384314c9115ce9f2a53faa7315ce33ad9e7fa37b9f12b91c",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-b94510f3bdc1-bidirectional_pathway_heatmap.png",
+      "id": 685152269,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-b94510f3bdc1-bidirectional_pathway_heatmap.png",
+      "bytes": 143156,
+      "sha256": "8a414a874bcc1a0e967e6acbf4694a6b67caf99037617997757a3c05ad872e50",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-b9a7cb43f32b-bidirectional_dotplot_page1.png",
+      "id": 685165368,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-b9a7cb43f32b-bidirectional_dotplot_page1.png",
+      "bytes": 181135,
+      "sha256": "5797929c5bf52556654aa8e902d5dfeb2b767c1765b3915b82aa1cd1fd716034",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ba9f3fa5ad6f-native_effect_intervals.png",
+      "id": 685155328,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ba9f3fa5ad6f-native_effect_intervals.png",
+      "bytes": 107076,
+      "sha256": "f2ed45b0dd3a1b6d0b4c4f5ef18d1211db736b38bad2e0300ee82c1fe10f7787",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bb36e2d08486-IN_to_CA1_cKO_circle.pdf",
+      "id": 685164630,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bb36e2d08486-IN_to_CA1_cKO_circle.pdf",
+      "bytes": 5986,
+      "sha256": "f7f12895d3a655dc61507f39feb670c91c407f9fa66c62c7700eab586e0336d8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bb5fac80956e-raw_stacked_proportions.png",
+      "id": 685154005,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bb5fac80956e-raw_stacked_proportions.png",
+      "bytes": 83622,
+      "sha256": "c8c4d63055654a3a8d669b1e6c1e9495d26bbec4e1ce59ecf8f9c7edfd0ff0dc",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bbf8bd959ddf-bidirectional_WT_circle.png",
+      "id": 685162997,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bbf8bd959ddf-bidirectional_WT_circle.png",
+      "bytes": 154736,
+      "sha256": "227f33f93c52792f9d6b1d6479ecd03c75212207efc61c0923194d65cdd45158",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bc7e04d6f9b1-CA1_to_IN_pathway_heatmap.png",
+      "id": 685151565,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bc7e04d6f9b1-CA1_to_IN_pathway_heatmap.png",
+      "bytes": 114306,
+      "sha256": "1fe1573d9e18171322c80cb939b05ac6a62244595f1661c9b3aa199e0c681c41",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bd185aed8261-module_candidate_reconciliation.tsv",
+      "id": 685158534,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bd185aed8261-module_candidate_reconciliation.tsv",
+      "bytes": 233086,
+      "sha256": "decc21f8009013ed4cf439edca9564c78fbb4e447955348b55b65029633f4172",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-be294431dfdb-IN_to_CA1_pathway_heatmap.pdf",
+      "id": 685164863,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-be294431dfdb-IN_to_CA1_pathway_heatmap.pdf",
+      "bytes": 6222,
+      "sha256": "aa35b78549fe3db6611977407736e396a91af1fbeb9b27b2a03a5f3985554ed5",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bf80cfd89ee2-IN_to_CA1_cKO_circle.png",
+      "id": 685151759,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bf80cfd89ee2-IN_to_CA1_cKO_circle.png",
+      "bytes": 117520,
+      "sha256": "9cc132e5dd58987474e5ea3bf9065fc4f2f9316da3f251101918614eb9f2655d",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-bf8a03d76de4-CA1_to_IN_WT_circos.pdf",
+      "id": 685151298,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-bf8a03d76de4-CA1_to_IN_WT_circos.pdf",
+      "bytes": 19171,
+      "sha256": "60cb1e5211a1b96aa2fdcba0e30cdd4dd9ec4995f9e4be91658b8d88f5e8a629",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c056bb3a0143-arbitrary_reference_distance.png",
+      "id": 685159821,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c056bb3a0143-arbitrary_reference_distance.png",
+      "bytes": 87760,
+      "sha256": "26e6985b999ef235556de5a6a367e198309f441463b0a9f08edaf8a7f79ef7ca",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c12698da31cb-bidirectional_WT_circle.png",
+      "id": 685151956,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c12698da31cb-bidirectional_WT_circle.png",
+      "bytes": 146387,
+      "sha256": "feaf1e7e77be79cc8c8fafde67295850b07211e2b4f9fe80fecfa92a67893acd",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c1be7383ea2d-CA1_to_IN_cKO_circle.pdf",
+      "id": 685164054,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c1be7383ea2d-CA1_to_IN_cKO_circle.pdf",
+      "bytes": 6397,
+      "sha256": "a030e937cd64dcf7e358c6671bc390288ac568fb2ebc490e7e53cc03087db045",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c2e1c6a617e8-raw_stacked_proportions.pdf",
+      "id": 685155238,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c2e1c6a617e8-raw_stacked_proportions.pdf",
+      "bytes": 26044,
+      "sha256": "1fb314bae2116eaa4886003e56e2a9b066404ca413f4468ec2057418d5e07619",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c2f808911538-reference_distances.tsv",
+      "id": 685160760,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c2f808911538-reference_distances.tsv",
+      "bytes": 107255,
+      "sha256": "0cb1c44ff4dde9f56a2fc7c42ba38465b713d2f0dbcf41617e15d595dc136a1a",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c2fb2715a4da-IN_to_CA1_pathway_heatmap.png",
+      "id": 685151912,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c2fb2715a4da-IN_to_CA1_pathway_heatmap.png",
+      "bytes": 115826,
+      "sha256": "46549cc2378ef7c8ff05893dd11922c3808c28a61970e43fdc61f82aaf3dafa0",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c3a24da14790-bidirectional_WT_circos.pdf",
+      "id": 685153179,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c3a24da14790-bidirectional_WT_circos.pdf",
+      "bytes": 22068,
+      "sha256": "ed53d3f5e97cdf213aa44b30a714b147f7547a9bebcf6c5f78d7216012e23d04",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c3a6282d9740-native_effect_intervals.pdf",
+      "id": 685155644,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c3a6282d9740-native_effect_intervals.pdf",
+      "bytes": 20251,
+      "sha256": "78d0a14757c3b29e741f76b7a600fbed8bc139558cb0577c31e73e31c3faee40",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c5461af1fb2d-bidirectional_cKO_circos.png",
+      "id": 685152162,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c5461af1fb2d-bidirectional_cKO_circos.png",
+      "bytes": 230027,
+      "sha256": "efc6d87a54216d1d25e089b6cb971c5bc82165cd7d767eb56b7d64db6fa4d290",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c59baeb496a4-raw_stacked_proportions.png",
+      "id": 685156229,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c59baeb496a4-raw_stacked_proportions.png",
+      "bytes": 93982,
+      "sha256": "e96bc2b93f1e064186a408348c0297786fa61e5c2869544dfd331c8e436e2913",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c5fe52f59fe1-raw_stacked_proportions.pdf",
+      "id": 685155829,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c5fe52f59fe1-raw_stacked_proportions.pdf",
+      "bytes": 20075,
+      "sha256": "0fec5376fb39718a1f1d4b40f8dff8c60e87f9718d39b94f474a25ad45321337",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c60d6780f23d-unrooted_sequencing_partition.pdf",
+      "id": 685161628,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c60d6780f23d-unrooted_sequencing_partition.pdf",
+      "bytes": 57918,
+      "sha256": "2da650b972d5b60a36131a893b118c3f800041d7235759560712a6da7929d4f1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c61b09aeeadf-CA1_to_IN_cKO_circos.png",
+      "id": 685162352,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c61b09aeeadf-CA1_to_IN_cKO_circos.png",
+      "bytes": 211747,
+      "sha256": "b5eec2196e4068c7f8ee77339503eb864f7897f07fcb3e0ab0a5431480663904",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c896957f3596-IN_to_CA1_cKO_circos.png",
+      "id": 685164753,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c896957f3596-IN_to_CA1_cKO_circos.png",
+      "bytes": 195741,
+      "sha256": "70dbc9f9c445acfe24da83f31e01aafae67c2f2546f29a5e0a165baff24a511d",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c968f54fecfd-unrooted_endpoint.pdf",
+      "id": 685159089,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c968f54fecfd-unrooted_endpoint.pdf",
+      "bytes": 197311,
+      "sha256": "69c1e941d3684b4e690fc52ae7aa2a2b89a9fe39b727a25e5f3545184a5c0408",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c9a7a8caf4dc-native_effect_intervals.png",
+      "id": 685155545,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c9a7a8caf4dc-native_effect_intervals.png",
+      "bytes": 100406,
+      "sha256": "8c0dab733afbe13125fc2c1c88014365c7e33a313e9c3381e98362ca0d0f8ab5",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-c9f0951011ec-CA1_to_IN_dotplot_page1.png",
+      "id": 685164299,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-c9f0951011ec-CA1_to_IN_dotplot_page1.png",
+      "bytes": 134056,
+      "sha256": "9c0ad34d2ee80c89eb278903e8e9af2fa2cf97b8b92b20ea17b1e76fa001da21",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ca5f4e065b65-unrooted_sample.pdf",
+      "id": 685161518,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ca5f4e065b65-unrooted_sample.pdf",
+      "bytes": 58671,
+      "sha256": "c5f6af3a400a05d908d3895f4880124e2ece64b51f46138f1ee3af29e61f065a",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cb16cacf4be7-pathway_mouse_boxplots.png",
+      "id": 685152350,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cb16cacf4be7-pathway_mouse_boxplots.png",
+      "bytes": 223534,
+      "sha256": "aa41a703b868bebb9377fd80dd7606c5482955bea8836e3c93ee23607e1346dd",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cd963cbbd6a8-CA1_to_IN_WT_circos.png",
+      "id": 685162147,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cd963cbbd6a8-CA1_to_IN_WT_circos.png",
+      "bytes": 213482,
+      "sha256": "c47632489717a5989641bd9ce175d880085a5aafedd7415cea6c4cfe70415b85",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cdab993b5191-raw_mouse_proportions.png",
+      "id": 685154123,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cdab993b5191-raw_mouse_proportions.png",
+      "bytes": 80602,
+      "sha256": "f759bc0c818e336dff0a8c0b06022cef9962b094474da9951cdc02c8e5b2ecc0",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cdaeb1014bd3-bidirectional_cKO_circle.pdf",
+      "id": 685165149,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cdaeb1014bd3-bidirectional_cKO_circle.pdf",
+      "bytes": 7347,
+      "sha256": "96c9dc2328c69d8e2486c774fd18e6aea1162f8212a2d4e4c10907508ff08c8d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cdb6e4a41232-raw_stacked_proportions.pdf",
+      "id": 685157409,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cdb6e4a41232-raw_stacked_proportions.pdf",
+      "bytes": 25101,
+      "sha256": "b82b256693e7d2231c638dd7cfc39d640479b87f105c72fc129eaad81c953dce",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cddb70916af6-CA1_to_IN_WT_circle.png",
+      "id": 685162036,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cddb70916af6-CA1_to_IN_WT_circle.png",
+      "bytes": 124752,
+      "sha256": "eed26649644ad6c785c7072875a207a58ad4a2b0d5ba07f13ee61938decc5a5d",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-cfc11dbb3936-bidirectional_pathway_heatmap.pdf",
+      "id": 685153512,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-cfc11dbb3936-bidirectional_pathway_heatmap.pdf",
+      "bytes": 6577,
+      "sha256": "c7792f322edaa123174d12af641c88e0cecbaddb0bc6f5082a6bd7bd793f06b8",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d03afcb28370-native_effect_intervals.pdf",
+      "id": 685156504,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d03afcb28370-native_effect_intervals.pdf",
+      "bytes": 27758,
+      "sha256": "d8346625b9edbab2c2d6b0114f30eb33fec5d5ec2f2ac6a69ff1dfb6b9027dc7",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d0603271627e-CA1_to_IN_WT_circle.pdf",
+      "id": 685162020,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d0603271627e-CA1_to_IN_WT_circle.pdf",
+      "bytes": 6388,
+      "sha256": "2e8c6f8de390389583528d237e36841de07f0048d37d97b5365e427761659b5f",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d0c1037a534b-raw_stacked_proportions.png",
+      "id": 685156684,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d0c1037a534b-raw_stacked_proportions.png",
+      "bytes": 157595,
+      "sha256": "e932af3625f6ac6fe5b1fd83a5bbc6f3502a039db9fe0844817b4b74f1ab4709",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d1700b9085e0-IN_to_CA1_WT_circle.pdf",
+      "id": 685151651,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d1700b9085e0-IN_to_CA1_WT_circle.pdf",
+      "bytes": 5960,
+      "sha256": "0b92a5f68aeeb9aac11a9e59893d877bebfed2caca9d28948c2b988771085e4a",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d2131ffdd9d4-raw_mouse_proportions.pdf",
+      "id": 685154116,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d2131ffdd9d4-raw_mouse_proportions.pdf",
+      "bytes": 24064,
+      "sha256": "fdf59a93baf78c576c4fcbc7c8b418659647c26ff6b74f478819d303733e36b1",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d468b4ec791a-IN_to_CA1_pathway_heatmap.pdf",
+      "id": 685162890,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d468b4ec791a-IN_to_CA1_pathway_heatmap.pdf",
+      "bytes": 6264,
+      "sha256": "05ae2ec739cb6513b71dbd0ee0113ef0b61505d982d4ce24d7e38425739c2374",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d4f31f8cdeca-IN_to_CA1_pathway_heatmap.pdf",
+      "id": 685151891,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d4f31f8cdeca-IN_to_CA1_pathway_heatmap.pdf",
+      "bytes": 6261,
+      "sha256": "b251d368ecfd17519154cd97b2eef3de50cd2017c2fd97251aa7afee5cb33c7b",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d726fb32bdeb-native_effect_intervals.pdf",
+      "id": 685154249,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d726fb32bdeb-native_effect_intervals.pdf",
+      "bytes": 20789,
+      "sha256": "c398cacbfeb68e21a492166f5d1e3eacfc1f5df08d93876d58cf92c834878b22",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d72b3574b420-graph_associated_gene_overlays.png",
+      "id": 685161115,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d72b3574b420-graph_associated_gene_overlays.png",
+      "bytes": 385832,
+      "sha256": "ba8ee63af1b5e7111e6a1b2959b9c159f0dffea7593b9f2b8df488ccd750f829",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d85c91dda885-raw_stacked_proportions.pdf",
+      "id": 685155479,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d85c91dda885-raw_stacked_proportions.pdf",
+      "bytes": 26205,
+      "sha256": "95cc122d952465e6e1002bf6f27b7df92bd83a0bf714fc082456f6ad14807c4d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d9155be91f01-module_mouse_heatmap.pdf",
+      "id": 685159937,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d9155be91f01-module_mouse_heatmap.pdf",
+      "bytes": 7161,
+      "sha256": "b4a6ff7021b29292a28be0b178c1f85fa49205421cfabb518d7d6e00d2bdef75",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-d931d1859486-unrooted_endpoint.png",
+      "id": 685161370,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-d931d1859486-unrooted_endpoint.png",
+      "bytes": 88844,
+      "sha256": "aa9ca925cf69fa4b8e12f201d896d625d5a7e4c08965c08c9a96c48482bd80ca",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-daf4b5d15f5c-unrooted_endpoint.pdf",
+      "id": 685161344,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-daf4b5d15f5c-unrooted_endpoint.pdf",
+      "bytes": 57667,
+      "sha256": "f8902155089b7c9ba197bb5a110ae77341173a41bcb7cbfeed5f7202d487b8d3",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-dc9af3a92ea5-raw_mouse_proportions.png",
+      "id": 685157321,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-dc9af3a92ea5-raw_mouse_proportions.png",
+      "bytes": 170875,
+      "sha256": "9e89d7c2313e727d612a56edc8594496885d4527ef94adcd901561eac11024fb",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-dd05766bfbdf-IN_to_CA1_WT_circle.png",
+      "id": 685164530,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-dd05766bfbdf-IN_to_CA1_WT_circle.png",
+      "bytes": 125862,
+      "sha256": "dbdbe8694bb6429143cf77a4ba31580a34e49b26a6e329c693c6686341acf028",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-df99bd57b02d-raw_mouse_proportions.pdf",
+      "id": 685157306,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-df99bd57b02d-raw_mouse_proportions.pdf",
+      "bytes": 37429,
+      "sha256": "329cf2f923baaae1828bd0b472e29877660e0cd8c23aa803b5b9fe626d3f383d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e05c47946c7a-raw_mouse_proportions.pdf",
+      "id": 685155337,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e05c47946c7a-raw_mouse_proportions.pdf",
+      "bytes": 36097,
+      "sha256": "92f55e0b88bc5fe2a7d5186660ae245f0f229f3be5ebaaac1e37c0cc2f34822d",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e11546e1a395-bidirectional_WT_circle.pdf",
+      "id": 685162988,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e11546e1a395-bidirectional_WT_circle.pdf",
+      "bytes": 7340,
+      "sha256": "4a474248d04c81a88bc4b515c541176abd2f5231e761b753a367ba8ae9f1ab32",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e2c4a6c5b116-native_effect_intervals.png",
+      "id": 685154102,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e2c4a6c5b116-native_effect_intervals.png",
+      "bytes": 51018,
+      "sha256": "ab387c1e373652b6f51598fee5198947f05927f79567d9baa3a1fffd9bb14954",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e490c6e152bd-strict_DEG_within_mouse_LR_scores.tsv",
+      "id": 685153650,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e490c6e152bd-strict_DEG_within_mouse_LR_scores.tsv",
+      "bytes": 28229,
+      "sha256": "85de73ab79d7bc549c03ae1ce25f6f2d1d40b801e034115c7e2464b984fccea9",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e50a91ec9ba1-bidirectional_pathway_heatmap.png",
+      "id": 685163594,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e50a91ec9ba1-bidirectional_pathway_heatmap.png",
+      "bytes": 142781,
+      "sha256": "681f6b4c896d1d5e24229a94d0aee58d3714f8abf1c93e24de5508957b5a4e86",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e51685da1590-native_effect_intervals.png",
+      "id": 685153867,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e51685da1590-native_effect_intervals.png",
+      "bytes": 50304,
+      "sha256": "9a612980d55d4a62fd93eca01a8f45544c974d6eee682f0cf78d12997e82330f",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e545801137b7-raw_stacked_proportions.pdf",
+      "id": 685154228,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e545801137b7-raw_stacked_proportions.pdf",
+      "bytes": 19548,
+      "sha256": "92548d0fa5e933936a1fa3bedbfe4a04cb90019e4858622f6304ad16a53d8262",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e54f74d5fb64-unrooted_sample.png",
+      "id": 685158294,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e54f74d5fb64-unrooted_sample.png",
+      "bytes": 718011,
+      "sha256": "6c256d38324cc1bc5076e7fb3fb529b6d0f6e8bb77366ce194876bebc2173ca8",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e5a2488d2a39-CA1_to_IN_dotplot_page1.pdf",
+      "id": 685162325,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e5a2488d2a39-CA1_to_IN_dotplot_page1.pdf",
+      "bytes": 7238,
+      "sha256": "2da5c4aafac31370214c7edbb2168ee6840058d1846a06a8ffbd3f2f4ba35342",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e702396fed16-CA1_to_IN_cKO_circle.pdf",
+      "id": 685152518,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e702396fed16-CA1_to_IN_cKO_circle.pdf",
+      "bytes": 6378,
+      "sha256": "dbf09ecb058224740c09b5e0d361433f05d30deea9e79f5f5dbf289f04206f88",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e7804c97bff8-library_denominators.tsv",
+      "id": 685159541,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e7804c97bff8-library_denominators.tsv",
+      "bytes": 217195,
+      "sha256": "ef6b1eb9e6c0eb90ee2c4d72c96e276c157b8d9d2292707433f253801387ac5f",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e7f7d8e1cb41-pathway_mouse_boxplots.pdf",
+      "id": 685165503,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e7f7d8e1cb41-pathway_mouse_boxplots.pdf",
+      "bytes": 13692,
+      "sha256": "7b88a06d4c1f3b15275bba80c50bc807957cf2bd85872c02332b0f31571f1717",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e7fc8c4d3148-IN_to_CA1_WT_circle.png",
+      "id": 685152799,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e7fc8c4d3148-IN_to_CA1_WT_circle.png",
+      "bytes": 117999,
+      "sha256": "291236d62b9a5cd703fe263683c97b0bab1f5eaa3e1bbb408dc17a95d840cb08",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e84fed4c8489-IN_to_CA1_WT_circos.png",
+      "id": 685164585,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e84fed4c8489-IN_to_CA1_WT_circos.png",
+      "bytes": 195612,
+      "sha256": "88fec92f371da26a33fd57e5a98c9c8bbeb480c1b1b54d2b5b368b9ec52ac8e6",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e9140a48cb91-unrooted_partition.png",
+      "id": 685158219,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e9140a48cb91-unrooted_partition.png",
+      "bytes": 708537,
+      "sha256": "f5df6134ad14ec8cc25c894b5aeb64bbed815a4148bd38d9afc799b58b527ee7",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-e9bfea5e5ab7-bidirectional_dotplot_page1.pdf",
+      "id": 685153348,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-e9bfea5e5ab7-bidirectional_dotplot_page1.pdf",
+      "bytes": 8104,
+      "sha256": "64c78a4484e1052f01dff09e2ab3a2f31211b25ca60a63ad0af8fe14250ea0b3",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ea19c344b244-IN_to_CA1_cKO_circos.pdf",
+      "id": 685152907,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ea19c344b244-IN_to_CA1_cKO_circos.pdf",
+      "bytes": 17538,
+      "sha256": "c1e468004e2dc1c77aaf16d712852f9c8ef67b6285240f18db237181e70f2054",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ebba7f0862d7-bidirectional_WT_circos.png",
+      "id": 685163142,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ebba7f0862d7-bidirectional_WT_circos.png",
+      "bytes": 232107,
+      "sha256": "acd725f6ecb240241512981696fd9787d48316d8fce210ac3bb551d4cfa144f5",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ecf687bdb46a-IN_to_CA1_WT_circos.pdf",
+      "id": 685152800,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ecf687bdb46a-IN_to_CA1_WT_circos.pdf",
+      "bytes": 17538,
+      "sha256": "5f5fd69a4530cb6733df5c55ed9e09c59890c92d6685cd8c88f8180a90c9a940",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ed58ce71df56-unrooted_sample.pdf",
+      "id": 685159258,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ed58ce71df56-unrooted_sample.pdf",
+      "bytes": 198349,
+      "sha256": "6b94f8a79842edcdd875d0177610e8678f5db40075e29f30c85e39b9f83bb16e",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ed6a24427c69-unrooted_endpoint.pdf",
+      "id": 685158022,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ed6a24427c69-unrooted_endpoint.pdf",
+      "bytes": 2287165,
+      "sha256": "551040b056885c637bd24e7675e3b5de193d76cea77f3011d39528c82a5cdbaf",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ee06fa155d66-arbitrary_reference_distance.png",
+      "id": 685158789,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ee06fa155d66-arbitrary_reference_distance.png",
+      "bytes": 175274,
+      "sha256": "761265dc1dccfca7b39e7632b98b517e8348020059148a82b925f4e794bda784",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-ee72231c2306-raw_mouse_proportions.png",
+      "id": 685155557,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-ee72231c2306-raw_mouse_proportions.png",
+      "bytes": 160755,
+      "sha256": "4dc598dafb1813d185b487e7e26216b00b0b7ad8fec9531b8ff1af43ef142e12",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-efc89f60247e-unrooted_sample.pdf",
+      "id": 685160341,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-efc89f60247e-unrooted_sample.pdf",
+      "bytes": 62394,
+      "sha256": "2da9675aadadcf8634246713b6e29f0422d4d19559e8bc9728f8ea90be2e143f",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-effe140cdcf9-bidirectional_WT_circos.png",
+      "id": 685165035,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-effe140cdcf9-bidirectional_WT_circos.png",
+      "bytes": 233494,
+      "sha256": "c30994a03d0ad40fa52c47a35d041af47656091bfb48add009b0abdfeb143b13",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f0108fd8093f-arbitrary_reference_distance.pdf",
+      "id": 685160938,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f0108fd8093f-arbitrary_reference_distance.pdf",
+      "bytes": 61945,
+      "sha256": "5ff50633c15e00bb5cdada41f0dad7fffceb642067420170bd86316e6377bd72",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f02933510a07-CA1_to_IN_WT_circle.png",
+      "id": 685152430,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f02933510a07-CA1_to_IN_WT_circle.png",
+      "bytes": 117323,
+      "sha256": "f29f999c9beeeba60bbc4d3909b32e1bfee474976957156c8253d3b6a0bee9b0",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f0cc3079e3a3-CA1_to_IN_pathway_heatmap.pdf",
+      "id": 685151551,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f0cc3079e3a3-CA1_to_IN_pathway_heatmap.pdf",
+      "bytes": 6269,
+      "sha256": "589d1d185986170088e08e00274773d9cb96bfefdc90ccdef19385cae81342ef",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f0d14313050f-reference_distances.tsv",
+      "id": 685159633,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f0d14313050f-reference_distances.tsv",
+      "bytes": 367974,
+      "sha256": "4deacaf78e0c1b8217f91a4b8436c03e2fb1ca4ce0261e94fdb90292de1546ef",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f139fb673594-module_mouse_heatmap.pdf",
+      "id": 685161177,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f139fb673594-module_mouse_heatmap.pdf",
+      "bytes": 7515,
+      "sha256": "ba23dae8fffcce3b3a45987797dade8916143c19fc4297f51c081f0c6b5eb653",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f1ea9e567118-IN_to_CA1_WT_circos.png",
+      "id": 685152802,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f1ea9e567118-IN_to_CA1_WT_circos.png",
+      "bytes": 187872,
+      "sha256": "994a9d4cce580363c638ca908a32e2749bbdc1eefaa8bcaf521456a55578d4d3",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f3161f500f27-raw_stacked_proportions.pdf",
+      "id": 685154722,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f3161f500f27-raw_stacked_proportions.pdf",
+      "bytes": 19669,
+      "sha256": "915d5269e3db76a6c6edcd6c5cb43fa7b0e26b8c31e28f5143ff2fc788b427af",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f3882a899ff0-bidirectional_cKO_circos.png",
+      "id": 685163324,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f3882a899ff0-bidirectional_cKO_circos.png",
+      "bytes": 236960,
+      "sha256": "c46d3ecf7a6f4088e132050c3b0335c5324b8fb398c25cf0d1258d975df7c724",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f454c1c12c87-native_effect_intervals.png",
+      "id": 685156129,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f454c1c12c87-native_effect_intervals.png",
+      "bytes": 58514,
+      "sha256": "7f300c30ff39e4f90b269d88191c779619a54c5346d9be197c34f6e9a26fc9c9",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f4598ebed2f9-embedding_cells.tsv",
+      "id": 685160874,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f4598ebed2f9-embedding_cells.tsv",
+      "bytes": 51448,
+      "sha256": "0cf636587989901b49ac21f8976e72b4c1ce294eef29b89e46cde40e78b7f5a6",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f5d0f6c7b5f1-gene_modules.tsv",
+      "id": 685159378,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f5d0f6c7b5f1-gene_modules.tsv",
+      "bytes": 171323,
+      "sha256": "75baca8d37df73ce4b1bc4c844cb7fa299ac7de1760c9944a926fba235fe98c7",
+      "content_type": "text/tab-separated-values; charset=utf-8",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f5e796edb10d-IN_to_CA1_WT_circle.pdf",
+      "id": 685152727,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f5e796edb10d-IN_to_CA1_WT_circle.pdf",
+      "bytes": 5960,
+      "sha256": "71937b4c3ada1c354199f36104de9d7d6afc920185ac3b81b541b187b1f1f3e5",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f6b34fe33532-IN_to_CA1_WT_circle.png",
+      "id": 685162552,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f6b34fe33532-IN_to_CA1_WT_circle.png",
+      "bytes": 125664,
+      "sha256": "be01be1346085445e64337aac21f02413417521c3f21cf0fbc9ef427d98d0afe",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f6bdc5637be8-CA1_to_IN_WT_circle.pdf",
+      "id": 685151296,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f6bdc5637be8-CA1_to_IN_WT_circle.pdf",
+      "bytes": 6372,
+      "sha256": "76d49301d60ed7958b5c13681e5fe9d3b66c269eaea4523ca32acc3946272772",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f73ee263d066-raw_stacked_proportions.png",
+      "id": 685155647,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f73ee263d066-raw_stacked_proportions.png",
+      "bytes": 131269,
+      "sha256": "da0de05ad6e4431e11c64412f6c890ba4b0513ef973b9dedb7b1f1c256394a27",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f760d39eee08-IN_to_CA1_cKO_circle.png",
+      "id": 685162691,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f760d39eee08-IN_to_CA1_cKO_circle.png",
+      "bytes": 125716,
+      "sha256": "5f70e7c53ab2a934dd3b27a08e94119fe013901f2db653a90f45cf164fcb8f05",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-f83ac89cc58b-CA1_to_IN_dotplot_page1.pdf",
+      "id": 685152612,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-f83ac89cc58b-CA1_to_IN_dotplot_page1.pdf",
+      "bytes": 7230,
+      "sha256": "40624a9ad3f0d9f381dc25cbb5b8f469354e711ebf5bfcd5b670bae2af8ca4d6",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fcae993eafee-native_effect_intervals.png",
+      "id": 685156778,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fcae993eafee-native_effect_intervals.png",
+      "bytes": 131730,
+      "sha256": "5787032265ab625b5d4181e4abd6c886f34ed29c417be1e202162943d2e78f0e",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fcb573034a5c-CA1_to_IN_dotplot_page1.png",
+      "id": 685162452,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fcb573034a5c-CA1_to_IN_dotplot_page1.png",
+      "bytes": 133993,
+      "sha256": "f66fb200a58939bbb0c4a59a2b5823b8d68af9a8829e7f38609a284c408a874e",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fd41434e8435-CA1_to_IN_WT_circos.pdf",
+      "id": 685162058,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fd41434e8435-CA1_to_IN_WT_circos.pdf",
+      "bytes": 19049,
+      "sha256": "f305b55e3ee58acdef9b405857996992c014b656f9a0c2b5c8b5a97e59172b3c",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fd6e2f3f6a77-unrooted_partition.png",
+      "id": 685160276,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fd6e2f3f6a77-unrooted_partition.png",
+      "bytes": 85020,
+      "sha256": "9fe4068299eb383bce17d17a9eb30ba777fbc39bbc432e4f7ecd152b7abab26e",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fdaa5fbba5a9-raw_stacked_proportions.pdf",
+      "id": 685156884,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fdaa5fbba5a9-raw_stacked_proportions.pdf",
+      "bytes": 26985,
+      "sha256": "8527c100591759b774e697eefa576102f8891ec490184b57dde6e06656393723",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fe1896c42ebc-raw_mouse_proportions.png",
+      "id": 685154861,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fe1896c42ebc-raw_mouse_proportions.png",
+      "bytes": 164561,
+      "sha256": "d8b0fb9ee24b49c0a9f3dccc80acf075e4e25bf02bd3428de49062754486e0f7",
+      "content_type": "image/png",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-feea7e0e5f61-raw_mouse_proportions.pdf",
+      "id": 685155559,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-feea7e0e5f61-raw_mouse_proportions.pdf",
+      "bytes": 35647,
+      "sha256": "6cae02e58027d3b09234546766e61e8ce64a9663bb7a1c9afffc6e3017f43041",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "followups-fff3e854448f-CA1_to_IN_WT_circos.pdf",
+      "id": 685152427,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-fff3e854448f-CA1_to_IN_WT_circos.pdf",
+      "bytes": 19123,
+      "sha256": "31ce29cc69e8f8913918f1c88676d92abe9c7d1eedf0914efb0d8691faa5be22",
+      "content_type": "application/pdf",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_cellchat_20261028_v1.zip",
+      "id": 685128926,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_cellchat_20261028_v1.zip",
+      "bytes": 793387447,
+      "sha256": "fc8458b5f136e12d5b7374b6130b6f623ef35f9d9b4f40dd2a65a8a324421605",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_composition_initial_20261028_v1.zip",
+      "id": 685128924,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_composition_initial_20261028_v1.zip",
+      "bytes": 562204754,
+      "sha256": "5195ff1a0bf7bc2ab42a93af78d537e44a93de7d9bc5c9b05901e8853e43b947",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_composition_strict_20261028_v1.zip",
+      "id": 685134355,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_composition_strict_20261028_v1.zip",
+      "bytes": 1165814422,
+      "sha256": "b71e4f17c6805940edc2b1d8fbb69987d58197206f0eec9bcd37abff32b47c45",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_followups_ALL6_ARCHIVE_VERIFICATION_20261028_v1.json",
+      "id": 685190998,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_followups_ALL6_ARCHIVE_VERIFICATION_20261028_v1.json",
+      "bytes": 7847,
+      "sha256": "4e0d7c517f55e4928f97096610f05e7be2e359274ee97ccc49f858c59577afbf",
+      "content_type": "application/json",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_followups_portable_archive_20261028_v1.zip",
+      "id": 685158846,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_followups_portable_archive_20261028_v1.zip",
+      "bytes": 53102813,
+      "sha256": "2fdfcb097b35e1d2e5e8d96442c5f9a561fb623ca1864fc7c4180c3e2d4d9ccc",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_followups_portable_offline_20261028_v1.zip",
+      "id": 685150834,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_followups_portable_offline_20261028_v1.zip",
+      "bytes": 53037671,
+      "sha256": "b2d6d54a3d6e96c5bf712e97b69e0f2d1744e9ddafc4c72fc7412ddb6cc9a120",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_followups_RELEASE_MANIFEST_20261028_v1.json",
+      "id": 685190997,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_followups_RELEASE_MANIFEST_20261028_v1.json",
+      "bytes": 383805,
+      "sha256": "4cb17eb5a50a173625ea78adaafb0b534918aeb57f2f642d46d1955e831f695c",
+      "content_type": "application/json",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_monocle3_20261028_v1.zip",
+      "id": 685128923,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_monocle3_20261028_v1.zip",
+      "bytes": 268550236,
+      "sha256": "5dcefc9e55891251834c6d0efbec0e49fd97e6d103be1d11e862ffa770cb3b24",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    },
+    {
+      "name": "SATB2_shared_inputs_source_20261028_v1.zip",
+      "id": 685184027,
+      "public_canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_shared_inputs_source_20261028_v1.zip",
+      "bytes": 386214206,
+      "sha256": "a498c234f5fee6d83cb368b4015837111c1c463d152709fc4f8b481f3d3670eb",
+      "content_type": "application/zip",
+      "state": "uploaded"
+    }
+  ]
+}

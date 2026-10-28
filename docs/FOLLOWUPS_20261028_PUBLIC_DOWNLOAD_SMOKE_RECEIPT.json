@@ -1,0 +1,102 @@
+{
+  "schema": "satb2-followups-public-http-delivery-smoke/v1",
+  "created_utc": "2026-10-28T14:09:14.389953+00:00",
+  "status": "PASS_PUBLIC_HTTP_AND_354_SERVER_ASSETS",
+  "public_asset_count_verified": 354,
+  "configuration": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/config/followups.online.APPROVED_v1.json",
+    "bytes": 362309,
+    "sha256": "c2adcaaa7bc78b882db777863cd88eee3b030a90fc95357e2829526b3a6ef11a"
+  },
+  "release_manifest": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/release_metadata_v1/SATB2_followups_RELEASE_MANIFEST_20261028_v1.json",
+    "bytes": 383805,
+    "sha256": "4cb17eb5a50a173625ea78adaafb0b534918aeb57f2f642d46d1955e831f695c"
+  },
+  "asset_checks": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1/PUBLIC_354_ASSET_API_CHECKS.json",
+    "bytes": 157973,
+    "sha256": "d57c957484fc0f49afa3d59036a592d7d942eeea819835cfc7dc3487f8da37a8"
+  },
+  "downloads": [
+    {
+      "role": "readable_cellchat_png",
+      "status": "PASS_PUBLIC_HTTP_DOWNLOAD_SIZE_SHA256",
+      "canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-43720d7d47a4-CA1_to_IN_pathway_heatmap.png",
+      "download": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1/followups-43720d7d47a4-CA1_to_IN_pathway_heatmap.png",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_length_header": "121329",
+      "final_host_only_no_signed_query_recorded": "release-assets.githubusercontent.com",
+      "expected_bytes": 121329,
+      "actual_bytes": 121329,
+      "expected_sha256": "499471e39e9b87a3a56bbe6884860ab53fda805b4758f1b3ccd17372e5d51bc7",
+      "actual_sha256": "499471e39e9b87a3a56bbe6884860ab53fda805b4758f1b3ccd17372e5d51bc7",
+      "elapsed_seconds": 0.36
+    },
+    {
+      "role": "readable_cellchat_pdf",
+      "status": "PASS_PUBLIC_HTTP_DOWNLOAD_SIZE_SHA256",
+      "canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-0d9d505ce7bf-CA1_to_IN_pathway_heatmap.pdf",
+      "download": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1/followups-0d9d505ce7bf-CA1_to_IN_pathway_heatmap.pdf",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_length_header": "6271",
+      "final_host_only_no_signed_query_recorded": "release-assets.githubusercontent.com",
+      "expected_bytes": 6271,
+      "actual_bytes": 6271,
+      "expected_sha256": "34c6ccc3a410f8eb758600c044c9600301b95880fd9f42062754d685aeddfee4",
+      "actual_sha256": "34c6ccc3a410f8eb758600c044c9600301b95880fd9f42062754d685aeddfee4",
+      "elapsed_seconds": 0.49
+    },
+    {
+      "role": "complete_monocle_graph_tsv_gzip",
+      "status": "PASS_PUBLIC_HTTP_DOWNLOAD_SIZE_SHA256",
+      "canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-aded1050d846-graph_test_all.tsv.gz",
+      "download": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1/followups-aded1050d846-graph_test_all.tsv.gz",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_length_header": "599879",
+      "final_host_only_no_signed_query_recorded": "release-assets.githubusercontent.com",
+      "expected_bytes": 599879,
+      "actual_bytes": 599879,
+      "expected_sha256": "4907ffa82296948738eb390348918addca417dbe5ef6ba7227ccd425d3ec8338",
+      "actual_sha256": "4907ffa82296948738eb390348918addca417dbe5ef6ba7227ccd425d3ec8338",
+      "elapsed_seconds": 0.56
+    },
+    {
+      "role": "ordinary_native_tsv",
+      "status": "PASS_PUBLIC_HTTP_DOWNLOAD_SIZE_SHA256",
+      "canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/followups-71642d39ef88-bidirectional_LR.tsv",
+      "download": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1/followups-71642d39ef88-bidirectional_LR.tsv",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_length_header": "28229",
+      "final_host_only_no_signed_query_recorded": "release-assets.githubusercontent.com",
+      "expected_bytes": 28229,
+      "actual_bytes": 28229,
+      "expected_sha256": "85de73ab79d7bc549c03ae1ce25f6f2d1d40b801e034115c7e2464b984fccea9",
+      "actual_sha256": "85de73ab79d7bc549c03ae1ce25f6f2d1d40b801e034115c7e2464b984fccea9",
+      "elapsed_seconds": 0.47
+    },
+    {
+      "role": "complete_flat_offline_zip",
+      "status": "PASS_PUBLIC_HTTP_DOWNLOAD_SIZE_SHA256",
+      "canonical_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_followups_portable_offline_20261028_v1.zip",
+      "download": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1/SATB2_followups_portable_offline_20261028_v1.zip",
+      "http_status": 200,
+      "content_type": "application/octet-stream",
+      "content_length_header": "53037671",
+      "final_host_only_no_signed_query_recorded": "release-assets.githubusercontent.com",
+      "expected_bytes": 53037671,
+      "actual_bytes": 53037671,
+      "expected_sha256": "b2d6d54a3d6e96c5bf712e97b69e0f2d1744e9ddafc4c72fc7412ddb6cc9a120",
+      "actual_sha256": "b2d6d54a3d6e96c5bf712e97b69e0f2d1744e9ddafc4c72fc7412ddb6cc9a120",
+      "elapsed_seconds": 5.21
+    }
+  ],
+  "actual_browser_tested": false,
+  "browser_security_or_preferences_modified": false,
+  "scientific_or_GitHub_mutations": false,
+  "limitation": "Read-only ordinary public HTTP transport evidence; it does not establish browser image decoding, controls, layout or browser downloads."
+}

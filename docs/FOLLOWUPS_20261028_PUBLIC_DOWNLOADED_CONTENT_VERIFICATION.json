@@ -1,0 +1,16 @@
+{
+  "status": "PASS_PUBLIC_DOWNLOADED_MEDIA_AND_ZIP_MEMBERS",
+  "png": {
+    "format": "PNG",
+    "width": 2340,
+    "height": 1350
+  },
+  "pdf_pages": 1,
+  "gzip_original_decoded_bytes": 2235138,
+  "gzip_decoded_sha256": "cee25cf1622722a8ee6c6fd9a5b7af09d0bc54888bbb28abb1a74ed77d050fc3",
+  "ordinary_tsv_lines": 109,
+  "flat_zip_members": 626,
+  "sealed_file_members_stream_verified": 625,
+  "browser_tested": false,
+  "no_security_preferences_bypassed": true
+}

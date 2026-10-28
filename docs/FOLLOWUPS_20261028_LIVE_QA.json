@@ -1,0 +1,105 @@
+{
+  "status": "LIVE_FIGURES_SELECTORS_AND_PUBLIC_DOWNLOADS_VERIFIED_WITH_IN_APP_DOWNLOAD_AUTOMATION_LIMITATION",
+  "observed_utc": "2026-10-28T14:23:03.748401+00:00",
+  "atlas_url": "https://ali-mujahid.github.io/satb2_snRNA/followups/",
+  "release_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/followups-20261028-v1.0.0",
+  "source_commit": "d4bdc090308dd6c9c5b19f934a80ddd758aa2874",
+  "pages_run": 40702668384,
+  "pages_conclusion": "success",
+  "site_bytes": 933212403,
+  "site_limit_bytes": 950000000,
+  "browser": "CUA-controlled existing in-app browser, normal public HTTPS page",
+  "live_image_filter_checks": {
+    "composition": {
+      "views": 48,
+      "unique_images": 48,
+      "every_image_decoded": true,
+      "every_view_exactly_one_figure": true,
+      "every_original_pdf_pair_present": true,
+      "scope_choices": 8,
+      "cohorts": [
+        "all12",
+        "shared_partition"
+      ],
+      "plot_types": [
+        "native effect intervals",
+        "raw mouse proportions",
+        "raw stacked proportions"
+      ]
+    },
+    "cellchat": {
+      "views": 76,
+      "unique_images": 76,
+      "every_image_decoded": true,
+      "every_view_exactly_one_figure": true,
+      "readable_views": 38,
+      "archival_views": 38,
+      "methods": [
+        "triMean",
+        "truncatedMean10"
+      ],
+      "directions": [
+        "CA1_to_IN",
+        "IN_to_CA1",
+        "bidirectional"
+      ],
+      "all_dot_heat_circle_circos_and_mouse_boxplots": true,
+      "readable_and_archival_pdf_links_match_modes": true
+    },
+    "monocle3": {
+      "views": 32,
+      "unique_images": 32,
+      "every_image_decoded": true,
+      "every_view_exactly_one_figure": true,
+      "scopes": [
+        "CA1_DL_SL",
+        "IN_C1",
+        "IN_C6",
+        "IN_C8"
+      ],
+      "plot_types_per_scope": 8,
+      "every_original_pdf_pair_present": true
+    },
+    "total_unique_pngs_decoded_in_live_browser": 156
+  },
+  "other_live_ui_checks": {
+    "four_task_navigation": true,
+    "scCODA_scope_and_cohort_intersection": true,
+    "empty_search_message_and_clear_reset": true,
+    "CellChat_readable_default_and_explicit_archival_warning": true,
+    "WT_and_cKO_condition_filters": true,
+    "raw_CellChat_LR_table_header_and_60row_preview": true,
+    "complete_Monocle_gzip_link_exact_native_size_and_SHA_note": true,
+    "velocity_blocked_zero_images_zero_plot_controls_and_assessment_links": true,
+    "desktop_viewport_restored": 1280,
+    "responsive_viewport": {
+      "width": 390,
+      "height": 844,
+      "document_width": 390,
+      "horizontal_page_overflow": false,
+      "all_six_select_controls_width": 155,
+      "readable_heatmap_decoded_width": 2340,
+      "PDF_buttons_wrap_within_view": true
+    }
+  },
+  "screenshots": {
+    "captured_in_CUA_chat_output": true,
+    "local_screenshot_file_created": false
+  },
+  "public_download_checks": {
+    "all_354_asset_canonical_URLs_sizes_server_SHA256": true,
+    "representative_download_count": 5,
+    "all_HTTP_200_and_exact_SHA256": true,
+    "complete_flat_ZIP_bytes": 53037671,
+    "complete_flat_ZIP_sha256": "b2d6d54a3d6e96c5bf712e97b69e0f2d1744e9ddafc4c72fc7412ddb6cc9a120",
+    "downloaded_ZIP_all_626_member_identities_verified": true,
+    "evidence_directory": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/public_download_QA_v1"
+  },
+  "limits": [
+    "Direct attachment navigation and downloadMedia automation did not complete in the in-app browser; do not claim browser-click download completion. Ordinary unauthenticated public HTTP downloads and downloaded content are verified. Embedded images all decode in the actual live browser.",
+    "Offline HTML GUI was not exercised because the earlier local-browser permission boundary was respected; complete offline contents, syntax, relative links and all media/table identities were verified.",
+    "Velocity remains input-blocked and was not executed.",
+    "The separate pySCENIC run is still running; this delivery does not establish completed motif-supported regulons."
+  ],
+  "native_outputs_or_statistical_values_changed": false
+}
