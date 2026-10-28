@@ -1,0 +1,8 @@
+{
+  "workflow_version": "1.0.0",
+  "controller": {"engine": "snakemake", "verified_version": "9.27.0", "scope": "reuse user-selected existing project controller"},
+  "task_environment": {"python_executable_config_key": "python_executable", "Rscript_executable_config_key": "Rscript_executable", "packaging_python_executable_config_key": "packaging_python_executable", "native_versions": {"pyscenic": "0.12.1", "arboreto": "0.1.6", "ctxcore": "0.2.0"}},
+  "limits": {"cores": 4, "GRN_ctx_worker_threads": 4, "GRN_ctx_concurrent_tasks": 1, "BLAS_threads": 1, "AUCell_batch_nuclei": 1000, "AUCell_native_workers": 1, "nominal_max_task_memory_MB": 24000, "network_access": false, "install_hooks": false, "overwrite_prior_results": false},
+  "execution_scope": "Native positive-coexpression motif-supported regulons and actual per-nucleus AUCell, separate continuous independent-mouse mean-AUC associations; no original gene DE, label, network or communication refits",
+  "reproducibility_limit": "Existing controller and base R closure are not fully lockfile-backed; isolated native Python dependency versions, hashes, source and seeds are recorded separately."
+}

@@ -1,0 +1,53 @@
+{
+  "created_utc": "2026-10-26T10:16:21.992372+00:00",
+  "executable": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/pyscenic39/bin/python",
+  "python_version": "3.9.1",
+  "machine": "x86_64",
+  "platform": "macOS-10.16-x86_64-i386-64bit",
+  "versions": {
+    "pyscenic": "0.12.1",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "scikit-learn": "1.2.2",
+    "pyarrow": "10.0.1",
+    "numba": "0.57.1",
+    "dask": "2023.3.2",
+    "distributed": "2023.3.2",
+    "arboreto": "0.1.6",
+    "ctxcore": "0.2.0",
+    "loompy": "3.0.7",
+    "umap-learn": "0.5.7"
+  },
+  "imported_modules": [
+    "arboreto.algo",
+    "arboreto.core",
+    "ctxcore.rnkdb",
+    "dask",
+    "dask.dataframe",
+    "distributed",
+    "loompy",
+    "numba",
+    "numpy",
+    "pandas",
+    "pyarrow",
+    "pyscenic",
+    "pyscenic.aucell",
+    "pyscenic.cli.pyscenic",
+    "pyscenic.prune",
+    "scipy",
+    "sklearn",
+    "umap"
+  ],
+  "import_failures": {},
+  "api_signatures": {
+    "arboreto.algo.grnboost2": "(expression_data, gene_names=None, tf_names='all', client_or_address='local', early_stop_window_length=25, limit=None, seed=None, verbose=False)",
+    "arboreto.core.create_graph": "(expression_matrix, gene_names, tf_names, regressor_type, regressor_kwargs, client, target_genes='all', limit=None, include_meta=False, early_stop_window_length=25, repartition_multiplier=1, seed=666)",
+    "dask.dataframe.from_delayed": "(dfs: 'Delayed | distributed.Future | Iterable[Delayed | distributed.Future]', meta=None, divisions: \"tuple | Literal['sorted'] | None\" = None, prefix: 'str' = 'from-delayed', verify_meta: 'bool' = True) -> 'DataFrame | Series'",
+    "ctxcore.rnkdb.FeatherRankingDatabase": "(fname: str, name: str)",
+    "pyscenic.prune.prune2df": "(rnkdbs: Sequence[Type[ctxcore.rnkdb.RankingDatabase]], modules: Sequence[ctxcore.genesig.Regulon], motif_annotations_fname: str, rank_threshold: int = 1500, auc_threshold: float = 0.05, nes_threshold=3.0, motif_similarity_fdr: float = 0.001, orthologuous_identity_threshold: float = 0.0, weighted_recovery=False, client_or_address='dask_multiprocessing', num_workers=None, module_chunksize=100, filter_for_annotation=True) -> pandas.core.frame.DataFrame",
+    "pyscenic.aucell.aucell": "(exp_mtx: pandas.core.frame.DataFrame, signatures: Sequence[Type[ctxcore.genesig.GeneSignature]], auc_threshold: float = 0.05, noweights: bool = False, normalize: bool = False, seed=None, num_workers: int = 12) -> pandas.core.frame.DataFrame"
+  },
+  "scientific_execution": false,
+  "scope": "Imports, package metadata and function signatures only; no cluster or scientific model was started."
+}

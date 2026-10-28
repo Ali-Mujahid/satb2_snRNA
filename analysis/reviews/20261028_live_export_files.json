@@ -1,0 +1,27 @@
+[
+  {
+    "file": "SATB2_regulatory_collectri_ulm_all_heatmap.csv",
+    "bytes": 35386,
+    "sha256": "83b27bf20a1658fa592319d948897cefc3b49dcfe119de97a01033a39b79dbe9"
+  },
+  {
+    "file": "SATB2_regulatory_collectri_ulm_all_replicates.pdf",
+    "bytes": 261097,
+    "sha256": "fcc2bc3fa16f05080529f09e68be9bca13f09d4b81abc5f3e0c0ca1cf8cdb8c3"
+  },
+  {
+    "file": "SATB2_regulatory_settings.json",
+    "bytes": 1318,
+    "sha256": "2b9c261e8503dbd6dbf7e2b94c728b2389d20d7fa719c543df4ef559ded4a2bc"
+  },
+  {
+    "file": "SATB2_regulatory_collectri_ulm_all_heatmap.png",
+    "bytes": 264748,
+    "sha256": "fa74c66fd079494c1a357a4f76f04fb858f6bf644ab821b3a711fa114244a66a"
+  },
+  {
+    "file": "SATB2_regulatory_collectri_ulm_all_heatmap.svg",
+    "bytes": 37043,
+    "sha256": "43e47d6de8b50a4f861185943a5ec1d031105654b03e60c5c465a18f304beecb"
+  }
+]

@@ -1,0 +1,360 @@
+{
+  "TF_list_unmodified": true,
+  "acquisition_script": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/acquire_official_refs_20261028.py",
+    "sha256": "efecbfe2bda52abb0c97e299a7dda49301bd2afda2b6069786b09fbdce4d175a"
+  },
+  "aggregate_resource_bytes": 588639876,
+  "checksums": [
+    {
+      "bytes": 118,
+      "disk_free_after_bytes": 7101841408,
+      "disk_free_before_bytes": 7101845504,
+      "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha1sum.txt",
+      "http_status": 200,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/official_checksum_0.txt",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha1sum.txt",
+      "response_content_length": 118,
+      "response_headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "118",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+        "Etag": "\"coi1wu0qkf7k-3a\"",
+        "Last-Modified": "Mon, 21 Nov 2022 14:42:02 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "retrieved_utc": "2026-10-28T07:20:56.531511+00:00",
+      "sha1": "621f3bfd62924a89cc25736f966a8522ed817866",
+      "sha256": "7a4e4a7ebd700cb5819a49c52170bf2130c2b59d9165efc4bd7c92ce8284e100",
+      "status": "DOWNLOADED",
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha256sum.txt",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "bytes": 118,
+      "disk_free_after_bytes": 7101837312,
+      "disk_free_before_bytes": 7101841408,
+      "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha1sum.txt",
+      "http_status": 200,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/official_checksum_2.txt",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha1sum.txt",
+      "response_content_length": 118,
+      "response_headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "118",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+        "Etag": "\"coi1wtk76y9s-3a\"",
+        "Last-Modified": "Mon, 21 Nov 2022 14:42:01 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "retrieved_utc": "2026-10-28T07:20:56.731753+00:00",
+      "sha1": "d5e3ddc69007e28b4acd0faad42ab9a33a85c768",
+      "sha256": "f0d53571f23a013bb02bb100467bdd1463f31fc5ed17e6b6c0a237d58717f8e3",
+      "status": "DOWNLOADED",
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha256sum.txt",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/sha256sum.txt",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt.sha1sum.txt",
+      "resource_key": "mouse_tf_list",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt.sha256sum.txt",
+      "resource_key": "mouse_tf_list",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl.sha1sum.txt",
+      "resource_key": "mgi_v10_motif2tf",
+      "status": "UNAVAILABLE"
+    },
+    {
+      "exception_type": "HTTPError",
+      "message": "HTTP Error 404: Not Found",
+      "requested_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl.sha256sum.txt",
+      "resource_key": "mgi_v10_motif2tf",
+      "status": "UNAVAILABLE"
+    }
+  ],
+  "disk_free_after_bytes": 6045024256,
+  "disk_free_before_bytes": 7101849600,
+  "finished_utc": "2026-10-28T07:23:28.701559+00:00",
+  "historical_blocked_manifest_unchanged": true,
+  "inspection_script": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/inspect_official_refs_20261028.py",
+    "sha256": "89eb33469feda61ea6a2d357779efd54864b6660a3ee95d7f9cf1e5ae0cac80a"
+  },
+  "limits": {
+    "aggregate_max_bytes": 3000000000,
+    "minimum_free_disk_bytes": 4294967296,
+    "per_file_max_bytes": 2000000000
+  },
+  "mouse_tf_list_contains_Satb2": true,
+  "previous_blocked_manifest": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/blocked_resource_manifest.json",
+    "sha256": "1838263160a0330b48c248a036ef36ba8ca55e15e78f272cbe29485b0c555bba"
+  },
+  "probes": [
+    {
+      "final_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "11726",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+        "Etag": "\"cjl33w5zplhc-91q\"",
+        "Last-Modified": "Wed, 27 Apr 2022 14:16:24 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "observed_utc": "2026-10-28T07:20:56.432663+00:00",
+      "requested_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "status": 200,
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "238348346",
+        "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+        "Etag": "\"cla5aoarhm9s-3xwmre\"",
+        "Last-Modified": "Fri, 08 Jul 2022 08:51:55 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "observed_utc": "2026-10-28T07:20:56.432367+00:00",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "status": 200,
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "237172098",
+        "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+        "Etag": "\"cla5bwefescg-3x7f5u\"",
+        "Last-Modified": "Fri, 08 Jul 2022 08:53:31 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "observed_utc": "2026-10-28T07:20:56.433136+00:00",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "status": 200,
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "final_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "113107706",
+        "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+        "Etag": "\"cm86a4pmql8g-1vcagq\"",
+        "Last-Modified": "Wed, 17 Aug 2022 08:48:52 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "observed_utc": "2026-10-28T07:20:56.432823+00:00",
+      "requested_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "status": 200,
+      "tls_validation": "default_certificate_and_hostname_validation"
+    }
+  ],
+  "ready_utc": "2026-10-28T07:24:08.677167+00:00",
+  "reference_setup_only": true,
+  "resources": [
+    {
+      "bytes": 11726,
+      "disk_free_after_bytes": 7101820928,
+      "disk_free_before_bytes": 7101833216,
+      "final_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "head_content_length_bytes": 11726,
+      "http_status": 200,
+      "key": "mouse_tf_list",
+      "official_checksums_verified": [],
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/allTFs_mm.txt",
+      "requested_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+      "response_content_length": 11726,
+      "response_headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "11726",
+        "Content-Type": "text/plain; charset=utf-8",
+        "Date": "Wed, 28 Oct 2026 07:20:57 GMT",
+        "Etag": "\"cjl33w5zplhc-91q\"",
+        "Last-Modified": "Wed, 27 Apr 2022 14:16:24 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "retrieved_utc": "2026-10-28T07:20:57.035034+00:00",
+      "sha1": "69be08d028f75c48bc35da2888731d3162576249",
+      "sha256": "17a95e142147fb7dc063d7b9e84262746b0b64f622793b3cc5df0eddf2f1194c",
+      "status": "READY_SCHEMA_AND_BYTES_VERIFIED",
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "bytes": 238348346,
+      "cached_official_sha1_verified": "ae6acc3118f5510594393b8457dcf23b0405a9c5",
+      "disk_free_after_bytes": 6469103616,
+      "disk_free_before_bytes": 7101820928,
+      "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "head_content_length_bytes": 238348346,
+      "http_status": 200,
+      "key": "mm10_500bp_rankings",
+      "official_checksums_verified": [
+        {
+          "algorithm": "sha1",
+          "source_sha256": "7a4e4a7ebd700cb5819a49c52170bf2130c2b59d9165efc4bd7c92ce8284e100",
+          "source_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha1sum.txt",
+          "value": "ae6acc3118f5510594393b8457dcf23b0405a9c5",
+          "verified": true
+        }
+      ],
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "response_content_length": 238348346,
+      "response_headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "238348346",
+        "Date": "Wed, 28 Oct 2026 07:20:57 GMT",
+        "Etag": "\"cla5aoarhm9s-3xwmre\"",
+        "Last-Modified": "Fri, 08 Jul 2022 08:51:55 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "retrieved_utc": "2026-10-28T07:21:50.314610+00:00",
+      "sha1": "ae6acc3118f5510594393b8457dcf23b0405a9c5",
+      "sha256": "3d5ba3281faab0c4f959f0b9447093e164015d1caad3e43a98ccebb6625bcb59",
+      "status": "READY_SCHEMA_AND_BYTES_VERIFIED",
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "bytes": 237172098,
+      "disk_free_after_bytes": 6208704512,
+      "disk_free_before_bytes": 6469103616,
+      "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "head_content_length_bytes": 237172098,
+      "http_status": 200,
+      "key": "mm10_10kb_rankings",
+      "official_checksums_verified": [
+        {
+          "algorithm": "sha1",
+          "source_sha256": "f0d53571f23a013bb02bb100467bdd1463f31fc5ed17e6b6c0a237d58717f8e3",
+          "source_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather.sha1sum.txt",
+          "value": "6bf0a872b609d78a5093fa2956f3c46303c12eaf",
+          "verified": true
+        }
+      ],
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+      "response_content_length": 237172098,
+      "response_headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "237172098",
+        "Date": "Wed, 28 Oct 2026 07:21:50 GMT",
+        "Etag": "\"cla5bwefescg-3x7f5u\"",
+        "Last-Modified": "Fri, 08 Jul 2022 08:53:31 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "retrieved_utc": "2026-10-28T07:22:58.728221+00:00",
+      "sha1": "6bf0a872b609d78a5093fa2956f3c46303c12eaf",
+      "sha256": "8fc014f1879355a5e94b155f8b55511e3b47842cceed9d3e17235f60afb85ebc",
+      "status": "READY_SCHEMA_AND_BYTES_VERIFIED",
+      "tls_validation": "default_certificate_and_hostname_validation"
+    },
+    {
+      "bytes": 113107706,
+      "disk_free_after_bytes": 6068068352,
+      "disk_free_before_bytes": 6208704512,
+      "final_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "head_content_length_bytes": 113107706,
+      "http_status": 200,
+      "key": "mgi_v10_motif2tf",
+      "official_checksums_verified": [],
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "requested_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "response_content_length": 113107706,
+      "response_headers": {
+        "Accept-Ranges": "bytes",
+        "Alt-Svc": "h3=\":443\"; ma=2592000",
+        "Connection": "close",
+        "Content-Length": "113107706",
+        "Date": "Wed, 28 Oct 2026 07:22:58 GMT",
+        "Etag": "\"cm86a4pmql8g-1vcagq\"",
+        "Last-Modified": "Wed, 17 Aug 2022 08:48:52 GMT",
+        "Server": "Caddy",
+        "Strict-Transport-Security": "max-age=15768000",
+        "Vary": "Accept-Encoding"
+      },
+      "retrieved_utc": "2026-10-28T07:23:28.701154+00:00",
+      "sha1": "0f8ea74ea818140036f4fd4908981a0c8eee8e2f",
+      "sha256": "5b64aad9df9804d50c50484c92d5192bdd5d2056cb105bdd343c0af2f94cce83",
+      "status": "READY_SCHEMA_AND_BYTES_VERIFIED",
+      "tls_validation": "default_certificate_and_hostname_validation"
+    }
+  ],
+  "schema": "satb2-pyscenic-mm10-reference-ready/v1",
+  "schema_inspection": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/SCHEMA_INSPECTION.json",
+    "sha256": "f24b7423b79f8ecadb87ea8d826aa7f9591dda941d9ea626d885948b7d614cf1"
+  },
+  "scientific_workflow_readiness_claimed": false,
+  "scope": "Official mouse mm10 v10-cluster gene-based rankings, MGI motif annotation and unmodified current official mouse TF list. No scientific execution.",
+  "started_utc": "2026-10-28T07:20:56.330428+00:00",
+  "status": "READY"
+}

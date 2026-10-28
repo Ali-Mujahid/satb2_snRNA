@@ -1,0 +1,15 @@
+{
+  "base_executable": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/pyscenic39/bin/python",
+  "base_prefix": "/Library/Frameworks/Python.framework/Versions/3.9",
+  "python": "3.9.1 (v3.9.1:1e5d33e9b9, Dec  7 2020, 12:10:52) \n[Clang 6.0 (clang-600.0.57)]",
+  "platform": "macOS-10.16-x86_64-i386-64bit",
+  "machine": "x86_64",
+  "bootstrap_pip": [
+    {
+      "filename": "pip-24.3.1-py3-none-any.whl",
+      "url": "https://files.pythonhosted.org/packages/ef/7d/500c9ad20238fcfcb4cb9243eede163594d7020ce87bd9610c9e02771876/pip-24.3.1-py3-none-any.whl",
+      "sha256": "3790624780082365f47549d032f3770eeb2b1e8bd1f7b2e02dace1afa361b4ed"
+    }
+  ],
+  "scope": "environment setup only; no scientific fits"
+}

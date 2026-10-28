@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "remote_digest_and_bytes_verified": true,
+  "release": {
+    "assets": [
+      {
+        "apiUrl": "https://api.github.com/repos/Ali-Mujahid/satb2_snRNA/releases/assets/684172767",
+        "contentType": "application/zip",
+        "createdAt": "2026-10-28T07:17:07Z",
+        "digest": "sha256:511e21e409f6e30be85abe8e73b3062b8d27b152b6473f0bed6a7c6954868f56",
+        "downloadCount": 0,
+        "id": "RA_kwDOVKzHO84ox6Xf",
+        "label": "",
+        "name": "SATB2_regulatory_complete_native_results_source.zip",
+        "size": 786821374,
+        "state": "uploaded",
+        "updatedAt": "2026-10-28T07:17:42Z",
+        "url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/untagged-5983f068fd53c57e3698/SATB2_regulatory_complete_native_results_source.zip"
+      },
+      {
+        "apiUrl": "https://api.github.com/repos/Ali-Mujahid/satb2_snRNA/releases/assets/684172763",
+        "contentType": "text/html; charset=utf-8",
+        "createdAt": "2026-10-28T07:17:07Z",
+        "digest": "sha256:bc5f3428003bef869130eb6667ff57491d3871ab7adc396dab757b4cc3aca8f2",
+        "downloadCount": 0,
+        "id": "RA_kwDOVKzHO84ox6Xb",
+        "label": "",
+        "name": "SATB2_regulatory_interactive_offline.html",
+        "size": 9484097,
+        "state": "uploaded",
+        "updatedAt": "2026-10-28T07:17:08Z",
+        "url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/untagged-5983f068fd53c57e3698/SATB2_regulatory_interactive_offline.html"
+      }
+    ],
+    "isDraft": true,
+    "tagName": "atlas-v3.7.0",
+    "targetCommitish": "2b762c18f21cdb296ffbde9864dba385417b8e06"
+  }
+}

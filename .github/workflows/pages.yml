@@ -29,7 +29,9 @@ jobs:
           python3 tests/regulatory_verification.py
           python3 tests/regulatory_publication.py
           python3 tests/regulatory_recovery.py
+          python3 tests/regulatory_pyscenic_publication.py
           node tests/regulatory.cjs
+          node tests/regulatory_pyscenic.cjs
           node tests/communication_deg_only.cjs
           node tests/communication_deg_ui.cjs
           node tests/communication_deg_visuals.cjs

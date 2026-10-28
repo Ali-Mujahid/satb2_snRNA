@@ -1,0 +1,284 @@
+{
+  "schema_version": 3,
+  "ok": true,
+  "runnable": true,
+  "request": {
+    "pipeline": "satb2-pyscenic-mm10-20261028",
+    "workflow_version_id": "version-9463ef292fcc37085be876e0eb20068c",
+    "target": {
+      "target_id": "local",
+      "provider": "ngs-analysis-workbench"
+    },
+    "display_name": "SATB2 full native mouse pySCENIC 1.0.0 — exact Seurat CA1/IN, 12 mice",
+    "first_run_id": "snakemake-satb2-pyscenic-mm10-20261028-20261028-073812-12c4ee1e",
+    "attempt_number": 1,
+    "workflow": "workflow/Snakefile",
+    "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1",
+    "config_file": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/pyscenic.v1.json",
+    "config_sha256": "sha256:fdf956e1cab1458a2566c691547be393e49d015fd585c6d25575255d58a79209",
+    "workflow_sha256": "sha256:57028aaf028ab1f0866a4115b2d2409a5f0b4ea5eed03dd3d18bd2cc72d4d52e",
+    "cores": 4,
+    "runtime_snapshot_id": "runtime-7b2910e650c647a69e82b7a9136607a4",
+    "controller_candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+    "workflow_source": {
+      "engine": "snakemake",
+      "kind": "local",
+      "root": "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/workflow-catalog/satb2-pyscenic-mm10-20261028/version-9463ef292fcc37085be876e0eb20068c",
+      "entrypoint": "workflow/Snakefile",
+      "source_sha256": "sha256:57028aaf028ab1f0866a4115b2d2409a5f0b4ea5eed03dd3d18bd2cc72d4d52e"
+    },
+    "run_id": "snakemake-satb2-pyscenic-mm10-20261028-20261028-073812-12c4ee1e"
+  },
+  "command_argv": [
+    "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+    "--snakefile",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/workflow/workflow/Snakefile",
+    "--configfile",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/config/pyscenic.v1.json",
+    "--directory",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+    "--cores",
+    "4",
+    "--printshellcmds"
+  ],
+  "readiness": {
+    "ok": true,
+    "status": "ready",
+    "binding": "snakemake",
+    "pipeline": "satb2-pyscenic-mm10-20261028",
+    "target": {
+      "target_id": "local",
+      "provider": "ngs-analysis-workbench"
+    },
+    "readiness_id": "readiness-67299d360dc9553a0b0c6a871f6f5db2",
+    "scope": "exact_request_and_runtime_snapshot",
+    "snapshot_id": "runtime-7b2910e650c647a69e82b7a9136607a4",
+    "observed_at": "2026-10-28T07:38:04.452658Z",
+    "expires_at": "2026-10-28T07:43:04.452658Z",
+    "host": {
+      "os": "darwin",
+      "arch": "arm64"
+    },
+    "commands": [
+      {
+        "name": "nextflow",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: nextflow"
+      },
+      {
+        "name": "snakemake",
+        "path": "/Users/mujahid357/.local/bin/snakemake",
+        "state": "ready",
+        "version": "9.27.0",
+        "message": null
+      },
+      {
+        "name": "java",
+        "path": "/usr/bin/java",
+        "state": "ready",
+        "version": "java version \"24.0.1\" 2025-04-15",
+        "message": null
+      },
+      {
+        "name": "docker",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: docker"
+      },
+      {
+        "name": "conda",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: conda"
+      },
+      {
+        "name": "mamba",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: mamba"
+      },
+      {
+        "name": "micromamba",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: micromamba"
+      },
+      {
+        "name": "pixi",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: pixi"
+      },
+      {
+        "name": "podman",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: podman"
+      },
+      {
+        "name": "apptainer",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: apptainer"
+      },
+      {
+        "name": "singularity",
+        "path": null,
+        "state": "missing",
+        "version": null,
+        "message": "command is not available: singularity"
+      }
+    ],
+    "controller_candidates": [
+      {
+        "candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+        "controller": "snakemake",
+        "source": "host_path",
+        "manager": null,
+        "executable_path": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+        "environment_path": null,
+        "version": "9.27.0",
+        "platform": {
+          "os": "darwin",
+          "arch": "arm64"
+        },
+        "platform_matches_host": true,
+        "active": true,
+        "manifest_path": null,
+        "lockfile_path": null,
+        "declared_channels": [],
+        "launch_argv_prefix": [
+          "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake"
+        ],
+        "recommended": false,
+        "recommendation_reason": "Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound"
+      }
+    ],
+    "selected_controller": {
+      "candidate_id": "controller-d0112de3b00b2b27fc79db4190fc1cf5",
+      "controller": "snakemake",
+      "source": "host_path",
+      "manager": null,
+      "executable_path": "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+      "environment_path": null,
+      "version": "9.27.0",
+      "platform": {
+        "os": "darwin",
+        "arch": "arm64"
+      },
+      "platform_matches_host": true,
+      "active": true,
+      "manifest_path": null,
+      "lockfile_path": null,
+      "declared_channels": [],
+      "launch_argv_prefix": [
+        "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake"
+      ],
+      "recommended": false,
+      "recommendation_reason": "Host PATH is supported only as an explicit fallback because its package source and dependency closure are not reproducibly bound"
+    },
+    "docker": {
+      "path": null,
+      "context": null,
+      "endpoint": null,
+      "endpoint_is_local": null,
+      "daemon_reachable": false,
+      "server_version": null,
+      "server_os": null,
+      "server_arch": null,
+      "message": "Docker CLI is missing"
+    },
+    "requirements": [
+      {
+        "id": "snakemake",
+        "layer": "workflow_controller",
+        "capability": "command",
+        "value": "snakemake",
+        "source": "request.binding",
+        "detail": "the Snakemake binding executes workflows with Snakemake",
+        "probe_mode": "version"
+      }
+    ],
+    "evidence": [
+      {
+        "kind": "runtime_snapshot",
+        "source": "runtime-7b2910e650c647a69e82b7a9136607a4",
+        "detail": "observations for compute target local"
+      }
+    ],
+    "blockers": [],
+    "unknowns": [],
+    "warnings": [
+      "container image architecture is not verified until the workflow resolves concrete images",
+      "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+    ]
+  },
+  "input_summary": {
+    "source": "config_file",
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/pyscenic.v1.json",
+    "sha256": "sha256:fdf956e1cab1458a2566c691547be393e49d015fd585c6d25575255d58a79209",
+    "record_count": null,
+    "sample_count": null,
+    "read_layout": null
+  },
+  "effects": {
+    "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1",
+    "output_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+    "work_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+    "launch_log": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/logs/snakemake.log",
+    "local_writes": [
+      "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/ngs_runs/.mcp/workspace.json",
+      "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/registry.sqlite3",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/workflow",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/config/pyscenic.v1.json",
+      "/Users/mujahid357/.codex/state/plugins/ngs-analysis-workbench/runs/b00e8d98-5e34-5b57-8c08-ac2066dfce04/workflow/approved_plan.json",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/.snakemake",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/logs/snakemake.log"
+    ],
+    "downloads": [],
+    "network_access": []
+  },
+  "preparation": null,
+  "blockers": [],
+  "warnings": [
+    "workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config",
+    "container image architecture is not verified until the workflow resolves concrete images",
+    "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+  ],
+  "monitoring": {
+    "terminal_statuses": [
+      "completed",
+      "failed",
+      "canceled",
+      "orphaned"
+    ],
+    "log_paths": [
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/logs/snakemake.log",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/.snakemake/log"
+    ],
+    "artifact_paths": [
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/artifact_index.json",
+      "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/config/pyscenic.v1.json"
+    ]
+  },
+  "kind": "plan",
+  "status": "ready",
+  "binding": "snakemake",
+  "plan_name": "SATB2 full native mouse pySCENIC 1.0.0 — exact Seurat CA1/IN, 12 mice",
+  "plan_id": "ngs-plan-dd5207c61fb0690c",
+  "plan_checksum": "sha256:dd5207c61fb0690ceb4a223e8b6f2e36f2a321ca52c86ad40d5b248390208c24",
+  "plan_registry": {
+    "scope": "plugin_control_plane",
+    "workspace_effects": false
+  }
+}

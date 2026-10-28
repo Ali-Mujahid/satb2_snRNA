@@ -1,0 +1,164 @@
+{
+  "annotation": {
+    "Satb2_native_annotations_present": true,
+    "Satb2_raw_annotation_rows": 207,
+    "columns": [
+      "#motif_id",
+      "motif_name",
+      "motif_description",
+      "source_name",
+      "source_version",
+      "gene_name",
+      "motif_similarity_qvalue",
+      "similar_motif_id",
+      "similar_motif_description",
+      "orthologous_identity",
+      "orthologous_gene_name",
+      "orthologous_species",
+      "description"
+    ],
+    "invalid_numeric_rows": 0,
+    "native_filtered_rows": 252126,
+    "native_filtered_unique_TFs": 1412,
+    "native_filtered_unique_motifs": 25692,
+    "native_parser": "pyscenic.utils.load_motif_annotations",
+    "native_parser_passed": true,
+    "native_parser_thresholds": {
+      "motif_similarity_fdr": 0.001,
+      "orthologous_identity_threshold": 0.0
+    },
+    "ranked_motif_overlap": [
+      {
+        "ranked_motif_count": 5032,
+        "ranked_motifs_with_native_filtered_annotation": 5032,
+        "resource_key": "mm10_500bp_rankings"
+      },
+      {
+        "ranked_motif_count": 5032,
+        "ranked_motifs_with_native_filtered_annotation": 5032,
+        "resource_key": "mm10_10kb_rankings"
+      }
+    ],
+    "raw_rows": 252126,
+    "raw_unique_TFs": 1412,
+    "raw_unique_motif_ids": 25692,
+    "required_pySCENIC_columns_present": true,
+    "resource_key": "mgi_v10_motif2tf"
+  },
+  "databases": [
+    {
+      "contains_Satb2_gene": true,
+      "feather_format": "V2/ArrowIPC",
+      "first_genes": [
+        "0610005C13Rik",
+        "0610007P14Rik",
+        "0610009B22Rik",
+        "0610009L18Rik",
+        "0610009O20Rik",
+        "0610010F05Rik",
+        "0610010K14Rik",
+        "0610012G03Rik"
+      ],
+      "first_motifs": [
+        "bergman__Su_H_",
+        "bergman__croc",
+        "bergman__pho",
+        "bergman__tll",
+        "c2h2_zfs__M0369",
+        "c2h2_zfs__M0373",
+        "c2h2_zfs__M0385",
+        "c2h2_zfs__M0393"
+      ],
+      "full_matrix_or_model_loaded": false,
+      "gene_axis_order_sha256": "30bb9b554cab5ef3eb9d2bbe98e15a07be462791c0af9d1711304fa5e86ff502",
+      "gene_id_kind": "mouse gene symbols",
+      "magic_end": "ARROW1",
+      "magic_start": "ARROW1",
+      "motif_axis_order_sha256": "a1ebec2b6e1b8839bfefc461848a4959ff082fb454726e9d27a555fa93db73dd",
+      "n_genes": 24068,
+      "n_motifs": 5032,
+      "one_gene_ranking_column_range_validated": {
+        "gene": "0610005C13Rik",
+        "max": 24065,
+        "min": 10,
+        "n_ranks": 5032
+      },
+      "ranking_column_types": [
+        "int16"
+      ],
+      "reader": "ctxcore.rnkdb.FeatherRankingDatabase(engine=pyarrow)",
+      "reader_accepted": true,
+      "resource_key": "mm10_500bp_rankings"
+    },
+    {
+      "contains_Satb2_gene": true,
+      "feather_format": "V2/ArrowIPC",
+      "first_genes": [
+        "0610005C13Rik",
+        "0610007P14Rik",
+        "0610009B22Rik",
+        "0610009L18Rik",
+        "0610009O20Rik",
+        "0610010F05Rik",
+        "0610010K14Rik",
+        "0610012G03Rik"
+      ],
+      "first_motifs": [
+        "bergman__Su_H_",
+        "bergman__croc",
+        "bergman__pho",
+        "bergman__tll",
+        "c2h2_zfs__M0369",
+        "c2h2_zfs__M0373",
+        "c2h2_zfs__M0385",
+        "c2h2_zfs__M0393"
+      ],
+      "full_matrix_or_model_loaded": false,
+      "gene_axis_order_sha256": "1b4c5336a74a6e44d6e50a15d6f81d703d7af677a9a78801ae9bf230b9f5d2d1",
+      "gene_id_kind": "mouse gene symbols",
+      "magic_end": "ARROW1",
+      "magic_start": "ARROW1",
+      "motif_axis_order_sha256": "a1ebec2b6e1b8839bfefc461848a4959ff082fb454726e9d27a555fa93db73dd",
+      "n_genes": 24130,
+      "n_motifs": 5032,
+      "one_gene_ranking_column_range_validated": {
+        "gene": "0610005C13Rik",
+        "max": 24128,
+        "min": 22,
+        "n_ranks": 5032
+      },
+      "ranking_column_types": [
+        "int16"
+      ],
+      "reader": "ctxcore.rnkdb.FeatherRankingDatabase(engine=pyarrow)",
+      "reader_accepted": true,
+      "resource_key": "mm10_10kb_rankings"
+    }
+  ],
+  "disk_free_after_inspection_bytes": 6045057024,
+  "inspected_utc": "2026-10-28T07:24:07.147641+00:00",
+  "mouse_tf_list": {
+    "contains_Satb2": true,
+    "manual_additions": false,
+    "n_TFs": 1860,
+    "n_TFs_in_500bp_gene_axis": 1738,
+    "n_TFs_with_native_filtered_annotation": 1381,
+    "resource_key": "mouse_tf_list",
+    "source": "Current official primary TF list, exact unmodified bytes",
+    "unique": true
+  },
+  "pyarrow_version": "10.0.1",
+  "python_executable": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/pyscenic39/bin/python",
+  "python_version": "3.9.1 (v3.9.1:1e5d33e9b9, Dec  7 2020, 12:10:52) \n[Clang 6.0 (clang-600.0.57)]",
+  "ranking_gene_set_intersection_count": 24068,
+  "ranking_gene_set_note": "Genomic-window databases have separate native gene coverage; identical gene axes are not required or imposed. Each native reader resolves its own measured-gene intersection.",
+  "ranking_gene_sets_identical": false,
+  "ranking_genes_unique_to_10kb_count": 62,
+  "ranking_genes_unique_to_500bp_count": 0,
+  "ranking_motif_sets_identical": true,
+  "schema": "satb2-pyscenic-reference-schema-inspection/v1",
+  "scientific_models_run": false,
+  "scope": "Reference parsing/schema inspection only; no inference, fit, target selection or study data",
+  "source_files_changed": false,
+  "status": "PASS"
+}

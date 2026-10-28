@@ -1,0 +1,211 @@
+{
+  "schema": "satb2-pyscenic/v1",
+  "analysis_id": "SATB2_pySCENIC_mm10_20261028_v1",
+  "workflow_version": "1.0.0",
+  "run_root": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1",
+  "python_executable": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/pyscenic39/bin/python",
+  "packaging_python_executable": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/environment/.venv/bin/python",
+  "Rscript_executable": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/run_R.sh",
+  "threads": 4,
+  "allow_network": false,
+  "overwrite_prior": false,
+  "seed": 1337,
+  "num_workers": 4,
+  "min_detection_fraction": 0.05,
+  "normalization_cp10k": 10000,
+  "module_min_genes": 20,
+  "rho_threshold": 0.03,
+  "rank_threshold": 1500,
+  "ctx_auc_threshold": 0.05,
+  "nes_threshold": 3.0,
+  "motif_similarity_fdr": 0.001,
+  "orthologous_identity_threshold": 0.0,
+  "min_regulon_targets": 10,
+  "aucell_threshold": 0.05,
+  "aucell_batch_size": 1000,
+  "aucell_num_workers": 1,
+  "prepared_complete": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/COMPLETE.json",
+    "bytes": 4405,
+    "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+  },
+  "lineages": {
+    "CA1": {
+      "counts": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/counts.mtx.gz",
+        "bytes": 208113008,
+        "sha256": "5854cd68856904422428138307b5fd55e89ae109567ac586975d88475d7e6348"
+      },
+      "genes": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/genes.tsv",
+        "bytes": 1553719,
+        "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+      },
+      "cells": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/cells.tsv",
+        "bytes": 19179408,
+        "sha256": "9102f2afe3c93b7ec8f5991dcdf607d3d5997d1e1efac281848d4bd2ac02e218"
+      }
+    },
+    "IN": {
+      "counts": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/counts.mtx.gz",
+        "bytes": 25753115,
+        "sha256": "9903aa896db0bc4ed39743dc1a1faea1d7e2981e78129372d13e6883c4fb3a40"
+      },
+      "genes": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/genes.tsv",
+        "bytes": 1553719,
+        "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+      },
+      "cells": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/cells.tsv",
+        "bytes": 2390731,
+        "sha256": "a02c6fa25c758bea814946bc37e32d61fcbee7de218e961ec711447c3c9ac59d"
+      }
+    }
+  },
+  "samples": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/samples_original_full.tsv",
+    "bytes": 11393,
+    "sha256": "13d99c9e3031cae30dfe8abd879a5a394547a1e1c252465d03d2387216744270"
+  },
+  "expected_group_counts": {
+    "CA1_Deep": 8750,
+    "CA1_Superficial": 11706,
+    "IN_C1": 1718,
+    "IN_C6": 501,
+    "IN_C8": 468
+  },
+  "references": {
+    "tf_names": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/allTFs_mm.txt",
+      "bytes": 11726,
+      "sha256": "17a95e142147fb7dc063d7b9e84262746b0b64f622793b3cc5df0eddf2f1194c"
+    },
+    "motif_annotations": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+      "bytes": 113107706,
+      "sha256": "5b64aad9df9804d50c50484c92d5192bdd5d2056cb105bdd343c0af2f94cce83"
+    },
+    "rankings": [
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "bytes": 238348346,
+        "sha256": "3d5ba3281faab0c4f959f0b9447093e164015d1caad3e43a98ccebb6625bcb59",
+        "name": "mm10_500bp_rankings"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+        "bytes": 237172098,
+        "sha256": "8fc014f1879355a5e94b155f8b55511e3b47842cceed9d3e17235f60afb85ebc",
+        "name": "mm10_10kb_rankings"
+      }
+    ]
+  },
+  "mouse_associations": {
+    "seed": 1337,
+    "bootstrap_iterations": 200,
+    "same_partition": "23HJT3LT4_lanes6_7",
+    "expected_primary_WT": 6,
+    "expected_primary_cKO": 6,
+    "expected_partition_WT": 6,
+    "expected_partition_cKO": 3,
+    "heatmap_top_regulons": 30,
+    "boxplot_top_regulons": 6,
+    "volcano_labels_per_endpoint": 3,
+    "plots": true
+  },
+  "additional_hash_inputs": {
+    "frozen_membership_audit": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/frozen_membership_audit.tsv",
+      "bytes": 3015,
+      "sha256": "8e0506e504659f00ec509a342422e2057ccde359ec0542bdf05f482acea3237f"
+    },
+    "mouse_coverage": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/mouse_coverage.tsv",
+      "bytes": 3262,
+      "sha256": "c5fffee4baa711d1958cd05b9dc45d85d0c320a2b768310fca0e7826505c68bb"
+    },
+    "nucleus_metadata": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/nucleus_metadata.tsv.gz",
+      "bytes": 865297,
+      "sha256": "18860eb2f411d357138be0050fbb03d5175a29fcbc3a8d1603307ee8d2bfb873"
+    },
+    "feature_mapping": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/feature_mapping.tsv",
+      "bytes": 1920100,
+      "sha256": "fcec4e9e41e16f2907c8fdb9dac44a0576762078b428c70b56662c0cd4edbd87"
+    },
+    "normalization": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/expression_normalization.json",
+      "bytes": 807,
+      "sha256": "c034254cadae2572db9704532410dbb4e7975bf7b3e614e02ba412b1d355a277"
+    },
+    "prepared_source_hashes": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/source_hashes.json",
+      "bytes": 10637,
+      "sha256": "4f6cbca9c5fe6797250b6e110cf0a56fa22616f1019a8951e181626629558876"
+    },
+    "references_READY_manifest": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/READY_MANIFEST.json",
+      "bytes": 18138,
+      "sha256": "cb30ac10e8306628b28f01daa6372ba49081a77c80bb2fa0515b8855f0947b0f"
+    },
+    "pySCENIC_environment_setup": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/pyscenic39_setup/SETUP_STATUS.json",
+      "bytes": 804,
+      "sha256": "433741a875e457ef237e90471fedab147fbffcb661f74c3d30632f04535d57e2"
+    },
+    "pySCENIC_environment_freeze": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/pyscenic39_setup/requirements.freeze.txt",
+      "bytes": 1161,
+      "sha256": "76c7df267e02a94eadaf8bca36c606c9a58fc1284059203c8862a7842ddd4762"
+    },
+    "R_runtime": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/R_runtime_manifest.tsv",
+      "bytes": 56598,
+      "sha256": "912dec832cae9971ae11697dbf558c27971f8dc48ec207039cc1274192d32406"
+    },
+    "R_wrapper": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/environment/run_R.sh",
+      "bytes": 267,
+      "sha256": "b4a8e56184aff29ac60fb85669f828cbe3d6cb18c270dda37b38b0fdc547f091"
+    },
+    "original_DESeq2_CA1_Deep": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+      "bytes": 1545106,
+      "sha256": "e94292fa3f9f6e13f4bc281124805806287d5cdaa701e4aedd65b3e2e75abc47"
+    },
+    "original_DESeq2_CA1_Superficial": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+      "bytes": 1672143,
+      "sha256": "09809ce5487aa4aed9dcdab91db597f665fb1d3b02899f4a23fde913eecaa134"
+    },
+    "original_DESeq2_IN_C1": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "bytes": 1417446,
+      "sha256": "a06f094c89eaaab128c27796576ad4868c4d33cbb80460b8415f79fb27e1458e"
+    },
+    "original_DESeq2_IN_C6": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "bytes": 925841,
+      "sha256": "117bf9b6fe06162df8cc4cdff5fa0668610c3570759eb21b0d36e19e7d5a0cc2"
+    },
+    "original_DESeq2_IN_C8": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0147_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+      "bytes": 1053977,
+      "sha256": "675bde2f9206674b76805c79786ffaf3cd726a8dc54cfccef9d7c67d9e137b11"
+    },
+    "references_schema_inspection": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/SCHEMA_INSPECTION.json",
+      "bytes": 5381,
+      "sha256": "f24b7423b79f8ecadb87ea8d826aa7f9591dda941d9ea626d885948b7d614cf1"
+    },
+    "references_SATB2_motif_coverage": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/SATB2_REFERENCE_MOTIF_COVERAGE.json",
+      "bytes": 28893,
+      "sha256": "3c78923aac3de3a60ff16f8fe77d473b0048cc1e91a6eb9c53264d1f9595b97c"
+    }
+  }
+}

@@ -1,0 +1,246 @@
+{
+  "CSV": {
+    "WT_per_endpoint": 6,
+    "all_endpoints": 5,
+    "by_endpoint": [
+      {
+        "WT": 6,
+        "all12_reference_mean": 0.3995324707559162,
+        "all12_reference_sample_sd_ddof1": 0.10149158790880458,
+        "cKO": 6,
+        "endpoint": "CA1_Deep",
+        "reference_n": 12,
+        "z_mean": -5.652307325891096e-16,
+        "z_sample_sd": 1.0000000000000002
+      },
+      {
+        "WT": 6,
+        "all12_reference_mean": -0.9119539914588747,
+        "all12_reference_sample_sd_ddof1": 0.21651220048767458,
+        "cKO": 6,
+        "endpoint": "CA1_Superficial",
+        "reference_n": 12,
+        "z_mean": -4.423544863740858e-17,
+        "z_sample_sd": 0.9999999999999999
+      },
+      {
+        "WT": 6,
+        "all12_reference_mean": 1.5618212871487347,
+        "all12_reference_sample_sd_ddof1": 0.24465415360293663,
+        "cKO": 6,
+        "endpoint": "IN_C1",
+        "reference_n": 12,
+        "z_mean": 5.926971876254091e-16,
+        "z_sample_sd": 1.0
+      },
+      {
+        "WT": 6,
+        "all12_reference_mean": 2.4430346194168844,
+        "all12_reference_sample_sd_ddof1": 0.22483888720987796,
+        "cKO": 6,
+        "endpoint": "IN_C6",
+        "reference_n": 12,
+        "z_mean": 3.3642070610776878e-15,
+        "z_sample_sd": 1.0
+      },
+      {
+        "WT": 6,
+        "all12_reference_mean": 2.512396949486108,
+        "all12_reference_sample_sd_ddof1": 0.3296936914989379,
+        "cKO": 6,
+        "endpoint": "IN_C8",
+        "reference_n": 12,
+        "z_mean": -8.193677218197119e-16,
+        "z_sample_sd": 0.9999999999999999
+      }
+    ],
+    "cKO_per_endpoint": 6,
+    "display_z_all12_reference": true,
+    "maximum_display_z_absolute_error": 3.9968028886505635e-15,
+    "maximum_gene_set_fdr_absolute_error": 0.0,
+    "maximum_native_escore_absolute_error": 0.0,
+    "maximum_reference_mean_error": 8.881784197001252e-16,
+    "maximum_reference_sample_sd_error": 2.7755575615628914e-17,
+    "maximum_value_absolute_error": 0.0,
+    "n_records": 60,
+    "native_key_matches": 60,
+    "native_metadata_mismatches": [],
+    "unique_endpoint_mouse_keys": 60
+  },
+  "PDF": {
+    "embedded_image_dimensions": [
+      [
+        3240,
+        3066
+      ]
+    ],
+    "embedded_images": 1,
+    "extractable_text_character_count": 0,
+    "native_mouse_marker_center_color_checks": {
+      "coordinate_system": "1080x1022 SVG coordinates, embedded image3x",
+      "method": "Derive raw-score expected coordinates from the60 native Satb2 records and the inspected deterministic local plotting geometry. Check \u00b11 embedded-image pixel at each expected point for the correct genotype color. This is an artifact rendering check, not any model fitting.",
+      "n_checked": 60,
+      "n_failed": 0,
+      "n_matching_genotype_color": 60,
+      "plotting_geometry_source": {
+        "bytes": 45768,
+        "path": "/Users/mujahid357/Documents/codex_new/satb2_snRNA_github/site/regulatory/app.js",
+        "sha256": "e72a9d81b0406ba15a6853610dec0e53dd5032239d8c89049dbc40108feed43d"
+      }
+    },
+    "native_raw_score_range": [
+      -1.4226496268913291,
+      2.908043345141445
+    ],
+    "page_dimensions_points": [
+      1080.0,
+      1022.0
+    ],
+    "pages": 1,
+    "raster_plot": true,
+    "source_metadata": {
+      "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery__SATB2_CollecTRI_TF_20261026_v1",
+      "display_only": true,
+      "endpoint": "",
+      "method": "collectri_ulm",
+      "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461"
+    },
+    "title": "Independent-mouse scores"
+  },
+  "PNG": {
+    "all60_tile_center_colors_match_SVG": true,
+    "center_color_mismatches": [],
+    "dimensions": [
+      3429,
+      1230
+    ],
+    "mode": "RGBA",
+    "scale_relative_to_SVG": 3
+  },
+  "SVG": {
+    "all_tiles_one_finite_mouse": true,
+    "analysis_id": "20261026_hdwgcna_v1_0_2_export_recovery__SATB2_CollecTRI_TF_20261026_v1",
+    "dimensions": [
+      1142.88,
+      410.0
+    ],
+    "matches_local_publication_manifest": true,
+    "maximum_rounded_tooltip_z_error": 4.236009657243578e-05,
+    "n_labeled_mouse_tiles": 60,
+    "schema": "satb2-regulatory-plot/v1",
+    "settings": {
+      "arcColor": "#a3b5be",
+      "arcGap": 2,
+      "arcWidth": 10,
+      "arrowSize": 9,
+      "ckoColor": "#c75b4f",
+      "colorMax": 2,
+      "colorMin": -2,
+      "curvature": 0.25,
+      "edgeColor": "#748795",
+      "edgeColorMode": "sign",
+      "edgeLimit": 150,
+      "edgeWidth": 4,
+      "embeddingId": "",
+      "endpointFamily": "all",
+      "endpointId": "",
+      "featureId": "collectri_ulm::Satb2",
+      "fontSize": 12,
+      "genotype": "all",
+      "heatColumns": "mouse",
+      "highColor": "#b2182b",
+      "limit": 24,
+      "lowColor": "#2166ac",
+      "methodId": "collectri_ulm",
+      "midColor": "#f7f7f7",
+      "minWeight": 0,
+      "mouseLabels": false,
+      "negativeColor": "#397eb5",
+      "networkLayout": "circle",
+      "nodeColor": "#49889a",
+      "nodeColorMode": "module",
+      "nodeSize": 10,
+      "opacity": 0.8,
+      "palette": "viridis",
+      "pointSize": 3,
+      "positiveColor": "#bf4754",
+      "reverseScale": false,
+      "scaleMode": "auto",
+      "scoreMode": "z",
+      "search": "",
+      "showIneligible": false,
+      "showUnscored": true,
+      "view": "heatmap",
+      "wtColor": "#397eb5"
+    },
+    "source_fingerprint": "6ac8229745acce210cfd2e96c92748743f60fca98d38e8f370ad0e0028eee461"
+  },
+  "artifacts": {
+    "csv": {
+      "bytes": 35386,
+      "path": "/Users/mujahid357/Downloads/SATB2_regulatory_collectri_ulm_all_heatmap.csv",
+      "sha256": "83b27bf20a1658fa592319d948897cefc3b49dcfe119de97a01033a39b79dbe9"
+    },
+    "pdf": {
+      "bytes": 261097,
+      "path": "/Users/mujahid357/Downloads/SATB2_regulatory_collectri_ulm_all_replicates.pdf",
+      "sha256": "fcc2bc3fa16f05080529f09e68be9bca13f09d4b81abc5f3e0c0ca1cf8cdb8c3"
+    },
+    "png": {
+      "bytes": 264748,
+      "path": "/Users/mujahid357/Downloads/SATB2_regulatory_collectri_ulm_all_heatmap.png",
+      "sha256": "fa74c66fd079494c1a357a4f76f04fb858f6bf644ab821b3a711fa114244a66a"
+    },
+    "svg": {
+      "bytes": 37043,
+      "path": "/Users/mujahid357/Downloads/SATB2_regulatory_collectri_ulm_all_heatmap.svg",
+      "sha256": "43e47d6de8b50a4f861185943a5ec1d031105654b03e60c5c465a18f304beecb"
+    }
+  },
+  "audit_date": "2026-10-28",
+  "limitations": [
+    "Audit uses the named artifacts already downloaded by the parent; it did not independently repeat a live browser download or network retrieval.",
+    "CSV was downloaded with all genotypes selected. Its all12 z-reference is numerically proven here, but a fresh WT-only UI export was not available for direct comparison.",
+    "SVG tooltip values are intentionally rounded for display; exact native values remain in CSV.",
+    "PNG has no embedded provenance metadata; artifact hashes, vector dimensions, all60 tile-center colors, and visual review bind it to the inspected SVG.",
+    "Source-fingerprint comparison is against the local repository publication manifest; no new external server request was made by this auditor.",
+    "PDF is rasterized with no extractable label text or machine-readable score values. All60 native expected marker locations have the correct genotype color and the page was visually reviewed, but this does not turn raster pixels into independently encoded exact numeric scores; CSV remains the exact numeric export.",
+    "The PDF replicate view uses raw native scores while the heatmap export uses per-endpoint all12-mouse display z-scores. These are intentional different display units, not inconsistent underlying estimates."
+  ],
+  "local_published_manifest": {
+    "bytes": 4810,
+    "path": "/Users/mujahid357/Documents/codex_new/satb2_snRNA_github/site/regulatory/manifest.json",
+    "sha256": "a3a4dcf7e98b51213bef16ea1a74eec92a27a673ecb73816c7bf483e3de2b0a6"
+  },
+  "native_outputs_modified": false,
+  "native_source": {
+    "bytes": 8260348,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_collectri_v1/results/tf_activity/TF_ACTIVITY_PER_MOUSE.tsv",
+    "sha256": "e12e448a0706099762f3688f9476d445779f955413b2ca5fff72638c054ac842"
+  },
+  "schema": "satb2-live-export-data-QA/v1",
+  "scientific_fitting_performed": false,
+  "status": "PASS_WITH_RECORDED_LIMITATIONS",
+  "visual_review": {
+    "heatmap": {
+      "all_five_endpoint_labels_readable": true,
+      "all_twelve_mouse_labels_readable": true,
+      "no_visible_clipping_or_overlap": true,
+      "z_score_legend_readable": true
+    },
+    "performed": true,
+    "replicates_pdf": {
+      "WT_cKO_labels_readable": true,
+      "five_endpoint_panels_readable": true,
+      "minor_label_limitation": "The PDF says Native units preserved but does not spell out ULM t-value on the y-axis. Method identity and source fingerprint are present in PDF metadata and the linked atlas.",
+      "no_visible_clipping_or_overlap": true,
+      "raw_native_units_footer_present": true,
+      "render_dimensions": [
+        1500,
+        1420
+      ],
+      "render_path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/reviews/tmp/live_export_QA_20261028/replicates_pdf_render.png",
+      "six_eligible_finite_per_genotype_caption_each_panel": true
+    }
+  }
+}

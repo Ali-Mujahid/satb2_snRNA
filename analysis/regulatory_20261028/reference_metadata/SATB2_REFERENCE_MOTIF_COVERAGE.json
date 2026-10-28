@@ -1,0 +1,551 @@
+{
+  "schema": "satb2-pyscenic-reference-Satb2-ranked-motif-coverage/v1",
+  "scope": "Reference metadata only; this is not an inferred regulon or activity result",
+  "created_utc": "2026-10-28T07:24:41.586727+00:00",
+  "ready_manifest_sha256": "cb30ac10e8306628b28f01daa6372ba49081a77c80bb2fa0515b8855f0947b0f",
+  "ranked_motif_sets_identical_between_windows": true,
+  "Satb2_annotated_ranked_motifs": 23,
+  "Satb2_annotation_rows_for_ranked_motifs": 77,
+  "rows": [
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.29302e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.29e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.33585e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.34e-06)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.1004e-10",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 6.1e-10)"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.18815e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 2.19e-06)"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.31116e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 5.31e-06)"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.08595e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.09e-06)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "9.90641e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 9.91e-06)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.67717e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.68e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "8.53452e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 8.53e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.16845e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 5.17e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.08595e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.09e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.15702e-06",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 3.16e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.84735e-07",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1.85e-07)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.08488e-06",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 2.08e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.37586e-07",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1.38e-07)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.56494e-07",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 5.56e-07)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.39293e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.39e-06)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.77838e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 6.78e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.00096e-09",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1e-09)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "8.38777e-08",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 8.39e-08)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "7.85197e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 7.85e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.16434e-07",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1.16e-07)"
+    },
+    {
+      "#motif_id": "metacluster_112.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.65248e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 6.65e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.68738e-09",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 3.69e-09)"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.08595e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.09e-06)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.51198e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.51e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.54385e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.54e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_70.5",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.69724e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_TAATTATGCWAATTA_m1_c3 ('dve (fly)'; q-value = 4.7e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.09307e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 2.09e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.58174e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 6.58e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.62851e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.63e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.18815e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 2.19e-06)"
+    },
+    {
+      "#motif_id": "metacluster_178.11",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "0",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is directly annotated for motif"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "0",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is directly annotated for motif"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.17259e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 5.17e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_42.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.86748e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 3.87e-06)"
+    },
+    {
+      "#motif_id": "metacluster_124.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "7.67754e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 7.68e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.36483e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 5.36e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.00024e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 2e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.88156e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 3.88e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.14046e-08",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 4.14e-08)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.02056e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.02e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.28256e-07",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 6.28e-07) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_184.43",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "9.35553e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 9.36e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.19161e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 3.19e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_6.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "7.64579e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 7.65e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_150.5",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.16813e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 2.17e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_178.11",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.20249e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_GCATAAATTA_m1_c3 ('dve (fly)'; q-value = 2.2e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_178.11",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.01494e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_GCATAAATTA_m1_c3 ('dve (fly)'; q-value = 4.01e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_70.16",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.15989e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_TAATTATGCWAATTA_m1_c3 ('dve (fly)'; q-value = 3.16e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_70.16",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.57509e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_TAATTATGCWAATTA_m1_c3 ('dve (fly)'; q-value = 1.58e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "taipale_tf_pairs__HOXA3_NSTAATTANN_HT",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.99966e-07",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 7e-07) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.21332e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 2.21e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_164.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.72232e-08",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 6.72e-08) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_112.4",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "9.79601e-06",
+      "orthologous_identity": "0.222374",
+      "description": "gene is orthologous to FBgn0020307 in D. melanogaster (identity = 22%) which is annotated for similar motif nitta__dve_TCTTAG20NGA_KI_TAATTATGCWAATTA_m1_c3 ('dve (fly)'; q-value = 9.8e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.20373e-06",
+      "orthologous_identity": "0.995907",
+      "description": "motif similar to transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 5.2e-06) which is annotated for orthologous gene ENSG00000119042 in H. sapiens (identity = 99%)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.82987e-08",
+      "orthologous_identity": "0.995907",
+      "description": "motif similar to transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 2.83e-08) which is annotated for orthologous gene ENSG00000119042 in H. sapiens (identity = 99%)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.12752e-07",
+      "orthologous_identity": "0.995907",
+      "description": "motif similar to transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 5.13e-07) which is annotated for orthologous gene ENSG00000119042 in H. sapiens (identity = 99%)"
+    },
+    {
+      "#motif_id": "metacluster_9.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "8.55189e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 8.55e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_9.31",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.9597e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.96e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_9.19",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.74395e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.74e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_9.35",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.60419e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.6e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_9.34",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "9.07011e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 9.07e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_9.9",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.19614e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 1.2e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_9.10",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.64151e-06",
+      "orthologous_identity": "0.15918",
+      "description": "motif similar to nitta__dve_TCTTAG20NGA_KI_NCTAATTANN_m1_c4 ('dve (fly)'; q-value = 4.64e-06) which is annotated for orthologous gene FBgn0020307 in D. melanogaster (identity = 15%)"
+    },
+    {
+      "#motif_id": "metacluster_36.1",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "3.4322e-08",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 3.43e-08)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.42113e-08",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1.42e-08)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "5.37441e-10",
+      "orthologous_identity": "0.995907",
+      "description": "motif similar to transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 5.37e-10) which is annotated for orthologous gene ENSG00000119042 in H. sapiens (identity = 99%)"
+    },
+    {
+      "#motif_id": "metacluster_36.3",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.77867e-14",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 2.78e-14)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.24747e-08",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 4.25e-08)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "0",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is directly annotated for motif"
+    },
+    {
+      "#motif_id": "transfac_pro__M12667",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "4.72851e-06",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 4.73e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.3",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "2.27264e-06",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 2.27e-06)"
+    },
+    {
+      "#motif_id": "metacluster_36.3",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.57367e-14",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1.57e-14)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "6.17265e-28",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 6.17e-28)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "8.18104e-08",
+      "orthologous_identity": "0.995907",
+      "description": "gene is orthologous to ENSG00000119042 in H. sapiens (identity = 99%) which is annotated for similar motif transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 8.18e-08)"
+    },
+    {
+      "#motif_id": "metacluster_36.2",
+      "gene_name": "Satb2",
+      "motif_similarity_qvalue": "1.83669e-06",
+      "orthologous_identity": "0.995907",
+      "description": "motif similar to transfac_pro__M12660 ('V$SATB2_01: SATB2'; q-value = 1.84e-06) which is annotated for orthologous gene ENSG00000119042 in H. sapiens (identity = 99%)"
+    }
+  ],
+  "scientific_models_run": false
+}

@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "status": "starting",
+  "run_id": "snakemake-satb2-pyscenic-mm10-20261028-20261028-073812-12c4ee1e",
+  "registry_run_id": "5f292759-e4b6-4e2a-be49-b9c45afa9db7",
+  "revision": 1,
+  "pid": null,
+  "workflow": "workflow/Snakefile",
+  "run_dir": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1",
+  "command_argv": [
+    "/Users/mujahid357/Documents/Codex/2026-09-03/plugin-creator-users-mujahid357-codex-skills-3/outputs/SATB2_twelve_mouse_validation_20261010/.venv_controller/bin/snakemake",
+    "--snakefile",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/workflow/workflow/Snakefile",
+    "--configfile",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/config/pyscenic.v1.json",
+    "--directory",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+    "--cores",
+    "4",
+    "--printshellcmds"
+  ],
+  "plan_checksum": "sha256:dd5207c61fb0690ceb4a223e8b6f2e36f2a321ca52c86ad40d5b248390208c24",
+  "process_owned": true,
+  "display_name": "SATB2 full native mouse pySCENIC 1.0.0 — exact Seurat CA1/IN, 12 mice",
+  "target": {
+    "target_id": "local",
+    "provider": "ngs-analysis-workbench"
+  },
+  "warnings": [
+    "workflow-specific inputs, executable overrides, containers, outputs, and network effects are owned by the approved Snakefile and supplied config",
+    "container image architecture is not verified until the workflow resolves concrete images",
+    "using explicitly selected Host PATH snakemake; its package source and dependency closure are not reproducibly bound"
+  ],
+  "kind": "run",
+  "binding": "snakemake",
+  "plan_name": "SATB2 full native mouse pySCENIC 1.0.0 — exact Seurat CA1/IN, 12 mice",
+  "plan_id": "ngs-plan-dd5207c61fb0690c"
+}

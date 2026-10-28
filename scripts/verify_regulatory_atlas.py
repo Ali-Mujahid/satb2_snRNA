@@ -104,50 +104,79 @@ def validate_payload(payload, manifest, require_tf=True):
     for name in ("hdwgcna_CA1_pooled", "hdwgcna_IN_pooled"):
         require(methods.get(name, {}).get("family") == "hdWGCNA" and methods[name].get("status") == "complete", f"Primary network is not complete: {name}")
     combined = manifest.get("schema") == "satb2-regulatory-combined-transport/v1"
+    motif_component = "motif_regulon" in manifest.get("components", {})
     require(combined or not require_tf, "This publication requires independently completed HD and curated TF components")
     if combined:
-        require(set(methods) == hd_ids | {"collectri_ulm", "pyscenic_motif"}, "Unexpected combined source method IDs")
-        require(manifest.get("TF_activity_run") is True and manifest.get("motif_regulon_run") is False, "Combined method statuses are not explicit")
+        motif_ids = {"pyscenic_motif_CA1", "pyscenic_motif_IN"} if motif_component else {"pyscenic_motif"}
+        require(set(methods) == hd_ids | {"collectri_ulm"} | motif_ids, "Unexpected combined source method IDs")
+        require(manifest.get("TF_activity_run") is True and manifest.get("motif_regulon_run") is motif_component, "Combined method statuses are not explicit")
         require(methods.get("collectri_ulm", {}).get("family") == "curated_tf_activity" and methods["collectri_ulm"].get("status") == "complete", "Curated TF primary method is not complete")
-        require(methods.get("pyscenic_motif", {}).get("family") == "motif_regulon" and methods["pyscenic_motif"].get("status") == "not_available", "Blocked motif inference must remain unavailable")
+        if not motif_component:
+            require(methods.get("pyscenic_motif", {}).get("family") == "motif_regulon" and methods["pyscenic_motif"].get("status") == "not_available", "Blocked motif inference must remain unavailable")
+        else:
+            for lineage in ("CA1", "IN"):
+                m = methods["pyscenic_motif_" + lineage]
+                require(m.get("family") == "motif_regulon" and m.get("status") in {"complete", "not_available"} and set(m.get("endpoint_ids", [])) == {ep for ep, values in EXPECTED.items() if values[0] == lineage}, "Native motif lineage method coverage/status differs")
+            checked = manifest.get("component_validation", {}).get("motif_regulon", {})
+            require(checked.get("schema") == "satb2-pyscenic-regulatory-final-validation/v1" and checked.get("status") == "COMPLETE" and checked.get("minimum_measured_targets") == 10 and checked.get("activity_UMAP_packaged") is False and re.fullmatch(r"[0-9a-f]{64}", checked.get("FINAL_VALIDATION_sha256", "")), "Native motif final-validation contract is missing")
+            require(all(checked.get(k) is True for k in ("positive_motif_regulons_only", "twelve_mice_per_endpoint_regulon", "exact_nucleus_axes_verified", "Satb2_self_target_sensitivity_separate")), "Native motif validation flags are incomplete")
+            require(isinstance(checked.get("Satb2_official_TF_list_membership"), bool), "Official Satb2 TF-list membership audit is missing")
         components = manifest.get("components", {})
         for lineage in ("CA1", "IN"):
             require(components.get("hdWGCNA", {}).get("branches", {}).get(lineage + "_pooled", {}).get("validated_complete") is True, f"Native HD component is not complete: {lineage}")
         tf = components.get("curated_tf_activity", {})
         require(tf.get("completed_primary") == "curated_mouse_CollecTRI_ULM_and_independent_mouse_associations" and tf.get("blocked_optional") == "pySCENIC_motif_cache_missing", "Native TF component completion/block status differs")
         p = payload.get("provenance", {})
-        require(p.get("TF_activity") == "COMPLETE_CURATED_COLLECTRI_ULM" and p.get("motif_supported_regulons", "").startswith("BLOCKED_") and p.get("no_scientific_fits_in_publication_builder") is True, "Combined provenance misstates curated activity or motif inference")
-        require(set(p.get("components", {})) == {"hdWGCNA", "curated_tf_activity"}, "Historical component provenance is missing")
-        for name in ("hdWGCNA", "curated_tf_activity"):
+        motif_status = p.get("motif_supported_regulons", "")
+        require(p.get("TF_activity") == "COMPLETE_CURATED_COLLECTRI_ULM" and (motif_status == "COMPLETE_NATIVE_POSITIVE_PYSCENIC" if motif_component else motif_status.startswith("BLOCKED_")) and p.get("no_scientific_fits_in_publication_builder") is True, "Combined provenance misstates curated activity or motif inference")
+        component_names = {"hdWGCNA", "curated_tf_activity"} | ({"motif_regulon"} if motif_component else set())
+        require(set(p.get("components", {})) == component_names, "Historical component provenance is missing")
+        if motif_component:
+            require(components["motif_regulon"].get("completed_primary") == "positive_motif_supported_regulons_native_nucleus_AUCell_and_independent_mouse_associations", "Native motif component has not completed")
+        for name in component_names:
             ident = p.get("component_identities", {}).get(name, {})
             require(ident.get("analysis_id") == components.get(name, {}).get("analysis_id") and ident.get("source_fingerprint") == components.get(name, {}).get("source_fingerprint") and re.fullmatch(r"[0-9a-f]{64}", ident.get("source_fingerprint", "")), f"Native component source identity differs: {name}")
     else:
         require(set(methods) == hd_ids and all(m.get("family") == "hdWGCNA" for m in methods.values()), "An HD-only transport cannot declare completed TF results")
     require(all(m.get("family") in {"hdWGCNA", "curated_tf_activity", "motif_regulon"} for m in methods.values()), "Undeclared regulatory method family")
-    require(all(m.get("status") == "not_available" for m in methods.values() if m.get("family") == "motif_regulon"), "Unavailable motif inference cannot declare an active result")
+    if not motif_component:
+        require(all(m.get("status") == "not_available" for m in methods.values() if m.get("family") == "motif_regulon"), "Unavailable motif inference cannot declare an active result")
     require(not payload.get("embeddings"), "No native nucleus-activity embedding was validated for this publication")
     features = unique(payload.get("features", []), "feature")
     for f in features.values():
         require(f.get("method_id") in methods and (not f.get("endpoint_id") or f["endpoint_id"] in eps), "Feature source is unavailable")
+        if f.get("method_id") in {"pyscenic_motif_CA1", "pyscenic_motif_IN"}:
+            lineage = f["method_id"].rsplit("_", 1)[-1]
+            require(f.get("native_name", "").endswith("(+)") and f.get("source_id", "").startswith(lineage + "::") and isinstance(f.get("n_targets"), int) and f["n_targets"] >= 0, "Motif feature loses positive native lineage definition")
     seen, groups = set(), {}
     for r in payload.get("values", []):
         key = tuple(r.get(k) for k in ("method_id", "endpoint_id", "feature_id", "sample_id"))
         method, ep, feature, mouse = key
         require(key not in seen, "Duplicate independent-mouse regulatory value")
         seen.add(key)
-        require(method in methods and ep in eps and feature in features and mouse in samples and methods[method].get("status") in READY, "Mouse activity has an absent or unavailable source key")
+        require(method in methods and ep in eps and feature in features and mouse in samples, "Mouse activity has an absent or unavailable source key")
         f = features[feature]
         require(f["method_id"] == method and (not f.get("endpoint_id") or f["endpoint_id"] == ep), "Mouse value crosses incompatible feature source")
         finite = isinstance(r.get("value"), (float, int)) and not isinstance(r["value"], bool) and math.isfinite(r["value"])
         missing = r.get("value") is None and r.get("eligible") is False and bool(r.get("missing_reason"))
         require(isinstance(r.get("eligible"), bool) and (finite or missing), "Mouse score must be finite or explicitly unavailable")
+        native_motif = method in {"pyscenic_motif_CA1", "pyscenic_motif_IN"}
+        require(methods[method].get("status") in READY or native_motif and methods[method].get("status") == "not_available" and missing, "Mouse activity has an absent or unavailable source key")
+        if native_motif:
+            require(ep in methods[method]["endpoint_ids"] and (not finite or 0 <= r["value"] <= 1) and (not r["eligible"] or isinstance(r.get("coverage_n"), int) and r["coverage_n"] >= 10), "Native motif AUC/lineage/minimum-target coverage differs")
         groups.setdefault(key[:3], set()).add(mouse)
     require(groups and all(ids == set(MICE) for ids in groups.values()), "A recorded feature/endpoint lacks all twelve independent mice")
+    if motif_component:
+        expected = {(f["method_id"], ep, f["id"]) for f in features.values() if f["method_id"] in {"pyscenic_motif_CA1", "pyscenic_motif_IN"} for ep in methods[f["method_id"]]["endpoint_ids"]}
+        require({k for k in groups if k[0] in {"pyscenic_motif_CA1", "pyscenic_motif_IN"}} == expected, "A native motif feature lacks an entire matching endpoint/mouse group")
+        for name in ("pyscenic_motif_CA1", "pyscenic_motif_IN"):
+            has_activity = any(r.get("method_id") == name and r.get("eligible") is True and r.get("value") is not None for r in payload.get("values", []))
+            require((methods[name]["status"] == "complete") == has_activity, "Native motif activity status disagrees with available values")
     for download in payload.get("downloads", []):
         for key in ("path", "href", "url"):
             if key in download:
                 require(str(download[key]).startswith("https://"), "An active payload download points to a broken local scientific path")
-    return {"combined": combined, "methods": len(methods), "features": len(features), "mouse_values": len(seen)}
+    return {"combined": combined, "motif_component": motif_component, "methods": len(methods), "features": len(features), "mouse_values": len(seen)}
 
 
 def verify(site_dir, require_tf=True):
@@ -166,7 +195,7 @@ def verify(site_dir, require_tf=True):
     require(gallery.get("figures"), "No verified native figures")
     checked, remote = 0, 0
     for group in gallery["figures"]:
-        require(group.get("component") in {"hdWGCNA", "curated_tf_activity"}, "Figure has no declared source component")
+        require(group.get("component") in {"hdWGCNA", "curated_tf_activity"} | ({"motif_regulon"} if summary.get("motif_component") else set()), "Figure has no declared source component")
         for ext, row in group.get("files", {}).items():
             require(ext in {"png", "pdf", "svg"} and re.fullmatch(r"[0-9a-f]{64}", row.get("sha256", "")) and isinstance(row.get("bytes"), int), "Figure receipt is invalid")
             href = row.get("href", "")

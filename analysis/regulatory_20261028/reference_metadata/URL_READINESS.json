@@ -1,0 +1,79 @@
+[
+  {
+    "final_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close",
+      "Content-Length": "11726",
+      "Content-Type": "text/plain; charset=utf-8",
+      "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+      "Etag": "\"cjl33w5zplhc-91q\"",
+      "Last-Modified": "Wed, 27 Apr 2022 14:16:24 GMT",
+      "Server": "Caddy",
+      "Strict-Transport-Security": "max-age=15768000",
+      "Vary": "Accept-Encoding"
+    },
+    "observed_utc": "2026-10-28T07:20:56.432663+00:00",
+    "requested_url": "https://resources.aertslab.org/cistarget/tf_lists/allTFs_mm.txt",
+    "status": 200,
+    "tls_validation": "default_certificate_and_hostname_validation"
+  },
+  {
+    "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close",
+      "Content-Length": "238348346",
+      "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+      "Etag": "\"cla5aoarhm9s-3xwmre\"",
+      "Last-Modified": "Fri, 08 Jul 2022 08:51:55 GMT",
+      "Server": "Caddy",
+      "Strict-Transport-Security": "max-age=15768000",
+      "Vary": "Accept-Encoding"
+    },
+    "observed_utc": "2026-10-28T07:20:56.432367+00:00",
+    "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_500bp_up_100bp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+    "status": 200,
+    "tls_validation": "default_certificate_and_hostname_validation"
+  },
+  {
+    "final_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close",
+      "Content-Length": "237172098",
+      "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+      "Etag": "\"cla5bwefescg-3x7f5u\"",
+      "Last-Modified": "Fri, 08 Jul 2022 08:53:31 GMT",
+      "Server": "Caddy",
+      "Strict-Transport-Security": "max-age=15768000",
+      "Vary": "Accept-Encoding"
+    },
+    "observed_utc": "2026-10-28T07:20:56.433136+00:00",
+    "requested_url": "https://resources.aertslab.org/cistarget/databases/mus_musculus/mm10/refseq_r80/mc_v10_clust/gene_based/mm10_10kbp_up_10kbp_down_full_tx_v10_clust.genes_vs_motifs.rankings.feather",
+    "status": 200,
+    "tls_validation": "default_certificate_and_hostname_validation"
+  },
+  {
+    "final_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+    "headers": {
+      "Accept-Ranges": "bytes",
+      "Alt-Svc": "h3=\":443\"; ma=2592000",
+      "Connection": "close",
+      "Content-Length": "113107706",
+      "Date": "Wed, 28 Oct 2026 07:20:56 GMT",
+      "Etag": "\"cm86a4pmql8g-1vcagq\"",
+      "Last-Modified": "Wed, 17 Aug 2022 08:48:52 GMT",
+      "Server": "Caddy",
+      "Strict-Transport-Security": "max-age=15768000",
+      "Vary": "Accept-Encoding"
+    },
+    "observed_utc": "2026-10-28T07:20:56.432823+00:00",
+    "requested_url": "https://resources.aertslab.org/cistarget/motif2tf/motifs-v10nr_clust-nr.mgi-m0.001-o0.0.tbl",
+    "status": 200,
+    "tls_validation": "default_certificate_and_hostname_validation"
+  }
+]

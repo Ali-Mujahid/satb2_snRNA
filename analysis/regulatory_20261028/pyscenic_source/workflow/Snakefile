@@ -1,0 +1,108 @@
+from pathlib import Path
+
+SOURCE = Path(workflow.basedir).parent
+RUN = Path(config['run_root'])
+RESULTS = RUN / 'results'
+NATIVE = RESULTS / 'pyscenic_native'
+MASTER = str(Path(workflow.configfiles[-1]).resolve())
+PYTHON = config['python_executable']
+PACKAGING_PYTHON = config['packaging_python_executable']
+RSCRIPT = config['Rscript_executable']
+ENV = 'OMP_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 MKL_NUM_THREADS=1 VECLIB_MAXIMUM_THREADS=1 NUMBA_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1'
+LINEAGES = ['CA1', 'IN']
+BOUND = [config['samples']['path'], config['prepared_complete']['path']]
+for lineage in LINEAGES:
+    BOUND += [config['lineages'][lineage][kind]['path'] for kind in ['counts', 'genes', 'cells']]
+BOUND += [config['references'][kind]['path'] for kind in ['tf_names', 'motif_annotations']]
+BOUND += [r['path'] for r in config['references']['rankings']]
+BOUND += [r['path'] for r in config['additional_hash_inputs'].values()]
+
+wildcard_constraints:
+    lineage='CA1|IN'
+
+rule all:
+    input: str(RESULTS / 'FINAL_VALIDATION.json')
+
+rule prepare:
+    input:
+        config=MASTER,
+        sources=BOUND,
+        script=str(SOURCE / 'scripts/run_pyscenic_native.py')
+    output: str(NATIVE / '{lineage}/prepared/COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(NATIVE)
+    log: str(RUN / 'logs/{lineage}_prepare.log')
+    threads: 1
+    resources: mem_mb=10000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} --stage prepare --lineage {wildcards.lineage:q} > {log:q} 2>&1'
+
+rule grn:
+    input:
+        str(NATIVE / '{lineage}/prepared/COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/run_pyscenic_native.py')
+    output: str(NATIVE / '{lineage}/grn/COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(NATIVE)
+    log: str(RUN / 'logs/{lineage}_grn.log')
+    threads: 4
+    resources: mem_mb=24000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} --stage grn --lineage {wildcards.lineage:q} > {log:q} 2>&1'
+
+rule ctx:
+    input:
+        str(NATIVE / '{lineage}/grn/COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/run_pyscenic_native.py')
+    output: str(NATIVE / '{lineage}/ctx/COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(NATIVE)
+    log: str(RUN / 'logs/{lineage}_ctx.log')
+    threads: 4
+    resources: mem_mb=24000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} --stage ctx --lineage {wildcards.lineage:q} > {log:q} 2>&1'
+
+rule aucell:
+    input:
+        str(NATIVE / '{lineage}/ctx/COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/run_pyscenic_native.py')
+    output: str(NATIVE / '{lineage}/aucell/COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(NATIVE)
+    log: str(RUN / 'logs/{lineage}_aucell.log')
+    threads: 2
+    resources: mem_mb=14000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} --stage aucell --lineage {wildcards.lineage:q} > {log:q} 2>&1'
+
+rule assemble:
+    input:
+        expand(str(NATIVE / '{lineage}/aucell/COMPLETE.json'), lineage=LINEAGES),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/run_pyscenic_native.py')
+    output: str(NATIVE / 'COMPLETE.json')
+    params: py=PYTHON, env=ENV, out=str(NATIVE)
+    log: str(RUN / 'logs/native_assemble.log')
+    threads: 1
+    resources: mem_mb=4000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --outdir {params.out:q} --stage assemble > {log:q} 2>&1'
+
+rule mouse_associations:
+    input:
+        str(NATIVE / 'COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/analyze_regulon_mouse.R')
+    output: str(RESULTS / 'regulon_mouse/COMPLETE.json')
+    params: R=RSCRIPT, env=ENV, inp=str(NATIVE), out=str(RESULTS / 'regulon_mouse')
+    log: str(RUN / 'logs/mouse_associations.log')
+    threads: 2
+    resources: mem_mb=6000
+    shell: 'env {params.env} {params.R:q} {input.script:q} --config {input.config:q} --input-dir {params.inp:q} --outdir {params.out:q} > {log:q} 2>&1'
+
+rule package:
+    input:
+        str(RESULTS / 'regulon_mouse/COMPLETE.json'),
+        config=MASTER,
+        script=str(SOURCE / 'scripts/package_pyscenic_results.py')
+    output: str(RESULTS / 'FINAL_VALIDATION.json')
+    params: py=PACKAGING_PYTHON, env=ENV, res=str(RESULTS)
+    log: str(RUN / 'logs/package.log')
+    threads: 1
+    resources: mem_mb=8000
+    shell: 'env {params.env} {params.py:q} {input.script:q} --config {input.config:q} --results {params.res:q} > {log:q} 2>&1'

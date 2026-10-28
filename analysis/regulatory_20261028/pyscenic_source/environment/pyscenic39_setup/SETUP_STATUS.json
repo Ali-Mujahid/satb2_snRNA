@@ -1,0 +1,29 @@
+{
+  "status": "IMPORT_READY_NO_SCIENTIFIC_EXECUTION",
+  "created_utc": "2026-10-26T10:17:43.580105+00:00",
+  "direct_pins_verified": {
+    "pyscenic": "0.12.1",
+    "numpy": "1.23.5",
+    "pandas": "1.5.3",
+    "scipy": "1.10.1",
+    "scikit-learn": "1.2.2",
+    "pyarrow": "10.0.1",
+    "numba": "0.57.1",
+    "dask": "2023.3.2",
+    "distributed": "2023.3.2",
+    "arboreto": "0.1.6",
+    "ctxcore": "0.2.0",
+    "loompy": "3.0.7",
+    "umap-learn": "0.5.7"
+  },
+  "import_failures": {},
+  "imported_modules": 18,
+  "pip_check": "No broken requirements found",
+  "pyscenic_version_flag_exit": 2,
+  "version_flag_supported": false,
+  "help_exit": 0,
+  "scientific_fits_executed": false,
+  "disk_free_bytes": 11927769088,
+  "disk_hold_threshold_bytes": 6442450944,
+  "official_archive_urls_only": true
+}

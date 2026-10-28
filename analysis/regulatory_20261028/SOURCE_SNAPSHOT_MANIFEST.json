@@ -1,0 +1,191 @@
+{
+  "schema": "satb2-pyscenic-source-snapshot/v1",
+  "scope": "Executed native source/configuration/reference metadata only; this receipt does not claim completed scientific results",
+  "files": [
+    {
+      "path": "pyscenic_source/ANALYSIS_PLAN.md",
+      "bytes": 8038,
+      "sha256": "240b2991adc019793e553d66301292c534a3ce4e5ce633e52e94ad2884d03ecb"
+    },
+    {
+      "path": "pyscenic_source/README.md",
+      "bytes": 2312,
+      "sha256": "c7230cf36307a30a762d49b9fc905ce87c006f2f001b98692b6be83735260242"
+    },
+    {
+      "path": "pyscenic_source/docs/NATIVE_PRODUCER_CONTRACT.md",
+      "bytes": 12788,
+      "sha256": "6666820b4a6060b1c91744d1346be050dd867719134a1b92d2ad36b526b594b2"
+    },
+    {
+      "path": "pyscenic_source/docs/REGULON_MOUSE_AND_TRANSPORT_CONTRACT.md",
+      "bytes": 12051,
+      "sha256": "76c9b837c23f9566dbbe44022e9448c48f5c544d655f7e5462c1f4d96f2d974d"
+    },
+    {
+      "path": "pyscenic_source/environment/R_ready_sessionInfo.txt",
+      "bytes": 5722,
+      "sha256": "51b877cb574dc4fe7092357a4f7da52ae3aaccf68549dcc1a4c8add73eec30bf"
+    },
+    {
+      "path": "pyscenic_source/environment/R_runtime_manifest.tsv",
+      "bytes": 56598,
+      "sha256": "912dec832cae9971ae11697dbf558c27971f8dc48ec207039cc1274192d32406"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/README.md",
+      "bytes": 4059,
+      "sha256": "d934c4a9fa71cef20ce91b71ea4956b04fed2a3ac02d01d5f19b80aa8856219b"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/SETUP_STATUS.json",
+      "bytes": 804,
+      "sha256": "433741a875e457ef237e90471fedab147fbffcb661f74c3d30632f04535d57e2"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/bootstrap_manifest.json",
+      "bytes": 738,
+      "sha256": "9b2d4baf2129babf5886f7a22e29023e0799e916945cc83306b01c13a7f74583"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/import_probe.json",
+      "bytes": 2679,
+      "sha256": "b043569eadc24b592b954d0bf13431fa6c0c44c8b1521e272be3bef9249b4b49"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/pip_check.txt",
+      "bytes": 30,
+      "sha256": "9261363b733079a641c2e4cc9bc46ffa1d8336945a87f807b6cf68847dbc9b09"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/requirements.direct.txt",
+      "bytes": 209,
+      "sha256": "eeeffe9209da629eec4c62d0e55bec8a43f5d0bd5295540b01cd2703dfdda8c2"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/requirements.freeze.txt",
+      "bytes": 1161,
+      "sha256": "76c7df267e02a94eadaf8bca36c606c9a58fc1284059203c8862a7842ddd4762"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/requirements.locked-hashes.txt",
+      "bytes": 6502,
+      "sha256": "4388ea263db8d48b93b6fe1c342972bdd2678d20847049ecb2ce2c780c3be3e7"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/resolution.report.json",
+      "bytes": 798018,
+      "sha256": "9ba95f9d3f876f5280366ec5229a917ecf38141d97e63addcfa5af27d77399a4"
+    },
+    {
+      "path": "pyscenic_source/environment/pyscenic39_setup/resolved_downloads.tsv",
+      "bytes": 15393,
+      "sha256": "8522fb151a2004e00b532cf03ab0f5de15924d45976051cf618ca61c29a47543"
+    },
+    {
+      "path": "pyscenic_source/environment/run_R.sh",
+      "bytes": 267,
+      "sha256": "b4a8e56184aff29ac60fb85669f828cbe3d6cb18c270dda37b38b0fdc547f091"
+    },
+    {
+      "path": "pyscenic_source/runtime_contract.json",
+      "bytes": 1160,
+      "sha256": "e1f2e217399a99257bcea393d4877dba496a846059654cfde6ce47ae012714c0"
+    },
+    {
+      "path": "pyscenic_source/scripts/analyze_regulon_mouse.R",
+      "bytes": 31804,
+      "sha256": "ad3817f03b40b2715b9f383e3a08cf6abcbaf0007b24ba9f8b2a11eab6f81621"
+    },
+    {
+      "path": "pyscenic_source/scripts/package_pyscenic_results.py",
+      "bytes": 34745,
+      "sha256": "98694a3ee02d70b1d5a862f807c1f45feecf8ae555b30f32324321e6ce6ce57f"
+    },
+    {
+      "path": "pyscenic_source/scripts/run_pyscenic_native.py",
+      "bytes": 38822,
+      "sha256": "91a2d534c59fa843f067fc66038ae7eb2039bc9327515aac5d396072d33a6e90"
+    },
+    {
+      "path": "pyscenic_source/tests/test_native_synthetic.py",
+      "bytes": 7319,
+      "sha256": "35507b3faa78759b3868df24f34b79a8180f20d68221495fafa25df03fe8e9a3"
+    },
+    {
+      "path": "pyscenic_source/tests/test_package_pyscenic_synthetic.py",
+      "bytes": 11099,
+      "sha256": "25d5ceb38d11b11ece101118301e3b954e9a8530f113bb889a08ebe2914c7a1d"
+    },
+    {
+      "path": "pyscenic_source/tests/test_regulon_mouse.R",
+      "bytes": 3944,
+      "sha256": "cbbf9022c933e53b00802bbecf19e9bda972edb5259a971c5312be56b565451e"
+    },
+    {
+      "path": "pyscenic_source/workflow/Snakefile",
+      "bytes": 4677,
+      "sha256": "4de9fdbfde934535e55c3df7ee756cee6edd8842910564806b69c182735f47d4"
+    },
+    {
+      "path": "config/pyscenic.v1.json",
+      "bytes": 11037,
+      "sha256": "fdf956e1cab1458a2566c691547be393e49d015fd585c6d25575255d58a79209"
+    },
+    {
+      "path": "receipts/pyscenic_execution_plan_20261028_v1.json",
+      "bytes": 11360,
+      "sha256": "008eb056f0a426c42eed97dca003a2e2c4012c6196e6dcdf1c428095ef6c973b"
+    },
+    {
+      "path": "receipts/pyscenic_run_receipt_20261028_v1.json",
+      "bytes": 1877,
+      "sha256": "8fa36f7343648dd13df649a6fde740157df9359fcd99ed61a849b65a1efb4f23"
+    },
+    {
+      "path": "reference_metadata/READY_MANIFEST.json",
+      "bytes": 18138,
+      "sha256": "cb30ac10e8306628b28f01daa6372ba49081a77c80bb2fa0515b8855f0947b0f"
+    },
+    {
+      "path": "reference_metadata/SCHEMA_INSPECTION.json",
+      "bytes": 5381,
+      "sha256": "f24b7423b79f8ecadb87ea8d826aa7f9591dda941d9ea626d885948b7d614cf1"
+    },
+    {
+      "path": "reference_metadata/SATB2_REFERENCE_MOTIF_COVERAGE.json",
+      "bytes": 28893,
+      "sha256": "3c78923aac3de3a60ff16f8fe77d473b0048cc1e91a6eb9c53264d1f9595b97c"
+    },
+    {
+      "path": "reference_metadata/DOWNLOAD_MANIFEST.json",
+      "bytes": 16021,
+      "sha256": "7a50c18f1d148d306a045980bfa60b9383e2e3bd9a3c19ceacce0bc2edb7e7b1"
+    },
+    {
+      "path": "reference_metadata/URL_READINESS.json",
+      "bytes": 3551,
+      "sha256": "6fd11f4604abd40b3369b5296faae59986cc1bb6fb18e848543e7f684bc38e4b"
+    },
+    {
+      "path": "reference_metadata/README.md",
+      "bytes": 1735,
+      "sha256": "710204a2fd6476b93ec21b6de1910d1a409e9cf3838f3be072d8c08f81cfea8e"
+    },
+    {
+      "path": "reference_metadata/official_checksum_0.txt",
+      "bytes": 118,
+      "sha256": "7a4e4a7ebd700cb5819a49c52170bf2130c2b59d9165efc4bd7c92ce8284e100"
+    },
+    {
+      "path": "reference_metadata/official_checksum_2.txt",
+      "bytes": 118,
+      "sha256": "f0d53571f23a013bb02bb100467bdd1463f31fc5ed17e6b6c0a237d58717f8e3"
+    },
+    {
+      "path": "reference_metadata/allTFs_mm.txt",
+      "bytes": 11726,
+      "sha256": "17a95e142147fb7dc063d7b9e84262746b0b64f622793b3cc5df0eddf2f1194c"
+    }
+  ]
+}

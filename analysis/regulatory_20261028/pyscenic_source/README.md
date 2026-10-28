@@ -1,0 +1,11 @@
+# Frozen Seurat CA1 / inhibitory native pySCENIC
+
+This additive implementation performs the full user-selected mouse pySCENIC branch after official matching references became available on 28 October 2026. Read ANALYSIS_PLAN.md and the protocol/contract notes. The existing hdWGCNA, CollecTRI, original DESeq2 and strict DEG-only ligand–receptor outputs are preserved.
+
+Scientific entrypoint: workflow/Snakefile. Use an absolute immutable JSON configuration with schema satb2-pyscenic/v1 and a fresh run_root. The native source supports staged prepare → GRNBoost2 → positive module/motif cisTarget pruning → per-nucleus AUCell → assembly; independent-mouse score models and final transport follow. References, prepared RNA/cell axes, environment evidence and original endpoint counts are hash-bound. The reusable pySCENIC environment and reference downloads are prepared separately; this workflow has no installation or network steps.
+
+Real scientific execution is only through a reviewed Workbench native plan with the previously selected project Snakemake controller. Do not run scripts or a real-data dry run from the terminal. Synthetic tests exercise pinned native APIs and the mouse/package contract without processing the study cohort. A prepared source or reference cache is not evidence of a completed inference.
+
+Use at most four cores. GRN/ctx reserve all four worker slots and therefore run serially across the two lineages; BLAS/OMP thread counts are one. AUCell is batched with native whole-versus-batch equivalence checks, exact fixed gene order, seed 1337 and normalization disabled. Every selected nucleus is scored when the native motif-pruned regulon has at least ten measured targets. Lower coverage and empty motif outcomes remain explicit unavailable records rather than fabricated zero activity. Native self genes are flagged as algorithmic membership, not proof of self-binding.
+
+Continuous mouse mean-AUC effects are not DESeq2 gene DEGs. Scores do not demonstrate direct TF binding, causal activity, physical communication or anatomical layer position. Genotype partly confounds sequencing partition; same-partition sensitivity and all twelve-mouse coverage remain mandatory. Do not force a Satb2 regulon or reinterpret reference-only motif annotations as an inferred regulon.
