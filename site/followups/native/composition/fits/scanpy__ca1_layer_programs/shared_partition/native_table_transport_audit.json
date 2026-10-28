@@ -1,0 +1,32 @@
+[
+  {
+    "exact_numerical_values_axes_and_NA_mask": true,
+    "key": "intercept_df",
+    "original_dtypes": [
+      "Float64",
+      "Float64",
+      "Float64",
+      "Float64",
+      "float64"
+    ],
+    "original_type": "arviz_stats.summary.SummaryDataFrame",
+    "transport_dtype": "numpy.float64",
+    "transport_type": "pandas.DataFrame"
+  },
+  {
+    "exact_numerical_values_axes_and_NA_mask": true,
+    "key": "effect_df_C(condition, Treatment('WT'))[T.cKO]",
+    "original_dtypes": [
+      "float64",
+      "float64",
+      "float64",
+      "Float64",
+      "float64",
+      "float64",
+      "float64"
+    ],
+    "original_type": "arviz_stats.summary.SummaryDataFrame",
+    "transport_dtype": "numpy.float64",
+    "transport_type": "pandas.DataFrame"
+  }
+]

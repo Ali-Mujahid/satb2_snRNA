@@ -1,0 +1,12 @@
+{
+  "schema": "satb2-cellchat-final/v1",
+  "status": "COMPLETE_PENDING_INDEPENDENT_REVIEW",
+  "n_nuclei": 23143,
+  "n_mouse_endpoint_groups": 60,
+  "n_union_pairs": 6,
+  "n_eligible_context_pairs": 9,
+  "methods": ["triMean", "truncatedMean10"],
+  "inference": "exploratory_exact_mouse_label_permutation_on_unthresholded_native_scores",
+  "no_gene_DE_refits": true,
+  "no_prior_results_overwritten": true
+}

@@ -1,0 +1,109 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "check": "scripts/verify_site.py",
+      "exit_code": 0,
+      "elapsed_seconds": 31.9,
+      "output_tail": "{\"status\": \"PASS\", \"shards\": 3140, \"previous_3140_shards_preserved\": true, \"site_bytes\": 933212403, \"n_datasets\": 24, \"n_marker_genes\": 889, \"n_screenshot_genes\": 75, \"n_mouse_genes\": 32285, \"n_mouse_endpoints\": 1060, \"scientific_model_fitting_performed\": false, \"n_gene_expression_shards\": 2670, \"n_expression_branches\": 3, \"gene_expression_bytes_outside_pages\": 165350996, \"coordinate_ids_covered\": 1215858, \"sparse_nonzero_counts_checked\": 57032184, \"gene_json_js_catalogs_match\": true}\n\n"
+    },
+    {
+      "check": "scripts/verify_v34_extensions.py",
+      "exit_code": 0,
+      "elapsed_seconds": 12.28,
+      "output_tail": "{\"status\": \"PASS\", \"mode\": \"READ_ONLY_SAVED_BYTES_AND_DESCRIPTIVE_ARITHMETIC\", \"new_genes\": 166, \"total_marker_genes\": 1055, \"marker_shards\": 24, \"gene_vector_shards\": 498, \"marker_summary_rows\": 243522, \"scaled_rows_checked\": 162348, \"sparse_nucleus_counts_checked\": 21548987, \"independent_native_integer_checks_recorded\": 974088, \"marker_bytes_outside_pages\": 22635481, \"gene_vector_bytes_outside_pages\": 64836996, \"original_catalog_hashes_unchanged\": true, \"old_axes_reused\": true, \"exact_pinned_tag\": \"atlas-v3.4.0\", \"panels\": [{\"id\": \"user_20261018_all_cell_types\", \"requested\": 100, \"selected\": 99, \"unresolved_unique\": 1}, {\"id\": \"user_20261018_CA1_ProS\", \"requested\": 158, \"selected\": 118, \"unresolved_unique\": 34}, {\"id\": \"user_20261018_CA1_sublayers\", \"requested\": 100, \"selected\": 97, \"unresolved_unique\": 3}], \"scientific_model_fitting_performed\": false}\n\n"
+    },
+    {
+      "check": "scripts/verify_communication_atlas.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.94,
+      "output_tail": "{\n  \"status\": \"PASS\",\n  \"native_rows\": 64936,\n  \"transport_files\": 164,\n  \"six_fits\": true,\n  \"source_hashes_preserved\": true,\n  \"pages_total_bytes\": 933212403,\n  \"no_scientific_fits\": true\n}\n\n"
+    },
+    {
+      "check": "scripts/verify_regulatory_atlas.py",
+      "exit_code": 0,
+      "elapsed_seconds": 1.18,
+      "output_tail": "{\n  \"status\": \"PASS\",\n  \"combined\": true,\n  \"motif_component\": false,\n  \"methods\": 6,\n  \"features\": 1192,\n  \"mouse_values\": 70656,\n  \"exact_endpoints\": 5,\n  \"independent_mice\": 12,\n  \"local_native_figures_checked\": 116,\n  \"remote_release_figures_declared_not_network_checked\": 0,\n  \"network_calls\": 0,\n  \"scientific_fits\": 0\n}\n\n"
+    },
+    {
+      "check": "scripts/verify_followup_reader.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.13,
+      "output_tail": "{\"followups\": \"PASS\", \"online_files\": 281, \"verified_remote_assets\": 345, \"page_bytes\": 3172068, \"site_bytes\": 933212403}\n\n"
+    },
+    {
+      "check": "tests/regulatory_verification.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.07,
+      "output_tail": "PASS Production verifier rejects explicitly synthetic payloads\nPASS Data.js and local native figure bytes are bound by SHA256 receipts\nPASS Frozen counts / memberships / mouse roster / duplicate and missing mouse rows rejected\nPASS Uncompleted components / false motif claims / active broken payload downloads rejected\n{\n  \"status\": \"PASS\",\n  \"checks\": 4,\n  \"synthetic_only\": true,\n  \"scientific_fits\": 0,\n  \"network_calls\": 0,\n  \"published\": false\n}\n\n"
+    },
+    {
+      "check": "tests/regulatory_publication.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.21,
+      "output_tail": "PASS Complete-only gate rejects missing and running results\nPASS Independent TF completion gate rejects running / unvalidated results\nPASS Synthetic result payload cannot pass the production publication gate\nPASS Synthetic transport fixture: ZIP SHA256/CRC, all native formats, exact PNG bytes, overflow release PDF, offline inlining and no site installation\nPASS Release byte-splitting reconstructs the exact original ZIP bytes\nPASS Exact memberships / rosters / distinct source keys; native rows, null eligibility and component-scoped provenance preserved\nPASS Combined synthetic archive / figure gallery / standalone transport; both native sources immutable and extraction validator passes\nPASS Incomplete TF argument set is rejected before staging\nPASS Components cannot merge different original raw-count or DESeq2 input bytes\nPASS Real TF completion gate rejects changed native receipt bytes before transport merging\nPASS TF receipt comparison ignores only .snakemake controller metadata; unknown scientific/root/near-name files fail and source enumeration remains strict\nPASS Changed staged content is rejected by the publication receipt\n{\n  \"status\": \"PASS\",\n  \"checks\": 12,\n  \"synthetic_only\": true,\n  \"scientific_validation_mocked_only_for_transport_fixture\": true,\n  \"real_outputs_opened\": false,\n  \"published\": false\n}\n\n"
+    },
+    {
+      "check": "tests/regulatory_recovery.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.1,
+      "output_tail": "PASS Explicit no-refit copy verifies every original/recovered byte, source/config and all four checkpoint seals\nPASS Recovery cannot change scientific parameters\nPASS Changed copied native bytes are rejected\nPASS Preserved scientific-tree inventory rejects every unknown file, including reserved names; no global enumeration exemption\nPASS Recovery cannot change original executed fitting source\nPASS New fit claims and inconsistent final/payload provenance are rejected\n{\n  \"status\": \"PASS\",\n  \"checks\": 6,\n  \"synthetic_only\": true,\n  \"real_outputs_opened\": false,\n  \"scientific_fits\": 0,\n  \"published\": false\n}\n\n"
+    },
+    {
+      "check": "tests/regulatory_pyscenic_publication.py",
+      "exit_code": 0,
+      "elapsed_seconds": 0.2,
+      "output_tail": "PASS Actual motif methods supersede only empty top-level placeholder; native rows, Satb2 status and historical provenance remain immutable; incompatible identities/AUC rejected\nPASS Real motif completion/receipt/source/input/axis gate rejects incomplete support, min5, unreceipted scientific files and changed reference/raw-count bytes; controller metadata alone is ignored\nPASS Three-component native archive/figure gallery/offline transport: exact immutable native bytes, external official references, deduplicated selected raw inputs and extraction checks\nPASS Production verifier distinguishes completed native motif component from historical placeholder, validates positive lineage definitions/min10, and retains explicit unavailable lineage nulls\nPASS All-or-none third-component CLI contract and prerequisite completed TF component; total950MB cap unchanged\n{\n  \"status\": \"PASS\",\n  \"checks\": 5,\n  \"synthetic_only\": true,\n  \"native_scientific_validation_mocked_only_for_transport_build\": true,\n  \"real_outputs_opened\": false,\n  \"scientific_models_run\": false,\n  \"published\": false\n}\n\n"
+    },
+    {
+      "check": "tests/regulatory.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.47,
+      "output_tail": "pression or another score\nPASS Shared pooled-lineage hubs and networks are retained once without endpoint refitting\nPASS Saved mouse-level comparisons preserve the original cohort and source values\nPASS Display controls are present and invalid numeric colors are rejected\nPASS SATB2 focus requires a completed curated method and selects its saved mouse scores\n{\n  \"status\": \"PASS\",\n  \"checks\": 15,\n  \"names\": [\n    \"No synthetic results are bundled in site/regulatory; real saved data remains optional\",\n    \"Exact references, independent mouse uniqueness and eligibility are validated\",\n    \"Mouse z reference includes all eligible mice across genotypes and excludes ineligible outliers\",\n    \"Genotype means exclude ineligible points and missing rows never become zero\",\n    \"All plot types use native rows; undirected hdWGCNA never gains TF arrows\",\n    \"Unavailable method or activity feature is never replaced by expression or another score\",\n    \"Shared pooled-lineage hubs and networks are retained once without endpoint refitting\",\n    \"Saved mouse-level comparisons preserve the original cohort and source values\",\n    \"Display controls are present and invalid numeric colors are rejected\",\n    \"SATB2 focus requires a completed curated method and selects its saved mouse scores\",\n    \"Every saved control is bound, and loaded methods retain distinct families\",\n    \"PDF, SVG, PNG, CSV and JSON exports preserve the captured source/view during navigation\",\n    \"Settings import enforces source identity and bounded appearance controls\",\n    \"An invalid color range clears stale plots and disables old exports\",\n    \"One-click SATB2 view is bound and preserves the native values\"\n  ],\n  \"synthetic_fixture_only\": true,\n  \"scientific_analysis_performed\": false,\n  \"browser_launched\": false\n}\n\n"
+    },
+    {
+      "check": "tests/regulatory_pyscenic.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.05,
+      "output_tail": "PASS Native positive regulons retain separate CA1/IN definitions and exact matching endpoint scope\nPASS All12-mouse display-z reference remains fixed when genotype display is restricted\nPASS Positive motif edges retain native weights, candidate direction and explicit selfgene flags\nPASS Completed-empty lineage and low-target sets remain unavailable without zero or RNA substitution\nPASS Satb2 no-self IDs and sensitivity remain separate from primary motif definitions and curated shortcut\n{\n  \"status\": \"PASS\",\n  \"checks\": 7,\n  \"names\": [\n    \"Native positive regulons retain separate CA1/IN definitions and exact matching endpoint scope\",\n    \"All12-mouse display-z reference remains fixed when genotype display is restricted\",\n    \"Positive motif edges retain native weights, candidate direction and explicit selfgene flags\",\n    \"Completed-empty lineage and low-target sets remain unavailable without zero or RNA substitution\",\n    \"Satb2 no-self IDs and sensitivity remain separate from primary motif definitions and curated shortcut\",\n    \"Generic PDF/SVG/PNG/CSV/JSON exports preserve motif lineage, native selfgene flags, weights and captured source during navigation\",\n    \"Unavailable empty motif branch clears stale plots and disables PDF/SVG/PNG export without substituting another method\"\n  ],\n  \"synthetic_fixture_only\": true,\n  \"scientific_analysis_performed\": false,\n  \"browser_launched\": false\n}\n\n"
+    },
+    {
+      "check": "tests/communication_deg_only.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.53,
+      "output_tail": "{\n  \"status\": \"PASS\",\n  \"checks\": 8,\n  \"passed\": [\n    \"new payload cryptographic transport hashes and unchanged legacy files\",\n    \"only three corrected fits and five exact populations; C8 remains explicitly eligible\",\n    \"both complete endpoint complexes are significant and signed from exact original DESeq2 evidence\",\n    \"all 47 saved scalar fields and identity flags equal the untouched original full-background payload\",\n    \"all-rank and native rank <=0.05 directional counts and ordered gene-sign counts\",\n    \"nine native seven-column projections and nine signed exports match strict payload values\",\n    \"five original DEG copies retain exact source bytes and standard seven columns, signed subsets partition them\",\n    \"every documented immutable download exists with exact bytes and hash\"\n  ],\n  \"strict_records\": 47,\n  \"source_scores_unchanged\": true,\n  \"no_refits\": true\n}\n\n"
+    },
+    {
+      "check": "tests/communication_deg_ui.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.62,
+      "output_tail": "{\n  \"status\": \"PASS\",\n  \"checks\": 7,\n  \"names\": [\n    \"Independent component evidence identifies the five-population strict subset\",\n    \"Active filters cannot re-enable OR-only support or other populations through legacy settings\",\n    \"All-subunit and ambiguity gates are independent mandatory invariants, not optional checkboxes\",\n    \"Direction and population filters restrict the fixed cohort without adding rows\",\n    \"Strict active payload contains only 47 preserved native records and exact matching signed DESeq2 evidence\",\n    \"Twelve eligible strict directed pairs retain C8 zero-result cells, not its old broad candidates\",\n    \"Seven-column native export contract remains exact while component gene effects stay signed\"\n  ],\n  \"expectedAll\": {\n    \"pooled\": 16,\n    \"WT\": 15,\n    \"cKO\": 16\n  },\n  \"expectedRank05\": {\n    \"pooled\": 8,\n    \"WT\": 9,\n    \"cKO\": 7\n  },\n  \"mode\": \"PURE_DATA_AND_VM_NO_BROWSER_NO_FITS\"\n}\n\n"
+    },
+    {
+      "check": "tests/communication_deg_visuals.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.07,
+      "output_tail": "DEG visual tests passed: separate signed endpoint evidence, exact DESeq2 tooltip fields, deduplicated aggregate counts, customizable outlines/rims, immutable detection areas, old-data compatibility and export-safe SVGs.\n\n"
+    },
+    {
+      "check": "tests/communication_charts.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.05,
+      "output_tail": "Communication heatmap/dotplot tests passed: unique LR counts, eligible zero versus NA, true fraction areas, shared orders/scales, immutable evidence and SVG export semantics.\n\n"
+    },
+    {
+      "check": "tests/communication_networks.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.05,
+      "output_tail": "ng tier retains two Cntn3\u2192Ptprg records\nPASS Actual five-group strict SVGs render finite geometry with exact native counts and immutable rows\nPASS All-rank strict native view shows 16 rows and retains C8 without inventing eligible zero edges\n{\n  \"status\": \"PASS\",\n  \"checks\": 16,\n  \"scope\": \"DISPLAY_ONLY_COMMUNICATION_NETWORK_RENDERERS\",\n  \"check_names\": [\n    \"Ordered pairs count distinct LR identities and count incident degree correctly\",\n    \"Eligible pairs constrain the summarized native rows without inventing untested links\",\n    \"Circle keeps all selected groups and uses node area proportional to incident degree\",\n    \"Shared node order/edge/degree maxima preserve comparability across conditions\",\n    \"Circle styles change geometry and colors while preserving counts\",\n    \"Circos uses closed finite-width ribbons and retains zero-edge sectors\",\n    \"Circos arc thickness/gap, ribbon scale and receiver arrow controls are independent display changes\",\n    \"Metric colors support custom, reversed, manual and shared numeric scales\",\n    \"Gene selection counts population\u00d7LR keys and deduplicates repeated native records\",\n    \"Gene nodes carry true all-subunit fractions with separate ligand and receptor roles\",\n    \"Fixed gene keys preserve nodes and positions when a condition lacks a qualifying edge\",\n    \"Empty, singleton, degenerate, self-edge, escaped labels and extreme controls remain finite\",\n    \"Native input records, selected groups and caller settings are never mutated\",\n    \"Strict matching-endpoint DEG native strong tier retains two Cntn3\u2192Ptprg records\",\n    \"Actual five-group strict SVGs render finite geometry with exact native counts and immutable rows\",\n    \"All-rank strict native view shows 16 rows and retains C8 without inventing eligible zero edges\"\n  ]\n}\n\n"
+    },
+    {
+      "check": "tests/communication_app.cjs",
+      "exit_code": 0,
+      "elapsed_seconds": 0.11,
+      "output_tail": "\"check_names\": [\n    \"Every visible data/appearance control has a binding; all bound IDs exist\",\n    \"Only the three saved strict fits are loaded; defaults include all native ranks and both DEG endpoints\",\n    \"Population filters retain C8 empty context and accurate strict five-population heatmaps\",\n    \"Endpoint DEG direction selectors enforce four signed combinations without changing native scores\",\n    \"WT/cKO comparisons share LR identities, population columns, node order and numeric expression scales\",\n    \"Legacy policy settings cannot loosen scope, cohorts, all-subunit support or DEG-only evidence\",\n    \"Reset, lead and context-specific shortcuts retain only the corrected strict cohort\",\n    \"All five charts render each strict fit with exact signed filters and immutable scientific evidence\",\n    \"Up/down annotations survive SVG export geometry and can be recolored or hidden independently of native numeric fills\",\n    \"Invalid numeric limits clear stale exports and changing filters dismisses old component details\",\n    \"SVG style scoping isolates adjacent plots and rewrites local URL IDs\",\n    \"Current styled SVG, signed JSON, PNG and PDF exports complete with finite dimensions (DOM/canvas/PDF mocks)\",\n    \"Seven-column exports retain the native format; extended exports include matching signed endpoint effects\",\n    \"Component details and exact JSON identify down-regulated C6 ligand and up-regulated CA1 receptor independently of native LR specificity\",\n    \"In-flight PDF retains its original dataset, signed filter, title and appearance during navigation\",\n    \"Export before a pending redraw uses the visible chart\u2019s exact saved DEG subset and signed settings\",\n    \"Old v1 settings imports are rejected; v2 imports cannot bypass the strict DEG-only invariant\"\n  ]\n}\n\n"
+    }
+  ],
+  "elapsed_seconds": 48.97,
+  "scientific_model_execution": false
+}

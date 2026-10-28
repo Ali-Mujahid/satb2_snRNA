@@ -1,0 +1,13 @@
+sample	condition	sequencing_partition
+wt_1122	WT	23HJT3LT4_lanes6_7
+wt_1123	WT	23HJT3LT4_lanes6_7
+wt_1178	WT	23HJT3LT4_lanes6_7
+wt_1220	WT	23HJT3LT4_lanes6_7
+wt_1226	WT	23HJT3LT4_lanes6_7
+wt_1228	WT	23HJT3LT4_lanes6_7
+cKO_1138	cKO	23HJTCLT4_lane8
+cKO_1139	cKO	23HJT3LT4_lanes6_7
+cKO_1160	cKO	23HJT3LT4_lanes6_7
+cKO_1165	cKO	23HJT3LT4_lanes6_7
+cKO_933	cKO	unverified
+cKO_991	cKO	23HJTCLT4_lane8

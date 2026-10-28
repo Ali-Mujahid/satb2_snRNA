@@ -1,0 +1,20 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+scanpy__excitatory_clusters	shared_partition	0	C0 · 016 CA1-ProS Glut	14	0.0	0.3923333333333333	-0.05301629786344358	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	1	C1 · 016 CA1-ProS Glut	14	0.0	0.36083333333333334	-0.053016297863443744	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	2	C2 · 033 NP SUB Glut	14	0.0	0.34908333333333336	-0.05301629786344341	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	3	C3 · 023 SUB-ProS Glut	14	0.0	0.35641666666666666	-0.05301629786344358	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	4	C4 · Excitatory; mixed atlas subclasses	14	0.0	0.427	-0.05301629786344341	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	5	C5 · 016 CA1-ProS Glut	14	0.0	0.29870833333333335	-0.053016297863443744	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	6	C6 · 016 CA1-ProS Glut	14	0.0	0.3057916666666667	-0.05301629786344341	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	7	C7 · Excitatory; mixed atlas subclasses	14	0.0	0.560125	-0.053016297863443744	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	8	C8 · 023 SUB-ProS Glut	14	0.0	0.3655833333333333	-0.05301629786344391	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	9	C9 · Excitatory; mixed atlas subclasses	14	0.4849925450637773	0.9933333333333333	0.6466800417681852	True	True	0.05	CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	10	C10 · 037 DG Glut	14	0.0	0.5177083333333333	-0.05301629786344358	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	11	C11 · Excitatory; mixed atlas subclasses	14	0.0	0.6398333333333334	-0.053016297863443744	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	12	C12 · Excitatory; mixed atlas subclasses	14	0.0	0.39566666666666667	-0.05301629786344341	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	13	C13 · 008 L2/3 IT ENT Glut	14	0.0	0.8604583333333333	-0.05301629786344358	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	14	C14 · 016 CA1-ProS Glut; Microglia/Other_immune-associated signature review	14	0.0	0.0	-0.05301629786344341	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+scanpy__excitatory_clusters	shared_partition	15	C15 · Excitatory; mixed atlas subclasses	14	0.0	0.40679166666666666	-0.05301629786344358	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	16	C16 · 019 L2/3 IT PPP Glut	14	0.0	0.6423333333333333	-0.053016297863443744	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	17	C17 · 011 L2 IT ENT-po Glut	14	0.0	0.5586666666666666	-0.05301629786344358	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__excitatory_clusters	shared_partition	18	C18 · 036 HPF CR Glut	14	0.0	0.477	-0.05301629786344341	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE

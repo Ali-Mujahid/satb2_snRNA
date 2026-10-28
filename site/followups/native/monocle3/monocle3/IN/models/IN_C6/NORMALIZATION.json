@@ -1,0 +1,7 @@
+{
+  "method": "native_constructor_estimate_size_factors_default",
+  "universe": "retained_genotype_blind_features",
+  "display_transform": "native_monocle_log_normalization",
+  "graph_test_transform": "native_log10_count_over_size_factor_plus_0.1",
+  "source_feature_id_policy": "preserved_prepared_feature_ids_and_original_gene_ids"
+}

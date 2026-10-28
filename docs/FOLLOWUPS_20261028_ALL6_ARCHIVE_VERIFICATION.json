@@ -1,0 +1,168 @@
+{
+  "schema": "satb2-followups-complete-local-delivery-verification/v1",
+  "status": "ALL_CONFIGURED_COMPONENTS_READBACK_VERIFIED_NOT_PUBLICATION_APPROVAL",
+  "components": {
+    "cellchat": {
+      "archive": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_batch_A_v1/SATB2_cellchat_20261028_v1.zip",
+      "bytes": 793387447,
+      "sha256": "fc8458b5f136e12d5b7374b6130b6f623ef35f9d9b4f40dd2a65a8a324421605",
+      "native_gates": [
+        {
+          "kind": "cellchat",
+          "native_schema": "satb2-cellchat-final-validation/v1",
+          "native_status": "COMPLETE",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json",
+            "bytes": 21080,
+            "sha256": "c1dbdbe57c1606ab37d71cbf630905731bb630667038a25bd5ec0cd6bfd16683"
+          }
+        },
+        {
+          "kind": "layout",
+          "native_schema": "satb2-cellchat-layout-only-final/v1",
+          "native_status": "COMPLETE_PENDING_VISUAL_REVIEW",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/FINAL_VALIDATION.json",
+            "bytes": 24997,
+            "sha256": "e15002fe6b056c9efe7d02dbe3d137cd3f041fb1f4e26a1e533ab2a655abda92"
+          }
+        }
+      ]
+    },
+    "monocle3": {
+      "archive": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_batch_A_v1/SATB2_monocle3_20261028_v1.zip",
+      "bytes": 268550236,
+      "sha256": "5dcefc9e55891251834c6d0efbec0e49fd97e6d103be1d11e862ffa770cb3b24",
+      "native_gates": [
+        {
+          "kind": "monocle3",
+          "native_schema": "satb2-monocle3-final-validation/v1",
+          "native_status": "COMPLETE",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results/FINAL_VALIDATION.json",
+            "bytes": 56123,
+            "sha256": "475c75e1b0bbc89d5808f98c3626a6c91001276ff4abee1ea4f65e9a7ed6e2a8"
+          }
+        }
+      ]
+    },
+    "composition_initial": {
+      "archive": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_batch_B_v1/SATB2_composition_initial_20261028_v1.zip",
+      "bytes": 562204754,
+      "sha256": "5195ff1a0bf7bc2ab42a93af78d537e44a93de7d9bc5c9b05901e8853e43b947",
+      "native_gates": [
+        {
+          "kind": "composition",
+          "native_schema": "satb2-composition-final-validation/v1",
+          "native_status": "COMPLETE_WITH_INCONCLUSIVE_OR_UNTESTABLE_SCOPES",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/results/FINAL_VALIDATION.json",
+            "bytes": 146240,
+            "sha256": "759a7dcb11f5b8367bb6ef667e7f4459b1a6e48b7c1301c23fc5d569d2854a88"
+          }
+        }
+      ]
+    },
+    "composition_strict": {
+      "archive": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_batch_C_v1/SATB2_composition_strict_20261028_v1.zip",
+      "bytes": 1165814422,
+      "sha256": "b71e4f17c6805940edc2b1d8fbb69987d58197206f0eec9bcd37abff32b47c45",
+      "native_gates": [
+        {
+          "kind": "composition",
+          "native_schema": "satb2-composition-final-validation/v1",
+          "native_status": "COMPLETE_WITH_INCONCLUSIVE_OR_UNTESTABLE_SCOPES",
+          "seal": {
+            "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/results/FINAL_VALIDATION.json",
+            "bytes": 146367,
+            "sha256": "489238a9c467036944c8dc158d8d94752bf08bb957c252ba3b8fb3a1454a0f6c"
+          }
+        }
+      ]
+    },
+    "portable_reader": {
+      "archive": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_batch_D_v1/SATB2_followups_portable_archive_20261028_v1.zip",
+      "bytes": 53102813,
+      "sha256": "2fdfcb097b35e1d2e5e8d96442c5f9a561fb623ca1864fc7c4180c3e2d4d9ccc",
+      "native_gates": [
+        {
+          "kind": "portable",
+          "native_schema": "satb2-followups-portable-reader-manifest/v1",
+          "native_status": "BUILT_PENDING_RENDERED_REVIEW",
+          "seal": {
+            "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_portable_reader_v1/READER_MANIFEST.json",
+            "bytes": 135524,
+            "sha256": "0d04375563d1d68594cfdff622f4fe571edcaed789b158915aa7eb93e6fb7d60"
+          }
+        }
+      ]
+    },
+    "shared_inputs_source": {
+      "archive": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_batch_E_v1/SATB2_shared_inputs_source_20261028_v1.zip",
+      "bytes": 386214206,
+      "sha256": "a498c234f5fee6d83cb368b4015837111c1c463d152709fc4f8b481f3d3670eb",
+      "native_gates": [
+        {
+          "kind": "prepared",
+          "native_schema": "satb2-regulatory-preparation/v1",
+          "native_status": "COMPLETE",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/COMPLETE.json",
+            "bytes": 4405,
+            "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+          }
+        },
+        {
+          "kind": "composition",
+          "native_schema": "satb2-composition-final-validation/v1",
+          "native_status": "COMPLETE_WITH_INCONCLUSIVE_OR_UNTESTABLE_SCOPES",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/results/FINAL_VALIDATION.json",
+            "bytes": 146240,
+            "sha256": "759a7dcb11f5b8367bb6ef667e7f4459b1a6e48b7c1301c23fc5d569d2854a88"
+          }
+        },
+        {
+          "kind": "composition",
+          "native_schema": "satb2-composition-final-validation/v1",
+          "native_status": "COMPLETE_WITH_INCONCLUSIVE_OR_UNTESTABLE_SCOPES",
+          "seal": {
+            "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/results/FINAL_VALIDATION.json",
+            "bytes": 146367,
+            "sha256": "489238a9c467036944c8dc158d8d94752bf08bb957c252ba3b8fb3a1454a0f6c"
+          }
+        },
+        {
+          "kind": "cellchat",
+          "native_schema": "satb2-cellchat-final-validation/v1",
+          "native_status": "COMPLETE",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json",
+            "bytes": 21080,
+            "sha256": "c1dbdbe57c1606ab37d71cbf630905731bb630667038a25bd5ec0cd6bfd16683"
+          }
+        },
+        {
+          "kind": "layout",
+          "native_schema": "satb2-cellchat-layout-only-final/v1",
+          "native_status": "COMPLETE_PENDING_VISUAL_REVIEW",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/FINAL_VALIDATION.json",
+            "bytes": 24997,
+            "sha256": "e15002fe6b056c9efe7d02dbe3d137cd3f041fb1f4e26a1e533ab2a655abda92"
+          }
+        },
+        {
+          "kind": "monocle3",
+          "native_schema": "satb2-monocle3-final-validation/v1",
+          "native_status": "COMPLETE",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results/FINAL_VALIDATION.json",
+            "bytes": 56123,
+            "sha256": "475c75e1b0bbc89d5808f98c3626a6c91001276ff4abee1ea4f65e9a7ed6e2a8"
+          }
+        }
+      ]
+    }
+  }
+}

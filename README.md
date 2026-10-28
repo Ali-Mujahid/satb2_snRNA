@@ -153,3 +153,32 @@ license is granted to the study data or other source materials by this README.
 Hosted compatibility patch `atlas-v3.0.1` gives each compressed data request a content-specific cache URL, so browsers with older marker files load the correct extended payload. The v3.0.0 portable archives and all scientific data are unchanged.
 
 The v3.3 presentation controls add optional compact layouts, per-cluster placement, rotation/reflection, a clearly marked hippocampus-like schematic, reversible individual dot styling, and clean volcano PDFs without label leader lines. See [the presentation guide](docs/ATLAS_V3_3_PRESENTATION.md). Original coordinates, measurements, memberships and DESeq2 results remain unchanged.
+
+## Separate follow-ups — 28 October 2026
+
+[Follow-up results reader](https://ali-mujahid.github.io/satb2_snRNA/followups/)
+provides four separate sections for scCODA, strict DEG-only CellChat, Monocle3
+and the blocked scVelo input assessment. The
+[dedicated release](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/followups-20261028-v1.0.0)
+contains complete native model archives, both composition sampler families,
+selected input counts, original matching DESeq2 tables, source/configuration,
+reviews and provenance. Earlier analyses and release assets are preserved.
+
+Four of sixteen stricter scCODA models pass diagnostics; twelve remain
+inconclusive. Two mixed excitatory associations are relative to flagged
+reference clusters and do not establish absolute expansion of a named type.
+CellChat retains only original matching-endpoint DEGs at both ends: three
+primary lower-cKO full-cohort score associations do not pass the primary
+shared-partition FDR threshold. Monocle3 supplies four unrooted state graphs
+and gene modules; arbitrary reference distance is not established biological
+pseudotime. Genuine spliced/unspliced inputs remain unavailable for scVelo,
+which has not run. Mice remain the replicate unit and sequencing partition
+partly overlaps genotype.
+
+The small online reader loads some verified release-hosted media. For complete
+offline operation, download `SATB2_followups_portable_offline_20261028_v1.zip`,
+extract it and open `index.html` with the folder intact. This is a separate
+complete offline package; the small hosted reader must not be mistaken for
+its full local media. `SATB2_followups_portable_archive_20261028_v1.zip` adds
+archival wrapper records around that same reader. Native model files require
+the recorded R/Python packages. See [delivery source and limitations](analysis/followups_20261028/README.md).

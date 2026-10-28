@@ -1,0 +1,38 @@
+{
+  "input_receipts": {
+    "base_metadata": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_1/results/shared/original_full/nucleus_metadata.tsv",
+      "sha256": "27870a3eeb687c723c1dc43b75572097589ccb33cf49c03b6b8df5b69ad0cdd5",
+      "size_bytes": 89667931
+    },
+    "cluster_annotations": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/cluster_annotations.tsv",
+      "sha256": "a84fb3ef8121f2860c849146fcc991f4b4cad0a0b0b5376c5623b22bf4758ee4",
+      "size_bytes": 2453830
+    },
+    "nucleus_annotations": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/nucleus_annotations.tsv.gz",
+      "sha256": "e582eed6b1f6f067106107372ea9b3742c298659eb4e25ee2b0a8d806fbf70b7",
+      "size_bytes": 96196949
+    },
+    "runtime_contract": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/composition_sampler_strict_source_v1_1_0/runtime_contract.json",
+      "sha256": "9424cf978c6c1b2828e34507e7d155b5e0688e8e157a391c412f2a159282f255",
+      "size_bytes": 2450
+    },
+    "runtime_environment_status": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/SCCODA_SETUP_STATUS.json",
+      "sha256": "54c9887187281c7a1c5dceb02fd950c740df06fda9cdc24196cc381a1a9448a3",
+      "size_bytes": 572
+    },
+    "runtime_requirements_lock": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/sccoda_requirements.lock",
+      "sha256": "e6a1aeded646da4ca0305e4a6a4955f169b95dcaaf603926292b6296d916eefb",
+      "size_bytes": 21057
+    }
+  },
+  "n_mice": 12,
+  "n_scopes": 8,
+  "schema": "satb2-composition-prepared/v1",
+  "status": "PREPARED"
+}

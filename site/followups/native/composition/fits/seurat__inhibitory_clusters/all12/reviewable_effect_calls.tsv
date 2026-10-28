@@ -1,0 +1,21 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+seurat__inhibitory_clusters	all12	1	C1 · 052 Pvalb Gaba	5	0.0	0.47270833333333334	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	2	C2 · 053 Sst Gaba	5	0.0	0.4844583333333333	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	3	C3 · 046 Vip Gaba	5	0.0	0.48720833333333335	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	4	C4 · 050 Lamp5 Lhx6 Gaba	5	0.0	0.4674583333333333	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	5	C5 · 052 Pvalb Gaba	5	0.0	0.0	0.0	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+seurat__inhibitory_clusters	all12	6	C6 · 053 Sst Gaba	5	0.0	0.5550416666666667	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	7	C7 · 049 Lamp5 Gaba	5	0.0	0.48183333333333334	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	8	C8 · Inhibitory; mixed atlas subclasses	5	0.0	0.5084166666666666	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	9	C9 · 047 Sncg Gaba	5	0.0	0.48091666666666666	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	10	C10 · 053 Sst Gaba	5	0.0	0.478	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	11	C11 · 051 Pvalb chandelier Gaba	5	0.0	0.48070833333333335	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	12	C12 · Inhibitory; mixed atlas subclasses	5	0.0	0.47970833333333335	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	13	C13 · 048 RHP-COA Ndnf Gaba	5	0.0	0.48483333333333334	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	14	C14 · 046 Vip Gaba	5	0.0	0.49654166666666666	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	15	C15 · 048 RHP-COA Ndnf Gaba	5	0.0	0.49420833333333336	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	16	C16 · Inhibitory; mixed atlas subclasses	5	0.0	0.494125	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	17	C17 · 053 Sst Gaba	5	0.0	0.49216666666666664	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	18	C18 · Inhibitory; mixed atlas subclasses	5	0.0	0.5075833333333334	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	19	C19 · Inhibitory; mixed atlas subclasses	5	0.0	0.502	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__inhibitory_clusters	all12	20	C20 · 052 Pvalb Gaba; Microglia/Other_immune-associated signature review	5	0.0	0.4995833333333333	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE

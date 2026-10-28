@@ -1,0 +1,66 @@
+{
+  "schema": "satb2-cellchat-settings/v1",
+  "run_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1",
+  "Rscript_executable": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/run_R.sh",
+  "execution_enabled": true,
+  "package": {
+    "name": "CellChat",
+    "version": "2.1.2",
+    "repository": "jinworks/CellChat",
+    "commit": "a0d3b2d231d46c8787177fffeac908270c253747",
+    "source_url": "https://github.com/jinworks/CellChat/archive/a0d3b2d231d46c8787177fffeac908270c253747.tar.gz"
+  },
+  "preparation": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared",
+    "complete_sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+  },
+  "existing_endpoint_config": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json",
+    "sha256": "7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61"
+  },
+  "runtime_lock": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/CELLCHAT_RUNTIME_LOCK_v1.json",
+    "sha256": "288a5daacafef2cf7a3eb7599b7fa2f676693e80cfd5661ca39b4457d6fe3fa1"
+  },
+  "expected_mouse_counts": {
+    "WT": 6,
+    "cKO": 6
+  },
+  "expected_endpoint_counts": {
+    "CA1_Deep": 8750,
+    "CA1_Superficial": 11706,
+    "IN_C1": 1718,
+    "IN_C6": 501,
+    "IN_C8": 468
+  },
+  "methods": [
+    {
+      "name": "triMean",
+      "type": "triMean",
+      "trim": 0.1,
+      "role": "primary"
+    },
+    {
+      "name": "truncatedMean10",
+      "type": "truncatedMean",
+      "trim": 0.1,
+      "role": "predeclared_sensitivity"
+    }
+  ],
+  "native": {
+    "raw_use": true,
+    "population_size": false,
+    "min_cells": 10,
+    "nboot": 100,
+    "seed": 1337,
+    "workers": 1,
+    "Kh": 0.5,
+    "n": 1
+  },
+  "shared_partition": "23HJT3LT4_lanes6_7",
+  "gene_selection": "matching_source_and_target_original_DESeq2_padj_lt_0.05_all_complex_subunits",
+  "database_scope": "bundled_CellChatDB.mouse_protein_interactions_only",
+  "normalization": "log1p_CP10000_with_saved_all_original_RNA_feature_library_denominator",
+  "score_inference": "exploratory_exact_mouse_label_permutation_on_unthresholded_native_scores",
+  "output_overwrite": false
+}

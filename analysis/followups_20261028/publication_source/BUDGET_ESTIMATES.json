@@ -1,0 +1,52 @@
+{
+  "schema": "satb2-followups-archive-budget-inspection/v1",
+  "status": "SOURCE_PREPARATION_ESTIMATE_NOT_ARCHIVE_BUILD",
+  "maximum_zip_bytes": 1900000000,
+  "components": [
+    {
+      "component_id": "composition_initial",
+      "observed_uncompressed_bytes_approximate": 590313088,
+      "pending_paths_or_review_fields": false,
+      "compressed_archive_bytes": "NOT_GENERATED_UNKNOWN",
+      "note": "Metadata/file-size budget inspection only; no archive build or scientific calculation."
+    },
+    {
+      "component_id": "composition_strict",
+      "observed_uncompressed_bytes_approximate": null,
+      "pending_paths_or_review_fields": true,
+      "compressed_archive_bytes": "NOT_GENERATED_UNKNOWN",
+      "note": "Active strict result files were not inventoried or archived; twice initial-family storage is only a planning projection, not a measured result or compression bound.",
+      "strict_doubled_initial_storage_projection_bytes": 1181626176
+    },
+    {
+      "component_id": "cellchat",
+      "observed_uncompressed_bytes_approximate": 837438296,
+      "pending_paths_or_review_fields": false,
+      "compressed_archive_bytes": "NOT_GENERATED_UNKNOWN",
+      "note": "Metadata/file-size budget inspection only; no archive build or scientific calculation."
+    },
+    {
+      "component_id": "monocle3",
+      "observed_uncompressed_bytes_approximate": 331378681,
+      "pending_paths_or_review_fields": false,
+      "compressed_archive_bytes": "NOT_GENERATED_UNKNOWN",
+      "note": "Metadata/file-size budget inspection only; no archive build or scientific calculation."
+    },
+    {
+      "component_id": "shared_inputs_source",
+      "observed_uncompressed_bytes_approximate": 502128221,
+      "pending_paths_or_review_fields": false,
+      "compressed_archive_bytes": "NOT_GENERATED_UNKNOWN",
+      "note": "Metadata/file-size budget inspection only; no archive build or scientific calculation."
+    },
+    {
+      "component_id": "portable_reader",
+      "observed_uncompressed_bytes_approximate": 0,
+      "pending_paths_or_review_fields": true,
+      "compressed_archive_bytes": "NOT_GENERATED_UNKNOWN",
+      "note": "Metadata/file-size budget inspection only; no archive build or scientific calculation."
+    }
+  ],
+  "all_native_archives_expected_individually_below_limit": true,
+  "portable_reader_note": "Parent expects roughly60MB; exact reviewed package remains pending. All figures/tables stay in its portable ZIP; onlineindex uses releaseassets to preserve existing950MBsitecap."
+}

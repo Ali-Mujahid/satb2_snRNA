@@ -1,0 +1,3068 @@
+[
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_1/native_effects.tsv",
+    "bytes": 1268,
+    "sha256": "725415c01583edd3367819bacaf439a50c63adddf8aed5f96ff294b70863523b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_1/native_extra_fields.npz",
+    "bytes": 118819,
+    "sha256": "1f29c1b290a591716726e415cd517587ccfae354510a0b3ec87616bf214692df",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 2590791,
+    "sha256": "82ad862113b94f27463b03e614a1afcc1b21228ea2d9065f5a8751e34b239935",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 3820517,
+    "sha256": "a59b06d3f9048d30f021988192d66c51b2e30751f57ba9e815040e604c6a8455",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_2/native_effects.tsv",
+    "bytes": 1241,
+    "sha256": "a0418dbb5db114eebaa408b2f596718d2e493d7dcddbd455892b3a558df088fe",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_2/native_extra_fields.npz",
+    "bytes": 124677,
+    "sha256": "69d80717b49a31031465b6095d3761c9449db447a17f6cfd5e88b8cab36b9eca",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 2590792,
+    "sha256": "c83b2b2cd8dd9f3ecac9fcfbcd5738d126d5ec8201b12e1c024a0eb71fb0c837",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 3825121,
+    "sha256": "fe91a10a026c2b2606aa6171d3181d11aadbf98d40c16a1ad0d57e4d225cee6e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_3/native_effects.tsv",
+    "bytes": 1275,
+    "sha256": "7341b30d6775253eef5f5356ec2b8741ee0cf9cfb3e2affe36ec296f2a669572",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_3/native_extra_fields.npz",
+    "bytes": 125376,
+    "sha256": "5ffbf1c03c224fbf792633e07505f52db483d345e343fcbc35be1da74f88ffec",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 2591657,
+    "sha256": "28afc2c6400b66cc9a21d132bfde2b39335308631529e423a97dd7992c1c1e84",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 3826187,
+    "sha256": "b5a851c70e1ac6e96a31f915aab8499f3b427ae12f3da4578aff55b3aeeff318",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_4/native_effects.tsv",
+    "bytes": 1274,
+    "sha256": "b3b6264208422eb9b3040395f38726937cba5e6a38161b73c15724e8caf77e81",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_4/native_extra_fields.npz",
+    "bytes": 125776,
+    "sha256": "cdf9ed731130090c7fb9769544a9667d61d1be5fc83d022bf1beac8af14b7cd8",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 2590215,
+    "sha256": "1fa8bf933d793038463c66c83b3c7ad12519d2b801d541859ef9b0298084ede5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 3826083,
+    "sha256": "2662a1d9cd0be2b6ec9f0ebced77d50522e84a1dfbc21022007e669092d50a4c",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 17543068,
+    "sha256": "c8457d668d463fe4a436b64ef1f0fa0a35f04a1191eed9a7a07dc9176d431b36",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 1259,
+    "sha256": "cab927a0dcefd421d020dd255cc0df24ef93a11f5ef01ab6e25e01bb6f6b565d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 124843,
+    "sha256": "e66f21e10727d7d762317548691b6c00a8c668aa3286a905b237efd1e05a750d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 2583867,
+    "sha256": "b37b233bcc461f54391593106bba9280d4ddf749d138bf6b7b36ac2c9fab0c67",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 4203768,
+    "sha256": "82a8714b9f914cb0b78232a19a24e0573013068fb8dfed621977f39e427e230e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 1263,
+    "sha256": "70408ef9f210c00532c2ea2922626bb5ff3ddbfd16eef194506aa589320df539",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 118475,
+    "sha256": "653c2cf84db7084e9152f2a469fc6fd9d6213a7d01ea36ca8bb0403453ff5235",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 2585225,
+    "sha256": "38ffa855f75865b19aaba5f24f682b87534438c1074f327294142fe552067a49",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 4201689,
+    "sha256": "c79e691f4c65b3dbae05d8b6a081b39646d5815c1f4bf1d388116d0fce55f88a",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 1267,
+    "sha256": "a7ef8c9a24e36a4291161b3766301dae530d9f1661ad8745261fd9d5230921ab",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 118340,
+    "sha256": "73f296b93053f124a464cf95b1c097d7d880a14e8851e453f3aaa045a4067f54",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 2585130,
+    "sha256": "28e8ee8aa56a165e68bd011b8d02d76b73497644ddb099776124d76eed4f4116",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 4199055,
+    "sha256": "f75b26e4176399fb6f0ea4d98720c9c84e36da8c7575240dc319be3ebc7ed912",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 1252,
+    "sha256": "16fea7c5cb51196df11a02cc2b45b54529f777c5fd29eee0169ec4073f8af044",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 124406,
+    "sha256": "aa79bb1b7180fb1af2f4a9a080fcdb6aa9e029a451dadeea5991c878674f21bc",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 2585198,
+    "sha256": "934125a517f7c5756855e193387a1cac22335daa6968a797e7be2d819d78c308",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 4204568,
+    "sha256": "4d49838c45e9f0cabcc08d07b51a8e55d9bf95bee46d07a224661bb55cbf16cd",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__allcells_coarse/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 16087311,
+    "sha256": "12df54ad3d953b9605e6fd95b890f963373dcd31e8b08fbb3b2da7f1aa7c9c8c",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_effects.tsv",
+    "bytes": 830,
+    "sha256": "8e0e4931ece0116b5d73b27ab56a94e3f443b62b0bd08a62f8d288a4b65b1150",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_extra_fields.npz",
+    "bytes": 126865,
+    "sha256": "adc4a5b3b23ae252e6232c38ea8f329f175e70f4655a606b24c2403d1ea210bf",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 1193214,
+    "sha256": "ee144cfd767a2ab356d899d27670fc7b958c73b78870c90ab26dcd7ec5e5d5d0",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 1967417,
+    "sha256": "4d21805f53342104f9380e27144148a6993a9ea60b826b1943edfd5f359226f6",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_effects.tsv",
+    "bytes": 832,
+    "sha256": "670f602f6d86bbf829225d0e819ef3623f098af32677aa70a56b3fa7c7930453",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_extra_fields.npz",
+    "bytes": 121297,
+    "sha256": "2308698aed827d34d73e3f2554f10b7afd26ea04beccb4bf6ab26e78d066bd77",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 1193143,
+    "sha256": "33bf948c9a400fc3031fe1b9c4ec4697090874928d40268530cbec07bfd1d0b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 1962504,
+    "sha256": "cff9ed3bc8faf869f39e4bff3f767f58530da552e1867e832ea3056f8bb79324",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_effects.tsv",
+    "bytes": 825,
+    "sha256": "7e374d999165895ce1592656dcf11b3d0e823de63a1146b6a9ec00cbd7ce4eff",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_extra_fields.npz",
+    "bytes": 128955,
+    "sha256": "d21b3948bf81d01e32fb5150cbd909a216bd5d0ea66ed2847c79c6c74db9bb8e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 1191480,
+    "sha256": "ab0b4da8b50b77d5a2fa049fac3b9de6d8ff10937e1799ae5992fb9256ee0b47",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 1965073,
+    "sha256": "1c04940b7ee076e7df3a04b946e633e36a9f393f8855932266b6ec6c8f58a165",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_effects.tsv",
+    "bytes": 823,
+    "sha256": "9b3748fd4e3df243820c6c98984737d3a9b07c3959cd5ea2b7fba05b8bb83fce",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_extra_fields.npz",
+    "bytes": 125130,
+    "sha256": "ab0c736a1ec61b857b3753e538912e0f1625eb315f2de369c863a7a927a77bee",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 1194236,
+    "sha256": "6464b51ec1852bdfda629c21155b79ab1447a790cb691acd55d13edb0fc07b73",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 1966174,
+    "sha256": "0ea621dcd1892fa827b96718c3e84f254c148e2271310ef6d9ab97355ff200c9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 8798681,
+    "sha256": "c77b169414dcf31e4f753a0ec05b7cb9c6d03ca7ffbe3148a6f40463aa29f767",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 808,
+    "sha256": "cb80b9403e09cd09585a066b3e0d57e3ca71cd701fadb36193ec8dd1366e4cd3",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 125873,
+    "sha256": "96cfb9cccdaec5b13a903ba4ddbfee70fd69c8c0e7686eb7acc0bae2e24f2476",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 1191584,
+    "sha256": "7959aae6e920f7bb5f6d8a45ea4eb46c9c7dc8d5572af71b869c86846e3e6cd6",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 1793147,
+    "sha256": "e160b5025116517dc5066d8cd067b7f24675200f26e1510fe58410b5a0285204",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 828,
+    "sha256": "0a78b019c4ec3f37223443a550f1c1470fe7eab20b7f5dbf40b622a97ee7713e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 126738,
+    "sha256": "aed0571ada1a3437563271e7e80990e5ae8a5260bcc4d9928237dbea806a1cb9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 1192700,
+    "sha256": "d9072d16cd23ff7360d0fa6d252ca0474e548b76c8783e174e1a156622136e61",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 1793093,
+    "sha256": "838f8a4d5fe528582de4ddf5bb74f017a75c2c00352cd069e077f27a7ade41f2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 827,
+    "sha256": "f4392e8bd4e25f5ecbdd40c63bd2662abc5e6d5dc2149f190cb32cea72b451a5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 127895,
+    "sha256": "937f9bcdb74c750ccbc26f0782e9f3bc7a1750b02bdc90b4b44f29563017703b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 1191285,
+    "sha256": "182d89821642f029850faac91d5c6167f21f9d2a8dec8c008427aac8cb1a0aab",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 1794098,
+    "sha256": "ab2ec40a981e6f604d38b281139b1a2bcfbb487d2087cbb95bb3895ae8031019",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 827,
+    "sha256": "f4be00439d155d4e0325e45f5831ec784d6a74dc05db8636b695a6f59267af7f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 127521,
+    "sha256": "caccb43908fd733f770cac8779f74131e99e6d3a879a07c48a020638cf62f899",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 1192732,
+    "sha256": "412269b48a5672d11d2d644746d7c723104a62f64008a666d389c1a2ee2adf1d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 1794405,
+    "sha256": "a85f619ff172cb71cf3e566db44f124b2311b1df306bcb3227daef464aeffed5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__ca1_layer_programs/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 8135206,
+    "sha256": "5af81a281d1c6416550fff03ccda92a20fc2efd68b1066601014c46a625159fe",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_effects.tsv",
+    "bytes": 2814,
+    "sha256": "69926882c6bcd3ee872adc4c624694bc0940cc21927111389b3a30e9577dca46",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_extra_fields.npz",
+    "bytes": 121627,
+    "sha256": "cb42b42beabfb63755b5d5fc0f21c0189698b769cc8b527acd78c8a8f681b354",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 6440741,
+    "sha256": "bc6c577fe96deb369c923da24aac7668f29d7623a5a67f86df1991a39ef4e3fc",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 10745543,
+    "sha256": "e584c3a3ac981348ce909e1759c625843c49a4f4d12a1c922b18461a7e2b7080",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_effects.tsv",
+    "bytes": 2731,
+    "sha256": "1a9b24020fb0304bc2721cb9223d23c75df0f87d828264d8e5564227f447fa3d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_extra_fields.npz",
+    "bytes": 122082,
+    "sha256": "23c99ee84d20059a68d1966f501c111a083f28dbc77fbb716b5a3dad81890160",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 6443324,
+    "sha256": "a4de9e17ac58829ce25923b1e241abb9f1d7dbfe9767e2b588253a3c60874277",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 10746736,
+    "sha256": "0dd19ac2d7bcefc4d63556a77b62329c290a8a3ab7ec5c6b704d4b5d2b7d6c07",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_effects.tsv",
+    "bytes": 2716,
+    "sha256": "b04c45e896250b6632e482f7d636d72e90ad9be3280250c0cbdef3fca99d5540",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_extra_fields.npz",
+    "bytes": 124914,
+    "sha256": "04b6f2f60d66f40be04f4ca756a93b11ce6578e645bea7946012f3b16ff297e0",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 6443879,
+    "sha256": "6a35c3420d220936a2a9829d60f8ec2fa3df3ca9afdc7296244fe18b109ac360",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 10749230,
+    "sha256": "b36c21c35dca6a74f7b5a8732d6eb41a3a8200cd1e6aceab8aad904d1bf0f5c5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_effects.tsv",
+    "bytes": 2746,
+    "sha256": "f51c144b62e9a36d96cba35e216e5f138b1598af8cb3343f9e2dc550e034ca8a",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_extra_fields.npz",
+    "bytes": 124990,
+    "sha256": "19e5f9bf77fd818d67e7f705544db59c685077dda71a97ff3360a1a4db545be5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 6442553,
+    "sha256": "80211956f780ce8ffec6c2fe6c3af0e4090d88b2c7000e39e137e10efa906d3f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 10748647,
+    "sha256": "bad665ef583fff57ab57347ddcedd9069b820216aece686dcdd34a6aa989b76d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 42373706,
+    "sha256": "6170138e0f8c7bc91f6ad87ecfb63bc8cbbcfb953ab6dfe3dd3845782658b438",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 3101,
+    "sha256": "7feb19f290291f74882d24defc27957f1c5ffb1979860c833374da62d878f2b4",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 123940,
+    "sha256": "fb5b806167a506880fa3d8d90d79043fddcd27ba4adf276ac445ceb693288472",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 6426213,
+    "sha256": "5ee2185515c92b56b636d889f81f66a5c6c073f5817198b12346ab3def392fac",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 9822833,
+    "sha256": "1d890709d7bfeadf0017a2bcb0548910bb15552d32d89753182c3423d26b7039",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 3061,
+    "sha256": "cf95a56f9aee2e7e2e057a1c9f821a9d6f429c8afdb00a9bb38d6a9dcfbd820f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 125283,
+    "sha256": "652a2525d798351a7ff78e9cb40f60fc78026e22f1802c2036c8701e8b41e330",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 6425950,
+    "sha256": "6d1d1f408cb12d369bb3709d6090f80797d527c21d1274166793c25593a8aa45",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 9823122,
+    "sha256": "9bc0ec468b1bdc10570dddba560b1b2e33eace829ed682f6a7bdde6c2c9d7382",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 3074,
+    "sha256": "05c9f572ab9e9465cc8f1689869c7c061115557de9055bb31fe2bc4a24cc9d75",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 123365,
+    "sha256": "a9c5964754b215839506630ac6779dfa27494aff04ef2fc19da6ea8f8d82da77",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 6424321,
+    "sha256": "57f00bf6007855e1e1453ce368bd7b8f02336b6689b060f64937da9e599f2b13",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 9820698,
+    "sha256": "3d0c10884d92e0813f9d1f88836c811349696aaf543c6ac0e53b451c17965250",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 3088,
+    "sha256": "bdb363533ec38cb5ec5150fe20281892746287aa976c0af4fc0a86268a3f4f77",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 124879,
+    "sha256": "a0eb0fbc64aeb0f4482c632b22b25f8b914dd4dbbeec86c8d5fd0b6316b4f492",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 6426758,
+    "sha256": "a1d16e1f2e22f6eb48ed7fe9fabcad643e7fe6ee4985cd317b6c69d519a2dc51",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 9820832,
+    "sha256": "f62cb00ed1401787bbcf6d16d7c8d50d77ea8cec5e14ed8633e4770bc9c4e243",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__excitatory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 51653367,
+    "sha256": "6221ab2c18a979b47be354eeeb576ac6dfd3e883bd80cb84ee14dee7a67286f2",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_effects.tsv",
+    "bytes": 2476,
+    "sha256": "57167d4ef2b17849798e85db71c9a28cd7200d02eac8819818681594c29a62f6",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_extra_fields.npz",
+    "bytes": 125740,
+    "sha256": "4c8c706aaf6629fab1cefe5da770f8427e6f728d28b33ea5f0b286a26fa00941",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 5737694,
+    "sha256": "eb5cc60d4785073ac796b0dfcd8803d2ef8f94b1fb05f94fe54baea90bbc7fbe",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 9611747,
+    "sha256": "b21c63e75c49a1ad727190c111de9fdef110e0d6452431c02640e56be44e3441",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_effects.tsv",
+    "bytes": 2468,
+    "sha256": "e351aebee44430dad3489da87135c17eb183a762efb9380974242b50469d1d60",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_extra_fields.npz",
+    "bytes": 122488,
+    "sha256": "0a3306e067cdf178fd9b6dca82f5f1fc892d717fa791a3bfe0f70bad5674c0af",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 5735828,
+    "sha256": "cee0b8eea1aeaf5ffec6abe87810d052d44cbb7826729f9379916912ef0abd16",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 9611150,
+    "sha256": "d3513f6bbed9238f96cc9bc117f045491fef57621b84343124b08d6725278213",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_effects.tsv",
+    "bytes": 2428,
+    "sha256": "dad75f7e14d98a5359a2675355d668ea01ba053a9f629892e1e461ab05205b06",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_extra_fields.npz",
+    "bytes": 122461,
+    "sha256": "449139e2ff3458123727ddddfbfbef295dcecab365528ff71daafe25384fa50e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 5734241,
+    "sha256": "33739da40e6db06bea236854ba4dfb5836f7a0a2e22bec3fe71e9bd0312cdf67",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 9608142,
+    "sha256": "14916ac521f57457f1c43f189fce9e78d9a66594df8ef778de7501f50d349e79",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_effects.tsv",
+    "bytes": 2512,
+    "sha256": "4cd92f96f71c79212fea595f813043b4c46d2efbedd630d40d5f53d39ef54ca2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_extra_fields.npz",
+    "bytes": 125503,
+    "sha256": "a963885ce308ca3b4f8865a328b57f7beeb8f122eaa4766e20c1fa0c9076ba9e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 5734309,
+    "sha256": "fd820e3d994aed69e609686736f5773f785c39ddb1fe0db0cccd77ca9e695259",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 9607496,
+    "sha256": "b7e6551c32373095d2b3e5ebafd8c8ab8fa0f8ca3ebb98072daabb1ce2dd5028",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 37855657,
+    "sha256": "fdd572e1aded5391f6d9ae67f661ba20e95db457134b1dc19bc5a745358e827f",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 2393,
+    "sha256": "2b91dcb8978f64ee995b06449226676282ec2a0ab5278432db9dc4d1107fbe3f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 124572,
+    "sha256": "7feab306b97fde54b0d6f59d349df00389e803ffa11d214e06d797a447bfd11e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 5722397,
+    "sha256": "c2a8265f9e64acd86b8522079b716c3f2a702152aa46ee1ef1b1e957be6bdff4",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 8802872,
+    "sha256": "803329502c3254089d4720f088d14e009ef0521a499e6e5224baafe68abc1090",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 2469,
+    "sha256": "f8cfdd727fb875d9f717be6db357ab7f7631ffca3c9e8f1e8f52d23204d2b5be",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 115292,
+    "sha256": "8f77eb93cd37c93d5171b03308788ce154ccba49bdcd3d030256e3e5427a8524",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 5720551,
+    "sha256": "ffb5e796ec52423cfa9c525130b9e5473e9b9ae78da971c3ee7776b81df7933a",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 8792634,
+    "sha256": "6f912462f47e5d52ee82928de3c03be2227edde9d2f7a731ef8ba39d98865456",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 2473,
+    "sha256": "2fd28491f40956da4d849a090fc8a6226f7c76172139b30d9b833c50abdccb1b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 122093,
+    "sha256": "501cd3561e81ab98d181c41e247ff0b6d09ccdd829128d9750603047aca061b5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 5722583,
+    "sha256": "20e6b8b187883f56361e8948efd57d242d170a7c7e0215524cf0f2cb71ee2f29",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 8799262,
+    "sha256": "b70eeb13b493da1f011c7752c0c8f49c1bbf1b99cd5c7d0f5b18fae95a570b9b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 2505,
+    "sha256": "af9db9e4944ec47bb07952dcfd01ff64746b281a6b78d98f22bd4940e36a1942",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 122158,
+    "sha256": "b522fd19c58724d0716ce3ad7c589aad7f4003bce08a3f2c61dd238a8ed8cc29",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 5721192,
+    "sha256": "96547d79cbe0b6d3adce9fc81ca0ce818427cec3b8dac315474a907f4191be00",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 8799251,
+    "sha256": "35232965ec6b8ec18b67d00993bb37526d46160643788b6e5d9d35824f316b8e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/scanpy__inhibitory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 46192139,
+    "sha256": "146972b5aed9344f86d067c8cb917fcb484f501d3d911eb1c888fba0734bfadc",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_1/native_effects.tsv",
+    "bytes": 1290,
+    "sha256": "723cf676224d5d22720196330498790dbbe1669fbe138706963ec8d7e43f1b1f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_1/native_extra_fields.npz",
+    "bytes": 126228,
+    "sha256": "f9cab2ebccd615f3b7a313c8b3e1ef7a3e186020bbb827aa99b95828941270cb",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 2590127,
+    "sha256": "d62eff97f45caec9bbc9d6c60559b740bfbe615ee0f16434ecf11cba616b5370",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 3823794,
+    "sha256": "675040fc600622f6de4ab99c97d891d5f598fe974d4925b422a9c6ac606c9d22",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_2/native_effects.tsv",
+    "bytes": 1267,
+    "sha256": "081a09538e4f4b76d6f4ddd670b54928c1882c34f3d6bbaf7f26bf71901ce383",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_2/native_extra_fields.npz",
+    "bytes": 122767,
+    "sha256": "31c8597270db9a3c85ea59f6ad8fa790979b5b48d5480cdbfc75e1989b19bd25",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 2591508,
+    "sha256": "49ab39c974aa34f9a03a03aa0232a2a7d6a571ee968813b697ca3b9ad4380f47",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 3823940,
+    "sha256": "74a60c1533b957ec8a36e02bab385c84c9e1e718a58c1be16b0ead1ef486d36b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_3/native_effects.tsv",
+    "bytes": 1262,
+    "sha256": "8f2ab6170171835d0393a2fd6628dde025b07041f63957b7d942eeb43eb6d228",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_3/native_extra_fields.npz",
+    "bytes": 125311,
+    "sha256": "0084e11721674314fa01ad7dafe093f8436d44d504ace6301e206b28c82e2469",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 2591115,
+    "sha256": "4a050e7ea1d4d4421620866b94ccbb26be75631a1d681d693a2fc8e87ab05e54",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 3825557,
+    "sha256": "1861302e814e60f71acc9d32733d14eaab2f0b89396199d3a93224fed3bad7bc",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_4/native_effects.tsv",
+    "bytes": 1231,
+    "sha256": "73e1bb6528a2722b75cd040c14283d6131a4aed6e6b45f93ba3cfc8f058eb103",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_4/native_extra_fields.npz",
+    "bytes": 123832,
+    "sha256": "3ef5488f24e9bb267e0550caf74307252c96f40381dc571bb3d48ed28ac990cc",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 2590557,
+    "sha256": "fc9dad275bfd6cf203868076952b9fb67afb29db8eea673ff96fea4322e0922d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 3822722,
+    "sha256": "e666e6d4e85d3f83fc1941a9cdcd7a4c992709ac415ecb49fa43e042eeb7df97",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 17554244,
+    "sha256": "7d5287c4de91719b9a74b24d09371df6c738ab7959ade3ee84cc95b384ba0f88",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 1281,
+    "sha256": "ade0fe7f644c0268b2fab2c2b99b8c26c61a4b27b8e6d9a81373b02c78a844a1",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 125578,
+    "sha256": "dd037d980db50b1013d27d9470de6e1f1ddbcd600a94d70c43898f6c2c8a5644",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 2586526,
+    "sha256": "44de8ccd75f334eb79a5678c8a0c0c91ecc20619d2a8b49f0127b3b43862a012",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 4211011,
+    "sha256": "9f3d39196528a888652847971e1fd17eb6cf3ab0f102bc9d585e352e18f89f24",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 1266,
+    "sha256": "50915101c6bb7c95c28044d4434d9af51437d71049da5e7434b155f2a9437cdd",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 125846,
+    "sha256": "7c79f833987c8bff46dd9df16f75ea6657e4a4814f931bc5cb7298ebecedd7a4",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 2586214,
+    "sha256": "86289f34926810c766ec95698490a1737e1f64d9e447254317880f3977c1012e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 4211006,
+    "sha256": "37857bc2492ad2439314ae774f9da3d1cb22edd6888919f5a7a1519fa9a40bee",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 1281,
+    "sha256": "9b03cc9798eb98074c568eca5ddf7586b2deac1c03904c2075ba790ffa1ada0d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 124524,
+    "sha256": "0aea6e13753a017ff1a1382d42b3f494b6562b1873636bfcae5fdfe57c2cfcba",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 2586104,
+    "sha256": "4da6d82baf6667ab22e7e395419ca3f4f578a8b9dfc136a0f06436639d89eeb6",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 4209667,
+    "sha256": "b47d744d5ed75181203c2c560563f8194454759a7a9a9908ccfcc24bc59c2dbb",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 1265,
+    "sha256": "803d1f2c842b00ab2ae2bcc1877e2c51562a031f6ca263fd31c4529a8ee8f7ea",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 127021,
+    "sha256": "e1dcdb5f88c3fb43fe9f167165707c0c0888e179afca6a0b3e91e2ea68f317b5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 2585738,
+    "sha256": "191eca1ce0037cb9dfb9697a9ce7cd85a24f258177fb5bf5219fb23465e954b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 4213697,
+    "sha256": "b320dbe944cedde828dc4985a1fa058befd93113a429710f7c334b3c8f95adde",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__allcells_coarse/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 16128803,
+    "sha256": "63c30e33f4b4d3fbe066999dc1e08bdfec85264913b2b71a36289e3829449e92",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_effects.tsv",
+    "bytes": 836,
+    "sha256": "cdbad314a6d3d5b4fd9e3f06454d4c5da219e899e95410944eef07e333600029",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_extra_fields.npz",
+    "bytes": 126499,
+    "sha256": "e14d77c94a38b3a0ff34c622c4944c04eca73298dc3f9f34ae326bf93bab2e3d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 1190803,
+    "sha256": "cd3b127ab09e514c058b41451c686249cd9dd38fb62480b393e50ee0770cef65",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 1959084,
+    "sha256": "e7d5ecc7165fcb0594571430451299fcf7239cc2ab02c12911438c63b12411d0",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_effects.tsv",
+    "bytes": 918,
+    "sha256": "016d93633f66230cb7ed2eedf50283f514bd61c23fd1bf48c582d4d9c96463ab",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_extra_fields.npz",
+    "bytes": 124931,
+    "sha256": "ec4d046ec20968a45b5c28dedffe88576986666fc191d960c437e17f9cf05b84",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 1191696,
+    "sha256": "7200a8fa64c3f89c079fc2097654838c1bc330ea040d71b59d65c78975c7fd75",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 1957872,
+    "sha256": "2c420e22d88dbb3d9b005e472a5c582a1883b64cea1a609d7fc2d7e89d1a700e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_effects.tsv",
+    "bytes": 840,
+    "sha256": "e71fd1048c88dd780d86f8c03d72167db2f4d1d683c9d6718bf01bd1e321ddaa",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_extra_fields.npz",
+    "bytes": 126410,
+    "sha256": "3550f1dd8409db29aea6ef773982acd2d80c4d79046175751f4e1816a8e6d296",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 1191243,
+    "sha256": "360ecc71bf23eed211715151701e8fa554f0f81b90e7c3018bcdcd18145e15c3",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 1959432,
+    "sha256": "a18498d39fa0d35b08280e2b1efec8849a0b61f07515e6b09b8f8902926f0565",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_effects.tsv",
+    "bytes": 826,
+    "sha256": "865342ad03d43eb1ae93a9563deec3cbf0551c8c0657e207492f7ea07f207766",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_extra_fields.npz",
+    "bytes": 126641,
+    "sha256": "f339d52be9a3771aa3c42a60d1e9d64f7803dbdc3af7d489eb151678766f15fe",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 1190618,
+    "sha256": "6a0c3f058debe390f9197bae64ddad25bdd3b0ca117becd4cd6f581d70f41080",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 1959893,
+    "sha256": "a09e053029679efed34420bba1d769c93af7ac85793d2b2a55ca045fd1f3d7e2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 8772066,
+    "sha256": "95d0c2f9dff3f04bd22aa91479dfc0b14697432addeb55488cbb5faad0ca6352",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 813,
+    "sha256": "8defdc82712eb219dcefe48b3f52d3e310684b043c9b6ef6bb68cc938932f8fc",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 128779,
+    "sha256": "c0f8eb6694be70ed63eefe4527e6617eed5d927d4e124eba28136a57255224ec",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 1193159,
+    "sha256": "4dfccd0ef51d4629e9c5862052823ccf00c38fc4d187c9e5e7887cc819aa20d5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 1786799,
+    "sha256": "3b02a1b070b5bc9b998d53e890da6dfbe35cb10fc62ac2e702674c2cd503363c",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 824,
+    "sha256": "06c20914d59fc5ebc311581ec1c0342744e9596c04005fdcdf3a2ddb3611ee66",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 128861,
+    "sha256": "b137efb3475f07c021a81dd6f89dd56960dd90967b883ee7f514b8541d605d70",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 1192415,
+    "sha256": "1da22821d9b0b1e4fcda6c913f09848f3033a26535bd9b245d9927e42b949981",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 1786477,
+    "sha256": "e642339484d6380ff086ab5b927f72c3be5e491e669651b616590fa98f3f4892",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 839,
+    "sha256": "ec39ec9881e86a9d5c95020de9cd32e72f6eb50b94ac564074b1118237c6a686",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 127290,
+    "sha256": "f5e7e7b470cad4d04622814ebca62f239bd52eccca36f05fe1d30867602ba86c",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 1191809,
+    "sha256": "cb820fc05801d06e2e6475d283b189d4454f7b5e2ea632ca15cf567251dc90c1",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 1785010,
+    "sha256": "8ea9802ebc401fdbb46913c123befc20eae121f735a6c7e42b09e8d0827bdce9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 825,
+    "sha256": "8c999c7c69e9027ae8a2deda3bf7c947a647539c70abb164b2720861ec5e579a",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 125209,
+    "sha256": "79deab3b284b48aa1c89cb6d5b538dfcfdce4bda084a6587698b0c2c7767115b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 1192567,
+    "sha256": "20f973564b0bf36b5d1078431fdc70f92f4a5e697ffba66ebe1ded4a420d08cb",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 1781960,
+    "sha256": "666c52dc9c53d366b6fdf9158bff354148ff44a8b1a1e43d2e4a616ba0410ff4",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__ca1_layer_programs/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 8100855,
+    "sha256": "d96214e7ceacfdd60a518d78f7eb59bcf9cd1853d443798e6e0edf4400c2f1f5",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_1/native_effects.tsv",
+    "bytes": 3285,
+    "sha256": "38f816c64ca904cae313382e4bb5a00af58b61701f69e2d8006e80d19eca008f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_1/native_extra_fields.npz",
+    "bytes": 117492,
+    "sha256": "89811dd1b6b32712692f918ebfaed700cee032e0eb02a46123fe699ea1c5e152",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 7851904,
+    "sha256": "a2555dc537735990987969e2c4344c82587f72fe2bb8ee857de5411380474eed",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 12929802,
+    "sha256": "6c1244906f18b2fc1b960fc5a27c7ec3f2da440e219f03fd305ed01c347e38c4",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_2/native_effects.tsv",
+    "bytes": 3253,
+    "sha256": "8c253925854fc82d4d45ac27c8a583c233c4b81c3a031bb36b8dcd3b6fb11192",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_2/native_extra_fields.npz",
+    "bytes": 123581,
+    "sha256": "bdaeb5896b6937dffd63b310d0b494857b5118896bbc7a32845b91735599beac",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 7848627,
+    "sha256": "2b28c3b10c40117f65b399a260fc31c4e662e9be907a8122bc76e2bfe7e55c6b",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 12931013,
+    "sha256": "0d461249f76bb7b52f48c5f310ae25cffd3a86839c4106feb3ccbd7f315dd1bd",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_3/native_effects.tsv",
+    "bytes": 3308,
+    "sha256": "fd64e42966cfc13a2144b7e8cb33de8df58fdf79b87817b2c3859c2ccb21a8e8",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_3/native_extra_fields.npz",
+    "bytes": 123437,
+    "sha256": "cddc17fcfdf67c2e05bac66ec94d4a901ee72fb74e8e03e8a1059b005ca629d0",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 7851961,
+    "sha256": "14ad876472344e59372569b7a3cb1da3770af528f84e22066be8c4909c45fbcf",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 12935429,
+    "sha256": "8d4b03ddcb2f2e8e3bd1340dca7dd3adab7f78f0666f44b7198c1bbcd56d3933",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_4/native_effects.tsv",
+    "bytes": 3303,
+    "sha256": "0bc493bb963aa01a1c6f4c8d6c618331f6f34d9d5bbe03c48ed56c46cc945056",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_4/native_extra_fields.npz",
+    "bytes": 122360,
+    "sha256": "10eab8642cc0c38de92fe49290e7d906b58255bcc157505611b7e39a8b47bbff",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 7851564,
+    "sha256": "4b977b626cbb05db212854ce9cebda04f841df50e2f7fe4d52c738dfb452e713",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 12931960,
+    "sha256": "2531da7809296396d3e13ce32ca3efbea19215646098b968d81e62bd2271bff4",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 51123186,
+    "sha256": "f3b5ac3dd1c4a9f9ffc97d8b3499b146f1e76633ea35eaf56ce0642f3f35a92d",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 3752,
+    "sha256": "aba6dfee132f04ff79abc2d0bdba036fa06ed68837de6afce722e199f3cc3806",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 123714,
+    "sha256": "3eb98770ddc84955450c9cc39e11c81d1f8c61f744d92904b4dac3657f271e44",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 7822725,
+    "sha256": "ce083d815bd0fb58b24edf6f8d86a948b7a8aa5abbceff4bb7fdb16d6bd314ec",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 11838680,
+    "sha256": "8b3bc55e0e77a936276a3f79bcf9327f86efba48897e40b0403faa4966a4da8f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 3715,
+    "sha256": "14321d52241bdacca6e2273cc747294240c53c1901511cc839e63cdf8e4ae979",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 123386,
+    "sha256": "d745433eabea2f85cde566d66b60c91d1a4c1d05e3cb91fb6874c07e3e9d0b3f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 7825133,
+    "sha256": "141a79580c562c04b219c29ea9b7cdd3b707a6a6ea2c1dcd771d341e9bfc8de3",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 11844314,
+    "sha256": "21b5cfadd34257a2c8a5aff22e0f4b3dc4ebb39c99cc0e687f0b1158e8275d00",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 3699,
+    "sha256": "ff569b80037c6e9d65a40ab0036882971fb981a9888514b3a8ae999fb7ad45d6",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 124346,
+    "sha256": "5eab484295e7c31009a832ac85e808057e51b9d27f6262046b29f95ba7ae0f88",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 7823629,
+    "sha256": "07b7a8bff89dac4c75f83573c9876ed934ff1be2e1ab822c10c09d868c13997e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 11842808,
+    "sha256": "2e9de9e0aa2ac13b38f4056c273aa82e56e7f9e00598e740c35a4b3a9141133d",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 3689,
+    "sha256": "95a6f034666ba4a93901bbeefc854261840caf6b7af761e2b43ddfc94837fd4c",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 123826,
+    "sha256": "0e28595150d3c932ad5dd0355f527467f9eb976d36fe83493aab7cbe75e959cb",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 7822421,
+    "sha256": "8769d565ddf176c169e0051e8d3da4dea083081114b59886973d2f78ec929d22",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 11845482,
+    "sha256": "914b29946512c5cc0a22ecc3d832bcdc74838db40b037a57439d4e5a35391216",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__excitatory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 46765324,
+    "sha256": "f2444fbaa89106ad5c862afdea7f2b337385987cc448770ab26ed1b4643d9029",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_effects.tsv",
+    "bytes": 2927,
+    "sha256": "09ff4c25d93d245dde438cf2690805cd045ecba1ce47438f311efd429a254916",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_extra_fields.npz",
+    "bytes": 122186,
+    "sha256": "0423493affbb91e7cfeb4264ec258345e723d4b54dbaff0e52a985ddc6ef7894",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_posterior_draws.npz",
+    "bytes": 6784775,
+    "sha256": "95f690d05b115a7e7d7c2ae6430ee657430a3dc0da2a41103af2fc0afc03836c",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_sccoda.h5ad",
+    "bytes": 11269456,
+    "sha256": "18293a304f6415938ee1c17a8851c0ed024f06cef699b92a7a11f3e800c58577",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_effects.tsv",
+    "bytes": 2857,
+    "sha256": "5f9fb887906bacbba40cd833cb515e9d44370b8103092bcf9e56f337f5449e21",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_extra_fields.npz",
+    "bytes": 125538,
+    "sha256": "6a7e6b3e4c9cbb0fa56488a0f484b3cc7135ab4866aa11d6c3b837d426e100dd",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_posterior_draws.npz",
+    "bytes": 6785275,
+    "sha256": "87d7b5d4d3b18fbeaf373e201d097f97750c6c7e12c2d7d4a2083a4ac880d57e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_sccoda.h5ad",
+    "bytes": 11269806,
+    "sha256": "f732d57fb058f1c0a075f874a48c1c67cf8d16193ac1eb55d38bb2f3d2032069",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_effects.tsv",
+    "bytes": 2949,
+    "sha256": "f4a60c32b1ca27b6ab4e46c3507cd9967fc2ac323a5eb1ea502faf4817f2de75",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_extra_fields.npz",
+    "bytes": 121982,
+    "sha256": "acae4d5899b9773d0182c253f318b1f5dfceb18a7e7b66823751dc996bc87eb7",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_posterior_draws.npz",
+    "bytes": 6785908,
+    "sha256": "98cee4398b279d6c68efd3317db5b362c6a1397b09059ba35b310bf4860adf2e",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_sccoda.h5ad",
+    "bytes": 11269737,
+    "sha256": "fef20592f9fc90f2370483c6fd1fc04fafa8c255c4e44f103d933d58d19864bb",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_effects.tsv",
+    "bytes": 2959,
+    "sha256": "72a87ca583b659bf22822b418adeee836b303a817b7b07ac260a1448e700d025",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_extra_fields.npz",
+    "bytes": 124095,
+    "sha256": "5dd359bfc091df647968a55966ecfd7e275cae65c0da05c0429fc3ea201e3a96",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_posterior_draws.npz",
+    "bytes": 6786997,
+    "sha256": "f6b8f9c68b577b1fd29af4cc4c60e8f8e6c34d1ea5c12fe04ef011263b3b2ce5",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 314,
+    "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_sccoda.h5ad",
+    "bytes": 11269204,
+    "sha256": "d2fdae2b6fe218f60b1f7b4b2cbd1efceb00be2c7f01197c3557666830cf9199",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 44473904,
+    "sha256": "d78e2da4340138c7634415f6da46c194c786867bff58a09b75f7c93f8df1a27a",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_effects.tsv",
+    "bytes": 2865,
+    "sha256": "e2692fc5b74356d5acc688861c31fe51a7e2cac2d905f98901a916b9bb89759a",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+    "bytes": 125987,
+    "sha256": "802c0278eee8f2478fedd03444a91ec0481059d49bdd4060040f573394ea3bb3",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+    "bytes": 6762943,
+    "sha256": "1f61fe6ebd3835f4fb371d583368f3f066d5f3a647756484dff6ba1bf6207829",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+    "bytes": 10317621,
+    "sha256": "e42994a340aeaf1189dff599b9af958926d4d5b86a7f362108b7093a0002fb2f",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_effects.tsv",
+    "bytes": 2897,
+    "sha256": "148782723dbea0e3149e95e43adc49e49707533092b3b8b2da38486279cfb8d8",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+    "bytes": 125661,
+    "sha256": "dfc3857bc20da21307fd0380e7506c4062531269a9c873f54370000781652e79",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+    "bytes": 6764355,
+    "sha256": "cc288219b0b6fb701e7d23ef001fe3c471584e5033c41b6fc76f9d4e4dce01cf",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+    "bytes": 10319323,
+    "sha256": "f6e6ab39b247bb336647f13eef3c2fd26046d18835774126f5ab15a72a43e4b2",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_effects.tsv",
+    "bytes": 2920,
+    "sha256": "ef09367697409ed92abcc04d6a9144da708f8444bc2d801c321f5a6067603b06",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+    "bytes": 115274,
+    "sha256": "c82a947698e3c28b2324504d3319ad86ea99422203d293eec4eeceea879a75d9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+    "bytes": 6763552,
+    "sha256": "bc50171d4e8dfbb126dcae84ac3cb60d6019c0ad647d12a0762337a194e8b4ab",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+    "bytes": 10311223,
+    "sha256": "faadd87b273c522ea378542ef7c0c574775feea8168854439021badb3df36d20",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_effects.tsv",
+    "bytes": 2897,
+    "sha256": "dc4735f0d0735d1476c414d9b2417403df2a71034cd6c35c9f6106976e0fa766",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+    "bytes": 124623,
+    "sha256": "d9861c4ff4df3a2c093668c04ed9a0430134c75a69e3fdb7ce052b9f371d1fcf",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+    "bytes": 6767024,
+    "sha256": "b0d85254625a8c31e3fbbe2dc6fb31785932725deefb084d1cc26d6a1d316cb7",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+    "bytes": 312,
+    "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+    "bytes": 10319473,
+    "sha256": "02882d8397c58deeabf0b431da8909b10b2f4f78d1f88675f5464c20ccbcccab",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+    "bytes": 765,
+    "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+    "reason": "Native chain objects/diagnostics retained in full archive"
+  },
+  {
+    "task": "composition",
+    "native_path": "fits/seurat__inhibitory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+    "bytes": 54275073,
+    "sha256": "f1aa30a1ea71ec18b79c47aef42ffbea43ed7aacaa4396a54d6f84865570c974",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "CellChatDB_mouse_interactions.tsv",
+    "bytes": 3339164,
+    "sha256": "cd0efe8e68772ea1e1d2515aef4ee88e0c0a55a900b2a210c96f767c32ef3a95",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "CellChatDB_mouse_native.rds",
+    "bytes": 1773570,
+    "sha256": "8627be0c3a8ece2545ee67435646b51f2142db03e05232bdb2af2f6ac3debb4f",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "feature_mapping.tsv",
+    "bytes": 1553719,
+    "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f",
+    "reason": "Full nucleus/feature axes retained in native archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "interaction_endpoint_eligibility_and_signs.tsv",
+    "bytes": 9418196,
+    "sha256": "32fad7769f3d2e13af436807e642239ee0126ef5ae86a6a494e0afa13495a1d8",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "nucleus_metadata.tsv",
+    "bytes": 22275254,
+    "sha256": "50f9642787816b687f98055dc250af6fa9f0d96a669d67e99011bc04edf0f259",
+    "reason": "Full nucleus/feature axes retained in native archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "triMean/native_60group_all_intermediate_edges.rds",
+    "bytes": 196369589,
+    "sha256": "7bea7bf22f054bdeed6abee7ce2c4dc65fc954ec84d26cf41ca2b15a4dfe77a9",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "triMean/strict_within_mouse_native_specificity_thresholded_projection.rds",
+    "bytes": 196246096,
+    "sha256": "9fac9f50cb4e89052b2312f7cdda426a10a147e3a12bb45f2f117c97b4e0fa3b",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "truncatedMean10/native_60group_all_intermediate_edges.rds",
+    "bytes": 196416268,
+    "sha256": "4f55cb39e9dc5022df9d1dd72f82d401d65d827ebd185facb9193587d0ab6310",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "cellchat",
+    "native_path": "truncatedMean10/strict_within_mouse_native_specificity_thresholded_projection.rds",
+    "bytes": 196246354,
+    "sha256": "1a548c9a3b0a64bad32765756f3ecd291d3e22798e8003a5372db936786c8804",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/input_cells.tsv",
+    "bytes": 19191944,
+    "sha256": "e09c06a012b7627eb50404453b9f1c6708d976b8d10437467786ba6fb08a0d60",
+    "reason": "Full nucleus/feature axes retained in native archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/input_genes.tsv",
+    "bytes": 1553719,
+    "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f",
+    "reason": "Full nucleus/feature axes retained in native archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/embedding_cells.tsv",
+    "bytes": 2389868,
+    "sha256": "d584480105e30e8f276036fd51839308a2a258efc112bc4795617ba857492e06",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/gene_eligibility.tsv",
+    "bytes": 3397094,
+    "sha256": "638c28a3ae0b9d6e326b2fafab0936febd0c98beceb418adb44f15d277aeb45d",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/library_denominators.tsv",
+    "bytes": 2734631,
+    "sha256": "a11c2701f88c521b2810b905903acbbfaa07817800c6969be83e9454238b1d62",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/native_reference_ordering.rds",
+    "bytes": 512075,
+    "sha256": "37f4f21d4eb8e35c65cd98488008c77d3fa8e7a002fbb32682b767ea3ffac975",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/native_unrooted_objects/cds_object.rds",
+    "bytes": 176515967,
+    "sha256": "f96e599659c5f44de7b7026dbe0f4e3b630273a9d544c2d73bd6dec0aab4fe45",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/native_unrooted_objects/file_index.rds",
+    "bytes": 782,
+    "sha256": "0cdfe9fe228367d35972f5e865de5a40d0ae5996fbb0da65269888310062c9a9",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/native_unrooted_objects/rdd_umap_transform_model_umap.idx",
+    "bytes": 17365768,
+    "sha256": "4d888b801b7292f1f150ed7277e4ae53f6a04897a9dc0e03bace8ebc67f2e593",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/models/CA1_DL_SL/reference_distances.tsv",
+    "bytes": 4534534,
+    "sha256": "b93bf05b45c61c4cff6376bbce1103a07a415383a31ffc171447c7ef1b140748",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/CA1/warnings.log",
+    "bytes": 1690,
+    "sha256": "b8c927cf328d0e8b3c8dd5d40752200bc3648bac47a305d798861d5c1d0e0fcd",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/input_cells.tsv",
+    "bytes": 2392116,
+    "sha256": "eed6b5b39d1bbd32a761c9449424fb3703eadd4e5a604a52a5e5921c33c23f94",
+    "reason": "Full nucleus/feature axes retained in native archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/input_genes.tsv",
+    "bytes": 1553719,
+    "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f",
+    "reason": "Full nucleus/feature axes retained in native archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C1/gene_eligibility.tsv",
+    "bytes": 3242104,
+    "sha256": "91d9ebcdefa349861815503c399f662273c57577f3fa2af196441e116e5f05a7",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C1/native_reference_ordering.rds",
+    "bytes": 50609,
+    "sha256": "f5efeae987263700ae6f8e42b34dd460c0f4d042b7f1acfda3c29c8d73c4b468",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C1/native_unrooted_objects/cds_object.rds",
+    "bytes": 19383096,
+    "sha256": "b9a8bb6d38c0d1b60756c12e3f81fd91b05b1031926f37b367ebb00fb43bbe04",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C1/native_unrooted_objects/file_index.rds",
+    "bytes": 780,
+    "sha256": "42314808db81ad5d7fe7ec53a706203303bc2bcdda1dd757c03e3350c5866e1f",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C1/native_unrooted_objects/rdd_umap_transform_model_umap.idx",
+    "bytes": 1447960,
+    "sha256": "6ab4f9150c96d37eb38eb32581c2830a986f7acd09cf4824b74e26eccee1ef06",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C6/gene_eligibility.tsv",
+    "bytes": 3157361,
+    "sha256": "d2b52488976cadd230ddef8fcdb27af6a32e17448c4272cfcfef908e14ec549a",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C6/native_reference_ordering.rds",
+    "bytes": 12535,
+    "sha256": "d7154c43f13dd0c7bd993aa6147272e04c975fe9447a55bca3379e64687119fc",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C6/native_unrooted_objects/cds_object.rds",
+    "bytes": 8347503,
+    "sha256": "cac519b0116f5a825ff500986686b7fdf8c953ae10c50c7587eed953682695c7",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C6/native_unrooted_objects/file_index.rds",
+    "bytes": 781,
+    "sha256": "2f294425b3203b68db3d608c114ecbae736eddcb485ed07f8ec5451b2d46f845",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C6/native_unrooted_objects/rdd_umap_transform_model_umap.idx",
+    "bytes": 432692,
+    "sha256": "a2b592bba1fb15f8f1c5c2ad433e719fe7dd626c1321cf775121eced6c49eef0",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C8/gene_eligibility.tsv",
+    "bytes": 3150706,
+    "sha256": "9d45a917c4de7055a5a76a522c9dd0d9fca79c0765a29a40d6a926ef930a8240",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C8/native_reference_ordering.rds",
+    "bytes": 11886,
+    "sha256": "8e863ffefa9d3ac5309dd7ac0f108b32e5681f8bea83b65c4637e9e7fe5ed610",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C8/native_unrooted_objects/cds_object.rds",
+    "bytes": 8462606,
+    "sha256": "49c50ef8fd6a47af0ca093900ba9adfc4a51fa249784545bfa845b6cdbd5371d",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C8/native_unrooted_objects/file_index.rds",
+    "bytes": 778,
+    "sha256": "53ef0b327d32cede15f34a849ce26edcb98af15a5f3bae6f94528241b954d085",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/models/IN_C8/native_unrooted_objects/rdd_umap_transform_model_umap.idx",
+    "bytes": 417216,
+    "sha256": "ef9f461fa86d326b57b7d70b9a5f0ed49b0579de64cb46794fe96d9a47c50c02",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  },
+  {
+    "task": "monocle3",
+    "native_path": "monocle3/IN/warnings.log",
+    "bytes": 1666,
+    "sha256": "c1fe6a11094bc334e262fdf4d650225ee6680127c5746b67579774e6c8b4a020",
+    "reason": "Large native models, raw axes or large tables retained in full archive"
+  }
+]

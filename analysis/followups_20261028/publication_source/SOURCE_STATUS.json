@@ -1,0 +1,55 @@
+{
+  "schema": "satb2-followups-archive-source-status/v1",
+  "status": "SOURCE_READY_FOR_ROOT_REVIEW_NOT_STUDY_ARCHIVE_BUILD",
+  "scientific_fit_or_rescore": false,
+  "actual_study_archives_generated": false,
+  "github_writes_or_uploads": false,
+  "native_run_source_environment_changes": false,
+  "synthetic_test_groups_passed": 13,
+  "tests": "tests/test_archives.py; tiny invented temporary fixture archives only; temporary folders removed",
+  "component_selection": "Only selected components require terminal/review gates; every invocation is a fresh delivery",
+  "final_completeness": "--verify-deliveries requires all six configured components and matching reviewed native/source receipt inventories",
+  "maximum_archive_bytes": 1900000000,
+  "archive_transport": "stream1MiB;deterministicZIP;CRC+SHA256readback;shared-onlydedupaliases;safefreshrestore",
+  "disabled_template_has_pending_actual_receipts": [
+    "composition_strict actual final seal/review",
+    "portable_reader actual final manifest/rendered review"
+  ],
+  "source_files": [
+    {
+      "path": "BUDGET_ESTIMATES.json",
+      "bytes": 2521,
+      "sha256": "83c8051fe53b9a7e1e82865d6faac1248c2d85166a745496a38170a4ff8c2de5"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8918,
+      "sha256": "2f2c69af63d2f7ef18da66384d83dabcce342e0caa6b0762d0bd58f33bd68d3b"
+    },
+    {
+      "path": "config.template.json",
+      "bytes": 65499,
+      "sha256": "e22021ad8138a13703bf46492f61f47678fcd245c4ee4bedcc171660699b01a0"
+    },
+    {
+      "path": "extract_reviewed_archive.py",
+      "bytes": 4182,
+      "sha256": "0009c787474a8535db6e03cbb93ece901bbd97f6d5b24d510e484c4ec8a9d5bd"
+    },
+    {
+      "path": "make_config_template.py",
+      "bytes": 10957,
+      "sha256": "3545994852cbd1d543cfb39d4e4bd399ce207a360fe72d068191e96c06bd0739"
+    },
+    {
+      "path": "package_archives.py",
+      "bytes": 22591,
+      "sha256": "c5e70da039030a454437677e8ae308e4e2ebe8337383330ae9f15160e8dacbdb"
+    },
+    {
+      "path": "tests/test_archives.py",
+      "bytes": 9497,
+      "sha256": "f0407e11a43c8086cb74a415db87503b80b5d734c8b5c4b0dbecb52b4cb69b3f"
+    }
+  ]
+}

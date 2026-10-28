@@ -1,0 +1,271 @@
+{
+  "cohort": "shared_partition",
+  "cross_tool_membership_audit": {
+    "comparison_tool": "scanpy",
+    "exact_membership_match": true,
+    "interpretation": "MATCHED_NUCLEI_DIFFERENT_FROZEN_LABELS",
+    "n_common": 60908,
+    "n_other_tool_only": 0,
+    "n_this_tool_only": 0,
+    "other_tool_only_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+    "this_tool_only_sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+  },
+  "formula": "C(condition, Treatment('WT'))",
+  "group_counts": {
+    "WT": 6,
+    "cKO": 3
+  },
+  "limits": [
+    "Relative recovered-nucleus composition, not absolute tissue abundance or cell loss",
+    "All12 genotype association partly confounded with sequencing partition",
+    "Shared-partition 6WT/3cKO sensitivity is separate and less powered",
+    "Reference coefficient is structurally zero, not evidence of unchanged biology",
+    "CA1 labels are molecular expression programs, not verified anatomical layers",
+    "Cluster labels with saved uncertainty remain provisional"
+  ],
+  "mcmc_gate": {
+    "divergences": 0,
+    "excluded_from_diagnostics": "Deterministic beta/reference structural zero; all native stochastic parameters diagnosed",
+    "failures": [],
+    "method": "numpyro.diagnostics.summary(prob=0.95, group_by_chain=True); native split R-hat and effective sample size",
+    "n_stochastic_parameters": 68,
+    "passed": true,
+    "thresholds": {
+      "max_rhat": 1.01,
+      "min_effective_samples": 400
+    }
+  },
+  "membership_sha256": "4ce21aa14543fc43045e47bba37787b5d31fcf536e87d0dca8ede45fbcc84030",
+  "multiple_testing": "Native posterior expected FDR 0.05 within this scope/cohort; separate scopes are separate exploratory families",
+  "n_chains": 4,
+  "n_mice": 9,
+  "n_native_credible": 1,
+  "n_validated_credible": 1,
+  "outputs": [
+    {
+      "path": "MCMC_VALIDATION.json",
+      "sha256": "947e0db50052a8ff811da3c07996c55d37be1209dfeb3c66d55037b67e395e74",
+      "size_bytes": 414
+    },
+    {
+      "path": "STARTED.json",
+      "sha256": "8275cc05da331c406095221dbf58b5e4fa367f6acf0263325e5991a7ae72738e",
+      "size_bytes": 482
+    },
+    {
+      "path": "chain_1/native_effects.tsv",
+      "sha256": "aba6dfee132f04ff79abc2d0bdba036fa06ed68837de6afce722e199f3cc3806",
+      "size_bytes": 3752
+    },
+    {
+      "path": "chain_1/native_extra_fields.npz",
+      "sha256": "3eb98770ddc84955450c9cc39e11c81d1f8c61f744d92904b4dac3657f271e44",
+      "size_bytes": 123714
+    },
+    {
+      "path": "chain_1/native_posterior_draws.npz",
+      "sha256": "ce083d815bd0fb58b24edf6f8d86a948b7a8aa5abbceff4bb7fdb16d6bd314ec",
+      "size_bytes": 7822725
+    },
+    {
+      "path": "chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "chain_1/native_sccoda.h5ad",
+      "sha256": "8b3bc55e0e77a936276a3f79bcf9327f86efba48897e40b0403faa4966a4da8f",
+      "size_bytes": 11838680
+    },
+    {
+      "path": "chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "chain_2/native_effects.tsv",
+      "sha256": "14321d52241bdacca6e2273cc747294240c53c1901511cc839e63cdf8e4ae979",
+      "size_bytes": 3715
+    },
+    {
+      "path": "chain_2/native_extra_fields.npz",
+      "sha256": "d745433eabea2f85cde566d66b60c91d1a4c1d05e3cb91fb6874c07e3e9d0b3f",
+      "size_bytes": 123386
+    },
+    {
+      "path": "chain_2/native_posterior_draws.npz",
+      "sha256": "141a79580c562c04b219c29ea9b7cdd3b707a6a6ea2c1dcd771d341e9bfc8de3",
+      "size_bytes": 7825133
+    },
+    {
+      "path": "chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "chain_2/native_sccoda.h5ad",
+      "sha256": "21b5cfadd34257a2c8a5aff22e0f4b3dc4ebb39c99cc0e687f0b1158e8275d00",
+      "size_bytes": 11844314
+    },
+    {
+      "path": "chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "chain_3/native_effects.tsv",
+      "sha256": "ff569b80037c6e9d65a40ab0036882971fb981a9888514b3a8ae999fb7ad45d6",
+      "size_bytes": 3699
+    },
+    {
+      "path": "chain_3/native_extra_fields.npz",
+      "sha256": "5eab484295e7c31009a832ac85e808057e51b9d27f6262046b29f95ba7ae0f88",
+      "size_bytes": 124346
+    },
+    {
+      "path": "chain_3/native_posterior_draws.npz",
+      "sha256": "07b7a8bff89dac4c75f83573c9876ed934ff1be2e1ab822c10c09d868c13997e",
+      "size_bytes": 7823629
+    },
+    {
+      "path": "chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "chain_3/native_sccoda.h5ad",
+      "sha256": "2e9de9e0aa2ac13b38f4056c273aa82e56e7f9e00598e740c35a4b3a9141133d",
+      "size_bytes": 11842808
+    },
+    {
+      "path": "chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "chain_4/native_effects.tsv",
+      "sha256": "95a6f034666ba4a93901bbeefc854261840caf6b7af761e2b43ddfc94837fd4c",
+      "size_bytes": 3689
+    },
+    {
+      "path": "chain_4/native_extra_fields.npz",
+      "sha256": "0e28595150d3c932ad5dd0355f527467f9eb976d36fe83493aab7cbe75e959cb",
+      "size_bytes": 123826
+    },
+    {
+      "path": "chain_4/native_posterior_draws.npz",
+      "sha256": "8769d565ddf176c169e0051e8d3da4dea083081114b59886973d2f78ec929d22",
+      "size_bytes": 7822421
+    },
+    {
+      "path": "chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "chain_4/native_sccoda.h5ad",
+      "sha256": "914b29946512c5cc0a22ecc3d832bcdc74838db40b037a57439d4e5a35391216",
+      "size_bytes": 11845482
+    },
+    {
+      "path": "chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "native_effect_intervals.pdf",
+      "sha256": "a33185c8fe02fe48514061a8c4a24883765e965282730cea23940782723ba9f8",
+      "size_bytes": 27555
+    },
+    {
+      "path": "native_effect_intervals.png",
+      "sha256": "5787032265ab625b5d4181e4abd6c886f34ed29c417be1e202162943d2e78f0e",
+      "size_bytes": 131730
+    },
+    {
+      "path": "native_effects_expected_fdr_0.05.tsv",
+      "sha256": "4c398b4f2b507dc5a8461ed02dd665e083c549f4a8114866e0d7503c0babf770",
+      "size_bytes": 3684
+    },
+    {
+      "path": "native_intercepts.tsv",
+      "sha256": "fed874c3ced0d422c0bd2857fcfee6c4a899b130c6bde201c1b162745b6313c5",
+      "size_bytes": 2292
+    },
+    {
+      "path": "native_sccoda_four_independent_chains.h5ad",
+      "sha256": "f2444fbaa89106ad5c862afdea7f2b337385987cc448770ab26ed1b4643d9029",
+      "size_bytes": 46765324
+    },
+    {
+      "path": "native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "native_zero_replacement_audit.tsv",
+      "sha256": "56573c8b55c5d87cd6633532a2adb23b050d26a4b45806d6d3f0f472a48e83f3",
+      "size_bytes": 337
+    },
+    {
+      "path": "raw_mouse_proportions.pdf",
+      "sha256": "36df026fb46ebc941ac31570e97936507d09b95130c91b4ab90421d1dabc3cc0",
+      "size_bytes": 41028
+    },
+    {
+      "path": "raw_mouse_proportions.png",
+      "sha256": "9b0ef892352e6ac968d53ff2394c651945952c54678e9ff1d1774f726df37eb5",
+      "size_bytes": 168552
+    },
+    {
+      "path": "raw_stacked_proportions.pdf",
+      "sha256": "8527c100591759b774e697eefa576102f8891ec490184b57dde6e06656393723",
+      "size_bytes": 26985
+    },
+    {
+      "path": "raw_stacked_proportions.png",
+      "sha256": "c0e717344e15e66a54f8d981dace71d0808aeccfda088240c36979efa81d9f5b",
+      "size_bytes": 156098
+    },
+    {
+      "path": "reviewable_effect_calls.tsv",
+      "sha256": "a099417cdad114696e9a3dfb53d66afe876e8e498fc67bc985a80df3f45e08c5",
+      "size_bytes": 4077
+    },
+    {
+      "path": "stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "7f082135f18bbf1d2a3a3a18cecaa8cc4ef7abe031e1ff878b881088e092d27c",
+      "size_bytes": 7471
+    }
+  ],
+  "prepared_sha256": "6950ddf2ad443cf585f7441d51bb33ac80e63e13ab12e86e55a6c2ee4c1da308",
+  "reference": "21",
+  "samples_per_chain": 6000,
+  "schema": "satb2-composition-sccoda-fit/v1",
+  "scope_id": "seurat__excitatory_clusters",
+  "seeds": [
+    1337,
+    2718,
+    31415,
+    65537
+  ],
+  "status": "COMPLETE",
+  "versions": {
+    "anndata": "0.13.4",
+    "arviz": "1.3.0",
+    "jax": "0.7.2",
+    "jaxlib": "0.7.2",
+    "mudata": "0.4.1",
+    "numpy": "2.5.4",
+    "numpyro": "0.19.0",
+    "pandas": "3.1.0",
+    "patsy": "1.0.2",
+    "pertpy": "1.4.0",
+    "scipy": "1.18.1"
+  }
+}

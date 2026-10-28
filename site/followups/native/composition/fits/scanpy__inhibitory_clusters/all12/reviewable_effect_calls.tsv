@@ -1,0 +1,18 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+scanpy__inhibitory_clusters	all12	0	C0 · 049 Lamp5 Gaba	5	0.0	0.4741666666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	1	C1 · Inhibitory; mixed atlas subclasses	5	0.0	0.4605	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	2	C2 · 052 Pvalb Gaba	5	0.0	0.47220833333333334	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	3	C3 · 053 Sst Gaba	5	0.0	0.4547083333333333	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	4	C4 · Inhibitory; mixed atlas subclasses	5	0.0	0.5032083333333334	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	5	C5 · 052 Pvalb Gaba	5	0.0	0.0	0.0	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+scanpy__inhibitory_clusters	all12	6	C6 · 050 Lamp5 Lhx6 Gaba	5	0.0	0.4695416666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	7	C7 · Inhibitory; mixed atlas subclasses	5	0.0	0.494875	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	8	C8 · 053 Sst Gaba	5	0.0	0.5634166666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	9	C9 · 053 Sst Gaba	5	0.0	0.48575	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	10	C10 · 046 Vip Gaba	5	0.0	0.48020833333333335	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	11	C11 · 046 Vip Gaba	5	0.0	0.49604166666666666	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	12	C12 · 051 Pvalb chandelier Gaba	5	0.0	0.477	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	13	C13 · 048 RHP-COA Ndnf Gaba	5	0.0	0.49033333333333334	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	14	C14 · Inhibitory; mixed atlas subclasses	5	0.0	0.5074583333333333	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	15	C15 · 052 Pvalb Gaba; Microglia/Other_immune-associated signature review	5	0.0	0.5057916666666666	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__inhibitory_clusters	all12	16	C16 · 045 OB-STR-CTX Inh IMN	5	0.0	0.4999166666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS

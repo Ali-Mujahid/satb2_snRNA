@@ -1,0 +1,47 @@
+{
+  "inputs": {
+    "counts": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/counts.mtx.gz",
+      "bytes": 208113008,
+      "sha256": "5854cd68856904422428138307b5fd55e89ae109567ac586975d88475d7e6348"
+    },
+    "genes": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/genes.tsv",
+      "bytes": 1553719,
+      "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+    },
+    "cells": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/cells.tsv",
+      "bytes": 19179408,
+      "sha256": "9102f2afe3c93b7ec8f5991dcdf607d3d5997d1e1efac281848d4bd2ac02e218"
+    }
+  },
+  "runtime_receipts": {
+    "R_native_artifacts": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_ARTIFACTS.json",
+      "bytes": 642,
+      "sha256": "318a13634964f2a8e652993a82431ab5ce7fea4a833dc5a3608a4dd8465f823c"
+    },
+    "R_native_installed": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_INSTALLED.tsv",
+      "bytes": 37456,
+      "sha256": "f46909256c2f3e51e6d9c86ca2777ab4e136339c77f2773f11c46b13e11481a2"
+    },
+    "R_wrapper": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/run_R.sh",
+      "bytes": 277,
+      "sha256": "7519a9c40c0106ac28ab3314ede783b55dab1e1f12755646a0c85c36d330cb1c"
+    },
+    "R_native_session": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_SESSION.txt",
+      "bytes": 4859,
+      "sha256": "dbd967f41213e10e5e29cdbecca2c14bb1824afbe1440953a96a2c188463fa08"
+    }
+  },
+  "prepared_complete": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/COMPLETE.json",
+    "bytes": 4405,
+    "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+  },
+  "source_feature_policy": "feature_id is unique prepared symbol-summed matrix key; original gene_ids preserved without invented disaggregation"
+}

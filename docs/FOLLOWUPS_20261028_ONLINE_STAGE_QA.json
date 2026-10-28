@@ -1,0 +1,64 @@
+{
+  "status": "PASS_ACTUAL_STAGE_FILE_METADATA_AND_TRANSPORT_QA_LIVE_BROWSER_PENDING",
+  "created_utc": "2026-10-28T14:01:06.080417+00:00",
+  "stage_manifest": {
+    "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_online_stage_v1/ONLINE_TRANSPORT_MANIFEST.json",
+    "bytes": 419428,
+    "sha256": "736a3f9517ac42d61a39b69aba7e65d16d0f246529fe9f03f0231d398b85d38f"
+  },
+  "approved_online_configuration": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/config/followups.online.APPROVED_v1.json",
+    "bytes": 362309,
+    "sha256": "c2adcaaa7bc78b882db777863cd88eee3b030a90fc95357e2829526b3a6ef11a"
+  },
+  "manifest_files_verified": 281,
+  "total_files_including_manifest": 282,
+  "unchanged_small_files": 279,
+  "remote_release_mappings_verified": 345,
+  "remote_mapping_extensions": {
+    ".pdf": 156,
+    ".png": 156,
+    ".tsv": 28,
+    ".json": 1,
+    ".gz": 4
+  },
+  "navigation_assets_preserved": 599,
+  "exact_png_pdf_pairs_preserved": 156,
+  "task_asset_counts": {
+    "composition": {
+      ".json": 66,
+      ".tsv": 109,
+      ".pdf": 48,
+      ".png": 48,
+      ".md": 1
+    },
+    "cellchat": {
+      ".tsv": 25,
+      ".json": 4,
+      ".pdf": 76,
+      ".png": 76,
+      ".txt": 1
+    },
+    "monocle3": {
+      ".json": 22,
+      ".tsv": 53,
+      ".pdf": 32,
+      ".png": 32,
+      ".gz": 4,
+      ".txt": 2
+    },
+    "velocity": {}
+  },
+  "complete_offline_zip_files_verified": 626,
+  "frozen_source_files_unchanged": 8,
+  "actual_online_javascript_syntax": "PASS",
+  "native_status_summary_findings_limitations_controls_metadata_identical_to_portable": true,
+  "online_offline_delivery_distinction_explicit": true,
+  "stage_bytes": 3172068,
+  "current_site_bytes_before_stage": 933212403,
+  "projected_site_plus_stage_bytes": 936384471,
+  "site_limit": 950000000,
+  "no_scientific_changes_or_GitHub_calls_or_build": true,
+  "actual_browser_or_download_claim": false,
+  "public_release_is_draft_and_canonical_live_checks_pending": true
+}

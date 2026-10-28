@@ -1,0 +1,1185 @@
+{
+  "schema": "satb2-scvelo-starting-point-assessment/v1",
+  "created_at_utc": "2026-10-28T11:02:44.953917+00:00",
+  "task_status": "INPUT_BLOCKED_NOT_EXECUTED",
+  "scientific_jobs_started": false,
+  "installations_performed": false,
+  "original_inputs_modified": false,
+  "inspection_roots": [
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results",
+    "/Users/mujahid357/Desktop/data/snkr_cowork/SATB2_SCENE_20260924",
+    "/Users/mujahid357/Desktop/data/snr/snRNAseq_analysis/scanpy_results",
+    "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/runs/20261022_liana_v1/results/prepared",
+    "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping",
+    "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/scanpy_results"
+  ],
+  "h5ad_headers": [
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/CA1_ProS/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 481200787,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        27703,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/Excitatory/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 1055451784,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        60985,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/Inhibitory/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 148774217,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8911,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/original_full/allcells/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 1534500632,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        108062,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_cellbender/CA1_ProS/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 480516384,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        27672,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_cellbender/Excitatory/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 1051088482,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        60849,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_cellbender/Inhibitory/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 147019156,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8903,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_cellbender/allcells/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 1436464513,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        104298,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_original/CA1_ProS/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 480983665,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        27672,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_original/Excitatory/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 1054571660,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        60849,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_original/Inhibitory/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 148720819,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8903,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/scanpy/paired_original/allcells/scanpy.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 1514844404,
+      "layers": [
+        "counts"
+      ],
+      "obsm": [
+        "X_pca",
+        "X_pca_harmony",
+        "X_umap",
+        "X_umap_harmony",
+        "X_umap_unintegrated"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        104298,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/original_full/branch_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 661570895,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        108062,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_cellbender/branch_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 634095862,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        104298,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/shared/paired_original/branch_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 655319562,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        104298,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/SATB2_SCENE_20260924/pilot/CA1_layer_supported/scene_fitted.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 51279715,
+      "layers": [],
+      "obsm": [
+        "SCENE"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        6320,
+        23510
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/SATB2_SCENE_20260924/results/CA1_layer_supported/scene_fitted.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 51285675,
+      "layers": [],
+      "obsm": [
+        "SCENE"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        6320,
+        23510
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/SATB2_SCENE_20260924/results/Excitatory/scene_fitted.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 469292460,
+      "layers": [],
+      "obsm": [
+        "SCENE"
+      ],
+      "has_raw": false,
+      "X_shape_attribute": [
+        59568,
+        27631
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snr/snRNAseq_analysis/scanpy_results/full_adata_processed.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 479068160,
+      "header_open_error": "Unable to synchronously open file (truncated file: eof = 479068160, sblock->base_addr = 0, stored_eof = 6500807570)"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_CCC_20261022/runs/20261022_liana_v1/results/prepared/lr_expression.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 226953692,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        29367,
+        32245
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1138/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 54816971,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        7943,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1139/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 64623278,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        9750,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1160/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 54656029,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8221,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_1165/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 59284336,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        9851,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_933/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 57603565,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8896,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/cKO_991/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 54385477,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8470,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1122/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 45025752,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        8546,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1123/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 53749871,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        9201,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1178/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 42646557,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        6660,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1220/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 61338088,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        10430,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1226/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 55903846,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        9733,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/SATB2_validation_20260908/04_allen_mapping/wt_1228/query_raw_counts.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 59262044,
+      "layers": [],
+      "obsm": [],
+      "has_raw": false,
+      "X_shape_attribute": [
+        10361,
+        32285
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/scanpy_results/full_adata_processed.h5ad",
+      "evidence_status": "observed",
+      "inspection": "read-only HDF5 header; no scientific fit",
+      "bytes": 229310464,
+      "header_open_error": "Unable to synchronously open file (truncated file: eof = 229310464, sblock->base_addr = 0, stored_eof = 6501947842)"
+    }
+  ],
+  "gene_matrices": [
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1138_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        8617
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1139_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        10825
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1160_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        9292
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1160_raw_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        2133353
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_1165_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        11206
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_933_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        10240
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_933_raw_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        2222886
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/cKO_991_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        9457
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1122_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        9719
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1122_raw_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        2004456
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1123_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        10572
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1178_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        7543
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1178_raw_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        2038549
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1220_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        11754
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1226_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        10936
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/cellranger.out/wt_1228_filtered_feature_bc_matrix.h5",
+      "evidence_status": "observed",
+      "root_keys": [
+        "matrix"
+      ],
+      "matrix_keys": [
+        "barcodes",
+        "data",
+        "features",
+        "indices",
+        "indptr",
+        "shape"
+      ],
+      "shape_genes_by_barcodes": [
+        32285,
+        11325
+      ],
+      "genomes": [
+        "mm10"
+      ],
+      "velocity_layers_present": false
+    }
+  ],
+  "historical_bam_evidence": [
+    {
+      "sample": "cKO_1138",
+      "bam_bytes": "24960538852",
+      "index_bytes": "13443000",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "445512442",
+      "indexed_unmapped_records": "25268186",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1138/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "cKO_1139",
+      "bam_bytes": "30290050222",
+      "index_bytes": "15744736",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "545871565",
+      "indexed_unmapped_records": "28124350",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1139/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "cKO_1160",
+      "bam_bytes": "32158633375",
+      "index_bytes": "15400008",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "567141059",
+      "indexed_unmapped_records": "30644325",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1160/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "cKO_1165",
+      "bam_bytes": "27773553231",
+      "index_bytes": "14624208",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "489669736",
+      "indexed_unmapped_records": "25755712",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1165/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "cKO_933",
+      "bam_bytes": "NA",
+      "index_bytes": "NA",
+      "quickcheck": "MISSING_BAM",
+      "indexed_mapped_records": "NA",
+      "indexed_unmapped_records": "NA",
+      "index_check": "NOT_CHECKED",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_933/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "cKO_991",
+      "bam_bytes": "24716316742",
+      "index_bytes": "13750816",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "440018993",
+      "indexed_unmapped_records": "26298559",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_991/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "wt_1122",
+      "bam_bytes": "23108873556",
+      "index_bytes": "11939936",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "395288375",
+      "indexed_unmapped_records": "22607504",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1122/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "wt_1123",
+      "bam_bytes": "24349744901",
+      "index_bytes": "13247912",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "433710206",
+      "indexed_unmapped_records": "24214708",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1123/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "wt_1178",
+      "bam_bytes": "24994637961",
+      "index_bytes": "12505016",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "425843401",
+      "indexed_unmapped_records": "25920681",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1178/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "wt_1220",
+      "bam_bytes": "24177486496",
+      "index_bytes": "13404112",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "414439300",
+      "indexed_unmapped_records": "22604254",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1220/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "wt_1226",
+      "bam_bytes": "25645907943",
+      "index_bytes": "13786184",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "446892332",
+      "indexed_unmapped_records": "22274322",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1226/outs/possorted_genome_bam.bam"
+    },
+    {
+      "sample": "wt_1228",
+      "bam_bytes": "23218167464",
+      "index_bytes": "13154104",
+      "quickcheck": "PASS",
+      "indexed_mapped_records": "401219797",
+      "indexed_unmapped_records": "20656641",
+      "index_check": "READABLE",
+      "evidence_status": "observed_historical_record_only",
+      "historical_observation_date": "2026-09-08",
+      "current_remote_state": "unknown",
+      "remote_bam_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1228/outs/possorted_genome_bam.bam"
+    }
+  ],
+  "historical_bam_total_bytes": 285393910743,
+  "historical_reference": {
+    "evidence_status": "observed_historical_record_only",
+    "label": "mm10-2020-A",
+    "genome": "GRCm38",
+    "gtf": "filtered GENCODE vM23",
+    "include_introns": true,
+    "cellranger_version": "10.1.0",
+    "current_exact_gtf_path_and_digest": "unknown"
+  },
+  "remote_access_probe": {
+    "evidence_status": "observed",
+    "tool": "mcp__ngs_compute__inspect_compute_target",
+    "target_id": "lisc-satb2-office-20261013",
+    "result_error": "SSH access to the configured host was denied",
+    "remote_inventory_completed": false,
+    "terminal_ssh_bypass_attempted": false
+  },
+  "environment_probe": {
+    "evidence_status": "observed",
+    "python": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/.venv_scanpy/bin/python",
+    "package_versions": {
+      "scvelo": null,
+      "velocyto": null,
+      "scanpy": "1.12.4",
+      "anndata": "0.13.4",
+      "numpy": "2.5.4",
+      "h5py": "3.16.0"
+    }
+  },
+  "filesystem_probe": {
+    "evidence_status": "observed",
+    "local_free_approx_GiB": 6.1,
+    "network_share_free_approx_TiB": 3.6,
+    "lisc_free_quota": "unknown",
+    "method": "df -h"
+  },
+  "filename_search": {
+    "evidence_status": "observed",
+    "roots": [
+      "/Users/mujahid357/Desktop/data",
+      "/Users/mujahid357/Documents/codex_new",
+      "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60"
+    ],
+    "package_library_dirs_excluded": true,
+    "bam_loom_gtf_fastq_found": [],
+    "not_an_exhaustive_whole_network_claim": true
+  },
+  "primary_method_links": [
+    "https://scvelo.readthedocs.io/en/stable/getting_started.html",
+    "https://scvelo.readthedocs.io/en/stable/scvelo.tl.velocity.html",
+    "https://scvelo.readthedocs.io/en/stable/DynamicalModeling.html",
+    "https://scvelo.readthedocs.io/en/stable/scvelo.tl.latent_time.html",
+    "https://scvelo.readthedocs.io/en/stable/VelocityBasics.html",
+    "https://velocyto.org/velocyto.py/tutorial/cli.html"
+  ],
+  "small_evidence_file_receipts": [
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/BAM_validation_11_samples_20260908/bam_checks.tsv",
+      "bytes": 830,
+      "sha256": "53a804490bc966cec788e309a01085ba5f0ab2c900fe28f1bf838a8da20493dd",
+      "role": "historical evidence or existing provenance; not new remote verification"
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/BAM_validation_11_samples_20260908/result_review.md",
+      "bytes": 11563,
+      "sha256": "12f4d21a56711ba92cc1ea7082c7f8ea0912f40a515fa201c42468435b06442c",
+      "role": "historical evidence or existing provenance; not new remote verification"
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/seurat_out/BAM_validation_11_samples_20260908/exact_intervals_result_review.md",
+      "bytes": 7673,
+      "sha256": "d04a148bcd539cce800a6c1b9f105a8400191b4386e0a61619846c0515406b06",
+      "role": "historical evidence or existing provenance; not new remote verification"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/satb2_snRNA_github/analysis/data/upstream_v1_inputs/samples_original_full.tsv",
+      "bytes": 11393,
+      "sha256": "13d99c9e3031cae30dfe8abd879a5a394547a1e1c252465d03d2387216744270",
+      "role": "historical evidence or existing provenance; not new remote verification"
+    },
+    {
+      "path": "/Users/mujahid357/Desktop/data/snkr_cowork/SATB2_eight_mouse_reanalysis_20261002/inputs/provenance/sample_metadata_confirmed.tsv",
+      "bytes": 2337,
+      "sha256": "93aaf5054bf1cb21037a138810343481f60b1cf1701c97447baa6cf367163976",
+      "role": "historical evidence or existing provenance; not new remote verification"
+    }
+  ],
+  "immediate_prerequisite": "Restore current registered LiSC access, then verify all 12 BAMs including cKO_933 and matching GTF; do not invent layers."
+}

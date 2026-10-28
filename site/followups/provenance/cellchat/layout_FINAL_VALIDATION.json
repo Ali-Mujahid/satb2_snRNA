@@ -1,0 +1,435 @@
+{
+  "schema": "satb2-cellchat-layout-only-final/v1",
+  "status": "COMPLETE_PENDING_VISUAL_REVIEW",
+  "native_final_validation": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json",
+    "bytes": 21080,
+    "sha256": "c1dbdbe57c1606ab37d71cbf630905731bb630667038a25bd5ec0cd6bfd16683"
+  },
+  "runtime_lock": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/CELLCHAT_RUNTIME_LOCK_v1.json",
+    "bytes": 3068986,
+    "sha256": "288a5daacafef2cf7a3eb7599b7fa2f676693e80cfd5661ca39b4457d6fe3fa1"
+  },
+  "config": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/config/cellchat.layout.v1_0_0.json",
+    "bytes": 1072,
+    "sha256": "7e34b33800da165f7141408d74cbff9b904eb2e8cbc51d28b5f4cfde28cfe53b"
+  },
+  "sources": [
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/workflow/run_layout.R",
+      "bytes": 5118,
+      "sha256": "00b29d02463dfa9c7ff2b04e9f531cccbf5b4147f3d0407c21523e23ede2dcd8"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/workflow/plot_helpers_layout.R",
+      "bytes": 9410,
+      "sha256": "a45e1802c43aa0e4048e61ceac78914a0c00331cfb2d8370b5356678b78b0639"
+    }
+  ],
+  "modifications": ["additional plot margins/heatmap height", "inside-page circle/circos header", "boxplot point jitter height=0; x jitter unchanged"],
+  "scientific_fit_or_rescore": false,
+  "scientific_aggregation_formulas_changed": false,
+  "colors_and_numerical_scales_changed": false,
+  "original_native_outputs_modified": false,
+  "new_statistical_results": false,
+  "plot_file_count": 76,
+  "outputs": [
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/NATIVE_TO_PRESENTATION_PLOT_MAPPING.json",
+      "bytes": 56387,
+      "sha256": "4ff34c93f451ca0baaca3259a3099760a713e3e24033cf3be20d4fb343ea6e5a"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_WT_circle.pdf",
+      "bytes": 6388,
+      "sha256": "2e8c6f8de390389583528d237e36841de07f0048d37d97b5365e427761659b5f"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_WT_circle.png",
+      "bytes": 124752,
+      "sha256": "eed26649644ad6c785c7072875a207a58ad4a2b0d5ba07f13ee61938decc5a5d"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_WT_circos.pdf",
+      "bytes": 19049,
+      "sha256": "f305b55e3ee58acdef9b405857996992c014b656f9a0c2b5c8b5a97e59172b3c"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_WT_circos.png",
+      "bytes": 213482,
+      "sha256": "c47632489717a5989641bd9ce175d880085a5aafedd7415cea6c4cfe70415b85"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_cKO_circle.pdf",
+      "bytes": 6398,
+      "sha256": "738448dde59ebbe4d04380b5271f25f1aaff1605b85fb827c0f3bc09c694760e"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_cKO_circle.png",
+      "bytes": 125430,
+      "sha256": "11710975e3cea8eadcb8334bedc3e53ab90d6a4e867c7d71082e9cc443b94ab0"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_cKO_circos.pdf",
+      "bytes": 18774,
+      "sha256": "aa512c867d28bdc160b042cf2b7e09e174f4bba1fd041ae944c3e937a6b724b9"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_cKO_circos.png",
+      "bytes": 211747,
+      "sha256": "b5eec2196e4068c7f8ee77339503eb864f7897f07fcb3e0ab0a5431480663904"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_dotplot_page1.pdf",
+      "bytes": 7238,
+      "sha256": "2da5c4aafac31370214c7edbb2168ee6840058d1846a06a8ffbd3f2f4ba35342"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_dotplot_page1.png",
+      "bytes": 133993,
+      "sha256": "f66fb200a58939bbb0c4a59a2b5823b8d68af9a8829e7f38609a284c408a874e"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_pathway_heatmap.pdf",
+      "bytes": 6271,
+      "sha256": "34c6ccc3a410f8eb758600c044c9600301b95880fd9f42062754d685aeddfee4"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/CA1_to_IN_pathway_heatmap.png",
+      "bytes": 121329,
+      "sha256": "499471e39e9b87a3a56bbe6884860ab53fda805b4758f1b3ccd17372e5d51bc7"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_WT_circle.pdf",
+      "bytes": 5979,
+      "sha256": "7a35aaeaf7f1033d3915117545597ebe92d417a3651048c84172c82311cf9344"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_WT_circle.png",
+      "bytes": 125664,
+      "sha256": "be01be1346085445e64337aac21f02413417521c3f21cf0fbc9ef427d98d0afe"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_WT_circos.pdf",
+      "bytes": 17319,
+      "sha256": "6c76792d1fc6d18443360c95a9d611a197cb895ce42da7fc0850f34f80dcd01e"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_WT_circos.png",
+      "bytes": 194559,
+      "sha256": "640823081220ef4b3c1d8150c6623885648518e9c1b527ea0cfec40b16723c64"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_cKO_circle.pdf",
+      "bytes": 5984,
+      "sha256": "20813d8e0c7d1e2d60390107536acdd8b13636a6a5e86955eefe25917cdb2334"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_cKO_circle.png",
+      "bytes": 125716,
+      "sha256": "5f70e7c53ab2a934dd3b27a08e94119fe013901f2db653a90f45cf164fcb8f05"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_cKO_circos.pdf",
+      "bytes": 17484,
+      "sha256": "bc6ab5090e15f2230bb571834d7f7e9a2292d003031a49d78b831c3d52508b5c"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_cKO_circos.png",
+      "bytes": 196239,
+      "sha256": "3646584255cb6789819486452806b0cb71c87dede33bbaea093366d0fb074105"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_dotplot_page1.pdf",
+      "bytes": 7364,
+      "sha256": "1ae948ce5e4e0c252c1c94b7a193867d83c8742a13b8e6f9d132015d61ffaabe"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_dotplot_page1.png",
+      "bytes": 141630,
+      "sha256": "83723c7ea5f0542836092635369816ebff533b81973dcbe3279683c004318e44"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_pathway_heatmap.pdf",
+      "bytes": 6264,
+      "sha256": "05ae2ec739cb6513b71dbd0ee0113ef0b61505d982d4ce24d7e38425739c2374"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/IN_to_CA1_pathway_heatmap.png",
+      "bytes": 119761,
+      "sha256": "a41d716e10207aa71151ef060af837e11615d4869ed1f7e5314e791a794c84ac"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/PLOT_MANIFEST.tsv",
+      "bytes": 908,
+      "sha256": "6a99502ae680ce91b03ff2914b3f1209f8cb862ca1ffce74eacc4002f6105c32"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_WT_circle.pdf",
+      "bytes": 7340,
+      "sha256": "4a474248d04c81a88bc4b515c541176abd2f5231e761b753a367ba8ae9f1ab32"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_WT_circle.png",
+      "bytes": 154736,
+      "sha256": "227f33f93c52792f9d6b1d6479ecd03c75212207efc61c0923194d65cdd45158"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_WT_circos.pdf",
+      "bytes": 21888,
+      "sha256": "bde3e6b93f52ff3e51291482ba0f85b00a36d95c9fc8a62ecea5e43005d94198"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_WT_circos.png",
+      "bytes": 232107,
+      "sha256": "acd725f6ecb240241512981696fd9787d48316d8fce210ac3bb551d4cfa144f5"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_cKO_circle.pdf",
+      "bytes": 7346,
+      "sha256": "87091be8eb4ddbbaf9f206bf055fb4674fb2cc5388fc5c90eb94e38ea8b2c7ca"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_cKO_circle.png",
+      "bytes": 154453,
+      "sha256": "717781d1e79fb1d950313d475c28c3a6b1d4535b7a5de0700046eaafdf8f7b11"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_cKO_circos.pdf",
+      "bytes": 21990,
+      "sha256": "06a6819098307eace74cf30bab324fe2464aa499582d65cb36d389aaf2812c12"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_cKO_circos.png",
+      "bytes": 236960,
+      "sha256": "c46d3ecf7a6f4088e132050c3b0335c5324b8fb398c25cf0d1258d975df7c724"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_dotplot_page1.pdf",
+      "bytes": 8175,
+      "sha256": "b9302b0d9d7d738043695eeaa1a469aa2d7063a9f89451b4ff14cc0e2765c37f"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_dotplot_page1.png",
+      "bytes": 179732,
+      "sha256": "1a701e1665f984195b0ff62ac2a91c10e0ae8b964683ba545d2e0a54e8d332e6"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_pathway_heatmap.pdf",
+      "bytes": 6612,
+      "sha256": "f1d7bcff69eb37c47ca42436a7e9a3930c9a1eb3bf8d00541c798ae1330008f8"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_pathway_heatmap.png",
+      "bytes": 142781,
+      "sha256": "681f6b4c896d1d5e24229a94d0aee58d3714f8abf1c93e24de5508957b5a4e86"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/pathway_mouse_boxplots.pdf",
+      "bytes": 13542,
+      "sha256": "9800cae499dfd8146e19c564cfcd2688a11c793518f6d459a1b8d844ac35b7b1"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/pathway_mouse_boxplots.png",
+      "bytes": 222638,
+      "sha256": "8a27478f2419dcb897a2c828f3810c96d586f71eb9ee2f20978782b214c751f3"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_WT_circle.pdf",
+      "bytes": 6389,
+      "sha256": "1cae7531b990ce8fec87f8bf7dab98109dcc9b6a3dcdd15c16d0e5d779c664ca"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_WT_circle.png",
+      "bytes": 125508,
+      "sha256": "2c5a6bcc297c75ffb9ba075c3a1e7b09d21416703a5ae966a0410be875057afe"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_WT_circos.pdf",
+      "bytes": 19003,
+      "sha256": "cfb1a13918ce7f9be79d9f1426c8b17ebf3e7bbddfd3b32796e08d86887980b1"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_WT_circos.png",
+      "bytes": 213571,
+      "sha256": "9d03bc445638b463384314c9115ce9f2a53faa7315ce33ad9e7fa37b9f12b91c"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_cKO_circle.pdf",
+      "bytes": 6397,
+      "sha256": "a030e937cd64dcf7e358c6671bc390288ac568fb2ebc490e7e53cc03087db045"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_cKO_circle.png",
+      "bytes": 125450,
+      "sha256": "9673fcd5cab623aa4fb4004b9fe8cb172d86ccc03118e1eeb6340154bf45f6bd"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_cKO_circos.pdf",
+      "bytes": 18768,
+      "sha256": "96dc0b0d1d9a77278a70214756bf43f3c834266d01af822b8b36b34ec3ec380e"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_cKO_circos.png",
+      "bytes": 212167,
+      "sha256": "1c283c15846a33c3769b64dc133d54b2b294c2514a15d5435ab425e976393431"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_dotplot_page1.pdf",
+      "bytes": 7230,
+      "sha256": "026846b82883a958f2808c51163678e7e1cd33d606bbd2683fb476670e411dc7"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_dotplot_page1.png",
+      "bytes": 134056,
+      "sha256": "9c0ad34d2ee80c89eb278903e8e9af2fa2cf97b8b92b20ea17b1e76fa001da21"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_pathway_heatmap.pdf",
+      "bytes": 6273,
+      "sha256": "dabcb42c34ac6601da85b359a072320c579487e255389155efa653711a581421"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/CA1_to_IN_pathway_heatmap.png",
+      "bytes": 121395,
+      "sha256": "20980c254b908d78ec632a11d97434ee2d1de1cae27e82a53793e3d50b45f993"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_WT_circle.pdf",
+      "bytes": 5979,
+      "sha256": "cf5cca3cb89216e12bf519ef4c1f99559c331779f55a2b2100582fd97117c57c"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_WT_circle.png",
+      "bytes": 125862,
+      "sha256": "dbdbe8694bb6429143cf77a4ba31580a34e49b26a6e329c693c6686341acf028"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_WT_circos.pdf",
+      "bytes": 17417,
+      "sha256": "b7b1ef718e7f792e292b7c3b22592af456b7c0b0cc7f4983bbae13a307a82e46"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_WT_circos.png",
+      "bytes": 195612,
+      "sha256": "88fec92f371da26a33fd57e5a98c9c8bbeb480c1b1b54d2b5b368b9ec52ac8e6"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_cKO_circle.pdf",
+      "bytes": 5986,
+      "sha256": "f7f12895d3a655dc61507f39feb670c91c407f9fa66c62c7700eab586e0336d8"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_cKO_circle.png",
+      "bytes": 125795,
+      "sha256": "bc6342176d3d00a8ee8a1714d13b0d58013c4a760b7e5c9bd1de94d7d4cf1681"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_cKO_circos.pdf",
+      "bytes": 17412,
+      "sha256": "85bc273dce977a6c6511903b30b0664aa7f9fdef0ce4375afbedea4a3bfdd0e0"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_cKO_circos.png",
+      "bytes": 195741,
+      "sha256": "70dbc9f9c445acfe24da83f31e01aafae67c2f2546f29a5e0a165baff24a511d"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_dotplot_page1.pdf",
+      "bytes": 7247,
+      "sha256": "5edb673396609f020346e5fcdd251323736bc0d1cb830d06f0d6a683b32705f5"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_dotplot_page1.png",
+      "bytes": 141901,
+      "sha256": "39147ad25f75a74816383d02c2175457944e283b1fb36df52370b5f6164c6e8c"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_pathway_heatmap.pdf",
+      "bytes": 6222,
+      "sha256": "aa35b78549fe3db6611977407736e396a91af1fbeb9b27b2a03a5f3985554ed5"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/IN_to_CA1_pathway_heatmap.png",
+      "bytes": 117824,
+      "sha256": "3b42a3299e97c775e42d3bac3a7d3e1b86e68bc0835cf20903e69f84650ee853"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/PLOT_MANIFEST.tsv",
+      "bytes": 908,
+      "sha256": "6a99502ae680ce91b03ff2914b3f1209f8cb862ca1ffce74eacc4002f6105c32"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_WT_circle.pdf",
+      "bytes": 7339,
+      "sha256": "607a1a6ab85d171833fa2a13a3f2fdd123c2bb35903677ae7cbda0fab86a6050"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_WT_circle.png",
+      "bytes": 155391,
+      "sha256": "953a731b9d822ea1e0d6fb8cd068ef87dfb768be17badf8edead10b34e49cf47"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_WT_circos.pdf",
+      "bytes": 21946,
+      "sha256": "e86329af16b75e36a7237605655b33ddd91b1aa724b3467ee01c05d3e1091293"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_WT_circos.png",
+      "bytes": 233494,
+      "sha256": "c30994a03d0ad40fa52c47a35d041af47656091bfb48add009b0abdfeb143b13"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_cKO_circle.pdf",
+      "bytes": 7347,
+      "sha256": "96c9dc2328c69d8e2486c774fd18e6aea1162f8212a2d4e4c10907508ff08c8d"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_cKO_circle.png",
+      "bytes": 154640,
+      "sha256": "efd5e8cb01bc0ddf8e87660ae5f6552ce8d109de41c9ba67acd8843e118e4a9b"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_cKO_circos.pdf",
+      "bytes": 21993,
+      "sha256": "1a957cc372df1af2a0f114dd05d746ca703f166d2f24a9a05b9a583781cfba15"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_cKO_circos.png",
+      "bytes": 237642,
+      "sha256": "080457611c8346bcac59b08e2710566dde2bcb9ef650d4504efb607b00200705"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_dotplot_page1.pdf",
+      "bytes": 8096,
+      "sha256": "b90d12b9e731d91b08db778d50a0accf51e58b5375027d76d8988aef6bcccc31"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_dotplot_page1.png",
+      "bytes": 181135,
+      "sha256": "5797929c5bf52556654aa8e902d5dfeb2b767c1765b3915b82aa1cd1fd716034"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_pathway_heatmap.pdf",
+      "bytes": 6589,
+      "sha256": "c51f31a268de355a5484e720793f33bbb6ce8cc96c241e6bdfa02f5753e272b3"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_pathway_heatmap.png",
+      "bytes": 141550,
+      "sha256": "50fb3f016751390d43c8102e8f962d51ba951cfa3cce9d60d73c2a0fa903307b"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/pathway_mouse_boxplots.pdf",
+      "bytes": 13692,
+      "sha256": "7b88a06d4c1f3b15275bba80c50bc807957cf2bd85872c02332b0f31571f1717"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/pathway_mouse_boxplots.png",
+      "bytes": 231162,
+      "sha256": "9bacec032e519b0e9aeaee3cfab7d83c859877a5aadcfe604b76f28630a24e96"
+    }
+  ]
+}

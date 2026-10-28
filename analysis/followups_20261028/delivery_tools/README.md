@@ -1,0 +1,5 @@
+# Follow-up delivery orchestration
+
+This transport helper accepts only an existing release in Ali-Mujahid/satb2_snRNA. It copies hash-bound proposed files to uniquely named staging paths, refuses to overwrite a differently identified existing asset, uploads with the authenticated GitHub CLI, and verifies every remote byte count and GitHub server SHA256 digest. Paginated API inspection supports more than 100 assets. It never fits, scores or renders study data. Credentials are handled by GitHub CLI and are never emitted.
+
+The frozen presentation_source and publication_source contain the portable/online builders and six-component archive packager, with their own source manifests/tests. The online reader additionally uses an exact flat portable ZIP because the six-component archive intentionally adds archival wrapper records. No scientific schemas or hashes are weakened for transport. Read the approved configurations, terminal reviews and actual delivery receipts before using any stored command. A future reanalysis requires its own scientific execution plan.

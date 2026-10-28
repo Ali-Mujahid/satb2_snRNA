@@ -1,0 +1,10 @@
+{
+  "runtime_lock": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/MONOCLE3_RUNTIME_LOCK_v1.json",
+    "bytes": 6425570,
+    "sha256": "ea61bdd09bfe0da2bbbc51ff09d8123e2a6d2558a25956d88458a6b1ff9f12bf"
+  },
+  "verified_installed_files": 25775,
+  "verified_packages": 219,
+  "validation_before_scientific_inputs_and_fitting": true
+}

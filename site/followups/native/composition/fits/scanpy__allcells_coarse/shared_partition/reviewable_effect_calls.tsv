@@ -1,0 +1,9 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+scanpy__allcells_coarse	shared_partition	Astrocyte	Astrocyte	Inhibitory	0.0	0.48070833333333335	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__allcells_coarse	shared_partition	Excitatory	Excitatory	Inhibitory	0.0	0.3895416666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__allcells_coarse	shared_partition	Inhibitory	Inhibitory	Inhibitory	0.0	0.0	0.0	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+scanpy__allcells_coarse	shared_partition	Microglia	Microglia	Inhibitory	0.0	0.43216666666666664	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__allcells_coarse	shared_partition	Mixed/uncertain	Mixed/uncertain	Inhibitory	0.0	0.44275	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__allcells_coarse	shared_partition	OPC	OPC	Inhibitory	0.0	0.451875	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__allcells_coarse	shared_partition	Oligodendrocyte	Oligodendrocyte	Inhibitory	0.0	0.5385833333333333	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__allcells_coarse	shared_partition	Vascular	Vascular	Inhibitory	0.0	0.4686666666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS

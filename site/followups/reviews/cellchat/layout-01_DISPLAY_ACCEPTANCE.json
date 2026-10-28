@@ -1,0 +1,127 @@
+{
+  "schema": "satb2-cellchat-layout-display-acceptance/v1",
+  "status": "PASS_APPROVED_FOR_DISPLAY",
+  "approved_for_display": true,
+  "created_utc": "2026-10-28T12:31:40.652251+00:00",
+  "registry_run_id": "b78aeedd-a3b4-429a-8d24-ce40d4e787a4",
+  "native_scientific_registry_run_id": "7e8d72cb-c013-43b2-a7fe-89e271430333",
+  "scientific_final_validation": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json",
+    "bytes": 21080,
+    "sha256": "c1dbdbe57c1606ab37d71cbf630905731bb630667038a25bd5ec0cd6bfd16683"
+  },
+  "layout_final_validation": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/FINAL_VALIDATION.json",
+    "bytes": 24997,
+    "sha256": "e15002fe6b056c9efe7d02dbe3d137cd3f041fb1f4e26a1e533ab2a655abda92"
+  },
+  "mapping": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/NATIVE_TO_PRESENTATION_PLOT_MAPPING.json",
+    "bytes": 56387,
+    "sha256": "4ff34c93f451ca0baaca3259a3099760a713e3e24033cf3be20d4fb343ea6e5a"
+  },
+  "independent_integrity_audit": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/INDEPENDENT_INTEGRITY_AUDIT.json",
+    "bytes": 12109,
+    "sha256": "1328e7669cf914660248bf2f2075cbbfc2f5e2b6a852a9d902e58e1a324b6bb0"
+  },
+  "independent_point_audit": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/20261028_actual_point_y_audit.json",
+    "bytes": 976,
+    "sha256": "bd9b3d8c854ea4eefb29c045281e28bb384c123b37d9ca65c375974e829a0e74"
+  },
+  "independent_point_proof": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/20261028_actual_point_y_proof.tsv",
+    "bytes": 17082,
+    "sha256": "77a502337d4acb5c9f987b986e1fcebbb4b1271b999f45d7f542718cec0839c5"
+  },
+  "runtime_lock": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/CELLCHAT_RUNTIME_LOCK_v1.json",
+    "bytes": 3068986,
+    "sha256": "288a5daacafef2cf7a3eb7599b7fa2f676693e80cfd5661ca39b4457d6fe3fa1"
+  },
+  "runtime_installed_file_hashes_verified": 12643,
+  "unchanged_native_file_receipts": 115,
+  "verified_layout_output_receipts": 79,
+  "mapped_figure_exports": 76,
+  "corrected_pdf_count": 38,
+  "corrected_png_count": 38,
+  "pdf_out_of_page_text_count": 0,
+  "exact_raw_mouse_point_heights": 216,
+  "vertical_point_displacements": 0,
+  "negative_plotted_points": 0,
+  "triMean_genuine_zero_points": 21,
+  "visual_review": {
+    "all_PNGs_contact_sheet_reviewed": 38,
+    "representative_PDF_render_count": 6,
+    "native_PNG_styles_at_full_resolution": [
+      "dotplot",
+      "circle"
+    ],
+    "verdict": "readable_headers_labels_axes_legends_and_zero_score_heights",
+    "evidence": [
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_PDF_triMean_bidirectional_pathway_heatmap.png",
+        "bytes": 55120,
+        "sha256": "4539abde86b7e7d8e9f45abcdb1918111ed0e7ffa91f9e600a69152b06860549"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_PDF_triMean_bidirectional_WT_circos.png",
+        "bytes": 90797,
+        "sha256": "8718e7f130852b9d04b6278c5888ab351b21ff6295fabdb16e346b9a31a2040a"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_PDF_triMean_pathway_mouse_boxplots.png",
+        "bytes": 97425,
+        "sha256": "562469197554afd7435a76c5877a159a20f4568d0394ccce623bf2f1f12a3bdf"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_PDF_truncatedMean10_bidirectional_pathway_heatmap.png",
+        "bytes": 54552,
+        "sha256": "7190d2d3f7fc322165c97b51e2e606dbecc45ccd084f837146bbb3cc84b3bb94"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_PDF_truncatedMean10_bidirectional_cKO_circos.png",
+        "bytes": 94033,
+        "sha256": "b8de7a20b8eb9df7705054d770d7da25a3f8e3a66e5618ba921b3ac78067b726"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_PDF_truncatedMean10_pathway_mouse_boxplots.png",
+        "bytes": 98500,
+        "sha256": "0cb6e480ab0c05c898c0d09f40f5e78f9b577e58e9133f62b3724632dcee187d"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_CONTACT_triMean.png",
+        "bytes": 536147,
+        "sha256": "0e6e361429af4f52e2d0561b08267c9fe616e5f254e7b8aa5f314b2c444cefae"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_actual_readonly/REVIEW_CONTACT_truncatedMean10.png",
+        "bytes": 537684,
+        "sha256": "414d8525ac8e56d8318c81ef5f9d50277afd599015bb2379d8afd34dc8e0bc82"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/triMean/bidirectional_dotplot_page1.png",
+        "bytes": 179732,
+        "sha256": "1a701e1665f984195b0ff62ac2a91c10e0ae8b964683ba545d2e0a54e8d332e6"
+      },
+      {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/figures/truncatedMean10/bidirectional_cKO_circle.png",
+        "bytes": 154640,
+        "sha256": "efd5e8cb01bc0ddf8e87660ae5f6552ce8d109de41c9ba67acd8843e118e4a9b"
+      }
+    ]
+  },
+  "native_outputs_modified": false,
+  "scientific_fitting_or_rescoring": false,
+  "new_statistical_results": false,
+  "limitations": [
+    "Figures preserve original exploratory conditional DEG-only communication findings; display repair is not new evidence.",
+    "Primary full-cohort three adjusted associations are not primary shared-partition discoveries (shared BH=.07143).",
+    "Circos sector/ribbon geometry is relative within a condition; do not infer absolute cross-condition score differences from width.",
+    "Circle common edge-width maximum is shared across views/conditions within an averaging method, not necessarily across methods.",
+    "Dot/tile colors represent native per-figure magnitudes and legends, not gene up/down direction or pathway activation.",
+    "Missing/ineligible edges and C8 no-eligible-edge outcome do not establish absent biological signaling.",
+    "Use corrected figures as default, retain originals explicitly as archival layouts with known clipping/vertical-jitter issues."
+  ]
+}

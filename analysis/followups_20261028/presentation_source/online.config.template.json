@@ -1,0 +1,22 @@
+{
+  "schema": "satb2-followups-online-transport/v1",
+  "approved_for_online_presentation": false,
+  "portable_root": "/absolute/path/to/reviewed/portable/folder",
+  "portable_manifest": {"path": "/absolute/path/to/reviewed/portable/folder/READER_MANIFEST.json", "bytes": null, "sha256": null},
+  "portable_visual_review_receipts": [],
+  "remote_verification_receipts": [],
+  "existing_site_root": "/Users/mujahid357/Documents/codex_new/satb2_snRNA_github/site",
+  "maximum_site_bytes": 950000000,
+  "maximum_online_bytes": 10000000,
+  "verified_release_assets": [],
+  "portable_zip": {
+    "url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/REVIEWED_TAG/portable.zip",
+    "bytes": null,
+    "sha256": null,
+    "local_receipt": {"path": "/absolute/path/to/portable.zip", "bytes": null, "sha256": null},
+    "archive_prefix": "",
+    "remote_verified_bytes": null,
+    "remote_verified_sha256": null,
+    "verification_method": null
+  }
+}

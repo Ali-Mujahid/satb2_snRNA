@@ -1,0 +1,18 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+scanpy__inhibitory_clusters	shared_partition	0	C0 · 049 Lamp5 Gaba	5	0.0	0.49654166666666666	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	1	C1 · Inhibitory; mixed atlas subclasses	5	0.0	0.445875	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	2	C2 · 052 Pvalb Gaba	5	0.0	0.511875	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	3	C3 · 053 Sst Gaba	5	0.0	0.43025	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	4	C4 · Inhibitory; mixed atlas subclasses	5	0.0	0.46291666666666664	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	5	C5 · 052 Pvalb Gaba	5	0.0	0.0	0.0	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+scanpy__inhibitory_clusters	shared_partition	6	C6 · 050 Lamp5 Lhx6 Gaba	5	0.0	0.4685416666666667	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	7	C7 · Inhibitory; mixed atlas subclasses	5	0.0	0.5006666666666667	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	8	C8 · 053 Sst Gaba	5	0.0	0.665625	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	9	C9 · 053 Sst Gaba	5	0.0	0.4746666666666667	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	10	C10 · 046 Vip Gaba	5	0.0	0.44116666666666665	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	11	C11 · 046 Vip Gaba	5	0.0	0.49216666666666664	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	12	C12 · 051 Pvalb chandelier Gaba	5	0.0	0.47708333333333336	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	13	C13 · 048 RHP-COA Ndnf Gaba	5	0.0	0.48004166666666664	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	14	C14 · Inhibitory; mixed atlas subclasses	5	0.0	0.5358333333333334	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	15	C15 · 052 Pvalb Gaba; Microglia/Other_immune-associated signature review	5	0.0	0.5105416666666667	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+scanpy__inhibitory_clusters	shared_partition	16	C16 · 045 OB-STR-CTX Inh IMN	5	0.0	0.496875	0.0	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE

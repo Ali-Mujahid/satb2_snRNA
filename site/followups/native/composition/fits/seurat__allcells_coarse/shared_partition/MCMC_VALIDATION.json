@@ -1,0 +1,14 @@
+{
+  "divergences": 18,
+  "excluded_from_diagnostics": "Deterministic beta/reference structural zero; all native stochastic parameters diagnosed",
+  "failures": [
+    "DIVERGENCES"
+  ],
+  "method": "numpyro.diagnostics.summary(prob=0.95, group_by_chain=True); native split R-hat and effective sample size",
+  "n_stochastic_parameters": 23,
+  "passed": false,
+  "thresholds": {
+    "max_rhat": 1.01,
+    "min_effective_samples": 400
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "normalization": "log1p_CP10000_with_saved_all_original_RNA_feature_library_denominator",
+  "shared_native_max": 6.517,
+  "n_signaling_features": 1464,
+  "n_union_pairs": 6,
+  "nboot": 100,
+  "native_P_role": "cell-label specificity only; never genotype P or FDR",
+  "cofactors": "Native modifiers use normalized RNA; not selected DEG leads. Missing/ambiguous modifier features excluded with audit.",
+  "comparability": "one 60-group common object; reported edges strictly within mouse; population.size FALSE",
+  "conditional_evidence": "All score tests reuse original DEG-selected study; exploratory post-selection associations",
+  "confounding": "Genotype partially associated with technical partition; full-cohort contrasts do not isolate causal genotype effects"
+}

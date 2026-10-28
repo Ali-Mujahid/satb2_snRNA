@@ -1,0 +1,35 @@
+{
+  "schema": "satb2-followups-portable-presentation/v1",
+  "approved_for_portable_presentation": false,
+  "title": "SATB2 · Four follow-up analyses",
+  "maximum_package_bytes": 45000000,
+  "maximum_table_bytes": 2000000,
+  "maximum_embedded_table_preview_bytes": 750000,
+  "tasks": {
+    "composition": {
+      "native_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/results",
+      "terminal_seal": {"path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/results/FINAL_VALIDATION.json", "bytes": null, "sha256": null},
+      "headline": "Root-reviewed result interpretation is required after actual terminal validation.",
+      "findings": [], "limitations": [], "review_receipts": [], "archive_url": null
+    },
+    "cellchat": {
+      "presentation_override": null,
+      "native_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat",
+      "terminal_seal": {"path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json", "bytes": null, "sha256": null},
+      "headline": "Root-reviewed result interpretation is required after actual terminal validation.",
+      "findings": [], "limitations": [], "review_receipts": [], "archive_url": null
+    },
+    "monocle3": {
+      "native_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results",
+      "terminal_seal": {"path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results/FINAL_VALIDATION.json", "bytes": null, "sha256": null},
+      "headline": "Root-reviewed result interpretation is required after actual terminal validation.",
+      "findings": [], "limitations": [], "review_receipts": [], "archive_url": null
+    },
+    "velocity": {
+      "status": "INPUT_BLOCKED",
+      "assessment_receipt": {"path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/velocity_readiness/inventory_evidence.json", "bytes": null, "sha256": null},
+      "headline": "Velocity inputs are unavailable; no velocity analysis has been run.",
+      "findings": [], "limitations": [], "review_receipts": [], "archive_url": null
+    }
+  }
+}

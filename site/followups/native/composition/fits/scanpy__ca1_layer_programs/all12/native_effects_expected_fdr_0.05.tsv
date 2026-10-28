@@ -1,0 +1,5 @@
+Covariate	Cell Type	Final Parameter	HDI 95% lower	HDI 95% upper	SD	Inclusion probability	Expected Sample	log2-fold change
+C(condition, Treatment('WT'))[T.cKO]	Deep-associated expression program enriched	0.0	-0.020760922304943658	0.28633317140447523	0.09150709658646351	0.6025833333333334	495.8511732117523	0.0
+C(condition, Treatment('WT'))[T.cKO]	Layer program not assigned: conflicting identity signatures	0.0	-0.42427315102589286	0.5635625908598801	0.1646637998580827	0.44708333333333333	8.892776352296398	0.0
+C(condition, Treatment('WT'))[T.cKO]	Mixed or weak layer-associated expression programs	0.0	-0.24256663221964045	0.009934276382977395	0.08073132715007501	0.6346666666666667	1318.4254341378876	0.0
+C(condition, Treatment('WT'))[T.cKO]	Superficial-associated expression program enriched	0.0	0.0	0.0	0.0	0.0	485.4139496313973	0.0

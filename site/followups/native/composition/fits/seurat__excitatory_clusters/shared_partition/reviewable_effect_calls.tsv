@@ -1,0 +1,24 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+seurat__excitatory_clusters	shared_partition	1	C1 · 016 CA1-ProS Glut	21	0.0	0.31979166666666664	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	2	C2 · 016 CA1-ProS Glut	21	0.0	0.332	-0.049948467050954896	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	3	C3 · 016 CA1-ProS Glut	21	0.0	0.29370833333333335	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	4	C4 · Excitatory; mixed atlas subclasses	21	0.4679227225735647	0.9959583333333333	0.6251213243251889	True	True	0.05	CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	5	C5 · 023 SUB-ProS Glut	21	0.0	0.384625	-0.04994846705095539	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	6	C6 · 019 L2/3 IT PPP Glut	21	0.0	0.80075	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	7	C7 · 033 NP SUB Glut	21	0.0	0.3405	-0.04994846705095539	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	8	C8 · 016 CA1-ProS Glut	21	0.0	0.36683333333333334	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	9	C9 · 023 SUB-ProS Glut	21	0.0	0.3459583333333333	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	10	C10 · 037 DG Glut	21	0.0	0.5204166666666666	-0.04994846705095539	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	11	C11 · 031 CT SUB Glut	21	0.0	0.520125	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	12	C12 · 028 L6b/CT ENT Glut	21	0.0	0.6730416666666666	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	13	C13 · Excitatory; mixed atlas subclasses	21	0.0	0.401875	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	14	C14 · Excitatory; mixed atlas subclasses	21	0.0	0.425	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	15	C15 · Excitatory; mixed atlas subclasses	21	0.0	0.575	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	16	C16 · 017 CA3 Glut	21	0.0	0.44479166666666664	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	17	C17 · 008 L2/3 IT ENT Glut	21	0.0	0.888375	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	18	C18 · Excitatory; mixed atlas subclasses	21	0.0	0.437875	-0.04994846705095522	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	19	C19 · 011 L2 IT ENT-po Glut	21	0.0	0.5919583333333334	-0.049948467050955056	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	20	C20 · 036 HPF CR Glut	21	0.0	0.48391666666666666	-0.04994846705095539	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	21	C21 · 016 CA1-ProS Glut; Astrocyte/Microglia/Other_immune-associated signature review	21	0.0	0.0	-0.04994846705095539	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+seurat__excitatory_clusters	shared_partition	22	C22 · Excitatory; mixed atlas subclasses	21	0.0	0.4937916666666667	-0.04994846705095539	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE
+seurat__excitatory_clusters	shared_partition	23	C23 · 034 NP PPP Glut	21	0.0	0.5927083333333333	-0.04994846705095539	False	False	0.05	NO_CREDIBLE_RELATIVE_CHANGE

@@ -1,0 +1,36 @@
+{
+  "status": "READ_ONLY_MEMBERSHIP_AGREEMENT_NOT_NEW_INFERENCE",
+  "source": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/nucleus_annotations.tsv.gz",
+  "shared_samples": [
+    "cKO_1139",
+    "cKO_1160",
+    "cKO_1165",
+    "wt_1122",
+    "wt_1123",
+    "wt_1178",
+    "wt_1220",
+    "wt_1226",
+    "wt_1228"
+  ],
+  "counts": {
+    "all": {
+      "scanpy_C9": 4372,
+      "seurat_C4": 4283,
+      "overlap": 4264,
+      "union": 4391,
+      "jaccard": 0.9710772033705306,
+      "overlap_fraction_scanpy": 0.9752973467520586,
+      "overlap_fraction_seurat": 0.9955638571095027
+    },
+    "shared": {
+      "scanpy_C9": 3270,
+      "seurat_C4": 3211,
+      "overlap": 3197,
+      "union": 3284,
+      "jaccard": 0.9735079171741778,
+      "overlap_fraction_scanpy": 0.9776758409785933,
+      "overlap_fraction_seurat": 0.9956399875428216
+    }
+  },
+  "no_fit_or_native_change": true
+}

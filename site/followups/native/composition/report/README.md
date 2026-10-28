@@ -1,0 +1,11 @@
+# Mouse-level composition analysis
+
+This additive analysis retains every original annotation, count and exclusion. The inferential unit is an independent mouse, with 6 WT and 6 cKO mice in the full-cohort association. The separate shared-sequencing-partition sensitivity includes 6 WT and 3 cKO mice.
+
+Each scope is a disjoint composition with its own explicit denominator. Broad cell types use all kept nuclei; excitatory clusters use all kept excitatory nuclei; inhibitory clusters use all kept inhibitory nuclei; CA1 expression programs include deep, superficial, mixed/weak and conflict/unassigned categories together. Population rows from different scopes are overlapping and must never be added together.
+
+Native scCODA jointly models mouse-level cell-count vectors, with a genotype-blind low-dispersion reference. Four genuine independent native chains retain their seeds, every draw, original model objects and diagnostics. Posterior inclusion probabilities and native expected Bayesian FDR are exported; these are not frequentist p-values or BH q-values. FDR 0.05 is applied within each scope/cohort as a separate exploratory family. Inferential calls are withheld if stochastic-parameter split R-hat exceeds 1.01, ESS is below 400 or any divergence occurs. No result is made significant by changing an FDR cutoff after inspection.
+
+The reference coefficient is fixed to zero for identifiability and does not show absence of biological change. Native model coefficients are relative to that reference; native compositional log2 fold changes include re-normalization and can have different signs. Raw proportions and original integer nucleus counts remain unsmoothed. Native scCODA's 0.5 zero replacement is explicitly audited in each fit.
+
+Recovered nucleus proportions do not establish absolute tissue abundance, cell death or proliferation. The full cohort has partial genotype/technical-partition confounding, and the shared-partition sensitivity has fewer cKO mice. CA1 expression-program labels do not establish physical anatomical layers. Saved uncertain/mixed cell labels remain provisional. Seurat and Scanpy use their respective saved nuclei and labels; exact membership agreement is separately audited, never created by a silent intersection. Agreement is sensitivity evidence within one study, not independent biological replication.

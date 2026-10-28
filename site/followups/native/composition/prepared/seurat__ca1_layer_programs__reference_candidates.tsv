@@ -1,0 +1,5 @@
+category	display_label	n_mice_nonzero	mean_proportion	pooled_dispersion	eligible	exclusion_reason
+Superficial-associated expression program enriched	Superficial-associated expression program enriched	12	0.4219333900607842	0.00046126200534602483	True	
+Deep-associated expression program enriched	Deep-associated expression program enriched	12	0.31615172917175527	0.0033070493734556677	True	
+Layer program not assigned: conflicting identity signatures	Layer program not assigned: conflicting identity signatures	12	0.0038352978549667026	0.0013002739884613462	False	UNCERTAIN_REFERENCE_LABEL
+Mixed or weak layer-associated expression programs	Mixed or weak layer-associated expression programs	12	0.25807958291249383	0.0035006901788385524	False	UNCERTAIN_REFERENCE_LABEL

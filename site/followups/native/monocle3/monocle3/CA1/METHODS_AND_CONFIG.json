@@ -1,0 +1,141 @@
+{
+  "monocle3_version": "1.4.27",
+  "native_source_commit": "536f1033d6de7c957f26a1f403f81efbd825e0db",
+  "config": {
+    "schema": "satb2-monocle3/v1",
+    "analysis_id": "SATB2_Monocle3_exploratory_states_20261028_v1",
+    "workflow_version": "1.0.0",
+    "run_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1",
+    "Rscript_executable": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/run_R.sh",
+    "python_executable": "/Users/mujahid357/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3",
+    "monocle3_version": "1.4.27",
+    "monocle3_commit": "536f1033d6de7c957f26a1f403f81efbd825e0db",
+    "threads": 2,
+    "umap_cores": 1,
+    "seed": 1337,
+    "num_dim": 50,
+    "min_detection_fraction": 0.05,
+    "umap_min_dist": 0.1,
+    "umap_n_neighbors": 15,
+    "cluster_k": 20,
+    "partition_qval": 0.05,
+    "cell_resolution": null,
+    "use_partition": true,
+    "close_loop": false,
+    "learn_graph_control": {
+      "minimal_branch_len": 10,
+      "prune_graph": true,
+      "nn.k": 25,
+      "nn.cores": 1
+    },
+    "graph_test_k": 25,
+    "graph_q_threshold": 0.05,
+    "module_resolution": 0.01,
+    "module_k": 20,
+    "module_umap_neighbors": 15,
+    "top_graph_genes": 12,
+    "same_partition": "23HJT3LT4_lanes6_7",
+    "overwrite_prior": false,
+    "allow_network": false,
+    "prepared_complete": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/COMPLETE.json",
+      "bytes": 4405,
+      "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+    },
+    "lineages": {
+      "CA1": {
+        "counts": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/counts.mtx.gz",
+          "bytes": 208113008,
+          "sha256": "5854cd68856904422428138307b5fd55e89ae109567ac586975d88475d7e6348"
+        },
+        "genes": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/genes.tsv",
+          "bytes": 1553719,
+          "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+        },
+        "cells": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/CA1/cells.tsv",
+          "bytes": 19179408,
+          "sha256": "9102f2afe3c93b7ec8f5991dcdf607d3d5997d1e1efac281848d4bd2ac02e218"
+        }
+      },
+      "IN": {
+        "counts": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/counts.mtx.gz",
+          "bytes": 25753115,
+          "sha256": "9903aa896db0bc4ed39743dc1a1faea1d7e2981e78129372d13e6883c4fb3a40"
+        },
+        "genes": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/genes.tsv",
+          "bytes": 1553719,
+          "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+        },
+        "cells": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/cells.tsv",
+          "bytes": 2390731,
+          "sha256": "a02c6fa25c758bea814946bc37e32d61fcbee7de218e961ec711447c3c9ac59d"
+        }
+      }
+    },
+    "expected_group_counts": {
+      "CA1_Deep": 8750,
+      "CA1_Superficial": 11706,
+      "IN_C1": 1718,
+      "IN_C6": 501,
+      "IN_C8": 468
+    },
+    "expected_samples": [
+      "wt_1122",
+      "wt_1123",
+      "wt_1178",
+      "wt_1220",
+      "wt_1226",
+      "wt_1228",
+      "cKO_1138",
+      "cKO_1139",
+      "cKO_1160",
+      "cKO_1165",
+      "cKO_933",
+      "cKO_991"
+    ],
+    "root_policy": "genotype_blind_geometric_medoid_per_component; arbitrary_not_temporal",
+    "alternate_root_policy": "farthest_tip_from_medoid_per_component; arbitrary_not_temporal",
+    "count_feature_policy": "prepared_unique_feature_id_symbol_sums; original_gene_ids_preserved",
+    "size_factor_policy": "native_constructor_default_on_retained_eligible_genes; original_full_and_prepared_sums_exported",
+    "scope_policy": {
+      "CA1": "DL_and_SL_pooled",
+      "IN": "C1_C6_C8_independent_CDS_objects"
+    },
+    "additional_hash_inputs": {
+      "R_native_artifacts": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_ARTIFACTS.json",
+        "bytes": 642,
+        "sha256": "318a13634964f2a8e652993a82431ab5ce7fea4a833dc5a3608a4dd8465f823c"
+      },
+      "R_native_installed": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_INSTALLED.tsv",
+        "bytes": 37456,
+        "sha256": "f46909256c2f3e51e6d9c86ca2777ab4e136339c77f2773f11c46b13e11481a2"
+      },
+      "R_wrapper": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/run_R.sh",
+        "bytes": 277,
+        "sha256": "7519a9c40c0106ac28ab3314ede783b55dab1e1f12755646a0c85c36d330cb1c"
+      },
+      "R_native_session": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_SESSION.txt",
+        "bytes": 4859,
+        "sha256": "dbd967f41213e10e5e29cdbecca2c14bb1824afbe1440953a96a2c188463fa08"
+      }
+    },
+    "config_created_before_scientific_execution": true,
+    "runtime_lock": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/MONOCLE3_RUNTIME_LOCK_v1.json",
+      "bytes": 6425570,
+      "sha256": "ea61bdd09bfe0da2bbbc51ff09d8123e2a6d2558a25956d88458a6b1ff9f12bf"
+    },
+    "clean_source_release": "monocle3_source_release_v1"
+  },
+  "note": "Original expression/labels/coordinates and prior DESeq2 analyses are preserved"
+}

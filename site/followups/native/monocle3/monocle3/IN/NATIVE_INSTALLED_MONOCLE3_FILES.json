@@ -1,0 +1,197 @@
+[
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/CITATION",
+    "bytes": 3667,
+    "sha256": "2b9275e2fdfc908412b6901f3d47b133f6136c5297745499ee349a44c799acf6"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/DESCRIPTION",
+    "bytes": 3189,
+    "sha256": "024a72c37069ab3a91999c9510d48b939cab244e25efdbcc04ddea10b49c33c6"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/INDEX",
+    "bytes": 10547,
+    "sha256": "52569273f82ff1e82644e5b34c4fa76571f912d4dbb451cbb7b005b277d7fdc8"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/LICENSE",
+    "bytes": 43,
+    "sha256": "1637c70cad982fb636e25d0931ff159eced22f2e049683befea77d5cad85d53e"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/Meta/Rd.rds",
+    "bytes": 4115,
+    "sha256": "e620d8a63096588078eecb24c89742f08aa29b12d6a933a61089a78274dd09fd"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/Meta/features.rds",
+    "bytes": 123,
+    "sha256": "b4f074bc0f45cfe56d976c0d67a1453067f4b34693828ed02d674a6641b3e332"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/Meta/hsearch.rds",
+    "bytes": 3592,
+    "sha256": "80a96387fb27dc8858777192d0fcd129cd2554a321fe08cce37371e0a7683072"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/Meta/links.rds",
+    "bytes": 1568,
+    "sha256": "bdb1f318a9445ca3427eee0abd736158514bdfbd822dc6b84a50de74abd3458d"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/Meta/nsInfo.rds",
+    "bytes": 1324,
+    "sha256": "c569a1d00cdfd66751cd3484a9c81a581372a8ae18ce03c5ec95fbac76814a0b"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/Meta/package.rds",
+    "bytes": 2766,
+    "sha256": "95d6c4d00a93964aab4c79ef0ee56afa8f2fc82caea49360d7e2590d2c58f1ca"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/NAMESPACE",
+    "bytes": 3506,
+    "sha256": "20cce61ed1de4345763cbf11387d7b263f920e314f8b9491d49760ea2a502c34"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/NEWS.md",
+    "bytes": 4794,
+    "sha256": "08f029ba0f43d59aeba0993a29c815adebf1d2a2c6849db8214b697bd5d9ab45"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/R/monocle3",
+    "bytes": 1058,
+    "sha256": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/R/monocle3.rdb",
+    "bytes": 694160,
+    "sha256": "d7215e665e6504490cc522212cc2d1c316faa707121c5a15cc31b7f7d3e5af04"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/R/monocle3.rdx",
+    "bytes": 4730,
+    "sha256": "e69e45a04b7ab5d57a92d187673a7d486f66702b2183d83cd8e663d97183948b"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/README.md",
+    "bytes": 6349,
+    "sha256": "1176a268da10464da88a35038a9761ec68710f67ce96e3f51e81a29598f15204"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/WORDLIST",
+    "bytes": 1136,
+    "sha256": "8daa901236b2fe8883371bb62d301d3527b5d0e55939cfdf1626e2f9116f67f3"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/barcodes_c2h0.txt",
+    "bytes": 125,
+    "sha256": "24614d6f874bee3a23df07a67ffbb9f4f4de6b9ccde0833b5e8f2e88b31f92d5"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/cell_ranger_3/outs/filtered_feature_bc_matrix/barcodes.tsv.gz",
+    "bytes": 87,
+    "sha256": "957ea7a3c5480a4779202d05742470218c4e244844fe124f0885b1c3747820f2"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/cell_ranger_3/outs/filtered_feature_bc_matrix/features.tsv.gz",
+    "bytes": 163,
+    "sha256": "5574465a3bfd85d7a91d49312bfff9b92c1a6065cc3264f0bf26efb7ee51a780"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/cell_ranger_3/outs/filtered_feature_bc_matrix/matrix.mtx.gz",
+    "bytes": 188,
+    "sha256": "4942460afb2a88bcabaa5acc7a659c7bd6be6c0b690cfe7b3dd2b8fa0ff8949e"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/features_c3h0.txt",
+    "bytes": 182,
+    "sha256": "a20551729574eff8db5694d496d8f1f2cc47ef9d994c6657dc468135baf81345"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/lung_exprs_data.RData",
+    "bytes": 165649,
+    "sha256": "c0d20c03ac48d32cb4051297cc6bba9d7b7c945d5fe78132fb2d2a767a8d8a01"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/lung_feature_data.RData",
+    "bytes": 528058,
+    "sha256": "7f87137818cd706384f1a7009961611c730abe499643de77349bf4ddcbffd60f"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/lung_phenotype_data.RData",
+    "bytes": 16321,
+    "sha256": "ed7dbab5af0fc71ef94e2d868d06d41ee4e12aba23890e2368d8a1cd456fc268"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/matrix.mtx.gz",
+    "bytes": 188,
+    "sha256": "4942460afb2a88bcabaa5acc7a659c7bd6be6c0b690cfe7b3dd2b8fa0ff8949e"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/small_a549_dex_exprs.rda",
+    "bytes": 21433,
+    "sha256": "a62ebcf41896515cda9277a64a6b305d8586a80fc2bf86fa197ec7a40b3f25a1"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/small_a549_dex_fdata.rda",
+    "bytes": 3011,
+    "sha256": "1bc48317fa7d696dc2bae294264083956e5d86f45174770efbcb271e0a89d51c"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/small_a549_dex_pdata.rda",
+    "bytes": 33911,
+    "sha256": "e3bd6338cbfff406959fcdbf82b1887b3032c44bcaab53e18e269fbb6bb5816e"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_embryo/NOTES",
+    "bytes": 3326,
+    "sha256": "1c882d18a72ff8794f61831f9166cfe8a3a0c3cb27d6906fb3fd99cb6cd60cdb"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_embryo/worm_embryo_coldata.rds",
+    "bytes": 163625,
+    "sha256": "425ee0efdad1af38e18dee109e1a371b5ebefd85365abd5c81e6daa7b57fd6e3"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_embryo/worm_embryo_expression_matrix.rds",
+    "bytes": 1646028,
+    "sha256": "79fef2d296a982a537ea925728b14e4b779bf162536d23f181fa6f711a5f198a"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_embryo/worm_embryo_rowdata.rds",
+    "bytes": 129018,
+    "sha256": "e93a2ff0f404b0b71a76e75b6c0c23d6deb5ddc196cca9fc333912a747b30950"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_l2/NOTES",
+    "bytes": 2901,
+    "sha256": "a02e8be7610b7f826ecabaa156f0c68aae4f6934f578e05c34fe33eb399da126"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_l2/worm_l2_coldata.rds",
+    "bytes": 75993,
+    "sha256": "9ec34efcf360d0d03ea8c4d4a6507e70b33a71a895461c6b57e160899ec5f02a"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_l2/worm_l2_expression_matrix.rds",
+    "bytes": 813259,
+    "sha256": "3864e933644ac73840fd8c08ddb72af8b7645a671fa772d1be5b5a0beef7823e"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/extdata/worm_l2/worm_l2_rowdata.rds",
+    "bytes": 85280,
+    "sha256": "e93e93f0d8ee5fc04232be59c873776df0fc29f58863ad9ac0f174e15d647019"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/libs/monocle3.so",
+    "bytes": 110128,
+    "sha256": "7f076fe2a4d8053c7fb490c43b24a6560e164724a94abad58352e40fd5d80903"
+  },
+  {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library/monocle3/louvain.py",
+    "bytes": 1882,
+    "sha256": "74198d0573b650335a02c1ec82e68b377aa04bce0b5763eb3cbff9919c0eb7ff"
+  }
+]

@@ -1,0 +1,3404 @@
+{
+  "input_receipts": {
+    "base_metadata": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_1/results/shared/original_full/nucleus_metadata.tsv",
+      "sha256": "27870a3eeb687c723c1dc43b75572097589ccb33cf49c03b6b8df5b69ad0cdd5",
+      "size_bytes": 89667931
+    },
+    "cluster_annotations": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/cluster_annotations.tsv",
+      "sha256": "a84fb3ef8121f2860c849146fcc991f4b4cad0a0b0b5376c5623b22bf4758ee4",
+      "size_bytes": 2453830
+    },
+    "nucleus_annotations": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/nucleus_annotations.tsv.gz",
+      "sha256": "e582eed6b1f6f067106107372ea9b3742c298659eb4e25ee2b0a8d806fbf70b7",
+      "size_bytes": 96196949
+    },
+    "runtime_contract": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/composition_sampler_strict_source_v1_1_0/runtime_contract.json",
+      "sha256": "9424cf978c6c1b2828e34507e7d155b5e0688e8e157a391c412f2a159282f255",
+      "size_bytes": 2450
+    },
+    "runtime_environment_status": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/SCCODA_SETUP_STATUS.json",
+      "sha256": "54c9887187281c7a1c5dceb02fd950c740df06fda9cdc24196cc381a1a9448a3",
+      "size_bytes": 572
+    },
+    "runtime_requirements_lock": {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/sccoda_requirements.lock",
+      "sha256": "e6a1aeded646da4ca0305e4a6a4955f169b95dcaaf603926292b6296d916eefb",
+      "size_bytes": 21057
+    }
+  },
+  "n_model_diagnostic_passes": 4,
+  "n_models": 16,
+  "n_models_inconclusive": 12,
+  "n_scopes": 8,
+  "outputs": [
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/MCMC_VALIDATION.json",
+      "sha256": "d595383057aad5f3ade21f8057569d59c08570f0ccbb254fe4b3ff4f4534d0f9",
+      "size_bytes": 437
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/RESULT_STATUS.json",
+      "sha256": "7e9055e6d3228bb89eb886829ac61555eb056a7edc10be6e32bc7b6cf76acf72",
+      "size_bytes": 9378
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/STARTED.json",
+      "sha256": "e713744bccca71c1c752c6ce15d48519fb7af7b97ed1343582f147528ac57d8a",
+      "size_bytes": 467
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_1/native_effects.tsv",
+      "sha256": "725415c01583edd3367819bacaf439a50c63adddf8aed5f96ff294b70863523b",
+      "size_bytes": 1268
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_1/native_extra_fields.npz",
+      "sha256": "1f29c1b290a591716726e415cd517587ccfae354510a0b3ec87616bf214692df",
+      "size_bytes": 118819
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "82ad862113b94f27463b03e614a1afcc1b21228ea2d9065f5a8751e34b239935",
+      "size_bytes": 2590791
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "a59b06d3f9048d30f021988192d66c51b2e30751f57ba9e815040e604c6a8455",
+      "size_bytes": 3820517
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_2/native_effects.tsv",
+      "sha256": "a0418dbb5db114eebaa408b2f596718d2e493d7dcddbd455892b3a558df088fe",
+      "size_bytes": 1241
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_2/native_extra_fields.npz",
+      "sha256": "69d80717b49a31031465b6095d3761c9449db447a17f6cfd5e88b8cab36b9eca",
+      "size_bytes": 124677
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "c83b2b2cd8dd9f3ecac9fcfbcd5738d126d5ec8201b12e1c024a0eb71fb0c837",
+      "size_bytes": 2590792
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "fe91a10a026c2b2606aa6171d3181d11aadbf98d40c16a1ad0d57e4d225cee6e",
+      "size_bytes": 3825121
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_3/native_effects.tsv",
+      "sha256": "7341b30d6775253eef5f5356ec2b8741ee0cf9cfb3e2affe36ec296f2a669572",
+      "size_bytes": 1275
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_3/native_extra_fields.npz",
+      "sha256": "5ffbf1c03c224fbf792633e07505f52db483d345e343fcbc35be1da74f88ffec",
+      "size_bytes": 125376
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "28afc2c6400b66cc9a21d132bfde2b39335308631529e423a97dd7992c1c1e84",
+      "size_bytes": 2591657
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "b5a851c70e1ac6e96a31f915aab8499f3b427ae12f3da4578aff55b3aeeff318",
+      "size_bytes": 3826187
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_4/native_effects.tsv",
+      "sha256": "b3b6264208422eb9b3040395f38726937cba5e6a38161b73c15724e8caf77e81",
+      "size_bytes": 1274
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_4/native_extra_fields.npz",
+      "sha256": "cdf9ed731130090c7fb9769544a9667d61d1be5fc83d022bf1beac8af14b7cd8",
+      "size_bytes": 125776
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "1fa8bf933d793038463c66c83b3c7ad12519d2b801d541859ef9b0298084ede5",
+      "size_bytes": 2590215
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "2662a1d9cd0be2b6ec9f0ebced77d50522e84a1dfbc21022007e669092d50a4c",
+      "size_bytes": 3826083
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_effect_intervals.pdf",
+      "sha256": "6905ce9e09f76c3ee3ccaba06de57965ef50b721fdc1e41409cf725e409ee3b8",
+      "size_bytes": 20260
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_effect_intervals.png",
+      "sha256": "9a612980d55d4a62fd93eca01a8f45544c974d6eee682f0cf78d12997e82330f",
+      "size_bytes": 50304
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "377e0e69799c5af89e15b1c27f3ef42650fdf2a5d62bf19cc6d92570168e7935",
+      "size_bytes": 1249
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_intercepts.tsv",
+      "sha256": "1389ae63df45e4bb954751e5d711b7fdc5d4cf7c06e94f0b738604cd441b3f23",
+      "size_bytes": 899
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "c8457d668d463fe4a436b64ef1f0fa0a35f04a1191eed9a7a07dc9176d431b36",
+      "size_bytes": 17543068
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/native_zero_replacement_audit.tsv",
+      "sha256": "5f1f7c579558f645e7ddaaf673d99e73b337d1b2e938f4b189024cca8ac5a1be",
+      "size_bytes": 423
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/raw_mouse_proportions.pdf",
+      "sha256": "32315d394ce9fbe1417bd39e8ed4feb5b477d465ee430cc476c5ed74fb434e36",
+      "size_bytes": 24252
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/raw_mouse_proportions.png",
+      "sha256": "3a6c4ac79303ca065d640efe02795432a1d38fdc07bf5e61b077ca13a0dc8b99",
+      "size_bytes": 84853
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/raw_stacked_proportions.pdf",
+      "sha256": "b3b46b1de07a5e95f8d90437bb84999ff56a0b0268097218e7d2a8c0ce9df010",
+      "size_bytes": 20091
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/raw_stacked_proportions.png",
+      "sha256": "c8c4d63055654a3a8d669b1e6c1e9495d26bbec4e1ce59ecf8f9c7edfd0ff0dc",
+      "size_bytes": 83622
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/reviewable_effect_calls.tsv",
+      "sha256": "9056a5254c8978c1df711b77d074bc1ba213d5e35c145af291f6a27fd1c75db1",
+      "size_bytes": 1278
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "de6e59c071ac4a964c26769e9c1a80becc62356acb1c1652b6e226afd2704dda",
+      "size_bytes": 2548
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "7075d3d5e447baeca42cf85e42cf9ee3a7dd30db0653394f16d3a96b07ce24a6",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/RESULT_STATUS.json",
+      "sha256": "a6235202f2da5120733dc34d381d51c1de7a95aae14c66f2bcc994dbfd730cc0",
+      "size_bytes": 9387
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/STARTED.json",
+      "sha256": "68f9c6d8a4475945f5d2c95400e093687700ef9d0ec9af4400442db7d245b5cf",
+      "size_bytes": 478
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "cab927a0dcefd421d020dd255cc0df24ef93a11f5ef01ab6e25e01bb6f6b565d",
+      "size_bytes": 1259
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "e66f21e10727d7d762317548691b6c00a8c668aa3286a905b237efd1e05a750d",
+      "size_bytes": 124843
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "b37b233bcc461f54391593106bba9280d4ddf749d138bf6b7b36ac2c9fab0c67",
+      "size_bytes": 2583867
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "82a8714b9f914cb0b78232a19a24e0573013068fb8dfed621977f39e427e230e",
+      "size_bytes": 4203768
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "70408ef9f210c00532c2ea2922626bb5ff3ddbfd16eef194506aa589320df539",
+      "size_bytes": 1263
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "653c2cf84db7084e9152f2a469fc6fd9d6213a7d01ea36ca8bb0403453ff5235",
+      "size_bytes": 118475
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "38ffa855f75865b19aaba5f24f682b87534438c1074f327294142fe552067a49",
+      "size_bytes": 2585225
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "c79e691f4c65b3dbae05d8b6a081b39646d5815c1f4bf1d388116d0fce55f88a",
+      "size_bytes": 4201689
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "a7ef8c9a24e36a4291161b3766301dae530d9f1661ad8745261fd9d5230921ab",
+      "size_bytes": 1267
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "73f296b93053f124a464cf95b1c097d7d880a14e8851e453f3aaa045a4067f54",
+      "size_bytes": 118340
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "28e8ee8aa56a165e68bd011b8d02d76b73497644ddb099776124d76eed4f4116",
+      "size_bytes": 2585130
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "f75b26e4176399fb6f0ea4d98720c9c84e36da8c7575240dc319be3ebc7ed912",
+      "size_bytes": 4199055
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "16fea7c5cb51196df11a02cc2b45b54529f777c5fd29eee0169ec4073f8af044",
+      "size_bytes": 1252
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "aa79bb1b7180fb1af2f4a9a080fcdb6aa9e029a451dadeea5991c878674f21bc",
+      "size_bytes": 124406
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "934125a517f7c5756855e193387a1cac22335daa6968a797e7be2d819d78c308",
+      "size_bytes": 2585198
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "4d49838c45e9f0cabcc08d07b51a8e55d9bf95bee46d07a224661bb55cbf16cd",
+      "size_bytes": 4204568
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_effect_intervals.pdf",
+      "sha256": "480ee821e60c548a5ae159885cc678bf251c7e7698e5ed724c4d13ec7e868ffd",
+      "size_bytes": 20483
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_effect_intervals.png",
+      "sha256": "ab387c1e373652b6f51598fee5198947f05927f79567d9baa3a1fffd9bb14954",
+      "size_bytes": 51018
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "c2613c3067d91c51860d920d52e7a8293dc8e5f7c84add8fe9ec4a9188162eb1",
+      "size_bytes": 1264
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_intercepts.tsv",
+      "sha256": "5c3cce2a255b4e55a8bb766c744390681083902f9cc8aed77a12b6eed86dbe0e",
+      "size_bytes": 906
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "12df54ad3d953b9605e6fd95b890f963373dcd31e8b08fbb3b2da7f1aa7c9c8c",
+      "size_bytes": 16087311
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "1b9f29fed98bc6a3888a415d7854316a6d26a1247d4bf318be68b316efc50925",
+      "size_bytes": 341
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "fdf59a93baf78c576c4fcbc7c8b418659647c26ff6b74f478819d303733e36b1",
+      "size_bytes": 24064
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/raw_mouse_proportions.png",
+      "sha256": "f759bc0c818e336dff0a8c0b06022cef9962b094474da9951cdc02c8e5b2ecc0",
+      "size_bytes": 80602
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "92548d0fa5e933936a1fa3bedbfe4a04cb90019e4858622f6304ad16a53d8262",
+      "size_bytes": 19548
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/raw_stacked_proportions.png",
+      "sha256": "da9f74a4b14134ee905489e2ac7d9243ac016c42223ef9e1613543befdad55f4",
+      "size_bytes": 81150
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "72b51cc239652f906a52fe23f5465d7e83ce1b3356608d472bff66470082ce38",
+      "size_bytes": 1380
+    },
+    {
+      "path": "fits/scanpy__allcells_coarse/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "5d2104b5d135cff42e61767dfb9023bee1b5a7cdba341a3b88fec5922b0c9821",
+      "size_bytes": 2538
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/MCMC_VALIDATION.json",
+      "sha256": "4551fc79a7be2c9c918deaf27067d7b3f2cff31231639bbca830c483bf579595",
+      "size_bytes": 437
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/RESULT_STATUS.json",
+      "sha256": "7447c37f2ea5bad8a3939a7e37441b9f5b867cefe2539cbadb701e9b2eb93e25",
+      "size_bytes": 9415
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/STARTED.json",
+      "sha256": "737554299bcc61d8478adfb714698d91e3396e9690057767989e258354c7e461",
+      "size_bytes": 470
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_effects.tsv",
+      "sha256": "8e0e4931ece0116b5d73b27ab56a94e3f443b62b0bd08a62f8d288a4b65b1150",
+      "size_bytes": 830
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_extra_fields.npz",
+      "sha256": "adc4a5b3b23ae252e6232c38ea8f329f175e70f4655a606b24c2403d1ea210bf",
+      "size_bytes": 126865
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "ee144cfd767a2ab356d899d27670fc7b958c73b78870c90ab26dcd7ec5e5d5d0",
+      "size_bytes": 1193214
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "4d21805f53342104f9380e27144148a6993a9ea60b826b1943edfd5f359226f6",
+      "size_bytes": 1967417
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_effects.tsv",
+      "sha256": "670f602f6d86bbf829225d0e819ef3623f098af32677aa70a56b3fa7c7930453",
+      "size_bytes": 832
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_extra_fields.npz",
+      "sha256": "2308698aed827d34d73e3f2554f10b7afd26ea04beccb4bf6ab26e78d066bd77",
+      "size_bytes": 121297
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "33bf948c9a400fc3031fe1b9c4ec4697090874928d40268530cbec07bfd1d0b9",
+      "size_bytes": 1193143
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "cff9ed3bc8faf869f39e4bff3f767f58530da552e1867e832ea3056f8bb79324",
+      "size_bytes": 1962504
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_effects.tsv",
+      "sha256": "7e374d999165895ce1592656dcf11b3d0e823de63a1146b6a9ec00cbd7ce4eff",
+      "size_bytes": 825
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_extra_fields.npz",
+      "sha256": "d21b3948bf81d01e32fb5150cbd909a216bd5d0ea66ed2847c79c6c74db9bb8e",
+      "size_bytes": 128955
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "ab0b4da8b50b77d5a2fa049fac3b9de6d8ff10937e1799ae5992fb9256ee0b47",
+      "size_bytes": 1191480
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "1c04940b7ee076e7df3a04b946e633e36a9f393f8855932266b6ec6c8f58a165",
+      "size_bytes": 1965073
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_effects.tsv",
+      "sha256": "9b3748fd4e3df243820c6c98984737d3a9b07c3959cd5ea2b7fba05b8bb83fce",
+      "size_bytes": 823
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_extra_fields.npz",
+      "sha256": "ab0c736a1ec61b857b3753e538912e0f1625eb315f2de369c863a7a927a77bee",
+      "size_bytes": 125130
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "6464b51ec1852bdfda629c21155b79ab1447a790cb691acd55d13edb0fc07b73",
+      "size_bytes": 1194236
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "0ea621dcd1892fa827b96718c3e84f254c148e2271310ef6d9ab97355ff200c9",
+      "size_bytes": 1966174
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_effect_intervals.pdf",
+      "sha256": "c398cacbfeb68e21a492166f5d1e3eacfc1f5df08d93876d58cf92c834878b22",
+      "size_bytes": 20789
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_effect_intervals.png",
+      "sha256": "f989472b94e425804a69aaee4d7e2176ebad1b3f0ff3d30c5d17e1ea4480fe69",
+      "size_bytes": 58532
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "6331e21482196dcefc688b3cee1ab9590a4d8e9cfbeb8a5d2e25bc8541c0eea2",
+      "size_bytes": 838
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_intercepts.tsv",
+      "sha256": "c77b21656c336ac5c13992b8eea31d397617f683c075c3eeb7d4b9e147593e96",
+      "size_bytes": 650
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "c77b169414dcf31e4f753a0ec05b7cb9c6d03ca7ffbe3148a6f40463aa29f767",
+      "size_bytes": 8798681
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/native_zero_replacement_audit.tsv",
+      "sha256": "3e07651f2245b871134b3bedfff8fb3ccbdbc39181a92b1cb214a05fc08ead83",
+      "size_bytes": 419
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/raw_mouse_proportions.pdf",
+      "sha256": "2ca5ca949d4dbcd8ff00a3b63b7176712c5c623f81d4359047562e77e18cd88a",
+      "size_bytes": 21515
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/raw_mouse_proportions.png",
+      "sha256": "62839014a8b76b320b32679ff01e3e4ccda0845b63de4595322e2198c096408f",
+      "size_bytes": 102966
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/raw_stacked_proportions.pdf",
+      "sha256": "7ad426380e965b6b2ab3b555ec45067e92b57f57e253151336c35f0924d3686e",
+      "size_bytes": 19996
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/raw_stacked_proportions.png",
+      "sha256": "8fb34dd56d1ccdba54cdcc446c7be3e7234367938d4670499ac82474880268bf",
+      "size_bytes": 93834
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/reviewable_effect_calls.tsv",
+      "sha256": "55fd36267eed8e9705171d6ef575fa7825a0b46988853d4508a3f8764a5da470",
+      "size_bytes": 1258
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "f1849901e1943a7e8c2b87689a7cdc9f0730356e04c310bf94b135325badd25a",
+      "size_bytes": 1226
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "b50ca080f416aecc741376b2337fc91767d16a2326e8688454da126ffae60499",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/RESULT_STATUS.json",
+      "sha256": "29492c0b01760cd94f1b4e500c4e8d3c0335456950595ac643c0c9f60a332d3b",
+      "size_bytes": 9424
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/STARTED.json",
+      "sha256": "55b09dbd191f58774a56fe2efb790d09a5803170b77af3c239f96e7f4ea64d61",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "cb80b9403e09cd09585a066b3e0d57e3ca71cd701fadb36193ec8dd1366e4cd3",
+      "size_bytes": 808
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "96cfb9cccdaec5b13a903ba4ddbfee70fd69c8c0e7686eb7acc0bae2e24f2476",
+      "size_bytes": 125873
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "7959aae6e920f7bb5f6d8a45ea4eb46c9c7dc8d5572af71b869c86846e3e6cd6",
+      "size_bytes": 1191584
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "e160b5025116517dc5066d8cd067b7f24675200f26e1510fe58410b5a0285204",
+      "size_bytes": 1793147
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "0a78b019c4ec3f37223443a550f1c1470fe7eab20b7f5dbf40b622a97ee7713e",
+      "size_bytes": 828
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "aed0571ada1a3437563271e7e80990e5ae8a5260bcc4d9928237dbea806a1cb9",
+      "size_bytes": 126738
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "d9072d16cd23ff7360d0fa6d252ca0474e548b76c8783e174e1a156622136e61",
+      "size_bytes": 1192700
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "838f8a4d5fe528582de4ddf5bb74f017a75c2c00352cd069e077f27a7ade41f2",
+      "size_bytes": 1793093
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "f4392e8bd4e25f5ecbdd40c63bd2662abc5e6d5dc2149f190cb32cea72b451a5",
+      "size_bytes": 827
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "937f9bcdb74c750ccbc26f0782e9f3bc7a1750b02bdc90b4b44f29563017703b",
+      "size_bytes": 127895
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "182d89821642f029850faac91d5c6167f21f9d2a8dec8c008427aac8cb1a0aab",
+      "size_bytes": 1191285
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "ab2ec40a981e6f604d38b281139b1a2bcfbb487d2087cbb95bb3895ae8031019",
+      "size_bytes": 1794098
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "f4be00439d155d4e0325e45f5831ec784d6a74dc05db8636b695a6f59267af7f",
+      "size_bytes": 827
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "caccb43908fd733f770cac8779f74131e99e6d3a879a07c48a020638cf62f899",
+      "size_bytes": 127521
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "412269b48a5672d11d2d644746d7c723104a62f64008a666d389c1a2ee2adf1d",
+      "size_bytes": 1192732
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "a85f619ff172cb71cf3e566db44f124b2311b1df306bcb3227daef464aeffed5",
+      "size_bytes": 1794405
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_effect_intervals.pdf",
+      "sha256": "01479f172b9a0ee1adf2fd80c78d03a4be9b5bba9aefea7817da45de17d9c225",
+      "size_bytes": 20775
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_effect_intervals.png",
+      "sha256": "efa96186c6474669ce6cc0b5283c4317462f6b7422b33163519d7dac333cd792",
+      "size_bytes": 58499
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "5815e8834fdecf0286830bfb24573a03a4eaae081956baf5119fc72f256984b0",
+      "size_bytes": 836
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_intercepts.tsv",
+      "sha256": "55058962bbdd724633cf4a7ae3b4fbf6f57523f6fe39c5bd67d3b5318e4ebac7",
+      "size_bytes": 652
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "5af81a281d1c6416550fff03ccda92a20fc2efd68b1066601014c46a625159fe",
+      "size_bytes": 8135206
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "dfe15b116da345ee7e77565987b930b30f539e20b4e9ee4916c8dbe974a00dd1",
+      "size_bytes": 337
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "790ddec4d0f69ab87037d631af1fc694161bde1778ccff993beb312487af17fe",
+      "size_bytes": 21434
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/raw_mouse_proportions.png",
+      "sha256": "6850a17d4b322a267f1798e6f0b03ced2a51b791b00c81ab21fec93e3fc1a005",
+      "size_bytes": 102286
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "915d5269e3db76a6c6edcd6c5cb43fa7b0e26b8c31e28f5143ff2fc788b427af",
+      "size_bytes": 19669
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/raw_stacked_proportions.png",
+      "sha256": "af73f96dbd05b5618717c0de874e7bfd78282830bbb2824b3ef4581324325bc9",
+      "size_bytes": 90029
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "94717854c2388bf31a56e4c4fddb86af95c5bc46fe388b61c8f15fc94363f200",
+      "size_bytes": 1303
+    },
+    {
+      "path": "fits/scanpy__ca1_layer_programs/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "f2aab32071c6b2fdf75e452463432a9dcaa0df3d1337117a87c536fa7676795a",
+      "size_bytes": 1225
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/MCMC_VALIDATION.json",
+      "sha256": "140879e6d25684d6850e5cad6684405b24cc0c2f159cd23a802b09a4338d872e",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/RESULT_STATUS.json",
+      "sha256": "482dee2729f63d3e2e79e019b325b9d850457f022e130401e366b9f586e1778b",
+      "size_bytes": 9380
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/STARTED.json",
+      "sha256": "a9c0a0213a797eb3959498d8526f496e261d1ffced232d2267922b1a57c07bb7",
+      "size_bytes": 471
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_effects.tsv",
+      "sha256": "69926882c6bcd3ee872adc4c624694bc0940cc21927111389b3a30e9577dca46",
+      "size_bytes": 2814
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_extra_fields.npz",
+      "sha256": "cb42b42beabfb63755b5d5fc0f21c0189698b769cc8b527acd78c8a8f681b354",
+      "size_bytes": 121627
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "bc6c577fe96deb369c923da24aac7668f29d7623a5a67f86df1991a39ef4e3fc",
+      "size_bytes": 6440741
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "e584c3a3ac981348ce909e1759c625843c49a4f4d12a1c922b18461a7e2b7080",
+      "size_bytes": 10745543
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_effects.tsv",
+      "sha256": "1a9b24020fb0304bc2721cb9223d23c75df0f87d828264d8e5564227f447fa3d",
+      "size_bytes": 2731
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_extra_fields.npz",
+      "sha256": "23c99ee84d20059a68d1966f501c111a083f28dbc77fbb716b5a3dad81890160",
+      "size_bytes": 122082
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "a4de9e17ac58829ce25923b1e241abb9f1d7dbfe9767e2b588253a3c60874277",
+      "size_bytes": 6443324
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "0dd19ac2d7bcefc4d63556a77b62329c290a8a3ab7ec5c6b704d4b5d2b7d6c07",
+      "size_bytes": 10746736
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_effects.tsv",
+      "sha256": "b04c45e896250b6632e482f7d636d72e90ad9be3280250c0cbdef3fca99d5540",
+      "size_bytes": 2716
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_extra_fields.npz",
+      "sha256": "04b6f2f60d66f40be04f4ca756a93b11ce6578e645bea7946012f3b16ff297e0",
+      "size_bytes": 124914
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "6a35c3420d220936a2a9829d60f8ec2fa3df3ca9afdc7296244fe18b109ac360",
+      "size_bytes": 6443879
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "b36c21c35dca6a74f7b5a8732d6eb41a3a8200cd1e6aceab8aad904d1bf0f5c5",
+      "size_bytes": 10749230
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_effects.tsv",
+      "sha256": "f51c144b62e9a36d96cba35e216e5f138b1598af8cb3343f9e2dc550e034ca8a",
+      "size_bytes": 2746
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_extra_fields.npz",
+      "sha256": "19e5f9bf77fd818d67e7f705544db59c685077dda71a97ff3360a1a4db545be5",
+      "size_bytes": 124990
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "80211956f780ce8ffec6c2fe6c3af0e4090d88b2c7000e39e137e10efa906d3f",
+      "size_bytes": 6442553
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "bad665ef583fff57ab57347ddcedd9069b820216aece686dcdd34a6aa989b76d",
+      "size_bytes": 10748647
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_effect_intervals.pdf",
+      "sha256": "e07497bb823fbf442131de1bca43510c66c59c475b27f01816e7c14e412d1975",
+      "size_bytes": 27025
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_effect_intervals.png",
+      "sha256": "780fc58b223e82da5269baa33f4a4884b141c488f4281cd25edc3251125ac910",
+      "size_bytes": 120844
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "5b4a54e74c442555130e4f2472cdd6bfaf90218ebc4a7fd59a27e2b33855450f",
+      "size_bytes": 2720
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_intercepts.tsv",
+      "sha256": "1d6b5e0e6a86e8995e3f27737878f5432bad6aecc60d961411552fab3bb0c1a2",
+      "size_bytes": 1924
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "6170138e0f8c7bc91f6ad87ecfb63bc8cbbcfb953ab6dfe3dd3845782658b438",
+      "size_bytes": 42373706
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/native_zero_replacement_audit.tsv",
+      "sha256": "ca1487ca023629cc15aee0d2a16415fdbaf250cafd85077e8d906405498201dc",
+      "size_bytes": 419
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/raw_mouse_proportions.pdf",
+      "sha256": "689161c5c3473dc01fe410cb979ca053c39b0c0e3b4914afeb460c31b0c65830",
+      "size_bytes": 38244
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/raw_mouse_proportions.png",
+      "sha256": "d8b0fb9ee24b49c0a9f3dccc80acf075e4e25bf02bd3428de49062754486e0f7",
+      "size_bytes": 164561
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/raw_stacked_proportions.pdf",
+      "sha256": "e04d17d15122d118b327f49284dd418ec4a2bd999f966b2000e9512cb3d03986",
+      "size_bytes": 27205
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/raw_stacked_proportions.png",
+      "sha256": "72289cf05af0044f2d246e2add5e42d78108a9c27add57ddf25c70fe127a1433",
+      "size_bytes": 142269
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/reviewable_effect_calls.tsv",
+      "sha256": "1bb0acb0db8677630c47076595a2a7e17213d274036313b4deeb4acbf8544529",
+      "size_bytes": 2921
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "c4cff5094258b924576aca2c1ad8e73d4c727d16041b662028a61b83205578d9",
+      "size_bytes": 6192
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "70247860728fcb83f18a4df1b68cf03c8a720aa67c057cf6a3e1c7f5ad51348a",
+      "size_bytes": 414
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/RESULT_STATUS.json",
+      "sha256": "d0089959be03af923fbbe21360027457dea6f1f583ec423689a78e6d4d8cbac0",
+      "size_bytes": 9337
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/STARTED.json",
+      "sha256": "595e0bb794bf8a75d294489df1374c6d8494f9bf964ef0f0a861f29821692b30",
+      "size_bytes": 482
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "7feb19f290291f74882d24defc27957f1c5ffb1979860c833374da62d878f2b4",
+      "size_bytes": 3101
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "fb5b806167a506880fa3d8d90d79043fddcd27ba4adf276ac445ceb693288472",
+      "size_bytes": 123940
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "5ee2185515c92b56b636d889f81f66a5c6c073f5817198b12346ab3def392fac",
+      "size_bytes": 6426213
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "1d890709d7bfeadf0017a2bcb0548910bb15552d32d89753182c3423d26b7039",
+      "size_bytes": 9822833
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "cf95a56f9aee2e7e2e057a1c9f821a9d6f429c8afdb00a9bb38d6a9dcfbd820f",
+      "size_bytes": 3061
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "652a2525d798351a7ff78e9cb40f60fc78026e22f1802c2036c8701e8b41e330",
+      "size_bytes": 125283
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "6d1d1f408cb12d369bb3709d6090f80797d527c21d1274166793c25593a8aa45",
+      "size_bytes": 6425950
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "9bc0ec468b1bdc10570dddba560b1b2e33eace829ed682f6a7bdde6c2c9d7382",
+      "size_bytes": 9823122
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "05c9f572ab9e9465cc8f1689869c7c061115557de9055bb31fe2bc4a24cc9d75",
+      "size_bytes": 3074
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "a9c5964754b215839506630ac6779dfa27494aff04ef2fc19da6ea8f8d82da77",
+      "size_bytes": 123365
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "57f00bf6007855e1e1453ce368bd7b8f02336b6689b060f64937da9e599f2b13",
+      "size_bytes": 6424321
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "3d0c10884d92e0813f9d1f88836c811349696aaf543c6ac0e53b451c17965250",
+      "size_bytes": 9820698
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "bdb363533ec38cb5ec5150fe20281892746287aa976c0af4fc0a86268a3f4f77",
+      "size_bytes": 3088
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "a0eb0fbc64aeb0f4482c632b22b25f8b914dd4dbbeec86c8d5fd0b6316b4f492",
+      "size_bytes": 124879
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "a1d16e1f2e22f6eb48ed7fe9fabcad643e7fe6ee4985cd317b6c69d519a2dc51",
+      "size_bytes": 6426758
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "f62cb00ed1401787bbcf6d16d7c8d50d77ea8cec5e14ed8633e4770bc9c4e243",
+      "size_bytes": 9820832
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_effect_intervals.pdf",
+      "sha256": "3c0524ed061344329d588463ea26aa40e32320a3bf77eb558a4e70b0fc3bc77c",
+      "size_bytes": 26869
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_effect_intervals.png",
+      "sha256": "532fdd68e5d2211ae00934c7ee7fae257ff0f494c3d40924f60007ab04f101d6",
+      "size_bytes": 115019
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "85e5e6cbc2110ec18d82c13d3519ca6e05bfa924a58f87bf7da76bade9219ec0",
+      "size_bytes": 3122
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_intercepts.tsv",
+      "sha256": "ea7832aa4d8dc715446532735a00b10575431cc316c3126c3e6ee2c3196bab60",
+      "size_bytes": 1899
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "6221ab2c18a979b47be354eeeb576ac6dfd3e883bd80cb84ee14dee7a67286f2",
+      "size_bytes": 51653367
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "56573c8b55c5d87cd6633532a2adb23b050d26a4b45806d6d3f0f472a48e83f3",
+      "size_bytes": 337
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "1395f5554103513bf3e6080eb40fff5157722fb589884ffe333a69271ced2b2e",
+      "size_bytes": 37831
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/raw_mouse_proportions.png",
+      "sha256": "738eb4ec7b5aafe79ff4eaad0b457851d420ccccfd617201a1af624ca0201921",
+      "size_bytes": 168794
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "1fb314bae2116eaa4886003e56e2a9b066404ca413f4468ec2057418d5e07619",
+      "size_bytes": 26044
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/raw_stacked_proportions.png",
+      "sha256": "8fad13edef9a2bda5e0a8faac388e17c4865c275b47fd97c3ef29d5647f5f729",
+      "size_bytes": 142159
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "e445a1c91f7aab9a36fdc3f2d61de3a32dbb4a62d749a1b960115044c1f87d47",
+      "size_bytes": 3482
+    },
+    {
+      "path": "fits/scanpy__excitatory_clusters/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "6949660d93f45acb8e92dadba423edfcb29787bff3ce37b91327349efcd31298",
+      "size_bytes": 6149
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/MCMC_VALIDATION.json",
+      "sha256": "ff021243f949fd5ada60f6d33e5de1c7ee88448362a2f194d14f51eb287b44f9",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/RESULT_STATUS.json",
+      "sha256": "6a46da72b39b0bcb1a97368217f83a7af74b5108a36c539be62a70b8f30b3e6c",
+      "size_bytes": 9374
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/STARTED.json",
+      "sha256": "d0fd0ad99d84b19bffd9d20c53c8a2df3fdd1d4f8710c8af8668a2c2a4791bf3",
+      "size_bytes": 471
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_effects.tsv",
+      "sha256": "57167d4ef2b17849798e85db71c9a28cd7200d02eac8819818681594c29a62f6",
+      "size_bytes": 2476
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_extra_fields.npz",
+      "sha256": "4c8c706aaf6629fab1cefe5da770f8427e6f728d28b33ea5f0b286a26fa00941",
+      "size_bytes": 125740
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "eb5cc60d4785073ac796b0dfcd8803d2ef8f94b1fb05f94fe54baea90bbc7fbe",
+      "size_bytes": 5737694
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "b21c63e75c49a1ad727190c111de9fdef110e0d6452431c02640e56be44e3441",
+      "size_bytes": 9611747
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_effects.tsv",
+      "sha256": "e351aebee44430dad3489da87135c17eb183a762efb9380974242b50469d1d60",
+      "size_bytes": 2468
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_extra_fields.npz",
+      "sha256": "0a3306e067cdf178fd9b6dca82f5f1fc892d717fa791a3bfe0f70bad5674c0af",
+      "size_bytes": 122488
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "cee0b8eea1aeaf5ffec6abe87810d052d44cbb7826729f9379916912ef0abd16",
+      "size_bytes": 5735828
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "d3513f6bbed9238f96cc9bc117f045491fef57621b84343124b08d6725278213",
+      "size_bytes": 9611150
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_effects.tsv",
+      "sha256": "dad75f7e14d98a5359a2675355d668ea01ba053a9f629892e1e461ab05205b06",
+      "size_bytes": 2428
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_extra_fields.npz",
+      "sha256": "449139e2ff3458123727ddddfbfbef295dcecab365528ff71daafe25384fa50e",
+      "size_bytes": 122461
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "33739da40e6db06bea236854ba4dfb5836f7a0a2e22bec3fe71e9bd0312cdf67",
+      "size_bytes": 5734241
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "14916ac521f57457f1c43f189fce9e78d9a66594df8ef778de7501f50d349e79",
+      "size_bytes": 9608142
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_effects.tsv",
+      "sha256": "4cd92f96f71c79212fea595f813043b4c46d2efbedd630d40d5f53d39ef54ca2",
+      "size_bytes": 2512
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_extra_fields.npz",
+      "sha256": "a963885ce308ca3b4f8865a328b57f7beeb8f122eaa4766e20c1fa0c9076ba9e",
+      "size_bytes": 125503
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "fd820e3d994aed69e609686736f5773f785c39ddb1fe0db0cccd77ca9e695259",
+      "size_bytes": 5734309
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "b7e6551c32373095d2b3e5ebafd8c8ab8fa0f8ca3ebb98072daabb1ce2dd5028",
+      "size_bytes": 9607496
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_effect_intervals.pdf",
+      "sha256": "7d5f9848cd6d592ea3c9f3c467f0ce8df5190ea6c43cf910649e4ea93f5d44b1",
+      "size_bytes": 26391
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_effect_intervals.png",
+      "sha256": "f2ed45b0dd3a1b6d0b4c4f5ef18d1211db736b38bad2e0300ee82c1fe10f7787",
+      "size_bytes": 107076
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "e38ae8169f1d30c38fdabd24c89eb1617125253f04ef1d3ce19e1db7fea2c3d4",
+      "size_bytes": 2486
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_intercepts.tsv",
+      "sha256": "5173e80147bfbc6c40f6c7ef59c123b170e4f361bc1f05b3abb6939c548e7025",
+      "size_bytes": 1708
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "fdd572e1aded5391f6d9ae67f661ba20e95db457134b1dc19bc5a745358e827f",
+      "size_bytes": 37855657
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/native_zero_replacement_audit.tsv",
+      "sha256": "927697063acc4717eb6758ebbe0b61fb9b47ec3766efd61d4d4fffcbe2346c88",
+      "size_bytes": 395
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/raw_mouse_proportions.pdf",
+      "sha256": "92f55e0b88bc5fe2a7d5186660ae245f0f229f3be5ebaaac1e37c0cc2f34822d",
+      "size_bytes": 36097
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/raw_mouse_proportions.png",
+      "sha256": "cbd7b77df7a33f57d97f54238ac1c00b53723808e24548189e680402493e7bd1",
+      "size_bytes": 163322
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/raw_stacked_proportions.pdf",
+      "sha256": "95cc122d952465e6e1002bf6f27b7df92bd83a0bf714fc082456f6ad14807c4d",
+      "size_bytes": 26205
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/raw_stacked_proportions.png",
+      "sha256": "d40a278af4894ff5034697df7c6371c9ee198e3a11ae956698d3ece259ed275b",
+      "size_bytes": 131168
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/reviewable_effect_calls.tsv",
+      "sha256": "15b1f72d3f7a11f220b726e2b2ffa833aec65936cedd2d4ac4bbe7bc34e1859d",
+      "size_bytes": 2612
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "6686290a10c714c049679e9c05b40c8ca58d1f28e75a729a505d5bbc70cce1d9",
+      "size_bytes": 5551
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "12b2db7b83a32cc72f1a73e2eb286224f2bbe61fe75bdb0a6055fd7ccf1174fa",
+      "size_bytes": 414
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/RESULT_STATUS.json",
+      "sha256": "dc3dbc310212cbe5b4dbba9211c5b0bb1b4bd004f3c4d9c92df12478c29d6d73",
+      "size_bytes": 9335
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/STARTED.json",
+      "sha256": "bc22ac145ea55790a3108ea49dd05cc4accf90840c2ed326d575f81d2ebd0c97",
+      "size_bytes": 482
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "2b91dcb8978f64ee995b06449226676282ec2a0ab5278432db9dc4d1107fbe3f",
+      "size_bytes": 2393
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "7feab306b97fde54b0d6f59d349df00389e803ffa11d214e06d797a447bfd11e",
+      "size_bytes": 124572
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "c2a8265f9e64acd86b8522079b716c3f2a702152aa46ee1ef1b1e957be6bdff4",
+      "size_bytes": 5722397
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "803329502c3254089d4720f088d14e009ef0521a499e6e5224baafe68abc1090",
+      "size_bytes": 8802872
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "f8cfdd727fb875d9f717be6db357ab7f7631ffca3c9e8f1e8f52d23204d2b5be",
+      "size_bytes": 2469
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "8f77eb93cd37c93d5171b03308788ce154ccba49bdcd3d030256e3e5427a8524",
+      "size_bytes": 115292
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "ffb5e796ec52423cfa9c525130b9e5473e9b9ae78da971c3ee7776b81df7933a",
+      "size_bytes": 5720551
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "6f912462f47e5d52ee82928de3c03be2227edde9d2f7a731ef8ba39d98865456",
+      "size_bytes": 8792634
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "2fd28491f40956da4d849a090fc8a6226f7c76172139b30d9b833c50abdccb1b",
+      "size_bytes": 2473
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "501cd3561e81ab98d181c41e247ff0b6d09ccdd829128d9750603047aca061b5",
+      "size_bytes": 122093
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "20e6b8b187883f56361e8948efd57d242d170a7c7e0215524cf0f2cb71ee2f29",
+      "size_bytes": 5722583
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "b70eeb13b493da1f011c7752c0c8f49c1bbf1b99cd5c7d0f5b18fae95a570b9b",
+      "size_bytes": 8799262
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "af9db9e4944ec47bb07952dcfd01ff64746b281a6b78d98f22bd4940e36a1942",
+      "size_bytes": 2505
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "b522fd19c58724d0716ce3ad7c589aad7f4003bce08a3f2c61dd238a8ed8cc29",
+      "size_bytes": 122158
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "96547d79cbe0b6d3adce9fc81ca0ce818427cec3b8dac315474a907f4191be00",
+      "size_bytes": 5721192
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "35232965ec6b8ec18b67d00993bb37526d46160643788b6e5d9d35824f316b8e",
+      "size_bytes": 8799251
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_effect_intervals.pdf",
+      "sha256": "d6fe3596b22ce51e83560f8610d1cf7b446411295470176bfeeeed0ec6f6bc9e",
+      "size_bytes": 26089
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_effect_intervals.png",
+      "sha256": "8c0dab733afbe13125fc2c1c88014365c7e33a313e9c3381e98362ca0d0f8ab5",
+      "size_bytes": 100406
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "1f1169513d70db323de8508c0d03c590e01abe07274fb23b58109bf1391e6544",
+      "size_bytes": 2479
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_intercepts.tsv",
+      "sha256": "828b4d477bc77be6409cf24fd2bc697b85697afa4d7e2a458d413f8f545486a2",
+      "size_bytes": 1714
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "146972b5aed9344f86d067c8cb917fcb484f501d3d911eb1c888fba0734bfadc",
+      "size_bytes": 46192139
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "c8d2522b41a13c162aac07f808a7fb9e0e470992339510821a922288df5806c5",
+      "size_bytes": 319
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "6cae02e58027d3b09234546766e61e8ce64a9663bb7a1c9afffc6e3017f43041",
+      "size_bytes": 35647
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/raw_mouse_proportions.png",
+      "sha256": "4dc598dafb1813d185b487e7e26216b00b0b7ad8fec9531b8ff1af43ef142e12",
+      "size_bytes": 160755
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "df1122fd41382af3578c0912268d29211f51c7a6be25bfb958763707163a95a9",
+      "size_bytes": 25206
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/raw_stacked_proportions.png",
+      "sha256": "da0de05ad6e4431e11c64412f6c890ba4b0513ef973b9dedb7b1f1c256394a27",
+      "size_bytes": 131269
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "b371143ca8acaf4314dbe37a18aa9af122436f13b3bf252ba746d94d7ffc0c24",
+      "size_bytes": 2764
+    },
+    {
+      "path": "fits/scanpy__inhibitory_clusters/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "753f6c486ae56f34e99de06bed2ddc5db9103cbbc443f1796a13c571ca202dfc",
+      "size_bytes": 5519
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/MCMC_VALIDATION.json",
+      "sha256": "8af9faf7543ebf2c2692284bf7f563318cc74ac463867b45d00b8f8d787a0ff7",
+      "size_bytes": 437
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/RESULT_STATUS.json",
+      "sha256": "e6b57e0928e548b49f42e989e74d49ffbf953084d7de61d3c48fd2fbac7549e2",
+      "size_bytes": 9378
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/STARTED.json",
+      "sha256": "bb0768a4f7f35b2a861b4614f50b20e371dc2447ee14c3f3fb99b4105f06c728",
+      "size_bytes": 467
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_1/native_effects.tsv",
+      "sha256": "723cf676224d5d22720196330498790dbbe1669fbe138706963ec8d7e43f1b1f",
+      "size_bytes": 1290
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_1/native_extra_fields.npz",
+      "sha256": "f9cab2ebccd615f3b7a313c8b3e1ef7a3e186020bbb827aa99b95828941270cb",
+      "size_bytes": 126228
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "d62eff97f45caec9bbc9d6c60559b740bfbe615ee0f16434ecf11cba616b5370",
+      "size_bytes": 2590127
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "675040fc600622f6de4ab99c97d891d5f598fe974d4925b422a9c6ac606c9d22",
+      "size_bytes": 3823794
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_2/native_effects.tsv",
+      "sha256": "081a09538e4f4b76d6f4ddd670b54928c1882c34f3d6bbaf7f26bf71901ce383",
+      "size_bytes": 1267
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_2/native_extra_fields.npz",
+      "sha256": "31c8597270db9a3c85ea59f6ad8fa790979b5b48d5480cdbfc75e1989b19bd25",
+      "size_bytes": 122767
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "49ab39c974aa34f9a03a03aa0232a2a7d6a571ee968813b697ca3b9ad4380f47",
+      "size_bytes": 2591508
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "74a60c1533b957ec8a36e02bab385c84c9e1e718a58c1be16b0ead1ef486d36b",
+      "size_bytes": 3823940
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_3/native_effects.tsv",
+      "sha256": "8f2ab6170171835d0393a2fd6628dde025b07041f63957b7d942eeb43eb6d228",
+      "size_bytes": 1262
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_3/native_extra_fields.npz",
+      "sha256": "0084e11721674314fa01ad7dafe093f8436d44d504ace6301e206b28c82e2469",
+      "size_bytes": 125311
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "4a050e7ea1d4d4421620866b94ccbb26be75631a1d681d693a2fc8e87ab05e54",
+      "size_bytes": 2591115
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "1861302e814e60f71acc9d32733d14eaab2f0b89396199d3a93224fed3bad7bc",
+      "size_bytes": 3825557
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_4/native_effects.tsv",
+      "sha256": "73e1bb6528a2722b75cd040c14283d6131a4aed6e6b45f93ba3cfc8f058eb103",
+      "size_bytes": 1231
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_4/native_extra_fields.npz",
+      "sha256": "3ef5488f24e9bb267e0550caf74307252c96f40381dc571bb3d48ed28ac990cc",
+      "size_bytes": 123832
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "fc9dad275bfd6cf203868076952b9fb67afb29db8eea673ff96fea4322e0922d",
+      "size_bytes": 2590557
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "e666e6d4e85d3f83fc1941a9cdcd7a4c992709ac415ecb49fa43e042eeb7df97",
+      "size_bytes": 3822722
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_effect_intervals.pdf",
+      "sha256": "78d0a14757c3b29e741f76b7a600fbed8bc139558cb0577c31e73e31c3faee40",
+      "size_bytes": 20251
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_effect_intervals.png",
+      "sha256": "c745fbbc9e6046d9b9ecdfeafddb7aae045ba154e2fc6e6496deadfd0466dd67",
+      "size_bytes": 50452
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "03d49b441990c527463e7a9de3cd4095b45f675c62c228c6a7f1e794cff760b9",
+      "size_bytes": 1220
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_intercepts.tsv",
+      "sha256": "6e8da84fdcac1ea9bb757483d220dc5313f29c6e76c159baa6010b6d62f87e3b",
+      "size_bytes": 907
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "7d5287c4de91719b9a74b24d09371df6c738ab7959ade3ee84cc95b384ba0f88",
+      "size_bytes": 17554244
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/native_zero_replacement_audit.tsv",
+      "sha256": "5f1f7c579558f645e7ddaaf673d99e73b337d1b2e938f4b189024cca8ac5a1be",
+      "size_bytes": 423
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/raw_mouse_proportions.pdf",
+      "sha256": "4e2cec0b6a56bbbcaa8b560946dd34445849938d84fc33b7bf33d1028f0b99d4",
+      "size_bytes": 24244
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/raw_mouse_proportions.png",
+      "sha256": "9725fc5ac5bfb2b9a39c302ff3722e0c705e980efc02d2c8d4ec31346854257b",
+      "size_bytes": 84039
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/raw_stacked_proportions.pdf",
+      "sha256": "0fec5376fb39718a1f1d4b40f8dff8c60e87f9718d39b94f474a25ad45321337",
+      "size_bytes": 20075
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/raw_stacked_proportions.png",
+      "sha256": "fa71c670491ae4c334f8d5044edd1902936b2ab51f42f976341ddbac5c40e154",
+      "size_bytes": 83302
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/reviewable_effect_calls.tsv",
+      "sha256": "10907f98aaa5ea716b094436de1c3df89f088de441320b0791d7837e72bf51b0",
+      "size_bytes": 1250
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "f506eab3edc35f247af3df2f2e670f5367b37c5a3b19726f34f0841eae85ad9e",
+      "size_bytes": 2540
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "3beff4dfbb780bb8d8c3913e2b052a2de71cf4995ffa09ba13256f9dc8d2a4f1",
+      "size_bytes": 437
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/RESULT_STATUS.json",
+      "sha256": "90edb9ef4ac478268c4d2e0b1c0400f8aed99e8c819712d234df1efe1b3b4f05",
+      "size_bytes": 9388
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/STARTED.json",
+      "sha256": "86d69011abc911b3cf55427d240d783b84935946f596aa1331335481e831f602",
+      "size_bytes": 478
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "ade0fe7f644c0268b2fab2c2b99b8c26c61a4b27b8e6d9a81373b02c78a844a1",
+      "size_bytes": 1281
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "dd037d980db50b1013d27d9470de6e1f1ddbcd600a94d70c43898f6c2c8a5644",
+      "size_bytes": 125578
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "44de8ccd75f334eb79a5678c8a0c0c91ecc20619d2a8b49f0127b3b43862a012",
+      "size_bytes": 2586526
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "9f3d39196528a888652847971e1fd17eb6cf3ab0f102bc9d585e352e18f89f24",
+      "size_bytes": 4211011
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "50915101c6bb7c95c28044d4434d9af51437d71049da5e7434b155f2a9437cdd",
+      "size_bytes": 1266
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "7c79f833987c8bff46dd9df16f75ea6657e4a4814f931bc5cb7298ebecedd7a4",
+      "size_bytes": 125846
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "86289f34926810c766ec95698490a1737e1f64d9e447254317880f3977c1012e",
+      "size_bytes": 2586214
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "37857bc2492ad2439314ae774f9da3d1cb22edd6888919f5a7a1519fa9a40bee",
+      "size_bytes": 4211006
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "9b03cc9798eb98074c568eca5ddf7586b2deac1c03904c2075ba790ffa1ada0d",
+      "size_bytes": 1281
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "0aea6e13753a017ff1a1382d42b3f494b6562b1873636bfcae5fdfe57c2cfcba",
+      "size_bytes": 124524
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "4da6d82baf6667ab22e7e395419ca3f4f578a8b9dfc136a0f06436639d89eeb6",
+      "size_bytes": 2586104
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "b47d744d5ed75181203c2c560563f8194454759a7a9a9908ccfcc24bc59c2dbb",
+      "size_bytes": 4209667
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "803d1f2c842b00ab2ae2bcc1877e2c51562a031f6ca263fd31c4529a8ee8f7ea",
+      "size_bytes": 1265
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "e1dcdb5f88c3fb43fe9f167165707c0c0888e179afca6a0b3e91e2ea68f317b5",
+      "size_bytes": 127021
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "191eca1ce0037cb9dfb9697a9ce7cd85a24f258177fb5bf5219fb23465e954b9",
+      "size_bytes": 2585738
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "b320dbe944cedde828dc4985a1fa058befd93113a429710f7c334b3c8f95adde",
+      "size_bytes": 4213697
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_effect_intervals.pdf",
+      "sha256": "92fd05ba95ca66eeca1aed6f2247c56f20bdf6dcbe8586f86a7678fa5658af65",
+      "size_bytes": 20485
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_effect_intervals.png",
+      "sha256": "dae7b87d83d80f9686d60868be2d9e02bd003b6bad637e57a5f6d6fd4b3e0718",
+      "size_bytes": 51104
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "495aac07853511b8728c513b0bea3275df6f1b068167cfb3ed343227d81b38a3",
+      "size_bytes": 1241
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_intercepts.tsv",
+      "sha256": "e07f3d15c9793fe103059e804e60b873ceb298617a93c81e15388071bbe667ac",
+      "size_bytes": 908
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "63c30e33f4b4d3fbe066999dc1e08bdfec85264913b2b71a36289e3829449e92",
+      "size_bytes": 16128803
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "1b9f29fed98bc6a3888a415d7854316a6d26a1247d4bf318be68b316efc50925",
+      "size_bytes": 341
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "82d1ecc229958edce13f5f101e14362f2ef9eb4c723cbc1cdb725203fc1cd722",
+      "size_bytes": 24053
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/raw_mouse_proportions.png",
+      "sha256": "c0a9a6b2ee42d46fd0823f7a7c32c8601c455d5b1c0a78e7ea20d38c839e56c7",
+      "size_bytes": 80486
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "e9094a4e79a2c1d46df64592fc07bbbb34ccf07eeb3754f16d2c3fdc53e7acff",
+      "size_bytes": 19536
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/raw_stacked_proportions.png",
+      "sha256": "886783451bdcd4bfc63ea3da43e376a71653dd93790bb153a8aa33529872058d",
+      "size_bytes": 80839
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "fcbd995661bc0e008ff312278d6ed85b217e9d7117fd46420f785660ce82f298",
+      "size_bytes": 1360
+    },
+    {
+      "path": "fits/seurat__allcells_coarse/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "b22125976c5490ad641e398f5c18cb8bd3cf2231713124d32cf35229077302f2",
+      "size_bytes": 2540
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/MCMC_VALIDATION.json",
+      "sha256": "b50ca080f416aecc741376b2337fc91767d16a2326e8688454da126ffae60499",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/RESULT_STATUS.json",
+      "sha256": "16c015302270119a9902cd70c9136325b355684f6d4eb542ce39b3022c94768a",
+      "size_bytes": 9414
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/STARTED.json",
+      "sha256": "c8607aa73d420b701b2645bff7a37211b4898e216e72b6d4ac755de6a3421234",
+      "size_bytes": 470
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_effects.tsv",
+      "sha256": "cdbad314a6d3d5b4fd9e3f06454d4c5da219e899e95410944eef07e333600029",
+      "size_bytes": 836
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_extra_fields.npz",
+      "sha256": "e14d77c94a38b3a0ff34c622c4944c04eca73298dc3f9f34ae326bf93bab2e3d",
+      "size_bytes": 126499
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "cd3b127ab09e514c058b41451c686249cd9dd38fb62480b393e50ee0770cef65",
+      "size_bytes": 1190803
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "e7d5ecc7165fcb0594571430451299fcf7239cc2ab02c12911438c63b12411d0",
+      "size_bytes": 1959084
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_effects.tsv",
+      "sha256": "016d93633f66230cb7ed2eedf50283f514bd61c23fd1bf48c582d4d9c96463ab",
+      "size_bytes": 918
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_extra_fields.npz",
+      "sha256": "ec4d046ec20968a45b5c28dedffe88576986666fc191d960c437e17f9cf05b84",
+      "size_bytes": 124931
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "7200a8fa64c3f89c079fc2097654838c1bc330ea040d71b59d65c78975c7fd75",
+      "size_bytes": 1191696
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "2c420e22d88dbb3d9b005e472a5c582a1883b64cea1a609d7fc2d7e89d1a700e",
+      "size_bytes": 1957872
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_effects.tsv",
+      "sha256": "e71fd1048c88dd780d86f8c03d72167db2f4d1d683c9d6718bf01bd1e321ddaa",
+      "size_bytes": 840
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_extra_fields.npz",
+      "sha256": "3550f1dd8409db29aea6ef773982acd2d80c4d79046175751f4e1816a8e6d296",
+      "size_bytes": 126410
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "360ecc71bf23eed211715151701e8fa554f0f81b90e7c3018bcdcd18145e15c3",
+      "size_bytes": 1191243
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "a18498d39fa0d35b08280e2b1efec8849a0b61f07515e6b09b8f8902926f0565",
+      "size_bytes": 1959432
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_effects.tsv",
+      "sha256": "865342ad03d43eb1ae93a9563deec3cbf0551c8c0657e207492f7ea07f207766",
+      "size_bytes": 826
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_extra_fields.npz",
+      "sha256": "f339d52be9a3771aa3c42a60d1e9d64f7803dbdc3af7d489eb151678766f15fe",
+      "size_bytes": 126641
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "6a0c3f058debe390f9197bae64ddad25bdd3b0ca117becd4cd6f581d70f41080",
+      "size_bytes": 1190618
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "a09e053029679efed34420bba1d769c93af7ac85793d2b2a55ca045fd1f3d7e2",
+      "size_bytes": 1959893
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_effect_intervals.pdf",
+      "sha256": "949252f5bf93c13c9822f5cadc81d7de54b871bcc9e0a231dc2a71d086e84844",
+      "size_bytes": 20775
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_effect_intervals.png",
+      "sha256": "7f300c30ff39e4f90b269d88191c779619a54c5346d9be197c34f6e9a26fc9c9",
+      "size_bytes": 58514
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "627c2bb447c81dc6f1011261c75975f5df363f1feb37cc42e4511e3c9cca7ace",
+      "size_bytes": 838
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_intercepts.tsv",
+      "sha256": "d707117afc7f08b65a7db831ebb88c2d0cc0b292c8f581fc035b80b8155cddb1",
+      "size_bytes": 651
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "95d0c2f9dff3f04bd22aa91479dfc0b14697432addeb55488cbb5faad0ca6352",
+      "size_bytes": 8772066
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/native_zero_replacement_audit.tsv",
+      "sha256": "3e07651f2245b871134b3bedfff8fb3ccbdbc39181a92b1cb214a05fc08ead83",
+      "size_bytes": 419
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/raw_mouse_proportions.pdf",
+      "sha256": "37e6cecd90b7beecbc9afc3b0f1eecb16a7555930b8b1d8735bc18a424c5f474",
+      "size_bytes": 21558
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/raw_mouse_proportions.png",
+      "sha256": "6ba3ccec3fdd3a30ab068693301237e1b2703bc307dccac851eb23c9b529bb6d",
+      "size_bytes": 106343
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/raw_stacked_proportions.pdf",
+      "sha256": "293f4ee3a29532775a929a133004df101d9b0e3bed2a5fd5084f60a44aa6c6bb",
+      "size_bytes": 19992
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/raw_stacked_proportions.png",
+      "sha256": "e96bc2b93f1e064186a408348c0297786fa61e5c2869544dfd331c8e436e2913",
+      "size_bytes": 93982
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/reviewable_effect_calls.tsv",
+      "sha256": "2f46f3fa3dba7f737a30a8174b1d5287d171ab09412a3ba256a4b5cf256abf39",
+      "size_bytes": 1259
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "ac609317b5516d1aebf51426e390c2a5a609efbad083b36d1b96d47cdbb7af1b",
+      "size_bytes": 1221
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "f07d0d6007b4eb710ecb68490dac0b6d7be1187653a48adbb9e4a503aaca8e25",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/RESULT_STATUS.json",
+      "sha256": "9d9ab0b60ff17048521263036f681e5ec6cb04260d265264c443a3ac93d81362",
+      "size_bytes": 9424
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/STARTED.json",
+      "sha256": "b4f784f0d761af92e0b338a2729ae79845d27a90ba4e9e45a7a75dd374272a45",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "8defdc82712eb219dcefe48b3f52d3e310684b043c9b6ef6bb68cc938932f8fc",
+      "size_bytes": 813
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "c0f8eb6694be70ed63eefe4527e6617eed5d927d4e124eba28136a57255224ec",
+      "size_bytes": 128779
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "4dfccd0ef51d4629e9c5862052823ccf00c38fc4d187c9e5e7887cc819aa20d5",
+      "size_bytes": 1193159
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "3b02a1b070b5bc9b998d53e890da6dfbe35cb10fc62ac2e702674c2cd503363c",
+      "size_bytes": 1786799
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "06c20914d59fc5ebc311581ec1c0342744e9596c04005fdcdf3a2ddb3611ee66",
+      "size_bytes": 824
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "b137efb3475f07c021a81dd6f89dd56960dd90967b883ee7f514b8541d605d70",
+      "size_bytes": 128861
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "1da22821d9b0b1e4fcda6c913f09848f3033a26535bd9b245d9927e42b949981",
+      "size_bytes": 1192415
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "e642339484d6380ff086ab5b927f72c3be5e491e669651b616590fa98f3f4892",
+      "size_bytes": 1786477
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "ec39ec9881e86a9d5c95020de9cd32e72f6eb50b94ac564074b1118237c6a686",
+      "size_bytes": 839
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "f5e7e7b470cad4d04622814ebca62f239bd52eccca36f05fe1d30867602ba86c",
+      "size_bytes": 127290
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "cb820fc05801d06e2e6475d283b189d4454f7b5e2ea632ca15cf567251dc90c1",
+      "size_bytes": 1191809
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "8ea9802ebc401fdbb46913c123befc20eae121f735a6c7e42b09e8d0827bdce9",
+      "size_bytes": 1785010
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "8c999c7c69e9027ae8a2deda3bf7c947a647539c70abb164b2720861ec5e579a",
+      "size_bytes": 825
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "79deab3b284b48aa1c89cb6d5b538dfcfdce4bda084a6587698b0c2c7767115b",
+      "size_bytes": 125209
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "20f973564b0bf36b5d1078431fdc70f92f4a5e697ffba66ebe1ded4a420d08cb",
+      "size_bytes": 1192567
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "666c52dc9c53d366b6fdf9158bff354148ff44a8b1a1e43d2e4a616ba0410ff4",
+      "size_bytes": 1781960
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_effect_intervals.pdf",
+      "sha256": "6ef3b2710a85551d1ec0ead6f1fad20ec7ba60d087f4c8666ff97f508470b14c",
+      "size_bytes": 20828
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_effect_intervals.png",
+      "sha256": "ed6f91a41e2c71b59e913bf564439d9ec84c18074f64f65ac679335168b4616c",
+      "size_bytes": 59099
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "5bf5d9ef1440e2cd47227f3ab6c6f08413a9d889d1d03635891b72753e5d6c5f",
+      "size_bytes": 827
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_intercepts.tsv",
+      "sha256": "93d76517cc5a5b4de20f5f3fb1664eb6cb17d6adca632e484e9d413a62816e5e",
+      "size_bytes": 652
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "d96214e7ceacfdd60a518d78f7eb59bcf9cd1853d443798e6e0edf4400c2f1f5",
+      "size_bytes": 8100855
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "dfe15b116da345ee7e77565987b930b30f539e20b4e9ee4916c8dbe974a00dd1",
+      "size_bytes": 337
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "a3aada2b05bbb1bf59b2c36f05248359c09fffe2b305a0a63b9d8713e357cdc1",
+      "size_bytes": 21474
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/raw_mouse_proportions.png",
+      "sha256": "d1a602f8636909fde8a76688ea3c68ddcb04a3861c3ccf850580254ca56f275f",
+      "size_bytes": 104465
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "752124ebe2135f8d7ebdac04d443a6da4cc9cf4e94768dcfc392341f0c17cb57",
+      "size_bytes": 19664
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/raw_stacked_proportions.png",
+      "sha256": "6161e23425de583012329a7d1b4fc957da5d047a130d4c22582bc414ef6f762e",
+      "size_bytes": 90196
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "4257e54f7ae0715bfeb638074e1f4507794c60f1159f8b2983a19b55acd1a998",
+      "size_bytes": 1292
+    },
+    {
+      "path": "fits/seurat__ca1_layer_programs/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "bcc50f8d82257f95d21f9b54d7c2c4f824f0bf25b0778e0bf81d65758887f2da",
+      "size_bytes": 1223
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/MCMC_VALIDATION.json",
+      "sha256": "68df132f27aee548f8807f40e0918588dbc3d10116ac950b9fa4494811d0e3a3",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/RESULT_STATUS.json",
+      "sha256": "7c18a946e07b4272fd516c85d2bbfdad026f0244af8b1362ed58362e59870118",
+      "size_bytes": 9380
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/STARTED.json",
+      "sha256": "8932febdb1aebe6839db55d4dd53eec1aeae79c06fa08c99d6181cff02afbc16",
+      "size_bytes": 471
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_1/native_effects.tsv",
+      "sha256": "38f816c64ca904cae313382e4bb5a00af58b61701f69e2d8006e80d19eca008f",
+      "size_bytes": 3285
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_1/native_extra_fields.npz",
+      "sha256": "89811dd1b6b32712692f918ebfaed700cee032e0eb02a46123fe699ea1c5e152",
+      "size_bytes": 117492
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "a2555dc537735990987969e2c4344c82587f72fe2bb8ee857de5411380474eed",
+      "size_bytes": 7851904
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "6c1244906f18b2fc1b960fc5a27c7ec3f2da440e219f03fd305ed01c347e38c4",
+      "size_bytes": 12929802
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_2/native_effects.tsv",
+      "sha256": "8c253925854fc82d4d45ac27c8a583c233c4b81c3a031bb36b8dcd3b6fb11192",
+      "size_bytes": 3253
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_2/native_extra_fields.npz",
+      "sha256": "bdaeb5896b6937dffd63b310d0b494857b5118896bbc7a32845b91735599beac",
+      "size_bytes": 123581
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "2b28c3b10c40117f65b399a260fc31c4e662e9be907a8122bc76e2bfe7e55c6b",
+      "size_bytes": 7848627
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "0d461249f76bb7b52f48c5f310ae25cffd3a86839c4106feb3ccbd7f315dd1bd",
+      "size_bytes": 12931013
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_3/native_effects.tsv",
+      "sha256": "fd64e42966cfc13a2144b7e8cb33de8df58fdf79b87817b2c3859c2ccb21a8e8",
+      "size_bytes": 3308
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_3/native_extra_fields.npz",
+      "sha256": "cddc17fcfdf67c2e05bac66ec94d4a901ee72fb74e8e03e8a1059b005ca629d0",
+      "size_bytes": 123437
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "14ad876472344e59372569b7a3cb1da3770af528f84e22066be8c4909c45fbcf",
+      "size_bytes": 7851961
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "8d4b03ddcb2f2e8e3bd1340dca7dd3adab7f78f0666f44b7198c1bbcd56d3933",
+      "size_bytes": 12935429
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_4/native_effects.tsv",
+      "sha256": "0bc493bb963aa01a1c6f4c8d6c618331f6f34d9d5bbe03c48ed56c46cc945056",
+      "size_bytes": 3303
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_4/native_extra_fields.npz",
+      "sha256": "10eab8642cc0c38de92fe49290e7d906b58255bcc157505611b7e39a8b47bbff",
+      "size_bytes": 122360
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "4b977b626cbb05db212854ce9cebda04f841df50e2f7fe4d52c738dfb452e713",
+      "size_bytes": 7851564
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "2531da7809296396d3e13ce32ca3efbea19215646098b968d81e62bd2271bff4",
+      "size_bytes": 12931960
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_effect_intervals.pdf",
+      "sha256": "d8346625b9edbab2c2d6b0114f30eb33fec5d5ec2f2ac6a69ff1dfb6b9027dc7",
+      "size_bytes": 27758
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_effect_intervals.png",
+      "sha256": "df9a786cb90279eaae31fcd0ab112ff02f9ba9aa0d2669cdccb2dfa19e359845",
+      "size_bytes": 137085
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "43d26e989dacf060d0faca0d1fc7bc8845717efd30221a08876511a6ee5b7438",
+      "size_bytes": 3304
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_intercepts.tsv",
+      "sha256": "2a61e48374edbbd4ed83e7ae9effe9c6383c576c44e3376680ca2caaf6511bb4",
+      "size_bytes": 2314
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "f3b5ac3dd1c4a9f9ffc97d8b3499b146f1e76633ea35eaf56ce0642f3f35a92d",
+      "size_bytes": 51123186
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/native_zero_replacement_audit.tsv",
+      "sha256": "ca1487ca023629cc15aee0d2a16415fdbaf250cafd85077e8d906405498201dc",
+      "size_bytes": 419
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/raw_mouse_proportions.pdf",
+      "sha256": "a3ed7faf089de0a21476a57a4e339efc2922c554139fa79dc2250ea4389be183",
+      "size_bytes": 41512
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/raw_mouse_proportions.png",
+      "sha256": "03efc73ca0bda141407d168f1cd65ac5991a60f33946d73bffdde9d509d5c767",
+      "size_bytes": 164836
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/raw_stacked_proportions.pdf",
+      "sha256": "b01048b33af7e9de2ad7978639d574432159e0cb76cc49bdd33f53720ec5ab88",
+      "size_bytes": 28340
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/raw_stacked_proportions.png",
+      "sha256": "e932af3625f6ac6fe5b1fd83a5bbc6f3502a039db9fe0844817b4b74f1ab4709",
+      "size_bytes": 157595
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/reviewable_effect_calls.tsv",
+      "sha256": "4c3608fc379a8aacb75d28037798ba220f84f59ca76e0b300d3c79f9e5e416c5",
+      "size_bytes": 3500
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "60073257b5b0110a3f5569086c823d3661d724588f602a5e7396a8f86f0dd563",
+      "size_bytes": 7524
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "947e0db50052a8ff811da3c07996c55d37be1209dfeb3c66d55037b67e395e74",
+      "size_bytes": 414
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/RESULT_STATUS.json",
+      "sha256": "dbf0f9d36c4ec67a29992634e23cef1d9d28aa2467edb8aac86d1ce243af8bc9",
+      "size_bytes": 9341
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/STARTED.json",
+      "sha256": "8275cc05da331c406095221dbf58b5e4fa367f6acf0263325e5991a7ae72738e",
+      "size_bytes": 482
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "aba6dfee132f04ff79abc2d0bdba036fa06ed68837de6afce722e199f3cc3806",
+      "size_bytes": 3752
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "3eb98770ddc84955450c9cc39e11c81d1f8c61f744d92904b4dac3657f271e44",
+      "size_bytes": 123714
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "ce083d815bd0fb58b24edf6f8d86a948b7a8aa5abbceff4bb7fdb16d6bd314ec",
+      "size_bytes": 7822725
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "8b3bc55e0e77a936276a3f79bcf9327f86efba48897e40b0403faa4966a4da8f",
+      "size_bytes": 11838680
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "14321d52241bdacca6e2273cc747294240c53c1901511cc839e63cdf8e4ae979",
+      "size_bytes": 3715
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "d745433eabea2f85cde566d66b60c91d1a4c1d05e3cb91fb6874c07e3e9d0b3f",
+      "size_bytes": 123386
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "141a79580c562c04b219c29ea9b7cdd3b707a6a6ea2c1dcd771d341e9bfc8de3",
+      "size_bytes": 7825133
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "21b5cfadd34257a2c8a5aff22e0f4b3dc4ebb39c99cc0e687f0b1158e8275d00",
+      "size_bytes": 11844314
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "ff569b80037c6e9d65a40ab0036882971fb981a9888514b3a8ae999fb7ad45d6",
+      "size_bytes": 3699
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "5eab484295e7c31009a832ac85e808057e51b9d27f6262046b29f95ba7ae0f88",
+      "size_bytes": 124346
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "07b7a8bff89dac4c75f83573c9876ed934ff1be2e1ab822c10c09d868c13997e",
+      "size_bytes": 7823629
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "2e9de9e0aa2ac13b38f4056c273aa82e56e7f9e00598e740c35a4b3a9141133d",
+      "size_bytes": 11842808
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "95a6f034666ba4a93901bbeefc854261840caf6b7af761e2b43ddfc94837fd4c",
+      "size_bytes": 3689
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "0e28595150d3c932ad5dd0355f527467f9eb976d36fe83493aab7cbe75e959cb",
+      "size_bytes": 123826
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "8769d565ddf176c169e0051e8d3da4dea083081114b59886973d2f78ec929d22",
+      "size_bytes": 7822421
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "914b29946512c5cc0a22ecc3d832bcdc74838db40b037a57439d4e5a35391216",
+      "size_bytes": 11845482
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_effect_intervals.pdf",
+      "sha256": "a33185c8fe02fe48514061a8c4a24883765e965282730cea23940782723ba9f8",
+      "size_bytes": 27555
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_effect_intervals.png",
+      "sha256": "5787032265ab625b5d4181e4abd6c886f34ed29c417be1e202162943d2e78f0e",
+      "size_bytes": 131730
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "4c398b4f2b507dc5a8461ed02dd665e083c549f4a8114866e0d7503c0babf770",
+      "size_bytes": 3684
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_intercepts.tsv",
+      "sha256": "fed874c3ced0d422c0bd2857fcfee6c4a899b130c6bde201c1b162745b6313c5",
+      "size_bytes": 2292
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "f2444fbaa89106ad5c862afdea7f2b337385987cc448770ab26ed1b4643d9029",
+      "size_bytes": 46765324
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "56573c8b55c5d87cd6633532a2adb23b050d26a4b45806d6d3f0f472a48e83f3",
+      "size_bytes": 337
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "36df026fb46ebc941ac31570e97936507d09b95130c91b4ab90421d1dabc3cc0",
+      "size_bytes": 41028
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/raw_mouse_proportions.png",
+      "sha256": "9b0ef892352e6ac968d53ff2394c651945952c54678e9ff1d1774f726df37eb5",
+      "size_bytes": 168552
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "8527c100591759b774e697eefa576102f8891ec490184b57dde6e06656393723",
+      "size_bytes": 26985
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/raw_stacked_proportions.png",
+      "sha256": "c0e717344e15e66a54f8d981dace71d0808aeccfda088240c36979efa81d9f5b",
+      "size_bytes": 156098
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "a099417cdad114696e9a3dfb53d66afe876e8e498fc67bc985a80df3f45e08c5",
+      "size_bytes": 4077
+    },
+    {
+      "path": "fits/seurat__excitatory_clusters/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "7f082135f18bbf1d2a3a3a18cecaa8cc4ef7abe031e1ff878b881088e092d27c",
+      "size_bytes": 7471
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/MCMC_VALIDATION.json",
+      "sha256": "e7d8e74e44d55c0ee866948deb857a8d4e6741275f6af3cf5297ffc2a96cea72",
+      "size_bytes": 414
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/RESULT_STATUS.json",
+      "sha256": "74192e8283daf10851a32d18780835d9dcc98196f024803995c4d2e34dc1747d",
+      "size_bytes": 9329
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/STARTED.json",
+      "sha256": "e7fd845d6d26be5b18f161e607d668f22cfe8d73413578ccb790ea3e261fa568",
+      "size_bytes": 471
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_effects.tsv",
+      "sha256": "09ff4c25d93d245dde438cf2690805cd045ecba1ce47438f311efd429a254916",
+      "size_bytes": 2927
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_extra_fields.npz",
+      "sha256": "0423493affbb91e7cfeb4264ec258345e723d4b54dbaff0e52a985ddc6ef7894",
+      "size_bytes": 122186
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_posterior_draws.npz",
+      "sha256": "95f690d05b115a7e7d7c2ae6430ee657430a3dc0da2a41103af2fc0afc03836c",
+      "size_bytes": 6784775
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_sccoda.h5ad",
+      "sha256": "18293a304f6415938ee1c17a8851c0ed024f06cef699b92a7a11f3e800c58577",
+      "size_bytes": 11269456
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_effects.tsv",
+      "sha256": "5f9fb887906bacbba40cd833cb515e9d44370b8103092bcf9e56f337f5449e21",
+      "size_bytes": 2857
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_extra_fields.npz",
+      "sha256": "6a7e6b3e4c9cbb0fa56488a0f484b3cc7135ab4866aa11d6c3b837d426e100dd",
+      "size_bytes": 125538
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_posterior_draws.npz",
+      "sha256": "87d7b5d4d3b18fbeaf373e201d097f97750c6c7e12c2d7d4a2083a4ac880d57e",
+      "size_bytes": 6785275
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_sccoda.h5ad",
+      "sha256": "f732d57fb058f1c0a075f874a48c1c67cf8d16193ac1eb55d38bb2f3d2032069",
+      "size_bytes": 11269806
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_effects.tsv",
+      "sha256": "f4a60c32b1ca27b6ab4e46c3507cd9967fc2ac323a5eb1ea502faf4817f2de75",
+      "size_bytes": 2949
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_extra_fields.npz",
+      "sha256": "acae4d5899b9773d0182c253f318b1f5dfceb18a7e7b66823751dc996bc87eb7",
+      "size_bytes": 121982
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_posterior_draws.npz",
+      "sha256": "98cee4398b279d6c68efd3317db5b362c6a1397b09059ba35b310bf4860adf2e",
+      "size_bytes": 6785908
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_sccoda.h5ad",
+      "sha256": "fef20592f9fc90f2370483c6fd1fc04fafa8c255c4e44f103d933d58d19864bb",
+      "size_bytes": 11269737
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_effects.tsv",
+      "sha256": "72a87ca583b659bf22822b418adeee836b303a817b7b07ac260a1448e700d025",
+      "size_bytes": 2959
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_extra_fields.npz",
+      "sha256": "5dd359bfc091df647968a55966ecfd7e275cae65c0da05c0429fc3ea201e3a96",
+      "size_bytes": 124095
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_posterior_draws.npz",
+      "sha256": "f6b8f9c68b577b1fd29af4cc4c60e8f8e6c34d1ea5c12fe04ef011263b3b2ce5",
+      "size_bytes": 6786997
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "f4a9ca63eb5d1953406f3a77d67ea94ff9b9fba3ec862f38ddc9fe30585c9fd2",
+      "size_bytes": 314
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_sccoda.h5ad",
+      "sha256": "d2fdae2b6fe218f60b1f7b4b2cbd1efceb00be2c7f01197c3557666830cf9199",
+      "size_bytes": 11269204
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/model_mouse_roster.tsv",
+      "sha256": "c306ae270ffa921918703e26a9cbd4a51d7683a8f06a45839b10cb440a5a7cf7",
+      "size_bytes": 481
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_effect_intervals.pdf",
+      "sha256": "e034ae69bbe51803fe96f5d76391f77e47a4d7a8eb3f7ccff2a39c3e71a60d11",
+      "size_bytes": 26029
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_effect_intervals.png",
+      "sha256": "61f09afd51cd4b860993308433f4b92a6c67cdae322db2a8ac53ad78e6f18e77",
+      "size_bytes": 116209
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "82f6dbed350bc9bd0aed2276a069f1d9b74acb026df9ad84a6778d411feb5a06",
+      "size_bytes": 2943
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_intercepts.tsv",
+      "sha256": "e9a175cc1bd1e0101893ba48c0941da2ce9ce3da1fa8fe5fa036ff3be38d514d",
+      "size_bytes": 2011
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "d78e2da4340138c7634415f6da46c194c786867bff58a09b75f7c93f8df1a27a",
+      "size_bytes": 44473904
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/native_zero_replacement_audit.tsv",
+      "sha256": "52527e60be85aab9f2be3d0d1079c9d69313c5d4a544e44a58993ca57d464388",
+      "size_bytes": 395
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/raw_mouse_proportions.pdf",
+      "sha256": "73f4fc5964e29b2ebf19b0d9b59859046a84531eb4fb48a186e2215bac50cae9",
+      "size_bytes": 37949
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/raw_mouse_proportions.png",
+      "sha256": "e688a16775e88e8c745a2d8f271cc9766cccf25cbe3f68428835259d7ea5507b",
+      "size_bytes": 172532
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/raw_stacked_proportions.pdf",
+      "sha256": "195a7f274fba5d863c966afb7191e230f31d411a8ab92bd89666608d888f2bc2",
+      "size_bytes": 26301
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/raw_stacked_proportions.png",
+      "sha256": "c75f2e798d2bcedff1bfe74d521d862e3736aa0ab6bddbf7b55ef78c1d30a9d6",
+      "size_bytes": 143590
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/reviewable_effect_calls.tsv",
+      "sha256": "7c6eb2824166faded01328861f6606d7cd3189e1c55c02c97e9a288a58cf42f9",
+      "size_bytes": 3016
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/all12/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "287a4d774464d3af6532ef06f0a3641aef908d22028b2b34ffa142eb8ca49731",
+      "size_bytes": 6537
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/MCMC_VALIDATION.json",
+      "sha256": "fb741c869c65db79328b5160654f08eaaafd4eaa537057b3207b68f1846b3253",
+      "size_bytes": 436
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/RESULT_STATUS.json",
+      "sha256": "de7261c73eaaeed9375d4d03a0019d7362168da71884f6ae02d8940b4033e083",
+      "size_bytes": 9388
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/STARTED.json",
+      "sha256": "8fc1429cc3b9f16ee9ac22c5963f6eda078810b721697a207179a0d4e637a596",
+      "size_bytes": 482
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_effects.tsv",
+      "sha256": "e2692fc5b74356d5acc688861c31fe51a7e2cac2d905f98901a916b9bb89759a",
+      "size_bytes": 2865
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_extra_fields.npz",
+      "sha256": "802c0278eee8f2478fedd03444a91ec0481059d49bdd4060040f573394ea3bb3",
+      "size_bytes": 125987
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_posterior_draws.npz",
+      "sha256": "1f61fe6ebd3835f4fb371d583368f3f066d5f3a647756484dff6ba1bf6207829",
+      "size_bytes": 6762943
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_sccoda.h5ad",
+      "sha256": "e42994a340aeaf1189dff599b9af958926d4d5b86a7f362108b7093a0002fb2f",
+      "size_bytes": 10317621
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_1/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_effects.tsv",
+      "sha256": "148782723dbea0e3149e95e43adc49e49707533092b3b8b2da38486279cfb8d8",
+      "size_bytes": 2897
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_extra_fields.npz",
+      "sha256": "dfc3857bc20da21307fd0380e7506c4062531269a9c873f54370000781652e79",
+      "size_bytes": 125661
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_posterior_draws.npz",
+      "sha256": "cc288219b0b6fb701e7d23ef001fe3c471584e5033c41b6fc76f9d4e4dce01cf",
+      "size_bytes": 6764355
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_sccoda.h5ad",
+      "sha256": "f6e6ab39b247bb336647f13eef3c2fd26046d18835774126f5ab15a72a43e4b2",
+      "size_bytes": 10319323
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_2/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_effects.tsv",
+      "sha256": "ef09367697409ed92abcc04d6a9144da708f8444bc2d801c321f5a6067603b06",
+      "size_bytes": 2920
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_extra_fields.npz",
+      "sha256": "c82a947698e3c28b2324504d3319ad86ea99422203d293eec4eeceea879a75d9",
+      "size_bytes": 115274
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_posterior_draws.npz",
+      "sha256": "bc50171d4e8dfbb126dcae84ac3cb60d6019c0ad647d12a0762337a194e8b4ab",
+      "size_bytes": 6763552
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_sccoda.h5ad",
+      "sha256": "faadd87b273c522ea378542ef7c0c574775feea8168854439021badb3df36d20",
+      "size_bytes": 10311223
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_3/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_effects.tsv",
+      "sha256": "dc4735f0d0735d1476c414d9b2417403df2a71034cd6c35c9f6106976e0fa766",
+      "size_bytes": 2897
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_extra_fields.npz",
+      "sha256": "d9861c4ff4df3a2c093668c04ed9a0430134c75a69e3fdb7ce052b9f371d1fcf",
+      "size_bytes": 124623
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_posterior_draws.npz",
+      "sha256": "b0d85254625a8c31e3fbbe2dc6fb31785932725deefb084d1cc26d6a1d316cb7",
+      "size_bytes": 6767024
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_prepared_count_layout_audit.json",
+      "sha256": "aa9cc48ee2f0f769a96f00c2bfaf648afff68ee97880150fb8b97334568ad5b9",
+      "size_bytes": 312
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_sccoda.h5ad",
+      "sha256": "02882d8397c58deeabf0b431da8909b10b2f4f78d1f88675f5464c20ccbcccab",
+      "size_bytes": 10319473
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/chain_4/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/model_mouse_roster.tsv",
+      "sha256": "3ae603635e840f0ffc8f8aa7c17ea4aa372e17c137273f56a0f4eea576268cf0",
+      "size_bytes": 383
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_effect_intervals.pdf",
+      "sha256": "b35981dfe5c0c4210db7673ea4dd37fbe964fc5fe120e554d0d109c844bed9c4",
+      "size_bytes": 26288
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_effect_intervals.png",
+      "sha256": "9caeded40fe83ffaf4ccaeee15f93f0f9ee0d03e6fb5a8b350ff12c205737fbd",
+      "size_bytes": 121553
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_effects_expected_fdr_0.05.tsv",
+      "sha256": "1b6ced5e8fabba8f6fdc311d616261a1ca802ea3479e16179096781c600d242b",
+      "size_bytes": 2902
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_intercepts.tsv",
+      "sha256": "1395ba2622ffad50486d67003d2710c2b4e2a5f516f215ab0736ef47f2ec7fe0",
+      "size_bytes": 2003
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_sccoda_four_independent_chains.h5ad",
+      "sha256": "f1aa30a1ea71ec18b79c47aef42ffbea43ed7aacaa4396a54d6f84865570c974",
+      "size_bytes": 54275073
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_table_transport_audit.json",
+      "sha256": "cf95e1e31978f23383c95a18e811002f0bbb84d2444a6c95a7dfe4b22446db98",
+      "size_bytes": 765
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/native_zero_replacement_audit.tsv",
+      "sha256": "b67704c775467bc4a8290b1426284207e5527dac3d024a4b09ea214c4aaecb92",
+      "size_bytes": 319
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/raw_mouse_proportions.pdf",
+      "sha256": "329cf2f923baaae1828bd0b472e29877660e0cd8c23aa803b5b9fe626d3f383d",
+      "size_bytes": 37429
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/raw_mouse_proportions.png",
+      "sha256": "9e89d7c2313e727d612a56edc8594496885d4527ef94adcd901561eac11024fb",
+      "size_bytes": 170875
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/raw_stacked_proportions.pdf",
+      "sha256": "b82b256693e7d2231c638dd7cfc39d640479b87f105c72fc129eaad81c953dce",
+      "size_bytes": 25101
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/raw_stacked_proportions.png",
+      "sha256": "16bfe615102a79fd532b79e17f2330d41da0f4d1bf14f90fc348d67f2a026636",
+      "size_bytes": 142908
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/reviewable_effect_calls.tsv",
+      "sha256": "3fe0e386e1509ec1e6bad260459d67b308a5531aad4fcde5ccf748a39e7b1591",
+      "size_bytes": 3239
+    },
+    {
+      "path": "fits/seurat__inhibitory_clusters/shared_partition/stochastic_parameter_mcmc_diagnostics.tsv",
+      "sha256": "a7c99d71384f7433d8074a5cee7490500bd2dd3f8280aff07dfad2ebda3bfdf2",
+      "size_bytes": 6529
+    },
+    {
+      "path": "prepared/PREPARED.json",
+      "sha256": "e8f5ad7d315643d7612a802ae8b6ec101880ff7a8d8ebff5b0380a710d2ea573",
+      "size_bytes": 1910
+    },
+    {
+      "path": "prepared/all_mouse_counts_and_proportions.tsv",
+      "sha256": "3ce779d78b996ea6213ccdc0be7c14a3b0e16a6a8057bfd42a3e7ed1e7b29198",
+      "size_bytes": 152521
+    },
+    {
+      "path": "prepared/composition.json",
+      "sha256": "6950ddf2ad443cf585f7441d51bb33ac80e63e13ab12e86e55a6c2ee4c1da308",
+      "size_bytes": 83324
+    },
+    {
+      "path": "prepared/sample_roster.tsv",
+      "sha256": "37916072957f89a4b17d823d70698118b8949e722eff4f392e2274c09cbfcfd2",
+      "size_bytes": 481
+    },
+    {
+      "path": "prepared/scanpy__allcells_coarse__reference_candidates.tsv",
+      "sha256": "9c31b75513cd46b5697d458aa1d2bbb2a5f145a85ed1d54242876ad013cdba2c",
+      "size_bytes": 709
+    },
+    {
+      "path": "prepared/scanpy__ca1_layer_programs__reference_candidates.tsv",
+      "sha256": "df330c92dedd43003a4727c80dbe24da8c1b6c692b7f857643fba27e577031ab",
+      "size_bytes": 771
+    },
+    {
+      "path": "prepared/scanpy__excitatory_clusters__reference_candidates.tsv",
+      "sha256": "1f32b9bfe20ad9159acdec4edb0635863520d5bf21b6b0dde9b7236b07b935a3",
+      "size_bytes": 1927
+    },
+    {
+      "path": "prepared/scanpy__inhibitory_clusters__reference_candidates.tsv",
+      "sha256": "d9c162eb083c4d41b3756057d9f8ba74b6ad7e569dea44c1b4c5f53bfacb2435",
+      "size_bytes": 1674
+    },
+    {
+      "path": "prepared/seurat__allcells_coarse__reference_candidates.tsv",
+      "sha256": "b0801a471485b514948a7752f492201383acf4d2e59ee1af99d0aa86d9123fb5",
+      "size_bytes": 715
+    },
+    {
+      "path": "prepared/seurat__ca1_layer_programs__reference_candidates.tsv",
+      "sha256": "31f1e80f5f9746f83287e24c0dceb7275f02d75753f10a153b2861670171d452",
+      "size_bytes": 773
+    },
+    {
+      "path": "prepared/seurat__excitatory_clusters__reference_candidates.tsv",
+      "sha256": "dbee6dd0fcaef0a8e1e2f85dd8778213d23f6836d92223d6c92d5dfa667f6f2b",
+      "size_bytes": 2257
+    },
+    {
+      "path": "prepared/seurat__inhibitory_clusters__reference_candidates.tsv",
+      "sha256": "5704b8efae418609e78fd4cf6752cc1428bf7ef0fe698bb7f18978fe724ae31a",
+      "size_bytes": 1951
+    },
+    {
+      "path": "report/README.md",
+      "sha256": "023a6ea1b3c5285007ed71ac8940f5279ae0d8d89265735a38a1ea1c343c826c",
+      "size_bytes": 2354
+    },
+    {
+      "path": "report/all_native_effect_calls.tsv",
+      "sha256": "ed688530d9ea1b53ff1f70de8169080a7879cf7dd9bf2157de0da2358347c826",
+      "size_bytes": 32676
+    },
+    {
+      "path": "report/full_vs_shared_partition_descriptive_comparison.tsv",
+      "sha256": "ec405a8f1464092f63ecef811886dcd95f249d95ef5334a48e4d1df4db19b93e",
+      "size_bytes": 10895
+    },
+    {
+      "path": "report/model_statuses.tsv",
+      "sha256": "57511cfe8a191a17cafc527cb4049936c8d8f18baa489ecf02798bb753e35f33",
+      "size_bytes": 2663
+    }
+  ],
+  "prepared_sha256": "6950ddf2ad443cf585f7441d51bb33ac80e63e13ab12e86e55a6c2ee4c1da308",
+  "schema": "satb2-composition-final-validation/v1",
+  "scientific_review_required": true,
+  "status": "COMPLETE_WITH_INCONCLUSIVE_OR_UNTESTABLE_SCOPES"
+}

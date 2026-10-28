@@ -1,0 +1,5 @@
+{
+  "schema": "satb2-cellchat-plots/v1",
+  "status": "COMPLETE",
+  "methods": ["triMean", "truncatedMean10"]
+}

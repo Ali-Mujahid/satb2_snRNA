@@ -1,0 +1,13 @@
+sample	raw_denominator	zeros_replaced	native_zero_replacement	native_prepared_denominator
+wt_1122	588	0	0.5	588.0
+wt_1123	754	1	0.5	754.5
+wt_1178	542	1	0.5	542.5
+wt_1220	924	0	0.5	924.0
+wt_1226	747	1	0.5	747.5
+wt_1228	909	0	0.5	909.0
+cKO_1138	747	1	0.5	747.5
+cKO_1139	839	1	0.5	839.5
+cKO_1160	706	0	0.5	706.0
+cKO_1165	808	0	0.5	808.0
+cKO_933	629	0	0.5	629.0
+cKO_991	718	2	0.5	719.0

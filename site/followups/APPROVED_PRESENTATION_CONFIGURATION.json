@@ -1,0 +1,212 @@
+{
+  "schema": "satb2-followups-portable-presentation/v1",
+  "approved_for_portable_presentation": true,
+  "title": "SATB2 \u00b7 Four separate follow-up analyses",
+  "maximum_package_bytes": 80000000,
+  "maximum_table_bytes": 2000000,
+  "maximum_embedded_table_preview_bytes": 750000,
+  "tasks": {
+    "composition": {
+      "native_root": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/results",
+      "terminal_seal": {
+        "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/results/FINAL_VALIDATION.json",
+        "bytes": 146367,
+        "sha256": "489238a9c467036944c8dc158d8d94752bf08bb957c252ba3b8fb3a1454a0f6c"
+      },
+      "headline": "Four of 16 proportion models pass sampling checks; two relative mixed-cluster associations need cautious interpretation.",
+      "findings": [
+        "The same frozen Scanpy and Seurat nuclei were tested in four populations, each in the full cohort (6 WT and 6 cKO) and the separate shared-partition cohort (6 WT and 3 cKO). Raw mouse counts and proportion plots are retained.",
+        "The strict same-model sampling check qualifies four models: both excitatory shared-partition models, Scanpy inhibitory shared-partition, and Seurat inhibitory full-cohort. The other 12 models remain inferentially inconclusive.",
+        "At native expected Bayesian FDR 0.05, Scanpy excitatory C9 has coefficient 0.48499, PIP 0.99333 and native compositional log2 fold change 0.64668; Seurat excitatory C4 has coefficient 0.46792, PIP 0.99596 and compositional log2 fold change 0.62512. Both are shared-partition, reference-relative associations in clusters labeled mixed atlas subclasses.",
+        "The selected mixed-cluster labels cover largely the same nuclei: shared-partition overlap is 3,197 of 3,284 in the union (Jaccard 0.9735); across all 12 mice it is 4,264 of 4,391 (Jaccard 0.9711). This is measured computational membership agreement, not a new fit or independent biological replication.",
+        "The two numerically qualified inhibitory models have no credible coefficients under this specified model. This does not establish equivalence or absence of biological effects.",
+        "The initial 0.90-target sampler family remains preserved with 0 of 16 diagnostic passes. The globally specified stricter sampler check changes numerical sampling only; biological inputs, references, model, seeds, FDR and quality rules are unchanged."
+      ],
+      "limitations": [
+        "Twelve of 16 models still fail sampling diagnostics. In particular, no accepted broad-population or CA1-program composition inference follows from those failed models; inconclusive results are not negative biological findings.",
+        "Excitatory reference clusters Scanpy C14 and Seurat C21 carry saved immune/glial-associated signature-review flags. Positive relative coefficients in mixed C9/C4 do not establish expansion of a named stable neuronal cell type or absolute tissue abundance.",
+        "The tools reuse the same mice and nuclei. Strong measured membership agreement does not resolve the mixed clusters\u2019 biological subtype, establish a named stable cell type or provide independent replication; the reference and sampling caveats still apply.",
+        "Genotype partly overlaps sequencing partition; the shared-partition cohort has only three cKO mice. The full and shared cohorts are separate exploratory analyses, not independent replication.",
+        "Posterior inclusion probability and expected Bayesian FDR are not frequentist gene-DE p-values. Each model has its own native family; uncertain labels and reference dependence remain."
+      ],
+      "review_receipts": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_composition_strict_completed_review.md",
+          "bytes": 9496,
+          "sha256": "9601dec3e6d641c2144d68190057c51264cb3cc4fc23f33dd9b3aca1675c080c"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_composition_v1_0_2_completed_review.md",
+          "bytes": 9325,
+          "sha256": "662f039e7be330ecacb5c8df4c3262907f4cb729c446acdcbc29b63c131c6dcb"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/strict_sampler_actual_readonly/terminal_v1_1_0/FINAL_SCIENTIFIC_AUDIT.md",
+          "bytes": 10726,
+          "sha256": "2fd7972296e44f17cfe3b4df465fa361792b3bd3d338f34b366f66afae86ccdd"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/strict_sampler_actual_readonly/terminal_v1_1_0/TERMINAL_AUDIT.json",
+          "bytes": 17127,
+          "sha256": "08a8082471e7ed34cdda9c7bc42ee61cc9c7db385ba05c03a706e7f99339d3d6"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/strict_sampler_actual_readonly/terminal_v1_1_0/SELECTED_CLUSTER_MEMBERSHIP_AGREEMENT.json",
+          "bytes": 974,
+          "sha256": "6bb38a7133c6f3f09c50d8c018e67e32e156629be2f04afb12e8022e8c19acc7"
+        }
+      ],
+      "archive_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/followups-20261028-v1.0.0",
+      "archive_note": "Download both SATB2_composition_initial_20261028_v1.zip and SATB2_composition_strict_20261028_v1.zip from the release. Both complete native sampler families are preserved, including inconclusive models; the initial family is not additional biological replication."
+    },
+    "cellchat": {
+      "native_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat",
+      "terminal_seal": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json",
+        "bytes": 21080,
+        "sha256": "c1dbdbe57c1606ab37d71cbf630905731bb630667038a25bd5ec0cd6bfd16683"
+      },
+      "headline": "Strict DEG-only CellChat retains three exploratory lower-cKO full-cohort associations; primary partition sensitivity remains inconclusive.",
+      "findings": [
+        "Six molecular pairs across nine source\u2013target contexts pass the original matching-endpoint Seurat DESeq2 rule: every required ligand and receptor complex subunit has padj<0.05. Original component up/down directions remain in the tables.",
+        "Primary triMean full-cohort associations are lower Slit1\u2013Robo1 from deep-associated CA1 to inhibitory C6, and lower Tenm3\u2013Adgrl2 from C6 to both deep- and superficial-associated CA1 programs; each full-cohort BH value is 0.0064935.",
+        "The primary shared-partition BH value is 0.0714286 for each of those three contexts; none of nine primary shared-partition tests passes 0.05. Both averaging methods retain the three full-cohort score directions.",
+        "The prespecified truncated-mean sensitivity yields seven full-cohort and five shared-partition associations. It is a separate sensitivity family and does not independently confirm the primary results.",
+        "Readable corrected dot, tile, circos, circle and mouse-boxplot PDFs/PNGs are available. They preserve exact saved values/scales and fix display margins, headers and vertical jitter only; archival originals remain explicitly labeled."
+      ],
+      "limitations": [
+        "Both-end DEG selection reuses the same study before score testing. The score associations are exploratory post-selection evidence, with partial genotype/technical-partition confounding.",
+        "Each retained pathway context contains only one qualifying pair here, so LR and pathway test results duplicate the same evidence. The combined direction view is not an additional test family.",
+        "No qualifying strict-DEG edge for C8 does not mean absence of communication; C8 identity uncertainty remains. The DEG restriction intentionally omits most possible signaling.",
+        "RNA-based scores do not establish protein binding, physical communication, pathway activation, synaptic transmission, functional E/I balance or anatomical deep/superficial layers.",
+        "Circos sector/ribbon geometry is relative within each condition; compare saved score tables rather than interpreting cross-condition absolute ribbon thickness. Circle plots retain their saved common edge scale."
+      ],
+      "review_receipts": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_cellchat_v1_completed_review.md",
+          "bytes": 9160,
+          "sha256": "6bbb429e9ff5b869120141e531023c3d72cfbda485be0f65d70f1eeb087d5dec"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_final_scientific_review.md",
+          "bytes": 7211,
+          "sha256": "558378017ed4265b598e5e19d6032889040e75a96780220966abca19ec5cc563"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_cellchat_layout_completed_review.md",
+          "bytes": 6163,
+          "sha256": "c62e021328421580550d25c4426107ed57ba5e5ddc366880a2a96eb6d2e5a031"
+        }
+      ],
+      "presentation_override": {
+        "approved_for_display": true,
+        "presentation_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout",
+        "terminal_seal": {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/FINAL_VALIDATION.json",
+          "bytes": 24997,
+          "sha256": "e15002fe6b056c9efe7d02dbe3d137cd3f041fb1f4e26a1e533ab2a655abda92"
+        },
+        "visual_review_receipts": [
+          {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/DISPLAY_ACCEPTANCE.json",
+            "bytes": 7021,
+            "sha256": "554c1bb91f8835edb126ccd8855579694f7db34ad97fbc85df01ce04668bb7b6"
+          },
+          {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/FINAL_DISPLAY_REVIEW.md",
+            "bytes": 8313,
+            "sha256": "230378b4818f4b36da1f7d4b66cdd372721a5b5022b6283f1fbd4fa6ac6df943"
+          },
+          {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_cellchat_layout_completed_review.md",
+            "bytes": 6163,
+            "sha256": "c62e021328421580550d25c4426107ed57ba5e5ddc366880a2a96eb6d2e5a031"
+          }
+        ]
+      },
+      "archive_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_cellchat_20261028_v1.zip",
+      "archive_note": "Complete original scientific objects, exact tables and separate corrected-layout provenance are included in this verified native archive. Corrected figures are the readable default; archival figures retain known display issues."
+    },
+    "monocle3": {
+      "native_root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results",
+      "terminal_seal": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results/FINAL_VALIDATION.json",
+        "bytes": 56123,
+        "sha256": "475c75e1b0bbc89d5808f98c3626a6c91001276ff4abee1ea4f65e9a7ed6e2a8"
+      },
+      "headline": "Four molecular state graphs and gene-module analyses completed; biological temporal direction is not established.",
+      "findings": [
+        "CA1 DL/SL programs: 20,456 nuclei, 10,618 tested features, two components, 9,056 graph-associated genes and 47 modules. The smaller component contains 847 nuclei, is mostly superficial-associated and includes all 12 mice.",
+        "Separate inhibitory models retain C1: 1,718 nuclei, 3,669 graph-associated genes and 19 modules; C6: 501 nuclei, 1,439 genes and 8 modules; C8: 468 nuclei, 2,002 genes and 11 modules. Every scope contains all 12 mice.",
+        "All selected graph-associated genes had native successful tests, PCA-loading coverage and module assignments. Complete gene tables and raw module aggregates accompany the figures.",
+        "Primary graphs are unrooted. Optional native orderings use genotype-blind arbitrary references, with alternative-reference distances preserved; changing references materially changes rankings.",
+        "Module heatmaps use display z scores of mouse/endpoint aggregates, not genotype fold changes. Native gene-overlay colors are each gene\u2019s percentage of its own maximum, not detection fraction or a shared absolute scale."
+      ],
+      "limitations": [
+        "A mature P60 single snapshot supplies no independent temporal root. These are exploratory expression-state graphs, not a biological clock, WT-to-cKO progression or demonstrated deep-to-superficial transition.",
+        "Native graph_test is a same-data cell-level autocorrelation screen with a separate BH family per model. It is not an independent-mouse genotype-DE test; original DESeq2 fits remain the genotype gene evidence.",
+        "Genotype/program structure and partly confounded sequencing partition remain contributors to geometry. Same-partition files are filtered views of the same graph, not refits; coverage of all 12 mice is not formal topology stability.",
+        "Mitochondrial- and astroglial-associated module patterns require quality/background interpretation before a neuronal mechanism is claimed. Native module numbers do not correspond to hdWGCNA module IDs.",
+        "Inhibitory identities were modeled separately. No CA1-to-interneuron or C1-to-C6-to-C8 lineage was forced, and C8\u2019s mixed identity is not resolved by learning a graph."
+      ],
+      "review_receipts": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_monocle3_completed_review.md",
+          "bytes": 9200,
+          "sha256": "be07fb74edeb0903b89b1cc4092457e43401f6ea0e8d8315706e06384af005e6"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/INDEPENDENT_FINAL_REVIEW_20261028.md",
+          "bytes": 9713,
+          "sha256": "715114c753f099f8b789b63edf708ac60ca61f4aee32ea49a4f76012bd24171b"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/INDEPENDENT_FINAL_REVIEW_RECEIPT_20261028.json",
+          "bytes": 1117,
+          "sha256": "b0a16be5ef1e10a39daaf4db344858a526d351e2dde9f9cfff2a99fc5a6d0009"
+        }
+      ],
+      "archive_url": "https://github.com/Ali-Mujahid/satb2_snRNA/releases/download/followups-20261028-v1.0.0/SATB2_monocle3_20261028_v1.zip",
+      "archive_note": "Complete native unrooted CDSs, reference-ordering objects, nearest-neighbor indexes and all gene/module tables are included in this verified native archive. Graph distance has no established biological temporal direction."
+    },
+    "velocity": {
+      "status": "INPUT_BLOCKED",
+      "assessment_receipt": {
+        "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/velocity_readiness/inventory_evidence.json",
+        "bytes": 36248,
+        "sha256": "8293110e89f99716fe6203b61b0b5fef91477aab3cdcd7b8b8dd1aa3bff6671f"
+      },
+      "headline": "Input blocked: no scVelo fit, velocity map or latent-time analysis has run.",
+      "findings": [
+        "The inspected current study objects contain ordinary RNA counts, not genuine separate spliced/unspliced layers. Intron-inclusive gene counts cannot substitute for those measurements.",
+        "Historical records describe 11 LiSC BAMs; current cKO_933 read-level inputs remain unverified and inspection of the existing LiSC connection returned access denied.",
+        "No sample was silently omitted and no synthetic velocity layers, arrows or latent times were generated. The saved input assessment and blocked review explain the exact evidence gap."
+      ],
+      "limitations": [
+        "Restore the existing LiSC connection, then verify all 12 matching BAM/indexes, corrected barcode/UMI tags and the matching GTF/reference, especially cKO_933, before an additive counting plan.",
+        "No velocity or latent-time conclusion follows from expression UMAPs or Monocle state distance. Mature-neuron kinetics may remain weak or unidentifiable even after valid counting.",
+        "No scientific velocity results or model archive exists for this blocked task. This section must remain unavailable until authentic splicing inputs and a separately reviewed analysis are available."
+      ],
+      "review_receipts": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_scvelo_blocked_review.md",
+          "bytes": 5560,
+          "sha256": "16f8c616e490151e7b98e3aa02fcca8d9740c1cbd793a8dabc6aaf2db7d06f10"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/velocity_readiness/STARTING_POINT_ASSESSMENT.md",
+          "bytes": 9370,
+          "sha256": "6c7e7bd866d102062701206895d44e713434dbcc98ec91e274622157bc0d0e44"
+        }
+      ],
+      "archive_url": null,
+      "archive_note": "There is no velocity-result archive. Only the verified input assessment and blocked-analysis review are provided."
+    }
+  },
+  "root_approval_note": "Root reviewed actual terminal results, native and independent reviews, status/limitations and exact four native archive remote digests. This permits fresh offline presentation build only. Public release, complete offline ZIP and live online delivery remain separately gated.",
+  "native_archive_remote_receipt": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/followups_native_archives_remote_VERIFIED_v1.json",
+    "bytes": 4323,
+    "sha256": "5e031bf0e2b49d2b7b5d899b6128ab24da6cf0c3432293fb4a852b415352bd9e"
+  }
+}

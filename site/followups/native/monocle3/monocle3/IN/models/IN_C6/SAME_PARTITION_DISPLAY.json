@@ -1,0 +1,8 @@
+{
+  "kind": "descriptive_filter_same_fitted_graph_not_geometry_refit",
+  "partition": "23HJT3LT4_lanes6_7",
+  "WT_mice": 6,
+  "cKO_mice": 3,
+  "nuclei": 381,
+  "genotype_inference": "none"
+}

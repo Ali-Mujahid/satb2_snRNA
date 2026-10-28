@@ -1,0 +1,20 @@
+scope_id	cohort	category	display_label	reference_category	native_final_parameter	native_inclusion_probability	native_compositional_log2_fold_change	native_credible	validated_credible	expected_bayesian_fdr	interpretation
+scanpy__excitatory_clusters	all12	0	C0 · 016 CA1-ProS Glut	14	0.0	0.49883333333333335	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	1	C1 · 016 CA1-ProS Glut	14	0.0	0.5316666666666666	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	2	C2 · 033 NP SUB Glut	14	0.0	0.48325	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	3	C3 · 023 SUB-ProS Glut	14	0.0	0.5015416666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	4	C4 · Excitatory; mixed atlas subclasses	14	0.0	0.4984166666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	5	C5 · 016 CA1-ProS Glut	14	0.0	0.504	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	6	C6 · 016 CA1-ProS Glut	14	0.0	0.5840833333333333	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	7	C7 · Excitatory; mixed atlas subclasses	14	0.0	0.5056666666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	8	C8 · 023 SUB-ProS Glut	14	0.0	0.5022916666666667	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	9	C9 · Excitatory; mixed atlas subclasses	14	0.0	0.5765	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	10	C10 · 037 DG Glut	14	0.0	0.584	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	11	C11 · Excitatory; mixed atlas subclasses	14	0.0	0.454	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	12	C12 · Excitatory; mixed atlas subclasses	14	0.0	0.4987083333333333	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	13	C13 · 008 L2/3 IT ENT Glut	14	0.0	0.5130416666666666	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	14	C14 · 016 CA1-ProS Glut; Microglia/Other_immune-associated signature review	14	0.0	0.0	0.0	False	False	0.05	REFERENCE_CONSTRAINED_NOT_TESTED
+scanpy__excitatory_clusters	all12	15	C15 · Excitatory; mixed atlas subclasses	14	0.0	0.4745	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	16	C16 · 019 L2/3 IT PPP Glut	14	0.0	0.6690416666666666	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	17	C17 · 011 L2 IT ENT-po Glut	14	0.0	0.49745833333333334	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS
+scanpy__excitatory_clusters	all12	18	C18 · 036 HPF CR Glut	14	0.0	0.505375	0.0	False	False	0.05	INCONCLUSIVE_MCMC_DIAGNOSTICS

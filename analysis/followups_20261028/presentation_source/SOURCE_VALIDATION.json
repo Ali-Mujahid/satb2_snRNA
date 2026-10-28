@@ -1,0 +1,80 @@
+{
+  "schema": "satb2-followups-presentation-source-validation/v1",
+  "status": "SOURCE_TESTS_AND_INDEPENDENT_REVIEW_PASS_NOT_ACTUAL_STUDY_BUILD",
+  "created_utc": "2026-10-28T12:40:39.158118+00:00",
+  "source_files": [
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/build_reader.py",
+      "bytes": 23155,
+      "sha256": "6819bf5f414ed19331b6defd09204793948fb5b7801868b1fe13366d0826f79d"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/build_online_reader.py",
+      "bytes": 14577,
+      "sha256": "6481731275e5cc881e5e2abab1e2ec29f543a530f66bbe94efb8492bf300de1b"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/template.html",
+      "bytes": 14394,
+      "sha256": "7766bef07d9a09b7e0fb930d0970c12c74fc1dbc880906e725e722372456c2c2"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/config.template.json",
+      "bytes": 2319,
+      "sha256": "6967655e89adc2f100cfdb72e18c9daa73811f2053a3958810b5a4f28bd05965"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/online.config.template.json",
+      "bytes": 957,
+      "sha256": "0c875f5efb5fd238b77a9a1bb91bf056db344b895735cadd9e7e1f7c4f21c453"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/README.md",
+      "bytes": 11796,
+      "sha256": "d12a4741fd653bd3941ff2c191b9e1b70e51ff63b7cdd1c5b0c442c9f6dde4f6"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/tests/test_builder.py",
+      "bytes": 16037,
+      "sha256": "72fd10bbd5bf756b190627d954864e46209544ada64088e6531ad0cfed09a151"
+    },
+    {
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source/tests/test_online.py",
+      "bytes": 9945,
+      "sha256": "816732bab02740d7876365e448773f68eb9b45a19d2eee07a6b25fd88e47c0af"
+    }
+  ],
+  "synthetic_unit_groups_passed": 21,
+  "javascript_syntax_checks": [
+    {
+      "fixture_kind": "portable",
+      "node_syntax_exit": 0
+    },
+    {
+      "fixture_kind": "online",
+      "node_syntax_exit": 0
+    }
+  ],
+  "independent_source_review": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/Presentation_source_final_20261028/INDEPENDENT_SOURCE_REVIEW.md",
+    "bytes": 4044,
+    "sha256": "0766a3ca0598aa2cdb0a23a66541bff212d27ed0296df33a67d95f973b3b26d5"
+  },
+  "actual_study_reader_built": false,
+  "actual_online_stage_built": false,
+  "native_scientific_outputs_modified": false,
+  "fits_or_rescoring_run": false,
+  "GitHub_writes_or_publication": false,
+  "publication_constraints": {
+    "existing_site_limit_bytes": 950000000,
+    "online_default_limit_bytes": 10000000,
+    "remote_assets_require_independently_verified_bytes_and_sha256": true,
+    "offline_zip_requires_complete_stream_verified_portable_contents": true
+  },
+  "remaining_required_checks": [
+    "Root-approved actual native findings and terminal reviews",
+    "Actual full portable package build and rendered review",
+    "Verified real release assets and complete offline ZIP",
+    "Actual online stage budget and live browser delivery/controls/download checks"
+  ]
+}

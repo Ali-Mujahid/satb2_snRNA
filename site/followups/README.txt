@@ -1,0 +1,1 @@
+Online preview: some plot/PDF/table bytes are delivered from verified GitHub release assets. Use the complete portable ZIP linked in the page for offline operation. No scientific values, filters or statistical results changed during online transport.

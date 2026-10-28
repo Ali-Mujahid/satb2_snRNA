@@ -1,0 +1,1070 @@
+{
+  "schema": "satb2-followups-archive-delivery/v1",
+  "approved_for_archives": false,
+  "template_note": "DISABLED. Root must supply actual strict terminal/review and reader paths/receipts, verify/freeze component definitions and explicitly approve a copied configuration. This file is not publication approval.",
+  "destination_dir": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_delivery_v1",
+  "allowed_output_roots": [
+    "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60"
+  ],
+  "allowed_source_roots": [
+    "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028",
+    "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_1/results/shared/original_full/nucleus_metadata.tsv",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/nucleus_annotations.tsv.gz",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/cluster_annotations.tsv",
+    "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+    "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0147_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt"
+  ],
+  "forbidden_source_roots": [
+    "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/sccoda",
+    "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-library"
+  ],
+  "maximum_archive_bytes": 1900000000,
+  "components": [
+    {
+      "id": "composition_initial",
+      "archive_name": "SATB2_composition_initial_20261028_v1.zip",
+      "role": "initial_native_composition_inconclusive",
+      "readme": "# Initial scCODA composition\n\nAll sixteen models completed computationally, but every original frozen sampling gate failed. Three native selections were withheld and none was validated. Use raw mouse-level proportions descriptively; no-difference conclusions are unsupported. Keep this archive separate from the stricter same-model check.\n\nNative byte hashes and statuses are in ARCHIVE_MANIFEST.json. This transport archive is not additional scientific evidence. Original DESeq2 fits and prior analyses remain unchanged.\n",
+      "gates": [
+        {
+          "kind": "composition",
+          "root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/results",
+          "archive_prefix": "native/initial",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/results/FINAL_VALIDATION.json",
+            "bytes": 146240,
+            "sha256": "759a7dcb11f5b8367bb6ef667e7f4459b1a6e48b7c1301c23fc5d569d2854a88"
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_composition_v1_0_2_completed_review.md",
+              "bytes": 9325,
+              "sha256": "662f039e7be330ecacb5c8df4c3262907f4cb729c446acdcbc29b63c131c6dcb"
+            }
+          ]
+        }
+      ],
+      "trees": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/workflow",
+          "archive_prefix": "executed/initial/workflow"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/config",
+          "archive_prefix": "executed/initial/config"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_sccoda_v1_0_2/logs",
+          "archive_prefix": "executed/initial/logs"
+        }
+      ]
+    },
+    {
+      "id": "composition_strict",
+      "archive_name": "SATB2_composition_strict_20261028_v1.zip",
+      "role": "same_model_stricter_sampler_native",
+      "readme": "# Separate same-model scCODA check\n\nThis archive contains the actual reviewed terminal outputs of the single globally specified target-acceptance0.99/warmup4000/retained6000 check. Data, references, priors, contrasts, seeds, depth and inference gates were preserved. Consult each RESULT_STATUS and the actual review; computational completion does not imply validated proportion differences. There is no further automatic tuning.\n\nNative byte hashes and statuses are in ARCHIVE_MANIFEST.json. This transport archive is not additional scientific evidence. Original DESeq2 fits and prior analyses remain unchanged.\n",
+      "gates": [
+        {
+          "kind": "composition",
+          "root": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/results",
+          "archive_prefix": "native/strict",
+          "seal": {
+            "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/results/FINAL_VALIDATION.json",
+            "bytes": null,
+            "sha256": null
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_composition_strict_completed_review.md",
+              "bytes": null,
+              "sha256": null
+            }
+          ]
+        }
+      ],
+      "trees": [
+        {
+          "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/workflow",
+          "archive_prefix": "executed/strict/workflow"
+        },
+        {
+          "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/config",
+          "archive_prefix": "executed/strict/config"
+        },
+        {
+          "path": "/Volumes/Neurowissenschaften/-Ali_on_server/snr_p60/SATB2_FOLLOWUPS_20261028_sccoda_strict_v1_1_0/logs",
+          "archive_prefix": "executed/strict/logs"
+        }
+      ]
+    },
+    {
+      "id": "cellchat",
+      "archive_name": "SATB2_cellchat_20261028_v1.zip",
+      "role": "strict_DEG_native_cellchat_and_reviewed_layout",
+      "readme": "# Strict-DEG CellChat with reviewed readable layouts\n\nEvery retained ligand/receptor subunit is an original DEG in its matching source/target endpoint. Signs, within-mouse native scores, separate exploratory mouse-label tests and both averaging methods are preserved. The combined view is not another independent test. Original plots have documented clipping/vertical-jitter artifacts; use the separate mapped readable layouts. RNA predictions do not establish physical signaling or pathway activation. Full-cohort primary leads were not primary common-partition discoveries.\n\nNative byte hashes and statuses are in ARCHIVE_MANIFEST.json. This transport archive is not additional scientific evidence. Original DESeq2 fits and prior analyses remain unchanged.\n",
+      "gates": [
+        {
+          "kind": "cellchat",
+          "root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat",
+          "archive_prefix": "native/cellchat",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/results/cellchat/FINAL_VALIDATION.json",
+            "bytes": 21080,
+            "sha256": "c1dbdbe57c1606ab37d71cbf630905731bb630667038a25bd5ec0cd6bfd16683"
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_cellchat_v1_completed_review.md",
+              "bytes": 9160,
+              "sha256": "6bbb429e9ff5b869120141e531023c3d72cfbda485be0f65d70f1eeb087d5dec"
+            }
+          ]
+        },
+        {
+          "kind": "layout",
+          "root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout",
+          "archive_prefix": "native/layout",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/results/layout/FINAL_VALIDATION.json",
+            "bytes": 24997,
+            "sha256": "e15002fe6b056c9efe7d02dbe3d137cd3f041fb1f4e26a1e533ab2a655abda92"
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_cellchat_layout_completed_review.md",
+              "bytes": 6163,
+              "sha256": "c62e021328421580550d25c4426107ed57ba5e5ddc366880a2a96eb6d2e5a031"
+            }
+          ],
+          "display_review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/DISPLAY_ACCEPTANCE.json",
+              "bytes": 7021,
+              "sha256": "554c1bb91f8835edb126ccd8855579694f7db34ad97fbc85df01ce04668bb7b6"
+            }
+          ]
+        }
+      ],
+      "trees": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/workflow",
+          "archive_prefix": "executed/cellchat/workflow"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/config",
+          "archive_prefix": "executed/cellchat/config"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_v1/logs",
+          "archive_prefix": "executed/cellchat/logs"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/workflow",
+          "archive_prefix": "executed/layout/workflow"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/config",
+          "archive_prefix": "executed/layout/config"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/20261028_cellchat_layout_v1/logs",
+          "archive_prefix": "executed/layout/logs"
+        }
+      ]
+    },
+    {
+      "id": "monocle3",
+      "archive_name": "SATB2_monocle3_20261028_v1.zip",
+      "role": "native_exploratory_state_graphs",
+      "readme": "# Monocle3 expression-state graphs\n\nCA1 DL/SL and inhibitory C1/C6/C8 preserve their distinct native models, all twelve mice, graphs, gene modules, raw/display aggregates and complete native object/index directories. Arbitrary-reference graph distance is not established developmental time. Native graph association is not independent-mouse genotype gene-DE. Preserve original DESeq2 for genotype gene inference; CA1 anatomical and C8 identity uncertainty remain.\n\nNative byte hashes and statuses are in ARCHIVE_MANIFEST.json. This transport archive is not additional scientific evidence. Original DESeq2 fits and prior analyses remain unchanged.\n",
+      "gates": [
+        {
+          "kind": "monocle3",
+          "root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results",
+          "archive_prefix": "native/monocle3",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/results/FINAL_VALIDATION.json",
+            "bytes": 56123,
+            "sha256": "475c75e1b0bbc89d5808f98c3626a6c91001276ff4abee1ea4f65e9a7ed6e2a8"
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_monocle3_completed_review.md",
+              "bytes": 9200,
+              "sha256": "be07fb74edeb0903b89b1cc4092457e43401f6ea0e8d8315706e06384af005e6"
+            }
+          ]
+        }
+      ],
+      "trees": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/workflow",
+          "archive_prefix": "executed/monocle3/workflow"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/config",
+          "archive_prefix": "executed/monocle3/config"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/runs/monocle3_20261028_v1/logs",
+          "archive_prefix": "executed/monocle3/logs"
+        }
+      ]
+    },
+    {
+      "id": "shared_inputs_source",
+      "archive_name": "SATB2_shared_inputs_source_20261028_v1.zip",
+      "role": "shared_frozen_inputs_and_source",
+      "deduplicate_identical_files": true,
+      "readme": "# Reviewed follow-up archive transport\n\nThis source packages existing files for the four separately requested SATB2 follow-up tasks. It performs **no fitting, scoring, normalization, eligibility selection, permutation test or new scientific calculation**. No actual study archive has been created by source preparation or its unit tests.\n\nThe disabled `config.template.json` names six components. Copy it outside this source, supply the remaining actual strict-sampler/reader terminal seals and review receipts, review the component definitions, then explicitly enable the copied configuration. The completed CellChat and Monocle3 components and the shared source/input component can be packaged separately while the strict sampler is active. Every invocation uses a different fresh destination directory on the server share. It cannot append to or overwrite an existing delivery.\n\n```bash\npython3 package_archives.py --configuration /absolute/approved-archives.json --component cellchat --component monocle3 --validate-only\npython3 package_archives.py --configuration /absolute/approved-archives.json --component cellchat --component monocle3\n```\n\nSelections apply terminal/review gates only to the selected components. An unselected active strict run is neither read nor packaged. Omitting `--component` requires all six components. The program validates all selected gates, reviews, canonical paths, source hashes and conservative size budgets **before creating the destination**. The global approval field acknowledges the root agent's actual reviews; this transport code does not independently certify biological interpretation or visual correctness.\n\n## Components and exact-byte preservation\n\n1. **Initial scCODA v1.0.2:** every sealed count/proportion table, native chain/combined H5AD, authentic posterior/transition array, diagnostic, plot and status is retained. It completed computationally, but all sixteen models were inferentially inconclusive; native selected coefficients are not validated effects. The earlier failed attempts remain preserved locally, with their review/history records in the shared provenance selection.\n2. **Strict same-model sampler v1.1.0:** separate archive after its actual native terminal seal and completed review exist. It preserves the same inputs/references/model and the single predeclared stricter integration check. A legitimate inconclusive outcome is accepted and remains explicit; this code does not change its gates or infer effects.\n3. **CellChat and readable layouts:** original 115 sealed scientific files, all native objects and scores, plus the separate display-only correction and its native-to-corrected mapping. Original figures remain archival outputs with the known clipping/vertical-jitter caveats. The corrected layout must have an actual display-acceptance receipt bound to its exact seal. Native cell-label specificity probabilities are distinct from mouse-level genotype score tests.\n4. **Monocle3:** all sealed four-model native CDS/RDS files, required nearest-neighbor indexes, graph/root tables, graph-associated genes, modules, raw/display aggregates, plots and support/QC tables. The output describes unrooted expression-state graphs; arbitrary-reference distance is not established developmental time. Original DESeq2 fits remain gene-genotype evidence.\n5. **Shared frozen inputs and source:** exact frozen composition metadata/annotations, the prepared CA1+IN integer Matrix Market counts and cell/feature files, the five original matching-endpoint DESeq2 tables, executed/custom source/config snapshots, reference/runtime/install provenance and known native plan/review receipts. Native CellChat and Monocle3 source distributions are retained; external dependency URLs/digests/locks are provided rather than bundling mutable installed environments. Byte-identical shared files are stored once with explicit aliases.\n6. **Portable offline reader:** the reviewed complete folder, with plots/PDF/table downloads and all relative links intact. This is separate from the small online index that references release-hosted assets. Do not substitute a partially built reader for a reviewed portable package.\n\nEvery component retains original native file bytes. The ZIP metadata uses a fixed date, safe portable permissions and sorted member order, so repeated packaging of the same bound inputs is deterministic. Executable script wrappers retain a portable executable bit; archived code is never run. The ZIP's `ARCHIVE_MANIFEST.json` is a **delivery receipt**, not a new scientific result schema. It records each requested relative member, original canonical source, size, SHA256 and stored member. Native scientific schemas, labels, tables, statuses and model objects are preserved. Original workflow snapshots/configurations and immutable run-relative paths should remain together.\n\n## Integrity and safety\n\n- The source accepts only explicitly allowed canonical roots and rejects symlinks, escapes, traversal, duplicate member collisions and unsafe/nonportable member names.\n- Mutable software environments/caches are excluded. Workflow Python bytecode, `.git` and `.snakemake` state are not scientific source and are skipped from source trees.\n- Each compressed archive must remain below **1,900,000,000 bytes**. A conservative uncompressed preflight leaves margin and avoids relying on an optimistic compression estimate. Every source is checked while streaming; every stored ZIP member is then read back and verified by SHA256. Large files stream in 1 MiB blocks.\n- Staging goes to a fresh folder on the server share, not into a native run or the Mac's limited working volume. A failed fresh partial delivery is retained for inspection; no scientific file or prior delivery is deleted.\n- `ARCHIVE_DELIVERY_RECEIPT.json` records actual ZIP sizes/digests and `BUILT_AND_READBACK_VERIFIED_NOT_UPLOADED`. It makes no GitHub or publication claim. Upload/server-digest/live checks remain with the parent agent.\n\nFinal release validation must require every configured component, even if they were built in separate invocations:\n\n```bash\npython3 package_archives.py --configuration /absolute/final-approved-archives.json \\\n  --verify-deliveries /server/delivery-A/ARCHIVE_DELIVERY_RECEIPT.json \\\n                       /server/delivery-B/ARCHIVE_DELIVERY_RECEIPT.json\n```\n\nThis verifies exact expected component configuration, all current native/source receipts, each full ZIP and each decompressed member, rejecting duplicates or missing components. It is local transport verification, not publication approval. The final approved configuration must retain the already-packaged component definitions unchanged; only destination selection is operational and can differ between invocations.\n\n## Opening and restoring the files\n\nOpen the portable reader's `index.html` after keeping its full folder together; no Python or R is needed for offline viewing. Native `.tsv/.txt/.csv` tables are text, `.mtx.gz` contains sparse integer counts, `.npz` contains authentic arrays, `.h5ad` uses AnnData, and `.rds`/native Monocle directories require compatible R/package versions. Gene symbols and original mapping tables are preserved. Biological mice, not nuclei, are the replicate unit. CA1 layer names are molecular programs and C8 uncertainty remains visible. There are no fabricated scVelo vectors or latent times: velocity remains input-blocked pending genuine splicing counts and LiSC access.\n\nFor complete path restoration, including deduplicated shared-input aliases, use the standalone standard-library extraction helper with the full ZIP SHA256 from the delivery receipt:\n\n```bash\npython3 extract_reviewed_archive.py /absolute/component.zip /absolute/new-extraction-folder \\\n  --expected-sha256 EXPECTED_FULL_ZIP_SHA256\n```\n\nThe helper verifies safe members, exact sizes and SHA256 values, writes only into a fresh destination and executes no archived code. Standard ZIP tools also work for native result components; the shared-input archive needs alias restoration to recreate every requested file path. Source configurations retain the original paths for provenance. For a future reanalysis on another system, edit copies of those configurations to the new extracted paths and follow the recorded environment/reference requirements; do not edit the archived originals or describe the stored Mac runtime as a universal installer. Reproducing inference is a separately approved scientific execution.\n\n## Source verification\n\nRun only the tiny invented transport fixtures:\n\n```bash\nPYTHONDONTWRITEBYTECODE=1 python3 -m unittest discover -s tests -v\n```\n\nThey check unchanged-byte round trips, deterministic archives, fresh-only output, approval/partial-state/hash/review guards, path/symlink and size limits, shared aliases, selected components, final all-component completeness and safe extraction. They do not open or package study matrices/models.\n",
+      "gates": [
+        {
+          "kind": "prepared",
+          "root": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared",
+          "archive_prefix": "inputs/prepared_CA1_IN",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/COMPLETE.json",
+            "bytes": 4405,
+            "sha256": "19993c1daf0cca7845978cf4a6a23dece1091edb6108d1606c1ec6e4812aa79a"
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_cellchat_v1_completed_review.md",
+              "bytes": 9160,
+              "sha256": "6bbb429e9ff5b869120141e531023c3d72cfbda485be0f65d70f1eeb087d5dec"
+            },
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_monocle3_completed_review.md",
+              "bytes": 9200,
+              "sha256": "be07fb74edeb0903b89b1cc4092457e43401f6ea0e8d8315706e06384af005e6"
+            }
+          ]
+        }
+      ],
+      "files": [
+        {
+          "member": "inputs/composition/base_metadata/nucleus_metadata.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_1/results/shared/original_full/nucleus_metadata.tsv",
+            "sha256": "27870a3eeb687c723c1dc43b75572097589ccb33cf49c03b6b8df5b69ad0cdd5",
+            "bytes": 89667931
+          }
+        },
+        {
+          "member": "inputs/composition/nucleus_annotations/nucleus_annotations.tsv.gz",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/nucleus_annotations.tsv.gz",
+            "sha256": "e582eed6b1f6f067106107372ea9b3742c298659eb4e25ee2b0a8d806fbf70b7",
+            "bytes": 96196949
+          }
+        },
+        {
+          "member": "inputs/composition/cluster_annotations/cluster_annotations.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/annotation_final/cluster_annotations.tsv",
+            "sha256": "a84fb3ef8121f2860c849146fcc991f4b4cad0a0b0b5376c5623b22bf4758ee4",
+            "bytes": 2453830
+          }
+        },
+        {
+          "member": "inputs/endpoint_selection/hdwgcna.v1_0_2_export_recovery.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/config/hdwgcna.v1_0_2_export_recovery.json",
+            "bytes": 12230,
+            "sha256": "7542a4ed9a0fe016232902685bb79a761f6613d8c60fdcdd95c00408bf168c61"
+          }
+        },
+        {
+          "member": "inputs/original_DESeq2/CA1_Deep/ALL_RESULTS.txt",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0244_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+            "bytes": 1545106,
+            "sha256": "e94292fa3f9f6e13f4bc281124805806287d5cdaa701e4aedd65b3e2e75abc47"
+          }
+        },
+        {
+          "member": "inputs/original_DESeq2/CA1_Superficial/ALL_RESULTS.txt",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0247_seurat_CA1_ProS_LAYER_PROGRAM/PRIMARY/ALL_RESULTS.txt",
+            "bytes": 1672143,
+            "sha256": "09809ce5487aa4aed9dcdab91db597f665fb1d3b02899f4a23fde913eecaa134"
+          }
+        },
+        {
+          "member": "inputs/original_DESeq2/IN_C1/ALL_RESULTS.txt",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+            "bytes": 1417446,
+            "sha256": "a06f094c89eaaab128c27796576ad4868c4d33cbb80460b8415f79fb27e1458e"
+          }
+        },
+        {
+          "member": "inputs/original_DESeq2/IN_C6/ALL_RESULTS.txt",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+            "bytes": 925841,
+            "sha256": "117bf9b6fe06162df8cc4cdff5fa0668610c3570759eb21b0d36e19e7d5a0cc2"
+          }
+        },
+        {
+          "member": "inputs/original_DESeq2/IN_C8/ALL_RESULTS.txt",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0147_seurat_Inhibitory_CLUSTER/PRIMARY/ALL_RESULTS.txt",
+            "bytes": 1053977,
+            "sha256": "675bde2f9206674b76805c79786ffaf3cd726a8dc54cfccef9d7c67d9e137b11"
+          }
+        },
+        {
+          "member": "environment_provenance/CELLCHAT_RUNTIME_LOCK_v1.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/CELLCHAT_RUNTIME_LOCK_v1.json",
+            "bytes": 3068986,
+            "sha256": "288a5daacafef2cf7a3eb7599b7fa2f676693e80cfd5661ca39b4457d6fe3fa1"
+          }
+        },
+        {
+          "member": "environment_provenance/CRAN_binary_package_index.rds",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/CRAN_binary_package_index.rds",
+            "bytes": 1887214,
+            "sha256": "8999dfc59b2f404b2c9a28defa3cb34806f2bd89e5452a1f5fb793242711158c"
+          }
+        },
+        {
+          "member": "environment_provenance/MONOCLE3_RUNTIME_LOCK_v1.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/MONOCLE3_RUNTIME_LOCK_v1.json",
+            "bytes": 6425570,
+            "sha256": "ea61bdd09bfe0da2bbbc51ff09d8123e2a6d2558a25956d88458a6b1ff9f12bf"
+          }
+        },
+        {
+          "member": "environment_provenance/R_NATIVE_ARTIFACTS.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_ARTIFACTS.json",
+            "bytes": 642,
+            "sha256": "318a13634964f2a8e652993a82431ab5ce7fea4a833dc5a3608a4dd8465f823c"
+          }
+        },
+        {
+          "member": "environment_provenance/R_NATIVE_INSTALLED.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_INSTALLED.tsv",
+            "bytes": 37456,
+            "sha256": "f46909256c2f3e51e6d9c86ca2777ab4e136339c77f2773f11c46b13e11481a2"
+          }
+        },
+        {
+          "member": "environment_provenance/R_NATIVE_SESSION.txt",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_NATIVE_SESSION.txt",
+            "bytes": 4859,
+            "sha256": "dbd967f41213e10e5e29cdbecca2c14bb1824afbe1440953a96a2c188463fa08"
+          }
+        },
+        {
+          "member": "environment_provenance/R_dependencies_install.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_dependencies_install.log",
+            "bytes": 3938,
+            "sha256": "093e198909f4c09a02996322a2bae3581b2abd39c79bc7162084e34959881bee"
+          }
+        },
+        {
+          "member": "environment_provenance/R_installed_after.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_installed_after.tsv",
+            "bytes": 36751,
+            "sha256": "035e46578131375df73226f556ede3839b86c3361c579f89489c88337c0023cb"
+          }
+        },
+        {
+          "member": "environment_provenance/R_installed_before.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_installed_before.tsv",
+            "bytes": 33099,
+            "sha256": "06e7a2a057a17ebd6948a5e58a3b96b21fafe0240e30ee7cda5cbae9e231303e"
+          }
+        },
+        {
+          "member": "environment_provenance/R_native_install.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_native_install.log",
+            "bytes": 3549,
+            "sha256": "5b3d4cddb6f0c8b1273aeda877983e2936404a71818870b05b61ff94a7a0f950"
+          }
+        },
+        {
+          "member": "environment_provenance/R_native_install_monocle.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_native_install_monocle.log",
+            "bytes": 2691,
+            "sha256": "dbebd0a09e27effab329c56f94a4ebecd14c40b2e47db20a8c29feed8636756b"
+          }
+        },
+        {
+          "member": "environment_provenance/R_native_install_preclean.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_native_install_preclean.log",
+            "bytes": 1709,
+            "sha256": "b6ca51dd481b51b414f40133ab7e404ede72cfe32716a78359f25c72f6203c44"
+          }
+        },
+        {
+          "member": "environment_provenance/R_native_install_sdkheaders.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_native_install_sdkheaders.log",
+            "bytes": 9855,
+            "sha256": "ebfb206583836ef6f386b26129853c6e3c6cea6951c9ec7e45f127058866a4f0"
+          }
+        },
+        {
+          "member": "environment_provenance/R_slam_install.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R_slam_install.log",
+            "bytes": 228,
+            "sha256": "d0cb6ff77a3c5ef1392d343ee0d50ad793a9c19d95f84f30c781e5dc5a255a72"
+          }
+        },
+        {
+          "member": "environment_provenance/SCCODA_SETUP_STATUS.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/SCCODA_SETUP_STATUS.json",
+            "bytes": 572,
+            "sha256": "54c9887187281c7a1c5dceb02fd950c740df06fda9cdc24196cc381a1a9448a3"
+          }
+        },
+        {
+          "member": "environment_provenance/SOFTWARE_DISTRIBUTION_RECEIPT.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/SOFTWARE_DISTRIBUTION_RECEIPT.json",
+            "bytes": 12273,
+            "sha256": "01956bf66369fdef6604aed7a01c947fd5082688687bda72192339c18fdaafb8"
+          }
+        },
+        {
+          "member": "environment_provenance/run_R.sh",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/run_R.sh",
+            "bytes": 277,
+            "sha256": "7519a9c40c0106ac28ab3314ede783b55dab1e1f12755646a0c85c36d330cb1c"
+          }
+        },
+        {
+          "member": "environment_provenance/sccoda_install.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/sccoda_install.log",
+            "bytes": 38603,
+            "sha256": "e63a20307eadaae0c645497321680acb2be5545ad44c51fdcdb0a4db2254ad3f"
+          }
+        },
+        {
+          "member": "environment_provenance/sccoda_requirements.lock",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/sccoda_requirements.lock",
+            "bytes": 21057,
+            "sha256": "e6a1aeded646da4ca0305e4a6a4955f169b95dcaaf603926292b6296d916eefb"
+          }
+        },
+        {
+          "member": "environment_provenance/sccoda_setup_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/sccoda_setup_plan.json",
+            "bytes": 1223975,
+            "sha256": "5deefcf1cbe611960afeb7e76a178aad6a311285a022e0832e761572b6e7d9e1"
+          }
+        },
+        {
+          "member": "environment_provenance/setup_R_dependencies.R",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/setup_R_dependencies.R",
+            "bytes": 1402,
+            "sha256": "5cfd68d72a6b78390b13c90aab6f6bf3309c6dc6c3995a79fcd5c14c6ca4780a"
+          }
+        },
+        {
+          "member": "environment_provenance/setup_R_native.R",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/setup_R_native.R",
+            "bytes": 2152,
+            "sha256": "0c7a8a7f832c84a1e60c95c9c5cc480e1913ebf7f8781dae95a6b17fad2bdd5d"
+          }
+        },
+        {
+          "member": "official_native_source/CellChat_a0d3b2d231d46c8787177fffeac908270c253747.tar.gz",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-distributions/CellChat_a0d3b2d231d46c8787177fffeac908270c253747.tar.gz",
+            "bytes": 29173582,
+            "sha256": "a5c7f4ca21092f68bab61da78931d070888cba49c59ce1c0111e8da3f4ebf937"
+          }
+        },
+        {
+          "member": "official_native_source/monocle3_536f1033d6de7c957f26a1f403f81efbd825e0db.tar.gz",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/environment/R-distributions/monocle3_536f1033d6de7c957f26a1f403f81efbd825e0db.tar.gz",
+            "bytes": 3913830,
+            "sha256": "d0b0d8c4573bbb192dcd44246763aab9e0dbffdc398e1ac226c91df70bba20c7"
+          }
+        },
+        {
+          "member": "known_native_history/cellchat_execution_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/cellchat_execution_plan.json",
+            "bytes": 11329,
+            "sha256": "3be889388fd2a255203efd32c47a5ac77ee7a28eda8421472ad8085bb1577413"
+          }
+        },
+        {
+          "member": "known_native_history/cellchat_execution_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/cellchat_execution_receipt.json",
+            "bytes": 1829,
+            "sha256": "ff04019440acfb016c223a0a73bc0e30f4a73abd7c09f5ff7cb358bc9a747fa2"
+          }
+        },
+        {
+          "member": "known_native_history/cellchat_layout_execution_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/cellchat_layout_execution_plan.json",
+            "bytes": 11493,
+            "sha256": "8a90aac2434b9285a802cc825ad5b9b901d3f4c5cd17bca3f216297475f359b3"
+          }
+        },
+        {
+          "member": "known_native_history/cellchat_layout_run_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/cellchat_layout_run_receipt.json",
+            "bytes": 1871,
+            "sha256": "2a75ee04b10a2a02ba1a8eb3dcfc2d3b5d6ed84731260d2ef219b85a43fe823f"
+          }
+        },
+        {
+          "member": "known_native_history/cellchat_layout_terminal_record.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/cellchat_layout_terminal_record.json",
+            "bytes": 6393,
+            "sha256": "2c3c04615233d5edbabca6086952eda996a3b752693855d0467924765722de0d"
+          }
+        },
+        {
+          "member": "known_native_history/cellchat_terminal_record.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/cellchat_terminal_record.json",
+            "bytes": 6364,
+            "sha256": "259f2a83414523d3882ab45c090ee4cbf17c99c9e56b17ce379ec0e2cf4bb98c"
+          }
+        },
+        {
+          "member": "known_native_history/composition_execution_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_execution_plan.json",
+            "bytes": 11284,
+            "sha256": "60dea6e5efcbfcf5c0ed8f427cace23d369e6e1f84fbc9ee74e2dc3c3757e426"
+          }
+        },
+        {
+          "member": "known_native_history/composition_execution_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_execution_receipt.json",
+            "bytes": 1819,
+            "sha256": "c914d2cc3b7cce2618148419f01216ef95cd31b63c874ef602364566a5b09240"
+          }
+        },
+        {
+          "member": "known_native_history/composition_recovery2_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_recovery2_plan.json",
+            "bytes": 11376,
+            "sha256": "c9a7cd711744ce47a95549022e49eb8375d41af12b8bbc06a92f2092080ace29"
+          }
+        },
+        {
+          "member": "known_native_history/composition_recovery2_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_recovery2_receipt.json",
+            "bytes": 1843,
+            "sha256": "49717436dc7dedc0d512b06118647c8885060272caeaa82aec3fc3922cf89b6c"
+          }
+        },
+        {
+          "member": "known_native_history/composition_recovery_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_recovery_plan.json",
+            "bytes": 11400,
+            "sha256": "3b33fd2ff293398dfe825657ec4fd863be5d4da4234102bb8ccd7615d2dd929b"
+          }
+        },
+        {
+          "member": "known_native_history/composition_recovery_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_recovery_receipt.json",
+            "bytes": 1867,
+            "sha256": "4cae2ecead7bfe10aad1cd517c6f306147ea21c834b9c4078b1c8761bd55b2b2"
+          }
+        },
+        {
+          "member": "known_native_history/composition_strict_execution_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_strict_execution_plan.json",
+            "bytes": 11568,
+            "sha256": "3aa4005be40efa5e254bd19b6274d8468d03e9b096f46a3dd55bafcf30bdc6bd"
+          }
+        },
+        {
+          "member": "known_native_history/composition_strict_run_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_strict_run_receipt.json",
+            "bytes": 1884,
+            "sha256": "78e7b42980930b2af87a9ea05d38c2ed04c9b7474cab11013a3b7838c9a51ed9"
+          }
+        },
+        {
+          "member": "known_native_history/composition_v1_0_2_terminal_record.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/composition_v1_0_2_terminal_record.json",
+            "bytes": 6357,
+            "sha256": "90935c7a609bb1f915239611546f117bb1e3606cbbef0352e69560c456086f44"
+          }
+        },
+        {
+          "member": "known_native_history/monocle3_terminal_record.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/monocle3_terminal_record.json",
+            "bytes": 6331,
+            "sha256": "10a3f5ece5b0b07e47c2ab28008a5c6f08f34461144678c4c6b766f6de361b54"
+          }
+        },
+        {
+          "member": "known_native_history/monocle_execution_plan.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/monocle_execution_plan.json",
+            "bytes": 11308,
+            "sha256": "d0349cb1b754285e550d63fe471082b57d16f6fce0ad04c3a7188ed338da8265"
+          }
+        },
+        {
+          "member": "known_native_history/monocle_execution_receipt.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/receipts/monocle_execution_receipt.json",
+            "bytes": 1841,
+            "sha256": "da49d10cc9ffc5ddc45269430ef449e3e8526582a9f34472eded222b21ddf6c5"
+          }
+        },
+        {
+          "member": "reviews/20261028_composition_v1_failed_review.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_composition_v1_failed_review.md",
+            "bytes": 5748,
+            "sha256": "3355e4392e0e29feb65c3f369d429c1b46906a0ad538363b739121b5cc0b8884"
+          }
+        },
+        {
+          "member": "reviews/20261028_composition_v1_0_1_failed_review.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_composition_v1_0_1_failed_review.md",
+            "bytes": 5563,
+            "sha256": "602bb50f16d54b8129024d8f0ae3d45348a18d4963975ada82ff10d101f73d03"
+          }
+        },
+        {
+          "member": "reviews/20261028_scvelo_blocked_review.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_scvelo_blocked_review.md",
+            "bytes": 5560,
+            "sha256": "16f8c616e490151e7b98e3aa02fcca8d9740c1cbd793a8dabc6aaf2db7d06f10"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_eligibility_input_audit.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_eligibility_input_audit.json",
+            "bytes": 15194,
+            "sha256": "060dcebbe7988d2ca5291a25fa0bfa676c41ee871316bd96fd37fab6d54833a8"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_eligibility_input_audit.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_eligibility_input_audit.md",
+            "bytes": 2370,
+            "sha256": "3a467912bfc32123adad864d48a2886fba4e86a7a503f1910fa034b0809ed321"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_final_scientific_review.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_final_scientific_review.json",
+            "bytes": 5088,
+            "sha256": "f8e97bcb5c82c1ee883b5a5f211680ad287b5e02f9c80f98caa70f300b300659"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_final_scientific_review.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_final_scientific_review.md",
+            "bytes": 7211,
+            "sha256": "558378017ed4265b598e5e19d6032889040e75a96780220966abca19ec5cc563"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_final_tables_arithmetic_audit.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_final_tables_arithmetic_audit.json",
+            "bytes": 47154,
+            "sha256": "dc1f85ae14353bfcfa54ccb5005d126340359f1f0170580b2c9ddb5d81d0b2ec"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_native_PDF_layout_audit.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_native_PDF_layout_audit.json",
+            "bytes": 13858,
+            "sha256": "d3b0933be7b966e65a4bdf5a6fd2d35311aca985d797f4b11d2f1a23ce7f5de3"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_native_RDS_transport_audit.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_native_RDS_transport_audit.json",
+            "bytes": 3686,
+            "sha256": "5fed563f26e7af8eb9f31ce5eed5b40d0381d36f2181180136e34dfb48516681"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_native_figures_file_integrity.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_native_figures_file_integrity.json",
+            "bytes": 18474,
+            "sha256": "f12567a077768ceb9db6512f8ca93d0a969e99e082d628fb7206d9131913cccd"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/20261028_original_DESeq2_component_evidence.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/20261028_original_DESeq2_component_evidence.tsv",
+            "bytes": 5558,
+            "sha256": "3397a64c3451c5663e61cae181a1ca898daf1d9f27e9b172ca5d17b49ec9d314"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/audit_eligibility_readonly.py",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/audit_eligibility_readonly.py",
+            "bytes": 13381,
+            "sha256": "5c1967036b91ca370e7a1a29d3ae980e3708d40209270ce4f4e343844d864e2f"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/audit_final_tables_readonly.py",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/audit_final_tables_readonly.py",
+            "bytes": 6385,
+            "sha256": "3db8e9ea27ddef0dd638329ef77525f1ea8a750a29a6bf040eab9ff909e3f12e"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_actual_readonly/audit_native_transport_readonly.R",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_actual_readonly/audit_native_transport_readonly.R",
+            "bytes": 4968,
+            "sha256": "267b494be9ed141179f2eaad07bd4f04d28510372d94cd4aa2f46f90b6272f5b"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_COMPLETED_AUDIT_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_COMPLETED_AUDIT_20261028.json",
+            "bytes": 2026,
+            "sha256": "1e4a03866e11ea6640235189280f85cb1fccd3f9c1132d4e65fdb328bd23753f"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_COMPLETED_AUDIT_20261028.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_COMPLETED_AUDIT_20261028.log",
+            "bytes": 185,
+            "sha256": "9e80d55c105c6a947a1e960ad1f9612e9c57fb28e47651eefe7f7af512216461"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_MODULE_SUMMARY_20261028.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_MODULE_SUMMARY_20261028.tsv",
+            "bytes": 3637,
+            "sha256": "1e25546d60d13b0141b99d4c7af2fbf785f892978afb829897a0659340743855"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_OBSERVED_RESULTS_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_OBSERVED_RESULTS_20261028.json",
+            "bytes": 32060,
+            "sha256": "342ebfc72dfdc157661c2db6498eac79ab1d802431d65947f54294151a04204b"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_PARTIAL_CHECKPOINT_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_PARTIAL_CHECKPOINT_20261028.json",
+            "bytes": 4282,
+            "sha256": "694fd9f63dd542c5b97ded4dc211e4457d12a1cdd30f3ba4d764b8f73c09a0b8"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_PDF_PARSE_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_PDF_PARSE_20261028.json",
+            "bytes": 3079,
+            "sha256": "4a64359b5df240dfc4c46e5e44a73b024213b1198be760c735e69d7b21fb3d17"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_CA1_TOP_GRAPH_GENES_20261028.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_CA1_TOP_GRAPH_GENES_20261028.tsv",
+            "bytes": 3145,
+            "sha256": "5a3993f942f840cb03eef5b4bb9b531efb074f8646c15d8c045ddb048969978d"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_IN_COMPLETED_AUDIT_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_IN_COMPLETED_AUDIT_20261028.json",
+            "bytes": 4280,
+            "sha256": "b8f58b81fd206ea473a19f894ec17a11837c8840a5f478185b8d3fcaee9ade87"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_IN_COMPLETED_AUDIT_20261028.log",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_IN_COMPLETED_AUDIT_20261028.log",
+            "bytes": 184,
+            "sha256": "aae6392a1c3db9c4ea8eab3801caeeae34f88d89dae3a04f344e6828f186a400"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_IN_OBSERVED_RESULTS_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_IN_OBSERVED_RESULTS_20261028.json",
+            "bytes": 8969,
+            "sha256": "879de133144ebaf73d996574fba497438c039b52506b3fe448741fc06eb932e4"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/ACTUAL_IN_PDF_PARSE_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/ACTUAL_IN_PDF_PARSE_20261028.json",
+            "bytes": 9776,
+            "sha256": "7d0a2342acf16fcaeaf2bfc9cb7f032a4ffd520b1a6990407023a08c94963b16"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/INDEPENDENT_FINAL_REVIEW_20261028.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/INDEPENDENT_FINAL_REVIEW_20261028.md",
+            "bytes": 9713,
+            "sha256": "715114c753f099f8b789b63edf708ac60ca61f4aee32ea49a4f76012bd24171b"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/INDEPENDENT_FINAL_REVIEW_RECEIPT_20261028.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/INDEPENDENT_FINAL_REVIEW_RECEIPT_20261028.json",
+            "bytes": 1117,
+            "sha256": "b0a16be5ef1e10a39daaf4db344858a526d351e2dde9f9cfff2a99fc5a6d0009"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/READONLY_AUDIT_HANDOFF.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/READONLY_AUDIT_HANDOFF.md",
+            "bytes": 4223,
+            "sha256": "84eea6741c9f839994a7305f2bd64861492fe9ec3248eb9c86d0d10f75472122"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/SYNTHETIC_CHECKER_CALIBRATION_CA1.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/SYNTHETIC_CHECKER_CALIBRATION_CA1.json",
+            "bytes": 1999,
+            "sha256": "0708d8d869f7f71918df15e5cf17d9039f670a08f275af01a331f139061a85ee"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/SYNTHETIC_CHECKER_CALIBRATION_IN.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/SYNTHETIC_CHECKER_CALIBRATION_IN.json",
+            "bytes": 4174,
+            "sha256": "b53270dfeba07af4ced7c612a3d8e18c5254b3c462b587d0b10cebb82ad5a4bf"
+          }
+        },
+        {
+          "member": "independent_audits/monocle3_readonly_audit/audit_native_outputs.R",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/monocle3_readonly_audit/audit_native_outputs.R",
+            "bytes": 14090,
+            "sha256": "1d51384a4072dbb4c47f975b74517127ded54e54fce7d84685149f12f17b0284"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_layout_final_audit_20261028/20261028_actual_point_y_audit.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/20261028_actual_point_y_audit.json",
+            "bytes": 976,
+            "sha256": "bd9b3d8c854ea4eefb29c045281e28bb384c123b37d9ca65c375974e829a0e74"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_layout_final_audit_20261028/20261028_actual_point_y_proof.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/20261028_actual_point_y_proof.tsv",
+            "bytes": 17082,
+            "sha256": "77a502337d4acb5c9f987b986e1fcebbb4b1271b999f45d7f542718cec0839c5"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_layout_final_audit_20261028/DISPLAY_ACCEPTANCE.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/DISPLAY_ACCEPTANCE.json",
+            "bytes": 7021,
+            "sha256": "554c1bb91f8835edb126ccd8855579694f7db34ad97fbc85df01ce04668bb7b6"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_layout_final_audit_20261028/FINAL_DISPLAY_REVIEW.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/FINAL_DISPLAY_REVIEW.md",
+            "bytes": 8313,
+            "sha256": "230378b4818f4b36da1f7d4b66cdd372721a5b5022b6283f1fbd4fa6ac6df943"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_layout_final_audit_20261028/INDEPENDENT_INTEGRITY_AUDIT.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/INDEPENDENT_INTEGRITY_AUDIT.json",
+            "bytes": 12109,
+            "sha256": "1328e7669cf914660248bf2f2075cbbfc2f5e2b6a852a9d902e58e1a324b6bb0"
+          }
+        },
+        {
+          "member": "independent_audits/CellChat_layout_final_audit_20261028/audit_actual_boxplot_points_independent.R",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/CellChat_layout_final_audit_20261028/audit_actual_boxplot_points_independent.R",
+            "bytes": 3276,
+            "sha256": "706f02ca37b82dd7563bd7bf3622d27ca090bab976bf26f81fc2293fe22f14d8"
+          }
+        },
+        {
+          "member": "independent_audits/composition_initial/FINAL_SCIENTIFIC_AUDIT.md",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/composition_readonly_audit/20261028_terminal_v1_0_2/FINAL_SCIENTIFIC_AUDIT.md",
+            "bytes": 7684,
+            "sha256": "b536307eca8d3e2b0d6a20321c8d97a428035f3d85d12b5588aa8fdc4c1654f2"
+          }
+        },
+        {
+          "member": "independent_audits/composition_initial/MODEL_DIAGNOSTICS.tsv",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/composition_readonly_audit/20261028_terminal_v1_0_2/MODEL_DIAGNOSTICS.tsv",
+            "bytes": 3530,
+            "sha256": "948620a4a0c5ff8db847173ffb5f554afd36dab94c32cc989242420c7798c5a0"
+          }
+        },
+        {
+          "member": "independent_audits/composition_initial/NATIVE_ARITHMETIC_AUDIT.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/composition_readonly_audit/20261028_terminal_v1_0_2/NATIVE_ARITHMETIC_AUDIT.json",
+            "bytes": 37918,
+            "sha256": "1715c311add2cbb98912d2e255ee0f19860914f9369e9f7af1d66726ff498e68"
+          }
+        },
+        {
+          "member": "independent_audits/composition_initial/REVIEW_RECEIPTS.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/composition_readonly_audit/20261028_terminal_v1_0_2/REVIEW_RECEIPTS.json",
+            "bytes": 1296,
+            "sha256": "6775fdd14880eade92ca9c8bbde59614eb2b051d48752987231dc171210b9d5d"
+          }
+        },
+        {
+          "member": "independent_audits/composition_initial/TERMINAL_AUDIT.json",
+          "receipt": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/composition_readonly_audit/20261028_terminal_v1_0_2/TERMINAL_AUDIT.json",
+            "bytes": 16382,
+            "sha256": "07439c2ffba3e839095f016c23203ef7b0a200ec0ec4a3e4546ed98b921414c6"
+          }
+        }
+      ],
+      "trees": [
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/composition_source_v1_0_2",
+          "archive_prefix": "source/composition_source_v1_0_2"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/composition_sampler_strict_source_v1_1_0",
+          "archive_prefix": "source/composition_sampler_strict_source_v1_1_0"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/monocle3_source_release_v1",
+          "archive_prefix": "source/monocle3_source_release_v1"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/presentation_source",
+          "archive_prefix": "source/presentation_source"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/publication_source",
+          "archive_prefix": "source/publication_source"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/assessment",
+          "archive_prefix": "source/assessment"
+        },
+        {
+          "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/velocity_readiness",
+          "archive_prefix": "source/velocity_readiness"
+        }
+      ],
+      "scope_note": "Only already frozen source/input/history files; the running strict sampler's result tree is excluded. Its final source/config/logs/results are included in its own later native archive."
+    },
+    {
+      "id": "portable_reader",
+      "archive_name": "SATB2_followups_portable_offline_20261028_v1.zip",
+      "role": "reviewed_portable_offline_reader",
+      "readme": "# Portable offline reader\n\nOpen offline_reader/index.html and keep the full directory together. All packaged plot/PDF/table links are relative; full native model/source archives are separate. No scientific analysis occurs in the browser. Four tasks stay separate, with velocity explicitly unavailable.\n",
+      "gates": [
+        {
+          "kind": "portable",
+          "root": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/followups_offline_reader_v1",
+          "archive_prefix": "offline_reader",
+          "seal": {
+            "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/deliverables/followups_offline_reader_v1/READER_MANIFEST.json",
+            "bytes": null,
+            "sha256": null
+          },
+          "review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_followups_reader_completed_review.md",
+              "bytes": null,
+              "sha256": null
+            }
+          ],
+          "display_review_receipts": [
+            {
+              "path": "/Users/mujahid357/Documents/codex_new/SATB2_FOLLOWUPS_20261028/reviews/20261028_followups_reader_rendered_review.json",
+              "bytes": null,
+              "sha256": null
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
