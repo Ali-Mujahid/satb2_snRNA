@@ -1,0 +1,154 @@
+{
+  "C8_cKO933_nuclei": 13,
+  "GRN_receipt": {
+    "bytes": 25300631,
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/grn/adjacencies_native_GRNBoost2.tsv.gz",
+    "sha256": "ab5a06d55b77bcefd9524c7183f78a92bd86fbcf7d5540b49c6542a9917bcb33"
+  },
+  "Satb2_official_eligibility": {
+    "TF": "Satb2",
+    "assayed_symbol": "True",
+    "eligible_RNA": "False",
+    "forced_into_TF_list": "False",
+    "lineage": "IN",
+    "official_TF_candidate": "True",
+    "reason": "DETECTED_IN_FEWER_THAN_5_PERCENT_IN_EVERY_ENDPOINT"
+  },
+  "all_prepare_and_GRN_output_receipts_verified": true,
+  "analysis_id": "SATB2_pySCENIC_mm10_20261028_v1",
+  "audit_UTC": "2026-10-28T08:35:52.516526+00:00",
+  "checkpoint_receipt": {
+    "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results/pyscenic_native/IN/grn/COMPLETE.json",
+    "sha256": "b9f94382de82f155b16035a03ae1180a98c5139ea8a2e0ffa38b07f129b8ce13"
+  },
+  "configuration_sha256": "fdf956e1cab1458a2566c691547be393e49d015fd585c6d25575255d58a79209",
+  "duplicate_bitset_bytes": 1344078,
+  "importance_max": 131.9736782751149,
+  "importance_min": 3.478327374769223e-18,
+  "lineage": "IN",
+  "n_GRN_active_TF_sources": 973,
+  "n_GRN_selfgene_edges": 0,
+  "n_GRN_target_genes": 11051,
+  "n_Satb2_GRN_source_edges": 0,
+  "n_Satb2_GRN_target_edges": 0,
+  "n_WT": 6,
+  "n_cKO": 6,
+  "n_duplicate_TF_target_pairs": 0,
+  "n_eligible_official_TF_inputs": 973,
+  "n_exact_endpoints": 3,
+  "n_exact_original_nuclei": 2687,
+  "n_independent_mice": 12,
+  "n_mouse_endpoint_groups": 36,
+  "n_native_GRN_edges": 1697355,
+  "n_negative_importance_edges": 0,
+  "n_official_TF_symbols": 1860,
+  "n_positive_importance_edges": 1697355,
+  "n_unambiguous_nonconstant_eligible_RNA_genes": 11051,
+  "n_zero_importance_edges": 0,
+  "native_finished_Europe_Vienna": "2026-10-28T09:32:42.589565+01:00",
+  "native_finished_UTC": "2026-10-28T08:32:42.589565+00:00",
+  "no_native_edits": true,
+  "no_scientific_inference_or_refits": true,
+  "read_only_operations": [
+    "receipt SHA256/byte checks",
+    "metadata/gene/TF eligibility set comparisons",
+    "streaming finite importance/count/universe/sort checks",
+    "compact bitset exact duplicate detection"
+  ],
+  "relevant_original_input_receipts": {
+    "cells": {
+      "bytes": 2390731,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/cells.tsv",
+      "sha256": "a02c6fa25c758bea814946bc37e32d61fcbee7de218e961ec711447c3c9ac59d"
+    },
+    "counts": {
+      "bytes": 25753115,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/counts.mtx.gz",
+      "sha256": "9903aa896db0bc4ed39743dc1a1faea1d7e2981e78129372d13e6883c4fb3a40"
+    },
+    "genes": {
+      "bytes": 1553719,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/lineages/IN/genes.tsv",
+      "sha256": "4908e7899a01bf5a3c5f7828b24d9131580b1322b45f69ac0c372d3b52ff295f"
+    },
+    "mouse_coverage": {
+      "bytes": 3262,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261026_hdwgcna_v1_0_2_export_recovery/results/prepared/mouse_coverage.tsv",
+      "sha256": "c5fffee4baa711d1958cd05b9dc45d85d0c320a2b768310fca0e7826505c68bb"
+    },
+    "official_TF_list": {
+      "bytes": 11726,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/references/pyscenic_mm10/20261028_verified/allTFs_mm.txt",
+      "sha256": "17a95e142147fb7dc063d7b9e84262746b0b64f622793b3cc5df0eddf2f1194c"
+    },
+    "samples": {
+      "bytes": 11393,
+      "path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261013/runs/20261013_v1_0_5/results/inputs/samples_original_full.tsv",
+      "sha256": "13d99c9e3031cae30dfe8abd879a5a394547a1e1c252465d03d2387216744270"
+    }
+  },
+  "run_results": "/Users/mujahid357/Documents/codex_new/SATB2_REGULATORY_20261026/runs/20261028_pyscenic_v1/results",
+  "schema": "satb2-independent-GRN-checkpoint-audit/v1",
+  "scope_limitations": [
+    "Only sealed preparation and GRNBoost2 outputs were audited; ctx motif pruning and AUCell are not complete at this checkpoint",
+    "Positive tree feature importance is unsigned predictive importance, not activating/repressing regulatory sign",
+    "Raw GRNBoost2 adjacency is not yet a motif-supported regulon, direct TF binding, or causal regulatory network",
+    "The network uses pooled genotypes and no DEGs/HVG target filter; genotype effects require separate independent-mouse activity models",
+    "Satb2 exclusion from inhibitory source candidates reflects the fixed RNA-detection threshold, not proof of absent biological function",
+    "C8 mixed identity and partial genotype/technical-partition confounding remain unchanged"
+  ],
+  "source_sha256": "91a2d534c59fa843f067fc66038ae7eb2039bc9327515aac5d396072d33a6e90",
+  "status": "SEALED_GRN_CHECKPOINT_QA_PASS",
+  "top10_raw_feature_importance_edges_for_QA_only": [
+    {
+      "TF": "Luzp2",
+      "importance": 131.9736782751149,
+      "target": "Col19a1"
+    },
+    {
+      "TF": "Luzp2",
+      "importance": 124.32514370970632,
+      "target": "Cdh7"
+    },
+    {
+      "TF": "Luzp2",
+      "importance": 121.02257049404216,
+      "target": "Pcdh15"
+    },
+    {
+      "TF": "Sox6",
+      "importance": 112.14859576591907,
+      "target": "Pard3b"
+    },
+    {
+      "TF": "Luzp2",
+      "importance": 109.54513887924175,
+      "target": "Cntn5"
+    },
+    {
+      "TF": "Sox6",
+      "importance": 107.19955923201327,
+      "target": "Sema6d"
+    },
+    {
+      "TF": "Maf",
+      "importance": 105.48449121830512,
+      "target": "Nkain3"
+    },
+    {
+      "TF": "Sox6",
+      "importance": 101.89380359449395,
+      "target": "Rtl4"
+    },
+    {
+      "TF": "Luzp2",
+      "importance": 101.12965398109431,
+      "target": "Asic2"
+    },
+    {
+      "TF": "Luzp2",
+      "importance": 99.47242600571155,
+      "target": "Kcnip4"
+    }
+  ]
+}
