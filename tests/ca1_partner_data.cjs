@@ -2,6 +2,10 @@ process.chdir(require('path').join(__dirname, '../site/communication/ca1_partner
 /* Structural data checks. Browser rendering and actual PDF saving are separate QA. */
 const assert=require('assert'),fs=require('fs'),vm=require('vm');
 const M=require('../site/communication/ca1_partner/model.js');let w={};vm.runInNewContext(fs.readFileSync('data.js','utf8'),{window:w});const D=w.SATB2_CA1_IN_DATA;
+const html=fs.readFileSync('index.html','utf8'), appSource=fs.readFileSync('app.js');
+const expectedHash=require('crypto').createHash('sha256').update(appSource).digest('hex').slice(0,12);
+const appScript=html.match(/<script src="(app\.js\?v=[a-f0-9]+)"><\/script>/);
+assert.ok(appScript);assert.equal(appScript[1],`app.js?v=${expectedHash}`);assert.ok(fs.existsSync(appScript[1].split('?')[0]));
 assert.equal(D.metadata.state,'reviewed_complete');assert.equal(D.pairs.length,1364);assert.equal(D.subunits.length,2875);assert.equal(D.mouse_expression.length,34500);
 const state={threshold:'5',direction:'',ca1:'',inpop:'',category:'',majority:false,replicated:false,query:''};
 assert.equal(M.filter(D.pairs,state).length,1364);assert.equal(M.filter(D.pairs,{...state,threshold:'10'}).length,937);
