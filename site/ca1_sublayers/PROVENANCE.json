@@ -3,7 +3,7 @@
   "registry_run_id": "58d90837-fac9-4ff4-8a25-006dbae9c444",
   "plan_checksum": "126c3f1b638527244e6fb6c6b5bf1a8ff8b388e32c2187820bcf47216107f225",
   "data_sha256": "da68fda121a7b1c80cc1d95ace03884355a02f5113b2df5c65082f612adf8093",
-  "app_sha256": "745aae2c3c74a0533d598ccbfc3dad979b6b623b3a9a85090c1575089275a2a5",
+  "app_sha256": "ab9f3efe75b71b299b4f4fa0a0f32f67c219b5d5b3bd2296c488cf5f862d612e",
   "source_matrices_and_DE": "results archive contains exact gene-by-mouse integer pseudobulks, status comparisons, DESeq2 tables, saved marker evidence, workflow/config/logs and review",
   "warning": "All five additions are weak majority; anatomical layers are not validated."
 }
