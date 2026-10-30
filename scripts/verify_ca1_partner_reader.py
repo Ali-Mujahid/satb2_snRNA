@@ -33,7 +33,7 @@ def main():
     html = (READER / 'index.html').read_text()
     assert 'inhibitory cluster C8 has uncertain identity'.lower() in html.lower()
     assert 'interaction-level FDR' in html and 'Print / save plot as PDF' in html
-    assert 'SATB2_CA1_LIANA_partner_portable_offline_20261030_v1.zip' in html
+    assert 'SATB2_CA1_LIANA_partner_portable_offline_20261030_v2.zip' in html
     assert 'SATB2_CA1_DE_IN_partner_reproducibility_20261030_v2.zip' in html
     assert 'communication/ca1_partner/index.html' in (SITE/'index.html').read_text()
     assert 'ca1_partner/index.html' in (SITE/'communication'/'index.html').read_text()

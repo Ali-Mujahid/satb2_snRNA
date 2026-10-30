@@ -29,7 +29,7 @@
   },
   "reader_files": {
     "index.html": {
-      "sha256": "ee3d8d2cbcff2a3c5b509197b17418271796dda8e9d921800b76da7ead789573",
+      "sha256": "276117506df3c2059e6d782a2c69573eb88ad2c66728fc74ed8b34ad36f91894",
       "bytes": 8547
     },
     "style.css": {
@@ -37,8 +37,8 @@
       "bytes": 2462
     },
     "app.js": {
-      "sha256": "448eab4ab9af600573e31b4c289391def54e898bdbb97c36820ae453ffb8583b",
-      "bytes": 13312
+      "sha256": "5b21da17d874659e202c01376b521e8801a17f7590afcf532ea90c7c23868288",
+      "bytes": 13457
     },
     "model.js": {
       "sha256": "b5475af9ec74d7cd15fad56a714c629996e3fdbe8a4167fd2c95fce220922e03",
@@ -52,7 +52,8 @@
   "tests": [
     "Node model and actual data filters",
     "Node synthetic DOM interaction and print callback test",
-    "Python packer checks, missing and orphan IDs"
+    "Python packer checks, missing and orphan IDs",
+    "DOM smoke verifies real Lrrc4c FDR in scientific notation, exact zero and missing FDR handling"
   ],
   "limitations": [
     "Live-browser interaction not yet tested",
