@@ -1,0 +1,62 @@
+{
+  "schema": "satb2-ca1-reader-integrity/v1",
+  "run_registry": "4276e1b6-bac1-4189-848f-9d161556ff4b",
+  "scientific_review": "Independent completed-run review accepted by NGS Workbench for registry 4276e1b6-bac1-4189-848f-9d161556ff4b; see reproducibility archive.",
+  "counts": {
+    "pairs_5pct": 1364,
+    "pairs_10pct": 937,
+    "subunits": 2875,
+    "mouse_rows": 34500,
+    "at_least_three_eligible_majority_5pct": 1330,
+    "at_least_three_eligible_majority_10pct": 891
+  },
+  "source_verification": {
+    "master_pairs.tsv": {
+      "sha256": "3a3f273c16f11014422c6132c0b5069e4c88569d8e2b5a186f27cc4d7fdbb646",
+      "rows": 1364,
+      "exact_row_content_equal_to_embedded_data": true
+    },
+    "subunits.tsv": {
+      "sha256": "3ec90c3fb27ae8b51c35f04c6134ff8b6d94c11b4f5061474aaf795d1925303e",
+      "rows": 2875,
+      "exact_row_content_equal_to_embedded_data": true
+    },
+    "mouse_expression.tsv": {
+      "sha256": "1e05e844f5a5d2e7e8b73791b7045a1d35c594429378ba1bce0d7cad685156fd",
+      "rows": 34500,
+      "exact_row_content_equal_to_embedded_data": true
+    }
+  },
+  "reader_files": {
+    "index.html": {
+      "sha256": "ee3d8d2cbcff2a3c5b509197b17418271796dda8e9d921800b76da7ead789573",
+      "bytes": 8547
+    },
+    "style.css": {
+      "sha256": "262f689008d4c433db1c2497050b099698602752b480f7349baa8987634c15f6",
+      "bytes": 2462
+    },
+    "app.js": {
+      "sha256": "448eab4ab9af600573e31b4c289391def54e898bdbb97c36820ae453ffb8583b",
+      "bytes": 13312
+    },
+    "model.js": {
+      "sha256": "b5475af9ec74d7cd15fad56a714c629996e3fdbe8a4167fd2c95fce220922e03",
+      "bytes": 1459
+    },
+    "data.js": {
+      "sha256": "8526b89b34ef6a30b0d8e8bcb6df88f0ef2a33ea8021fb52fbb1c3aeed987c30",
+      "bytes": 9907226
+    }
+  },
+  "tests": [
+    "Node model and actual data filters",
+    "Node synthetic DOM interaction and print callback test",
+    "Python packer checks, missing and orphan IDs"
+  ],
+  "limitations": [
+    "Live-browser interaction not yet tested",
+    "No saved PDF file has been verified",
+    "Scientific audit covers source output and interpretation, not user interface"
+  ]
+}

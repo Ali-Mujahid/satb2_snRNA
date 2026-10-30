@@ -27,6 +27,7 @@ jobs:
           python3 scripts/verify_communication_atlas.py
           python3 scripts/verify_regulatory_atlas.py
           python3 scripts/verify_followup_reader.py
+          python3 scripts/verify_ca1_partner_reader.py
           python3 tests/regulatory_verification.py
           python3 tests/regulatory_publication.py
           python3 tests/regulatory_recovery.py
@@ -39,6 +40,9 @@ jobs:
           node tests/communication_charts.cjs
           node tests/communication_networks.cjs
           node tests/communication_app.cjs
+          node tests/ca1_partner_model.cjs
+          node tests/ca1_partner_data.cjs
+          node tests/ca1_partner_ui.cjs
       - uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
       - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
         with:
