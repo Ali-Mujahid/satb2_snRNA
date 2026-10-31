@@ -3,8 +3,9 @@
   "registry_run_id": "58d90837-fac9-4ff4-8a25-006dbae9c444",
   "plan_checksum": "126c3f1b638527244e6fb6c6b5bf1a8ff8b388e32c2187820bcf47216107f225",
   "data_sha256": "da68fda121a7b1c80cc1d95ace03884355a02f5113b2df5c65082f612adf8093",
-  "app_sha256": "c3938f60b4342b52056b1d1f69fa5b95f134049dab5c40ec6de82d0613a7bbcb",
+  "app_sha256": "e8e6800f5eb3cd98b56da2082011d7a7baa35553e2dde0879be9dbf9488154ee",
   "source_matrices_and_DE": "results archive contains exact gene-by-mouse integer pseudobulks, status comparisons, DESeq2 tables, saved marker evidence, workflow/config/logs and review",
   "warning": "All five additions are weak majority; anatomical layers are not validated.",
-  "expanded_panel_sha256": "9f50c48a4b88e733f3e9c71440ab29b54b08f4240a32be91499e93d5c17d0a59"
+  "expanded_panel_sha256": "30173b4b6673be91e10ce4383ce6f4198f7124e3929af6e78e2703c9a6f6ad4a",
+  "expanded_panel_expression_note": "WT count-derived values matched 385 overlapping prior cluster summaries to max absolute error 4.5e-15"
 }
