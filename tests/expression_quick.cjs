@@ -1,0 +1,23 @@
+const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm');
+const context={SATB2_NO_AUTO_INIT:true};vm.createContext(context);vm.runInContext(fs.readFileSync('site/app.js','utf8'),context);
+const app=context.SATB2_APP, genes=[{gene_symbol:'Satb2',gene_id:'sat-id'},{gene_symbol:'Ano3',gene_id:'ano-id'}];
+const before={population:'CA1_ProS',branch:'original_full',basis:'harmony',layoutMode:'original',exclusions:{test:['4']},umapCondition:'ALL',palette:'viridis',umapRangeMode:'auto',overlayGene:'sat-id'};
+const set=app.expressionQuickAction;
+let s=set(before,'log-fixed',genes);assert.equal(s.umapRangeMode,'manual');assert.equal(s.umapMin,0);assert.equal(s.umapMax,1.7);assert.equal(s.sharedScale,true);assert.equal(s.overlayMetric,'mean_log1p_normalized');assert.equal(s.exclusions,before.exclusions);assert.equal(s.palette,'viridis');
+for(const group of ['WT','cKO','ALL']){s=set(s,group,genes);assert.equal(s.umapCondition,group);assert.equal(s.umapMin,0);assert.equal(s.umapMax,1.7);assert.equal(s.umapRangeMode,'manual');}
+s=set(s,'raw-fixed',genes);assert.equal(s.overlayMetric,'mean_source_counts');assert.equal(s.umapMin,0);assert.equal(s.umapMax,5);assert.equal(s.umapRangeMode,'manual');assert.equal(set(s,'WT',genes).umapMax,5);
+s=set(s,'Ano3',genes);assert.equal(s.overlayGene,'ano-id');assert.equal(s.umapMax,5);s=set(s,'Satb2',genes);assert.equal(s.overlayGene,'sat-id');assert.equal(s.annotation,'gene');assert.equal(s.expressionResolution,'nucleus');
+assert.throws(()=>set(s,'Ano3',[]));assert.throws(()=>set(s,'Satb2',[genes[0],genes[0]]));assert.throws(()=>set(s,'nonsense',genes));
+assert.equal(before.umapRangeMode,'auto');assert.equal(before.overlayGene,'sat-id');
+const obj=x=>JSON.parse(JSON.stringify(x));
+assert.deepEqual(obj(app.expressionDisplaySummary([0,0,1,1.7,2,null,NaN],[0,1.7])),{shown:7,measured:5,unavailable:2,zero:2,detected:3,aboveMax:1});
+assert.deepEqual(obj(app.expressionDisplaySummary([0,0],null)),{shown:2,measured:2,unavailable:0,zero:2,detected:0,aboveMax:null});
+assert.deepEqual(obj(app.expressionDisplaySummary([], [0,5])),{shown:0,measured:0,unavailable:0,zero:0,detected:0,aboveMax:0});
+const ids=[2,0,1],vals=[0,2,1],value=i=>vals[i];
+assert.deepEqual(obj(app.expressionDrawIndices(ids,value,'high-last')),[0,2,1]);
+assert.deepEqual(obj(app.expressionDrawIndices(ids,value,'low-last')),[1,2,0]);
+assert.deepEqual(obj(app.expressionDrawIndices(ids,value,'source')),[2,0,1]);assert.deepEqual(ids,[2,0,1]);
+const notes=app.formatUmapExportNotes({condition:'cKO',shown:12719,baseline:27703,geneSymbol:'Ano3',geneId:'g',measure:'source UMI count',colorRange:[0,5],rangeMode:'manual',zeroColor:'#d9dfe3',counts:{detected:8200,measured:12719,zero:4519,unavailable:0,aboveMax:2560},opacity:.4,drawOrder:'low-last',basis:'harmony',layout:'original',displayOnly:false,program:'ALL',excluded:''});
+for(const fragment of ['Genotype cKO','shown 12719/27703','Ano3 (g)','source UMI count','Color limits 0 to 5 (manual)','Detected 8200/12719','above color maximum 2560','Point opacity 0.4','gene point draw order low-last'])assert(notes.includes(fragment),fragment);
+assert(!app.formatUmapExportNotes({condition:'WT',shown:1,baseline:1,annotation:'cluster_id',colorRange:null,rangeMode:'auto',counts:null,opacity:.85,drawOrder:null,basis:'harmony',layout:'packed',displayOnly:true,program:'ALL',excluded:''}).includes('Color limits'));
+console.log('PASS: gene/genotype shortcuts, fixed scale and metric units, missing/zero/clipped counts, unchanged source state');
