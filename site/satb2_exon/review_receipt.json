@@ -1,0 +1,12 @@
+{
+  "review_status": "COMPLETE",
+  "table_sha256": "eee06580ba843f9b2fb193e264bdacba9e8b6580e0c38ea85c7dab57db68cf46",
+  "workbench_run_id": "6978262e-6ef6-461f-8d9b-aaf43fed8806",
+  "review_reference": "review_completed_run_v2.md",
+  "review_sha256": "013f8957751ac078feaba806880a311bf1be88fbb0ab3972f4a031bd5d2e0f98",
+  "independent_audit_reference": "INDEPENDENT_OUTPUT_AUDIT_20261103.md",
+  "independent_audit_sha256": "911fa63dd750f323266a97ec5aa1c401ca110fe788ecb0e57305989714e0e263",
+  "interpretation": "Descriptive exon and junction RNA evidence; not proof of genomic breakpoint, fraction of recombined cells, or protein loss. Native task-projection discrepancy is detailed in the review.",
+  "method": "Indexed Satb2-locus BAM reads restricted to frozen Seurat CA1/ProS excitatory-reference barcodes; corrected CB/UB support summarized by mouse. Cell Ranger version differs for cKO_933, with exclusion sensitivity.",
+  "native_table_status_note": "The original table retains requires-review wording. Independent review was completed separately without rewriting native statuses."
+}
