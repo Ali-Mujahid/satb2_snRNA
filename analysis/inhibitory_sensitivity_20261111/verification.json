@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "fitted_models": 100,
+  "untested_models": 8,
+  "errors": 0,
+  "original_comparisons": 20,
+  "maximum_absolute_difference": 6.996124823993588e-06,
+  "na_mismatch": 0,
+  "C18": "NOT_TESTED due to insufficient mice",
+  "independent_mouse_inference": true
+}
