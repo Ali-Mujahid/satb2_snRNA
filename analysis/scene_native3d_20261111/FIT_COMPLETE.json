@@ -1,0 +1,16 @@
+{
+  "status": "COMPLETE",
+  "n_cells": 27703,
+  "n_genes": 2518,
+  "epochs": 1200,
+  "latent_dim": 3,
+  "capture_every": 5,
+  "checkpoints": 242,
+  "seed": 42,
+  "batch_key": "sample",
+  "likelihood": "ZIP",
+  "input_sha256": "7050864f07cf3c8fd491229314d47443f86fd5f0f83719af429636a65959d832",
+  "trainer_sha256": "9a5e0cf236ecc91d76770eee2a34757b537f5821001830823917e0e57468840a",
+  "validation": "10% held-out positive edges plus matched negatives",
+  "interpretation": "SCENE native Euclidean 3D fit; no anatomical or genotype-DE inference"
+}

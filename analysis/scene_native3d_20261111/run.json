@@ -1,0 +1,7 @@
+{
+  "run_root": "/Users/mujahid357/Documents/codex_new/SATB2_SCENE_NATIVE3D_20261111/runs/native3d_v1",
+  "python": "/Users/mujahid357/Documents/codex_new/SATB2_SCENE_SEURAT_20261111/env/bin/python",
+  "input_h5ad": "/Users/mujahid357/Documents/codex_new/SATB2_SCENE_SEURAT_20261111/seurat_ca1_scene_input.h5ad",
+  "input_sha256": "7050864f07cf3c8fd491229314d47443f86fd5f0f83719af429636a65959d832",
+  "trainer_sha256": "9a5e0cf236ecc91d76770eee2a34757b537f5821001830823917e0e57468840a"
+}

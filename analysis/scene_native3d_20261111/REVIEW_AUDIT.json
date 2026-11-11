@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "cells": 27703,
+  "genes": 2518,
+  "epochs": 1200,
+  "checkpoints": 242,
+  "first_loss": 13.821118354797363,
+  "last_loss": 1.6926991939544678,
+  "last_validation": {
+    "epoch": 1200,
+    "AUC": 0.7849822937464443,
+    "PR AUC": 0.8046392001863094,
+    "max F1": 0.7198227672756247,
+    "PoissonDeviance": 1.317185234327859
+  },
+  "heatmap_actual_counts_equal": true,
+  "mouse_layer_coverage_4_each": true,
+  "edges_real_nonzero": 24,
+  "duration_seconds": 43.2,
+  "video_sha256": "6c04b825cc37299a2cf507e567866cd5fb433d1d326c2c5fe13355009db5eafb"
+}

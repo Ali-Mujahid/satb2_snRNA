@@ -1,0 +1,21 @@
+from pathlib import Path
+SOURCE=Path(workflow.basedir).parent
+RUN=Path(config['run_root']);RES=RUN/'results';PY=config['python']
+rule all:
+ input: str(RES/'movie')
+rule fit:
+ input: counts=config['input_h5ad'], script=str(SOURCE/'scripts/fit.py'), trainer=str(SOURCE/'scripts/scene_train_original.py')
+ output: directory(str(RES/'fit'))
+ log: str(RUN/'logs/fit.log')
+ threads: 4
+ resources: mem_mb=12000
+ params: py=PY, inhash=config['input_sha256'], trainhash=config['trainer_sha256']
+ shell: '{params.py:q} -u {input.script:q} {input.trainer:q} {input.counts:q} {output:q} {params.inhash:q} {params.trainhash:q} > {log:q} 2>&1'
+rule movie:
+ input: fit=str(RES/'fit'), script=str(SOURCE/'scripts/movie.py')
+ output: directory(str(RES/'movie'))
+ log: str(RUN/'logs/movie.log')
+ threads: 4
+ resources: mem_mb=12000
+ params: py=PY
+ shell: '{params.py:q} -u {input.script:q} {input.fit:q} {output:q} > {log:q} 2>&1'
