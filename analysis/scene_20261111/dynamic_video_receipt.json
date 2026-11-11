@@ -1,0 +1,18 @@
+{
+  "fps": 20,
+  "seconds": 28,
+  "n_nuclei": 27703,
+  "n_genes": 2518,
+  "pca_variance": 0.2900378704071045,
+  "markers": [
+    "Satb2",
+    "Ano3",
+    "Ndst4",
+    "Kcnip4",
+    "Ntm",
+    "Asic2"
+  ],
+  "camera": "rotation of final fitted 3D PCA projection; no training time interpolation",
+  "colors": "saved cluster and layer annotations",
+  "seed": 42
+}

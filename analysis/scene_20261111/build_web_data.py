@@ -7,5 +7,6 @@ sel=pd.read_csv(P/'grouped_30_marker_selection.tsv',sep='\t'); data={'points':ro
 for kind in ['cluster','layer']:
  m=pd.read_csv(P/f'{kind}_mean_log1p_cp10k.tsv',sep='\t',index_col=0);d=pd.read_csv(P/f'{kind}_detected_fraction.tsv',sep='\t',index_col=0);assert m.shape==d.shape and m.index.equals(d.index) and m.columns.equals(d.columns)
  v=m if kind=='layer' else ((m-m.mean())/m.std(ddof=0).replace(0,np.nan)).fillna(0).clip(-2,2);data['markers'][kind]={'rows':m.index.tolist(),'genes':m.columns.tolist(),'mean':np.round(m.values,5).tolist(),'fraction':np.round(d.values,5).tolist(),'color':np.round(v.values,5).tolist()}
+syms=a.var.symbol.astype(str).to_numpy();gp=a.varm['SCENE_umap']; data['gene_positions']={g:[round(float(gp[ix[0],0]),2),round(float(gp[ix[0],1]),2)] for g in data['markers']['cluster']['genes'] if len(ix:=np.flatnonzero(syms==g))==1}
 with open(D/'data.js','w') as f:f.write('window.SCENE_DATA='+json.dumps(data,separators=(',',':'),allow_nan=False)+';\n')
 print('points',len(rows),'markers',len(data['markers']['cluster']['genes']),'bytes',(D/'data.js').stat().st_size)
