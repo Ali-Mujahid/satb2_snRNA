@@ -1,0 +1,19 @@
+{
+  "fps": 20,
+  "duration_s": 40,
+  "nuclei": 27703,
+  "genes": 2518,
+  "pca_variance": 0.2900378704071045,
+  "gene_labels": [
+    "Satb2",
+    "Ano3",
+    "Ndst4",
+    "Kcnip4",
+    "Ntm",
+    "Asic2"
+  ],
+  "edges": 18,
+  "edge_definition": "3 observed nonzero-UMI nuclei per gene selected by nearest 16D distance; expression evidence only",
+  "heatmap": "30 candidates, 11 clusters, gene-wise z-scores of mean log1p(CP10k)",
+  "recorded_training_trajectory": false
+}
