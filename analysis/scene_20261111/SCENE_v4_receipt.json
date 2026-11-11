@@ -1,0 +1,25 @@
+{
+  "duration_s": 38,
+  "fps": 20,
+  "nuclei_total": 27703,
+  "pca_variance_retained": 0.2900378704071045,
+  "sampling": "random seed 42; 4 nuclei per mouse per layer, all 12 mice",
+  "heatmap": "96 nuclei \u00d7 16 genes; raw integer UMI count, log1p color display capped at 10",
+  "edges": "3 sampled nuclei per gene with nonzero raw UMI, selected by minimum native 16D distance; 24 total",
+  "motion": "rotating camera on fixed 3D PCA of final 16D SCENE fit; same camera and scale for both layers",
+  "markers": [
+    [
+      "Satb2",
+      "Ano3",
+      "Ntm",
+      "Asic2"
+    ],
+    [
+      "Ndst4",
+      "Kcnip4",
+      "Pde10a",
+      "Col11a1"
+    ]
+  ],
+  "training_frames_recorded": false
+}
