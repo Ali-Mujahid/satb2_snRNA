@@ -1,0 +1,9 @@
+# SCENE CA1 explorer: provenance
+
+Completed local analysis: 600 epochs, ZIP likelihood, 16 latent dimensions, seed 42, 2,518 most-detected and selected marker genes, 27,703 CA1/ProS nuclei and 12 mouse batch categories. Source data are the original-full Seurat frozen annotations and the original raw UMI count matrix; SCENE is a Python model fitted to those Seurat-defined nuclei, not a Seurat package function or an anatomical map. Selected gene positions in the joint 2D projection cluster away from the nuclei and are omitted here. They should not be used to infer biological proximity from UMAP.
+
+Cluster marker colors are gene-wise z-scores of pooled cluster mean log1p(CP10k) (computed across all existing cluster rows); layer colors are pooled nucleus-weighted mean log1p(CP10k). Dot area is proportional to the measured fraction of nuclei with a nonzero count. Grouped 30-marker selection is descriptive, not a differential-expression test; chosen genes are not necessarily unique to the named cluster. Deep-associated is C1+C5 and superficial-associated is C2+C3+C8. Mixed and uncertain clusters are not relabeled. Cluster visibility controls do not recalculate the fixed layer aggregates; the genotype filter applies to the UMAP only, and marker summaries remain pooled. No DE or statistical test is computed in the page. A mouse adjustment can remove genotype-related variation; spatial arrangements and shape are not histological locations.
+
+Downloads reflect the current plotted views. SVG downloads contain an embedded raster image, not individually editable vector dots. The MP4 is a 15-second slideshow with cross-fades between the original SCENE projection and marker dotplot; it is not RNA velocity, a cell trajectory, or a dynamic model.
+
+Interactive UMAP coordinates are rounded to 0.01 UMAP units for compact delivery; saved source coordinates and analysis are unchanged.
