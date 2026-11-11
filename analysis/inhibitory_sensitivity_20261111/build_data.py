@@ -2,7 +2,7 @@ from pathlib import Path
 import pandas as pd, json, math
 src=Path('/Users/mujahid357/Documents/codex_new/SATB2_INHIBITORY_AUDIT_20261111')
 root=src/'runs/audit_v2/results/results'; dest=Path('site/inhibitory_sensitivity');dest.mkdir(parents=True,exist_ok=True)
-status=pd.read_csv(root/'model_status.tsv',sep='\t'); samples=pd.read_csv(src/'figures/normalized_counts_both_models.tsv',sep='\t')
+status=pd.read_csv(root/'model_status.tsv',sep='\t'); samples=pd.read_csv('analysis/inhibitory_sensitivity_20261111/normalized_counts_both_models.tsv',sep='\t')
 records={};summ=[]
 for label in ['TOTAL']+[f'C{i}' for i in range(1,21)]:
  files=[root/label/x/'all_results_with_stable_ids.tsv' for x in ['original','main_partition']]
