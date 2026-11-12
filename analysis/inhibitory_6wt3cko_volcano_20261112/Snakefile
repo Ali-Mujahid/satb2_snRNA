@@ -1,0 +1,8 @@
+POPS=['TOTAL']+['C'+str(i) for i in range(1,21)]
+rule all:
+    input: expand('results/{population}/COMPLETE.tsv',population=POPS)
+rule fit:
+    output: 'results/{population}/COMPLETE.tsv'
+    log: 'logs/{population}.log'
+    threads: 1
+    shell: 'OPENBLAS_NUM_THREADS=1 OMP_NUM_THREADS=1 Rscript --vanilla {workflow.basedir}/fit.R {wildcards.population:q} {output:q} > {log:q} 2>&1'

@@ -1,0 +1,126 @@
+{
+  "status": "PASS",
+  "cluster_gene_calls": 198,
+  "total_degs": 60,
+  "not_tested": [
+    "C18",
+    "C20"
+  ],
+  "matched_saved_search": true,
+  "populations": [
+    {
+      "population": "TOTAL",
+      "genes": 16664,
+      "deg": 60,
+      "overlap": 4
+    },
+    {
+      "population": "C1",
+      "genes": 12769,
+      "deg": 112,
+      "overlap": 15
+    },
+    {
+      "population": "C2",
+      "genes": 12166,
+      "deg": 26,
+      "overlap": 0
+    },
+    {
+      "population": "C3",
+      "genes": 9959,
+      "deg": 0,
+      "overlap": 0
+    },
+    {
+      "population": "C4",
+      "genes": 9775,
+      "deg": 1,
+      "overlap": 0
+    },
+    {
+      "population": "C5",
+      "genes": 10059,
+      "deg": 2,
+      "overlap": 1
+    },
+    {
+      "population": "C6",
+      "genes": 8989,
+      "deg": 18,
+      "overlap": 13
+    },
+    {
+      "population": "C7",
+      "genes": 8919,
+      "deg": 2,
+      "overlap": 0
+    },
+    {
+      "population": "C8",
+      "genes": 9215,
+      "deg": 5,
+      "overlap": 1
+    },
+    {
+      "population": "C9",
+      "genes": 9002,
+      "deg": 1,
+      "overlap": 0
+    },
+    {
+      "population": "C10",
+      "genes": 8782,
+      "deg": 1,
+      "overlap": 0
+    },
+    {
+      "population": "C11",
+      "genes": 7467,
+      "deg": 1,
+      "overlap": 0
+    },
+    {
+      "population": "C12",
+      "genes": 7687,
+      "deg": 2,
+      "overlap": 1
+    },
+    {
+      "population": "C13",
+      "genes": 7802,
+      "deg": 1,
+      "overlap": 0
+    },
+    {
+      "population": "C14",
+      "genes": 5602,
+      "deg": 0,
+      "overlap": 0
+    },
+    {
+      "population": "C15",
+      "genes": 7195,
+      "deg": 4,
+      "overlap": 0
+    },
+    {
+      "population": "C16",
+      "genes": 2554,
+      "deg": 22,
+      "overlap": 0
+    },
+    {
+      "population": "C17",
+      "genes": 5071,
+      "deg": 0,
+      "overlap": 0
+    },
+    {
+      "population": "C19",
+      "genes": 1603,
+      "deg": 0,
+      "overlap": 0
+    }
+  ]
+}
