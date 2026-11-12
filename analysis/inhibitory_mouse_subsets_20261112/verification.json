@@ -1,0 +1,35 @@
+{
+  "planned": 1008,
+  "fitted": 928,
+  "not_tested": 80,
+  "errors": 0,
+  "per_population_planned": 48,
+  "common_cluster_set": [
+    "C1",
+    "C2",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "C10",
+    "C11",
+    "C12",
+    "C13",
+    "C14",
+    "C15",
+    "C16",
+    "C17",
+    "C19"
+  ],
+  "n_common_clusters": 18,
+  "all_scenarios_reconciled": true,
+  "global_baseline_calls": 53,
+  "global_max_calls": 198,
+  "global_max_ties": 1,
+  "global_max_scenarios": [
+    "KEEP_1138_1139_991"
+  ]
+}

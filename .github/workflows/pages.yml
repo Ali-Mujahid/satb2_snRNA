@@ -43,6 +43,7 @@ jobs:
           node tests/expression_quick.cjs
           node tests/plot_control_bindings.cjs
           node tests/scene_smoke.cjs
+          node analysis/inhibitory_mouse_subsets_20261112/test_page.cjs
           node tests/ca1_partner_model.cjs
           node tests/ca1_partner_data.cjs
           node tests/ca1_partner_ui.cjs
