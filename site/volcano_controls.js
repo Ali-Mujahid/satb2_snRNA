@@ -73,7 +73,6 @@
     metadata.colors = colors;
     const left = 72, top = metadata.summaryText ? 32 : 14, right = width - 22, bottom = height - (metadata.summaryText ? 91 : 59), w = right - left, h = bottom - top;
     let maxX = 1, maxY = 1;
-    // X extent stays identical in the full and low panels; the low view changes only Y.
     for (const point of prepared.rows) {maxX = Math.max(maxX, Math.abs(point.x)); maxY = Math.max(maxY, point.y);}
     const xStep = niceStep(maxX / 3), roundedX = Math.ceil(maxX / xStep) * xStep, xBound = finite(roundedX) ? roundedX : maxX;
     const yStep = niceStep(maxY / 5), yBound = mode === 'low' ? lowYMax : Math.min(320, Math.ceil(maxY / yStep) * yStep);
@@ -109,8 +108,6 @@
     for (const hit of [false, true]) {
       c.globalAlpha = hit ? 0.85 : metadata.nonDEGOpacity;
       for (const point of rows) if (point.hit === hit) {
-        // Preserve true coordinates. Baseline/edge points are clipped geometrically,
-        // never shifted onto a fabricated band or clamped to the zoom cutoff.
         point.px = mapX(point.x); point.py = mapY(point.y);
         c.fillStyle = hit ? point.x >= 0 ? colors.up : colors.down : colors.nonsignificant;
         c.beginPath(); c.arc(point.px, point.py, hit ? 1.7 : metadata.nonDEGSize, 0, Math.PI * 2); c.fill();
@@ -119,7 +116,6 @@
     c.restore();
     const fontSize = clamp(finite(settings.volcanoLabelSize) ? settings.volcanoLabelSize : 10, 8, 18), gap = fontSize + 4;
     const laneCapacity = Math.max(1, Math.floor((h - 8) / gap)), lanes = [[], []];
-    // Keep labels away from dense points; spill into the other lane before omitting a label.
     for (const label of labels) {
       label.px = mapX(label.x); label.py = mapY(label.y);
       let lane = label.x >= 0 ? 1 : 0;
@@ -142,8 +138,6 @@
         const visibleText = trimText(c, label.label, maxWidth);
         const textWidth = typeof c.measureText === 'function' ? c.measureText(visibleText).width : visibleText.length * fontSize * 0.6;
         const box = {left: side === 0 ? labelX : labelX - textWidth, right: side === 0 ? labelX + textWidth : labelX, top: label.labelY - fontSize / 2 - 1, bottom: label.labelY + fontSize / 2 + 1};
-        // Gene names remain collision-spaced; no leader lines are drawn in
-        // either the interactive plot or its PDF rendering.
         c.fillStyle = 'rgba(255,255,255,0.9)'; c.fillRect(box.left - 2, box.top, box.right - box.left + 4, box.bottom - box.top);
         c.fillStyle = '#233e50'; c.textAlign = side === 0 ? 'left' : 'right'; c.fillText(visibleText, labelX, label.labelY);
         layout.push({gene_id: label.id, gene: label.symbol, label: label.label, visibleText, adjustedP: label.row.padj, log2FoldChange: label.x, x: labelX, y: label.labelY, box, side});
@@ -183,8 +177,6 @@
     const full = drawPanel({...plot, height: fullHeight}, savedRows, settings, 'full', lowYMax, options);
     const c = plot.c;
     c.save(); c.translate(0, fullHeight);
-    // The low panel has no overlay labels when paired with the labeled overview.
-    // This keeps the expanded non-DEG cloud readable without hiding source points.
     const low = drawPanel({...plot, height: plot.height - fullHeight}, savedRows, {...settings, volcanoLabels: false}, 'low', lowYMax, options);
     c.restore();
     full.view = view; full.lowYMax = lowYMax; full.fullPanel = {height: fullHeight, offsetY: 0, axisBounds: full.axisBounds, plotBounds: full.plotBounds, ticks: full.ticks, visibleRows: full.visibleRows, aboveViewRows: 0, visibleCounts: full.visibleCounts, labelCount: full.labelCount};

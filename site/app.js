@@ -132,10 +132,11 @@
   const CA1_PROS_LABEL='CA1–prosubiculum (Seurat C8; display annotation)';
   function isSeuratCA1C8(tool,n) {return tool==='seurat'&&state.population==='CA1_ProS'&&String(n.cluster_id)==='8';}
   function displayedLayerProgram(tool,n) {return isSeuratCA1C8(tool,n)?CA1_PROS_LABEL:n.layer_program_label;}
-  function label(tool,id) { return state.labels[clusterKey(tool,id)]||(isSeuratCA1C8(tool,{cluster_id:id})?CA1_PROS_LABEL:null)||clusterRows(tool).find(x=>String(x.cluster_id)===String(id))?.reviewed_label||'Cluster '+id; }
+  function c6Label(t,n){return t==='seurat'&&state.branch==='original_full'&&state.population==='Inhibitory'&&String(n.cluster_id)==='6'?'053 Sst Gaba; 0228-leading match, mixed':null;}
+  function label(tool,id) { return state.labels[clusterKey(tool,id)]||(isSeuratCA1C8(tool,{cluster_id:id})?CA1_PROS_LABEL:null)||c6Label(tool,{cluster_id:id})||clusterRows(tool).find(x=>String(x.cluster_id)===String(id))?.reviewed_label||'Cluster '+id; }
   function category(n,tool) {
     if(state.annotation==='cluster_id')return 'C'+n.cluster_id+' · '+label(tool,n.cluster_id);
-    if(state.annotation==='reviewed_label')return state.labels[clusterKey(tool,n.cluster_id)]||(isSeuratCA1C8(tool,n)?CA1_PROS_LABEL:null)||n.reviewed_label||'Unresolved';
+    if(state.annotation==='reviewed_label')return state.labels[clusterKey(tool,n.cluster_id)]||(isSeuratCA1C8(tool,n)?CA1_PROS_LABEL:null)||c6Label(tool,n)||n.reviewed_label||'Unresolved';
     if(state.annotation==='layer_program_label')return displayedLayerProgram(tool,n)??'Unavailable';
     return n[state.annotation]??'Unavailable';
   }

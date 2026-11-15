@@ -41,10 +41,6 @@
     if (changed) return 'DISPLAY LAYOUT · Rotation, reflection or manual cluster placement applied for presentation. Original UMAP coordinates, nucleus membership, expression and DE results are preserved.';
     return 'Original saved UMAP coordinates.';
   }
-  // Deterministic greedy packing of robust core discs. Dispersed peripheral
-  // nuclei otherwise make a small isolated body occupy the entire figure.
-  // Every nucleus is retained and translated with its cluster, including those
-  // outside the core outline; peripheral points may overlap other islands.
   function packClusters(clusters, span, center, spacing, coverage) {
     if (!clusters.length) return {gap: 0, order: []};
     const gap = span * .012 * spacing, minimumRadius = span * .002;
@@ -57,7 +53,6 @@
     for (const cluster of sorted) {
       const radius = Math.max(cluster.core_radius, minimumRadius), candidates = [];
       if (!placed.length) candidates.push({x: 0, y: 0});
-      // Cardinal directions give a valid fallback even for one existing disc.
       for (const a of placed) {
         const distance = a.pack_radius + radius + gap;
         for (let k = 0; k < 24; k++) {
@@ -79,12 +74,9 @@
         let xmin = candidate.x - radius, xmax = candidate.x + radius, ymin = candidate.y - radius, ymax = candidate.y + radius;
         for (const a of placed) {xmin = Math.min(xmin, a.x - a.pack_radius); xmax = Math.max(xmax, a.x + a.pack_radius); ymin = Math.min(ymin, a.y - a.pack_radius); ymax = Math.max(ymax, a.y + a.pack_radius);}
         const width = xmax - xmin, height = ymax - ymin;
-        // Prioritize a compact, nearly square figure, then deterministic tie breaks.
         const score = Math.max(width, height) ** 2 + .1 * width * height + .00001 * (candidate.x ** 2 + candidate.y ** 2);
         if (score < bestScore - eps * eps) {best = candidate; bestScore = score;}
       }
-      // Finite candidate construction guarantees a solution at the outer edge;
-      // keep an explicit safe fallback for degenerate floating point geometry.
       if (!best) best = {x: placed.reduce((v, a) => Math.max(v, a.x + a.pack_radius), 0) + radius + gap, y: 0};
       cluster.x = best.x; cluster.y = best.y; cluster.pack_radius = radius; placed.push(cluster);
     }
@@ -94,8 +86,6 @@
     for (const c of placed) {c.x += shiftX; c.y += shiftY;}
     return {gap, coverage, order: placed.map(c => c.cluster_id), peripheral_nuclei_retained: true};
   }
-  // Convert a requested display-space move into the stored source-span units.
-  // This keeps a drag or directional nudge intuitive after rotate/mirror.
   function displayDeltaToSource(layout, dx, dy) {
     if (!layout || !finite(dx) || !finite(dy) || !finite(layout.source_span) || layout.source_span <= 0) throw Error('A finite layout and display delta are required');
     const options = layout.options || {}, radians = (options.rotation || 0) * Math.PI / 180, cos = Math.cos(radians), sin = Math.sin(radians);
@@ -170,7 +160,6 @@
     const points = nuclei.map((n, i) => {
       const original = source[i], c = groups.get(String(n.cluster_id)); let value = {x: null, y: null};
       if (finite(original.x) && finite(original.y)) {
-        // The unchanged path must not perform centroid arithmetic: retain exact source doubles.
         const localUnchanged = c.x === c.source_x && c.y === c.source_y && c.shape_scale === 1;
         const local = schematicOffsets?.[i];
         value = local ? orient(c.x + local.x * c.shape_scale, c.y + local.y * c.shape_scale) : localUnchanged ? orient(original.x, original.y) : orient(c.x + (original.x - c.source_x) * c.shape_scale, c.y + (original.y - c.source_y) * c.shape_scale);
