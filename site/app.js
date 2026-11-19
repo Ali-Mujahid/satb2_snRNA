@@ -520,6 +520,13 @@
       const id=$('c6-edit-group').value;
       state.categoryColors.c6_program={...state.categoryColors.c6_program,[c6Category(id)]:$('c6-color').value};touch();
     };
+    $('c6-fit-view').onclick=()=>{
+      const points=presentationCoordinates('seurat').points;
+      const frame=bounds(umapIndices('seurat').map(i=>points[i]),'x','y');
+      if(!frame){toast('Choose a mouse and genotype with matching nuclei.');return;}
+      views.seurat={zoom:.9,panX:0,panY:0,frame:{key:layoutFrameKey(),bounds:frame}};
+      renderUMAP('seurat');
+    };
     $('c6-edit-position').onclick=()=>{selectC6ForLayout();$('layout-cluster').scrollIntoView({block:'center'});$('layout-cluster').focus({preventScroll:true});};
     $('c6-parent').onclick=()=>{state.annotation='cluster_id';syncControls();touch();};
   }
