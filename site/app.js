@@ -9,9 +9,13 @@
   const nucleusAxes=new Map();let nucleusGene=null;
   let mergedGeneCatalog,mergedGeneBase,mergedGeneExtension;
   let state = defaults();
-  function plotDefaults() {return {labelStyle:'compact',labelAliases:{},categoricalPalette:'native',categoryColors:{},markerLabelMode:'both',expressionResolution:geneCatalog().branches||manifest?.measurement_contract?.source_nucleus_expression_extracted?'nucleus':'cluster',autoGene:true,umapRangeMode:'auto',umapMin:0,umapMax:3,geneZeroColor:'#d9dfe3',umapPointOpacity:.85,umapDrawOrder:'high-last',volcanoLabels:true,volcanoLabelCount:20,volcanoUp:'#d18a36',volcanoDown:'#397eb5',volcanoNS:'#bcc5cb',volcanoThresholds:true,volcanoLabelSize:10,volcanoView:'both',volcanoLowYMax:5,volcanoNSOpacity:.9,volcanoNSSize:1.8,volcanoCleanPDF:true,layoutMode:'original',layoutRotation:0,layoutFlip:false,layoutAdjustments:{},markerStyles:{}};}
-  function normalizePlotState(s) {for(const[k,v]of Object.entries(plotDefaults()))if(s[k]===undefined)s[k]=v;if(!['full','compact','short','custom'].includes(s.labelStyle))s.labelStyle='compact';if(!['nucleus','cluster'].includes(s.expressionResolution))s.expressionResolution=plotDefaults().expressionResolution;if(s.expressionResolution==='nucleus'&&!['mean_log1p_normalized','mean_source_counts'].includes(s.overlayMetric))s.overlayMetric='mean_log1p_normalized';s.volcanoLabelCount=Math.max(0,Math.min(100,Number(s.volcanoLabelCount)||0));if(!['full','low','both'].includes(s.volcanoView))s.volcanoView='both';if(!['high-last','low-last','source'].includes(s.umapDrawOrder))s.umapDrawOrder='high-last';for(const[k,lo,hi,fallback]of [['umapPointOpacity',.1,1,.85],['volcanoLowYMax',.1,320,5],['volcanoNSOpacity',.1,1,.9],['volcanoNSSize',.6,4,1.8]])s[k]=number(s[k])?Math.max(lo,Math.min(hi,s[k])):fallback;s.labelAliases=s.labelAliases&&typeof s.labelAliases==='object'?s.labelAliases:{};s.categoryColors=s.categoryColors&&typeof s.categoryColors==='object'?s.categoryColors:{};return normalizePresentation(s);}
-  function displayLabel(text) {return global.SATB2_DISPLAY?.formatLabel(String(text),state)||String(text);}
+  function plotDefaults() {return {c6Names:{},c6Focus:"all",c6Mouse:"all",c6Font:11,labelStyle:'compact',labelAliases:{},categoricalPalette:'native',categoryColors:{},markerLabelMode:'both',expressionResolution:geneCatalog().branches||manifest?.measurement_contract?.source_nucleus_expression_extracted?'nucleus':'cluster',autoGene:true,umapRangeMode:'auto',umapMin:0,umapMax:3,geneZeroColor:'#d9dfe3',umapPointOpacity:.85,umapDrawOrder:'high-last',volcanoLabels:true,volcanoLabelCount:20,volcanoUp:'#d18a36',volcanoDown:'#397eb5',volcanoNS:'#bcc5cb',volcanoThresholds:true,volcanoLabelSize:10,volcanoView:'both',volcanoLowYMax:5,volcanoNSOpacity:.9,volcanoNSSize:1.8,volcanoCleanPDF:true,layoutMode:'original',layoutRotation:0,layoutFlip:false,layoutAdjustments:{},markerStyles:{}};}
+  function normalizePlotState(s) {for(const[k,v]of Object.entries(plotDefaults()))if(s[k]===undefined)s[k]=v;if(!['full','compact','short','custom'].includes(s.labelStyle))s.labelStyle='compact';if(!['nucleus','cluster'].includes(s.expressionResolution))s.expressionResolution=plotDefaults().expressionResolution;if(s.expressionResolution==='nucleus'&&!['mean_log1p_normalized','mean_source_counts'].includes(s.overlayMetric))s.overlayMetric='mean_log1p_normalized';s.volcanoLabelCount=Math.max(0,Math.min(100,Number(s.volcanoLabelCount)||0));if(!['full','low','both'].includes(s.volcanoView))s.volcanoView='both';if(!['high-last','low-last','source'].includes(s.umapDrawOrder))s.umapDrawOrder='high-last';for(const[k,lo,hi,fallback]of [['umapPointOpacity',.1,1,.85],['volcanoLowYMax',.1,320,5],['volcanoNSOpacity',.1,1,.9],['volcanoNSSize',.6,4,1.8]])s[k]=number(s[k])?Math.max(lo,Math.min(hi,s[k])):fallback;s.c6Font=Number.isFinite(s.c6Font)?Math.min(24,Math.max(8,s.c6Font)):11;s.c6Names=s.c6Names&&typeof s.c6Names==='object'?s.c6Names:{};s.labelAliases=s.labelAliases&&typeof s.labelAliases==='object'?s.labelAliases:{};s.categoryColors=s.categoryColors&&typeof s.categoryColors==='object'?s.categoryColors:{};return normalizePresentation(s);}
+  function displayLabel(text) {
+    if(state.annotation==='c6_program'){
+      for(const id of Object.keys(c6Programs))if(text===c6Category(id))return 'C'+id+' · '+c6Name(id);
+    }
+    return global.SATB2_DISPLAY?.formatLabel(String(text),state)||String(text);}
   function markerDisplayLabel(text) {if(state.markerLabelMode==='id')return String(text).match(/^C\d+/)?.[0]||displayLabel(text);const short=displayLabel(text);return state.markerLabelMode==='label'?short.replace(/^C\d+\s*[·|]\s*/,''):short;}
   function defaults() { return {...plotDefaults(),population:'CA1_ProS',branch:'original_full',basis:'harmony',annotation:'reviewed_label',tab:'umap',palette:'rdBu',low:'#2166ac',mid:'#f7f7f7',high:'#b2182b',pointSize:1.2,clusterLabels:true,sharedScale:true,markers:[],markerMetric:'scaled_expression_z',markerCondition:'ALL',markerGrouping:'cluster',markerPage:0,markerOrder:'selection',markerOrderTool:'scanpy',markerFocusCluster:'',markerPreset:'',markerRowOrder:'ascending',markerRowCustom:{scanpy:'',seurat:''},negativeZ:true,genesPerPage:60,markerLimit:100000,dotRangeMode:'source',dotMin:-2.5,dotMax:2.5,dotArea:100,negativeArea:.25,negativeAlpha:.18,overlayMetric:'mean_log1p_normalized',overlayCondition:'ALL',umapLabelMode:'id',umapCondition:'ALL',umapProgram:'ALL',spacing:1,boxGenes:[],boxPage:0,boxTransform:'log1p_normalized',boxShowIneligible:false,deEndpoint:'PRIMARY',deFdr:.05,deLfc:0,deSearch:'',deShowNA:false,deTargets:{scanpy:'total',seurat:'total'},dePages:{scanpy:0,seurat:0},exclusions:{},labels:{},colors:{}}; }
   const $ = id => typeof document==='undefined' ? null : document.getElementById(id);
@@ -39,13 +43,14 @@
     return indexes.slice().sort((a,b)=>direction*(valueAt(a)-valueAt(b)));
   }
   function formatUmapExportNotes(info) {
+    const c6Note=info.annotation==='c6_program' ? (info.tool==='seurat'?` C6.0–C6.2 are marker-based SST groups. Mouse: ${info.c6Mouse||'all'}. Seurat focus: ${info.c6Focus||'all'}. Axonal targets remain unresolved.`:' Scanpy shows its original parent clusters.') : '';
     const limits=Array.isArray(info.colorRange)?`Color limits ${info.colorRange.join(' to ')} (${info.rangeMode}); palette ${info.palette||'unknown'}; `:'';
     const values=info.geneSymbol?`${info.geneSymbol} (${info.geneId}); ${info.measure}. `:`Color: ${info.annotation}. `;
     const stats=info.counts?`Detected ${info.counts.detected}/${info.counts.measured}; zero ${info.counts.zero}; unavailable ${info.counts.unavailable}; above color maximum ${info.counts.aboveMax===null?'NA':info.counts.aboveMax}. `:'';
     const schematic=['hippocampus','rounded'].includes(info.layout)?' Schematic: not measured anatomy.':'';
     const adjustments=Object.keys(info.manualAdjustments||{}).length;
     return `Genotype ${info.condition}; shown ${info.shown}/${info.baseline} selected nuclei. ${values}${limits}${info.counts?'Zero color '+info.zeroColor+'. ':''}${stats}Point opacity ${info.opacity}${number(info.pointSize)?'; size '+info.pointSize:''}; ${info.drawOrder?'gene point draw order '+info.drawOrder:'source draw order'}. `+
-      `Coordinates ${info.basis}; layout ${info.layout}${info.displayOnly?' (display altered)':''}; rotation ${info.rotation||0} degrees; reflected ${!!info.reflected}; manually adjusted clusters ${adjustments}; program ${info.program}; excluded clusters ${info.excluded||'none'}.${schematic} Appearance and filters do not alter source data or fitted models.`+(info.tool==='seurat'&&info.population==='CA1_ProS'?' Seurat C8 displays as CA1–prosubiculum; original superficial DE fit still includes C8.':'');
+      `Coordinates ${info.basis}; layout ${info.layout}${info.displayOnly?' (display altered)':''}; rotation ${info.rotation||0} degrees; reflected ${!!info.reflected}; manually adjusted clusters ${adjustments}; program ${info.program}; excluded clusters ${info.excluded||'none'}.${schematic} Appearance and filters do not alter source data or fitted models.`+(info.tool==='seurat'&&info.population==='CA1_ProS'?' Seurat C8 displays as CA1–prosubiculum; original superficial DE fit still includes C8.':'')+c6Note;
   }
   function fmt(value,digits=4) {if(!number(value))return 'NA';if(value===0)return '0';if(Math.abs(value)>=1000)return value.toLocaleString(undefined,{maximumFractionDigits:2});const parts=value.toPrecision(digits).split('e');if(parts[0].includes('.'))parts[0]=parts[0].replace(/0+$/,'').replace(/\.$/,'');return parts.join('e');}
   function idSort(a,b) { return /^\d+$/.test(String(a))&&/^\d+$/.test(String(b))?Number(a)-Number(b):String(a).localeCompare(String(b)); }
@@ -133,15 +138,60 @@
   function isSeuratCA1C8(tool,n) {return tool==='seurat'&&state.population==='CA1_ProS'&&String(n.cluster_id)==='8';}
   function displayedLayerProgram(tool,n) {return isSeuratCA1C8(tool,n)?CA1_PROS_LABEL:n.layer_program_label;}
   function c6Label(t,n){return t==='seurat'&&state.branch==='original_full'&&state.population==='Inhibitory'&&String(n.cluster_id)==='6'?'053 Sst Gaba; 0228-leading match, mixed':null;}
+  const c6Programs = {
+    '6.0': {name:'SST backprojection-like', markers:'Cdh7 / Pcdh11x', color:'#9b387a'},
+    '6.1': {name:'SST identity unresolved', markers:'Ncam2 / Hs3st5', color:'#bd701e'},
+    '6.2': {name:'SST O-LM-like', markers:'Mgat4c / Lypd6', color:'#127e86'}
+  };
+  function c6Scope() {return state.population==='Inhibitory' && state.branch==='original_full';}
+  function splitC6(tool) {return tool==='seurat' && c6Scope() && state.annotation==='c6_program';}
+  function c6Category(id) {return 'C'+id+' · '+c6Programs[id].name;}
+  function c6Name(id) {
+    const alias=state.c6Names?.[id];
+    return typeof alias==='string' && alias.trim() ? alias : c6Programs[id].name;
+  }
+  function mapCluster(tool,n) {
+    return splitC6(tool) && String(n.cluster_id)==='6'
+      ? active.seurat.c6Groups.get(n.nucleus_id) : String(n.cluster_id);
+  }
+  function mapLabel(tool,id) {
+    return splitC6(tool) && c6Programs[id] ? c6Name(id) : label(tool,id);
+  }
+  function bindC6Membership(coords,ds) {
+    const overlay=global.SATB2_C6_OVERLAY;
+    if(!overlay || manifest.shards[ds.coordinates_shard].sha256!==overlay.coordinate_sha256)
+      throw Error('C6 overlay does not match the saved Seurat coordinates');
+    const lookup=new Map();
+    for(const [id,expected] of Object.entries({'6.0':291,'6.1':110,'6.2':100})){
+      const members=overlay.groups[id];
+      if(members?.length!==expected)throw Error('Unexpected C'+id+' membership count');
+      for(const name of members){
+        if(lookup.has(name))throw Error('Duplicate C6 nucleus');
+        lookup.set(name,id);
+      }
+    }
+    const parent=coords.nuclei.filter(n=>String(n.cluster_id)==='6');
+    if(parent.length!==lookup.size || parent.some(n=>!lookup.has(n.nucleus_id)))
+      throw Error('C6 assignments differ from parent cluster membership');
+    return lookup;
+  }
   function label(tool,id) { return state.labels[clusterKey(tool,id)]||(isSeuratCA1C8(tool,{cluster_id:id})?CA1_PROS_LABEL:null)||c6Label(tool,{cluster_id:id})||clusterRows(tool).find(x=>String(x.cluster_id)===String(id))?.reviewed_label||'Cluster '+id; }
   function category(n,tool) {
+    if(state.annotation==='c6_program'){
+      const id=mapCluster(tool,n);
+      return splitC6(tool) && c6Programs[id] ? c6Category(id) : 'C'+id+' · '+label(tool,id);
+    }
     if(state.annotation==='cluster_id')return 'C'+n.cluster_id+' · '+label(tool,n.cluster_id);
     if(state.annotation==='reviewed_label')return state.labels[clusterKey(tool,n.cluster_id)]||(isSeuratCA1C8(tool,n)?CA1_PROS_LABEL:null)||c6Label(tool,n)||n.reviewed_label||'Unresolved';
     if(state.annotation==='layer_program_label')return displayedLayerProgram(tool,n)??'Unavailable';
     return n[state.annotation]??'Unavailable';
   }
   function hashColor(value) { let h=2166136261;for(const c of String(value))h=Math.imul(h^c.charCodeAt(0),16777619);return `hsl(${(h>>>0)%360} 47% 47%)`; }
-  function categoricalColor(value) {if(global.SATB2_DISPLAY)return global.SATB2_DISPLAY.colorForCategory(value,{categoricalPalette:state.categoricalPalette,categoryColors:state.categoryColors?.[state.annotation]||{}});return hashColor(value);}
+  function categoricalColor(value) {
+    if(state.annotation==='c6_program' && state.categoricalPalette==='native' && !state.categoryColors?.c6_program?.[value]){
+      for(const [id,program] of Object.entries(c6Programs))if(value===c6Category(id))return program.color;
+    }
+    if(global.SATB2_DISPLAY)return global.SATB2_DISPLAY.colorForCategory(value,{categoricalPalette:state.categoricalPalette,categoryColors:state.categoryColors?.[state.annotation]||{}});return hashColor(value);}
   function hexRGB(hex) { return [1,3,5].map(i=>parseInt(hex.slice(i,i+2),16)); }
   function continuousColor(value,min,max) {
     if(!number(value))return '#bac2c7';
@@ -238,9 +288,13 @@
     if(token!==revision)return null;
     if(!Array.isArray(coords.nuclei)||!Array.isArray(coords.clusters))throw Error('Coordinate shard must contain nuclei and cluster arrays');
     const ids=new Set();for(const n of coords.nuclei){if(ids.has(n.nucleus_id))throw Error('Duplicate nucleus ID');ids.add(n.nucleus_id);for(const k of ['x_harmony','y_harmony','x_unintegrated','y_unintegrated'])if(!number(n[k]))throw Error('Missing/nonfinite existing coordinate '+k);}
-    active[tool]={descriptor:ds,coords,markers:null,fits:null,deRows:null,deRowsFitId:null,resolved:null};return active[tool];
+    const c6Groups=(tool==='seurat' && c6Scope() && (global.SATB2_C6_OVERLAY || splitC6(tool)))
+      ? bindC6Membership(coords,ds) : null;
+    active[tool]={descriptor:ds,coords,c6Groups,markers:null,fits:null,deRows:null,deRowsFitId:null,resolved:null};return active[tool];
   }
   async function changeScope(options={}) {
+    if(state.annotation==='c6_program' && !c6Scope())state.annotation='reviewed_label';
+    if(!headless && $('annotation'))$('annotation').value=state.annotation;
     const token=++revision;TOOLS.forEach(t=>delete active[t]);cache.clear();state.dePages={scanpy:0,seurat:0};if(!options.preserveTargets)state.deTargets={scanpy:'total',seurat:'total'};TOOLS.forEach(t=>Object.assign(views[t],{zoom:1,panX:0,panY:0,frame:null}));
     if(!headless){$('offline-status').textContent='Loading verified coordinates';renderContext();}
     try { await Promise.all(TOOLS.map(t=>loadDataset(t,token)));if(token!==revision)return;if(!headless){$('offline-status').textContent='Verified · saved results';$('fatal').hidden=true;}await ensureTabData(token);if(token===revision)render(); } catch(err){if(token===revision)error(err);}
@@ -279,21 +333,30 @@
     if(!active[tool]){emptyCanvas('umap-'+tool,'Loading existing coordinates');return;}
     const ns=nuclei(tool),indexes=umapIndices(tool),kept=indexes.map(i=>ns[i]),p=canvasInfo('umap-'+tool);if(!p)return;
     const layout=presentationCoordinates(tool),display=layout.points,legend=$('umap-legend-'+tool);legend.replaceChildren();active[tool].presentationMeta={mode:layout.mode,display_only:layout.display_only,notice:layout.notice};$('umap-count-'+tool).textContent=`${indexes.length.toLocaleString()} shown / ${retainedIndices(tool).length.toLocaleString()} selected baseline nuclei · ${state.basis} · ${layout.display_only?(['hippocampus','rounded'].includes(state.layoutMode)?'SCHEMATIC · not UMAP or spatial':state.layoutMode==='packed'?'packed display · distances altered':state.layoutMode==='compact'?'compact display · distances altered':'adjusted display layout'):'original coordinates'}`;
+    if(state.annotation==='c6_program')$('umap-count-'+tool).textContent+=splitC6(tool)?' · Seurat C6 split':' · original Scanpy clusters';
     if(state.annotation==='gene'&&state.expressionResolution==='nucleus'&&!nucleusGeneReady()){active[tool].screenPoints=[];emptyCanvas('umap-'+tool,'Loading verified individual-nucleus gene expression…');return;}
-    if(!kept.length){emptyCanvas('umap-'+tool,'No nuclei match the UMAP display filters or exclusions.');return;}
+    if(!kept.length){active[tool].screenPoints=[];active[tool].c6Figure=null;emptyCanvas('umap-'+tool,'No nuclei match the UMAP display filters or exclusions.');return;}
     const v=views[tool],b=layoutFrameBounds(tool,layout),pad=28,unit=Math.min((p.width-2*pad)/(b.xmax-b.xmin),(p.height-2*pad)/(b.ymax-b.ymin))*v.zoom,project=q=>({x:p.width/2+(q.x-(b.xmin+b.xmax)/2)*unit+v.panX,y:p.height/2-(q.y-(b.ymin+b.ymax)/2)*unit+v.panY}),position=i=>project(display[i]);
     if(layout.guide?.points?.length){p.c.save();p.c.strokeStyle='#e4edf1';p.c.lineWidth=18;p.c.lineCap='round';p.c.beginPath();layout.guide.points.forEach((q,i)=>{const s=project(q);if(i===0)p.c.moveTo(s.x,s.y);else p.c.lineTo(s.x,s.y);});p.c.stroke();p.c.restore();}
     const isGene=state.annotation==='gene',individual=isGene&&state.expressionResolution==='nucleus',geneMap=isGene&&!individual?overlayMap(tool):null,qc=manifest.qc_fields?.find(x=>x.key===state.annotation),numeric=isGene||qc?.type==='number'||(qc&&!qc.type&&kept.some(n=>number(n[state.annotation]))),range=numeric?numericRange(tool):null;
-    const counts=new Map(),positions=[],centroids=new Map();p.c.globalAlpha=state.umapPointOpacity;
+    const counts=new Map(),positions=[],centroids=new Map(),labelPositions=[];p.c.globalAlpha=state.umapPointOpacity;
     const drawIndexes=individual?expressionDrawIndices(indexes,i=>nucleusGeneValue(ns[i]),state.umapDrawOrder):indexes;
     for(const i of drawIndexes){const n=ns[i],q=position(i),val=isGene?overlayValue(n,geneMap):category(n,tool),override=!numeric&&state.colors[clusterKey(tool,n.cluster_id)]&&(['layer_program_label'].includes(state.annotation)||(!state.categoryColors[state.annotation]?.[String(val)]&&['cluster_id','reviewed_label'].includes(state.annotation))),col=numeric?(individual&&val===0?state.geneZeroColor:range?continuousColor(val,...range):'#bac2c7'):(override||categoricalColor(val));
       if(!numeric){const text=override?String(val)+' · C'+n.cluster_id:String(val),key=text+'\u0000'+col,item=counts.get(key)||{n:0,color:col,label:text};item.n++;counts.set(key,item);}
-      const center=centroids.get(String(n.cluster_id))||{x:0,y:0,n:0};center.x+=q.x;center.y+=q.y;center.n++;centroids.set(String(n.cluster_id),center);
-      if(q.x<-3||q.y<-3||q.x>p.width+3||q.y>p.height+3)continue;p.c.fillStyle=col;p.c.fillRect(q.x,q.y,state.pointSize,state.pointSize);positions.push({x:q.x,y:q.y,index:i});}
+      const mapId=mapCluster(tool,n),center=centroids.get(mapId)||{x:0,y:0,n:0};center.x+=q.x;center.y+=q.y;center.n++;centroids.set(mapId,center);
+      if(q.x<-3||q.y<-3||q.x>p.width+3||q.y>p.height+3)continue;p.c.fillStyle=col;p.c.fillRect(q.x,q.y,state.pointSize,state.pointSize);positions.push({x:q.x,y:q.y,index:i,color:splitC6(tool)?col:undefined});}
     p.c.globalAlpha=1;active[tool].screenPoints=positions;active[tool].umapRange=range;
-    if(state.clusterLabels){p.c.font='bold 11px system-ui';p.c.textAlign='center';p.c.lineWidth=3;p.c.strokeStyle='rgba(255,255,255,.9)';p.c.fillStyle='#253e50';for(const[id,center]of centroids){const x=center.x/center.n,y=center.y/center.n;if(x<0||y<0||x>p.width||y>p.height)continue;const text=displayLabel(state.umapLabelMode==='label'?label(tool,id):state.umapLabelMode==='both'?'C'+id+' · '+label(tool,id):'C'+id);const lines=centroidLabelLines(text,p.c,Math.min(220,p.width*.35)),maxWidth=Math.max(...lines.map(line=>p.c.measureText(line).width)),tx=Math.max(maxWidth/2+5,Math.min(p.width-maxWidth/2-5,x)),ty=Math.max(12,Math.min(p.height-12-(lines.length-1)*12,y-(lines.length-1)*6));lines.forEach((line,i)=>{p.c.strokeText(line,tx,ty+i*12);p.c.fillText(line,tx,ty+i*12);});}}
+    const font=splitC6(tool)?state.c6Font:11,lineHeight=font+1;
+    if(state.clusterLabels){p.c.font='bold '+font+'px system-ui';p.c.textAlign='center';p.c.lineWidth=3;p.c.strokeStyle='rgba(255,255,255,.9)';p.c.fillStyle='#253e50';for(const[id,center]of centroids){const x=center.x/center.n,y=center.y/center.n;if(x<0||y<0||x>p.width||y>p.height)continue;const text=displayLabel(state.umapLabelMode==='label'?mapLabel(tool,id):state.umapLabelMode==='both'?'C'+id+' · '+mapLabel(tool,id):'C'+id);const lines=centroidLabelLines(text,p.c,Math.min(220,p.width*.35)),maxWidth=Math.max(...lines.map(line=>p.c.measureText(line).width)),tx=Math.max(maxWidth/2+5,Math.min(p.width-maxWidth/2-5,x)),ty=Math.max(lineHeight,Math.min(p.height-lineHeight-(lines.length-1)*lineHeight,y-(lines.length-1)*lineHeight/2));lines.forEach((line,i)=>{p.c.strokeText(line,tx,ty+i*lineHeight);p.c.fillText(line,tx,ty+i*lineHeight);if(splitC6(tool))labelPositions.push({text:line,x:tx,y:ty+i*lineHeight});});}}
     if(numeric){const text=range?`${fmt(range[0])} → ${fmt(range[1])}`:'No numeric data',symbol=manifest.genes.find(g=>g.gene_id===state.overlayGene)?.gene_symbol||state.overlayGene;legend.append(node('span',(state.sharedScale?'Shared tool scale · ':'Individual tool scale · ')+(isGene?(individual?`${symbol} · individual nucleus · ${state.overlayMetric==='mean_source_counts'?'source UMI count':'log1p(UMIs per 10,000)'}: `:`${symbol} · ${state.overlayCondition} saved cluster ${state.overlayMetric}: `)+text:'QC source value: '+text)));for(const item of [...paletteLegend(range),...(individual?[{label:'Zero source counts',color:state.geneZeroColor}]:[])]){const el=node('span',undefined,'legend-item'),sw=node('i',undefined,'swatch');sw.style.background=item.color;el.append(sw,node('span',item.label));legend.append(el);}}
     else for(const item of [...counts.values()].sort((a,b)=>a.label.localeCompare(b.label))){const el=node('span',undefined,'legend-item'),sw=node('i',undefined,'swatch');sw.style.background=item.color;el.title=item.label;el.append(sw,node('span',displayLabel(item.label)+' · '+item.n.toLocaleString()));legend.append(el);}
+    if(splitC6(tool)){
+      active[tool].c6Figure={width:p.width,height:p.height,size:state.pointSize,opacity:state.umapPointOpacity,
+        points:positions,labels:labelPositions,font,guide:(layout.guide?.points||[]).map(project),
+        heading:[state.umapCondition==='ALL'?'WT + cKO':state.umapCondition,state.c6Mouse==='all'?'all mice':state.c6Mouse,indexes.length+' nuclei',state.basis,
+          layout.display_only?'Adjusted display layout':'Original coordinates'].join(' · '),
+        legend:[...counts.values()].sort((a,b)=>idSort(a.label,b.label)).map(v=>({label:displayLabel(v.label)+' · '+v.n,color:v.color}))};
+    }
     if(individual){const s=expressionDisplaySummary(indexes.map(i=>nucleusGeneValue(ns[i])),range),percent=s.measured?((100*s.detected/s.measured).toFixed(1)+'%'):'NA';legend.append(node('span',`Displayed nuclei: ${s.shown.toLocaleString()}; detected: ${s.detected.toLocaleString()} / ${s.measured.toLocaleString()} (${percent}); zero counts: ${s.zero.toLocaleString()}; unavailable: ${s.unavailable.toLocaleString()}; above color maximum (clipped): ${s.aboveMax===null?'NA':s.aboveMax.toLocaleString()}.`,'small'));legend.append(node('span',state.umapRangeMode==='auto'?'Automatic limits may change with genotype; choose fixed limits for comparison.':'Fixed color limits persist when changing genotype.','small'));}
     legend.append(node('span',`Point opacity ${state.umapPointOpacity}${individual?'; gene draw order '+state.umapDrawOrder:''}. Appearance changes visibility, not data.`, 'small'));
     if(layout.display_only){p.c.fillStyle='#945920';p.c.font='bold 10px system-ui';p.c.textAlign='left';const warning=['hippocampus','rounded'].includes(state.layoutMode)?'SCHEMATIC · NOT ORIGINAL UMAP OR ANATOMY':'DISPLAY LAYOUT · coordinates adjusted';p.c.fillText(warning,12,16);legend.append(node('span',layout.notice,'warn'));}
@@ -389,14 +452,14 @@
       const geometry=kind==='umap'?`Nuclei display filter ${state.umapCondition}; CA1 program ${state.umapProgram}; display layout ${state.layoutMode}; ${['packed','rounded'].includes(state.layoutMode)?'island gap control '+state.spacing:'spacing '+state.spacing+'x'}; rotation ${state.layoutRotation} degrees; reflected ${state.layoutFlip}; ${active[tool]?.presentationMeta?.notice||'original coordinates'}; manual cluster adjustments ${JSON.stringify(state.layoutAdjustments[layoutScope(tool)]||{})}; centroid labels ${state.umapLabelMode}; overlay ${state.overlayGene||'none'} ${state.overlayMetric} / ${state.expressionResolution==='nucleus'?'individual nucleus':state.overlayCondition+' cluster summaries'}; UMAP color limits ${state.umapRangeMode}; zero color ${state.geneZeroColor}. `:'';
       if(kind==='umap') {
         const selected=umapIndices(tool),ns=nuclei(tool),individual=state.annotation==='gene'&&state.expressionResolution==='nucleus',range=active[tool]?.umapRange||null,gene=state.annotation==='gene'?manifest.genes.find(g=>g.gene_id===state.overlayGene):null;
-        const info={tool,population:state.population,branch:state.branch,condition:state.umapCondition,shown:selected.length,baseline:retainedIndices(tool).length,annotation:state.annotation,geneSymbol:gene?.gene_symbol||null,geneId:gene?.gene_id||null,measure:individual?(state.overlayMetric==='mean_source_counts'?'source UMI count':'log1p(UMIs per 10,000)'):(state.annotation==='gene'?state.overlayCondition+' cluster '+state.overlayMetric:null),rangeMode:state.umapRangeMode,colorRange:range,zeroColor:state.geneZeroColor,counts:individual?expressionDisplaySummary(selected.map(i=>nucleusGeneValue(ns[i])),range):null,opacity:state.umapPointOpacity,pointSize:state.pointSize,sharedScale:state.sharedScale,drawOrder:individual?state.umapDrawOrder:null,basis:state.basis,layout:state.layoutMode,displayOnly:!!active[tool]?.presentationMeta?.display_only,program:state.umapProgram,excluded:[...excluded(tool)].join(', '),rotation:state.layoutRotation,reflected:state.layoutFlip,manualAdjustments:state.layoutAdjustments[layoutScope(tool)]||{},palette:state.palette,customColors:{low:state.low,mid:state.mid,high:state.high},sourceFingerprint:manifest.study?.source_fingerprint||null};
+        const info={tool,c6Mouse:splitC6(tool)?state.c6Mouse:null,c6Focus:splitC6(tool)?state.c6Focus:null,population:state.population,branch:state.branch,condition:state.umapCondition,shown:selected.length,baseline:retainedIndices(tool).length,annotation:state.annotation,geneSymbol:gene?.gene_symbol||null,geneId:gene?.gene_id||null,measure:individual?(state.overlayMetric==='mean_source_counts'?'source UMI count':'log1p(UMIs per 10,000)'):(state.annotation==='gene'?state.overlayCondition+' cluster '+state.overlayMetric:null),rangeMode:state.umapRangeMode,colorRange:range,zeroColor:state.geneZeroColor,counts:individual?expressionDisplaySummary(selected.map(i=>nucleusGeneValue(ns[i])),range):null,opacity:state.umapPointOpacity,pointSize:state.pointSize,sharedScale:state.sharedScale,drawOrder:individual?state.umapDrawOrder:null,basis:state.basis,layout:state.layoutMode,displayOnly:!!active[tool]?.presentationMeta?.display_only,program:state.umapProgram,excluded:[...excluded(tool)].join(', '),rotation:state.layoutRotation,reflected:state.layoutFlip,manualAdjustments:state.layoutAdjustments[layoutScope(tool)]||{},palette:state.palette,customColors:{low:state.low,mid:state.mid,high:state.high},sourceFingerprint:manifest.study?.source_fingerprint||null};
         doc.setProperties?.({title:`${tool} ${state.population} UMAP`,subject:JSON.stringify(info),creator:'SATB2 atlas · saved coordinates'});
         const legends=[...($('umap-legend-'+tool)?.children||[])].map(x=>({label:x.textContent,color:[...(x.children||[])].find(c=>c.className==='swatch')?.style.background})).filter(x=>x.color);
         add($(id),`${state.basis} | ${state.annotation}${active[tool]?.presentationMeta?.display_only?' | DISPLAY LAYOUT':''}`,formatUmapExportNotes(info),legends,true);
       } else add(kind==='volcano'&&volcanoPDF?volcanoPDF.canvas:$(id),kind==='volcano'?`${match.status} | ${match.fit?.analysis_label||'No matched fit'}`:'Saved DESeq2 population effects',settings+endpointSettings+geometry+counts+'. '+(kind==='volcano'?(volcanoPDF?.meta?.note||active[tool].volcanoMeta?.note||'')+' Colors cKO higher '+state.volcanoUp+', WT higher '+state.volcanoDown+', nonsignificant '+state.volcanoNS+'. ':'')+'Edited / provisional labels are display settings. DESeq2 uses independent mice.',kind==='compare'?[$('de-compare-note').textContent]:kind==='volcano'?[`Population ${match.fit?.analysis_label||'NONE'}; source members ${match.fit?.n_nuclei??'NA'}; included mice WT ${match.fit?.n_WT??'NA'} / cKO ${match.fit?.n_cKO??'NA'}; df ${match.fit?.residual_df??'NA'}. Identity confidence is distinct from model eligibility.`]:[],true);}
     doc.save(`SATB2_v3_3_${kind}_${tool}_${state.population}_${state.branch}.pdf`);return doc;
   }
-  function bindCanvas(tool) {const canvas=$('umap-'+tool);let drag=null;canvas.addEventListener('wheel',e=>{e.preventDefault();views[tool].zoom=Math.max(.4,Math.min(18,views[tool].zoom*Math.exp(-e.deltaY*.001)));renderUMAP(tool);},{passive:false});canvas.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,panX:views[tool].panX,panY:views[tool].panY};canvas.setPointerCapture?.(e.pointerId);});canvas.addEventListener('pointerup',e=>{if(drag&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<4){const rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top;let best=null,distance=225;for(const p of active[tool]?.screenPoints||[]){const d=(p.x-x)**2+(p.y-y)**2;if(d<distance){best=p;distance=d;}}if(best){$('layout-tool').value=tool;syncPresentationControls();$('layout-cluster').value=String(nuclei(tool)[best.index].cluster_id);loadLayoutEditor();}}drag=null;});canvas.addEventListener('pointercancel',()=>drag=null);canvas.addEventListener('pointermove',e=>{if(drag){views[tool].panX=drag.panX+e.clientX-drag.x;views[tool].panY=drag.panY+e.clientY-drag.y;renderUMAP(tool);return;}const rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top;let best=null,distance=100;for(const p of active[tool]?.screenPoints||[]){const d=(p.x-x)**2+(p.y-y)**2;if(d<distance){best=p;distance=d;}}const n=best?nuclei(tool)[best.index]:null;$('umap-hover-'+tool).textContent=n?`C${n.cluster_id} · ${label(tool,n.cluster_id)} · ${n.sample} · ${n.condition} · ${n.nucleus_id}${state.annotation==='gene'?' · '+(manifest.genes.find(g=>g.gene_id===state.overlayGene)?.gene_symbol||state.overlayGene)+' = '+fmt(overlayValue(n,state.expressionResolution==='cluster'?overlayMap(tool):null)):''}`:'';});}
+  function bindCanvas(tool) {const canvas=$('umap-'+tool);let drag=null;canvas.addEventListener('wheel',e=>{e.preventDefault();views[tool].zoom=Math.max(.4,Math.min(18,views[tool].zoom*Math.exp(-e.deltaY*.001)));renderUMAP(tool);},{passive:false});canvas.addEventListener('pointerdown',e=>{drag={x:e.clientX,y:e.clientY,panX:views[tool].panX,panY:views[tool].panY};canvas.setPointerCapture?.(e.pointerId);});canvas.addEventListener('pointerup',e=>{if(drag&&Math.hypot(e.clientX-drag.x,e.clientY-drag.y)<4){const rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top;let best=null,distance=225;for(const p of active[tool]?.screenPoints||[]){const d=(p.x-x)**2+(p.y-y)**2;if(d<distance){best=p;distance=d;}}if(best){$('layout-tool').value=tool;syncPresentationControls();$('layout-cluster').value=mapCluster(tool,nuclei(tool)[best.index]);loadLayoutEditor();}}drag=null;});canvas.addEventListener('pointercancel',()=>drag=null);canvas.addEventListener('pointermove',e=>{if(drag){views[tool].panX=drag.panX+e.clientX-drag.x;views[tool].panY=drag.panY+e.clientY-drag.y;renderUMAP(tool);return;}const rect=canvas.getBoundingClientRect(),x=e.clientX-rect.left,y=e.clientY-rect.top;let best=null,distance=100;for(const p of active[tool]?.screenPoints||[]){const d=(p.x-x)**2+(p.y-y)**2;if(d<distance){best=p;distance=d;}}const n=best?nuclei(tool)[best.index]:null;$('umap-hover-'+tool).textContent=n?`C${mapCluster(tool,n)} · ${mapLabel(tool,mapCluster(tool,n))} · ${n.sample} · ${n.condition} · ${n.nucleus_id}${state.annotation==='gene'?' · '+(manifest.genes.find(g=>g.gene_id===state.overlayGene)?.gene_symbol||state.overlayGene)+' = '+fmt(overlayValue(n,state.expressionResolution==='cluster'?overlayMap(tool):null)):''}`:'';});}
   function syncControls() {for(const [id,key]of Object.entries({population:'population',branch:'branch',basis:'basis',annotation:'annotation',palette:'palette','color-low':'low','color-mid':'mid','color-high':'high','point-size':'pointSize','marker-metric':'markerMetric','marker-condition':'markerCondition','marker-grouping':'markerGrouping','de-endpoint':'deEndpoint','de-fdr':'deFdr','de-lfc':'deLfc','de-search':'deSearch'}))if($(id))$(id).value=state[key];$('shared-scale').checked=state.sharedScale;$('cluster-labels').checked=state.clusterLabels;$('negative-z').checked=state.negativeZ;$('de-show-na').checked=state.deShowNA;if($('overlay-gene'))filterOverlayOptions();for(const[id,key]of Object.entries({'genes-per-page':'genesPerPage','marker-limit':'markerLimit','dot-range-mode':'dotRangeMode','dot-min':'dotMin','dot-max':'dotMax','dot-size':'dotArea','dot-negative-area':'negativeArea','dot-negative-alpha':'negativeAlpha','overlay-metric':'overlayMetric','overlay-condition':'overlayCondition','umap-label-mode':'umapLabelMode','umap-condition':'umapCondition','umap-program':'umapProgram','cluster-spacing':'spacing','box-transform':'boxTransform'}))if($(id))$(id).value=state[key];$('box-show-ineligible').checked=state.boxShowIneligible;}
   async function applyExpressionQuickAction(action) {
     try {
@@ -415,7 +478,57 @@
     status.textContent=`Current selection: ${state.annotation==='gene'?gene:'not a gene view'} · ${group} · ${state.expressionResolution==='nucleus'?measure:'cluster summary'} · ${limits}.`;
     document.querySelectorAll('[data-expression-shortcut]').forEach(b=>{const a=b.dataset.expressionShortcut;b.setAttribute('aria-pressed',String((['WT','cKO','ALL'].includes(a)&&state.umapCondition===a)||(['Satb2','Ano3'].includes(a)&&state.annotation==='gene'&&gene===a)));});
   }
+  function syncC6Editor() {
+    const panel=$('c6-editor');if(!panel)return;
+    const opt=$('annotation').querySelector('option[value="c6_program"]');
+    opt.disabled=!c6Scope();
+    panel.hidden=!splitC6('seurat');
+    if(panel.hidden)return;
+    const id=$('c6-edit-group').value;
+    if(document.activeElement!==$('c6-name'))$('c6-name').value=c6Name(id);
+    $('c6-evidence').textContent='Markers: '+c6Programs[id].markers;
+    $('c6-focus').value=state.c6Focus||'all';
+    $('c6-font').value=state.c6Font;$('c6-font-value').textContent=state.c6Font+' px';
+    const mice=[...new Set(nuclei('seurat').map(n=>n.sample))].sort();
+    fillSelect('c6-mouse',[{value:'all',label:'All mice'},...mice.map(m=>({value:m,label:m}))]);
+    if(mice.length && !mice.includes(state.c6Mouse))state.c6Mouse='all';
+    $('c6-mouse').value=state.c6Mouse;
+    if(document.activeElement!==$('c6-color'))syncC6Color(id);
+  }
+  function syncC6Color(id) {
+    $('c6-color').value='#'+cssRGB(categoricalColor(c6Category(id))).map(v=>v.toString(16).padStart(2,'0')).join('');
+  }
+  function bindC6Editor() {
+    if(!$('c6-editor'))return;
+    $('c6-edit-group').onchange=()=>{syncC6Editor();selectC6ForLayout();};
+    for(const format of ['svg','png'])$('c6-'+format).onclick=async()=>{
+      renderUMAP('seurat');
+      const scene=active.seurat?.c6Figure;
+      if(!scene){toast('Select at least one nucleus for export.');return;}
+      try{await global.SATB2_C6_FIGURE(scene,format,download);}catch(err){toast('Figure export failed. '+err.message);}
+    };
+    $('c6-font').oninput=()=>{state.c6Font=Number($('c6-font').value);touch();};
+    $('c6-mouse').onchange=()=>{state.c6Mouse=$('c6-mouse').value;touch();};
+    $('c6-focus').onchange=()=>{state.c6Focus=$('c6-focus').value;touch();};
+    $('c6-save-name').onclick=()=>{
+      const id=$('c6-edit-group').value, name=$('c6-name').value.trim();
+      if(!name){toast('Enter a label or choose Reset label.');return;}
+      state.c6Names={...state.c6Names,[id]:name};touch();
+    };
+    $('c6-reset-name').onclick=()=>{delete state.c6Names[$('c6-edit-group').value];touch();};
+    $('c6-color').oninput=()=>{
+      const id=$('c6-edit-group').value;
+      state.categoryColors.c6_program={...state.categoryColors.c6_program,[c6Category(id)]:$('c6-color').value};touch();
+    };
+    $('c6-edit-position').onclick=()=>{selectC6ForLayout();$('layout-cluster').scrollIntoView({block:'center'});$('layout-cluster').focus({preventScroll:true});};
+    $('c6-parent').onclick=()=>{state.annotation='cluster_id';syncControls();touch();};
+  }
+  function selectC6ForLayout(){
+    $('layout-tool').value='seurat';syncPresentationControls();
+    $('layout-cluster').value=$('c6-edit-group').value;loadLayoutEditor();
+  }
   function bindControls() {
+    bindC6Editor();
     document.querySelectorAll('[data-expression-shortcut]').forEach(b=>b.onclick=()=>applyExpressionQuickAction(b.dataset.expressionShortcut));
     for(const id of ['population','branch'])$(id).onchange=()=>{state[id]=$(id).value;persist();changeScope();};
     for(const[id,key]of Object.entries({basis:'basis',annotation:'annotation',palette:'palette','color-low':'low','color-mid':'mid','color-high':'high','point-size':'pointSize','overlay-gene':'overlayGene','marker-metric':'markerMetric','marker-condition':'markerCondition','marker-grouping':'markerGrouping'}))$(id).addEventListener('input',async()=>{state[key]=key==='pointSize'?Number($(id).value):$(id).value;if(key==='overlayGene'&&state.autoGene){state.annotation='gene';state.tab='umap';syncControls();}if(key==='markerCondition'&&state.markerCondition!=='ALL'){state.markerMetric='mean_log1p_normalized';$('marker-metric').value=state.markerMetric;}if(key==='markerMetric'&&state.markerCondition==='cKO'&&state.markerMetric==='scaled_expression_z'){state.markerMetric='mean_log1p_normalized';$('marker-metric').value=state.markerMetric;toast('cKO scaled z has no produced reference; showing mean log1p instead.');}const token=revision;if(key==='overlayGene'||key==='annotation')render();try{await ensureTabData(token);if(token===revision){$('fatal').hidden=true;touch();}}catch(err){error(err);}});
@@ -440,6 +553,8 @@
     if(manifest?.schema_version!=='satb2-offline-1')throw Error('Atlas manifest schema is missing or unsupported');
     state={...defaults(),...(manifest.defaults||{})};state.markers=manifest.defaults?.marker_ids||[];state.boxGenes=(mouseCatalog().genes||[]).filter(g=>['Satb2','Apool','Arhgap31','Pdia5'].includes(g.gene_symbol)).map(g=>g.gene_id);state.overlayGene=manifest.genes.find(g=>g.gene_symbol==='Cck')?.gene_id||manifest.genes[0]?.gene_id;
     if(!options.ignoreSavedState)try{const saved=JSON.parse(localStorage.getItem(STORAGE)||'null');if(saved?.schema_version==='satb2-offline-2'&&(!saved.source_fingerprint||saved.source_fingerprint===manifest.study?.source_fingerprint))state={...state,...saved.state};}catch(_){}
+    if(!headless && new URLSearchParams(global.location?.search).get('view')==='c6')
+      Object.assign(state,{population:'Inhibitory',branch:'original_full',annotation:'c6_program',tab:'umap',umapCondition:'ALL',umapProgram:'ALL',c6Focus:'all',c6Mouse:'all'});
     state.markerLimit=state.markerLimit===300?300:100000;normalizePlotState(state);
     if(!headless){for(const id of ['population','branch']){const target=$(id),items=manifest[id==='population'?'populations':'branches'];target.replaceChildren(...items.map(x=>option(x.id||x,x.label||x.id||x)));}const limit=$('marker-limit');limit.replaceChildren(option('300','300'),option('100000','All available ('+manifest.genes.length+')'));const genes=$('overlay-gene');genes.replaceChildren(...manifest.genes.map(g=>option(g.gene_id,g.gene_symbol||g.gene_id)));for(const q of manifest.qc_fields||[])$('annotation').append(option(q.key,'QC · '+q.label));for(const p of manifest.gene_sets||[])$('marker-preset').append(option(p.id,p.label));renderEndpointOptions();for(const d of manifest.downloads||[]){const a=node('a',d.label);a.href=d.path;a.setAttribute('download','');$('native-downloads').append(a);}$('provenance').textContent=manifest.study?.source_run||manifest.study?.notes||'Source-bound existing results';syncControls();bindControls();bindV2Controls();bindMarkerOrderControls();bindPlotControls();bindPresentationControls();}
     await changeScope({preserveTargets:true});return api;
@@ -450,7 +565,13 @@
   function mouseCatalog() {return global.SATB2_MOUSE_CATALOG||{genes:[],samples:[],fits:{},shards:{}};}
   function sourceSummaryRows(tool,condition) {const m=active[tool]?.markers;return condition==='WT'?m?.WT_rows||[]:condition==='cKO'?m?.cKO_rows||[]:m?.rows||[];}
   function overlayMap(tool) {return new Map(sourceSummaryRows(tool,state.overlayCondition).filter(r=>r.gene_id===state.overlayGene).map(r=>[String(r.cluster_id),r[state.overlayMetric]]));}
-  function umapIndices(tool) {const ns=nuclei(tool);return retainedIndices(tool).filter(i=>(state.umapCondition==='ALL'||ns[i].condition===state.umapCondition)&&(state.population!=='CA1_ProS'||state.umapProgram==='ALL'||displayedLayerProgram(tool,ns[i])===state.umapProgram));}
+  function c6Visible(tool,n) {
+    if(!splitC6(tool))return true;
+    if(state.c6Mouse!=='all' && n.sample!==state.c6Mouse)return false;
+    if(state.c6Focus==='parent')return String(n.cluster_id)==='6';
+    return !c6Programs[state.c6Focus] || mapCluster(tool,n)===state.c6Focus;
+  }
+  function umapIndices(tool) {const ns=nuclei(tool);return retainedIndices(tool).filter(i=>c6Visible(tool,ns[i]) && (state.umapCondition==='ALL'||ns[i].condition===state.umapCondition)&&(state.population!=='CA1_ProS'||state.umapProgram==='ALL'||displayedLayerProgram(tool,ns[i])===state.umapProgram));}
   function suggestionFor(tool,id) {const data=global.SATB2_ANNOTATION_SUGGESTIONS||{},rows=Array.isArray(data)?data:data.rows||data.suggestions||[];return rows.find(r=>r.tool===tool&&(r.population||r.category)===state.population&&String(r.original_cluster_id??r.cluster_id)===String(id));}
   function programmeFor(tool,id) {return (global.SATB2_ANNOTATION_SUGGESTIONS?.programme_suggestions||[]).find(r=>r.tool===tool&&r.population===state.population&&String(r.original_cluster_id)===String(id));}
   function syncViewControls() {if(headless)return;$('cluster-spacing').disabled=state.layoutMode==='hippocampus';$('spacing-value').textContent=state.spacing.toFixed(2)+(['packed','rounded'].includes(state.layoutMode)?' · island gap':' ×');$('umap-program').disabled=state.population!=='CA1_ProS';const labels=[...new Set(TOOLS.flatMap(t=>nuclei(t).map(n=>displayedLayerProgram(t,n)).filter(Boolean)))].sort();$('umap-program').replaceChildren(option('ALL','All CA1 programs'),...labels.map(l=>option(l,displayLabel(l))));if(!labels.includes(state.umapProgram))state.umapProgram='ALL';$('umap-program').value=state.umapProgram;const manual=state.dotRangeMode==='manual';$('dot-min').disabled=!manual;$('dot-max').disabled=!manual;}
@@ -494,6 +615,7 @@
     $('overlay-metric').value=state.overlayMetric;
     $('gene-expression-note').textContent=individual?'Each point uses that nucleus’s existing source counts, normalized with its complete source library when log1p is selected. Zero counts have a separate color; higher expression draws on top. Use “Nuclei shown on UMAP” to view WT or cKO. No embedding or model is refitted.':'Saved cluster summaries give every nucleus in a cluster its mean, detected fraction or produced z value. Overlay summary selects the saved cohort; it does not change the UMAP nucleus cohort or a DE fit.';
     $('umap-min').disabled=$('umap-max').disabled=state.umapRangeMode!=='manual';$('volcano-label-count').disabled=!state.volcanoLabels;$('volcano-low-y-max').disabled=state.volcanoView==='full';
+    syncC6Editor();
     const numeric=state.annotation==='gene'||(manifest.qc_fields||[]).some(q=>q.key===state.annotation),categories=numeric?[]:[...new Set(TOOLS.flatMap(t=>retainedIndices(t).map(i=>String(category(nuclei(t)[i],t)))))].sort(),target=$('category-color-target'),previous=target.value;
     target.replaceChildren(...(categories.length?categories.map(x=>option(x,displayLabel(x))):[option('','Choose categorical coloring first')]));if(categories.includes(previous))target.value=previous;target.disabled=!categories.length;$('apply-category-color').disabled=$('reset-category-color').disabled=!categories.length;
     const ct=$('layer-color-tool'),cc=$('layer-color-cluster');if(ct&&cc){const tool=ct.value||'seurat',old=cc.value,ids=clusterRows(tool).slice().sort((a,b)=>idSort(a.cluster_id,b.cluster_id));cc.replaceChildren(...ids.map(c=>option(String(c.cluster_id),'C'+c.cluster_id)));if(ids.some(c=>String(c.cluster_id)===old))cc.value=old;if(document.activeElement!==$('layer-cluster-color'))$('layer-cluster-color').value=state.colors[clusterKey(tool,cc.value)]||'#8a63a8';}
@@ -516,8 +638,8 @@
     for(const[id,mode]of [['marker-reverse','reverse'],['marker-alphabetical','alphabetical']])$(id).onclick=()=>{const order=markerGeneIds();state.markers=mode==='reverse'?order.reverse():order.sort((a,b)=>(manifest.genes.find(g=>g.gene_id===a)?.gene_symbol||a).localeCompare(manifest.genes.find(g=>g.gene_id===b)?.gene_symbol||b)||a.localeCompare(b));state.markerOrder='selection';state.markerPreset='';state.markerPage=0;touch();};
   }
 
-  function layoutScope(tool) {return JSON.stringify([tool,state.branch,state.population]);}
-  function layoutFrameKey() {return JSON.stringify([state.branch,state.population,state.basis,state.layoutMode,state.spacing,state.layoutRotation,state.layoutFlip]);}
+  function layoutScope(tool) {return JSON.stringify([tool,state.branch,splitC6(tool)?state.population+"/C6-split":state.population]);}
+  function layoutFrameKey() {return JSON.stringify([state.branch,state.population,state.basis,state.layoutMode,state.spacing,state.layoutRotation,state.layoutFlip,splitC6("seurat")]);}
   function layoutFrameBounds(tool,layout) {const v=views[tool],key=layoutFrameKey();if(v.frame?.key===key)return v.frame.bounds;if(v.frame)v.frame=null;return bounds(layout.points,'x','y');}
   function freezeLayoutFrame(tool) {const layout=presentationCoordinates(tool),key=layoutFrameKey(),b=layoutFrameBounds(tool,layout);views[tool].frame={key,bounds:{...b}};}
   function layoutOptions(tool) {
@@ -525,7 +647,11 @@
       flipX:state.layoutFlip,adjustments:state.layoutAdjustments[layoutScope(tool)]||{}};
   }
   function presentationCoordinates(tool) {
-    if(global.SATB2_LAYOUTS)return global.SATB2_LAYOUTS.transform(nuclei(tool),layoutOptions(tool));
+    if(global.SATB2_LAYOUTS){
+      const rows=nuclei(tool);
+      const displayRows=splitC6(tool) ? rows.map(n=>String(n.cluster_id)==='6'?{...n,cluster_id:mapCluster(tool,n)}:n) : rows;
+      return global.SATB2_LAYOUTS.transform(displayRows,layoutOptions(tool));
+    }
     return {points:global.SATB2_V2.transformCoordinates(nuclei(tool),state.basis,state.population==='Inhibitory'?state.spacing:1),notice:'',display_only:false,guide:null};
   }
   function normalizePresentation(s) {
@@ -557,7 +683,9 @@
     for(const[id,key]of Object.entries({'layout-mode':'layoutMode','layout-rotation':'layoutRotation','cluster-spacing':'spacing'}))if(document.activeElement!==$(id))$(id).value=state[key];
     document.querySelectorAll('[data-layout-preset]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.layoutPreset===state.layoutMode)));if($('arrange-status'))$('arrange-status').textContent=state.layoutMode==='original'?(state.layoutRotation||state.layoutFlip||TOOLS.some(t=>Object.values(state.layoutAdjustments[layoutScope(t)]||{}).some(a=>a.dx||a.dy||a.scale!==1))?'Adjusted display layout. Original coordinates stay saved.':'Original geometry. Select a cluster or click a nucleus, then use the arrows.'):['packed','compact'].includes(state.layoutMode)?'Display layout: inter-cluster distances altered. All nuclei retained.':'SCHEMATIC: geometry replaced for illustration; not original UMAP or anatomy.';
     $('layout-flip').checked=state.layoutFlip;$('layout-rotation-value').textContent=state.layoutRotation+'°';$('volcano-clean-pdf').checked=state.volcanoCleanPDF;
-    const tool=$('layout-tool').value||'seurat';fillSelect('layout-cluster',clusterRows(tool).slice().sort((a,b)=>idSort(a.cluster_id,b.cluster_id)).map(c=>({value:String(c.cluster_id),label:'C'+c.cluster_id+' · '+displayLabel(label(tool,c.cluster_id))})));
+    const tool=$('layout-tool').value||'seurat';const layoutIds=clusterRows(tool).slice().sort((a,b)=>idSort(a.cluster_id,b.cluster_id)).flatMap(c=>
+      splitC6(tool) && String(c.cluster_id)==='6' ? Object.keys(c6Programs) : [String(c.cluster_id)]);
+    fillSelect('layout-cluster',layoutIds.map(id=>({value:id,label:'C'+id+' · '+displayLabel(mapLabel(tool,id))})));
     if(!['layout-dx','layout-dy','layout-scale'].includes(document.activeElement?.id))loadLayoutEditor();
     const genes=state.markers.length?state.markers:manifest.genes.map(g=>g.gene_id);fillSelect('dot-style-gene',genes.map(id=>{const g=manifest.genes.find(x=>x.gene_id===id);return {value:id,label:(g?.gene_symbol||id)+' · '+id};}));
     const styleTool=$('dot-style-tool').value||'both',ids=[...new Set((styleTool==='both'?TOOLS:[styleTool]).flatMap(t=>clusterRows(t).map(c=>String(c.cluster_id))))].sort(idSort);
@@ -566,7 +694,7 @@
     if(!['dot-style-area','dot-style-opacity','dot-style-hide'].includes(document.activeElement?.id))loadDotStyleEditor();
   }
   function exportDisplayCoordinates() {
-    const rows=TOOLS.flatMap(tool=>{const layout=presentationCoordinates(tool),keep=new Set(umapIndices(tool));return layout.points.flatMap((p,i)=>keep.has(i)?[{tool,branch:state.branch,population:state.population,nucleus_id:nuclei(tool)[i].nucleus_id,cluster_id:nuclei(tool)[i].cluster_id,source_x:nuclei(tool)[i]['x_'+state.basis],source_y:nuclei(tool)[i]['y_'+state.basis],display_x:p.x,display_y:p.y,layout:state.layoutMode,display_only:layout.display_only,measured_spatial_coordinates:false}]:[]);});
+    const rows=TOOLS.flatMap(tool=>{const layout=presentationCoordinates(tool),keep=new Set(umapIndices(tool));return layout.points.flatMap((p,i)=>keep.has(i)?[{tool,branch:state.branch,population:state.population,nucleus_id:nuclei(tool)[i].nucleus_id,cluster_id:nuclei(tool)[i].cluster_id,display_cluster_id:mapCluster(tool,nuclei(tool)[i]),display_cluster_label:mapLabel(tool,mapCluster(tool,nuclei(tool)[i])),source_x:nuclei(tool)[i]['x_'+state.basis],source_y:nuclei(tool)[i]['y_'+state.basis],display_x:p.x,display_y:p.y,layout:state.layoutMode,display_only:layout.display_only,measured_spatial_coordinates:false}]:[]);});
     download('SATB2_display_coordinates_NOT_spatial_mapping.csv',csv(rows,Object.keys(rows[0]||{})),'text/csv;charset=utf-8');
   }
   function restoreLayout() {state.layoutMode='original';state.spacing=1;state.layoutRotation=0;state.layoutFlip=false;for(const tool of TOOLS)delete state.layoutAdjustments[layoutScope(tool)];for(const tool of TOOLS)views[tool]={zoom:1,panX:0,panY:0};syncControls();touch();}
