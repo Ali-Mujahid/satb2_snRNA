@@ -7,6 +7,7 @@ const LEAVES = "text,path,circle,rect,ellipse,line,polygon,polyline,image,use";
 const OBJECTS = LEAVES + ",g,a,svg";
 const GROUPS = "g,a,svg";
 const assetBase = window.POSTER_ASSET_BASE || document.baseURI;
+if(window.POSTER_ASSET_BASE)for(const a of document.querySelectorAll(".tree-source[href]"))a.href=new URL(a.getAttribute("href"),assetBase);
 const storageKey = location.pathname.replace(/index\.html$/,"").replace(/\/$/,"");
 const svgNode = (name, attrs={}) => {
   const node = document.createElementNS(NS,name);
@@ -15,6 +16,7 @@ const svgNode = (name, attrs={}) => {
 };
 let poster, original, selected=null, mode="object", zoom=1, drag=null;
 let undoStack=[], redoStack=[], cachedLayers=[], db=null, dirty=false, timer=0;
+let previousDraft=null;
 let saveNumber=0, saveChain=Promise.resolve(), sourceHash="", lastDraftID=null, storageBlocked=false;
 let generation=0, selectionBox=null, imageTarget=null;
 const short = s => s.replace(/\s+/g," ").trim().slice(0,92);
@@ -36,6 +38,47 @@ function validLink(value) {
   try { const url=new URL(value); return ["https:","http:","mailto:"].includes(url.protocol)?url.href:null; }
   catch { return null; }
 }
+
+const svgStyles=new Set(("fill fill-opacity fill-rule stroke stroke-opacity stroke-width stroke-linecap stroke-linejoin stroke-dasharray stroke-dashoffset stroke-miterlimit opacity color font-family font-weight font-size font-style text-anchor dominant-baseline alignment-baseline baseline-shift letter-spacing word-spacing text-decoration paint-order shape-rendering vector-effect clip-path clip-rule mask marker-start marker-mid marker-end stop-color stop-opacity display visibility").split(" "));
+function safeStyle(prop,value){
+  if(!svgStyles.has(prop)||/[@\\]|(?:expression|var|image)\s*\(/i.test(value))return false;
+  return !/url\s*\(/i.test(value) || /^url\(\s*['"]?#[\w.:-]+['"]?\s*\)(?:\s+(?:none|#[\da-f]+))?$/i.test(value);
+}
+function applyStaticSVGStyles(root){
+  // Illustrator and other vector editors commonly export class-based paint styles.
+  // Flatten static SVG declarations, so imported styles only affect their original elements.
+  const rules=[];
+  for(const node of root.querySelectorAll("style")){
+    try{
+      const sheet=new CSSStyleSheet();sheet.replaceSync(node.textContent.replace(/@import[^;]+;/gi,""));
+      for(const rule of sheet.cssRules){
+        if(!rule.selectorText||!rule.style)continue;
+        for(const selector of rule.selectorText.split(",")){
+          if(!/^[\w.#!* >:+~-]+$/.test(selector))continue;
+          const ids=(selector.match(/#/g)||[]).length,classes=(selector.match(/[.:]/g)||[]).length;
+          const tags=(selector.match(/(?:^|[ >+~])(?:[a-z][a-z0-9-]*)/ig)||[]).length;
+          rules.push({selector:selector.trim(),style:rule.style,score:ids*10000+classes*100+tags});
+        }
+      }
+    }catch{}
+    node.remove();
+  }
+  const declarations=new Map();
+  for(const {selector,style} of rules.sort((a,b)=>a.score-b.score)){
+    let matches;try{matches=[...root.querySelectorAll(selector)];if(root.matches(selector))matches.push(root);}catch{continue;}
+    for(const el of matches){
+      if(!el.style)continue;
+      const saved=declarations.get(el)||new Map();declarations.set(el,saved);
+      for(const prop of style){
+        const value=style.getPropertyValue(prop).trim(),priority=style.getPropertyPriority(prop);
+        if(safeStyle(prop,value) && (!saved.get(prop)?.priority || priority))saved.set(prop,{value,priority});
+      }
+    }
+  }
+  for(const [el,styles] of declarations)for(const [prop,item] of styles){
+    if(!el.style.getPropertyValue(prop)||(item.priority&&!el.style.getPropertyPriority(prop)))el.style.setProperty(prop,item.value,item.priority);
+  }
+}
 function prepared(source, importing=false) {
   const doc=new DOMParser().parseFromString(source,"image/svg+xml");
   const root=doc.documentElement;
@@ -43,6 +86,7 @@ function prepared(source, importing=false) {
     throw Error("Choose a valid SVG document.");
   if(importing) {
     // Accept static local artwork. Remove executable elements and external embedded resources.
+    applyStaticSVGStyles(root);
     const allow=new Set(("svg g a defs title desc metadata symbol use rect circle ellipse line polygon polyline path image " +
       "text tspan textPath linearGradient radialGradient stop clipPath mask pattern marker").split(" "));
     for(const el of [root,...root.querySelectorAll("*")]) {
@@ -50,6 +94,10 @@ function prepared(source, importing=false) {
       if(el.localName==="metadata")el.textContent=el.textContent;
       for(const a of [...el.attributes]) {
         const v=a.value.trim(), key=a.localName.toLowerCase();
+        if(key==="style"){
+          for(const prop of [...el.style])if(!safeStyle(prop,el.style.getPropertyValue(prop)))el.style.removeProperty(prop);
+          continue;
+        }
         if(key.startsWith("on") || ["base","target","tabindex"].includes(key)){el.removeAttributeNode(a);continue;}
         if(key==="href") {
           const permitted=v.startsWith("#") || (el.localName==="a" && validLink(v)) ||
@@ -87,6 +135,12 @@ function fromDB(key) {
     req.onsuccess=()=>resolve(req.result);req.onerror=()=>reject(req.error);
   });
 }
+function keepPrevious(draft){
+  return new Promise((resolve,reject)=>{
+    const tx=db.transaction("drafts","readwrite");tx.objectStore("drafts").put(draft,storageKey+"::previous-edition");
+    tx.oncomplete=resolve;tx.onabort=tx.onerror=()=>reject(tx.error || Error("Could not preserve earlier draft."));
+  });
+}
 function writeDraft(draft) {
   return new Promise((resolve,reject)=>{
     const tx=db.transaction("drafts","readwrite"), store=tx.objectStore("drafts");
@@ -122,6 +176,281 @@ function flush() {
 }
 document.addEventListener("visibilitychange",()=>{if(document.hidden)flush();});
 window.addEventListener("beforeunload",e=>{if(dirty){flush();e.preventDefault();e.returnValue="";}});
+
+function commitField(){
+  const a=document.activeElement;
+  if(a && a.closest("#props") && a.matches("input,textarea,select") && !a.closest("#mouseValues"))a.blur();
+}
+document.addEventListener("pointerdown",e=>{
+  if(e.target.closest("#artwork,#selection"))commitField();
+},true);
+$("applyEdit").onclick=()=>{
+  if(!selected)return;
+  if($("seriesSect").hidden===false && pendingMouseValues())applyMouseValues();
+  else {commitField();notice(dirty?"Saving locally…":"Current properties applied");}
+};
+document.getElementById("props").addEventListener("keydown",e=>{
+  const active=e.target;
+  if(e.key==="Enter" && (active.matches("input:not([type=color])")||active.matches("textarea")&&(e.ctrlKey||e.metaKey))){
+    e.preventDefault();if(active.closest("#mouseValues"))applyMouseValues();else active.blur();
+  }
+});
+function nameOf(el){return el.dataset.label || el.id || el.localName;}
+function jumpOptions(){
+  const menu=$("figureJump");menu.replaceChildren(new Option("Select figure…",""));
+  let list=menu;
+  for(const el of cachedLayers){
+    if(el.dataset.role==="section"){
+      list=document.createElement("optgroup");list.label=nameOf(el);menu.append(list);
+      list.append(new Option("Section · "+nameOf(el),String(cachedLayers.indexOf(el))));
+    }else if(group(el)&&["figure","boxplot","boxplot-series"].includes(el.dataset.role)){
+      list.append(new Option(nameOf(el),String(cachedLayers.indexOf(el))));
+    }
+  }
+}
+function centerOnSelection(){
+  if(!selected)return;
+  const stage=$("stage"),s=stage.getBoundingClientRect(),b=selected.getBoundingClientRect();
+  stage.scrollBy({left:b.left+b.width/2-s.left-s.width/2,top:b.top+b.height/2-s.top-s.height/2,behavior:"instant"});
+  controlsBox();
+}
+function focusSelection(){
+  if(!selected)return;
+  const box=bounds(selected),stage=$("stage"),v=poster.viewBox.baseVal;
+  const availableW=Math.max(80,stage.clientWidth-60),availableH=Math.max(80,stage.clientHeight-60);
+  const factor=Math.min(availableW/Math.max(32,box.w),availableH/Math.max(26,box.h))*v.width/baseWidth();
+  setZoom(Math.min(12,factor));centerOnSelection();
+}
+$("focusSelection").onclick=focusSelection;
+$("figureJump").onchange=e=>{
+  if(e.target.value==="")return;select(cachedLayers[Number(e.target.value)]);focusSelection();
+};
+$("mobileSheet").onclick=()=>{
+  const inspector=document.querySelector(".inspector"),open=inspector.classList.toggle("expanded");
+  $("mobileSheet").textContent=open?"Collapse":"Expand";$("mobileSheet").setAttribute("aria-expanded",String(open));
+};
+$("touchMove").onchange=()=>$("stage").classList.toggle("touch-move",$("touchMove").checked);
+new ResizeObserver(es=>document.documentElement.style.setProperty("--mast-height",Math.ceil(es[0].target.getBoundingClientRect().height)+"px")).observe(document.querySelector(".mast"));
+function arrange(front){
+  const n=selected;if(!n)return;
+  const siblings=[...n.parentElement.children].filter(e=>e!==n&&eligible(e));
+  if(!siblings.length)return;
+  const p=n.parentNode,next=n.nextSibling;
+  const target=front?siblings.at(-1).nextSibling:siblings[0];
+  if(target===n||target===next)return;
+  adopt({forward(){p.insertBefore(n,target?.parentNode===p?target:null);selected=n;},
+    back(){p.insertBefore(n,next?.parentNode===p?next:null);selected=n;},structure:true});
+}
+$("bringFront").onclick=()=>arrange(true);$("sendBack").onclick=()=>arrange(false);
+for(const btn of document.querySelectorAll("[data-nudge]"))btn.onclick=()=>{
+  if(!selected)return;
+  const step=Number($("nudgeStep").value);if(!(step>0)||!Number.isFinite(step))return;
+  const [x,y]=btn.dataset.nudge.split(",").map(Number);
+  applyTransform(selected,new DOMMatrix().translate(x*step,y*step));
+};
+let groupPalette=[], rememberedTarget=null;
+function paletteKey(value){
+  if(value==="none"||value==="transparent"||!value)return null;
+  if(value.startsWith("url("))return value;
+  if(value.startsWith("rgb")||value.startsWith("#"))return hexColor(value);
+  return null;
+}
+function paletteNodes(root){
+  return [...root.querySelectorAll(LEAVES+",tspan")].filter(n=>eligible(n)||n.matches("tspan")&&!n.closest("defs"));
+}
+function paletteFor(root){
+  const values=new Map();
+  for(const el of paletteNodes(root)){
+    if(el.matches("image"))continue;
+    for(const prop of ["fill","stroke"]){
+      if(prop==="fill"&&el.matches("line,polyline,[data-role='umap-series']"))continue;
+      const key=paletteKey(styleValue(el,prop));if(!key)continue;
+      if(!values.has(key))values.set(key,[]);
+      values.get(key).push([el,prop]);
+    }
+  }
+  return [...values].map(([value,entries])=>({value,entries}));
+}
+function paletteLabel(value){
+  if(!value.startsWith("url("))return value.toUpperCase();
+  const id=value.match(/#([^)'"]+)/)?.[1];return id?"Gradient · "+id:"Gradient";
+}
+
+let mouseDraft=null, activeSeries=null;
+function arrayAttr(el,key){try{return JSON.parse(el.getAttribute(key)||"[]");}catch{return [];}}
+function pendingMouseValues(){
+  if(!mouseDraft || !poster?.contains(mouseDraft))return false;
+  const values=arrayAttr(mouseDraft,"data-values");
+  return [...$("mouseValues").querySelectorAll("input")].some((node,i)=>node.value===""||Number(node.value)!==Number(values[i]));
+}
+function boxFor(el){
+  return el?.closest('[data-role="boxplot"]') ||
+    (el?.matches('[data-role="figure"]')&&el.querySelector('[data-role="boxplot"]')) || null;
+}
+function updateBoxInspector(){
+  const box=boxFor(selected);
+  shown("seriesSect",!!box);
+  if(!box){activeSeries=null;mouseDraft=null;return;}
+  const series=[...box.querySelectorAll('[data-role="boxplot-series"]')];
+  if(!series.length){shown("seriesSect",false);mouseDraft=null;return;}
+  const child=selected.closest('[data-role="boxplot-series"]');
+  if(!box.contains(activeSeries))activeSeries=child||series[0];
+  const picker=$("seriesSelect");picker.replaceChildren();
+  for(const [i,node] of series.entries())picker.add(new Option(node.dataset.layer||nameOf(node),String(i)));
+  picker.value=String(series.indexOf(activeSeries));
+  const values=arrayAttr(activeSeries,"data-values"),mice=arrayAttr(activeSeries,"data-mice");
+  if(mouseDraft===activeSeries&&$("mouseValues").dataset.source===JSON.stringify(values))return;
+  mouseDraft=activeSeries;
+  const host=$("mouseValues");host.replaceChildren();host.dataset.source=JSON.stringify(values);
+  for(const [i,v] of values.entries()){
+    const lab=document.createElement("label"),field=document.createElement("input");
+    lab.textContent=mice[i]??"Mouse "+(i+1);field.type="number";field.min="0";field.max="1000000";field.step="any";
+    field.value=v;field.dataset.mouseIndex=i;lab.append(field);host.append(lab);
+  }
+  $("seriesMessage").textContent="CPM edits update points, quartiles, whiskers and the paired summary.";
+}
+function quantile(values,q){
+  const sorted=[...values].sort((a,b)=>a-b),ix=(sorted.length-1)*q,lo=Math.floor(ix);
+  return sorted[lo]+(sorted[Math.ceil(ix)]-sorted[lo])*(ix-lo);
+}
+function cpmDomain(values,count){
+  const min=Math.min(...values),max=Math.max(...values);
+  const raw=Math.max(max-min,1)/(count-1),magnitude=Math.pow(10,Math.floor(Math.log10(raw)));
+  for(const factor of [1,2,2.5,5,10,20,25]){
+    const step=factor*magnitude,lower=Math.max(0,Math.floor(min/step)*step);
+    if(lower+step*(count-1)>=max-1e-8)return [lower,lower+(count-1)*step];
+  }
+  return [0,Math.ceil(max+1)];
+}
+function setMarkAxis(el,axis,value){
+  if(el.matches("circle,ellipse"))return [[el,axis==="x"?"cx":"cy",value]];
+  const b=el.getBBox(),cx=axis==="x"?value:b.x+b.width/2,cy=axis==="y"?value:b.y+b.height/2;
+  if(!["rect","diamond","triangle"].includes(shapeKind(el)))return [];
+  return Object.entries(symbolGeometry(shapeKind(el),cx,cy,b.width,b.height)).map(([k,v])=>[el,k,v]);
+}
+function applyMouseValues(){
+  const series=mouseDraft,box=series&&boxFor(series);if(!box)return false;
+  const fields=[...$("mouseValues").querySelectorAll("input")];
+  const invalid=fields.find(f=>!f.value.trim() || !finite(f.value) || +f.value<0 || +f.value>1e6);
+  if(invalid){$("seriesMessage").textContent="Enter a CPM between 0 and 1,000,000 for each mouse.";invalid.focus();return false;}
+  if(!pendingMouseValues())return true;
+  const input=fields.map(f=>Number(f.value)), all=[...box.querySelectorAll('[data-role="boxplot-series"]')];
+  const vector=node=>node===series?input:arrayAttr(node,"data-values").map(Number);
+  const pool=all.flatMap(vector);
+  if(pool.some(v=>!Number.isFinite(v)))return false;
+  const ticks=[...box.querySelectorAll("[data-box-tick]")];
+  const tickValues=ticks.map(t=>Number(t.querySelector("text")?.textContent.replaceAll(",","").replace("−","-")));
+  const origin=Number(box.dataset.yOrigin),base=Number(box.dataset.yMin),scale=Number(box.dataset.yScale);
+  if(!Number.isFinite(origin)||!Number.isFinite(base)||!(scale>0))return false;
+  const oldTop=tickValues.length>=2&&tickValues.every(Number.isFinite)?Math.max(...tickValues):base+100;
+  const height=(oldTop-base)*scale;
+  const needsRescale=pool.some(v=>v<base||v>oldTop);
+  let lo=base,hi=oldTop;
+  if(needsRescale){
+    if(ticks.length<2){$("seriesMessage").textContent="Enter values within the displayed CPM range ("+base+"–"+oldTop+").";return false;}
+    [lo,hi]=cpmDomain(pool,ticks.length);
+  }
+  const sy=height/(hi-lo),map=v=>origin-(v-lo)*sy;
+  const changes=[[series,"data-values",JSON.stringify(input)]], edits=[];
+  if(needsRescale){
+    changes.push([box,"data-y-min",lo],[box,"data-y-scale",sy]);
+    const ascending=tickValues[0]<=tickValues.at(-1);
+    ticks.forEach((t,i)=>{
+      const fraction=(ascending?i:ticks.length-1-i)/(ticks.length-1),v=lo+fraction*(hi-lo);
+      const n=t.querySelector("line"),label=t.querySelector("text");
+      changes.push([t,"data-box-tick",round(v)]);
+      if(label)edits.push(textAction(label,String(round(v))));
+      if(n&&label){
+        const delta=numeric(label,"y",0)-numeric(n,"y1",0),y=map(v);
+        changes.push([n,"y1",y],[n,"y2",y],[label,"y",y+delta]);
+      }
+    });
+  }
+  for(const item of all){
+    if(item!==series&&!needsRescale)continue;
+    const values=vector(item),mice=arrayAttr(item,"data-mice");
+    if(!values.length)continue;
+    const q1=quantile(values,.25),median=quantile(values,.5),q3=quantile(values,.75),iqr=q3-q1;
+    const lower=Math.min(...values.filter(v=>v>=q1-1.5*iqr)),upper=Math.max(...values.filter(v=>v<=q3+1.5*iqr));
+    for(const mark of item.querySelectorAll("[data-box-part]")){
+      const part=mark.dataset.boxPart;
+      if(part==="point"){
+        const ix=Number(mark.dataset.index);if(!Number.isInteger(ix)||ix<0||ix>=values.length)continue;
+        changes.push(...setMarkAxis(mark,"y",map(values[ix])));
+        edits.push(toolTip(mark,(mice[ix]??"Mouse "+(ix+1))+" · "+round(values[ix])+" CPM"));
+      } else if(part==="box") changes.push([mark,"y",map(q3)],[mark,"height",map(q1)-map(q3)]);
+      else {
+        const limits={"median":[median,median],"low-whisker":[lower,q1],"high-whisker":[q3,upper],"low-cap":[lower,lower],"high-cap":[upper,upper]}[part];
+        if(limits)changes.push([mark,"y1",map(limits[0])],[mark,"y2",map(limits[1])]);
+      }
+    }
+  }
+  const deep=all.find(n=>n.dataset.layer?.toLowerCase()==="deep"),sup=all.find(n=>n.dataset.layer?.toLowerCase()==="superficial"),summary=box.querySelector('[data-box-summary="paired"]');
+  if(deep&&sup&&summary){
+    const deepValues=vector(deep),supValues=vector(sup),superByID=new Map(arrayAttr(sup,"data-mice").map((id,i)=>[id,supValues[i]]));
+    const pairs=arrayAttr(deep,"data-mice").map((id,i)=>[deepValues[i],superByID.get(id)]).filter(([a,b])=>Number.isFinite(a)&&Number.isFinite(b));
+    const ratios=pairs.filter(([a])=>a>0).map(([a,b])=>b/a),higher=pairs.filter(([a,b])=>b>a).length;
+    const ratio=ratios.length?"median ratio "+quantile(ratios,.5).toFixed(2)+"×"+(ratios.length!==pairs.length?" (n="+ratios.length+")":""):"ratio undefined";
+    edits.push(textAction(summary,"Higher in "+higher+"/"+pairs.length+" WT mice · "+ratio+"."));
+  }
+  mouseDraft=null;combined([attributeAction(changes),...edits]);return true;
+}
+$("seriesSelect").onchange=()=>{
+  const box=boxFor(selected);if(!box)return;
+  const target=box.querySelectorAll('[data-role="boxplot-series"]')[Number($("seriesSelect").value)];
+  if(pendingMouseValues()&&!applyMouseValues())return;
+  if(target){activeSeries=target;mouseDraft=null;select(target);}
+};
+$("applySeries").onclick=()=>applyMouseValues();
+function updatePalette(){
+  const gr=group(selected);shown("paletteSect",gr);shown("leafPaint",!gr);shown("groupType",gr&&!!selected.querySelector("text"));
+  $("noFill").hidden=gr;$("noStroke").hidden=gr;
+  if(!gr){groupPalette=[];gradientControls(styleValue(selected,"fill"));return;}
+  groupPalette=paletteFor(selected);
+  const menu=$("paintTarget");menu.replaceChildren();
+  for(const [i,entry] of groupPalette.entries())menu.add(new Option(paletteLabel(entry.value)+" · "+entry.entries.length+" marks",String(i)));
+  const remembered=groupPalette.findIndex(entry=>entry.value===rememberedTarget);
+  menu.value=String(remembered>=0?remembered:0);setPicker();
+}
+let gradientStops=[];
+function gradientControls(value){
+  const id=value?.match(/^url\([^#]*#([^)'"]+)/)?.[1];
+  const grad=id&&poster.querySelector("#"+CSS.escape(id));
+  gradientStops=grad&&grad.matches("linearGradient,radialGradient")?[...grad.querySelectorAll(":scope > stop")]:[];
+  shown("gradientSect",gradientStops.length>0);
+  const index=Number($("gradientStop").value)||0;
+  $("gradientStop").replaceChildren();
+  for(const [i,stop] of gradientStops.entries()){
+    const v=stop.getAttribute("offset")||"0";
+    const percent=v.endsWith("%")?parseFloat(v):parseFloat(v)*100;
+    $("gradientStop").add(new Option(round(percent)+"% · stop "+(i+1),String(i)));
+  }
+  if(gradientStops.length){$("gradientStop").value=String(Math.min(index,gradientStops.length-1));showStopColor();}
+}
+function showStopColor(){const stop=gradientStops[Number($("gradientStop").value)];if(stop)setVal("gradientColor",hexColor(styleValue(stop,"stop-color")));}
+$("gradientStop").onchange=showStopColor;
+$("gradientColor").onchange=()=>{const stop=gradientStops[Number($("gradientStop").value)];if(stop)attrs(styleChanges(stop,"stop-color",$("gradientColor").value));};
+function setPicker(){
+  const e=groupPalette[Number($("paintTarget").value)];$("replacePaint").disabled=!e;
+  gradientControls(e?.value);if(e){rememberedTarget=e.value;setVal("replacementColor",hexColor(e.value,"#35847a"));}
+}
+$("paintTarget").onchange=setPicker;
+$("replacePaint").onclick=()=>{
+  const entry=groupPalette[Number($("paintTarget").value)];
+  if(!entry||!selected)return;
+  const next=$("replacementColor").value;
+  rememberedTarget=next;
+  attrs(entry.entries.flatMap(([el,prop])=>styleChanges(el,prop,next)));
+};
+$("scaleText").onclick=()=>{
+  const value=Number($("groupFontScale").value);if(!group(selected)||!(value>0)||value>1000)return;
+  const entries=[];
+  for(const t of selected.querySelectorAll("text,tspan[font-size],tspan[style*='font-size']")){
+    const size=parseFloat(styleValue(t,"font-size"));if(size>0)entries.push(...styleChanges(t,"font-size",round(size*value/100)));
+  }
+  attrs(entries);
+};
+
 function buttons(){ $("undo").disabled=!undoStack.length; $("redo").disabled=!redoStack.length; }
 function adopt(action,alreadyApplied=false) {
   if(!alreadyApplied)action.forward();
@@ -134,9 +463,16 @@ function afterChange(structure=false){
   refresh();saveSoon();
 }
 function attributeAction(changes) {
-  const ops=changes.map(([el,key,value])=>({el,key,next:value==null?null:String(value),prev:el.getAttribute(key)})).filter(o=>o.prev!==o.next);
+  const ops=changes.map(([el,key,value])=>{
+    const prop=key.startsWith("inline:")?key.slice(7):null;
+    return {el,key,prop,next:value==null?null:String(value),prev:prop?el.style.getPropertyValue(prop)||null:el.getAttribute(key),
+      priority:prop?el.style.getPropertyPriority(prop):""};
+  }).filter(o=>o.prev!==o.next);
   if(!ops.length)return null;
-  const set=(o,v)=>{if(v===null)o.el.removeAttribute(o.key);else o.el.setAttribute(o.key,v);};
+  const set=(o,v)=>{
+    if(o.prop){if(v===null)o.el.style.removeProperty(o.prop);else o.el.style.setProperty(o.prop,v,o.priority);}
+    else if(v===null)o.el.removeAttribute(o.key);else o.el.setAttribute(o.key,v);
+  };
   return {forward:()=>ops.forEach(o=>set(o,o.next)),back:()=>[...ops].reverse().forEach(o=>set(o,o.prev))};
 }
 function attrs(changes) {const action=attributeAction(changes);if(action)adopt(action);}
@@ -164,8 +500,9 @@ function clicked(target) {
   return el;
 }
 function select(el) {
+  if(el!==selected){commitField();if(pendingMouseValues()&&!applyMouseValues())return false;rememberedTarget=null;mouseDraft=null;activeSeries=el?.closest('[data-role="boxplot-series"]')||null;}
   selected=eligible(el)?el:null;
-  refresh();
+  refresh();return true;
 }
 function domMatrix(m){return new DOMMatrix([m.a,m.b,m.c,m.d,m.e,m.f]);}
 function world(el) {return domMatrix(poster.getScreenCTM()).inverse().multiply(domMatrix(el.getScreenCTM()));}
@@ -201,7 +538,8 @@ function pointValue(el){return el?.dataset.role==="xy-point";}
 function refresh(){
   shown("empty",!selected);shown("props",!!selected);controlsBox();
   for(const b of $("layersList").querySelectorAll(".active"))b.classList.remove("active");
-  if(!selected) return;
+  if(!selected){$("figureJump").value="";return;}
+  $("figureJump").value=String(cachedLayers.indexOf(selected.closest('[data-role="boxplot-series"],[data-role="figure"],[data-role="boxplot"],[data-role="section"]')));
   const activeIndex=cachedLayers.indexOf(selected);
   if(activeIndex>=0)$("layersList").querySelector('[data-index="'+activeIndex+'"]')?.classList.add("active");
   $("kind").textContent=role(selected);$("name").textContent=label(selected);
@@ -220,7 +558,10 @@ function refresh(){
   if(dots.length){setVal("plotRadius",dotMeta(dots[0],"radius-max","7"));setVal("plotLow",hexColor(dotMeta(dots[0],"color-low","#f1f1eb")));setVal("plotHigh",hexColor(dotMeta(dots[0],"color-high","#08695f")));}
   const sk=shapeKind(selected);shown("shapeSect",["circle","ellipse","rect","diamond","triangle"].includes(sk));setVal("shape",sk);
   const sample=group(selected)?[...selected.querySelectorAll(LEAVES)].find(n=>styleValue(n,"fill")!=="none")||selected:selected;
-  setVal("fill",hexColor(styleValue(sample,"fill")));setVal("stroke",hexColor(styleValue(sample,"stroke"),"#254849"));
+  const strokeOnly=selected.dataset.role==="umap-series"||selected.localName==="line";
+  $("fillCaption").textContent=strokeOnly?"Mark color":"Fill";
+  updatePalette();updateBoxInspector();
+  setVal("fill",hexColor(styleValue(sample,strokeOnly?"stroke":"fill")));setVal("stroke",hexColor(styleValue(sample,"stroke"),"#254849"));
   setVal("strokeWidth",round(parseFloat(styleValue(sample,"stroke-width"))||0));
   setVal("opacity",round(parseFloat(styleValue(selected,"opacity"))*100));
   const code=selected.matches("path")?"d":selected.matches("polygon,polyline")?"points":null;
@@ -230,7 +571,7 @@ function rebuildLayers(){
   if(!poster)return;
   // Avoid constructing thousands of DOM buttons; all editable primitives remain reachable on the canvas.
   cachedLayers=[...poster.querySelectorAll(OBJECTS)].filter(eligible);
-  renderLayers();
+  renderLayers();jumpOptions();
 }
 function renderLayers(){
   const q=$("layerSearch").value.trim().toLowerCase(), host=$("layersList");
@@ -250,6 +591,7 @@ function renderLayers(){
 function setLayers(open){shown("layers",open);$("layersToggle").setAttribute("aria-expanded",String(open));requestAnimationFrame(setSize);}
 $("layersToggle").onclick=()=>setLayers($("layers").hidden);$("closeLayers").onclick=()=>setLayers(false);$("browse").onclick=()=>setLayers(true);
 $("layersList").onclick=e=>{const b=e.target.closest("button[data-index]");if(!b)return;select(cachedLayers[+b.dataset.index]);
+  if(matchMedia("(max-width:720px)").matches)setLayers(false);
   if(selected)selected.scrollIntoView({block:"nearest",inline:"nearest",behavior:"instant"});controlsBox();};
 $("layerSearch").oninput=renderLayers;
 function matrixText(m){return "matrix("+[m.a,m.b,m.c,m.d,m.e,m.f].map(v=>+v.toFixed(8)).join(" ")+")";}
@@ -301,12 +643,10 @@ function textAction(el,value) {
 }
 $("copy").onchange=()=>{if(selected&&textNode(selected)){const action=textAction(textNode(selected),$("copy").value.replace(/[\r\n]+/g," "));if(action)adopt(action);}};
 function styleChanges(el,prop,val) {
-  // Inline CSS inside imported diagrams takes precedence over presentation attributes.
-  const copy=el.cloneNode(false);if(copy.style.getPropertyValue(prop))copy.style.removeProperty(prop);
-  const out=[];
-  if(copy.getAttribute("style")!==el.getAttribute("style"))out.push([el,"style",copy.getAttribute("style")||null]);
-  out.push([el,prop,val]);
-  return out;
+  const changes=[];
+  if(el.style.getPropertyValue(prop))changes.push([el,"inline:"+prop,null]);
+  changes.push([el,prop,val]);
+  return changes;
 }
 for(const [id,prop] of [["font","font-family"],["fontSize","font-size"],["weight","font-weight"]]) {
   $(id).onchange=()=>{const el=selected&&textNode(selected),v=$(id).value.trim();if(!el||!v||id==="fontSize"&&(!finite(v)||+v<=0))return refresh();attrs(styleChanges(el,prop,v));};
@@ -318,7 +658,7 @@ function paint(prop,value) {
   if(!nodes.length){if(group(selected)&&prop==="stroke"){for(const n of selected.querySelectorAll(LEAVES))if(!n.matches("image"))nodes.push(n);}else if(!group(selected))nodes.push(selected);}
   const changes=nodes.flatMap(el=>styleChanges(el,prop,value));attrs(changes);
 }
-$("fill").onchange=()=>paint("fill",$("fill").value);$("stroke").onchange=()=>paint("stroke",$("stroke").value);
+$("fill").onchange=()=>paint(selected?.dataset.role==="umap-series"||selected?.localName==="line"?"stroke":"fill",$("fill").value);$("stroke").onchange=()=>paint("stroke",$("stroke").value);
 $("noFill").onclick=()=>paint("fill","none");$("noStroke").onclick=()=>paint("stroke","none");
 $("strokeWidth").onchange=()=>{if(finite($("strokeWidth").value)&&+$("strokeWidth").value>=0)paint("stroke-width",$("strokeWidth").value);else refresh();};
 $("opacity").onchange=()=>{if(selected&&finite($("opacity").value))attrs(styleChanges(selected,"opacity",Math.max(0,Math.min(100,+$("opacity").value))/100));else refresh();};
@@ -391,7 +731,7 @@ for(const [id,axis] of [["pointX","x"],["pointY","y"]])$(id).onchange=()=>{
   const el=selected;if(!pointValue(el)||!finite($(id).value))return refresh();
   const value=+$(id).value,origin=+el.getAttribute("data-"+axis+"-origin"),scale=+el.getAttribute("data-"+axis+"-scale");
   const x=axis==="x"?value:+el.dataset.xValue,y=axis==="y"?value:+el.dataset.yValue;
-  const entries=[[el,"data-"+axis+"-value",value],[el,axis==="x"?"cx":"cy",origin+scale*value]];
+  const entries=[[el,"data-"+axis+"-value",value],...setMarkAxis(el,axis,origin+scale*value)];
   const color=y>x?el.dataset.colorY:el.dataset.colorX;if(color)entries.push(...styleChanges(el,"fill",color));
   combined([attributeAction(entries),toolTip(el,label(el)+" · x "+x+" · y "+y)]);
 };
@@ -435,17 +775,21 @@ function startDrag(e,corner=null) {
     if(stack.length)el=stack[(stack.indexOf(selected)+1)%stack.length];
   }
   if(!el){if(!$("paper").contains(e.target)||e.target===$("artwork")||e.target===poster)select(null);return;}
-  select(el);
+  if(!select(el))return;
   const state=transformState(el);
   drag={el,state,corner,id:e.pointerId,origin:pointerWorld(e),client:[e.clientX,e.clientY], moved:false};
-  if(e.pointerType!=="touch")e.preventDefault();
-  $("stage").setPointerCapture(e.pointerId);
+  if(e.pointerType!=="touch"){
+    e.preventDefault();$("stage").focus({preventScroll:true});
+  }
 }
 function duringDrag(e) {
   if(!drag||e.pointerId!==drag.id)return;
   const {el,state,corner,origin}=drag,p=pointerWorld(e);
   if(!drag.moved && Math.hypot(e.clientX-drag.client[0],e.clientY-drag.client[1])<4)return;
-  drag.moved=true;$("stage").classList.add("is-dragging");
+  if(!drag.moved){
+    try{$("stage").setPointerCapture(e.pointerId);}catch{}
+    drag.moved=true;$("stage").classList.add("is-dragging");
+  }
   let m;const dx=p.x-origin.x,dy=p.y-origin.y;
   if(corner===null)m=new DOMMatrix().translate(dx,dy);
   else{
@@ -471,7 +815,7 @@ function endDrag(e) {
 }
 $("artwork").addEventListener("pointerdown",e=>startDrag(e));
 $("selection").querySelectorAll("i").forEach((h,i)=>h.onpointerdown=e=>startDrag(e,i));
-$("stage").onpointermove=duringDrag;$("stage").onpointerup=endDrag;$("stage").onpointercancel=cancelDrag;
+window.addEventListener("pointermove",duringDrag);window.addEventListener("pointerup",endDrag);window.addEventListener("pointercancel",cancelDrag);
 $("artwork").onclick=e=>{if(e.target.closest("a"))e.preventDefault();};
 $("artwork").ondblclick=e=>{
   if(!poster)return;const el=e.target.closest("text")||clicked(e.target);if(!el)return;
@@ -535,6 +879,7 @@ function cloneSelection(){
   for(const x of [clone,...clone.querySelectorAll("[id]")])if(x.id){ids.set(x.id,x.id+suffix);x.id+=suffix;}
   for(const x of [clone,...clone.querySelectorAll("*")])for(const a of [...x.attributes]){
     if(a.name==="id")continue;
+    if(a.name==="data-value-label"&&ids.has(a.value))a.value=ids.get(a.value);
     if(a.localName==="href"&&a.value.startsWith("#")&&ids.has(a.value.slice(1)))a.value="#"+ids.get(a.value.slice(1));
     else if(a.value.includes("url(#"))a.value=a.value.replace(/url\(#([^)]+)\)/g,(m,id)=>ids.has(id)?"url(#"+ids.get(id)+")":m);
   }
@@ -562,13 +907,27 @@ function baseWidth(){
   const stage=$("stage"),cs=getComputedStyle(stage);return Math.max(110,stage.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight));
 }
 function setSize(){if(!poster)return;$("paper").style.width=round(baseWidth()*zoom)+"px";controlsBox();}
-function setZoom(n){zoom=Math.min(8,Math.max(.15,n));$("zoomLevel").textContent=Math.round(zoom*100)+"%";setSize();}
+function setZoom(n){
+  const stage=$("stage"),view=stage.getBoundingClientRect();
+  const old=poster?.getScreenCTM();
+  const center=old?new DOMPoint(view.left+view.width/2,view.top+view.height/2).matrixTransform(old.inverse()):null;
+  zoom=Math.min(12,Math.max(.15,n));$("zoomLevel").textContent=Math.round(zoom*100)+"%";setSize();
+  if(selected)centerOnSelection();
+  else if(center){
+    const current=center.matrixTransform(poster.getScreenCTM());
+    stage.scrollBy({left:current.x-view.left-view.width/2,top:current.y-view.top-view.height/2,behavior:"instant"});
+  }
+}
 $("zoomIn").onclick=()=>setZoom(zoom*1.25);$("zoomOut").onclick=()=>setZoom(zoom/1.25);
 $("zoomLevel").onclick=()=>setZoom(1);$("fit").onclick=()=>{
   if(!poster)return;const v=poster.viewBox.baseVal,s=$("stage"),cs=getComputedStyle(s);
   setZoom(Math.min(1,(s.clientHeight-parseFloat(cs.paddingTop)-parseFloat(cs.paddingBottom))*v.width/v.height/baseWidth()));s.scrollTo(0,0);
 };
-new ResizeObserver(setSize).observe($("stage"));
+let resizeFrame=0;
+new ResizeObserver(()=>{
+  cancelAnimationFrame(resizeFrame);
+  resizeFrame=requestAnimationFrame(()=>{setSize();if(selected&&!drag)centerOnSelection();});
+}).observe($("stage"));
 function saveFile(blob,name) {
   const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download=name;a.click();
   setTimeout(()=>URL.revokeObjectURL(url),30000);
@@ -605,6 +964,16 @@ $("restore").onclick=()=>{if(poster)$("confirmReset").showModal();};$("cancelRes
 $("confirmRestore").onclick=()=>{
   $("confirmReset").close();mount(prepared(original));undoStack=[];redoStack=[];buttons();saveSoon();
 };
+$("keepDraft").onclick=()=>shown("updateNotice",false);
+function openPrevious(){
+  if(!previousDraft?.svg)return;
+  try{
+    const next=prepared(previousDraft.svg,true),old=poster;
+    adopt({forward(){mount(next);},back(){mount(old);},structure:true});shown("updateNotice",false);
+  }catch{notice("The earlier draft could not be opened. Download it to keep a copy.");}
+}
+$("openPrevious").onclick=openPrevious;$("previousDraft").onclick=openPrevious;
+$("savePrevious").onclick=()=>{if(previousDraft)saveFile(new Blob([previousDraft.svg],{type:"image/svg+xml;charset=utf-8"}),"SATB2-earlier-edition-draft.svg");};
 async function init(){
   try{
     const res=await fetch(new URL("./poster.svg",assetBase).href,{cache:"no-cache"});if(!res.ok)throw Error("The poster SVG could not be loaded.");
@@ -613,7 +982,16 @@ async function init(){
       if(crypto.subtle)sourceHash=Array.from(new Uint8Array(await crypto.subtle.digest("SHA-256",new TextEncoder().encode(original))),n=>n.toString(16).padStart(2,"0")).join("");
       db=await wireDB();const draft=await fromDB(storageKey);
       if(draft?.id)lastDraftID=draft.id;
-      if(draft?.svg){try{mount(prepared(draft.svg,true));notice(draft.hash&&sourceHash&&draft.hash!==sourceHash?"Local draft from an earlier edition":"Local draft restored");return;}
+      previousDraft=await fromDB(storageKey+"::previous-edition");
+      if(draft?.svg && draft.hash && sourceHash && draft.hash!==sourceHash){
+        previousDraft=draft;
+        try{await keepPrevious(draft);}catch{storageBlocked=true;}
+        mount(canonical);shown("previousDraft",true);shown("updateNotice",true);
+        notice(storageBlocked?"Earlier draft protected · download edits to keep":"Updated poster · earlier draft saved");
+        return;
+      }
+      shown("previousDraft",!!previousDraft?.svg);
+      if(draft?.svg){try{mount(prepared(draft.svg,true));notice("Local draft restored");return;}
         catch {notice("Saved draft could not be opened.");}}
     }catch{db=null;}
     mount(canonical);notice(db?"Original poster":"Download SVG to keep edits");

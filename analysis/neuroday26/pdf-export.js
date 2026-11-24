@@ -136,6 +136,27 @@
     }
   }
 
+  // svg2pdf draws the linked artwork but does not generate PDF link annotations.
+  function addLinkAnnotations(pdf, svg) {
+    const viewport=svg.getBoundingClientRect();
+    if(!viewport.width || !viewport.height)return;
+    const xScale=page.width/viewport.width, yScale=page.height/viewport.height;
+    for(const anchor of svg.querySelectorAll("a")) {
+      const href=anchor.getAttribute("href") || anchor.getAttributeNS("http://www.w3.org/1999/xlink","href");
+      if(!href || href.startsWith("#"))continue;
+      let url;
+      try {url=new URL(href,window.POSTER_ASSET_BASE || document.baseURI);}
+      catch {continue;}
+      if(!["https:","http:","mailto:"].includes(url.protocol))continue;
+      const bounds=anchor.getBoundingClientRect();
+      const left=Math.max(0,(bounds.left-viewport.left)*xScale);
+      const top=Math.max(0,(bounds.top-viewport.top)*yScale);
+      const right=Math.min(page.width,(bounds.right-viewport.left)*xScale);
+      const bottom=Math.min(page.height,(bounds.bottom-viewport.top)*yScale);
+      if(right>left && bottom>top)pdf.link(left,top,right-left,bottom-top,{url:url.href});
+    }
+  }
+
   window.downloadPosterPDF = async function downloadPosterPDF(svgElement) {
     if (!svgElement || svgElement.localName !== "svg") throw new TypeError("A poster SVG is required.");
     await loadRenderer();
@@ -170,6 +191,7 @@
         creator:"SATB2 CA1 atlas poster editor"
       });
       await pdf.svg(svg,{x:0,y:0,width:page.width,height:page.height,loadExternalStyleSheets:false});
+      addLinkAnnotations(pdf,svg);
       const blob = pdf.output("blob");
       const url = URL.createObjectURL(blob);
       const link = document.createElement("a");
