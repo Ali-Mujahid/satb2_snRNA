@@ -10,6 +10,7 @@ An interactive Scanpy–Seurat v5 atlas of six WT and six Satb2 cKO mice, with
 MapMyCells reference annotation and saved mouse-level DESeq2 comparisons.
 
 **[Open the web atlas](https://ali-mujahid.github.io/satb2_snRNA/)** ·
+**[Edit the Neuroday26 research poster](https://ali-mujahid.github.io/satb2_snRNA/neuroday26/)** ·
 **[Data, figures and source downloads](https://ali-mujahid.github.io/satb2_snRNA/downloads.html)** ·
 **[Portable atlas files](https://github.com/Ali-Mujahid/satb2_snRNA/releases/tag/atlas-v3.0.0)**
 
