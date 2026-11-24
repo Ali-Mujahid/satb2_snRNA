@@ -4,9 +4,9 @@
 Mujahid Ali, Nico Wahl, Georg Dechant and Galina Apostolova  
 Institute for Neuroscience, Medical University of Innsbruck, Innsbruck, Austria
 
-[View the poster (A0 PDF)](./poster.pdf) · [Open the editor in your browser](https://raw.githack.com/Ali-Mujahid/satb2_snRNA/2fcdfae5fb4938b629320c0f0e6a8006e2fd2cf0/analysis/neuroday26/index.html) · [Download the poster editor (ZIP)](https://github.com/Ali-Mujahid/satb2_snRNA/raw/2fcdfae5fb4938b629320c0f0e6a8006e2fd2cf0/analysis/neuroday26/Neuroday26-poster-editor.zip) · [Poster artwork (SVG)](./poster.svg)
+[View the poster (A0 PDF)](./poster.pdf) · [Open the editor in your browser](https://raw.githack.com/Ali-Mujahid/satb2_snRNA/aeefd229284f88fae9d4a6142006115cf89618c6/analysis/neuroday26/index.html) · [Download the poster editor (ZIP)](https://github.com/Ali-Mujahid/satb2_snRNA/raw/aeefd229284f88fae9d4a6142006115cf89618c6/analysis/neuroday26/Neuroday26-poster-editor.zip) · [Poster artwork (SVG)](./poster.svg) · [Poster preview (PNG)](./poster-preview.png)
 
-[Complete cell-identity figure (SVG)](./focused-atlas.svg)
+[Complete cell-identity figure (SVG)](./focused-atlas.svg) · [Whole-brain view of CA1 (PNG)](./ca1-whole-brain.png) · [Assay figure (PDF)](./assay-schematics.pdf) · [Assay figure (SVG)](./assay-schematics.svg)
 
 | Figure | Editable vector | 4,800-pixel image |
 | --- | --- | --- |
