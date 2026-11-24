@@ -1,0 +1,34 @@
+:root{color-scheme:light;font-family:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#193446;background:#f6f8f8;--teal:#096570}
+*{box-sizing:border-box}
+body{margin:0}
+main{width:min(1700px,100%);margin:auto;padding:28px clamp(14px,3vw,52px) 44px}
+a{color:var(--teal)}.back{font-size:.92rem;text-underline-offset:3px}
+header{display:flex;justify-content:space-between;align-items:center;gap:1rem;margin:21px 0 24px}
+h1,h2,p,figure{margin:0}
+h1{font-size:clamp(1.75rem,3vw,2.8rem);letter-spacing:-.045em;line-height:1.12}
+header p,.hint,figcaption,#status{color:#4a6470}
+header p{margin-top:7px}
+button,select,input{font:inherit}
+button,.download{cursor:pointer}.download{background:#146570;color:white;border-radius:7px;padding:12px 19px;text-decoration:none;font-weight:650;white-space:nowrap}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #187eae;outline-offset:2px}
+.workspace{display:grid;grid-template-columns:clamp(250px,20vw,300px) minmax(0,1fr);align-items:start;gap:18px}
+aside,figure{border:1px solid #d9e4e6;border-radius:12px;background:white}
+aside{position:sticky;top:15px;padding:22px}
+h2{font-size:1.15rem}.hint,figcaption,#status{font-size:.85rem;line-height:1.5}
+.hint{margin:8px 0 18px}
+fieldset{border:0;margin:0;padding:0;min-width:0}
+label{display:flex;justify-content:space-between;gap:6px;font-weight:640;font-size:.9rem;margin:16px 0 8px}
+label:first-child{margin-top:0}output{font-weight:500;font-variant-numeric:tabular-nums}
+select,.picker,button{border:1px solid #b9ccd0;border-radius:6px;background:#fff;color:#1c3945}
+select{width:100%;padding:8px 5px}
+.slider,.picker{display:flex;align-items:center;gap:9px}.slider button{width:31px;height:31px;font-size:1.2rem}
+input[type=range]{width:100%;min-width:0;accent-color:var(--teal);cursor:pointer}
+.picker{width:fit-content;padding:4px 10px 4px 4px}.picker output{font-size:.84rem}.picker input{border:0;background:transparent;width:44px;height:32px;cursor:pointer}
+.reset{padding:7px 10px;margin-top:13px;font-size:.84rem}button:hover{background:#eaf4f4}hr{border:0;border-top:1px solid #e2e9e9;margin:20px 0 0}
+#status{margin-top:15px}#status:empty{display:none}
+figure{padding:clamp(8px,1.7vw,24px);overflow:hidden}
+#plot{overflow:auto}
+#plot>svg,#plot>img{width:100%;height:auto;display:block}
+#plot [data-node],#plot path[data-kind]{cursor:pointer}
+figcaption{padding:10px 4px 0}
+@media(max-width:770px){header{align-items:flex-start;flex-wrap:wrap}.workspace{grid-template-columns:1fr}aside{position:static}#plot>svg,#plot>img{min-width:750px}aside{padding:16px}.hint{margin-bottom:12px}}

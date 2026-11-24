@@ -1,0 +1,435 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1456" height="1356" viewBox="0 0 1456 1356" role="img" aria-labelledby="figure-title figure-desc" font-family="Arial, Helvetica, sans-serif">
+  <title id="figure-title">Hippocampal nuclei, CA1 layer programs and inhibitory clusters</title>
+  <desc id="figure-desc">Seurat classification across wild-type and Satb2 conditional knockout mice. A common stem branches into five major cell types. The excitatory branch expands into CA1 and prosubiculum cluster markers and their layer assignments. The inhibitory branch shows all original clusters with C6 divided into three SST subclusters. Each terminal cluster has its own color. Superficial and deep layer markers are ranked by paired wild-type expression. Branch widths are schematic. Hover over a marker or ribbon to read the original cluster identifier.</desc>
+  <metadata>{"source": "Seurat original_full, original_frozen, all genotypes", "inputs": ["SATB2_SCENE_SEURAT_20261111/grouped_30_marker_selection.tsv", "SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/marker_summaries/representative_markers.tsv", "SATB2_C6_SUBCLUSTER_20261118/offline_atlas_20261118/downloads/C6_marker_expression.tsv", "SATB2_CA1_LAYER_REFERENCE_COMPARISON_20261118/wt_expression_comparison/all_own_gene_descriptive_layer_directions.tsv.gz"], "atlas_shards": "satb2_snRNA_github/site/data/shards", "broad_class_selection": "Top five named broad_label classes by abundance, excluding Mixed/uncertain. Excitatory expansion covers the CA1/ProS analysis subset.", "CA1_marker_source": "Saved grouped Seurat SCENE panel for C1–C10 and original Seurat representative-marker table for C11.", "inhibitory_marker_source": "Saved Seurat representative-marker table for C1–C17. C18–C20 use genes with higher mean normalized expression and detection than the remaining inhibitory nuclei in pooled marker summaries.", "C8_layer_annotation": "User-reviewed CA1–prosubiculum.", "widths": "Qualitative, not abundance.", "original_inhibitory_parent_clusters": 20, "inhibitory_display_labels": "User-supplied re-annotated cluster legend, 22 November 2026. Visible text abbreviates names; hover text retains the full label.", "inhibitory_order": ["1", "2", "3", "4", "5", "6.0", "6.1", "6.2", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"], "C6_markers": "Pairs from the measured C6 subcluster panel, highest mean normalized expression in the indicated subgroup relative to its two siblings.", "top_layer_markers": "Among all uniquely symbol-mapped direction-supported genes, rank by absolute median of six paired WT log2 ratios of (CPM+1), superficial over deep. Superficial C2+C3, deep C1+C5; C8 excluded. Descriptive layer markers.", "top_layer_genes": {"Superficial": [{"gene": "Gm29771", "median_paired_log2_ratio": 3.199896008827182}, {"gene": "2600014E21Rik", "median_paired_log2_ratio": 2.9739271986159563}, {"gene": "Necab1", "median_paired_log2_ratio": 2.9517009028926635}, {"gene": "6530403H02Rik", "median_paired_log2_ratio": 2.8950443982776934}, {"gene": "Eya1", "median_paired_log2_ratio": 2.851977083259626}], "Deep": [{"gene": "Trabd2b", "median_paired_log2_ratio": -3.262283492548306}, {"gene": "Dchs2", "median_paired_log2_ratio": -3.225385366476969}, {"gene": "Maml3", "median_paired_log2_ratio": -3.1554038974814116}, {"gene": "Col11a1", "median_paired_log2_ratio": -3.1451236039465376}, {"gene": "Gm12128", "median_paired_log2_ratio": -3.0808700341308226}]}}</metadata>
+  <rect width="1456" height="1356" fill="#ffffff" />
+  <g id="ribbons">
+    <rect x="33" y="540.50" width="134" height="217" fill="#a9d6d0" data-node="Hippocampal nuclei" />
+    <path d="M 167 540.50 C 247.08 540.50 244.00 287.00 321 287.00 L 321 305.00 C 244.00 305.00 247.08 558.50 167 558.50 Z" fill="#edc099" data-kind="major" data-from="Hippocampal nuclei" data-to="Oligodendrocytes">
+      <title>Oligodendrocytes</title>
+    </path>
+    <path d="M 167 558.50 C 247.08 558.50 244.00 337.50 321 337.50 L 321 414.50 C 244.00 414.50 247.08 635.50 167 635.50 Z" fill="#87c5c6" data-kind="major" data-from="Hippocampal nuclei" data-to="Excitatory neurons">
+      <title>Excitatory neurons</title>
+    </path>
+    <rect x="337" y="337.50" width="198" height="77" fill="#cee7e8" data-node="Excitatory neurons" />
+    <path d="M 167 635.50 C 247.08 635.50 244.00 732.00 321 732.00 L 321 826.00 C 244.00 826.00 247.08 729.50 167 729.50 Z" fill="#aaa8d1" data-kind="major" data-from="Hippocampal nuclei" data-to="Inhibitory neurons">
+      <title>Inhibitory neurons</title>
+    </path>
+    <rect x="337" y="732.00" width="198" height="94" fill="#dcdbec" data-node="Inhibitory neurons" />
+    <path d="M 167 729.50 C 247.08 729.50 244.00 940.00 321 940.00 L 321 956.00 C 244.00 956.00 247.08 745.50 167 745.50 Z" fill="#9ad0b9" data-kind="major" data-from="Hippocampal nuclei" data-to="Astrocytes">
+      <title>Astrocytes</title>
+    </path>
+    <path d="M 167 745.50 C 247.08 745.50 244.00 1013.00 321 1013.00 L 321 1025.00 C 244.00 1025.00 247.08 757.50 167 757.50 Z" fill="#cdb0da" data-kind="major" data-from="Hippocampal nuclei" data-to="Microglia">
+      <title>Microglia</title>
+    </path>
+    <path d="M 535 337.50 C 594.80 337.50 592.50 70.50 650 70.50 L 650 77.50 C 592.50 77.50 594.80 344.50 535 344.50 Z" fill="#e07998" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C2">
+      <title>CA1 C2 · Chrm3 / Epha7 · Superficial</title>
+    </path>
+    <path d="M 851 70.50 C 912.88 70.50 910.50 85.00 970 85.00 L 970 92.00 C 910.50 92.00 912.88 77.50 851 77.50 Z" fill="#e2819e" data-kind="CA1-assignment" data-from="CA1-C2" data-to="Superficial">
+      <title>CA1 C2 · Chrm3 / Epha7 · Superficial</title>
+    </path>
+    <path d="M 535 344.50 C 594.80 344.50 592.50 106.50 650 106.50 L 650 113.50 C 592.50 113.50 594.80 351.50 535 351.50 Z" fill="#b75983" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C3">
+      <title>CA1 C3 · Thsd7b / Kirrel3 · Superficial</title>
+    </path>
+    <path d="M 851 106.50 C 912.88 106.50 910.50 92.00 970 92.00 L 970 99.00 C 910.50 99.00 912.88 113.50 851 113.50 Z" fill="#bb638b" data-kind="CA1-assignment" data-from="CA1-C3" data-to="Superficial">
+      <title>CA1 C3 · Thsd7b / Kirrel3 · Superficial</title>
+    </path>
+    <path d="M 535 351.50 C 594.80 351.50 592.50 157.50 650 157.50 L 650 164.50 C 592.50 164.50 594.80 358.50 535 358.50 Z" fill="#4f94c6" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C1">
+      <title>CA1 C1 · Ndst4 / Kcnh7 · Deep</title>
+    </path>
+    <path d="M 851 157.50 C 912.88 157.50 910.50 172.00 970 172.00 L 970 179.00 C 910.50 179.00 912.88 164.50 851 164.50 Z" fill="#599bc9" data-kind="CA1-assignment" data-from="CA1-C1" data-to="Deep">
+      <title>CA1 C1 · Ndst4 / Kcnh7 · Deep</title>
+    </path>
+    <path d="M 535 358.50 C 594.80 358.50 592.50 193.50 650 193.50 L 650 200.50 C 592.50 200.50 594.80 365.50 535 365.50 Z" fill="#6cb5c6" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C5">
+      <title>CA1 C5 · Zfp804a / Mgat4c · Deep</title>
+    </path>
+    <path d="M 851 193.50 C 912.88 193.50 910.50 179.00 970 179.00 L 970 186.00 C 910.50 186.00 912.88 200.50 851 200.50 Z" fill="#75bac9" data-kind="CA1-assignment" data-from="CA1-C5" data-to="Deep">
+      <title>CA1 C5 · Zfp804a / Mgat4c · Deep</title>
+    </path>
+    <path d="M 535 365.50 C 594.80 365.50 592.50 244.50 650 244.50 L 650 251.50 C 592.50 251.50 594.80 372.50 535 372.50 Z" fill="#65ae86" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C4">
+      <title>CA1 C4 · Tenm3 / Egfem1 · Mixed / weak</title>
+    </path>
+    <path d="M 851 244.50 C 912.88 244.50 910.50 302.50 970 302.50 L 970 309.50 C 910.50 309.50 912.88 251.50 851 251.50 Z" fill="#6eb38e" data-kind="CA1-assignment" data-from="CA1-C4" data-to="Mixed / weak">
+      <title>CA1 C4 · Tenm3 / Egfem1 · Mixed / weak</title>
+    </path>
+    <path d="M 535 372.50 C 594.80 372.50 592.50 280.50 650 280.50 L 650 287.50 C 592.50 287.50 594.80 379.50 535 379.50 Z" fill="#90a064" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C6">
+      <title>CA1 C6 · Lrrtm4 / Cntn3 · Mixed / weak</title>
+    </path>
+    <path d="M 851 280.50 C 912.88 280.50 910.50 309.50 970 309.50 L 970 316.50 C 910.50 316.50 912.88 287.50 851 287.50 Z" fill="#97a66d" data-kind="CA1-assignment" data-from="CA1-C6" data-to="Mixed / weak">
+      <title>CA1 C6 · Lrrtm4 / Cntn3 · Mixed / weak</title>
+    </path>
+    <path d="M 535 379.50 C 594.80 379.50 592.50 316.50 650 316.50 L 650 323.50 C 592.50 323.50 594.80 386.50 535 386.50 Z" fill="#d7a176" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C7">
+      <title>CA1 C7 · Gm42418 / Cmss1 · Mixed / weak</title>
+    </path>
+    <path d="M 851 316.50 C 912.88 316.50 910.50 316.50 970 316.50 L 970 323.50 C 910.50 323.50 912.88 323.50 851 323.50 Z" fill="#d9a67e" data-kind="CA1-assignment" data-from="CA1-C7" data-to="Mixed / weak">
+      <title>CA1 C7 · Gm42418 / Cmss1 · Mixed / weak</title>
+    </path>
+    <path d="M 535 386.50 C 594.80 386.50 592.50 352.50 650 352.50 L 650 359.50 C 592.50 359.50 594.80 393.50 535 393.50 Z" fill="#7aa29d" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C9">
+      <title>CA1 C9 · Pcdh15 / Dpp10 · Mixed / weak</title>
+    </path>
+    <path d="M 851 352.50 C 912.88 352.50 910.50 323.50 970 323.50 L 970 330.50 C 910.50 330.50 912.88 359.50 851 359.50 Z" fill="#82a8a3" data-kind="CA1-assignment" data-from="CA1-C9" data-to="Mixed / weak">
+      <title>CA1 C9 · Pcdh15 / Dpp10 · Mixed / weak</title>
+    </path>
+    <path d="M 535 393.50 C 594.80 393.50 592.50 388.50 650 388.50 L 650 395.50 C 592.50 395.50 594.80 400.50 535 400.50 Z" fill="#779f6c" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C10">
+      <title>CA1 C10 · Tshz2 / Cntn4 · Mixed / weak</title>
+    </path>
+    <path d="M 851 388.50 C 912.88 388.50 910.50 330.50 970 330.50 L 970 337.50 C 910.50 337.50 912.88 395.50 851 395.50 Z" fill="#7fa575" data-kind="CA1-assignment" data-from="CA1-C10" data-to="Mixed / weak">
+      <title>CA1 C10 · Tshz2 / Cntn4 · Mixed / weak</title>
+    </path>
+    <path d="M 535 400.50 C 594.80 400.50 592.50 439.50 650 439.50 L 650 446.50 C 592.50 446.50 594.80 407.50 535 407.50 Z" fill="#a573cd" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C8">
+      <title>CA1 C8 · Lingo2 / Gm32647 · CA1–prosubiculum · revised regional annotation</title>
+    </path>
+    <path d="M 851 439.50 C 912.88 439.50 910.50 439.50 970 439.50 L 970 446.50 C 910.50 446.50 912.88 446.50 851 446.50 Z" fill="#aa7bd0" data-kind="CA1-assignment" data-from="CA1-C8" data-to="CA1–prosubiculum">
+      <title>CA1 C8 · Lingo2 / Gm32647 · CA1–prosubiculum · revised regional annotation</title>
+    </path>
+    <path d="M 535 407.50 C 594.80 407.50 592.50 490.50 650 490.50 L 650 497.50 C 592.50 497.50 594.80 414.50 535 414.50 Z" fill="#af9b86" data-kind="CA1-cluster" data-from="Excitatory neurons" data-to="CA1-C11">
+      <title>CA1 C11 · Mertk / Tgfbr1 · Unassigned · conflicting astrocyte and immune signatures</title>
+    </path>
+    <path d="M 851 490.50 C 912.88 490.50 910.50 490.50 970 490.50 L 970 497.50 C 910.50 497.50 912.88 497.50 851 497.50 Z" fill="#b4a18e" data-kind="CA1-assignment" data-from="CA1-C11" data-to="Unassigned">
+      <title>CA1 C11 · Mertk / Tgfbr1 · Unassigned · conflicting astrocyte and immune signatures</title>
+    </path>
+    <path d="M 535 753.36 C 597.40 753.36 595.00 765.18 655 765.18 L 655 778.00 C 595.00 778.00 597.40 766.18 535 766.18 Z" fill="#9380a9" data-kind="C6-parent" data-from="Inhibitory neurons" data-to="IN-C6">
+      <title>Original C6 · Sst</title>
+    </path>
+    <path d="M 535 732.00 C 662.92 732.00 658.00 579.50 781 579.50 L 781 586.50 C 658.00 586.50 662.92 736.27 535 736.27 Z" fill="#3a80a6" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C1">
+      <title>C1 · Pvalb basket cell expression enriched · Slit2 / Sox5</title>
+    </path>
+    <path d="M 535 736.27 C 662.92 736.27 658.00 612.90 781 612.90 L 781 619.90 C 658.00 619.90 662.92 740.55 535 740.55 Z" fill="#e28344" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C2">
+      <title>C2 · Sst O-LM expression enriched · Sst / Reln</title>
+    </path>
+    <path d="M 535 740.55 C 662.92 740.55 658.00 646.30 781 646.30 L 781 653.30 C 658.00 653.30 662.92 744.82 535 744.82 Z" fill="#9aab4a" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C3">
+      <title>C3 · IS-3 expression enriched · Vip / Sorcs3</title>
+    </path>
+    <path d="M 535 744.82 C 662.92 744.82 658.00 679.70 781 679.70 L 781 686.70 C 658.00 686.70 662.92 749.09 535 749.09 Z" fill="#a670b8" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C4">
+      <title>C4 · Ivy cells, CGE expression enriched · Vcan / Hapln1</title>
+    </path>
+    <path d="M 535 749.09 C 662.92 749.09 658.00 713.10 781 713.10 L 781 720.10 C 658.00 720.10 662.92 753.36 535 753.36 Z" fill="#2ea09c" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C5">
+      <title>C5 · Pvalb bistratified expression enriched · Htr1f / Il1rapl2</title>
+    </path>
+    <path d="M 661 765.18 C 723.40 765.18 721.00 746.50 781 746.50 L 781 753.50 C 721.00 753.50 723.40 769.45 661 769.45 Z" fill="#cc627b" data-kind="inhibitory-cluster" data-from="IN-C6" data-to="IN-C6.0">
+      <title>C6.0 · SST backprojection-like · Pcdh11x / Cdh7</title>
+    </path>
+    <path d="M 661 769.45 C 723.40 769.45 721.00 779.90 781 779.90 L 781 786.90 C 721.00 786.90 723.40 773.72 661 773.72 Z" fill="#7a87c5" data-kind="inhibitory-cluster" data-from="IN-C6" data-to="IN-C6.1">
+      <title>C6.1 · SST identity unresolved · Npy / Pnoc</title>
+    </path>
+    <path d="M 661 773.72 C 723.40 773.72 721.00 813.30 781 813.30 L 781 820.30 C 721.00 820.30 723.40 778.00 661 778.00 Z" fill="#8da33a" data-kind="inhibitory-cluster" data-from="IN-C6" data-to="IN-C6.2">
+      <title>C6.2 · SST O-LM-like · Reln / Grm1</title>
+    </path>
+    <path d="M 535 766.18 C 662.92 766.18 658.00 846.70 781 846.70 L 781 853.70 C 658.00 853.70 662.92 770.45 535 770.45 Z" fill="#b97d9a" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C7">
+      <title>C7 · Ivy cells, MGE expression enriched · Kit / Egfr</title>
+    </path>
+    <path d="M 535 770.45 C 662.92 770.45 658.00 880.10 781 880.10 L 781 887.10 C 658.00 887.10 662.92 774.73 535 774.73 Z" fill="#b28459" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C8">
+      <title>C8 · Pvalb/Sst-reference-like GABAergic, mixed subclasses · Ptprk / Pard3b</title>
+    </path>
+    <path d="M 535 774.73 C 662.92 774.73 658.00 913.50 781 913.50 L 781 920.50 C 658.00 920.50 662.92 779.00 535 779.00 Z" fill="#56a8cf" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C9">
+      <title>C9 · Cck R–LM border expression enriched · Rgs12 / Cadps2</title>
+    </path>
+    <path d="M 535 779.00 C 662.92 779.00 658.00 946.90 781 946.90 L 781 953.90 C 658.00 953.90 662.92 783.27 535 783.27 Z" fill="#d16350" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C10">
+      <title>C10 · Sst hippocamposeptal expression enriched · Pou6f2 / Zfpm2</title>
+    </path>
+    <path d="M 535 783.27 C 662.92 783.27 658.00 980.30 781 980.30 L 781 987.30 C 658.00 987.30 662.92 787.55 535 787.55 Z" fill="#7b8c56" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C11">
+      <title>C11 · 051 Pvalb chandelier Gaba · Mctp2 / Fras1</title>
+    </path>
+    <path d="M 535 787.55 C 662.92 787.55 658.00 1013.70 781 1013.70 L 781 1020.70 C 658.00 1020.70 662.92 791.82 535 791.82 Z" fill="#7065a5" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C12">
+      <title>C12 · Sncg/RHP–COA Ndnf-reference-like GABAergic, mixed subclasses · Frem1 / Enpp2</title>
+    </path>
+    <path d="M 535 791.82 C 662.92 791.82 658.00 1047.10 781 1047.10 L 781 1054.10 C 658.00 1054.10 662.92 796.09 535 796.09 Z" fill="#cd7ba6" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C13">
+      <title>C13 · 048 RHP–COA Ndnf Gaba · Cpne4 / Ntng1</title>
+    </path>
+    <path d="M 535 796.09 C 662.92 796.09 658.00 1080.50 781 1080.50 L 781 1087.50 C 658.00 1087.50 662.92 800.36 535 800.36 Z" fill="#a58136" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C14">
+      <title>C14 · Cck R–LM border expression / IS-3 mixed · Thsd7b / Grm8</title>
+    </path>
+    <path d="M 535 800.36 C 662.92 800.36 658.00 1113.90 781 1113.90 L 781 1120.90 C 658.00 1120.90 662.92 804.64 535 804.64 Z" fill="#3fac89" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C15">
+      <title>C15 · Trilaminar cells expression enriched · Stk32b / Arhgap6</title>
+    </path>
+    <path d="M 535 804.64 C 662.92 804.64 658.00 1147.30 781 1147.30 L 781 1154.30 C 658.00 1154.30 662.92 808.91 535 808.91 Z" fill="#ab5887" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C16">
+      <title>C16 · OB–STR–CTX Inh IMN/Sst-reference-like GABAergic, mixed subclasses · Meis2 / Slc1a3</title>
+    </path>
+    <path d="M 535 808.91 C 662.92 808.91 658.00 1180.70 781 1180.70 L 781 1187.70 C 658.00 1187.70 662.92 813.18 535 813.18 Z" fill="#6f8194" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C17">
+      <title>C17 · Sst hippocamposeptal expression / Zbtb20_Mgat4c module mixed · Qrfpr / Col25a1</title>
+    </path>
+    <path d="M 535 813.18 C 662.92 813.18 658.00 1214.10 781 1214.10 L 781 1221.10 C 658.00 1221.10 662.92 817.45 535 817.45 Z" fill="#dda141" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C18">
+      <title>C18 · LSX-reference-associated GABAergic-like, mixed subclasses, rare cluster · Trpm3 / Lingo2</title>
+    </path>
+    <path d="M 535 817.45 C 662.92 817.45 658.00 1247.50 781 1247.50 L 781 1254.50 C 658.00 1254.50 662.92 821.73 535 821.73 Z" fill="#4f80bf" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C19">
+      <title>C19 · Sst Chodl/MEA–BST Lhx6 Nfib-reference-like GABAergic, mixed subclasses, rare cluster · Nrg1 / Pde1a</title>
+    </path>
+    <path d="M 535 821.73 C 662.92 821.73 658.00 1280.90 781 1280.90 L 781 1287.90 C 658.00 1287.90 662.92 826.00 535 826.00 Z" fill="#996352" data-kind="inhibitory-cluster" data-from="Inhibitory neurons" data-to="IN-C20">
+      <title>C20 · GABAergic-like with myeloid/immune-associated RNA, mixed signature, rare cluster · Hexb / Inpp5d</title>
+    </path>
+  </g>
+  <g id="node-bars">
+    <rect x="15" y="540.50" width="18" height="217" fill="#1b8789" data-node="Hippocampal nuclei" />
+    <rect x="321" y="287.00" width="16" height="18" fill="#dc8437" data-node="Oligodendrocytes">
+      <title>Oligodendrocytes</title>
+    </rect>
+    <rect x="321" y="337.50" width="16" height="77" fill="#148e90" data-node="Excitatory neurons">
+      <title>Excitatory neurons</title>
+    </rect>
+    <rect x="321" y="732.00" width="16" height="94" fill="#5954a5" data-node="Inhibitory neurons">
+      <title>Inhibitory neurons</title>
+    </rect>
+    <rect x="321" y="940.00" width="16" height="16" fill="#39a375" data-node="Astrocytes">
+      <title>Astrocytes</title>
+    </rect>
+    <rect x="321" y="1013.00" width="16" height="12" fill="#9c64b6" data-node="Microglia">
+      <title>Microglia</title>
+    </rect>
+    <rect x="650" y="69.50" width="10" height="9" fill="#d95c81" data-cluster="CA1-C2" data-node="CA1-C2" data-label="Chrm3 / Epha7">
+      <title>CA1 C2 · Chrm3 / Epha7 · Superficial</title>
+    </rect>
+    <rect x="650" y="105.50" width="10" height="9" fill="#a73568" data-cluster="CA1-C3" data-node="CA1-C3" data-label="Thsd7b / Kirrel3">
+      <title>CA1 C3 · Thsd7b / Kirrel3 · Superficial</title>
+    </rect>
+    <rect x="650" y="156.50" width="10" height="9" fill="#287db9" data-cluster="CA1-C1" data-node="CA1-C1" data-label="Ndst4 / Kcnh7">
+      <title>CA1 C1 · Ndst4 / Kcnh7 · Deep</title>
+    </rect>
+    <rect x="650" y="192.50" width="10" height="9" fill="#4ca5b9" data-cluster="CA1-C5" data-node="CA1-C5" data-label="Zfp804a / Mgat4c">
+      <title>CA1 C5 · Zfp804a / Mgat4c · Deep</title>
+    </rect>
+    <rect x="650" y="243.50" width="10" height="9" fill="#439c6c" data-cluster="CA1-C4" data-node="CA1-C4" data-label="Tenm3 / Egfem1">
+      <title>CA1 C4 · Tenm3 / Egfem1 · Mixed / weak</title>
+    </rect>
+    <rect x="650" y="279.50" width="10" height="9" fill="#788b42" data-cluster="CA1-C6" data-node="CA1-C6" data-label="Lrrtm4 / Cntn3">
+      <title>CA1 C6 · Lrrtm4 / Cntn3 · Mixed / weak</title>
+    </rect>
+    <rect x="650" y="315.50" width="10" height="9" fill="#ce8c58" data-cluster="CA1-C7" data-node="CA1-C7" data-label="Gm42418 / Cmss1">
+      <title>CA1 C7 · Gm42418 / Cmss1 · Mixed / weak</title>
+    </rect>
+    <rect x="650" y="351.50" width="10" height="9" fill="#5d8e88" data-cluster="CA1-C9" data-node="CA1-C9" data-label="Pcdh15 / Dpp10">
+      <title>CA1 C9 · Pcdh15 / Dpp10 · Mixed / weak</title>
+    </rect>
+    <rect x="650" y="387.50" width="10" height="9" fill="#598a4c" data-cluster="CA1-C10" data-node="CA1-C10" data-label="Tshz2 / Cntn4">
+      <title>CA1 C10 · Tshz2 / Cntn4 · Mixed / weak</title>
+    </rect>
+    <rect x="650" y="438.50" width="10" height="9" fill="#9154c2" data-cluster="CA1-C8" data-node="CA1-C8" data-label="Lingo2 / Gm32647">
+      <title>CA1 C8 · Lingo2 / Gm32647 · CA1–prosubiculum · revised regional annotation</title>
+    </rect>
+    <rect x="650" y="489.50" width="10" height="9" fill="#9d856c" data-cluster="CA1-C11" data-node="CA1-C11" data-label="Mertk / Tgfbr1">
+      <title>CA1 C11 · Mertk / Tgfbr1 · Unassigned · conflicting astrocyte and immune signatures</title>
+    </rect>
+    <rect x="970" y="85.00" width="13" height="14" fill="#cc427e" data-node="Superficial">
+      <title>Superficial</title>
+    </rect>
+    <rect x="970" y="172.00" width="13" height="14" fill="#2285cd" data-node="Deep">
+      <title>Deep</title>
+    </rect>
+    <rect x="970" y="302.50" width="13" height="35" fill="#369778" data-node="Mixed / weak">
+      <title>Mixed / weak</title>
+    </rect>
+    <rect x="970" y="438.50" width="13" height="9" fill="#8355bd" data-node="CA1–prosubiculum">
+      <title>CA1–prosubiculum</title>
+    </rect>
+    <rect x="970" y="489.50" width="13" height="9" fill="#a28c71" data-node="Unassigned">
+      <title>Unassigned</title>
+    </rect>
+    <rect x="655" y="765.18" width="6" height="12.818181818181817" fill="#7f688e" data-node="IN-C6" data-label="Sst parent">
+      <title>Original C6 · Sst</title>
+    </rect>
+    <rect x="781" y="578.00" width="12" height="10" fill="#1a6b98" data-cluster="IN-C1" data-node="IN-C1" data-label="Pvalb basket">
+      <title>C1 · Pvalb basket cell expression enriched · Slit2 / Sox5</title>
+    </rect>
+    <rect x="781" y="611.40" width="12" height="10" fill="#dd6f25" data-cluster="IN-C2" data-node="IN-C2" data-label="Sst O-LM">
+      <title>C2 · Sst O-LM expression enriched · Sst / Reln</title>
+    </rect>
+    <rect x="781" y="644.80" width="12" height="10" fill="#899d2c" data-cluster="IN-C3" data-node="IN-C3" data-label="IS-3">
+      <title>C3 · IS-3 expression enriched · Vip / Sorcs3</title>
+    </rect>
+    <rect x="781" y="678.20" width="12" height="10" fill="#9759ac" data-cluster="IN-C4" data-node="IN-C4" data-label="Ivy (CGE)">
+      <title>C4 · Ivy cells, CGE expression enriched · Vcan / Hapln1</title>
+    </rect>
+    <rect x="781" y="711.60" width="12" height="10" fill="#0c918c" data-cluster="IN-C5" data-node="IN-C5" data-label="Pvalb bistratified">
+      <title>C5 · Pvalb bistratified expression enriched · Htr1f / Il1rapl2</title>
+    </rect>
+    <rect x="781" y="745.00" width="12" height="10" fill="#c44966" data-cluster="IN-C6.0" data-node="IN-C6.0" data-label="Sst backprojection-like">
+      <title>C6.0 · SST backprojection-like · Pcdh11x / Cdh7</title>
+    </rect>
+    <rect x="781" y="778.40" width="12" height="10" fill="#6474bb" data-cluster="IN-C6.1" data-node="IN-C6.1" data-label="Sst unresolved">
+      <title>C6.1 · SST identity unresolved · Npy / Pnoc</title>
+    </rect>
+    <rect x="781" y="811.80" width="12" height="10" fill="#7a941a" data-cluster="IN-C6.2" data-node="IN-C6.2" data-label="Sst O-LM-like">
+      <title>C6.2 · SST O-LM-like · Reln / Grm1</title>
+    </rect>
+    <rect x="781" y="845.20" width="12" height="10" fill="#ae688a" data-cluster="IN-C7" data-node="IN-C7" data-label="Ivy (MGE)">
+      <title>C7 · Ivy cells, MGE expression enriched · Kit / Egfr</title>
+    </rect>
+    <rect x="781" y="878.60" width="12" height="10" fill="#a6703e" data-cluster="IN-C8" data-node="IN-C8" data-label="Pvalb / Sst-like (mixed)">
+      <title>C8 · Pvalb/Sst-reference-like GABAergic, mixed subclasses · Ptprk / Pard3b</title>
+    </rect>
+    <rect x="781" y="912.00" width="12" height="10" fill="#3b9ac7" data-cluster="IN-C9" data-node="IN-C9" data-label="Cck R–LM border">
+      <title>C9 · Cck R–LM border expression enriched · Rgs12 / Cadps2</title>
+    </rect>
+    <rect x="781" y="945.40" width="12" height="10" fill="#c94a34" data-cluster="IN-C10" data-node="IN-C10" data-label="Sst hippocamposeptal">
+      <title>C10 · Sst hippocamposeptal expression enriched · Pou6f2 / Zfpm2</title>
+    </rect>
+    <rect x="781" y="978.80" width="12" height="10" fill="#65793b" data-cluster="IN-C11" data-node="IN-C11" data-label="Pvalb chandelier">
+      <title>C11 · 051 Pvalb chandelier Gaba · Mctp2 / Fras1</title>
+    </rect>
+    <rect x="781" y="1012.20" width="12" height="10" fill="#594c96" data-cluster="IN-C12" data-node="IN-C12" data-label="Sncg / Ndnf-like (mixed)">
+      <title>C12 · Sncg/RHP–COA Ndnf-reference-like GABAergic, mixed subclasses · Frem1 / Enpp2</title>
+    </rect>
+    <rect x="781" y="1045.60" width="12" height="10" fill="#c56698" data-cluster="IN-C13" data-node="IN-C13" data-label="RHP–COA Ndnf">
+      <title>C13 · 048 RHP–COA Ndnf Gaba · Cpne4 / Ntng1</title>
+    </rect>
+    <rect x="781" y="1079.00" width="12" height="10" fill="#966c15" data-cluster="IN-C14" data-node="IN-C14" data-label="Cck R–LM / IS-3 (mixed)">
+      <title>C14 · Cck R–LM border expression / IS-3 mixed · Thsd7b / Grm8</title>
+    </rect>
+    <rect x="781" y="1112.40" width="12" height="10" fill="#209e76" data-cluster="IN-C15" data-node="IN-C15" data-label="Trilaminar">
+      <title>C15 · Trilaminar cells expression enriched · Stk32b / Arhgap6</title>
+    </rect>
+    <rect x="781" y="1145.80" width="12" height="10" fill="#9d3d73" data-cluster="IN-C16" data-node="IN-C16" data-label="OB–STR–CTX IMN / Sst-like">
+      <title>C16 · OB–STR–CTX Inh IMN/Sst-reference-like GABAergic, mixed subclasses · Meis2 / Slc1a3</title>
+    </rect>
+    <rect x="781" y="1179.20" width="12" height="10" fill="#586d82" data-cluster="IN-C17" data-node="IN-C17" data-label="Sst hippocamposeptal / Zbtb20–Mgat4c">
+      <title>C17 · Sst hippocamposeptal expression / Zbtb20_Mgat4c module mixed · Qrfpr / Col25a1</title>
+    </rect>
+    <rect x="781" y="1212.60" width="12" height="10" fill="#d89222" data-cluster="IN-C18" data-node="IN-C18" data-label="LSX-like (mixed)">
+      <title>C18 · LSX-reference-associated GABAergic-like, mixed subclasses, rare cluster · Trpm3 / Lingo2</title>
+    </rect>
+    <rect x="781" y="1246.00" width="12" height="10" fill="#326bb5" data-cluster="IN-C19" data-node="IN-C19" data-label="Sst Chodl / Lhx6 Nfib-like">
+      <title>C19 · Sst Chodl/MEA–BST Lhx6 Nfib-reference-like GABAergic, mixed subclasses, rare cluster · Nrg1 / Pde1a</title>
+    </rect>
+    <rect x="781" y="1279.40" width="12" height="10" fill="#884a36" data-cluster="IN-C20" data-node="IN-C20" data-label="GABA-like / myeloid RNA">
+      <title>C20 · GABAergic-like with myeloid/immune-associated RNA, mixed signature, rare cluster · Hexb / Inpp5d</title>
+    </rect>
+  </g>
+  <g id="editable-labels">
+    <text x="347" y="304" font-size="23" fill="#16181b" font-style="normal" font-weight="normal" data-node="Oligodendrocytes">Oligodendrocytes</text>
+    <text x="348" y="384" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="Excitatory neurons">Excitatory neurons</text>
+    <text x="348" y="787" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="Inhibitory neurons">Inhibitory neurons</text>
+    <text x="347" y="956" font-size="23" fill="#16181b" font-style="normal" font-weight="normal" data-node="Astrocytes">Astrocytes</text>
+    <text x="347" y="1027" font-size="23" fill="#16181b" font-style="normal" font-weight="normal" data-node="Microglia">Microglia</text>
+    <text x="40" y="646" font-size="19" fill="#16181b" font-style="normal" font-weight="bold" data-node="Hippocampal nuclei">Hippocampal</text>
+    <text x="40" y="670" font-size="19" fill="#16181b" font-style="normal" font-weight="bold" data-node="Hippocampal nuclei">nuclei</text>
+    <text x="670" y="36" font-size="19" fill="#49515a" font-style="normal" font-weight="bold">CA1 cluster markers</text>
+    <text x="997" y="36" font-size="19" fill="#49515a" font-style="normal" font-weight="bold">Layer / region</text>
+    <text x="1164" y="36" font-size="19" fill="#49515a" font-style="normal" font-weight="bold">Top layer markers · WT</text>
+    <text x="670" y="81" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C2">Chrm3 / Epha7<title>CA1 C2 · Chrm3 / Epha7 · Superficial</title>
+    </text>
+    <text x="670" y="117" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C3">Thsd7b / Kirrel3<title>CA1 C3 · Thsd7b / Kirrel3 · Superficial</title>
+    </text>
+    <text x="670" y="168" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C1">Ndst4 / Kcnh7<title>CA1 C1 · Ndst4 / Kcnh7 · Deep</title>
+    </text>
+    <text x="670" y="204" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C5">Zfp804a / Mgat4c<title>CA1 C5 · Zfp804a / Mgat4c · Deep</title>
+    </text>
+    <text x="670" y="255" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C4">Tenm3 / Egfem1<title>CA1 C4 · Tenm3 / Egfem1 · Mixed / weak</title>
+    </text>
+    <text x="670" y="291" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C6">Lrrtm4 / Cntn3<title>CA1 C6 · Lrrtm4 / Cntn3 · Mixed / weak</title>
+    </text>
+    <text x="670" y="327" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C7">Gm42418 / Cmss1<title>CA1 C7 · Gm42418 / Cmss1 · Mixed / weak</title>
+    </text>
+    <text x="670" y="363" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C9">Pcdh15 / Dpp10<title>CA1 C9 · Pcdh15 / Dpp10 · Mixed / weak</title>
+    </text>
+    <text x="670" y="399" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C10">Tshz2 / Cntn4<title>CA1 C10 · Tshz2 / Cntn4 · Mixed / weak</title>
+    </text>
+    <text x="670" y="450" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C8">Lingo2 / Gm32647<title>CA1 C8 · Lingo2 / Gm32647 · CA1–prosubiculum · revised regional annotation</title>
+    </text>
+    <text x="670" y="501" font-size="20" fill="#16181b" font-style="italic" font-weight="normal" data-node="CA1-C11">Mertk / Tgfbr1<title>CA1 C11 · Mertk / Tgfbr1 · Unassigned · conflicting astrocyte and immune signatures</title>
+    </text>
+    <text x="995" y="100.0" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="Superficial">Superficial</text>
+    <text x="1164" y="89.0" font-size="19" fill="#16181b" font-style="italic" font-weight="normal" data-layer="Superficial" data-markers="Gm29771,2600014E21Rik" data-node="Superficial">Gm29771, 2600014E21Rik,<title>Ranked by absolute median paired WT layer expression difference · Gm29771, 2600014E21Rik, Necab1, 6530403H02Rik, Eya1</title>
+    </text>
+    <text x="1164" y="114.0" font-size="19" fill="#16181b" font-style="italic" font-weight="normal" data-layer="Superficial" data-markers="Necab1,6530403H02Rik,Eya1" data-node="Superficial">Necab1, 6530403H02Rik, Eya1<title>Ranked by absolute median paired WT layer expression difference · Gm29771, 2600014E21Rik, Necab1, 6530403H02Rik, Eya1</title>
+    </text>
+    <text x="995" y="187.0" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="Deep">Deep</text>
+    <text x="1164" y="176.0" font-size="19" fill="#16181b" font-style="italic" font-weight="normal" data-layer="Deep" data-markers="Trabd2b,Dchs2,Maml3" data-node="Deep">Trabd2b, Dchs2, Maml3,<title>Ranked by absolute median paired WT layer expression difference · Trabd2b, Dchs2, Maml3, Col11a1, Gm12128</title>
+    </text>
+    <text x="1164" y="201.0" font-size="19" fill="#16181b" font-style="italic" font-weight="normal" data-layer="Deep" data-markers="Col11a1,Gm12128" data-node="Deep">Col11a1, Gm12128<title>Ranked by absolute median paired WT layer expression difference · Trabd2b, Dchs2, Maml3, Col11a1, Gm12128</title>
+    </text>
+    <text x="995" y="328.0" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="Mixed / weak">Mixed / weak</text>
+    <text x="995" y="451.0" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="CA1–prosubiculum">CA1–prosubiculum</text>
+    <text x="995" y="502.0" font-size="22" fill="#16181b" font-style="normal" font-weight="normal" data-node="Unassigned">Unassigned</text>
+    <text x="806" y="548" font-size="19" fill="#49515a" font-style="normal" font-weight="bold">Re-annotated inhibitory cluster</text>
+    <text x="1173" y="548" font-size="19" fill="#49515a" font-style="normal" font-weight="bold">Cluster markers</text>
+    <text x="806" y="590.0" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C1">Pvalb basket<title>C1 · Pvalb basket cell expression enriched · Slit2 / Sox5</title>
+    </text>
+    <text x="1173" y="590.0" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C1">Slit2 / Sox5<title>C1 · Pvalb basket cell expression enriched · Slit2 / Sox5</title>
+    </text>
+    <text x="806" y="623.4" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C2">Sst O-LM<title>C2 · Sst O-LM expression enriched · Sst / Reln</title>
+    </text>
+    <text x="1173" y="623.4" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C2">Sst / Reln<title>C2 · Sst O-LM expression enriched · Sst / Reln</title>
+    </text>
+    <text x="806" y="656.8" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C3">IS-3<title>C3 · IS-3 expression enriched · Vip / Sorcs3</title>
+    </text>
+    <text x="1173" y="656.8" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C3">Vip / Sorcs3<title>C3 · IS-3 expression enriched · Vip / Sorcs3</title>
+    </text>
+    <text x="806" y="690.2" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C4">Ivy (CGE)<title>C4 · Ivy cells, CGE expression enriched · Vcan / Hapln1</title>
+    </text>
+    <text x="1173" y="690.2" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C4">Vcan / Hapln1<title>C4 · Ivy cells, CGE expression enriched · Vcan / Hapln1</title>
+    </text>
+    <text x="806" y="723.6" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C5">Pvalb bistratified<title>C5 · Pvalb bistratified expression enriched · Htr1f / Il1rapl2</title>
+    </text>
+    <text x="1173" y="723.6" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C5">Htr1f / Il1rapl2<title>C5 · Pvalb bistratified expression enriched · Htr1f / Il1rapl2</title>
+    </text>
+    <text x="806" y="757.0" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C6.0">Sst backprojection-like<title>C6.0 · SST backprojection-like · Pcdh11x / Cdh7</title>
+    </text>
+    <text x="1173" y="757.0" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C6.0">Pcdh11x / Cdh7<title>C6.0 · SST backprojection-like · Pcdh11x / Cdh7</title>
+    </text>
+    <text x="806" y="790.4" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C6.1">Sst unresolved<title>C6.1 · SST identity unresolved · Npy / Pnoc</title>
+    </text>
+    <text x="1173" y="790.4" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C6.1">Npy / Pnoc<title>C6.1 · SST identity unresolved · Npy / Pnoc</title>
+    </text>
+    <text x="806" y="823.8" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C6.2">Sst O-LM-like<title>C6.2 · SST O-LM-like · Reln / Grm1</title>
+    </text>
+    <text x="1173" y="823.8" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C6.2">Reln / Grm1<title>C6.2 · SST O-LM-like · Reln / Grm1</title>
+    </text>
+    <text x="806" y="857.2" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C7">Ivy (MGE)<title>C7 · Ivy cells, MGE expression enriched · Kit / Egfr</title>
+    </text>
+    <text x="1173" y="857.2" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C7">Kit / Egfr<title>C7 · Ivy cells, MGE expression enriched · Kit / Egfr</title>
+    </text>
+    <text x="806" y="890.5999999999999" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C8">Pvalb / Sst-like (mixed)<title>C8 · Pvalb/Sst-reference-like GABAergic, mixed subclasses · Ptprk / Pard3b</title>
+    </text>
+    <text x="1173" y="890.5999999999999" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C8">Ptprk / Pard3b<title>C8 · Pvalb/Sst-reference-like GABAergic, mixed subclasses · Ptprk / Pard3b</title>
+    </text>
+    <text x="806" y="924.0" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C9">Cck R–LM border<title>C9 · Cck R–LM border expression enriched · Rgs12 / Cadps2</title>
+    </text>
+    <text x="1173" y="924.0" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C9">Rgs12 / Cadps2<title>C9 · Cck R–LM border expression enriched · Rgs12 / Cadps2</title>
+    </text>
+    <text x="806" y="957.4" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C10">Sst hippocamposeptal<title>C10 · Sst hippocamposeptal expression enriched · Pou6f2 / Zfpm2</title>
+    </text>
+    <text x="1173" y="957.4" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C10">Pou6f2 / Zfpm2<title>C10 · Sst hippocamposeptal expression enriched · Pou6f2 / Zfpm2</title>
+    </text>
+    <text x="806" y="990.8" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C11">Pvalb chandelier<title>C11 · 051 Pvalb chandelier Gaba · Mctp2 / Fras1</title>
+    </text>
+    <text x="1173" y="990.8" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C11">Mctp2 / Fras1<title>C11 · 051 Pvalb chandelier Gaba · Mctp2 / Fras1</title>
+    </text>
+    <text x="806" y="1024.2" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C12">Sncg / Ndnf-like (mixed)<title>C12 · Sncg/RHP–COA Ndnf-reference-like GABAergic, mixed subclasses · Frem1 / Enpp2</title>
+    </text>
+    <text x="1173" y="1024.2" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C12">Frem1 / Enpp2<title>C12 · Sncg/RHP–COA Ndnf-reference-like GABAergic, mixed subclasses · Frem1 / Enpp2</title>
+    </text>
+    <text x="806" y="1057.6" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C13">RHP–COA Ndnf<title>C13 · 048 RHP–COA Ndnf Gaba · Cpne4 / Ntng1</title>
+    </text>
+    <text x="1173" y="1057.6" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C13">Cpne4 / Ntng1<title>C13 · 048 RHP–COA Ndnf Gaba · Cpne4 / Ntng1</title>
+    </text>
+    <text x="806" y="1091.0" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C14">Cck R–LM / IS-3 (mixed)<title>C14 · Cck R–LM border expression / IS-3 mixed · Thsd7b / Grm8</title>
+    </text>
+    <text x="1173" y="1091.0" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C14">Thsd7b / Grm8<title>C14 · Cck R–LM border expression / IS-3 mixed · Thsd7b / Grm8</title>
+    </text>
+    <text x="806" y="1124.4" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C15">Trilaminar<title>C15 · Trilaminar cells expression enriched · Stk32b / Arhgap6</title>
+    </text>
+    <text x="1173" y="1124.4" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C15">Stk32b / Arhgap6<title>C15 · Trilaminar cells expression enriched · Stk32b / Arhgap6</title>
+    </text>
+    <text x="806" y="1157.8" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C16">OB–STR–CTX IMN / Sst-like<title>C16 · OB–STR–CTX Inh IMN/Sst-reference-like GABAergic, mixed subclasses · Meis2 / Slc1a3</title>
+    </text>
+    <text x="1173" y="1157.8" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C16">Meis2 / Slc1a3<title>C16 · OB–STR–CTX Inh IMN/Sst-reference-like GABAergic, mixed subclasses · Meis2 / Slc1a3</title>
+    </text>
+    <text x="806" y="1191.1999999999998" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C17">Sst hippocamposeptal / Zbtb20–Mgat4c<title>C17 · Sst hippocamposeptal expression / Zbtb20_Mgat4c module mixed · Qrfpr / Col25a1</title>
+    </text>
+    <text x="1173" y="1191.1999999999998" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C17">Qrfpr / Col25a1<title>C17 · Sst hippocamposeptal expression / Zbtb20_Mgat4c module mixed · Qrfpr / Col25a1</title>
+    </text>
+    <text x="806" y="1224.6" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C18">LSX-like (mixed)<title>C18 · LSX-reference-associated GABAergic-like, mixed subclasses, rare cluster · Trpm3 / Lingo2</title>
+    </text>
+    <text x="1173" y="1224.6" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C18">Trpm3 / Lingo2<title>C18 · LSX-reference-associated GABAergic-like, mixed subclasses, rare cluster · Trpm3 / Lingo2</title>
+    </text>
+    <text x="806" y="1258.0" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C19">Sst Chodl / Lhx6 Nfib-like<title>C19 · Sst Chodl/MEA–BST Lhx6 Nfib-reference-like GABAergic, mixed subclasses, rare cluster · Nrg1 / Pde1a</title>
+    </text>
+    <text x="1173" y="1258.0" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C19">Nrg1 / Pde1a<title>C19 · Sst Chodl/MEA–BST Lhx6 Nfib-reference-like GABAergic, mixed subclasses, rare cluster · Nrg1 / Pde1a</title>
+    </text>
+    <text x="806" y="1291.4" font-size="20" fill="#16181b" font-style="normal" font-weight="normal" data-node="IN-C20">GABA-like / myeloid RNA<title>C20 · GABAergic-like with myeloid/immune-associated RNA, mixed signature, rare cluster · Hexb / Inpp5d</title>
+    </text>
+    <text x="1173" y="1291.4" font-size="21" fill="#16181b" font-style="italic" font-weight="normal" data-node="IN-C20">Hexb / Inpp5d<title>C20 · GABAergic-like with myeloid/immune-associated RNA, mixed signature, rare cluster · Hexb / Inpp5d</title>
+    </text>
+    <text x="34" y="1323" font-size="16" fill="#51565b" font-style="normal" font-weight="normal">Seurat  ·  Inhibitory labels reflect expression profiles. Ribbon widths are schematic.</text>
+  </g>
+</svg>

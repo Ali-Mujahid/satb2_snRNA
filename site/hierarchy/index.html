@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Hippocampal cell hierarchy · SATB2 atlas</title>
+<link rel="stylesheet" href="editor.css">
+<script defer src="editor.js"></script>
+</head>
+<body>
+<main>
+  <a class="back" href="../">← SATB2 atlas</a>
+  <header>
+    <div><h1>Hippocampal cell hierarchy</h1>
+    <p>Seurat annotations across P60 WT and <i>Satb2</i> cKO mice</p></div>
+    <a class="download" id="download" href="cell-hierarchy.svg" download="SATB2_cell_hierarchy.svg">Download SVG</a>
+  </header>
+  <div class="workspace">
+    <aside aria-labelledby="edit-heading">
+      <h2 id="edit-heading">Edit branches</h2>
+      <p class="hint">Choose a branch below or click its ribbon or label in the figure.</p>
+      <fieldset id="controls" disabled>
+        <label for="branch">Branch</label>
+        <select id="branch"></select>
+        <label for="width">Branch width <output for="width" id="width-value">100%</output></label>
+        <div class="slider"><button type="button" id="thinner" aria-label="Make selected branch thinner">−</button><input type="range" id="width" min="50" max="150" step="5" value="100"><button type="button" id="thicker" aria-label="Make selected branch thicker">+</button></div>
+        <label for="color">Branch color</label>
+        <div class="picker"><input type="color" id="color" value="#148e90"><output id="hex" for="color">#148E90</output></div>
+        <button type="button" class="reset" id="reset-branch">Reset branch</button>
+        <hr>
+        <label for="overall">Width of all branches <output for="overall" id="overall-value">100%</output></label>
+        <input type="range" id="overall" min="50" max="150" step="5" value="100">
+        <button type="button" class="reset" id="reset-all">Restore original figure</button>
+      </fieldset>
+      <p id="status" aria-live="polite">Loading figure controls…</p>
+    </aside>
+    <figure>
+      <div id="plot"><img alt="Seurat cell hierarchy with CA1 layer markers and re-annotated inhibitory clusters" src="cell-hierarchy.svg"></div>
+      <figcaption>Ribbon widths are schematic. The superficial and deep marker lists use paired layer expression across six WT mice.</figcaption>
+    </figure>
+  </div>
+</main>
+</body>
+</html>
