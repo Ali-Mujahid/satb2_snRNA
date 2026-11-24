@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#172c32"><title>Neuroday poster editor · SATB2 atlas</title>
+<link rel="stylesheet" href="./editor.css">
+<script defer src="./editor.js"></script>
+</head>
+<body>
+<header class="mast">
+  <div class="brand"><a class="atlas" href="https://ali-mujahid.github.io/satb2_snRNA/" aria-label="Return to the SATB2 atlas">SATB2 atlas</a><span class="slash">/</span><h1>Neuroday poster</h1></div>
+  <div class="top-actions"><span id="status" role="status" aria-live="polite">Opening poster…</span><button type="button" id="downloadSvg" disabled>Download SVG</button><button type="button" class="accent" id="downloadPdf" disabled>Download PDF</button></div>
+</header>
+<main id="app" aria-label="Poster editor">
+  <nav class="toolbar" aria-label="Editing tools">
+    <button id="layersToggle" aria-controls="layers" aria-expanded="false">Layers</button>
+    <div class="modes" role="group" aria-label="Selection mode"><button id="modeObject" aria-pressed="true" title="Select individual text, shapes and data points">Object</button><button id="modeGroup" aria-pressed="false" title="Select the containing figure or section">Group</button></div>
+    <span class="rule"></span>
+    <label class="tools-add"><span class="sr">Add to poster</span><select id="addType"><option value="">Add element…</option><option value="text">Text</option><option value="rect">Rectangle</option><option value="ellipse">Ellipse</option><option value="line">Line</option><option value="button">Link button</option><option value="image">Image…</option></select></label><input id="imageUpload" type="file" accept="image/png,image/jpeg,image/webp" hidden>
+    <div class="buttonset"><button id="undo" title="Undo (⌘/Ctrl Z)" disabled>Undo</button><button id="redo" title="Redo (⌘/Ctrl Shift Z)" disabled>Redo</button></div>
+    <div class="zoom"><button id="zoomOut" aria-label="Zoom out">−</button><button id="zoomLevel" title="Reset to fit width">100%</button><button id="zoomIn" aria-label="Zoom in">+</button><button id="fit" title="Fit the whole poster to the workspace">Fit</button></div>
+    <button id="openSvg" title="Open an editable SVG from your device">Open SVG</button><input type="file" id="svgUpload" accept=".svg,image/svg+xml" hidden>
+    <button id="restore" class="subtle">Restore original</button>
+  </nav>
+  <div class="workspace">
+    <aside id="layers" class="layers" hidden aria-label="Poster layers">
+      <div class="panel-head"><h2>Layers</h2><button id="closeLayers" class="icon" aria-label="Close layers">×</button></div>
+      <label class="search"><span class="sr">Search artwork and text</span><input id="layerSearch" type="search" placeholder="Find text or artwork" autocomplete="off"></label>
+      <a class="tree-source" href="./cluster-tree.svg" target="_blank" rel="noopener">Full-resolution cluster tree ↗</a><a class="tree-source" href="./poster.pdf" target="_blank" rel="noopener">Original print-ready PDF ↗</a><div id="layersList" class="layer-list"></div>
+    </aside>
+    <section id="stage" class="stage" aria-label="Poster canvas" tabindex="0">
+      <div id="paper" class="paper"><div id="artwork"></div><div id="selection" hidden><i></i><i></i><i></i><i></i></div></div>
+      <div id="loadError" hidden role="alert"></div>
+    </section>
+    <aside class="inspector" aria-label="Object properties">
+      <div class="panel-head"><h2>Properties</h2></div>
+      <div id="empty"><div class="pointer" aria-hidden="true">↖</div><h3>Select an element</h3><p>Click the poster to edit an object. Choose Group to move a whole figure. Alt-click to select a covered object.</p><button id="browse">Browse layers</button></div>
+      <div id="props" hidden>
+        <div class="selection-name"><span id="kind"></span><strong id="name"></strong><button id="parent" class="subtle full">Select containing group ↑</button></div>
+        <section><h3>Position and size</h3><div class="grid"><label>X<input id="posX" type="number" step="any"></label><label>Y<input id="posY" type="number" step="any"></label><label>Width<input id="width" type="number" min="0.01" step="any"></label><label>Height<input id="height" type="number" min="0.01" step="any"></label></div><label class="check"><input id="ratio" type="checkbox" checked>Lock proportions</label></section>
+        <section id="textSect" hidden><h3>Text</h3><label>Content<textarea id="copy" rows="3" spellcheck="false"></textarea></label><div class="grid"><label>Font<input id="font" list="fonts"></label><label>Size<input id="fontSize" type="number" min="1" step="any"></label></div><label>Weight<select id="weight"><option value="400">Regular</option><option value="500">Medium</option><option value="600">Semibold</option><option value="700">Bold</option><option value="800">Extra bold</option></select></label></section>
+        <section id="pointSect" hidden><h3>Scatter coordinates</h3><div class="grid"><label>X value<input id="pointX" type="number" step="any"></label><label>Y value<input id="pointY" type="number" step="any"></label></div></section>
+        <section id="imageSect" hidden><h3>Image</h3><button id="replaceImage">Replace image…</button></section>
+        <section id="dotSect" hidden><h3>Marker data</h3><div class="grid"><label>Detected (%)<input id="detection" type="number" min="0" max="100" step="any"></label><label>Expression<input id="expression" type="number" step="any"></label></div><label>Max. dot radius<input id="maxRadius" type="number" min=".1" step="any"></label></section>
+        <section id="plotSect" hidden><h3>Dot plot scale</h3><label>Max. radius for all dots<input id="plotRadius" type="number" min=".1" step="any"></label><div class="grid"><label>Low color<input id="plotLow" type="color"></label><label>High color<input id="plotHigh" type="color"></label></div></section>
+        <section id="linkSect" hidden><h3>Link</h3><label>Destination<input id="url" type="url" placeholder="https://…"></label></section>
+        <section id="shapeSect" hidden><h3>Shape</h3><label>Geometry<select id="shape"><option value="circle">Circle</option><option value="ellipse">Ellipse</option><option value="rect">Rectangle</option><option value="diamond">Diamond</option><option value="triangle">Triangle</option></select></label></section>
+        <section><h3>Appearance</h3><div class="grid"><label>Fill<input id="fill" type="color"></label><label>Stroke<input id="stroke" type="color"></label></div><div class="grid"><label>Stroke width<input id="strokeWidth" type="number" min="0" step="any"></label><label>Opacity (%)<input id="opacity" type="number" min="0" max="100" step="any"></label></div><div class="buttonset palette-tools"><button id="noFill">No fill</button><button id="noStroke">No stroke</button></div></section>
+        <section id="geometrySect" hidden><details><summary>Vector geometry</summary><label id="geometryLabel">Path data<textarea id="geometry" rows="3" spellcheck="false"></textarea></label></details></section>
+        <section><div class="buttonset"><button id="duplicate">Duplicate</button><button id="remove">Remove</button></div></section>
+      </div>
+    </aside>
+  </div>
+</main>
+<datalist id="fonts"><option value="Arial"><option value="Helvetica"><option value="Georgia"><option value="Verdana"><option value="Times New Roman"><option value="Courier New"></datalist>
+<dialog id="confirmReset"><h2>Restore the original poster?</h2><p>This replaces the draft saved in this browser. Download your SVG first to keep a copy.</p><div class="dialog-buttons"><button id="cancelReset">Cancel</button><button id="confirmRestore" class="accent">Restore original</button></div></dialog>
+<noscript>JavaScript is required for editing. <a href="./poster.svg">Download the original vector poster.</a></noscript>
+</body></html>
