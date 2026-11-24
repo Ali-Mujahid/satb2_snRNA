@@ -402,6 +402,109 @@ $("seriesSelect").onchange=()=>{
   if(target){activeSeries=target;mouseDraft=null;select(target);}
 };
 $("applySeries").onclick=()=>applyMouseValues();
+function featureFor(el){
+  return el?.closest("[data-feature-gene]") ||
+    (el?.dataset.role==="figure" && el.querySelector("[data-feature-gene]")) || null;
+}
+function updateFeatureInspector(){
+  const feature=featureFor(selected);
+  shown("featureSect",!!feature);
+  if(!feature)return;
+  $("featureTitle").textContent=feature.dataset.featureGene+" expression UMAP";
+  setVal("featureLow",feature.dataset.featureLow);
+  shown("featureMidField",!!feature.dataset.featureMid);
+  if(feature.dataset.featureMid)setVal("featureMid",feature.dataset.featureMid);
+  setVal("featureHigh",feature.dataset.featureHigh);
+  setVal("featureZero",feature.dataset.featureZeroColor);
+  setVal("featureDiameter",feature.dataset.featureDiameter);
+}
+for(const id of ["featureLow","featureMid","featureHigh","featureZero","featureDiameter"]){
+  $(id).onchange=()=>{
+    const feature=featureFor(selected);
+    if(!feature)return;
+    const low=$("featureLow").value,high=$("featureHigh").value,zero=$("featureZero").value;
+    const mid=feature.dataset.featureMid ? $("featureMid").value : null;
+    const diameter=Number($("featureDiameter").value);
+    if(!Number.isFinite(diameter)||diameter<.2||diameter>8){
+      notice("Enter a point diameter between 0.2 and 8.");return updateFeatureInspector();
+    }
+    const changes=[];
+    if(id==="featureDiameter"){
+      changes.push([feature,"data-feature-diameter",diameter]);
+      for(const mark of feature.querySelectorAll("[data-feature-points]"))changes.push(...styleChanges(mark,"stroke-width",String(diameter)));
+    }else{
+      changes.push([feature,"data-feature-low",low],[feature,"data-feature-high",high],[feature,"data-feature-zero-color",zero]);
+      if(mid)changes.push([feature,"data-feature-mid",mid]);
+      for(const mark of feature.querySelectorAll("[data-feature-t],[data-feature-zero]")){
+        const t=Number(mark.dataset.featureT);
+        let paint=zero;
+        if(!mark.hasAttribute("data-feature-zero")){
+          if(!mid)paint=mix(low,high,t);
+          else paint=t<=.5?mix(low,mid,t*2):mix(mid,high,(t-.5)*2);
+        }
+        changes.push(...styleChanges(mark,mark.hasAttribute("data-feature-points")?"stroke":"fill",paint));
+      }
+    }
+    attrs(changes);
+  };
+}
+function goChartFor(el){
+  return el?.closest("#program-enrichment") ||
+    (el?.dataset.role==="figure" && el.querySelector("#program-enrichment")) || null;
+}
+let activeGoBar=null;
+function updateGoInspector(){
+  const chart=goChartFor(selected);
+  shown("goSect",!!chart);
+  if(!chart){activeGoBar=null;return;}
+  const rows=[...chart.querySelectorAll('[data-role="go-bar"]')];
+  const row=selected.closest('[data-role="go-bar"]') || (chart.contains(activeGoBar)?activeGoBar:rows[0]);
+  if(!row){shown("goSect",false);return;}
+  activeGoBar=row;
+  const menu=$("goTerm");menu.replaceChildren();
+  rows.forEach((item,i)=>menu.add(new Option(nameOf(item),String(i))));
+  menu.value=String(rows.indexOf(row));
+  setVal("goQ",row.dataset.q);setVal("goHits",row.dataset.overlap);setVal("goSize",row.dataset.termSize);
+  $("goMessage").textContent="";
+}
+$("goTerm").onchange=()=>{
+  const chart=goChartFor(selected);
+  if(chart)select(chart.querySelectorAll('[data-role="go-bar"]')[Number($("goTerm").value)]);
+};
+function applyGoValues(){
+  const row=activeGoBar,chart=goChartFor(selected);
+  if(!chart || !chart.contains(row))return false;
+  const q=Number($("goQ").value),hits=Number($("goHits").value),size=Number($("goSize").value);
+  if(![$("goQ").value,$("goHits").value,$("goSize").value].every(finite) ||
+     !(q>0&&q<=1) || !Number.isInteger(hits) || !Number.isInteger(size) || hits<0 || hits>size || size<1){
+    $("goMessage").textContent="Enter a P value above 0 and at most 1, and whole-gene counts with overlap ≤ tested genes.";
+    return false;
+  }
+  if(q===Number(row.dataset.q) && hits===Number(row.dataset.overlap) && size===Number(row.dataset.termSize))return true;
+  const rows=[...chart.querySelectorAll('[data-role="go-bar"]')];
+  const maxScore=Math.max(...rows.map(r=>-Math.log10(r===row?q:Number(r.dataset.q))));
+  const max=5*Math.ceil(Math.max(10,maxScore)/5), changes=[
+    [row,"data-q",q],[row,"data-overlap",hits],[row,"data-term-size",size]
+  ], edits=[];
+  for(const r of rows){
+    const sourceScale=Number(r.dataset.xScale),sourceMax=Number(r.dataset.axisMax);
+    const scale=sourceScale*sourceMax/max, width=-Math.log10(r===row?q:Number(r.dataset.q))*scale;
+    const mark=r.querySelector('[data-go-part="bar"]'),count=r.querySelector('[data-go-part="count"]');
+    if(!mark||!count)continue;
+    changes.push([r,"data-axis-max",max],[r,"data-x-scale",scale],
+      [mark,"width",width],[count,"x",Number(r.dataset.xOrigin)+width+7]);
+    if(r===row){
+      edits.push(textAction(count,hits+"/"+size));
+      edits.push(toolTip(row,row.dataset.goId+" · "+row.dataset.term+" · BH-adjusted P = "+q+" · "+hits+"/"+size));
+    }
+  }
+  for(const tick of chart.querySelectorAll("[data-go-tick]"))edits.push(textAction(tick,String(max*Number(tick.dataset.goTick)/5)));
+  combined([attributeAction(changes),...edits]);
+  return true;
+}
+$("applyGO").onclick=applyGoValues;
+for(const id of ["goQ","goHits","goSize"])$(id).onchange=applyGoValues;
+
 function updatePalette(){
   const gr=group(selected);shown("paletteSect",gr);shown("leafPaint",!gr);shown("groupType",gr&&!!selected.querySelector("text"));
   $("noFill").hidden=gr;$("noStroke").hidden=gr;
@@ -560,7 +663,7 @@ function refresh(){
   const sample=group(selected)?[...selected.querySelectorAll(LEAVES)].find(n=>styleValue(n,"fill")!=="none")||selected:selected;
   const strokeOnly=selected.dataset.role==="umap-series"||selected.localName==="line";
   $("fillCaption").textContent=strokeOnly?"Mark color":"Fill";
-  updatePalette();updateBoxInspector();
+  updatePalette();updateBoxInspector();updateFeatureInspector();updateGoInspector();
   setVal("fill",hexColor(styleValue(sample,strokeOnly?"stroke":"fill")));setVal("stroke",hexColor(styleValue(sample,"stroke"),"#254849"));
   setVal("strokeWidth",round(parseFloat(styleValue(sample,"stroke-width"))||0));
   setVal("opacity",round(parseFloat(styleValue(selected,"opacity"))*100));

@@ -10,3 +10,6 @@
 .inspector .check.mobile-only{display:none}
 @media(max-width:720px){.inspector .check.mobile-only{display:flex}}
 @media(max-width:720px){.inspector #props{grid-auto-flow:row dense}.inspector #props>.selection-name{order:-3}.inspector #seriesSect,.inspector #textSect,.inspector #dotSect,.inspector #plotSect,.inspector #pointSect{order:-2}.inspector #seriesSect,.inspector #dotSect,.inspector #pointSect{grid-column:1/-1}.inspector #mouseValues{grid-template-columns:repeat(3,minmax(0,1fr))}.inspector .check.mobile-only{margin-bottom:4px}}
+
+.export-actions{display:flex;gap:7px;justify-content:center;padding:9px 6px;border-bottom:1px solid #d9e2df}.export-actions button{font-size:12px}
+@media(max-width:720px){.export-actions{padding:4px 9px;justify-content:flex-start}.export-actions button{padding:4px 8px}.inspector #goSect,.inspector #featureSect{grid-column:1/-1}}
