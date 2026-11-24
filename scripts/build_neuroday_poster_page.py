@@ -77,6 +77,7 @@ def main():
     if not re.fullmatch(r"[0-9a-f]{40}", rev):
         sys.exit("Expected a complete hexadecimal commit SHA.")
     base = f"https://cdn.jsdelivr.net/gh/Ali-Mujahid/satb2_snRNA@{rev}/analysis/neuroday26/"
+    source_base = f"https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/{rev}/analysis/neuroday26/"
 
     def asset(name):
         path = (PACKAGE / name).resolve()
@@ -92,7 +93,7 @@ def main():
         f'<title>{escape(resources.title)}</title>\n{styles}\n{scripts}\n</head>\n'
         f'<body><script src={asset(bootstrap.name)}></script>\n'
         '<noscript>Enable JavaScript to edit this poster. Download the original '
-        f'<a href="{base}poster.svg">SVG</a> or <a href="{base}poster.pdf">PDF</a>.</noscript>\n'
+        f'<a href="{source_base}poster.svg">SVG</a> or <a href="{source_base}poster.pdf">PDF</a>.</noscript>\n'
         '</body></html>\n'
     )
     ENTRY.parent.mkdir(parents=True, exist_ok=True)
