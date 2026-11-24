@@ -59,9 +59,18 @@ def main():
             'window.POSTER_ASSET_BASE = new URL(".", document.currentScript.src).href;\n'
             'const posterUI = document.createElement("template");\n'
             + "posterUI.innerHTML = " + json.dumps(body, ensure_ascii=False) + ";\n"
+            # Individual figure files are served directly by GitHub. The CDN also
+            # serves editor scripts and fonts but can decline an uncached figure
+            # from a large repository even when the figure itself is small.
+            'const packageURL = new URL(window.POSTER_ASSET_BASE);\n'
+            'const parts = packageURL.pathname.split("/");\n'
+            'const revision = parts[3]?.split("@");\n'
+            'const isPinned = packageURL.hostname === "cdn.jsdelivr.net" && parts[1] === "gh" && revision?.length === 2 && /^[a-f0-9]{40}$/.test(revision[1]);\n'
+            'const figureBase = isPinned ? new URL([parts[2], revision[0], revision[1], ...parts.slice(4)].join("/"), "https://raw.githubusercontent.com/").href : window.POSTER_ASSET_BASE;\n'
             'for (const link of posterUI.content.querySelectorAll("a[href]")) {\n'
             '  const href = link.getAttribute("href");\n'
-            '  if (href && !href.startsWith("#")) link.href = new URL(href, window.POSTER_ASSET_BASE).href;\n'
+            '  const base = link.classList.contains("tree-source") ? figureBase : window.POSTER_ASSET_BASE;\n'
+            '  if (href && !href.startsWith("#")) link.href = new URL(href, base).href;\n'
             '}\ndocument.currentScript.before(posterUI.content);\n'
         )
         return

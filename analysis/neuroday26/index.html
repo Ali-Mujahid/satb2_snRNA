@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#172c32"><title>Neuroday poster editor · SATB2 atlas</title>
+<meta name="theme-color" content="#172c32"><title>Poster editor · SATB2 atlas</title>
 <link rel="stylesheet" href="./editor.css">
 <script defer src="./editor.js"></script>
 </head>
 <body>
 <header class="mast">
-  <div class="brand"><a class="atlas" href="https://ali-mujahid.github.io/satb2_snRNA/" aria-label="Return to the SATB2 atlas">SATB2 atlas</a><span class="slash">/</span><h1>Neuroday poster</h1></div>
+  <div class="brand"><a class="atlas" href="https://ali-mujahid.github.io/satb2_snRNA/" aria-label="Return to the SATB2 atlas">SATB2 atlas</a><span class="slash">/</span><h1>Poster editor</h1></div>
   <div class="top-actions"><span id="status" role="status" aria-live="polite">Opening poster…</span></div>
 </header>
 <main id="app" aria-label="Poster editor">
@@ -26,7 +26,7 @@
     <aside id="layers" class="layers" hidden aria-label="Poster layers">
       <div class="panel-head"><h2>Layers</h2><button id="closeLayers" class="icon" aria-label="Close layers">×</button></div>
       <label class="search"><span class="sr">Search artwork and text</span><input id="layerSearch" type="search" placeholder="Find text or artwork" autocomplete="off"></label>
-      <a class="tree-source" href="./focused-atlas.svg" target="_blank" rel="noopener">All maps and marker plots ↗</a><a class="tree-source" href="./ca1-umap.svg" target="_blank" rel="noopener">Full-resolution CA1 UMAP ↗</a><a class="tree-source" href="./ano3-umap.svg" target="_blank" rel="noopener">Full-resolution Ano3 UMAP ↗</a><a class="tree-source" href="./inhibitory-umap.svg" target="_blank" rel="noopener">Full-resolution inhibitory UMAP ↗</a><a class="tree-source" href="./cluster-tree.svg" target="_blank" rel="noopener">Full-resolution cluster tree ↗</a><a class="tree-source" href="./poster.pdf" target="_blank" rel="noopener">Original print-ready PDF ↗</a><button id="previousDraft" class="tree-source" hidden>Open earlier draft</button><div id="layersList" class="layer-list"></div>
+      <a class="tree-source" href="./focused-atlas.svg" target="_blank" rel="noopener">All maps and marker plots ↗</a><a class="tree-source" href="./ca1-umap.svg" target="_blank" rel="noopener">Full-resolution CA1 UMAP ↗</a><a class="tree-source" href="./ano3-umap.svg" target="_blank" rel="noopener">Full-resolution Ano3 UMAP ↗</a><a class="tree-source" href="./inhibitory-umap.svg" target="_blank" rel="noopener">Inhibitory UMAP and full cluster names ↗</a><a class="tree-source" href="./cluster-tree.svg" target="_blank" rel="noopener">Full-resolution cluster tree ↗</a><a class="tree-source" href="./poster.pdf" target="_blank" rel="noopener">Original print-ready PDF ↗</a><button id="previousDraft" class="tree-source" hidden>Open earlier draft</button><div id="layersList" class="layer-list"></div>
     </aside>
     <section id="stage" class="stage" aria-label="Poster canvas" tabindex="0">
       <div id="paper" class="paper"><div id="artwork"></div><div id="selection" hidden><i></i><i></i><i></i><i></i></div></div>
