@@ -1,0 +1,17 @@
+exact_reference_set	resource_count	directed_population_rows	ordered_gene_pairs	unordered_gene_pairs	ligand_to_receptor
+None	0	2	2	2	Fstl5 → Cntn5 | Penk → Grm7
+SynDive	1	0	0	0	
+Synaptome.db	1	5	4	4	Slit1 → Robo1 | Slit2 → App | Slit2 → Dcc | Slit2 → Plxna1
+G2Cdb	1	0	0	0	
+Connectome-seq	1	0	0	0	
+SynDive + Synaptome.db	2	5	4	3	App → Grm7 | Cntn3 → Ptprg | Nlgn1 → Nrxn1 | Nrxn1 → Nlgn1
+SynDive + G2Cdb	2	0	0	0	
+SynDive + Connectome-seq	2	0	0	0	
+Synaptome.db + G2Cdb	2	2	1	1	Ptn → Ptprz1
+Synaptome.db + Connectome-seq	2	0	0	0	
+G2Cdb + Connectome-seq	2	0	0	0	
+SynDive + Synaptome.db + G2Cdb	3	0	0	0	
+SynDive + Synaptome.db + Connectome-seq	3	0	0	0	
+SynDive + G2Cdb + Connectome-seq	3	0	0	0	
+Synaptome.db + G2Cdb + Connectome-seq	3	0	0	0	
+SynDive + Synaptome.db + G2Cdb + Connectome-seq	4	0	0	0	

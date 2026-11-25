@@ -23,3 +23,9 @@ python3 "$analysis_dir/build_reader.py"
 ```
 
 A missing reference estimate or database entry leaves detection unresolved. Co-membership indicates a shared preparation. RNA changes, protein presence and a molecular interaction assay each address different biological questions. These nuclear RNA data have no paired synaptic barcodes.
+
+## Directed pairs and cross-resource overlap
+
+The pair, overlap and Circos views use the same ordered LIANA rows. Build the reader to regenerate `CA1_IN_directed_pair_roles.tsv` and `exact_reference_overlap.tsv` from the archived reference lookups. A population row includes source, target, ligand and receptor. An ordered gene pair collapses layers and clusters but retains ligand versus receptor. An unordered pair also collapses reciprocal molecular entries.
+
+“Shared” requires both components to satisfy each selected reference criterion. SynDive requires a finite unambiguous FASS estimate in a common CA1 stratum. Synaptome.db requires a mouse hippocampal study record for each partner (possibly different studies). G2Cdb requires both partners listed in the same selected PSD preparation or complex. Connectome-seq asks whether both genes occur in its 30-marker panel. Synaptome.db molecular interaction PMIDs are a separate annotation with unrestricted anatomical scope. Each exclusive overlap row reports its exact resource subset; counts of matching references are descriptive. A missing match refers to the scope of these releases and lookups. The Circos plot assigns one ribbon to each population-specific candidate, with the tip on the receptor end.

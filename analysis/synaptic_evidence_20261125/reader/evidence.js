@@ -5,6 +5,8 @@ const sources = {
   syndive: ['CA1 stratum proteomics', 'Inspect each ligand or receptor across CA1 strata. The FASS fraction contains sorted synaptosomes. Values are median stratum log₂ fold changes across unambiguous protein groups. A star marks support from at least one group passing the authors’ significance criterion.'],
   synaptome: ['Synaptic compartment evidence', 'Count the publications reporting each protein in a synaptic fraction. Select a species and region to see which experiments contribute. The table includes the supporting PubMed IDs.'],
   g2c: ['Postsynaptic proteins and complexes', 'Trace ligand and receptor gene products into published cortical PSD and receptor-complex tables. Mouse and human calls are shown separately. Each cell has a source status in the table below.'],
+  overlap: ['Unique and shared pairs across references', 'Each row is a directed, population-specific LIANA candidate. A filled cell means both components meet that reference’s coverage rule. The table below groups identical combinations of resources.'],
+  circos: ['Directed CA1–interneuron Circos', 'Follow each ribbon from the ligand gene to the arrow tip at the receptor gene. Select a molecular direction, reference or gene to isolate its connections. Arrow direction follows the LIANA annotation.'],
   pairs: ['Directed ligand–receptor candidates', 'Read the cKO RNA change at each end of the interaction. Each row identifies the ligand-producing and receptor-expressing populations. The table includes native pooled LIANA ranks, mouse support and the reference evidence.']
 };
 const findings = {
@@ -12,9 +14,13 @@ const findings = {
   syndive: 'CNTN3 and PTPRG each have unambiguous sorted-synaptosome estimates across all four CA1 strata. In your mice, Cntn3 falls in inhibitory C6 and Ptprg rises in both pyramidal sublayers.',
   synaptome: 'Both proteins have mouse hippocampal study records for 12 of 14 directed candidates. The separate interaction lookup returns three publications for NLGN1–NRXN1.',
   g2c: 'PTN and PTPRZ1 both appear in the mouse cortical PSD preparation. Your RNA data place lower Ptn in both CA1 sublayers and higher Ptprz1 in inhibitory C1. Their physical site of action in CA1 remains open.',
+  overlap: 'Only Synaptome.db has exclusive two-end matches in this set. SynDive and G2Cdb each overlap Synaptome.db on different pairs. No candidate matches three or four references.',
+  circos: 'The left half shows pyramidal genes by sublayer. The right half shows inhibitory C1 (PV basket-like) and parent C6 (SST). Each ribbon represents one candidate in one layer and cluster. Click a ribbon to isolate the pair, then choose “All matching pairs” to return.',
   pairs: 'Fourteen directed rows connect the two CA1 sublayers with C1 or C6. NLGN1–NRXN1 has reciprocal resource entries and three indexed interaction publications. These entries describe one molecular pairing.'
 };
 const downloads = {
+  'CA1_IN_directed_pair_roles.tsv':'CA1 and interneuron roles, effects and references',
+  'exact_reference_overlap.tsv':'All 16 exact reference combinations',
   'lr_pair_evidence.tsv':'Directed LR evidence',
   'all_DEGs_reference_lookup.tsv.gz':'Every DEG with four reference lookups',
   'Connectome_seq_overlap_tests.tsv':'Connectome-seq enrichment tests',
@@ -42,7 +48,7 @@ function table(id,rows,cols) {
   $(id).innerHTML='<table><thead>'+row(cols.map(c=>c[1]),'th')+'</thead><tbody>'+rows.map(r=>row(cols.map(([k])=>r[k]??'—'),'td')).join('')+'</tbody></table>';
 }
 function filteredPairs(){
-  return data.pairs.filter(p=>(!value('layer')||[p.source,p.target].includes(value('layer'))) &&
+  return (isPairView(view)?data.pairRoles:data.pairs).filter(p=>(!value('layer')||[p.source,p.target].includes(value('layer'))) &&
     (!value('partner')||[p.source,p.target].includes(value('partner'))) &&
     (!value('direction')||p.source.startsWith(value('direction'))));
 }
@@ -99,14 +105,22 @@ function matrix() {
     legend='+  listed     ?  ambiguous molecular assignment     ·  eligible, unmarked     —  no eligible row';
     headings=[['row','Gene'],['col','Reference collection'],['status','Source status']];
   } else {
-    tableRows=pairRows.filter(x=>match(x.ligand)||match(x.receptor));rows=[];cols=['Ligand RNA','Receptor RNA'];
+    tableRows=selectedPairRows(pairRows).filter(x=>match(x.ligand)||match(x.receptor));
+    if(view==='circos')tableRows=isolateRibbon(tableRows);
+    rows=[];cols=view==='overlap'?referenceNames:['Ligand RNA','Receptor RNA'];
     for(const p of tableRows){
       const r=p.ligand+' → '+p.receptor+'   ·   '+pop(p.source)+' → '+pop(p.target);
-      rows.push(r);cell(r,cols[0],p.ligand_log2FC,plus(p.ligand_log2FC));cell(r,cols[1],p.receptor_log2FC,plus(p.receptor_log2FC));
+      rows.push(r);
+      if(view==='overlap'){
+        for(const name of referenceNames)cell(r,name,p[name]?1:0,p[name]?'+':'·');
+        continue;
+      }
+      cell(r,cols[0],p.ligand_log2FC,plus(p.ligand_log2FC));cell(r,cols[1],p.receptor_log2FC,plus(p.receptor_log2FC));
     }
     scale=Math.max(.01,...cells.map(x=>Math.abs(x.n)));
     legend='cKO/WT RNA log₂FC at the source and target    |    Pooled LIANA candidates';
-    headings=Object.keys(data.pairs[0]).map(k=>[k,k.replaceAll('_',' ')]);
+    if(view==='overlap'){scale=1;legend='+  both components meet the reference criterion     ·  no both-end match';}
+    headings=pairColumns;
   }
   return {rows,cols,cells,legend,scale,headings,tableRows:tableRows||cells};
 }
@@ -118,7 +132,7 @@ function svg(m){
   const fs=Number(value('fontsize')),dy=Number(value('spacing')),dot=value('style')==='dot';
   const wide=['pairs','connectome'].includes(view);
   const left=Math.max(105,Math.max(0,...m.rows.map(s=>s.length))*.60*fs+18);
-  const dx=view==='g2c'?109:wide?116:115;
+  const dx=view==='g2c'?109:view==='overlap'?136:wide?116:115;
   const tilt=view==='g2c',top=tilt?176:105;
   const W=Math.ceil(Math.max(740,left+dx*m.cols.length+30)), H=top+dy*m.rows.length+32;
   const txt=(x,y,t,attrs='')=>'<text x="'+x+'" y="'+y+'" '+attrs+'>'+esc(t)+'</text>';
@@ -156,12 +170,17 @@ function svg(m){
   return parts.join('')+'</g></svg>';
 }
 function draw() {
-  document.querySelectorAll('[data-for]').forEach(el=>{el.hidden=!(el.dataset.for===view||(el.dataset.for==='other'&&view!=='connectome'));});
+  document.querySelectorAll('[data-for]').forEach(el=>{el.hidden=!(el.dataset.for===view||(el.dataset.for==='other'&&view!=='connectome')||(el.dataset.for==='pairViews'&&isPairView(view))||(el.dataset.for==='matrix'&&view!=='circos'));});
   document.querySelectorAll('[data-view]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.view===view)));
   $('statsBox').hidden=view!=='connectome'; $('title').textContent=sources[view][0];$('guide').textContent=sources[view][1];$('message').textContent='';
   $('finding').textContent=findings[view];
-  const m=matrix(); figure=svg(m);$('plot').innerHTML=figure;plottedRows=m.tableRows;columns=m.headings;
-  table('table',plottedRows,columns);$('tableTitle').textContent=view==='pairs'?'Pair-level evidence':'Plotted values';
+  const m=matrix();
+  $('toPairs').hidden=isPairView(view);
+  if(!isPairView(view))$('toPairs').textContent='View pairs matching '+resourceForView[view];
+  $('referenceBox').hidden=!isPairView(view);
+  if(isPairView(view))renderOverlapTable(m.tableRows);
+  figure=view==='circos'?circosFigure(m.tableRows):svg(m);$('plot').innerHTML=figure;plottedRows=m.tableRows;columns=m.headings;
+  table('table',plottedRows,columns);$('tableTitle').textContent=isPairView(view)?'CA1 and interneuron genes and roles':'Plotted values';
 }
 function saveBlob(blob,name){
   const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),3000);
@@ -169,7 +188,7 @@ function saveBlob(blob,name){
 function downloadRoot(){
   if(location.protocol==='file:')return new URL('./results/',location.href);
   if(location.pathname.includes('/site/synaptic_evidence/'))return new URL('../../analysis/synaptic_evidence_20261125/results/',location.href);
-  return 'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.14-synaptic-evidence-20261125/analysis/synaptic_evidence_20261125/results/';
+  return 'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/ATLAS_RELEASE_TAG/analysis/synaptic_evidence_20261125/results/';
 }
 function settings(){return Object.fromEntries(inputs.map(e=>[e.id,e.type==='checkbox'?e.checked:e.value]));}
 async function save(format){
@@ -192,10 +211,25 @@ async function save(format){
 }
 async function init(){
   data=JSON.parse($('sourceData').textContent);
+  $('toPairs').onclick=()=>{
+    const ref=resourceForView[view];
+    $('resource').value=ref;$('matchCount').value='';$('assay').checked=false;
+    $('filter').value='';$('layer').value='';$('partner').value='';$('direction').value='';
+    view='overlap';history.replaceState(null,'','#overlap');draw();
+  };
   for(const ep of Object.keys(data.status))option('endpoint',ep,pop(ep));
   for(const area of [...new Set(data.db.map(r=>r.region))].sort())if(area!=='Hippocampus')option('region',area,area);
   Object.assign(defaults,settings());view=Object.hasOwn(sources,location.hash.slice(1))?location.hash.slice(1):'connectome';
   for(const e of inputs)e.addEventListener('input',draw);
+  function pickRibbon(event){
+    const ribbon=event.target.closest('.lr-ribbon');
+    if(!ribbon || (event.type==='keydown' && !['Enter',' '].includes(event.key)))return;
+    event.preventDefault();
+    $('oneRibbon').value=ribbon.dataset.key;
+    draw();
+    $('oneRibbon').focus();
+  }
+  $('plot').addEventListener('click',pickRibbon);$('plot').addEventListener('keydown',pickRibbon);
   document.querySelectorAll('[data-view]').forEach(e=>e.addEventListener('click',()=>{view=e.dataset.view;history.replaceState(null,'','#'+view);draw();}));
   $('reset').onclick=()=>{for(const el of inputs){if(el.type==='checkbox')el.checked=defaults[el.id];else el.value=defaults[el.id];}draw();};
   document.querySelectorAll('[data-save]').forEach(e=>e.addEventListener('click',()=>save(e.dataset.save).catch(err=>{$('message').textContent='Export failed. '+err.message;})));

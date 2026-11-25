@@ -1,13 +1,15 @@
 """Build the offline and checksum-verified Pages reader from the same sources."""
 import base64
 import hashlib
+import json
+from pair_sets import compare_pairs
 import zipfile
 from pathlib import Path
 
 root = Path(__file__).resolve().parent
 site = root.parents[1] / 'site'
 source = root / 'reader'
-release = 'atlas-v3.14-synaptic-evidence-20261125'
+release = 'atlas-v3.14.1-directed-pairs-20261125'
 remote = f'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/{release}/analysis/{root.name}/offline.html'
 
 def inline_script(path):
@@ -17,8 +19,12 @@ def inline_script(path):
 page = (source / 'index.html').read_text()
 page = page.replace('<link rel="stylesheet" href="evidence.css">', '<style>' + (source / 'evidence.css').read_text() + '</style>')
 page = page.replace('<script src="../vendor/jspdf.umd.min.js"></script>', inline_script(site / 'vendor/jspdf.umd.min.js'))
-data = (root / 'results/data.json').read_text().replace('<', r'\u003c')
+payload = json.loads((root / 'results/data.json').read_text())
+payload['pairRoles'] = compare_pairs(payload, root / 'results')
+data = json.dumps(payload, separators=(',', ':'), allow_nan=False).replace('<', r'\u003c')
+page = page.replace('<script src="pair_views.js"></script>', inline_script(source / 'pair_views.js'))
 page = page.replace('<script src="evidence.js"></script>', '<script type="application/json" id="sourceData">' + data + '</script>' + inline_script(source / 'evidence.js'))
+page = page.replace('ATLAS_RELEASE_TAG', release)
 (root / 'offline.html').write_text(page)
 with zipfile.ZipFile(root / 'synaptic_evidence.zip', 'w', compression=zipfile.ZIP_DEFLATED) as archive:
     for file in [root / 'offline.html', *sorted((root / 'results').iterdir())]:
