@@ -1,0 +1,40 @@
+{
+  "sources_sha256": {
+    "connect_fig15.jpg": "3a764f48e27fb0dc1ff199da8b646151d75c786d96b552b9a7c2f2e22b2ac744",
+    "41467_2025_63119_MOESM4_ESM.xlsx": "cc08334e81790371e8e235e067d7e7994c2586872abe7a961da624bcdb64a582",
+    "human-mouse-psp.html": "a556c5c3211c345af1a4e2ce0a6ffde6d757b1a5539825f78e891775cfa6ffb1",
+    "tap-psd-95.html": "8a71e8d74a656e3f932515465477b1f562013945943d4469158475c1f5a6de0e",
+    "synaptome.db.tar.gz": "00d6b1b2261c92891155a9958b0edd94fce860316ada3af95d778a58a5325584",
+    "synaptic.proteome_SR_ASD_EPS_20221010.db.sqlite": "4c794f17e02906f631a0767be4747a1b35bf123f97b3b6a8549aa480c2dc268b"
+  },
+  "strict_input_sha256": "12524542a44a417e0e7e039acc66315f50f99ce61a06b3dd2249a5de6281f7c5",
+  "endpoint_source_sha256": {
+    "CA1_Superficial": "5a4c7bc93a205cbd5dab97042ce3da7a1799a9ac9218073cd5a57dfd97a33904",
+    "CA1_Deep": "72601af31cd3aaf17c9ab1962e5da5bb3d31bfdad86fdf4643629cbae4caaa3e",
+    "IN_C1": "3fa864f4b828bbd1c7aef28f997519849789739c9f799b348977a0f92ead2ce3",
+    "IN_C2": "35238c5f0723892fb9718174dc8fd5319235625c5aa59c71d8b76ceb4dd4ff4b",
+    "IN_C3": "5219344aec5220771590d96a0cb7fbc62598ace52b09c1ba0df97f2c75138239",
+    "IN_C4": "66decbddae861b7c2e2f22e44183d45320398c6b7329c74063e1c54f6ecd9ec6",
+    "IN_C5": "bd524e6da6136dd9ddab0e129526966cfba151eb65c2da507065fa38bfd921e7",
+    "IN_C6": "cf985d87f0f442e83010f706a3386e067321008ac4416e818755f3a2f6cfb62f",
+    "IN_C7": "3718a60fc83a15b42226d9e71767e0287188b7973fd1cd00138d778d9739353a",
+    "IN_C8": "edf6ba8b01ed323966b5f7d15834d61fcdbc2de87bac4c9c1bd2ff6471ca80cd",
+    "IN_C9": "e249b7126dcac91ee9b4d7d50e2b60bcb6b4db4e5cb2b0e0a84063cd64944b10",
+    "IN_C10": "c8423f29980549a5f2253d6991afdd168321902212676bab972418186c2f328f",
+    "IN_C11": "5620085fe4019bf5f799257e64e8c92e80dfd6051fbd918c14abb7d86f20580e",
+    "IN_C12": "a26d14cf1297c6c54cecc5925ec1e3790768be6f38fe5c1a73b6b4ac2fe6aafb",
+    "IN_C13": "65b0b65aa6a99bea18f6bcd61543833f8236ee130569d7a39f731b4a6b248356",
+    "IN_C14": "e65651954ae4bb9121136702b2b58d4e5794f8b4520ffea0b0b26e0ecf3545e7",
+    "IN_C15": "326f6ca18f97dc703c307869bc683b95c3f0d567a5c226034321abb436189def",
+    "IN_C16": "1ed486c2538a9763121d67f1dea379e618f2f9ffc44a1f93d81031003f680dbe",
+    "IN_C17": "f40c11d28fc2610bdb4a8fa3e60a85ba1117e22c2f0634f5beb5a57e4e5a3743",
+    "IN_C19": "c1e1fe3eb40569253f4ec249408c6240c1f6d6eaacea4f2bee6cee83c50dfa3f",
+    "IN_C20": "9c4a60ce2620a93fe324a984ed73db6955103728a63b07d7fea957cd12429c90"
+  },
+  "excluded": "CA1 C8",
+  "IN_C18": "no eligible original mouse-level model",
+  "DEG_criterion": "per-endpoint adjusted P < 0.05",
+  "reference_panel": "Connectome-seq Extended Data Fig. 9b, top 30, published 2026",
+  "synaptome": "AH107282 supplied by synaptome.db 0.99.17",
+  "G2C": "G2C programme publication tables Bayes S1/S2d, Fernandez S1"
+}

@@ -1,0 +1,661 @@
+endpoint	gene	reference_figure_order	status	log2FC	FDR
+CA1_Superficial	Grid2ip	1	outside fitted gene list		
+CA1_Superficial	Cacna1g	2	tested	-0.0201369084673141	0.945906748046035
+CA1_Superficial	Stac	3	DEG	-0.871534490454222	1.0975726064924e-10
+CA1_Superficial	Dlgap4	4	tested	0.0136557870628786	0.938235032464156
+CA1_Superficial	Dagla	5	tested	-0.118958687513836	0.315901470805154
+CA1_Superficial	Foxp4	6	tested	-0.333922039313427	0.0755349536678354
+CA1_Superficial	Grik4	7	tested	-0.317391080852488	0.055085084180538
+CA1_Superficial	Zfp385c	8	outside fitted gene list		
+CA1_Superficial	Mir9-3hg	9	tested	0.11435414450464	0.378567870022378
+CA1_Superficial	Abr	10	tested	-0.07851564290569	0.449316595213814
+CA1_Superficial	Ryr1	11	DEG	0.567351114570312	6.28657907429504e-05
+CA1_Superficial	Cacna2d2	12	tested	0.448751167055247	0.169716026518125
+CA1_Superficial	Arhgap31	13	tested	-0.0218934762980716	0.979529229714628
+CA1_Superficial	Ablim2	14	tested	-0.00931161981340684	0.971654719650715
+CA1_Superficial	Hpcal1	15	tested	0.0327650750326891	0.956324021080774
+CA1_Superficial	Col5a1	16	tested	-0.274954629954705	0.582749692850345
+CA1_Superficial	Myo10	17	tested	-0.0695849166894806	0.9198496341889
+CA1_Superficial	Arap1	18	outside fitted gene list		
+CA1_Superficial	Plxdc1	19	tested	-0.204275691778498	0.721803614103754
+CA1_Superficial	Pde9a	20	tested	0.219902072015025	0.3372188306976
+CA1_Superficial	9530059O14Rik	21	tested	0.0443709371050895	0.809596596012949
+CA1_Superficial	Ppp1r16b	22	tested	-0.00187524898693615	0.996014835140843
+CA1_Superficial	Plekhd1	23	outside fitted gene list		
+CA1_Superficial	Clmn	24	tested	-0.118464369381565	0.64974894066458
+CA1_Superficial	Bcl11a	25	tested	0.0101233902878431	0.958993522088665
+CA1_Superficial	Sh3pxd2a	26	tested	0.086785278530294	0.692865830752802
+CA1_Superficial	Gm20635	27	tested	0.211376152827479	0.642313758321916
+CA1_Superficial	Cntnap5c	28	DEG	-0.884487461961591	2.44377763012262e-16
+CA1_Superficial	Col18a1	29	outside fitted gene list		
+CA1_Superficial	Srgap1	30	tested	0.169876929750885	0.417769443666114
+CA1_Deep	Grid2ip	1	outside fitted gene list		
+CA1_Deep	Cacna1g	2	DEG	-0.374042191582333	0.000714205313426168
+CA1_Deep	Stac	3	DEG	-0.310617690848427	0.0481881540770137
+CA1_Deep	Dlgap4	4	tested	-0.046532117519261	0.926651297324739
+CA1_Deep	Dagla	5	DEG	-0.203295953223759	0.0340486555710154
+CA1_Deep	Foxp4	6	tested	-0.338807754788874	0.286192068627741
+CA1_Deep	Grik4	7	DEG	-0.55451402011164	0.00902640093056917
+CA1_Deep	Zfp385c	8	outside fitted gene list		
+CA1_Deep	Mir9-3hg	9	tested	0.117884633565943	0.421258643557889
+CA1_Deep	Abr	10	tested	0.00484444961751029	0.992113479487369
+CA1_Deep	Ryr1	11	tested	0.210641023934258	0.432648529555392
+CA1_Deep	Cacna2d2	12	tested	0.21832867467142	0.855071193666773
+CA1_Deep	Arhgap31	13	tested	-0.141392707112345	0.966473049906738
+CA1_Deep	Ablim2	14	tested	-0.138742351941018	0.374368141940787
+CA1_Deep	Hpcal1	15	tested	-0.268566008316211	0.81193366588226
+CA1_Deep	Col5a1	16	tested	-0.101188420969395	0.965605021733395
+CA1_Deep	Myo10	17	tested	-0.406906092244567	0.189937367167457
+CA1_Deep	Arap1	18	outside fitted gene list		
+CA1_Deep	Plxdc1	19	tested	-0.46107138711851	0.59269499301942
+CA1_Deep	Pde9a	20	DEG	0.691960464793174	0.00206401172907917
+CA1_Deep	9530059O14Rik	21	tested	0.0948124437611051	0.590305757246824
+CA1_Deep	Ppp1r16b	22	tested	-0.00112668255942665	0.998924136380682
+CA1_Deep	Plekhd1	23	outside fitted gene list		
+CA1_Deep	Clmn	24	tested	-0.331433620993793	0.377118552165782
+CA1_Deep	Bcl11a	25	tested	-0.0351172755554374	0.930038340677311
+CA1_Deep	Sh3pxd2a	26	tested	-0.101890801290772	0.889652162096756
+CA1_Deep	Gm20635	27	tested	0.177518384366389	0.91545360463244
+CA1_Deep	Cntnap5c	28	DEG	-0.427707082495619	1.5161370149382e-08
+CA1_Deep	Col18a1	29	outside fitted gene list		
+CA1_Deep	Srgap1	30	tested	0.0406049514107441	0.960775842949188
+IN_C1	Grid2ip	1	outside fitted gene list		
+IN_C1	Cacna1g	2	FDR unavailable or ambiguous		
+IN_C1	Stac	3	FDR unavailable or ambiguous		
+IN_C1	Dlgap4	4	tested	-0.239097240433709	0.784401466277414
+IN_C1	Dagla	5	tested	-0.0924446298933613	0.999370230666342
+IN_C1	Foxp4	6	outside fitted gene list		
+IN_C1	Grik4	7	tested	-0.254635690924319	0.916904835975827
+IN_C1	Zfp385c	8	outside fitted gene list		
+IN_C1	Mir9-3hg	9	tested	-0.0119121584589604	0.999370230666342
+IN_C1	Abr	10	tested	-0.0540154144238391	0.999370230666342
+IN_C1	Ryr1	11	outside fitted gene list		
+IN_C1	Cacna2d2	12	tested	-0.0659015325215286	0.999370230666342
+IN_C1	Arhgap31	13	DEG	-1.05942772959486	3.48155697739775e-05
+IN_C1	Ablim2	14	tested	0.0466684913248967	0.999370230666342
+IN_C1	Hpcal1	15	FDR unavailable or ambiguous		
+IN_C1	Col5a1	16	FDR unavailable or ambiguous		
+IN_C1	Myo10	17	tested	-0.00629621311323236	0.999370230666342
+IN_C1	Arap1	18	outside fitted gene list		
+IN_C1	Plxdc1	19	FDR unavailable or ambiguous		
+IN_C1	Pde9a	20	tested	-0.155785868444169	0.98972557744681
+IN_C1	9530059O14Rik	21	tested	-0.147148542982656	0.999370230666342
+IN_C1	Ppp1r16b	22	tested	-0.0274344269061466	0.999370230666342
+IN_C1	Plekhd1	23	FDR unavailable or ambiguous		
+IN_C1	Clmn	24	FDR unavailable or ambiguous		
+IN_C1	Bcl11a	25	tested	0.220510178873589	0.999370230666342
+IN_C1	Sh3pxd2a	26	tested	-0.202182799043999	0.996562385604834
+IN_C1	Gm20635	27	outside fitted gene list		
+IN_C1	Cntnap5c	28	tested	0.0029618722573949	0.999370230666342
+IN_C1	Col18a1	29	outside fitted gene list		
+IN_C1	Srgap1	30	tested	0.0336846339985403	0.999370230666342
+IN_C2	Grid2ip	1	outside fitted gene list		
+IN_C2	Cacna1g	2	tested	0.00641161431367337	0.999746448904069
+IN_C2	Stac	3	tested	0.0683793593260396	0.999746448904069
+IN_C2	Dlgap4	4	tested	0.118242867382367	0.999746448904069
+IN_C2	Dagla	5	tested	0.214489789968069	0.999746448904069
+IN_C2	Foxp4	6	outside fitted gene list		
+IN_C2	Grik4	7	tested	0.014560283007089	0.999746448904069
+IN_C2	Zfp385c	8	outside fitted gene list		
+IN_C2	Mir9-3hg	9	tested	0.0449093632098852	0.999746448904069
+IN_C2	Abr	10	tested	-0.0633192603900729	0.999746448904069
+IN_C2	Ryr1	11	outside fitted gene list		
+IN_C2	Cacna2d2	12	tested	0.0121560831810104	0.999746448904069
+IN_C2	Arhgap31	13	tested	-0.291369886551234	0.999746448904069
+IN_C2	Ablim2	14	tested	-0.0382591075681572	0.999746448904069
+IN_C2	Hpcal1	15	outside fitted gene list		
+IN_C2	Col5a1	16	tested	0.432531779008885	0.999746448904069
+IN_C2	Myo10	17	tested	0.287594992288207	0.999746448904069
+IN_C2	Arap1	18	outside fitted gene list		
+IN_C2	Plxdc1	19	tested	1.08161998518333	0.999746448904069
+IN_C2	Pde9a	20	tested	-0.129149284740084	0.999746448904069
+IN_C2	9530059O14Rik	21	tested	0.00593697861714875	0.999746448904069
+IN_C2	Ppp1r16b	22	tested	0.131275610799028	0.999746448904069
+IN_C2	Plekhd1	23	outside fitted gene list		
+IN_C2	Clmn	24	tested	-0.230085444426335	0.999746448904069
+IN_C2	Bcl11a	25	tested	-0.139603334927882	0.999746448904069
+IN_C2	Sh3pxd2a	26	tested	0.0483258239418018	0.999746448904069
+IN_C2	Gm20635	27	outside fitted gene list		
+IN_C2	Cntnap5c	28	tested	0.066083016295183	0.999746448904069
+IN_C2	Col18a1	29	outside fitted gene list		
+IN_C2	Srgap1	30	tested	0.148724410140701	0.999746448904069
+IN_C3	Grid2ip	1	tested	-0.164126415724164	0.999792503584723
+IN_C3	Cacna1g	2	tested	0.0909860435235057	0.999792503584723
+IN_C3	Stac	3	tested	-0.458827953307475	0.999792503584723
+IN_C3	Dlgap4	4	tested	0.129268050434895	0.999792503584723
+IN_C3	Dagla	5	tested	-0.418308908922378	0.999792503584723
+IN_C3	Foxp4	6	outside fitted gene list		
+IN_C3	Grik4	7	tested	-0.0747619212337198	0.999792503584723
+IN_C3	Zfp385c	8	outside fitted gene list		
+IN_C3	Mir9-3hg	9	tested	-0.163212626604756	0.999792503584723
+IN_C3	Abr	10	tested	-0.0510916035215092	0.999792503584723
+IN_C3	Ryr1	11	outside fitted gene list		
+IN_C3	Cacna2d2	12	tested	0.102055564020552	0.999792503584723
+IN_C3	Arhgap31	13	tested	-0.628815978243688	0.999792503584723
+IN_C3	Ablim2	14	tested	-0.166192421288895	0.999792503584723
+IN_C3	Hpcal1	15	tested	0.156304584353738	0.999792503584723
+IN_C3	Col5a1	16	tested	0.350621318138507	0.999792503584723
+IN_C3	Myo10	17	tested	0.0177589429711279	0.999792503584723
+IN_C3	Arap1	18	outside fitted gene list		
+IN_C3	Plxdc1	19	outside fitted gene list		
+IN_C3	Pde9a	20	tested	-0.28633061851448	0.999792503584723
+IN_C3	9530059O14Rik	21	tested	-0.305795483203907	0.999792503584723
+IN_C3	Ppp1r16b	22	tested	-0.0689182727225082	0.999792503584723
+IN_C3	Plekhd1	23	outside fitted gene list		
+IN_C3	Clmn	24	tested	-0.305337993494886	0.999792503584723
+IN_C3	Bcl11a	25	tested	-0.166430915794604	0.999792503584723
+IN_C3	Sh3pxd2a	26	tested	-0.127432369073384	0.999792503584723
+IN_C3	Gm20635	27	outside fitted gene list		
+IN_C3	Cntnap5c	28	tested	-0.131576770420029	0.999792503584723
+IN_C3	Col18a1	29	outside fitted gene list		
+IN_C3	Srgap1	30	tested	0.0391393495948034	0.999792503584723
+IN_C4	Grid2ip	1	outside fitted gene list		
+IN_C4	Cacna1g	2	tested	0.305555375333268	0.999826752618685
+IN_C4	Stac	3	outside fitted gene list		
+IN_C4	Dlgap4	4	tested	-0.013817965759259	0.999826752618685
+IN_C4	Dagla	5	tested	-0.206396838162282	0.999826752618685
+IN_C4	Foxp4	6	outside fitted gene list		
+IN_C4	Grik4	7	tested	0.0864188281344059	0.999826752618685
+IN_C4	Zfp385c	8	outside fitted gene list		
+IN_C4	Mir9-3hg	9	tested	-0.196327501472274	0.999826752618685
+IN_C4	Abr	10	tested	0.0385305150353335	0.999826752618685
+IN_C4	Ryr1	11	outside fitted gene list		
+IN_C4	Cacna2d2	12	tested	0.181319067895995	0.999826752618685
+IN_C4	Arhgap31	13	tested	0.78766799419595	0.999826752618685
+IN_C4	Ablim2	14	tested	-0.447267594288215	0.999826752618685
+IN_C4	Hpcal1	15	outside fitted gene list		
+IN_C4	Col5a1	16	outside fitted gene list		
+IN_C4	Myo10	17	outside fitted gene list		
+IN_C4	Arap1	18	outside fitted gene list		
+IN_C4	Plxdc1	19	outside fitted gene list		
+IN_C4	Pde9a	20	tested	0.450518360218445	0.999826752618685
+IN_C4	9530059O14Rik	21	tested	0.408036715490094	0.999826752618685
+IN_C4	Ppp1r16b	22	tested	0.03957465709817	0.999826752618685
+IN_C4	Plekhd1	23	outside fitted gene list		
+IN_C4	Clmn	24	tested	0.114506614527293	0.999826752618685
+IN_C4	Bcl11a	25	tested	-0.159814968208115	0.999826752618685
+IN_C4	Sh3pxd2a	26	tested	-0.301564533532175	0.999826752618685
+IN_C4	Gm20635	27	outside fitted gene list		
+IN_C4	Cntnap5c	28	tested	-0.0527815369359742	0.999826752618685
+IN_C4	Col18a1	29	outside fitted gene list		
+IN_C4	Srgap1	30	tested	0.147871192046074	0.999826752618685
+IN_C5	Grid2ip	1	outside fitted gene list		
+IN_C5	Cacna1g	2	tested	0.442487458980661	0.999978802395961
+IN_C5	Stac	3	outside fitted gene list		
+IN_C5	Dlgap4	4	tested	-0.194441507423171	0.999978802395961
+IN_C5	Dagla	5	tested	-0.234492264363276	0.999978802395961
+IN_C5	Foxp4	6	outside fitted gene list		
+IN_C5	Grik4	7	tested	-0.125309971706661	0.999978802395961
+IN_C5	Zfp385c	8	outside fitted gene list		
+IN_C5	Mir9-3hg	9	tested	0.0867952499395047	0.999978802395961
+IN_C5	Abr	10	tested	-0.0205458427111622	0.999978802395961
+IN_C5	Ryr1	11	tested	-0.650804995052822	0.999978802395961
+IN_C5	Cacna2d2	12	tested	0.0621304885086853	0.999978802395961
+IN_C5	Arhgap31	13	DEG	-1.2280399974022	0.00114371790582315
+IN_C5	Ablim2	14	tested	-0.0534373209613732	0.999978802395961
+IN_C5	Hpcal1	15	outside fitted gene list		
+IN_C5	Col5a1	16	outside fitted gene list		
+IN_C5	Myo10	17	outside fitted gene list		
+IN_C5	Arap1	18	outside fitted gene list		
+IN_C5	Plxdc1	19	tested	0.254119861032233	0.999978802395961
+IN_C5	Pde9a	20	tested	-0.0482563465757161	0.999978802395961
+IN_C5	9530059O14Rik	21	tested	0.181991415892992	0.999978802395961
+IN_C5	Ppp1r16b	22	tested	0.248387273738135	0.999978802395961
+IN_C5	Plekhd1	23	outside fitted gene list		
+IN_C5	Clmn	24	outside fitted gene list		
+IN_C5	Bcl11a	25	tested	-0.177495072703863	0.999978802395961
+IN_C5	Sh3pxd2a	26	tested	-0.166077191314885	0.999978802395961
+IN_C5	Gm20635	27	outside fitted gene list		
+IN_C5	Cntnap5c	28	tested	-0.00393961632263607	0.999978802395961
+IN_C5	Col18a1	29	outside fitted gene list		
+IN_C5	Srgap1	30	tested	-0.296758388347456	0.999978802395961
+IN_C6	Grid2ip	1	outside fitted gene list		
+IN_C6	Cacna1g	2	FDR unavailable or ambiguous		
+IN_C6	Stac	3	outside fitted gene list		
+IN_C6	Dlgap4	4	FDR unavailable or ambiguous		
+IN_C6	Dagla	5	FDR unavailable or ambiguous		
+IN_C6	Foxp4	6	outside fitted gene list		
+IN_C6	Grik4	7	FDR unavailable or ambiguous		
+IN_C6	Zfp385c	8	outside fitted gene list		
+IN_C6	Mir9-3hg	9	FDR unavailable or ambiguous		
+IN_C6	Abr	10	tested	-0.0432812510303196	0.989302638391193
+IN_C6	Ryr1	11	outside fitted gene list		
+IN_C6	Cacna2d2	12	tested	0.0479444370335253	0.989302638391193
+IN_C6	Arhgap31	13	outside fitted gene list		
+IN_C6	Ablim2	14	tested	-0.173305631433134	0.989302638391193
+IN_C6	Hpcal1	15	outside fitted gene list		
+IN_C6	Col5a1	16	outside fitted gene list		
+IN_C6	Myo10	17	outside fitted gene list		
+IN_C6	Arap1	18	outside fitted gene list		
+IN_C6	Plxdc1	19	outside fitted gene list		
+IN_C6	Pde9a	20	tested	-0.403828625252492	0.642190621651193
+IN_C6	9530059O14Rik	21	tested	0.232680554745611	0.98702196884521
+IN_C6	Ppp1r16b	22	FDR unavailable or ambiguous		
+IN_C6	Plekhd1	23	outside fitted gene list		
+IN_C6	Clmn	24	outside fitted gene list		
+IN_C6	Bcl11a	25	tested	0.161526712506107	0.989302638391193
+IN_C6	Sh3pxd2a	26	FDR unavailable or ambiguous		
+IN_C6	Gm20635	27	outside fitted gene list		
+IN_C6	Cntnap5c	28	DEG	0.669870667957611	0.0487933280839137
+IN_C6	Col18a1	29	outside fitted gene list		
+IN_C6	Srgap1	30	FDR unavailable or ambiguous		
+IN_C7	Grid2ip	1	outside fitted gene list		
+IN_C7	Cacna1g	2	tested	-0.153823434189982	0.999461169850934
+IN_C7	Stac	3	outside fitted gene list		
+IN_C7	Dlgap4	4	tested	-0.00173934808093679	0.999974075265926
+IN_C7	Dagla	5	tested	-0.125258577244962	0.999461169850934
+IN_C7	Foxp4	6	outside fitted gene list		
+IN_C7	Grik4	7	tested	0.0608052541084335	0.999461169850934
+IN_C7	Zfp385c	8	outside fitted gene list		
+IN_C7	Mir9-3hg	9	tested	-0.618405540748527	0.999461169850934
+IN_C7	Abr	10	tested	-0.0754741157692647	0.999461169850934
+IN_C7	Ryr1	11	outside fitted gene list		
+IN_C7	Cacna2d2	12	outside fitted gene list		
+IN_C7	Arhgap31	13	outside fitted gene list		
+IN_C7	Ablim2	14	tested	-0.0700439363675821	0.999461169850934
+IN_C7	Hpcal1	15	outside fitted gene list		
+IN_C7	Col5a1	16	outside fitted gene list		
+IN_C7	Myo10	17	outside fitted gene list		
+IN_C7	Arap1	18	outside fitted gene list		
+IN_C7	Plxdc1	19	outside fitted gene list		
+IN_C7	Pde9a	20	tested	0.0529101279870619	0.999461169850934
+IN_C7	9530059O14Rik	21	tested	-0.328255093701358	0.999461169850934
+IN_C7	Ppp1r16b	22	tested	0.13202139834578	0.999461169850934
+IN_C7	Plekhd1	23	outside fitted gene list		
+IN_C7	Clmn	24	tested	-0.381698835120102	0.999461169850934
+IN_C7	Bcl11a	25	tested	0.125634202084035	0.999461169850934
+IN_C7	Sh3pxd2a	26	tested	0.0556828135137583	0.999461169850934
+IN_C7	Gm20635	27	outside fitted gene list		
+IN_C7	Cntnap5c	28	tested	0.123985255044893	0.999461169850934
+IN_C7	Col18a1	29	outside fitted gene list		
+IN_C7	Srgap1	30	tested	0.36830952817335	0.999461169850934
+IN_C8	Grid2ip	1	outside fitted gene list		
+IN_C8	Cacna1g	2	tested	-0.0192014685483811	0.999293267165365
+IN_C8	Stac	3	tested	1.03015966990729	0.999293267165365
+IN_C8	Dlgap4	4	tested	0.204388181782245	0.999293267165365
+IN_C8	Dagla	5	tested	0.233022108832378	0.999293267165365
+IN_C8	Foxp4	6	outside fitted gene list		
+IN_C8	Grik4	7	tested	0.334172820565649	0.999293267165365
+IN_C8	Zfp385c	8	outside fitted gene list		
+IN_C8	Mir9-3hg	9	tested	-0.0740196483783394	0.999293267165365
+IN_C8	Abr	10	tested	-0.0383334406489185	0.999293267165365
+IN_C8	Ryr1	11	outside fitted gene list		
+IN_C8	Cacna2d2	12	tested	-0.091481561062963	0.999293267165365
+IN_C8	Arhgap31	13	outside fitted gene list		
+IN_C8	Ablim2	14	tested	0.0534332119094927	0.999293267165365
+IN_C8	Hpcal1	15	outside fitted gene list		
+IN_C8	Col5a1	16	outside fitted gene list		
+IN_C8	Myo10	17	tested	-0.306283006816754	0.999293267165365
+IN_C8	Arap1	18	outside fitted gene list		
+IN_C8	Plxdc1	19	outside fitted gene list		
+IN_C8	Pde9a	20	tested	-0.0175824408046125	0.999293267165365
+IN_C8	9530059O14Rik	21	tested	-0.216280944893204	0.999293267165365
+IN_C8	Ppp1r16b	22	tested	-0.763892365625477	0.999293267165365
+IN_C8	Plekhd1	23	outside fitted gene list		
+IN_C8	Clmn	24	tested	0.22884627168255	0.999293267165365
+IN_C8	Bcl11a	25	tested	-0.41473817514734	0.999293267165365
+IN_C8	Sh3pxd2a	26	tested	0.0491153445503264	0.999293267165365
+IN_C8	Gm20635	27	outside fitted gene list		
+IN_C8	Cntnap5c	28	tested	-0.127547605118774	0.999293267165365
+IN_C8	Col18a1	29	outside fitted gene list		
+IN_C8	Srgap1	30	tested	-0.0956541670885914	0.999293267165365
+IN_C9	Grid2ip	1	outside fitted gene list		
+IN_C9	Cacna1g	2	tested	0.12195638439613	0.998519191749458
+IN_C9	Stac	3	tested	-0.0473924868335471	0.998519191749458
+IN_C9	Dlgap4	4	tested	-0.133672365939659	0.998519191749458
+IN_C9	Dagla	5	outside fitted gene list		
+IN_C9	Foxp4	6	outside fitted gene list		
+IN_C9	Grik4	7	tested	0.359599425138524	0.998519191749458
+IN_C9	Zfp385c	8	outside fitted gene list		
+IN_C9	Mir9-3hg	9	tested	0.136517959441359	0.998519191749458
+IN_C9	Abr	10	tested	-0.182964170993277	0.998519191749458
+IN_C9	Ryr1	11	outside fitted gene list		
+IN_C9	Cacna2d2	12	tested	-0.161842523906453	0.998519191749458
+IN_C9	Arhgap31	13	tested	-0.433760195763136	0.998519191749458
+IN_C9	Ablim2	14	tested	-0.122223503335678	0.998519191749458
+IN_C9	Hpcal1	15	outside fitted gene list		
+IN_C9	Col5a1	16	outside fitted gene list		
+IN_C9	Myo10	17	tested	0.858163008075799	0.998519191749458
+IN_C9	Arap1	18	outside fitted gene list		
+IN_C9	Plxdc1	19	outside fitted gene list		
+IN_C9	Pde9a	20	tested	0.176968274004424	0.998519191749458
+IN_C9	9530059O14Rik	21	tested	-0.0867298842643973	0.998519191749458
+IN_C9	Ppp1r16b	22	tested	0.0119203778052182	0.998519191749458
+IN_C9	Plekhd1	23	outside fitted gene list		
+IN_C9	Clmn	24	tested	-0.820894470890243	0.998519191749458
+IN_C9	Bcl11a	25	tested	-0.842693874110741	0.998519191749458
+IN_C9	Sh3pxd2a	26	tested	0.281830398649046	0.998519191749458
+IN_C9	Gm20635	27	outside fitted gene list		
+IN_C9	Cntnap5c	28	tested	0.108737630621677	0.998519191749458
+IN_C9	Col18a1	29	outside fitted gene list		
+IN_C9	Srgap1	30	tested	-0.201500035852364	0.998519191749458
+IN_C10	Grid2ip	1	outside fitted gene list		
+IN_C10	Cacna1g	2	tested	0.311338900433627	0.99897305047384
+IN_C10	Stac	3	tested	0.268727458353817	0.99897305047384
+IN_C10	Dlgap4	4	tested	-0.231068698859441	0.99897305047384
+IN_C10	Dagla	5	tested	0.43043676220913	0.99897305047384
+IN_C10	Foxp4	6	outside fitted gene list		
+IN_C10	Grik4	7	tested	-0.0883697297339959	0.99897305047384
+IN_C10	Zfp385c	8	outside fitted gene list		
+IN_C10	Mir9-3hg	9	tested	0.00618121772662901	0.99897305047384
+IN_C10	Abr	10	tested	-0.0620769810523608	0.99897305047384
+IN_C10	Ryr1	11	outside fitted gene list		
+IN_C10	Cacna2d2	12	tested	0.0237859221206775	0.99897305047384
+IN_C10	Arhgap31	13	outside fitted gene list		
+IN_C10	Ablim2	14	tested	-0.141074469083599	0.99897305047384
+IN_C10	Hpcal1	15	outside fitted gene list		
+IN_C10	Col5a1	16	outside fitted gene list		
+IN_C10	Myo10	17	outside fitted gene list		
+IN_C10	Arap1	18	outside fitted gene list		
+IN_C10	Plxdc1	19	outside fitted gene list		
+IN_C10	Pde9a	20	tested	-0.280502261145881	0.99897305047384
+IN_C10	9530059O14Rik	21	tested	-0.198362595965083	0.99897305047384
+IN_C10	Ppp1r16b	22	tested	-0.0233505625770991	0.99897305047384
+IN_C10	Plekhd1	23	outside fitted gene list		
+IN_C10	Clmn	24	tested	0.2073082512504	0.99897305047384
+IN_C10	Bcl11a	25	tested	0.215657208851406	0.99897305047384
+IN_C10	Sh3pxd2a	26	tested	-0.0101706846785323	0.99897305047384
+IN_C10	Gm20635	27	outside fitted gene list		
+IN_C10	Cntnap5c	28	tested	0.0012264772849411	0.99897305047384
+IN_C10	Col18a1	29	outside fitted gene list		
+IN_C10	Srgap1	30	tested	0.15217205555631	0.99897305047384
+IN_C11	Grid2ip	1	outside fitted gene list		
+IN_C11	Cacna1g	2	tested	-0.305785488282873	0.999859928673579
+IN_C11	Stac	3	outside fitted gene list		
+IN_C11	Dlgap4	4	tested	0.177443300129978	0.999859928673579
+IN_C11	Dagla	5	tested	0.439537512461842	0.999859928673579
+IN_C11	Foxp4	6	outside fitted gene list		
+IN_C11	Grik4	7	tested	0.662893923336885	0.999859928673579
+IN_C11	Zfp385c	8	outside fitted gene list		
+IN_C11	Mir9-3hg	9	tested	-2.75922975716944e-05	0.999876786380222
+IN_C11	Abr	10	tested	-0.214247130893379	0.999859928673579
+IN_C11	Ryr1	11	tested	0.489497901749351	0.999859928673579
+IN_C11	Cacna2d2	12	tested	-0.0987648316456612	0.999859928673579
+IN_C11	Arhgap31	13	outside fitted gene list		
+IN_C11	Ablim2	14	tested	0.151580878219792	0.999859928673579
+IN_C11	Hpcal1	15	outside fitted gene list		
+IN_C11	Col5a1	16	outside fitted gene list		
+IN_C11	Myo10	17	tested	0.54525381033339	0.999859928673579
+IN_C11	Arap1	18	outside fitted gene list		
+IN_C11	Plxdc1	19	outside fitted gene list		
+IN_C11	Pde9a	20	tested	0.0541735789944051	0.999859928673579
+IN_C11	9530059O14Rik	21	tested	-0.350321012045035	0.999859928673579
+IN_C11	Ppp1r16b	22	tested	-0.23779581643705	0.999859928673579
+IN_C11	Plekhd1	23	tested	0.147193409570716	0.999859928673579
+IN_C11	Clmn	24	outside fitted gene list		
+IN_C11	Bcl11a	25	tested	-0.264192848180543	0.999859928673579
+IN_C11	Sh3pxd2a	26	tested	0.419769175647077	0.999859928673579
+IN_C11	Gm20635	27	outside fitted gene list		
+IN_C11	Cntnap5c	28	tested	0.180487310387536	0.999859928673579
+IN_C11	Col18a1	29	outside fitted gene list		
+IN_C11	Srgap1	30	tested	-0.102451338438909	0.999859928673579
+IN_C12	Grid2ip	1	outside fitted gene list		
+IN_C12	Cacna1g	2	tested	-0.814567828192794	0.999914792736523
+IN_C12	Stac	3	outside fitted gene list		
+IN_C12	Dlgap4	4	tested	0.0673821976179359	0.999914792736523
+IN_C12	Dagla	5	outside fitted gene list		
+IN_C12	Foxp4	6	outside fitted gene list		
+IN_C12	Grik4	7	tested	-0.340495861050145	0.999914792736523
+IN_C12	Zfp385c	8	outside fitted gene list		
+IN_C12	Mir9-3hg	9	tested	0.360279925587015	0.999914792736523
+IN_C12	Abr	10	tested	-0.382989423151953	0.999914792736523
+IN_C12	Ryr1	11	outside fitted gene list		
+IN_C12	Cacna2d2	12	tested	0.271126925530602	0.999914792736523
+IN_C12	Arhgap31	13	outside fitted gene list		
+IN_C12	Ablim2	14	tested	-0.276834573731222	0.999914792736523
+IN_C12	Hpcal1	15	outside fitted gene list		
+IN_C12	Col5a1	16	outside fitted gene list		
+IN_C12	Myo10	17	outside fitted gene list		
+IN_C12	Arap1	18	outside fitted gene list		
+IN_C12	Plxdc1	19	outside fitted gene list		
+IN_C12	Pde9a	20	tested	0.0714338107043201	0.999914792736523
+IN_C12	9530059O14Rik	21	tested	-0.0238353910518031	0.999914792736523
+IN_C12	Ppp1r16b	22	tested	-0.00683803227118085	0.999914792736523
+IN_C12	Plekhd1	23	outside fitted gene list		
+IN_C12	Clmn	24	tested	0.0164257409819807	0.999914792736523
+IN_C12	Bcl11a	25	tested	0.260845235675027	0.999914792736523
+IN_C12	Sh3pxd2a	26	tested	0.180831469523176	0.999914792736523
+IN_C12	Gm20635	27	outside fitted gene list		
+IN_C12	Cntnap5c	28	tested	0.0948162805327215	0.999914792736523
+IN_C12	Col18a1	29	outside fitted gene list		
+IN_C12	Srgap1	30	tested	0.180634004265809	0.999914792736523
+IN_C13	Grid2ip	1	outside fitted gene list		
+IN_C13	Cacna1g	2	tested	-0.197637128872804	0.999423673498445
+IN_C13	Stac	3	tested	-0.870453034994228	0.999423673498445
+IN_C13	Dlgap4	4	tested	-0.278902943743097	0.999423673498445
+IN_C13	Dagla	5	outside fitted gene list		
+IN_C13	Foxp4	6	outside fitted gene list		
+IN_C13	Grik4	7	tested	-0.0768817899111357	0.999423673498445
+IN_C13	Zfp385c	8	outside fitted gene list		
+IN_C13	Mir9-3hg	9	tested	0.0120457887597134	0.999423673498445
+IN_C13	Abr	10	tested	-0.111299561077933	0.999423673498445
+IN_C13	Ryr1	11	outside fitted gene list		
+IN_C13	Cacna2d2	12	tested	-0.527025325028298	0.999423673498445
+IN_C13	Arhgap31	13	tested	-0.760093790487993	0.999423673498445
+IN_C13	Ablim2	14	tested	-0.214589077895195	0.999423673498445
+IN_C13	Hpcal1	15	outside fitted gene list		
+IN_C13	Col5a1	16	outside fitted gene list		
+IN_C13	Myo10	17	outside fitted gene list		
+IN_C13	Arap1	18	outside fitted gene list		
+IN_C13	Plxdc1	19	outside fitted gene list		
+IN_C13	Pde9a	20	tested	-0.290373327107546	0.999423673498445
+IN_C13	9530059O14Rik	21	tested	0.125133498928596	0.999423673498445
+IN_C13	Ppp1r16b	22	tested	0.566888745028327	0.999423673498445
+IN_C13	Plekhd1	23	outside fitted gene list		
+IN_C13	Clmn	24	outside fitted gene list		
+IN_C13	Bcl11a	25	tested	-0.187883816251046	0.999423673498445
+IN_C13	Sh3pxd2a	26	tested	-0.219024853480318	0.999423673498445
+IN_C13	Gm20635	27	outside fitted gene list		
+IN_C13	Cntnap5c	28	tested	-0.264735488803149	0.999423673498445
+IN_C13	Col18a1	29	outside fitted gene list		
+IN_C13	Srgap1	30	tested	-0.0923009554273764	0.999423673498445
+IN_C14	Grid2ip	1	outside fitted gene list		
+IN_C14	Cacna1g	2	tested	-0.657371361169499	0.999478400786171
+IN_C14	Stac	3	tested	-0.20083295864918	0.999478400786171
+IN_C14	Dlgap4	4	tested	0.174014016819392	0.999478400786171
+IN_C14	Dagla	5	outside fitted gene list		
+IN_C14	Foxp4	6	outside fitted gene list		
+IN_C14	Grik4	7	tested	0.0184824897515982	0.999478400786171
+IN_C14	Zfp385c	8	outside fitted gene list		
+IN_C14	Mir9-3hg	9	tested	0.429429773217801	0.999478400786171
+IN_C14	Abr	10	tested	0.00867297739084637	0.999478400786171
+IN_C14	Ryr1	11	outside fitted gene list		
+IN_C14	Cacna2d2	12	outside fitted gene list		
+IN_C14	Arhgap31	13	outside fitted gene list		
+IN_C14	Ablim2	14	tested	0.0193872617682406	0.999478400786171
+IN_C14	Hpcal1	15	outside fitted gene list		
+IN_C14	Col5a1	16	outside fitted gene list		
+IN_C14	Myo10	17	outside fitted gene list		
+IN_C14	Arap1	18	outside fitted gene list		
+IN_C14	Plxdc1	19	outside fitted gene list		
+IN_C14	Pde9a	20	tested	0.101776688719985	0.999478400786171
+IN_C14	9530059O14Rik	21	tested	-0.0368715680494932	0.999478400786171
+IN_C14	Ppp1r16b	22	tested	0.326753988602344	0.999478400786171
+IN_C14	Plekhd1	23	outside fitted gene list		
+IN_C14	Clmn	24	outside fitted gene list		
+IN_C14	Bcl11a	25	tested	-0.370123455792643	0.999478400786171
+IN_C14	Sh3pxd2a	26	tested	0.687845277601062	0.999478400786171
+IN_C14	Gm20635	27	outside fitted gene list		
+IN_C14	Cntnap5c	28	tested	0.0558726058336368	0.999478400786171
+IN_C14	Col18a1	29	outside fitted gene list		
+IN_C14	Srgap1	30	tested	0.0429200192919322	0.999478400786171
+IN_C15	Grid2ip	1	outside fitted gene list		
+IN_C15	Cacna1g	2	tested	0.105672602007348	0.999800019808536
+IN_C15	Stac	3	outside fitted gene list		
+IN_C15	Dlgap4	4	tested	0.214728337482654	0.999800019808536
+IN_C15	Dagla	5	tested	-0.506126225056944	0.999800019808536
+IN_C15	Foxp4	6	outside fitted gene list		
+IN_C15	Grik4	7	tested	-0.116032790062072	0.999800019808536
+IN_C15	Zfp385c	8	outside fitted gene list		
+IN_C15	Mir9-3hg	9	tested	0.16968786997122	0.999800019808536
+IN_C15	Abr	10	tested	-0.142123010374289	0.999800019808536
+IN_C15	Ryr1	11	outside fitted gene list		
+IN_C15	Cacna2d2	12	tested	-0.105565776782321	0.999800019808536
+IN_C15	Arhgap31	13	outside fitted gene list		
+IN_C15	Ablim2	14	tested	-0.316193648568013	0.999800019808536
+IN_C15	Hpcal1	15	tested	-0.588289982902712	0.999800019808536
+IN_C15	Col5a1	16	outside fitted gene list		
+IN_C15	Myo10	17	outside fitted gene list		
+IN_C15	Arap1	18	outside fitted gene list		
+IN_C15	Plxdc1	19	outside fitted gene list		
+IN_C15	Pde9a	20	tested	0.312787946048379	0.999800019808536
+IN_C15	9530059O14Rik	21	tested	0.123966975030374	0.999800019808536
+IN_C15	Ppp1r16b	22	tested	-0.055621169637292	0.999800019808536
+IN_C15	Plekhd1	23	outside fitted gene list		
+IN_C15	Clmn	24	tested	-0.8629708711742	0.999800019808536
+IN_C15	Bcl11a	25	tested	0.367305857759466	0.999800019808536
+IN_C15	Sh3pxd2a	26	tested	0.0518357440127899	0.999800019808536
+IN_C15	Gm20635	27	outside fitted gene list		
+IN_C15	Cntnap5c	28	tested	0.170961248167114	0.999800019808536
+IN_C15	Col18a1	29	outside fitted gene list		
+IN_C15	Srgap1	30	tested	0.0645575898788097	0.999800019808536
+IN_C16	Grid2ip	1	outside fitted gene list		
+IN_C16	Cacna1g	2	outside fitted gene list		
+IN_C16	Stac	3	outside fitted gene list		
+IN_C16	Dlgap4	4	tested	-0.105779555255211	0.999850302166986
+IN_C16	Dagla	5	outside fitted gene list		
+IN_C16	Foxp4	6	outside fitted gene list		
+IN_C16	Grik4	7	outside fitted gene list		
+IN_C16	Zfp385c	8	outside fitted gene list		
+IN_C16	Mir9-3hg	9	tested	0.237562756966177	0.999850302166986
+IN_C16	Abr	10	tested	-0.360884957558835	0.999850302166986
+IN_C16	Ryr1	11	outside fitted gene list		
+IN_C16	Cacna2d2	12	outside fitted gene list		
+IN_C16	Arhgap31	13	outside fitted gene list		
+IN_C16	Ablim2	14	outside fitted gene list		
+IN_C16	Hpcal1	15	outside fitted gene list		
+IN_C16	Col5a1	16	outside fitted gene list		
+IN_C16	Myo10	17	tested	0.248872302789964	0.999850302166986
+IN_C16	Arap1	18	outside fitted gene list		
+IN_C16	Plxdc1	19	outside fitted gene list		
+IN_C16	Pde9a	20	outside fitted gene list		
+IN_C16	9530059O14Rik	21	outside fitted gene list		
+IN_C16	Ppp1r16b	22	outside fitted gene list		
+IN_C16	Plekhd1	23	outside fitted gene list		
+IN_C16	Clmn	24	outside fitted gene list		
+IN_C16	Bcl11a	25	tested	-0.213372449747649	0.999850302166986
+IN_C16	Sh3pxd2a	26	outside fitted gene list		
+IN_C16	Gm20635	27	outside fitted gene list		
+IN_C16	Cntnap5c	28	tested	-1.8458079323466	0.999850302166986
+IN_C16	Col18a1	29	outside fitted gene list		
+IN_C16	Srgap1	30	outside fitted gene list		
+IN_C17	Grid2ip	1	outside fitted gene list		
+IN_C17	Cacna1g	2	outside fitted gene list		
+IN_C17	Stac	3	outside fitted gene list		
+IN_C17	Dlgap4	4	tested	0.206809902452072	0.99950411812499
+IN_C17	Dagla	5	outside fitted gene list		
+IN_C17	Foxp4	6	outside fitted gene list		
+IN_C17	Grik4	7	outside fitted gene list		
+IN_C17	Zfp385c	8	outside fitted gene list		
+IN_C17	Mir9-3hg	9	tested	0.121761947358553	0.99950411812499
+IN_C17	Abr	10	tested	0.278964028606743	0.99950411812499
+IN_C17	Ryr1	11	outside fitted gene list		
+IN_C17	Cacna2d2	12	tested	-0.109494616169925	0.99950411812499
+IN_C17	Arhgap31	13	tested	-0.608507359010656	0.99950411812499
+IN_C17	Ablim2	14	tested	-0.00993390154997498	0.99950411812499
+IN_C17	Hpcal1	15	outside fitted gene list		
+IN_C17	Col5a1	16	outside fitted gene list		
+IN_C17	Myo10	17	outside fitted gene list		
+IN_C17	Arap1	18	outside fitted gene list		
+IN_C17	Plxdc1	19	outside fitted gene list		
+IN_C17	Pde9a	20	tested	0.417752920435876	0.99950411812499
+IN_C17	9530059O14Rik	21	tested	0.108505928123766	0.99950411812499
+IN_C17	Ppp1r16b	22	tested	0.472735677628567	0.99950411812499
+IN_C17	Plekhd1	23	outside fitted gene list		
+IN_C17	Clmn	24	outside fitted gene list		
+IN_C17	Bcl11a	25	tested	0.362143218107973	0.99950411812499
+IN_C17	Sh3pxd2a	26	tested	1.20653585143507	0.99950411812499
+IN_C17	Gm20635	27	outside fitted gene list		
+IN_C17	Cntnap5c	28	tested	0.33957365445115	0.99950411812499
+IN_C17	Col18a1	29	outside fitted gene list		
+IN_C17	Srgap1	30	tested	0.280167017622195	0.99950411812499
+IN_C19	Grid2ip	1	outside fitted gene list		
+IN_C19	Cacna1g	2	outside fitted gene list		
+IN_C19	Stac	3	tested	0.370129395182184	0.999258840542931
+IN_C19	Dlgap4	4	outside fitted gene list		
+IN_C19	Dagla	5	outside fitted gene list		
+IN_C19	Foxp4	6	outside fitted gene list		
+IN_C19	Grik4	7	tested	-0.363293261284089	0.999258840542931
+IN_C19	Zfp385c	8	outside fitted gene list		
+IN_C19	Mir9-3hg	9	outside fitted gene list		
+IN_C19	Abr	10	outside fitted gene list		
+IN_C19	Ryr1	11	outside fitted gene list		
+IN_C19	Cacna2d2	12	outside fitted gene list		
+IN_C19	Arhgap31	13	outside fitted gene list		
+IN_C19	Ablim2	14	tested	0.993338655596571	0.999258840542931
+IN_C19	Hpcal1	15	outside fitted gene list		
+IN_C19	Col5a1	16	outside fitted gene list		
+IN_C19	Myo10	17	outside fitted gene list		
+IN_C19	Arap1	18	outside fitted gene list		
+IN_C19	Plxdc1	19	outside fitted gene list		
+IN_C19	Pde9a	20	outside fitted gene list		
+IN_C19	9530059O14Rik	21	tested	0.431028938009686	0.999258840542931
+IN_C19	Ppp1r16b	22	outside fitted gene list		
+IN_C19	Plekhd1	23	outside fitted gene list		
+IN_C19	Clmn	24	outside fitted gene list		
+IN_C19	Bcl11a	25	tested	0.201009916209834	0.999258840542931
+IN_C19	Sh3pxd2a	26	outside fitted gene list		
+IN_C19	Gm20635	27	outside fitted gene list		
+IN_C19	Cntnap5c	28	tested	0.389866744231597	0.999258840542931
+IN_C19	Col18a1	29	outside fitted gene list		
+IN_C19	Srgap1	30	tested	-0.725815188330621	0.999258840542931
+IN_C20	Grid2ip	1	outside fitted gene list		
+IN_C20	Cacna1g	2	outside fitted gene list		
+IN_C20	Stac	3	outside fitted gene list		
+IN_C20	Dlgap4	4	outside fitted gene list		
+IN_C20	Dagla	5	outside fitted gene list		
+IN_C20	Foxp4	6	outside fitted gene list		
+IN_C20	Grik4	7	outside fitted gene list		
+IN_C20	Zfp385c	8	outside fitted gene list		
+IN_C20	Mir9-3hg	9	tested	0.418414403942279	0.996718176797615
+IN_C20	Abr	10	tested	0.797335524943236	0.996718176797615
+IN_C20	Ryr1	11	outside fitted gene list		
+IN_C20	Cacna2d2	12	outside fitted gene list		
+IN_C20	Arhgap31	13	outside fitted gene list		
+IN_C20	Ablim2	14	outside fitted gene list		
+IN_C20	Hpcal1	15	outside fitted gene list		
+IN_C20	Col5a1	16	outside fitted gene list		
+IN_C20	Myo10	17	outside fitted gene list		
+IN_C20	Arap1	18	outside fitted gene list		
+IN_C20	Plxdc1	19	outside fitted gene list		
+IN_C20	Pde9a	20	outside fitted gene list		
+IN_C20	9530059O14Rik	21	tested	1.61310510324378	0.996718176797615
+IN_C20	Ppp1r16b	22	outside fitted gene list		
+IN_C20	Plekhd1	23	outside fitted gene list		
+IN_C20	Clmn	24	outside fitted gene list		
+IN_C20	Bcl11a	25	outside fitted gene list		
+IN_C20	Sh3pxd2a	26	outside fitted gene list		
+IN_C20	Gm20635	27	outside fitted gene list		
+IN_C20	Cntnap5c	28	tested	-0.0946863152231742	0.996718176797615
+IN_C20	Col18a1	29	outside fitted gene list		
+IN_C20	Srgap1	30	outside fitted gene list		
+IN_C18	Grid2ip	1	no eligible model		
+IN_C18	Cacna1g	2	no eligible model		
+IN_C18	Stac	3	no eligible model		
+IN_C18	Dlgap4	4	no eligible model		
+IN_C18	Dagla	5	no eligible model		
+IN_C18	Foxp4	6	no eligible model		
+IN_C18	Grik4	7	no eligible model		
+IN_C18	Zfp385c	8	no eligible model		
+IN_C18	Mir9-3hg	9	no eligible model		
+IN_C18	Abr	10	no eligible model		
+IN_C18	Ryr1	11	no eligible model		
+IN_C18	Cacna2d2	12	no eligible model		
+IN_C18	Arhgap31	13	no eligible model		
+IN_C18	Ablim2	14	no eligible model		
+IN_C18	Hpcal1	15	no eligible model		
+IN_C18	Col5a1	16	no eligible model		
+IN_C18	Myo10	17	no eligible model		
+IN_C18	Arap1	18	no eligible model		
+IN_C18	Plxdc1	19	no eligible model		
+IN_C18	Pde9a	20	no eligible model		
+IN_C18	9530059O14Rik	21	no eligible model		
+IN_C18	Ppp1r16b	22	no eligible model		
+IN_C18	Plekhd1	23	no eligible model		
+IN_C18	Clmn	24	no eligible model		
+IN_C18	Bcl11a	25	no eligible model		
+IN_C18	Sh3pxd2a	26	no eligible model		
+IN_C18	Gm20635	27	no eligible model		
+IN_C18	Cntnap5c	28	no eligible model		
+IN_C18	Col18a1	29	no eligible model		
+IN_C18	Srgap1	30	no eligible model		
