@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "browser": "Chrome / Playwright",
+  "checks": [
+    "All 35 populations selectable; default alpha/beta panel contains 2 protein-family assignments \u00d7 12 mice.",
+    "All twelve evidence views render.",
+    "IN C2 conservative alpha sum matches source (15); unsampled combinations display missing dashes.",
+    "Population, normalization, color, label size, dot size, width and dotplot controls update the panel.",
+    "SVG, PNG, PDF, TSV and JSON download successfully; signatures, row counts and saved settings verified.",
+    "Two schematics load; all 28 static figures have SVG, PNG and PDF copies."
+  ],
+  "page_errors": [],
+  "files_verified": [
+    "SVG",
+    "PNG",
+    "PDF",
+    "TSV",
+    "JSON"
+  ]
+}

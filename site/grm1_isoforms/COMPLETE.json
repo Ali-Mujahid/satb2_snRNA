@@ -1,0 +1,35 @@
+{
+  "status": "complete",
+  "mice": [
+    "wt_1122",
+    "wt_1123",
+    "wt_1178",
+    "wt_1220",
+    "wt_1226",
+    "wt_1228",
+    "cKO_933",
+    "cKO_991",
+    "cKO_1138",
+    "cKO_1139",
+    "cKO_1160",
+    "cKO_1165"
+  ],
+  "n_mice": 12,
+  "n_WT": 6,
+  "n_cKO": 6,
+  "roster_sha256": "dc8ccef97579d39ae1caa126c06f07a3471ab31d28f4ab2a9d2bf688c8106d21",
+  "gtf_sha256": "3a98532da5df438d646e80cf303cbdb01a04bc2edf71e91b9aaa46a9de8952d6",
+  "scripts": {
+    "run.py": "593e49db3e9d058c6f9dcdcfdde5e202a944f1a1d33f96327b6b7ecd28048ae9",
+    "core.py": "1d5b50bf5299cfea3fcae783bcff09b505a891a297ce00075bec260545c987a7",
+    "visualize.py": "7c5b45ebc173d90c2ce21128dbcf6e48317441aa3c3d2aa7a501d003b3ed3f57",
+    "remote_counter.py": "c295f246804e943ddd36079f1a09c4bf2189de57ce0830a95f69e3451274f012"
+  },
+  "notes": [
+    "Transcript evidence is not complete isoform reconstruction.",
+    "Compatible upper bounds overlap and cannot be summed.",
+    "Exon and junction feature counts overlap and cannot be summed.",
+    "All counts are mouse-level corrected CB/UB support.",
+    "cKO_933 uses the recovered original Cell Ranger 10.0 BAM; eleven others use 10.1."
+  ]
+}

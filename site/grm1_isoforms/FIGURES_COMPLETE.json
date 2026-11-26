@@ -1,0 +1,39 @@
+{
+  "status": "complete",
+  "n_figures": 28,
+  "formats": [
+    "SVG",
+    "PNG",
+    "PDF"
+  ],
+  "figures": [
+    "01_Grm1_transcript_schematic",
+    "02_Grm1_gene_counts_per_mouse",
+    "03_CA1_deep_alpha_beta_splice",
+    "03_CA1_superficial_alpha_beta_splice",
+    "03_IN_C2_alpha_beta_splice",
+    "03_IN_C6_alpha_beta_splice",
+    "03_IN_total_alpha_beta_splice",
+    "04_CA1_deep_alpha_beta_diagnostic",
+    "04_CA1_superficial_alpha_beta_diagnostic",
+    "04_IN_C2_alpha_beta_diagnostic",
+    "04_IN_C6_alpha_beta_diagnostic",
+    "04_IN_total_alpha_beta_diagnostic",
+    "05_CA1_deep_transcript_splice",
+    "05_CA1_superficial_transcript_splice",
+    "05_IN_C2_transcript_splice",
+    "05_IN_C6_transcript_splice",
+    "05_IN_total_transcript_splice",
+    "06_CA1_deep_exon_counts",
+    "06_CA1_superficial_exon_counts",
+    "06_IN_C2_exon_counts",
+    "06_IN_C6_exon_counts",
+    "06_IN_total_exon_counts",
+    "07_CA1_deep_junction_counts",
+    "07_CA1_superficial_junction_counts",
+    "07_IN_C2_junction_counts",
+    "07_IN_C6_junction_counts",
+    "07_IN_total_junction_counts",
+    "08_Grm1_alpha_beta_protein_schematic"
+  ]
+}

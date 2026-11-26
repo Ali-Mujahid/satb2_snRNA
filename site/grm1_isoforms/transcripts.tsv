@@ -1,0 +1,7 @@
+id	name	biotype	bit	protein_length	C_terminal_30aa	protein_sha256	protein_family	tail_assignment	exon_count	CDS_start_incomplete	tags
+ENSMUST00000044306	Grm1-201	protein_coding	1	1199	PVSESVLCTPPNVTYASVILRDYKQSSSTL	340861e699cb9db3ed74dabde72b401da58d1fce7df94ae49c37023dd5e3c345	alpha	mGluR1 alpha	9	False	basic;CCDS
+ENSMUST00000105560	Grm1-202	protein_coding	2	906	RRKKPGAGNAKKRQPEFSPSSQCPSAHVQL	2e86402450ff257d2795cf01615da0f48a796b8044bff98797014c5394285353	beta	mGluR1 beta	9	False	alternative_5_UTR;basic;appris_principal_1;CCDS
+ENSMUST00000105561	Grm1-203	protein_coding	4	906	RRKKPGAGNAKKRQPEFSPSSQCPSAHVQL	2e86402450ff257d2795cf01615da0f48a796b8044bff98797014c5394285353	beta	mGluR1 beta	10	False	basic;appris_principal_1;CCDS
+ENSMUST00000135120	Grm1-204	lncRNA	8	0		e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	noncoding	Noncoding RNA; no annotated CDS	3	False	
+ENSMUST00000155772	Grm1-205	lncRNA	16	0		e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	noncoding	Noncoding RNA; no annotated CDS	3	False	
+ENSMUST00000156826	Grm1-206	lncRNA	32	0		e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855	noncoding	Noncoding RNA; no annotated CDS	2	False	

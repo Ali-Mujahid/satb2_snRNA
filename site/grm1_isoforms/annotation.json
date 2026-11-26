@@ -1,0 +1,1471 @@
+{
+  "gene": {
+    "chrom": "chr10",
+    "start": 10686059,
+    "end": 11082356,
+    "strand": "-"
+  },
+  "transcripts": [
+    {
+      "id": "ENSMUST00000044306",
+      "name": "Grm1-201",
+      "biotype": "protein_coding",
+      "exons": [
+        [
+          10686059,
+          10689902
+        ],
+        [
+          10719223,
+          10720153
+        ],
+        [
+          10733159,
+          10733285
+        ],
+        [
+          10741436,
+          10741604
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10782559,
+          10782794
+        ],
+        [
+          10936329,
+          10936578
+        ],
+        [
+          11079839,
+          11080856
+        ],
+        [
+          11082249,
+          11082356
+        ]
+      ],
+      "CDS": [
+        [
+          10688966,
+          10689902
+        ],
+        [
+          10719223,
+          10720153
+        ],
+        [
+          10733159,
+          10733285
+        ],
+        [
+          10741436,
+          10741604
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10782559,
+          10782794
+        ],
+        [
+          10936329,
+          10936578
+        ],
+        [
+          11079839,
+          11080538
+        ]
+      ],
+      "UTR": [
+        [
+          10686059,
+          10688965
+        ],
+        [
+          11080539,
+          11080856
+        ],
+        [
+          11082249,
+          11082356
+        ]
+      ],
+      "CDS_phases": [
+        [
+          11079839,
+          0
+        ],
+        [
+          10936329,
+          2
+        ],
+        [
+          10782559,
+          1
+        ],
+        [
+          10746545,
+          2
+        ],
+        [
+          10741436,
+          1
+        ],
+        [
+          10733159,
+          0
+        ],
+        [
+          10719223,
+          2
+        ],
+        [
+          10688966,
+          1
+        ]
+      ],
+      "tags": [
+        "basic",
+        "CCDS"
+      ],
+      "bit": 1,
+      "junctions": [
+        [
+          10689903,
+          10719222
+        ],
+        [
+          10720154,
+          10733158
+        ],
+        [
+          10733286,
+          10741435
+        ],
+        [
+          10741605,
+          10746544
+        ],
+        [
+          10746792,
+          10782558
+        ],
+        [
+          10782795,
+          10936328
+        ],
+        [
+          10936579,
+          11079838
+        ],
+        [
+          11080857,
+          11082248
+        ]
+      ],
+      "protein_length": 1199,
+      "C_terminal_30aa": "PVSESVLCTPPNVTYASVILRDYKQSSSTL",
+      "protein_sha256": "340861e699cb9db3ed74dabde72b401da58d1fce7df94ae49c37023dd5e3c345",
+      "protein_family": "alpha",
+      "tail_assignment": "mGluR1 alpha"
+    },
+    {
+      "id": "ENSMUST00000105560",
+      "name": "Grm1-202",
+      "biotype": "protein_coding",
+      "exons": [
+        [
+          10688801,
+          10689902
+        ],
+        [
+          10698048,
+          10698132
+        ],
+        [
+          10719223,
+          10720153
+        ],
+        [
+          10733159,
+          10733285
+        ],
+        [
+          10741436,
+          10741604
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10782559,
+          10782794
+        ],
+        [
+          10936329,
+          10936578
+        ],
+        [
+          11079839,
+          11080956
+        ]
+      ],
+      "CDS": [
+        [
+          10698075,
+          10698132
+        ],
+        [
+          10719223,
+          10720153
+        ],
+        [
+          10733159,
+          10733285
+        ],
+        [
+          10741436,
+          10741604
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10782559,
+          10782794
+        ],
+        [
+          10936329,
+          10936578
+        ],
+        [
+          11079839,
+          11080538
+        ]
+      ],
+      "UTR": [
+        [
+          10688801,
+          10689902
+        ],
+        [
+          10698048,
+          10698074
+        ],
+        [
+          11080539,
+          11080956
+        ]
+      ],
+      "CDS_phases": [
+        [
+          11079839,
+          0
+        ],
+        [
+          10936329,
+          2
+        ],
+        [
+          10782559,
+          1
+        ],
+        [
+          10746545,
+          2
+        ],
+        [
+          10741436,
+          1
+        ],
+        [
+          10733159,
+          0
+        ],
+        [
+          10719223,
+          2
+        ],
+        [
+          10698075,
+          1
+        ]
+      ],
+      "tags": [
+        "alternative_5_UTR",
+        "basic",
+        "appris_principal_1",
+        "CCDS"
+      ],
+      "bit": 2,
+      "junctions": [
+        [
+          10689903,
+          10698047
+        ],
+        [
+          10698133,
+          10719222
+        ],
+        [
+          10720154,
+          10733158
+        ],
+        [
+          10733286,
+          10741435
+        ],
+        [
+          10741605,
+          10746544
+        ],
+        [
+          10746792,
+          10782558
+        ],
+        [
+          10782795,
+          10936328
+        ],
+        [
+          10936579,
+          11079838
+        ]
+      ],
+      "protein_length": 906,
+      "C_terminal_30aa": "RRKKPGAGNAKKRQPEFSPSSQCPSAHVQL",
+      "protein_sha256": "2e86402450ff257d2795cf01615da0f48a796b8044bff98797014c5394285353",
+      "protein_family": "beta",
+      "tail_assignment": "mGluR1 beta"
+    },
+    {
+      "id": "ENSMUST00000105561",
+      "name": "Grm1-203",
+      "biotype": "protein_coding",
+      "exons": [
+        [
+          10688588,
+          10689902
+        ],
+        [
+          10698048,
+          10698132
+        ],
+        [
+          10719223,
+          10720153
+        ],
+        [
+          10733159,
+          10733285
+        ],
+        [
+          10741436,
+          10741604
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10782559,
+          10782794
+        ],
+        [
+          10936329,
+          10936578
+        ],
+        [
+          11079839,
+          11080856
+        ],
+        [
+          11082249,
+          11082305
+        ]
+      ],
+      "CDS": [
+        [
+          10698075,
+          10698132
+        ],
+        [
+          10719223,
+          10720153
+        ],
+        [
+          10733159,
+          10733285
+        ],
+        [
+          10741436,
+          10741604
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10782559,
+          10782794
+        ],
+        [
+          10936329,
+          10936578
+        ],
+        [
+          11079839,
+          11080538
+        ]
+      ],
+      "UTR": [
+        [
+          10688588,
+          10689902
+        ],
+        [
+          10698048,
+          10698074
+        ],
+        [
+          11080539,
+          11080856
+        ],
+        [
+          11082249,
+          11082305
+        ]
+      ],
+      "CDS_phases": [
+        [
+          11079839,
+          0
+        ],
+        [
+          10936329,
+          2
+        ],
+        [
+          10782559,
+          1
+        ],
+        [
+          10746545,
+          2
+        ],
+        [
+          10741436,
+          1
+        ],
+        [
+          10733159,
+          0
+        ],
+        [
+          10719223,
+          2
+        ],
+        [
+          10698075,
+          1
+        ]
+      ],
+      "tags": [
+        "basic",
+        "appris_principal_1",
+        "CCDS"
+      ],
+      "bit": 4,
+      "junctions": [
+        [
+          10689903,
+          10698047
+        ],
+        [
+          10698133,
+          10719222
+        ],
+        [
+          10720154,
+          10733158
+        ],
+        [
+          10733286,
+          10741435
+        ],
+        [
+          10741605,
+          10746544
+        ],
+        [
+          10746792,
+          10782558
+        ],
+        [
+          10782795,
+          10936328
+        ],
+        [
+          10936579,
+          11079838
+        ],
+        [
+          11080857,
+          11082248
+        ]
+      ],
+      "protein_length": 906,
+      "C_terminal_30aa": "RRKKPGAGNAKKRQPEFSPSSQCPSAHVQL",
+      "protein_sha256": "2e86402450ff257d2795cf01615da0f48a796b8044bff98797014c5394285353",
+      "protein_family": "beta",
+      "tail_assignment": "mGluR1 beta"
+    },
+    {
+      "id": "ENSMUST00000135120",
+      "name": "Grm1-204",
+      "biotype": "lncRNA",
+      "exons": [
+        [
+          10746182,
+          10746329
+        ],
+        [
+          10746545,
+          10746791
+        ],
+        [
+          10748606,
+          10748808
+        ]
+      ],
+      "CDS": [],
+      "UTR": [],
+      "CDS_phases": [],
+      "tags": [],
+      "bit": 8,
+      "junctions": [
+        [
+          10746330,
+          10746544
+        ],
+        [
+          10746792,
+          10748605
+        ]
+      ],
+      "protein_length": 0,
+      "C_terminal_30aa": "",
+      "protein_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "protein_family": "noncoding",
+      "tail_assignment": "Noncoding RNA; no annotated CDS"
+    },
+    {
+      "id": "ENSMUST00000155772",
+      "name": "Grm1-205",
+      "biotype": "lncRNA",
+      "exons": [
+        [
+          10689448,
+          10689902
+        ],
+        [
+          10716305,
+          10716406
+        ],
+        [
+          10719223,
+          10719251
+        ]
+      ],
+      "CDS": [],
+      "UTR": [],
+      "CDS_phases": [],
+      "tags": [],
+      "bit": 16,
+      "junctions": [
+        [
+          10689903,
+          10716304
+        ],
+        [
+          10716407,
+          10719222
+        ]
+      ],
+      "protein_length": 0,
+      "C_terminal_30aa": "",
+      "protein_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "protein_family": "noncoding",
+      "tail_assignment": "Noncoding RNA; no annotated CDS"
+    },
+    {
+      "id": "ENSMUST00000156826",
+      "name": "Grm1-206",
+      "biotype": "lncRNA",
+      "exons": [
+        [
+          11080489,
+          11080856
+        ],
+        [
+          11082169,
+          11082250
+        ]
+      ],
+      "CDS": [],
+      "UTR": [],
+      "CDS_phases": [],
+      "tags": [],
+      "bit": 32,
+      "junctions": [
+        [
+          11080857,
+          11082168
+        ]
+      ],
+      "protein_length": 0,
+      "C_terminal_30aa": "",
+      "protein_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "protein_family": "noncoding",
+      "tail_assignment": "Noncoding RNA; no annotated CDS"
+    }
+  ],
+  "features": [
+    {
+      "id": "exon_10686059_10689902",
+      "kind": "exon",
+      "start": 10686059,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": "Grm1-201:E9"
+    },
+    {
+      "id": "exon_10688588_10689902",
+      "kind": "exon",
+      "start": 10688588,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-203"
+      ],
+      "detail": "Grm1-203:E10"
+    },
+    {
+      "id": "exon_10688801_10689902",
+      "kind": "exon",
+      "start": 10688801,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-202"
+      ],
+      "detail": "Grm1-202:E9"
+    },
+    {
+      "id": "exon_10689448_10689902",
+      "kind": "exon",
+      "start": 10689448,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-205"
+      ],
+      "detail": "Grm1-205:E3"
+    },
+    {
+      "id": "exon_10698048_10698132",
+      "kind": "exon",
+      "start": 10698048,
+      "end": 10698132,
+      "transcripts": [
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-202:E8;Grm1-203:E9"
+    },
+    {
+      "id": "exon_10716305_10716406",
+      "kind": "exon",
+      "start": 10716305,
+      "end": 10716406,
+      "transcripts": [
+        "Grm1-205"
+      ],
+      "detail": "Grm1-205:E2"
+    },
+    {
+      "id": "exon_10719223_10719251",
+      "kind": "exon",
+      "start": 10719223,
+      "end": 10719251,
+      "transcripts": [
+        "Grm1-205"
+      ],
+      "detail": "Grm1-205:E1"
+    },
+    {
+      "id": "exon_10719223_10720153",
+      "kind": "exon",
+      "start": 10719223,
+      "end": 10720153,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-201:E8;Grm1-202:E7;Grm1-203:E8"
+    },
+    {
+      "id": "exon_10733159_10733285",
+      "kind": "exon",
+      "start": 10733159,
+      "end": 10733285,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-201:E7;Grm1-202:E6;Grm1-203:E7"
+    },
+    {
+      "id": "exon_10741436_10741604",
+      "kind": "exon",
+      "start": 10741436,
+      "end": 10741604,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-201:E6;Grm1-202:E5;Grm1-203:E6"
+    },
+    {
+      "id": "exon_10746182_10746329",
+      "kind": "exon",
+      "start": 10746182,
+      "end": 10746329,
+      "transcripts": [
+        "Grm1-204"
+      ],
+      "detail": "Grm1-204:E3"
+    },
+    {
+      "id": "exon_10746545_10746791",
+      "kind": "exon",
+      "start": 10746545,
+      "end": 10746791,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203",
+        "Grm1-204"
+      ],
+      "detail": "Grm1-201:E5;Grm1-202:E4;Grm1-203:E5;Grm1-204:E2"
+    },
+    {
+      "id": "exon_10748606_10748808",
+      "kind": "exon",
+      "start": 10748606,
+      "end": 10748808,
+      "transcripts": [
+        "Grm1-204"
+      ],
+      "detail": "Grm1-204:E1"
+    },
+    {
+      "id": "exon_10782559_10782794",
+      "kind": "exon",
+      "start": 10782559,
+      "end": 10782794,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-201:E4;Grm1-202:E3;Grm1-203:E4"
+    },
+    {
+      "id": "exon_10936329_10936578",
+      "kind": "exon",
+      "start": 10936329,
+      "end": 10936578,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-201:E3;Grm1-202:E2;Grm1-203:E3"
+    },
+    {
+      "id": "exon_11079839_11080856",
+      "kind": "exon",
+      "start": 11079839,
+      "end": 11080856,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-203"
+      ],
+      "detail": "Grm1-201:E2;Grm1-203:E2"
+    },
+    {
+      "id": "exon_11079839_11080956",
+      "kind": "exon",
+      "start": 11079839,
+      "end": 11080956,
+      "transcripts": [
+        "Grm1-202"
+      ],
+      "detail": "Grm1-202:E1"
+    },
+    {
+      "id": "exon_11080489_11080856",
+      "kind": "exon",
+      "start": 11080489,
+      "end": 11080856,
+      "transcripts": [
+        "Grm1-206"
+      ],
+      "detail": "Grm1-206:E2"
+    },
+    {
+      "id": "exon_11082169_11082250",
+      "kind": "exon",
+      "start": 11082169,
+      "end": 11082250,
+      "transcripts": [
+        "Grm1-206"
+      ],
+      "detail": "Grm1-206:E1"
+    },
+    {
+      "id": "exon_11082249_11082305",
+      "kind": "exon",
+      "start": 11082249,
+      "end": 11082305,
+      "transcripts": [
+        "Grm1-203"
+      ],
+      "detail": "Grm1-203:E1"
+    },
+    {
+      "id": "exon_11082249_11082356",
+      "kind": "exon",
+      "start": 11082249,
+      "end": 11082356,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": "Grm1-201:E1"
+    },
+    {
+      "id": "junction_10689903_10698047",
+      "kind": "junction",
+      "start": 10689903,
+      "end": 10698047,
+      "transcripts": [
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10689903_10716304",
+      "kind": "junction",
+      "start": 10689903,
+      "end": 10716304,
+      "transcripts": [
+        "Grm1-205"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10689903_10719222",
+      "kind": "junction",
+      "start": 10689903,
+      "end": 10719222,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10698133_10719222",
+      "kind": "junction",
+      "start": 10698133,
+      "end": 10719222,
+      "transcripts": [
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10716407_10719222",
+      "kind": "junction",
+      "start": 10716407,
+      "end": 10719222,
+      "transcripts": [
+        "Grm1-205"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10720154_10733158",
+      "kind": "junction",
+      "start": 10720154,
+      "end": 10733158,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10733286_10741435",
+      "kind": "junction",
+      "start": 10733286,
+      "end": 10741435,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10741605_10746544",
+      "kind": "junction",
+      "start": 10741605,
+      "end": 10746544,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10746330_10746544",
+      "kind": "junction",
+      "start": 10746330,
+      "end": 10746544,
+      "transcripts": [
+        "Grm1-204"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10746792_10748605",
+      "kind": "junction",
+      "start": 10746792,
+      "end": 10748605,
+      "transcripts": [
+        "Grm1-204"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10746792_10782558",
+      "kind": "junction",
+      "start": 10746792,
+      "end": 10782558,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10782795_10936328",
+      "kind": "junction",
+      "start": 10782795,
+      "end": 10936328,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_10936579_11079838",
+      "kind": "junction",
+      "start": 10936579,
+      "end": 11079838,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_11080857_11082168",
+      "kind": "junction",
+      "start": 11080857,
+      "end": 11082168,
+      "transcripts": [
+        "Grm1-206"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "junction_11080857_11082248",
+      "kind": "junction",
+      "start": 11080857,
+      "end": 11082248,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10688966_10689902",
+      "kind": "CDS",
+      "start": 10688966,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10698075_10698132",
+      "kind": "CDS",
+      "start": 10698075,
+      "end": 10698132,
+      "transcripts": [
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10719223_10720153",
+      "kind": "CDS",
+      "start": 10719223,
+      "end": 10720153,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10733159_10733285",
+      "kind": "CDS",
+      "start": 10733159,
+      "end": 10733285,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10741436_10741604",
+      "kind": "CDS",
+      "start": 10741436,
+      "end": 10741604,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10746545_10746791",
+      "kind": "CDS",
+      "start": 10746545,
+      "end": 10746791,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10782559_10782794",
+      "kind": "CDS",
+      "start": 10782559,
+      "end": 10782794,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_10936329_10936578",
+      "kind": "CDS",
+      "start": 10936329,
+      "end": 10936578,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "CDS_11079839_11080538",
+      "kind": "CDS",
+      "start": 11079839,
+      "end": 11080538,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_10686059_10688965",
+      "kind": "UTR",
+      "start": 10686059,
+      "end": 10688965,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_10688588_10689902",
+      "kind": "UTR",
+      "start": 10688588,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_10688801_10689902",
+      "kind": "UTR",
+      "start": 10688801,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-202"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_10698048_10698074",
+      "kind": "UTR",
+      "start": 10698048,
+      "end": 10698074,
+      "transcripts": [
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_11080539_11080856",
+      "kind": "UTR",
+      "start": 11080539,
+      "end": 11080856,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_11080539_11080956",
+      "kind": "UTR",
+      "start": 11080539,
+      "end": 11080956,
+      "transcripts": [
+        "Grm1-202"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_11082249_11082305",
+      "kind": "UTR",
+      "start": 11082249,
+      "end": 11082305,
+      "transcripts": [
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "UTR_11082249_11082356",
+      "kind": "UTR",
+      "start": 11082249,
+      "end": 11082356,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10686059_10688587",
+      "kind": "exonic_bin",
+      "start": 10686059,
+      "end": 10688587,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10688588_10688800",
+      "kind": "exonic_bin",
+      "start": 10688588,
+      "end": 10688800,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10688801_10689447",
+      "kind": "exonic_bin",
+      "start": 10688801,
+      "end": 10689447,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10689448_10689902",
+      "kind": "exonic_bin",
+      "start": 10689448,
+      "end": 10689902,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203",
+        "Grm1-205"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10698048_10698132",
+      "kind": "exonic_bin",
+      "start": 10698048,
+      "end": 10698132,
+      "transcripts": [
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10716305_10716406",
+      "kind": "exonic_bin",
+      "start": 10716305,
+      "end": 10716406,
+      "transcripts": [
+        "Grm1-205"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10719223_10719251",
+      "kind": "exonic_bin",
+      "start": 10719223,
+      "end": 10719251,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203",
+        "Grm1-205"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10719252_10720153",
+      "kind": "exonic_bin",
+      "start": 10719252,
+      "end": 10720153,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10733159_10733285",
+      "kind": "exonic_bin",
+      "start": 10733159,
+      "end": 10733285,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10741436_10741604",
+      "kind": "exonic_bin",
+      "start": 10741436,
+      "end": 10741604,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10746182_10746329",
+      "kind": "exonic_bin",
+      "start": 10746182,
+      "end": 10746329,
+      "transcripts": [
+        "Grm1-204"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10746545_10746791",
+      "kind": "exonic_bin",
+      "start": 10746545,
+      "end": 10746791,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203",
+        "Grm1-204"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10748606_10748808",
+      "kind": "exonic_bin",
+      "start": 10748606,
+      "end": 10748808,
+      "transcripts": [
+        "Grm1-204"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10782559_10782794",
+      "kind": "exonic_bin",
+      "start": 10782559,
+      "end": 10782794,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_10936329_10936578",
+      "kind": "exonic_bin",
+      "start": 10936329,
+      "end": 10936578,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11079839_11080488",
+      "kind": "exonic_bin",
+      "start": 11079839,
+      "end": 11080488,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11080489_11080856",
+      "kind": "exonic_bin",
+      "start": 11080489,
+      "end": 11080856,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-202",
+        "Grm1-203",
+        "Grm1-206"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11080857_11080956",
+      "kind": "exonic_bin",
+      "start": 11080857,
+      "end": 11080956,
+      "transcripts": [
+        "Grm1-202"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11082169_11082248",
+      "kind": "exonic_bin",
+      "start": 11082169,
+      "end": 11082248,
+      "transcripts": [
+        "Grm1-206"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11082249_11082250",
+      "kind": "exonic_bin",
+      "start": 11082249,
+      "end": 11082250,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-203",
+        "Grm1-206"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11082251_11082305",
+      "kind": "exonic_bin",
+      "start": 11082251,
+      "end": 11082305,
+      "transcripts": [
+        "Grm1-201",
+        "Grm1-203"
+      ],
+      "detail": ""
+    },
+    {
+      "id": "exonic_bin_11082306_11082356",
+      "kind": "exonic_bin",
+      "start": 11082306,
+      "end": 11082356,
+      "transcripts": [
+        "Grm1-201"
+      ],
+      "detail": ""
+    }
+  ]
+}

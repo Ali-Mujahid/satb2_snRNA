@@ -1,0 +1,7 @@
+const fs=require('node:fs'),path=require('node:path');
+const {chromium}=require('/Users/mujahid357/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',args:['--disable-gpu']});const p=await b.newPage({deviceScaleFactor:1});const dir=process.argv[2];
+for(const f of fs.readdirSync(dir).filter(x=>x.endsWith('.svg'))){const svg=fs.readFileSync(path.join(dir,f),'utf8'),[,w,h]=svg.match(/width="(\d+)" height="(\d+)"/);await p.setViewportSize({width:+w,height:+h});await p.setContent('<style>body{margin:0}svg{display:block}</style>'+svg);await p.evaluate(()=>document.fonts.ready);
+const png=await p.evaluate(async({svg,w,h})=>{const u=URL.createObjectURL(new Blob([svg],{type:'image/svg+xml'})),im=new Image();im.src=u;await im.decode();const c=document.createElement('canvas');c.width=w*2;c.height=h*2;c.getContext('2d').drawImage(im,0,0,c.width,c.height);URL.revokeObjectURL(u);return c.toDataURL('image/png').split(',')[1];},{svg,w:+w,h:+h});fs.writeFileSync(path.join(dir,f.replace('.svg','.png')),Buffer.from(png,'base64'));
+await p.pdf({path:path.join(dir,f.replace('.svg','.pdf')),width:w+'px',height:h+'px',printBackground:true,margin:{top:0,right:0,bottom:0,left:0}});
+}await b.close();console.log('Reviewed SVG, canvas PNG and vector PDF exports:',fs.readdirSync(dir).filter(x=>x.endsWith('.svg')).length);})().catch(e=>{console.error(e);process.exit(1)});

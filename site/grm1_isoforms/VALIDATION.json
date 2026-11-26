@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "mice": 12,
+  "nuclei": 36614,
+  "populations": 35,
+  "sampled_mouse_population_combinations": 411,
+  "not_sampled_combinations": 9,
+  "all_six_RNA_models_retained": true,
+  "coding_alpha_1199aa": true,
+  "coding_beta_906aa_identical_two_transcripts": true,
+  "negative_strand_translation_verified": true,
+  "full_library_denominators_verified": true,
+  "UMI_conservation_verified": true,
+  "original_matrix_gene_counts_exact": 390,
+  "original_matrix_gene_counts_max_abs_difference": 2,
+  "gtf_sha256": "3a98532da5df438d646e80cf303cbdb01a04bc2edf71e91b9aaa46a9de8952d6",
+  "independent_all_gene_matrix_library_totals_checked": 372,
+  "independent_all_gene_matrix_library_totals_match": true
+}
