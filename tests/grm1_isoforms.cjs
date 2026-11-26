@@ -1,7 +1,8 @@
 const fs = require('node:fs');
 const path = require('node:path');
 const assert = require('node:assert/strict');
-const root = path.join(__dirname, '..', 'site', 'grm1_isoforms');
+const root = path.join(__dirname, '..', 'analysis', 'grm1_isoforms_20261126', 'reader');
+assert(fs.readFileSync(path.join(__dirname, '..', 'site/grm1_isoforms/index.html'), 'utf8').includes('analysis/grm1_isoforms_20261126/reader/index.html'));
 const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
 const match = html.match(/<script id="data" type="application\/json">([\s\S]*?)<\/script>/);
 assert(match, 'Portable embedded data must be present');

@@ -144,9 +144,7 @@ def main():
             count+=1
     assert count==3140,count
     total=sum(p.stat().st_size for p in SITE.rglob('*') if p.is_file())
-    # Preserve at least 20 MB below the published GitHub Pages 1 GB limit.
-    # Grm1 adds reviewed figures; its full ZIP stays outside the Pages artifact.
-    assert total<980_000_000,total
+    assert total<950_000_000,total
     html=(SITE/'index.html').read_text();ids=re.findall(r'\bid="([^"]+)"',html)
     assert len(ids)==len(set(ids))
     for h in SITE.glob('*.html'):
