@@ -1,0 +1,29 @@
+{
+  "status": "PACKAGED",
+  "pages_bytes": 949999478,
+  "original_count_tables_unchanged": true,
+  "archive_sha256": "5a03fef5626497052809ab1fa289a27a87b04acce50ba86114ce24db46605710",
+  "embedded_data_compression_verified": true,
+  "C2_C6_Grm1_evidence": [
+    {
+      "population": "IN_C2",
+      "gene": 16564,
+      "intronic_evidence": 15503,
+      "exonic_gene": 1102,
+      "spliced_gene": 125,
+      "alpha_diagnostic": 425,
+      "alpha_conservative": 15,
+      "alpha_terminal_junction": 2
+    },
+    {
+      "population": "IN_C6",
+      "gene": 3698,
+      "intronic_evidence": 3447,
+      "exonic_gene": 266,
+      "spliced_gene": 36,
+      "alpha_diagnostic": 101,
+      "alpha_conservative": 1,
+      "alpha_terminal_junction": 0
+    }
+  ]
+}

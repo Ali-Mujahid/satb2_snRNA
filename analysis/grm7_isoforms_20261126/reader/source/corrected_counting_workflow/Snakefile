@@ -1,0 +1,14 @@
+from pathlib import Path
+OUT=config['results_dir']
+rule all:
+    input: OUT+'/FIGURES_COMPLETE.json'
+rule count_grm7:
+    input: roster=config['roster'], original=config['original_gene_counts']
+    output: OUT+'/COMPLETE.json'
+    params: python=config['local_python'], source=str(Path(workflow.basedir)/'run.py'), configfile=config['bound_config']
+    shell: '{params.python:q} {params.source:q} --config {params.configfile:q}'
+rule figures:
+    input: OUT+'/COMPLETE.json'
+    output: OUT+'/FIGURES_COMPLETE.json'
+    params: python=config['local_python'], source=str(Path(workflow.basedir)/'visualize.py'), output=OUT
+    shell: '{params.python:q} {params.source:q} {params.output:q}'

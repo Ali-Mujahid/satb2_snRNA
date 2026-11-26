@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "browser": "Chrome / Playwright",
+  "checks": [
+    "All 35 populations selectable; default terminal-event panel contains 4 events × 12 mice.",
+    "All nine evidence views render.",
+    "IN C1 diagnostic A-feature sum matches source (67); unsampled combinations display missing dashes.",
+    "Population, normalization, color, label size, dot size, width and dotplot controls update the panel.",
+    "SVG, PNG, PDF, TSV and JSON download successfully; signatures, row counts and saved settings verified.",
+    "Three schematics load; all 21 static figures have SVG, PNG and PDF copies."
+  ],
+  "page_errors": [],
+  "files_verified": [
+    "SVG",
+    "PNG",
+    "PDF",
+    "TSV",
+    "JSON"
+  ]
+}

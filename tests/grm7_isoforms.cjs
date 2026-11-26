@@ -1,0 +1,35 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const assert = require('node:assert/strict');
+const root = path.join(__dirname, '../analysis/grm7_isoforms_20261126/reader');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const packed = JSON.parse(html.match(/<script id="data" type="application\/json">([\s\S]*?)<\/script>/)[1]);
+const data = JSON.parse(require('node:zlib').gunzipSync(Buffer.from(packed.payload, 'base64')));
+assert.equal(data.samples.length, 12);
+assert.equal(new Set(data.samples).size, 12);
+assert.equal(data.samples.filter(s => s.startsWith('wt_')).length, 6);
+assert.equal(data.populations.length, 35);
+assert.equal(data.coverage.length, 420);
+assert.equal(data.coverage.filter(r => r.status === 'NOT_SAMPLED').length, 9);
+assert.equal(data.annotation.gene.strand, '+');
+assert.equal(data.annotation.transcripts.length, 5);
+assert.equal(data.annotation.transcripts.find(t => t.name === 'Grm7-201').protein_length, 922);
+assert.equal(data.annotation.transcripts.find(t => t.name === 'Grm7-202').protein_length, 915);
+for (const row of data.rows) {
+  assert(!('barcode' in row));
+  assert(Number.isInteger(row.count) && row.count >= 0);
+  assert(Math.abs(row.count / Number(row.total_gene_UMIs) * 1e6 - row.per_million_library_UMIs) < 1e-8);
+}
+const diagnostic = data.rows.filter(r => r.population === 'IN_C1' && r.kind === 'diagnostic_feature' && r.feature.includes('Grm7-202'));
+assert.equal(diagnostic.reduce((n, r) => n + r.count, 0), 67);
+assert.equal(data.rows.filter(r => r.population === 'CA1_superficial' && r.kind === 'terminal_event').length, 48);
+const figures = fs.readdirSync(path.join(root, 'figures')).filter(n => n.endsWith('.svg'));
+assert.equal(figures.length, 21);
+for (const f of figures) for (const ext of ['.svg','.png','.pdf']) assert(fs.existsSync(path.join(root, 'figures', f.replace('.svg', ext))));
+assert.equal(JSON.parse(fs.readFileSync(path.join(root, 'VALIDATION.json'))).full_library_normalization_corrected, true);
+assert(fs.readFileSync(path.join(__dirname, '../site/index.html'), 'utf8').includes('grm7_isoforms/index.html'));
+assert(fs.readFileSync(path.join(__dirname, '../site/grm7_isoforms/index.html'), 'utf8').includes('analysis/grm7_isoforms_20261126/reader/index.html'));
+const explanation = fs.readFileSync(path.join(root, '../../grm1_isoforms_20261126/reader/C2_C6_Grm1_evidence_explanation.tsv'), 'utf8').trim().split('\n');
+assert.equal(explanation.length, 3);
+assert.deepEqual(explanation.slice(1).map(r => r.split('\t').slice(-2)), [['15','2'],['1','0']]);
+console.log('Grm7 atlas: reviewed twelve-mouse data, full-library normalization, 21 figures and C2/C6 Grm1 interpretation PASS.');

@@ -1,0 +1,14 @@
+{
+  "correction": "per_million_library_UMIs denominator changed from HVG-only nCount_RNA to original_nCount_RNA (full source library).",
+  "unaffected": [
+    "raw counts",
+    "per_1000_nuclei",
+    "per_1000_Grm7_locus_UMIs",
+    "transcript models",
+    "junctions",
+    "UMI classification"
+  ],
+  "native_run_preserved": true,
+  "audit": "library_denominator_audit.tsv",
+  "validation": "VALIDATION.json"
+}

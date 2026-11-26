@@ -1,0 +1,6 @@
+id	name	biotype	bit	protein_length	C_terminal_30aa	tail_assignment	exon_count	CDS_start_incomplete	tags
+ENSMUST00000071076	Grm7-201	protein_coding	1	922	CENVDPNNCIPPVRKSVQKSVTWYTIPPTV	mGlu7B-like	11	False	not_organism_supported;basic;appris_alternative_1;CCDS
+ENSMUST00000172951	Grm7-202	protein_coding	2	915	GEAKTELCENVDPNSPAAKKKYVSYNNLVI	mGlu7A-like	10	False	basic;appris_principal_3;CCDS
+ENSMUST00000173001	Grm7-203	protein_coding	4	73	DRPNGEAKTELCENVDPNTLLHLCSLPSGA	Other / incomplete / NMD	2	True	mRNA_start_NF;cds_start_NF
+ENSMUST00000174018	Grm7-204	nonsense_mediated_decay	8	188	SSVSIMVANILRLFQCLPKNHNAMVLNTSD	Other / incomplete / NMD	10	False	
+ENSMUST00000174310	Grm7-205	protein_coding	16	74	CENVDPNNCIPPVRKSVQKSVTWYTIPPTV	mGlu7B-like	3	True	alternative_3_UTR;mRNA_start_NF;cds_start_NF;exp_conf

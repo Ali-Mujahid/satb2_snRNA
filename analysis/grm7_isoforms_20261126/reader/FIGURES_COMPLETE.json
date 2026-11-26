@@ -1,0 +1,31 @@
+{
+  "status": "complete",
+  "n_figures": 20,
+  "formats": [
+    "SVG",
+    "PNG",
+    "PDF"
+  ],
+  "figures": [
+    "01_Grm7_transcript_schematic",
+    "02_Grm7_gene_counts_per_mouse",
+    "03_CA1_deep_isoform_splice_support",
+    "03_CA1_superficial_isoform_splice_support",
+    "03_IN_C1_isoform_splice_support",
+    "03_IN_C6_isoform_splice_support",
+    "03_IN_total_isoform_splice_support",
+    "04_CA1_deep_diagnostic_features",
+    "04_CA1_superficial_diagnostic_features",
+    "04_IN_C1_diagnostic_features",
+    "04_IN_C6_diagnostic_features",
+    "04_IN_total_diagnostic_features",
+    "05_CA1_deep_exon_counts",
+    "05_CA1_superficial_exon_counts",
+    "05_IN_total_exon_counts",
+    "06_CA1_deep_junction_counts",
+    "06_CA1_superficial_junction_counts",
+    "06_IN_total_junction_counts",
+    "07_Grm7_isoform_ambiguity",
+    "08_Grm7_presynaptic_isoform_schematic"
+  ]
+}

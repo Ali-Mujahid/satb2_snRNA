@@ -1,0 +1,86 @@
+[
+  {
+    "sample": "cKO_1138",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1138/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "8cfa3ecfc16f13a5dfaadd93762b936e7c44237b070c6fbeb848510fa8144c08"
+  },
+  {
+    "sample": "cKO_1139",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1139/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "0a62b80676041a152821e16503251e6dfe8e03d408270274901da4a8b0d75482"
+  },
+  {
+    "sample": "cKO_1160",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1160/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "9787e204269aba64cf8e4d159fd05e3f5f87ab36a64671bf7be3622d2ea3b0cb"
+  },
+  {
+    "sample": "cKO_1165",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_1165/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "4b2e8c10cdd538647f0d230ef2603fb0ad6ab2a648b6668ecc6d8397d4347863"
+  },
+  {
+    "sample": "cKO_933",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out_previous/cKO_933/_invocation",
+    "reference_path": "/gpfs/data/fs72079/MujahidAli/i-med/scdata/refs/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "311c7953d31cb10f6e52a7d3954de4e33dc5a9f46f5151bf89242636620bf9eb"
+  },
+  {
+    "sample": "cKO_991",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/cKO_991/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "1b05c2230e6e226e167f191403e25e66a44124952264ec7586c0b546ca50e720"
+  },
+  {
+    "sample": "wt_1122",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1122/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "94c6b7b494397d571bd973b6c2e1ab13ea3874d3e01649b0ef10277899e9a901"
+  },
+  {
+    "sample": "wt_1123",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1123/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "c7bddfc8febf51164355d62eaec9dcf38cddcda939260fd023b0a3a8bd27ec7c"
+  },
+  {
+    "sample": "wt_1178",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1178/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "7e265e2fba59cccd61c42a0e58d8d96dae2f3a21f0f1c65fdceb3e22dad5ff5a"
+  },
+  {
+    "sample": "wt_1220",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1220/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "f7c83c19a134444125ce8d24353c4733bf0a59f98aa4e3ec04d29f18447ba9aa"
+  },
+  {
+    "sample": "wt_1226",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1226/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "6d0a0965e2423e73c1955444b08cfb9a9f5ba4ce4806b351e6292a4bb008e047"
+  },
+  {
+    "sample": "wt_1228",
+    "source": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/cellranger_out.new/wt_1228/_invocation",
+    "reference_path": "/lisc/data/scratch/molecular_neurosciences/i-med/scdata/pub.snRNA/refdata-gex-mm10-2020-A",
+    "include_introns": true,
+    "sha256": "4c65d61962251438c6eb21be6c576829f10070f89be3eeef8f223b307fc36c40"
+  }
+]

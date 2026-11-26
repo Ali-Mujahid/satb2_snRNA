@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "mice": 12,
+  "nuclei": 36614,
+  "populations": 35,
+  "sampled_mouse_population_combinations": 411,
+  "not_sampled_combinations": 9,
+  "transcripts": 5,
+  "original_feature_counts_preserved": true,
+  "normalizations_verified": true,
+  "UMI_conservation_verified": true,
+  "reference_sha256": "3a98532da5df438d646e80cf303cbdb01a04bc2edf71e91b9aaa46a9de8952d6",
+  "full_library_normalization_corrected": true,
+  "library_size_source": "Frozen metadata original_nCount_RNA, agreeing with representation_full_library_UMIs; 72 mouse/population totals independently match original all-gene matrix sums.",
+  "raw_counts_and_all_other_metrics_preserved": true
+}

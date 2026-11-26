@@ -1,0 +1,176 @@
+population	transcript	biotype	tail	strict_UMIs	mice_with_population	mice_any_strict_support	WT_mice_any	cKO_mice_any	mice_at_least_3_strict_UMIs	replicated_support	diagnostic_feature_UMIs
+CA1_C1	Grm7-201	protein_coding	mGlu7B-like	1	12	1	0	1	0	False	2
+CA1_C1	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	561
+CA1_C1	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	5
+CA1_C1	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	3	12	3	1	2	0	False	394
+CA1_C1	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	12
+CA1_C10	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C10	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	35
+CA1_C10	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+CA1_C10	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	22
+CA1_C10	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	1
+CA1_C11	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C11	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	18
+CA1_C11	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+CA1_C11	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	13
+CA1_C11	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C2	Grm7-201	protein_coding	mGlu7B-like	1	12	1	0	1	0	False	1
+CA1_C2	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	643
+CA1_C2	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	5
+CA1_C2	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	3	12	3	2	1	0	False	420
+CA1_C2	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	19
+CA1_C3	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C3	Grm7-202	protein_coding	mGlu7A-like	2	12	1	1	0	0	False	659
+CA1_C3	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	10
+CA1_C3	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	3	12	3	1	2	0	False	374
+CA1_C3	Grm7-205	protein_coding	mGlu7B-like	1	12	1	1	0	0	False	18
+CA1_C4	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C4	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	395
+CA1_C4	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	6
+CA1_C4	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	1	12	1	1	0	0	False	202
+CA1_C4	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	8
+CA1_C5	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C5	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	323
+CA1_C5	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	6
+CA1_C5	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	268
+CA1_C5	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	9
+CA1_C6	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C6	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	296
+CA1_C6	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	8
+CA1_C6	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	1	12	1	0	1	0	False	236
+CA1_C6	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	4
+CA1_C7	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C7	Grm7-202	protein_coding	mGlu7A-like	1	12	1	0	1	0	False	38
+CA1_C7	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+CA1_C7	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	24
+CA1_C7	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	2
+CA1_C8	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C8	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	123
+CA1_C8	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	4
+CA1_C8	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	85
+CA1_C8	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	6
+CA1_C9	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+CA1_C9	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	80
+CA1_C9	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	1
+CA1_C9	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	42
+CA1_C9	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	3
+CA1_deep	Grm7-201	protein_coding	mGlu7B-like	1	12	1	0	1	0	False	2
+CA1_deep	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	884
+CA1_deep	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	11
+CA1_deep	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	3	12	3	1	2	0	False	662
+CA1_deep	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	21
+CA1_superficial	Grm7-201	protein_coding	mGlu7B-like	1	12	1	0	1	0	False	1
+CA1_superficial	Grm7-202	protein_coding	mGlu7A-like	2	12	1	1	0	0	False	1302
+CA1_superficial	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	15
+CA1_superficial	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	6	12	6	3	3	0	False	794
+CA1_superficial	Grm7-205	protein_coding	mGlu7B-like	1	12	1	1	0	0	False	37
+CA1_total	Grm7-201	protein_coding	mGlu7B-like	2	12	2	0	2	0	False	3
+CA1_total	Grm7-202	protein_coding	mGlu7A-like	3	12	2	1	1	0	False	3171
+CA1_total	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	45
+CA1_total	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	11	12	7	4	3	1	False	2080
+CA1_total	Grm7-205	protein_coding	mGlu7B-like	1	12	1	1	0	0	False	82
+IN_C1	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C1	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	67
+IN_C1	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	2
+IN_C1	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	24
+IN_C1	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C10	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C10	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	46
+IN_C10	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C10	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	28
+IN_C10	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	1
+IN_C11	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C11	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	11
+IN_C11	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C11	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	12
+IN_C11	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	1
+IN_C12	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C12	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	7
+IN_C12	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C12	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	2
+IN_C12	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C13	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C13	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	3
+IN_C13	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C13	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	1
+IN_C13	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C14	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C14	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	10
+IN_C14	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C14	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C14	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C15	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C15	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	6
+IN_C15	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	1
+IN_C15	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	8
+IN_C15	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C16	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C16	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	2
+IN_C16	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C16	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C16	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C17	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C17	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	8
+IN_C17	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C17	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	5
+IN_C17	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C18	Grm7-201	protein_coding	mGlu7B-like	0	4	0	0	0	0	False	0
+IN_C18	Grm7-202	protein_coding	mGlu7A-like	0	4	0	0	0	0	False	15
+IN_C18	Grm7-203	protein_coding	Other / incomplete / NMD	0	4	0	0	0	0	False	0
+IN_C18	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	4	0	0	0	0	False	8
+IN_C18	Grm7-205	protein_coding	mGlu7B-like	0	4	0	0	0	0	False	0
+IN_C19	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C19	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	5
+IN_C19	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C19	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	3
+IN_C19	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C2	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C2	Grm7-202	protein_coding	mGlu7A-like	1	12	1	1	0	0	False	142
+IN_C2	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	1
+IN_C2	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	2	12	2	0	2	0	False	72
+IN_C2	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	3
+IN_C20	Grm7-201	protein_coding	mGlu7B-like	0	11	0	0	0	0	False	0
+IN_C20	Grm7-202	protein_coding	mGlu7A-like	0	11	0	0	0	0	False	4
+IN_C20	Grm7-203	protein_coding	Other / incomplete / NMD	0	11	0	0	0	0	False	0
+IN_C20	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	11	0	0	0	0	False	1
+IN_C20	Grm7-205	protein_coding	mGlu7B-like	0	11	0	0	0	0	False	0
+IN_C3	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C3	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	127
+IN_C3	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C3	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	54
+IN_C3	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	3
+IN_C4	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C4	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	11
+IN_C4	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C4	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	1	12	1	0	1	0	False	4
+IN_C4	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C5	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C5	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	17
+IN_C5	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C5	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	12
+IN_C5	Grm7-205	protein_coding	mGlu7B-like	1	12	1	1	0	0	False	1
+IN_C6	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C6	Grm7-202	protein_coding	mGlu7A-like	1	12	1	0	1	0	False	51
+IN_C6	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C6	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	20
+IN_C6	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	1
+IN_C7	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C7	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	11
+IN_C7	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	1
+IN_C7	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	6
+IN_C7	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C8	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C8	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	28
+IN_C8	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	0
+IN_C8	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	10
+IN_C8	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C9	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_C9	Grm7-202	protein_coding	mGlu7A-like	0	12	0	0	0	0	False	7
+IN_C9	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	1
+IN_C9	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	0	12	0	0	0	0	False	4
+IN_C9	Grm7-205	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_total	Grm7-201	protein_coding	mGlu7B-like	0	12	0	0	0	0	False	0
+IN_total	Grm7-202	protein_coding	mGlu7A-like	2	12	2	1	1	0	False	578
+IN_total	Grm7-203	protein_coding	Other / incomplete / NMD	0	12	0	0	0	0	False	6
+IN_total	Grm7-204	nonsense_mediated_decay	Other / incomplete / NMD	3	12	2	0	2	0	False	274
+IN_total	Grm7-205	protein_coding	mGlu7B-like	1	12	1	1	0	0	False	10
