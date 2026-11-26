@@ -1,8 +1,8 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Synaptic evidence · SATB2 atlas</title></head><body>
-<main style="font:16px system-ui;max-width:68ch;margin:4rem auto;padding:0 1rem"><a href="../index.html">← SATB2 atlas</a><h1>Synaptic evidence in CA1</h1><p id="load" role="status">Loading the four reference analyses…</p><a href="https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.14.1-directed-pairs-20261125/analysis/synaptic_evidence_20261125/offline.html" download="SATB2_synaptic_evidence.html">Download the standalone explorer</a></main>
+<main style="font:16px system-ui;max-width:68ch;margin:4rem auto;padding:0 1rem"><a href="../index.html">← SATB2 atlas</a><h1>Synaptic evidence in CA1</h1><p id="load" role="status">Loading the four reference analyses…</p><a href="https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.14.2-binding-audit-20261126/analysis/synaptic_evidence_20261125/offline.html" download="SATB2_synaptic_evidence.html">Download the standalone explorer</a></main>
 <script>
-const url=location.pathname.includes('/site/synaptic_evidence/')?'../../analysis/synaptic_evidence_20261125/offline.html':'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.14.1-directed-pairs-20261125/analysis/synaptic_evidence_20261125/offline.html';
-fetch(url,{integrity:'sha256-vUYNoYLDo8SvmhJJPluDf8Fs6SqymSCW1O+dTW3wL3c=',credentials:'omit'}).then(response=>{
+const url=location.pathname.includes('/site/synaptic_evidence/')?'../../analysis/synaptic_evidence_20261125/offline.html':'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.14.2-binding-audit-20261126/analysis/synaptic_evidence_20261125/offline.html';
+fetch(url,{integrity:'sha256-ipPJLeJK5phAInqxCeAa+H2dFhQzofPaRva51I46OFY=',credentials:'omit'}).then(response=>{
   if(!response.ok)throw Error('HTTP '+response.status);
   return response.text();
 }).then(html=>{document.open();document.write(html);document.close();}).catch(error=>{document.getElementById('load').textContent='Could not load the explorer. '+error.message+'. Download the standalone copy above to open it locally.';});

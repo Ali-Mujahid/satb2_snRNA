@@ -3,13 +3,14 @@ import base64
 import hashlib
 import json
 from pair_sets import compare_pairs
+from binding_audit import annotate_pairs
 import zipfile
 from pathlib import Path
 
 root = Path(__file__).resolve().parent
 site = root.parents[1] / 'site'
 source = root / 'reader'
-release = 'atlas-v3.14.1-directed-pairs-20261125'
+release = 'atlas-v3.14.2-binding-audit-20261126'
 remote = f'https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/{release}/analysis/{root.name}/offline.html'
 
 def inline_script(path):
@@ -20,9 +21,11 @@ page = (source / 'index.html').read_text()
 page = page.replace('<link rel="stylesheet" href="evidence.css">', '<style>' + (source / 'evidence.css').read_text() + '</style>')
 page = page.replace('<script src="../vendor/jspdf.umd.min.js"></script>', inline_script(site / 'vendor/jspdf.umd.min.js'))
 payload = json.loads((root / 'results/data.json').read_text())
+payload['pairs'], payload['bindingAudit'] = annotate_pairs(payload['pairs'], root / 'results')
 payload['pairRoles'] = compare_pairs(payload, root / 'results')
 data = json.dumps(payload, separators=(',', ':'), allow_nan=False).replace('<', r'\u003c')
 page = page.replace('<script src="pair_views.js"></script>', inline_script(source / 'pair_views.js'))
+page = page.replace('<script src="binding_views.js"></script>', inline_script(source / 'binding_views.js'))
 page = page.replace('<script src="evidence.js"></script>', '<script type="application/json" id="sourceData">' + data + '</script>' + inline_script(source / 'evidence.js'))
 page = page.replace('ATLAS_RELEASE_TAG', release)
 (root / 'offline.html').write_text(page)

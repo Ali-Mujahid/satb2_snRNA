@@ -1,0 +1,29 @@
+pair	status	citation	url
+Nrxn1 / Nlgn1	direct	Ichtchenko et al. 1995, binding	https://pubmed.ncbi.nlm.nih.gov/7736595/
+Nrxn1 / Nlgn1	direct	Ichtchenko et al. 1996, splice specificity	https://pubmed.ncbi.nlm.nih.gov/8576240/
+Nrxn1 / Nlgn1	direct	Song et al. 1999, localization	https://pmc.ncbi.nlm.nih.gov/articles/PMC15357/
+Cntn3 / Ptprg	direct	Bouyain and Watkins 2010, direct binding	https://pubmed.ncbi.nlm.nih.gov/20133774/
+Cntn3 / Ptprg	direct	Nikolaienko et al. 2016, cis and trans contexts	https://pmc.ncbi.nlm.nih.gov/articles/PMC5076805/
+Slit1 / Robo1	direct	Yuan et al. 1999, exact mouse SLIT1-ROBO1 pair	https://pubmed.ncbi.nlm.nih.gov/10433822/
+Slit2 / App	direct	Wang et al. 2017, Figure 6 and downstream assays	https://www.eneuro.org/content/4/3/ENEURO.0185-17.2017
+Slit2 / Plxna1	direct	Delloye-Bourgeois et al. 2015, binding	https://pubmed.ncbi.nlm.nih.gov/25485759/
+Slit2 / Plxna1	direct	Ducuing et al. 2020, fragment-dependent guidance	https://pubmed.ncbi.nlm.nih.gov/33345773/
+Ptn / Ptprz1	direct	Maeda et al. 1996, phosphacan binding	https://pubmed.ncbi.nlm.nih.gov/8702927/
+Ptn / Ptprz1	direct	Meng et al. 2000, membrane PTPRZ signalling	https://pubmed.ncbi.nlm.nih.gov/10706604/
+Fstl5 / Cntn5	screen	Wojtowicz et al. 2020, Data S4	https://pmc.ncbi.nlm.nih.gov/articles/PMC7440162/
+Fstl5 / Cntn5	screen	Data S4, screen observations	https://ars.els-cdn.com/content/image/1-s2.0-S0092867420309338-mmc4.xlsx
+Fstl5 / Cntn5	screen	Data S5, SPR conditions	https://ars.els-cdn.com/content/image/1-s2.0-S0092867420309338-mmc5.xlsx
+Slit2 / Dcc	indirect	Fothergill et al. 2014, pathway crosstalk	https://doi.org/10.1093/cercor/bhs395
+Slit2 / Dcc	indirect	Dailey-Krempel et al. 2023, genetic pathway interaction	https://pmc.ncbi.nlm.nih.gov/articles/PMC10335249/
+Slit2 / Dcc	indirect	Retraction notice 2023 (excluded historical evidence)	https://doi.org/10.1126/science.adk1517
+App / Grm7	unverified	LRdb source records	https://github.com/SCA-IRCM/LRdb/blob/master/LRdb_122019.txt
+App / Grm7	unverified	CellTalkDB human source	https://github.com/ZJUFanLab/CellTalkDB/blob/master/database/human_lr_pair.rds
+App / Grm7	unverified	SingleCellSignalR resource paper	https://pmc.ncbi.nlm.nih.gov/articles/PMC7261168/
+App / Grm7	unverified	GRM7 presynaptic localization	https://pmc.ncbi.nlm.nih.gov/articles/PMC6573434/
+App / Grm7	unverified	Okamoto et al. 1994, glutamate agonist pharmacology	https://pubmed.ncbi.nlm.nih.gov/8288585/
+App / Grm7	unverified	Rice et al. 2019, separate sAPP-GABABR1a binding	https://pmc.ncbi.nlm.nih.gov/articles/PMC6366617/
+Penk / Grm7	unverified	LRdb source records	https://github.com/SCA-IRCM/LRdb/blob/master/LRdb_122019.txt
+Penk / Grm7	unverified	CellTalkDB human source	https://github.com/ZJUFanLab/CellTalkDB/blob/master/database/human_lr_pair.rds
+Penk / Grm7	unverified	SingleCellSignalR resource paper	https://pmc.ncbi.nlm.nih.gov/articles/PMC7261168/
+Penk / Grm7	unverified	GRM7 presynaptic localization	https://pmc.ncbi.nlm.nih.gov/articles/PMC6573434/
+Penk / Grm7	unverified	Mansour et al. 1995, enkephalin-opioid receptor binding	https://pubmed.ncbi.nlm.nih.gov/8624732/

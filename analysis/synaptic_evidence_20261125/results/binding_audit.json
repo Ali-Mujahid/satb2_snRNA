@@ -1,0 +1,301 @@
+{
+  "review_date": "2026-11-26",
+  "scope": "14 archived directed Seurat rows; 10 distinct molecular pairs",
+  "CA1_superficial": "C2+C3",
+  "CA1_deep": "C1+C5",
+  "local_contact_validation": "Predicted for every row; direct binding status refers to published experiments in their reported systems.",
+  "pairs": [
+    {
+      "genes": [
+        "Nrxn1",
+        "Nlgn1"
+      ],
+      "status": "direct",
+      "title": "Direct binding supported",
+      "assay": "Recombinant affinity binding and splice-selectivity assays; synaptic immunogold localization.",
+      "experimental_context": "Biochemical studies and rodent neuronal synapses; the specific P60 CA1-to-C1 contact remains a prediction.",
+      "molecular_form": "Alpha/beta neurexin and neuroligin splice variants have different binding properties. Nuclear gene counts do not identify the binding-competent isoforms.",
+      "locations": {
+        "Nrxn1": "Predominantly presynaptic axon membrane",
+        "Nlgn1": "Predominantly postsynaptic membrane at glutamatergic synapses"
+      },
+      "interpretation": "For these expression endpoints, CA1 NRXN1 with IN C1 NLGN1 predicts excitatory CA1-to-interneuron transmission. The reciprocal LIANA entry describes the same adhesion pair and the same proposed synaptic orientation.",
+      "references": [
+        {
+          "label": "Ichtchenko et al. 1995, binding",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/7736595/"
+        },
+        {
+          "label": "Ichtchenko et al. 1996, splice specificity",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8576240/"
+        },
+        {
+          "label": "Song et al. 1999, localization",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC15357/"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Cntn3",
+        "Ptprg"
+      ],
+      "status": "direct",
+      "title": "Direct binding supported",
+      "assay": "Recombinant extracellular-domain binding, mutagenesis and structural analysis.",
+      "experimental_context": "Contactin/PTPRG biochemical studies; cis complexes demonstrated in retinal photoreceptors and trans binding in apposed transfected cells.",
+      "molecular_form": "CNTN3 is GPI-anchored. PTPRG is a receptor-type phosphatase. Cis and trans interactions are possible.",
+      "locations": {
+        "Cntn3": "Extracellular face of the neuronal membrane; pre/post assignment unresolved here",
+        "Ptprg": "Cell-surface receptor phosphatase; pre/post assignment unresolved here"
+      },
+      "interpretation": "IN C6 CNTN3-to-CA1 PTPRG is a candidate cell-surface recognition/signalling relationship. The two genes do not determine which cell supplies the presynaptic terminal.",
+      "references": [
+        {
+          "label": "Bouyain and Watkins 2010, direct binding",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/20133774/"
+        },
+        {
+          "label": "Nikolaienko et al. 2016, cis and trans contexts",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5076805/"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Slit1",
+        "Robo1"
+      ],
+      "status": "direct",
+      "title": "Direct binding supported",
+      "assay": "Mouse SLIT1-ROBO1 binding assays; subsequent Slit-domain binding studies.",
+      "experimental_context": "Embryonic expression and axon-guidance experiments; subtype-specific mature CA1 action remains unresolved.",
+      "molecular_form": "Secreted SLIT1 engages a cell-surface ROBO receptor. The mature active ligand domain and heparan-sulfate context matter.",
+      "locations": {
+        "Slit1": "Secreted extracellular guidance cue; no fixed pre/post side",
+        "Robo1": "Cell surface, including axons/growth cones in guidance studies; P60 C6 compartment unresolved"
+      },
+      "interpretation": "Molecular signal is proposed from deep CA1 SLIT1 to IN C6 ROBO1. Axon guidance repulsion does not specify an inhibitory synaptic current or a direction of neurotransmitter release.",
+      "references": [
+        {
+          "label": "Yuan et al. 1999, exact mouse SLIT1-ROBO1 pair",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10433822/"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Slit2",
+        "App"
+      ],
+      "status": "direct",
+      "title": "Direct binding supported",
+      "assay": "SLIT2 cell-surface binding to APP, binding curves and APP E1 deletion experiments; downstream shedding and axon-guidance assays.",
+      "experimental_context": "Heterologous cells, neuronal/olfactory cultures and developmental guidance models; mature CA1-to-SST contacts untested.",
+      "molecular_form": "SLIT2 binds the extracellular E1 domain of membrane APP and can trigger ectodomain shedding.",
+      "locations": {
+        "Slit2": "Secreted extracellular cue; pre/post site unresolved",
+        "App": "Membrane protein with axonal and dendritic pools; cleavage generates soluble products"
+      },
+      "interpretation": "IN C6 SLIT2-to-superficial CA1 APP has direct molecular support in other systems. The RNA data leave the receiving APP membrane compartment unresolved.",
+      "references": [
+        {
+          "label": "Wang et al. 2017, Figure 6 and downstream assays",
+          "url": "https://www.eneuro.org/content/4/3/ENEURO.0185-17.2017"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Slit2",
+        "Plxna1"
+      ],
+      "status": "direct",
+      "title": "Direct binding supported; fragment dependent",
+      "assay": "Binding of SLIT C-terminal fragment to PlexinA1; complexes from spinal tissue and functional guidance assays.",
+      "experimental_context": "Developing spinal commissural axons, with later mouse/chicken functional work; mature CA1 synapse localization untested.",
+      "molecular_form": "SLIT-C binds PLXNA1. SLIT-N instead engages ROBO1/2. Gene-level Slit2 counts do not measure cleavage or SLIT-C abundance.",
+      "locations": {
+        "Slit2": "Secreted SLIT-C fragment required for this binding relationship",
+        "Plxna1": "Cell-surface guidance receptor, including growth cones; pre/post assignment unresolved in P60 CA1"
+      },
+      "interpretation": "Proposed molecular direction is IN C6 SLIT-C to superficial or deep CA1 PLXNA1. The effect on synaptic excitation/inhibition is unresolved.",
+      "references": [
+        {
+          "label": "Delloye-Bourgeois et al. 2015, binding",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/25485759/"
+        },
+        {
+          "label": "Ducuing et al. 2020, fragment-dependent guidance",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/33345773/"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Ptn",
+        "Ptprz1"
+      ],
+      "status": "direct",
+      "title": "Direct binding supported; isoform qualification",
+      "assay": "Affinity purification and quantified PTN binding to phosphacan; membrane PTPRZ signalling assays.",
+      "experimental_context": "Rat brain-derived protein and cultured-cell studies; cell-resolved P60 CA1-to-C1 binding remains untested.",
+      "molecular_form": "Ptprz1 encodes transmembrane receptor isoforms and soluble phosphacan. Gene-level RNA and shared peptides do not resolve these forms.",
+      "locations": {
+        "Ptn": "Secreted, extracellular-matrix-associated ligand; no fixed pre/post side",
+        "Ptprz1": "Cell-surface receptor isoforms and secreted phosphacan; P60 IN C1 isoform and pre/post location unresolved"
+      },
+      "interpretation": "CA1 PTN-to-IN C1 PTPRZ1 is a supported ligand-receptor family relationship. Local, diffuse or matrix-associated action is possible; synaptic transmission direction is unresolved.",
+      "references": [
+        {
+          "label": "Maeda et al. 1996, phosphacan binding",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8702927/"
+        },
+        {
+          "label": "Meng et al. 2000, membrane PTPRZ signalling",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/10706604/"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Fstl5",
+        "Cntn5"
+      ],
+      "status": "screen",
+      "title": "Binding screen support",
+      "assay": "Human recombinant extracellular-protein ELISA screen (apECIA), Data S4 row 75. Mean signal/background 2.883 across three assay replicates; observed in one bait/prey orientation. No matching pair in Data S5 SPR conditions.",
+      "experimental_context": "High-throughput human extracellular-protein screen; mouse CA1 function and native cell-surface binding require validation.",
+      "molecular_form": "FSTL5 is secreted; CNTN5 is GPI-anchored and lacks an intracellular signalling domain.",
+      "locations": {
+        "Fstl5": "Secreted extracellular protein; release site unresolved",
+        "Cntn5": "GPI-anchored cell-surface adhesion protein; pre/post assignment unresolved here"
+      },
+      "interpretation": "IN C1 FSTL5-to-superficial CA1 CNTN5 is supported at screening level. The screen establishes a candidate extracellular association, with native synaptic organization unresolved.",
+      "references": [
+        {
+          "label": "Wojtowicz et al. 2020, Data S4",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7440162/"
+        },
+        {
+          "label": "Data S4, screen observations",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420309338-mmc4.xlsx"
+        },
+        {
+          "label": "Data S5, SPR conditions",
+          "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420309338-mmc5.xlsx"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Slit2",
+        "Dcc"
+      ],
+      "status": "indirect",
+      "title": "Pathway crosstalk; direct binding unverified",
+      "assay": "SLIT/ROBO and netrin/DCC pathway crosstalk, receptor-complex/co-immunoprecipitation and genetic guidance studies. Direct SLIT2-DCC extracellular binding was not established in the reviewed evidence.",
+      "experimental_context": "Developing forebrain/spinal guidance models. The historical Stein/Tessier-Lavigne 2001 report was retracted and is excluded as supporting evidence.",
+      "molecular_form": "DCC is a netrin receptor. ROBO and DCC pathway cooperation does not identify DCC as a direct SLIT2 receptor.",
+      "locations": {
+        "Slit2": "Secreted guidance cue",
+        "Dcc": "Netrin receptor on neuronal membranes/growth cones; mature CA1 pre/post assignment unresolved"
+      },
+      "interpretation": "Retain this row as an indirect guidance candidate. A direct IN C6 SLIT2-to-deep CA1 DCC ligand-binding arrow is unsupported by the reviewed evidence.",
+      "references": [
+        {
+          "label": "Fothergill et al. 2014, pathway crosstalk",
+          "url": "https://doi.org/10.1093/cercor/bhs395"
+        },
+        {
+          "label": "Dailey-Krempel et al. 2023, genetic pathway interaction",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10335249/"
+        },
+        {
+          "label": "Retraction notice 2023 (excluded historical evidence)",
+          "url": "https://doi.org/10.1126/science.adk1517"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "App",
+        "Grm7"
+      ],
+      "status": "unverified",
+      "title": "Direct binding unverified",
+      "assay": "Both entries occur in the frozen mouseconsensus. In upstream LRdb the source is Reactome and the pair-specific PMID field is empty. Human CellTalkDB cites PMID 32196115, the SingleCellSignalR resource paper. No direct binding assay for this exact pair was verified.",
+      "experimental_context": "Database provenance only for the exact APP-GRM7 pair; co-detection in SynDive is independent protein coverage.",
+      "molecular_form": "APP has full-length and cleaved forms. Glutamate is the established endogenous mGluR7 agonist. Secreted APP binding to GABABR1a is a separate experimentally supported mechanism.",
+      "locations": {
+        "App": "Axonal/dendritic membrane pools and soluble cleavage products; local form unresolved",
+        "Grm7": "Predominantly presynaptic release-site receptor on glutamatergic or GABAergic terminals"
+      },
+      "interpretation": "IN C1 Grm7 RNA can contribute to presynaptic mGluR7 on inhibitory axons. Its partner and target cell are unresolved. Reversing this database arrow would not establish an APP-GRM7 binding mechanism.",
+      "references": [
+        {
+          "label": "LRdb source records",
+          "url": "https://github.com/SCA-IRCM/LRdb/blob/master/LRdb_122019.txt"
+        },
+        {
+          "label": "CellTalkDB human source",
+          "url": "https://github.com/ZJUFanLab/CellTalkDB/blob/master/database/human_lr_pair.rds"
+        },
+        {
+          "label": "SingleCellSignalR resource paper",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7261168/"
+        },
+        {
+          "label": "GRM7 presynaptic localization",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6573434/"
+        },
+        {
+          "label": "Okamoto et al. 1994, glutamate agonist pharmacology",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8288585/"
+        },
+        {
+          "label": "Rice et al. 2019, separate sAPP-GABABR1a binding",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6366617/"
+        }
+      ]
+    },
+    {
+      "genes": [
+        "Penk",
+        "Grm7"
+      ],
+      "status": "unverified",
+      "title": "Direct binding unverified",
+      "assay": "Both entries occur in the frozen mouseconsensus. In upstream LRdb the source is Reactome and the pair-specific PMID field is empty. Human CellTalkDB cites PMID 32196115, the SingleCellSignalR resource paper. No direct binding assay for this exact pair was verified.",
+      "experimental_context": "Database provenance only for the exact PENK-GRM7 pair.",
+      "molecular_form": "PENK is a precursor of processed enkephalin peptides, whose established targets include mu/delta opioid receptors. Enkephalin-mGluR7 binding was not verified.",
+      "locations": {
+        "Penk": "Secreted processed neuropeptides; precursor RNA does not measure release",
+        "Grm7": "Predominantly presynaptic release-site receptor on glutamatergic or GABAergic terminals"
+      },
+      "interpretation": "The source/target expression changes identify two candidate molecular changes. The receptor-bearing IN C1 terminal remains presynaptic in a physiological schematic. The PENK-GRM7 binding direction is unresolved.",
+      "references": [
+        {
+          "label": "LRdb source records",
+          "url": "https://github.com/SCA-IRCM/LRdb/blob/master/LRdb_122019.txt"
+        },
+        {
+          "label": "CellTalkDB human source",
+          "url": "https://github.com/ZJUFanLab/CellTalkDB/blob/master/database/human_lr_pair.rds"
+        },
+        {
+          "label": "SingleCellSignalR resource paper",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7261168/"
+        },
+        {
+          "label": "GRM7 presynaptic localization",
+          "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6573434/"
+        },
+        {
+          "label": "Mansour et al. 1995, enkephalin-opioid receptor binding",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/8624732/"
+        }
+      ]
+    }
+  ]
+}

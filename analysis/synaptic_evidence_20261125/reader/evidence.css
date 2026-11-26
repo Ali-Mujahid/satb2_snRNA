@@ -2,3 +2,5 @@
 .finding{border-left:3px solid #24817a;background:#eff6f2;padding:8px 12px;font-weight:550}
 #toPairs{color:#155b5e;background:#eef6f4}#referenceBox details{margin-top:12px}.lr-ribbon:hover,.lr-ribbon:focus{fill-opacity:1;stroke:#172e34;stroke-width:2}#plot:has(.lr-ribbon) svg{width:min(960px,100%);height:auto;min-width:620px}
 .lr-ribbon{cursor:pointer}
+
+.audit-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(360px,100%),1fr));gap:16px}.audit-card{border-top:3px solid #247b71;padding:10px 14px;background:#f5f8f7;border-radius:4px}.audit-card.unverified{border-color:#936747;background:#fbf5ef}.audit-card.indirect,.audit-card.screen{border-color:#9b823e}.audit-status{font-weight:700}.audit-card p,.audit-card dl{font-size:.9rem}.audit-card dt{font-weight:650;margin-top:7px}.audit-card dd{margin-left:0}.audit-card a{color:#155c66}.audit-card details p{overflow-wrap:anywhere}

@@ -1,15 +1,17 @@
 'use strict';
 const $ = id => document.getElementById(id);
 const sources = {
+  binding: ['Binding evidence and synaptic compartments','Compare all archived population rows with primary binding studies. Choose an arrow meaning to inspect molecular interactions, predicted synaptic transmission or the original database convention.'],
   connectome: ['Connectome-seq marker overlap', 'Compare the 30 published Purkinje-cell markers with your CA1 and interneuron DEGs. Color shows the local RNA effect for significant genes. The default view includes genes with at least one overlap.'],
   syndive: ['CA1 stratum proteomics', 'Inspect each ligand or receptor across CA1 strata. The FASS fraction contains sorted synaptosomes. Values are median stratum log₂ fold changes across unambiguous protein groups. A star marks support from at least one group passing the authors’ significance criterion.'],
   synaptome: ['Synaptic compartment evidence', 'Count the publications reporting each protein in a synaptic fraction. Select a species and region to see which experiments contribute. The table includes the supporting PubMed IDs.'],
   g2c: ['Postsynaptic proteins and complexes', 'Trace ligand and receptor gene products into published cortical PSD and receptor-complex tables. Mouse and human calls are shown separately. Each cell has a source status in the table below.'],
   overlap: ['Unique and shared pairs across references', 'Each row is a directed, population-specific LIANA candidate. A filled cell means both components meet that reference’s coverage rule. The table below groups identical combinations of resources.'],
-  circos: ['Directed CA1–interneuron Circos', 'Follow each ribbon from the ligand gene to the arrow tip at the receptor gene. Select a molecular direction, reference or gene to isolate its connections. Arrow direction follows the LIANA annotation.'],
-  pairs: ['Directed ligand–receptor candidates', 'Read the cKO RNA change at each end of the interaction. Each row identifies the ligand-producing and receptor-expressing populations. The table includes native pooled LIANA ranks, mouse support and the reference evidence.']
+  circos: ['Directed CA1–interneuron Circos', 'Choose molecular interactions, predicted synaptic transmission or archived LIANA roles using Arrow meaning. A molecular receptor can sit presynaptically; a ligand-to-receptor arrow does not establish neurotransmission direction. Select a ribbon or use the isolation menu to inspect its evidence.'],
+  pairs: ['Directed ligand–receptor candidates', 'Read the cKO RNA change at each end of the interaction. Each row retains the original expressing populations and adds reviewed binding evidence, protein compartments and predicted synaptic direction. The table includes native pooled LIANA ranks, mouse support and the reference evidence.']
 };
 const findings = {
+  binding: 'APP–GRM7 and PENK–GRM7 have unverified direct binding. SLIT2–DCC is an indirect guidance candidate. GRM7 is predominantly presynaptic. All local P60 contacts require validation.',
   connectome: 'Deep CA1 shares six of 25 testable panel genes (one up, five down, BH FDR 0.023). Superficial CA1 shares three of 25 (BH FDR 1.00). The enriched C5 result rests on Arhgap31, its sole DEG.',
   syndive: 'CNTN3 and PTPRG each have unambiguous sorted-synaptosome estimates across all four CA1 strata. In your mice, Cntn3 falls in inhibitory C6 and Ptprg rises in both pyramidal sublayers.',
   synaptome: 'Both proteins have mouse hippocampal study records for 12 of 14 directed candidates. The separate interaction lookup returns three publications for NLGN1–NRXN1.',
@@ -19,6 +21,10 @@ const findings = {
   pairs: 'Fourteen directed rows connect the two CA1 sublayers with C1 or C6. NLGN1–NRXN1 has reciprocal resource entries and three indexed interaction publications. These entries describe one molecular pairing.'
 };
 const downloads = {
+  'binding_audit_14_rows.tsv':'All 14 rows with binding, compartments and directions',
+  'binding_audit_sources.tsv':'Primary binding and localization sources',
+  'binding_audit.json':'Complete reviewed molecular evidence',
+  'binding_audit_provenance.json':'Audit provenance and primary-screen source rows',
   'CA1_IN_directed_pair_roles.tsv':'CA1 and interneuron roles, effects and references',
   'exact_reference_overlap.tsv':'All 16 exact reference combinations',
   'lr_pair_evidence.tsv':'Directed LR evidence',
@@ -50,7 +56,7 @@ function table(id,rows,cols) {
 function filteredPairs(){
   return (isPairView(view)?data.pairRoles:data.pairs).filter(p=>(!value('layer')||[p.source,p.target].includes(value('layer'))) &&
     (!value('partner')||[p.source,p.target].includes(value('partner'))) &&
-    (!value('direction')||p.source.startsWith(value('direction'))));
+    (!value('direction')||p.corrected_source.startsWith(value('direction'))));
 }
 function selectedPopulations(){
   const ep=value('endpoint'),hit=new Set(data.stats.filter(s=>s.panel_DEG).map(s=>s.endpoint));
@@ -107,18 +113,18 @@ function matrix() {
   } else {
     tableRows=selectedPairRows(pairRows).filter(x=>match(x.ligand)||match(x.receptor));
     if(view==='circos')tableRows=isolateRibbon(tableRows);
-    rows=[];cols=view==='overlap'?referenceNames:['Ligand RNA','Receptor RNA'];
+    rows=[];cols=view==='overlap'?referenceNames:['CA1 RNA','Interneuron RNA'];
     for(const p of tableRows){
-      const r=p.ligand+' → '+p.receptor+'   ·   '+pop(p.source)+' → '+pop(p.target);
+      const r=p.corrected_pair+'   ·   '+pop(p.corrected_source)+' / '+pop(p.corrected_target)+(p.binding_status==='unverified'?'  [UNVERIFIED]':p.binding_status==='indirect'?'  [INDIRECT]':p.binding_status==='screen'?'  [SCREEN]':'');
       rows.push(r);
       if(view==='overlap'){
         for(const name of referenceNames)cell(r,name,p[name]?1:0,p[name]?'+':'·');
         continue;
       }
-      cell(r,cols[0],p.ligand_log2FC,plus(p.ligand_log2FC));cell(r,cols[1],p.receptor_log2FC,plus(p.receptor_log2FC));
+      cell(r,cols[0],p.CA1_log2FC,plus(p.CA1_log2FC));cell(r,cols[1],p.IN_log2FC,plus(p.IN_log2FC));
     }
     scale=Math.max(.01,...cells.map(x=>Math.abs(x.n)));
-    legend='cKO/WT RNA log₂FC at the source and target    |    Pooled LIANA candidates';
+    legend='cKO/WT RNA log₂FC in CA1 and interneurons    |    Pooled LIANA candidates';
     if(view==='overlap'){scale=1;legend='+  both components meet the reference criterion     ·  no both-end match';}
     headings=pairColumns;
   }
@@ -170,7 +176,7 @@ function svg(m){
   return parts.join('')+'</g></svg>';
 }
 function draw() {
-  document.querySelectorAll('[data-for]').forEach(el=>{el.hidden=!(el.dataset.for===view||(el.dataset.for==='other'&&view!=='connectome')||(el.dataset.for==='pairViews'&&isPairView(view))||(el.dataset.for==='matrix'&&view!=='circos'));});
+  document.querySelectorAll('[data-for]').forEach(el=>{el.hidden=!(el.dataset.for===view||(el.dataset.for==='other'&&view!=='connectome')||(el.dataset.for==='pairViews'&&isPairView(view))||(el.dataset.for==='matrix'&&!['circos','binding'].includes(view))||(el.dataset.for==='directions'&&['circos','binding'].includes(view)));});
   document.querySelectorAll('[data-view]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.view===view)));
   $('statsBox').hidden=view!=='connectome'; $('title').textContent=sources[view][0];$('guide').textContent=sources[view][1];$('message').textContent='';
   $('finding').textContent=findings[view];
@@ -179,7 +185,8 @@ function draw() {
   if(!isPairView(view))$('toPairs').textContent='View pairs matching '+resourceForView[view];
   $('referenceBox').hidden=!isPairView(view);
   if(isPairView(view))renderOverlapTable(m.tableRows);
-  figure=view==='circos'?circosFigure(m.tableRows):svg(m);$('plot').innerHTML=figure;plottedRows=m.tableRows;columns=m.headings;
+  renderBindingAudit(isPairView(view)?m.tableRows:[],data.bindingAudit);
+  figure=view==='circos'?circosFigure(m.tableRows):view==='binding'?bindingFigure(m.tableRows):svg(m);$('plot').innerHTML=figure;plottedRows=m.tableRows;columns=m.headings;
   table('table',plottedRows,columns);$('tableTitle').textContent=isPairView(view)?'CA1 and interneuron genes and roles':'Plotted values';
 }
 function saveBlob(blob,name){
@@ -219,7 +226,7 @@ async function init(){
   };
   for(const ep of Object.keys(data.status))option('endpoint',ep,pop(ep));
   for(const area of [...new Set(data.db.map(r=>r.region))].sort())if(area!=='Hippocampus')option('region',area,area);
-  Object.assign(defaults,settings());view=Object.hasOwn(sources,location.hash.slice(1))?location.hash.slice(1):'connectome';
+  Object.assign(defaults,settings());view=Object.hasOwn(sources,location.hash.slice(1))?location.hash.slice(1):'binding';
   for(const e of inputs)e.addEventListener('input',draw);
   function pickRibbon(event){
     const ribbon=event.target.closest('.lr-ribbon');

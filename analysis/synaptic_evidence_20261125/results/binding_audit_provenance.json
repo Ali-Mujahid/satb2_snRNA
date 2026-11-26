@@ -1,0 +1,44 @@
+{
+  "review_date": "2026-11-26",
+  "frozen_RNA_payload_SHA256": "56c642ef55c569f19611b72bd82f4d62562f202d269eb33d6757a1092f6f1542",
+  "method": "Manual pair-specific literature and upstream resource provenance review; source RNA and LIANA scores preserved.",
+  "primary_screen_sources": [
+    {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420309338-mmc4.xlsx",
+      "SHA256": "d5e76509118c6e28d3689b4815aa79a744980b595eb2147ca406ac19d0cb3afe",
+      "pair_rows": [
+        {
+          "sheet": "Wojtowicz et al._DataS4 ",
+          "Excel_row": 75,
+          "values": [
+            "CNTN5",
+            "FSTL5",
+            "CNTN5",
+            "FSTL5",
+            "CNTN5",
+            "FSTL5",
+            0.6277,
+            0.6393,
+            0.6037,
+            0.2037,
+            0.279,
+            0.18419999999999997,
+            3.0814923907707414,
+            2.2913978494623652,
+            3.2774158523344195,
+            2.8834353641891752,
+            0.5219940754747119,
+            "no",
+            "not found in literature or PPI databases"
+          ]
+        }
+      ]
+    },
+    {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0092867420309338-mmc5.xlsx",
+      "SHA256": "be9e39e0d1591b7df08580cc5d2a99407ebf5d2a280a34141ac9a6bc634cc59e",
+      "pair_rows": []
+    }
+  ],
+  "primary_screen_interpretation": "Data S4 reports CNTN5 prey / FSTL5 bait, signal/background mean 2.8834353641891752, SD 0.5219940754747119, n=3 assay replicates, Binding_BothOrientations=no. No matching pair found in Data S5 SPR conditions. This absence is not a negative binding assay."
+}
