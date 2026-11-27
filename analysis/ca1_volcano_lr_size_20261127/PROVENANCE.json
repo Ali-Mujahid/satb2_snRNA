@@ -1,0 +1,30 @@
+{
+  "models_changed": false,
+  "source": "analysis/synaptic_evidence_20261125/results/CA1_IN_directed_pair_roles.tsv",
+  "source_sha256": "2f67070bb85745b6ebe2a979f0d7ecf04bc3a9ef815a2a9d818f26f26728a2e5",
+  "gene_ID_mapping": "unique source symbol matched to exact fit gene_id; native fold changes/FDR agree with archived LR evidence within its numeric export precision",
+  "summary": {
+    "superficial": {
+      "rows": 9,
+      "CA1_genes": [
+        "App",
+        "Cntn5",
+        "Nrxn1",
+        "Penk",
+        "Plxna1",
+        "Ptn",
+        "Ptprg"
+      ]
+    },
+    "deep": {
+      "rows": 5,
+      "CA1_genes": [
+        "Dcc",
+        "Plxna1",
+        "Ptn",
+        "Ptprg",
+        "Slit1"
+      ]
+    }
+  }
+}

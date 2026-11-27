@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "checks": [
+    "CA1-only exact LR highlights",
+    "unverified partner flags",
+    "direct-evidence filter",
+    "label selection",
+    "small/presentation/poster reflow",
+    "physical size input",
+    "dot/font invariance",
+    "SVG/PDF/PNG/pairs/state exports",
+    "selection and size state roundtrip"
+  ],
+  "page_errors": []
+}

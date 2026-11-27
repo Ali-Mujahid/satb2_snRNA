@@ -1,0 +1,40 @@
+{
+  "superficial": {
+    "small_pdf_pt": [
+      360.0,
+      285.0
+    ],
+    "poster_pdf_pt": [
+      900.0,
+      637.5
+    ],
+    "png_size": [
+      1440,
+      1140
+    ],
+    "png_dpi": [
+      288.0106,
+      288.0106
+    ],
+    "physical_sizes_match": true
+  },
+  "deep": {
+    "small_pdf_pt": [
+      360.0,
+      285.0
+    ],
+    "poster_pdf_pt": [
+      900.0,
+      637.5
+    ],
+    "png_size": [
+      1440,
+      1140
+    ],
+    "png_dpi": [
+      288.0106,
+      288.0106
+    ],
+    "physical_sizes_match": true
+  }
+}

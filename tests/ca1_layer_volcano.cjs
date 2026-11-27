@@ -26,12 +26,12 @@ if(!process.argv.includes('--browser'))process.exit(0);
   await page.goto(`http://127.0.0.1:${server.address().port}/ca1_layer_volcano/index.html`);await page.waitForFunction(()=>window.CA1_LAYER_VOLCANO?.ready&&window.CA1_LAYER_VOLCANO.current);
   for(const key of ['superficial','deep']){
    await page.locator('#fit').selectOption(key);await page.waitForFunction(k=>window.CA1_LAYER_VOLCANO?.state.fit===k&&window.CA1_LAYER_VOLCANO.ready&&window.CA1_LAYER_VOLCANO.current,key);
-   assert.equal(await page.locator('[data-role="gene-label"]').count(),10);
+   await page.locator('#lr-labels').uncheck();await page.waitForTimeout(200);assert.equal(await page.locator('[data-role="gene-label"]').count(),10);
    await page.locator('#figure').screenshot({path:path.join(out,key+'_default.png')});
    for(const ext of ['svg','pdf','png','degs','all','labels','state']){const waiting=page.waitForEvent('download');await page.locator(`[data-export="${ext}"]`).click();const d=await waiting;await d.saveAs(path.join(out,d.suggestedFilename()));}
    await page.locator('#fc').fill('1');await page.locator('#guide-fc').fill('1.5');await page.locator('#ymax').fill('50');await page.locator('#up').fill('#8844aa');await page.locator('#boundary').uncheck();await page.waitForTimeout(250);assert.equal(await page.locator('[data-role="plot-boundary"]').count(),0);assert.equal((await page.evaluate(()=>window.CA1_LAYER_VOLCANO.current.axes.ymax)),50);assert.equal(await page.locator('[data-role="fc-guide"]').count(),2);
    await page.locator('#xmin').fill('20');await page.waitForTimeout(200);assert(await page.locator('[data-export="pdf"]').isDisabled());assert.match(await page.locator('#error').textContent(),/minimum/);
-   await page.locator('#reset').click();assert.equal(await page.locator('[data-role="gene-label"]').count(),10);
+   await page.locator('#reset').click();await page.locator('#lr-labels').uncheck();await page.waitForTimeout(200);assert.equal(await page.locator('[data-role="gene-label"]').count(),10);
    const setting=path.join(out,`Seurat_CA1_${key==='superficial'?'Superficial_C2_C3':'Deep_C1_C5'}_volcano_settings.json`);await page.locator('#label-size').fill('20');await page.waitForTimeout(200);await page.locator('#state-file').setInputFiles(setting);await page.waitForFunction(()=>document.getElementById('label-size').value==='15');
   }
   assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'ACCEPTANCE.json'),JSON.stringify({status:'PASS',checks:['two exact fits','default top 10','all seven downloads','axis limits and validation','fold change cutoff and guides','dot colour','plot boundary','state roundtrip'],page_errors:errors},null,2));console.log('PASS browser: both fits, labels, all exports, colors, axes, dotted guides, boundary, settings import.');
