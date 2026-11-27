@@ -53,6 +53,7 @@ jobs:
           python3 scripts/verify_ca1_reassignment.py
           node tests/ca1_reassignment_reader.cjs
           node tests/ca1_top_markers.cjs
+          node tests/ca1_layer_volcano.cjs
           node tests/synaptic_binding_audit.cjs
           node tests/grm1_isoforms.cjs
           node tests/grm7_isoforms.cjs

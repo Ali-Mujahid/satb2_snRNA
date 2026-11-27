@@ -1,0 +1,33 @@
+{
+  "schema": "satb2-ca1-layer-volcano-v1",
+  "display_only": true,
+  "source_sha256": "72601af31cd3aaf17c9ab1962e5da5bb3d31bfdad86fdf4643629cbae4caaa3e",
+  "state": {
+    "fit": "deep",
+    "fdr": 0.05,
+    "fc": 0,
+    "metric": "padj",
+    "xmin": "",
+    "xmax": "",
+    "ymin": "",
+    "ymax": "",
+    "xtick": "",
+    "ytick": "",
+    "fc-lines": true,
+    "guide-fc": 1,
+    "fdr-line": true,
+    "boundary": true,
+    "line-color": "#667782",
+    "up": "#ad3030",
+    "down": "#6c91e5",
+    "ns": "#c1c7ca",
+    "dot-size": 2.4,
+    "opacity": 0.75,
+    "label-size": 15,
+    "width": 900,
+    "height": 650,
+    "labels": true,
+    "top-n": 10,
+    "custom": ""
+  }
+}

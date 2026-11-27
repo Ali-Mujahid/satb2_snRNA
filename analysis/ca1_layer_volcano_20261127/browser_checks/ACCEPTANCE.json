@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "checks": [
+    "two exact fits",
+    "default top 10",
+    "all seven downloads",
+    "axis limits and validation",
+    "fold change cutoff and guides",
+    "dot colour",
+    "plot boundary",
+    "state roundtrip"
+  ],
+  "page_errors": []
+}
