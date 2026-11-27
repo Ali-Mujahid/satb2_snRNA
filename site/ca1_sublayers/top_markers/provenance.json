@@ -3,14 +3,19 @@
   "branch": "original_full",
   "cluster_scope": "original_frozen",
   "population": "CA1_ProS",
-  "n_nuclei": 27703,
+  "n_nuclei_reference_population": 27703,
+  "n_nuclei_displayed": 26733,
+  "excluded_clusters": [
+    "7"
+  ],
   "n_mice": 12,
   "genotypes": "6 WT + 6 cKO",
-  "selection": "Ranks 1 and 2 from the saved supported representative table. For C7 only, rank the existing candidate audit by detection difference versus rest, then mean log1p difference, then stable gene ID. C7 candidates fail the original support criteria.",
+  "selection": "Ranks 1 and 2 from the saved supported representative table for C1-C6 and C8-C11. C7 and its exploratory genes are excluded at the user request.",
+  "column_order": "Pooled peak mean-expression cluster, ascending by row ID; original selection order breaks ties. The order is fixed across genotype views and row hiding.",
   "universe": "Saved curated marker panel, not genome-wide marker discovery",
   "condition_selection": "Gene selection fixed from pooled full-cohort summaries; WT/cKO controls change display only.",
   "dot_area": "fraction of nuclei with nonzero source RNA counts",
-  "color": "saved scaled_expression_z; original equal-cluster reference, never rescaled when rows are hidden",
+  "color": "display_scaled_expression_z = (saved condition mean - saved pooled reference mean) / saved pooled reference SD; original 11-cluster equal-weight reference; no refit or rescaling when rows are hidden. Original scaled_expression_z is retained separately, including unavailable cKO values.",
   "expression": "mean log1p(10000 \u00d7 source counts / complete nucleus source library)",
   "no_models_refitted": true,
   "inputs": [

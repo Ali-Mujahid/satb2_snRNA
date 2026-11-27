@@ -1,5 +1,5 @@
 {
-  "schema": "satb2-ca1-top2-seurat-v1",
+  "schema": "satb2-ca1-top2-seurat-v2",
   "display_only": true,
   "condition": "ALL",
   "low": "#2166ac",
@@ -11,6 +11,7 @@
   "font": 15,
   "opacity": 1,
   "supportedOnly": false,
+  "order": "peak",
   "groups": true,
   "genes": [
     "ENSMUSG00000028876",
@@ -25,8 +26,6 @@
     "ENSMUSG00000020027",
     "ENSMUSG00000058571",
     "ENSMUSG00000045875",
-    "ENSMUSG00000004558",
-    "ENSMUSG00000113136",
     "ENSMUSG00000031841",
     "ENSMUSG00000021219",
     "ENSMUSG00000016487",
@@ -43,7 +42,6 @@
     "4",
     "5",
     "6",
-    "7",
     "8",
     "9",
     "10",

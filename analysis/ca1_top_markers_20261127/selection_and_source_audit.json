@@ -4,14 +4,19 @@
     "branch": "original_full",
     "cluster_scope": "original_frozen",
     "population": "CA1_ProS",
-    "n_nuclei": 27703,
+    "n_nuclei_reference_population": 27703,
+    "n_nuclei_displayed": 26733,
+    "excluded_clusters": [
+      "7"
+    ],
     "n_mice": 12,
     "genotypes": "6 WT + 6 cKO",
-    "selection": "Ranks 1 and 2 from the saved supported representative table. For C7 only, rank the existing candidate audit by detection difference versus rest, then mean log1p difference, then stable gene ID. C7 candidates fail the original support criteria.",
+    "selection": "Ranks 1 and 2 from the saved supported representative table for C1-C6 and C8-C11. C7 and its exploratory genes are excluded at the user request.",
+    "column_order": "Pooled peak mean-expression cluster, ascending by row ID; original selection order breaks ties. The order is fixed across genotype views and row hiding.",
     "universe": "Saved curated marker panel, not genome-wide marker discovery",
     "condition_selection": "Gene selection fixed from pooled full-cohort summaries; WT/cKO controls change display only.",
     "dot_area": "fraction of nuclei with nonzero source RNA counts",
-    "color": "saved scaled_expression_z; original equal-cluster reference, never rescaled when rows are hidden",
+    "color": "display_scaled_expression_z = (saved condition mean - saved pooled reference mean) / saved pooled reference SD; original 11-cluster equal-weight reference; no refit or rescaling when rows are hidden. Original scaled_expression_z is retained separately, including unavailable cKO values.",
     "expression": "mean log1p(10000 \u00d7 source counts / complete nucleus source library)",
     "no_models_refitted": true,
     "inputs": [
@@ -45,7 +50,9 @@
       "detection_difference_vs_rest": 0.518136261392433,
       "mean_log1p_difference_vs_rest": 0.7173940723601321,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "1",
+      "display_peak_mean_log1p": 0.928928186531868
     },
     {
       "source_cluster": "1",
@@ -58,7 +65,9 @@
       "detection_difference_vs_rest": 0.5093372929283069,
       "mean_log1p_difference_vs_rest": 0.672399913769427,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "1",
+      "display_peak_mean_log1p": 0.9272463667270796
     },
     {
       "source_cluster": "2",
@@ -71,7 +80,9 @@
       "detection_difference_vs_rest": 0.42665769024148514,
       "mean_log1p_difference_vs_rest": 1.2785262039251335,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "2",
+      "display_peak_mean_log1p": 2.160890565126183
     },
     {
       "source_cluster": "2",
@@ -84,7 +95,9 @@
       "detection_difference_vs_rest": 0.4012920116494371,
       "mean_log1p_difference_vs_rest": 0.46471109707571995,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "2",
+      "display_peak_mean_log1p": 0.7070788782474988
     },
     {
       "source_cluster": "3",
@@ -97,7 +110,9 @@
       "detection_difference_vs_rest": 0.5119472440254826,
       "mean_log1p_difference_vs_rest": 0.6546057669516079,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "3",
+      "display_peak_mean_log1p": 0.8777250618076554
     },
     {
       "source_cluster": "3",
@@ -110,7 +125,9 @@
       "detection_difference_vs_rest": 0.49135100237791685,
       "mean_log1p_difference_vs_rest": 0.5499788552518572,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "9",
+      "display_peak_mean_log1p": 1.1421301295675264
     },
     {
       "source_cluster": "4",
@@ -123,7 +140,9 @@
       "detection_difference_vs_rest": 0.3694181604466647,
       "mean_log1p_difference_vs_rest": 0.6011390392356811,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "10",
+      "display_peak_mean_log1p": 1.1136621925038726
     },
     {
       "source_cluster": "4",
@@ -136,7 +155,9 @@
       "detection_difference_vs_rest": 0.28601018950841,
       "mean_log1p_difference_vs_rest": 0.43339550105858476,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "10",
+      "display_peak_mean_log1p": 1.5951852481430187
     },
     {
       "source_cluster": "5",
@@ -149,7 +170,9 @@
       "detection_difference_vs_rest": 0.4709998099484251,
       "mean_log1p_difference_vs_rest": 0.9820214068024247,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "9",
+      "display_peak_mean_log1p": 2.378197397665042
     },
     {
       "source_cluster": "5",
@@ -162,7 +185,9 @@
       "detection_difference_vs_rest": 0.41568480150214154,
       "mean_log1p_difference_vs_rest": 0.349144708339692,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "9",
+      "display_peak_mean_log1p": 0.6911650249158798
     },
     {
       "source_cluster": "6",
@@ -175,7 +200,9 @@
       "detection_difference_vs_rest": 0.677067605475993,
       "mean_log1p_difference_vs_rest": 1.5979702012487746,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "6",
+      "display_peak_mean_log1p": 1.8823567907231404
     },
     {
       "source_cluster": "6",
@@ -188,33 +215,9 @@
       "detection_difference_vs_rest": 0.6409621383646079,
       "mean_log1p_difference_vs_rest": 0.6543519916388856,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
-    },
-    {
-      "source_cluster": "7",
-      "source_rank": 1,
-      "gene_id": "ENSMUSG00000004558",
-      "gene_symbol": "Ndrg2",
-      "supported": false,
-      "selection_status": "exploratory_no_supported_marker",
-      "fraction_detected": 0.10927835051546392,
-      "detection_difference_vs_rest": 0.027095280901129573,
-      "mean_log1p_difference_vs_rest": 0.10939807641939117,
-      "mice_expression_supported": 5,
-      "mice_eligible": 12
-    },
-    {
-      "source_cluster": "7",
-      "source_rank": 2,
-      "gene_id": "ENSMUSG00000113136",
-      "gene_symbol": "Gm19951",
-      "supported": false,
-      "selection_status": "exploratory_no_supported_marker",
-      "fraction_detected": 0.18453608247422681,
-      "detection_difference_vs_rest": 0.024322114719017907,
-      "mean_log1p_difference_vs_rest": 0.18772084916399714,
-      "mice_expression_supported": 11,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "6",
+      "display_peak_mean_log1p": 0.7189329415009423
     },
     {
       "source_cluster": "8",
@@ -227,7 +230,9 @@
       "detection_difference_vs_rest": 0.8451331422799058,
       "mean_log1p_difference_vs_rest": 2.1648302593640874,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "8",
+      "display_peak_mean_log1p": 2.31565167822491
     },
     {
       "source_cluster": "8",
@@ -240,7 +245,9 @@
       "detection_difference_vs_rest": 0.8070690773851568,
       "mean_log1p_difference_vs_rest": 1.6716096382691252,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "8",
+      "display_peak_mean_log1p": 1.8186319624057419
     },
     {
       "source_cluster": "9",
@@ -253,7 +260,9 @@
       "detection_difference_vs_rest": 0.7498981608686018,
       "mean_log1p_difference_vs_rest": 0.9578485385092642,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "9",
+      "display_peak_mean_log1p": 1.042173971698403
     },
     {
       "source_cluster": "9",
@@ -266,7 +275,9 @@
       "detection_difference_vs_rest": 0.7367392569613709,
       "mean_log1p_difference_vs_rest": 0.8213335076406552,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "9",
+      "display_peak_mean_log1p": 0.8692309753404205
     },
     {
       "source_cluster": "10",
@@ -279,7 +290,9 @@
       "detection_difference_vs_rest": 0.8025232115123518,
       "mean_log1p_difference_vs_rest": 2.3318540498561746,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "10",
+      "display_peak_mean_log1p": 2.4146420254182157
     },
     {
       "source_cluster": "10",
@@ -292,7 +305,9 @@
       "detection_difference_vs_rest": 0.7468002969265971,
       "mean_log1p_difference_vs_rest": 1.442748893283941,
       "mice_expression_supported": 12,
-      "mice_eligible": 12
+      "mice_eligible": 12,
+      "display_peak_cluster": "10",
+      "display_peak_mean_log1p": 1.5769354997734208
     },
     {
       "source_cluster": "11",
@@ -305,7 +320,9 @@
       "detection_difference_vs_rest": 0.6951334823382352,
       "mean_log1p_difference_vs_rest": 0.8212806846051333,
       "mice_expression_supported": 10,
-      "mice_eligible": 10
+      "mice_eligible": 10,
+      "display_peak_cluster": "11",
+      "display_peak_mean_log1p": 0.8523773277981729
     },
     {
       "source_cluster": "11",
@@ -318,7 +335,9 @@
       "detection_difference_vs_rest": 0.6920717828919538,
       "mean_log1p_difference_vs_rest": 1.0184122534365951,
       "mice_expression_supported": 10,
-      "mice_eligible": 10
+      "mice_eligible": 10,
+      "display_peak_cluster": "11",
+      "display_peak_mean_log1p": 1.0738102418094928
     }
   ],
   "clusters": [
@@ -359,12 +378,6 @@
       "supported_representatives": 7
     },
     {
-      "id": "7",
-      "n": 970,
-      "program": "Mixed / weak",
-      "supported_representatives": 0
-    },
-    {
       "id": "8",
       "n": 839,
       "program": "CA1-prosubiculum",
@@ -389,12 +402,12 @@
       "supported_representatives": 7
     }
   ],
-  "expected_matrix_cells_per_condition": 242,
+  "expected_matrix_cells_per_condition": 200,
   "conditions": [
     "ALL",
     "WT",
     "cKO"
   ],
-  "unsupported_candidate_cluster": "7",
+  "excluded_cluster": "7",
   "source_values_copied_without_changes": true
 }

@@ -1,727 +1,601 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="982" height="646" viewBox="0 0 982 646" role="img" aria-label="Seurat CA1 top-two marker dotplot"><title>Seurat CA1 marker candidates, top two per cluster</title><desc>Dot area: detected fraction. Colour: saved gene-wise expression z-score. C7 candidates are exploratory. C11 identity remains conflicting.</desc><style>text{font-family:Arial,Helvetica,sans-serif}</style><rect x="0" y="0" width="982" height="646" fill="#ffffff"/><text x="24" y="31" font-size="23" fill="#183448" font-weight="700" text-anchor="start">Seurat · CA1 / ProS · top-two marker candidates</text><text x="24" y="57" font-size="14" fill="#526c7c" font-weight="400" text-anchor="start">Pooled 12 mice · 27,703 nuclei · 22 genes · 11 cluster rows</text><rect x="72.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="111.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C1</text><rect x="150.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="189.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C2</text><line x1="150.5" y1="77" x2="150.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="228.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="267.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C3</text><line x1="228.5" y1="77" x2="228.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="306.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="345.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C4</text><line x1="306.5" y1="77" x2="306.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="384.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="423.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C5</text><line x1="384.5" y1="77" x2="384.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="462.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="501.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C6</text><line x1="462.5" y1="77" x2="462.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="540.5" y="77" width="77" height="12" fill="#fff1d4"/><text x="579.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C7 †</text><line x1="540.5" y1="77" x2="540.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="618.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="657.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C8</text><line x1="618.5" y1="77" x2="618.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="696.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="735.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C9</text><line x1="696.5" y1="77" x2="696.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="774.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="813.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C10</text><line x1="774.5" y1="77" x2="774.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="852.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="891.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C11</text><line x1="852.5" y1="77" x2="852.5" y2="426" stroke="#dce5ea" stroke-width="1"/><rect x="13" y="93" width="949" height="30" fill="#f5f8fa"/><text x="65" y="113.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C1</text><rect x="14" y="99" width="5" height="18" fill="#3789c2"/><circle cx="92" cy="108" r="7.001750204688379" fill="#b2182b" opacity="1"><title>C1 · Epha10
+<svg xmlns="http://www.w3.org/2000/svg" width="904" height="616" viewBox="0 0 904 616" role="img" aria-label="Seurat CA1 top-two marker dotplot"><title>Seurat CA1 marker candidates, top two per cluster</title><desc>Dot area: detected fraction. Colour: expression z relative to the saved pooled 11-cluster reference. C7 excluded. Column order follows pooled peak expression. C11 identity remains conflicting.</desc><style>text{font-family:Arial,Helvetica,sans-serif}</style><rect x="0" y="0" width="904" height="616" fill="#ffffff"/><text x="24" y="31" font-size="23" fill="#183448" font-weight="700" text-anchor="start">Seurat · CA1 / ProS · top-two marker candidates</text><text x="24" y="57" font-size="14" fill="#526c7c" font-weight="400" text-anchor="start">Pooled 12 mice · 26,733 nuclei · 20 genes · 10 cluster rows</text><rect x="72.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="111.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C1</text><rect x="150.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="189.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C2</text><line x1="150.5" y1="77" x2="150.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="228.5" y="77" width="38" height="12" fill="#e9f1f5"/><text x="248" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C3</text><line x1="228.5" y1="77" x2="228.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="267.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="306.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C6</text><line x1="267.5" y1="77" x2="267.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="345.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="384.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C8</text><line x1="345.5" y1="77" x2="345.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="423.5" y="77" width="194" height="12" fill="#e9f1f5"/><text x="521" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C9</text><line x1="423.5" y1="77" x2="423.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="618.5" y="77" width="155" height="12" fill="#e9f1f5"/><text x="696.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C10</text><line x1="618.5" y1="77" x2="618.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="774.5" y="77" width="77" height="12" fill="#e9f1f5"/><text x="813.5" y="88" font-size="12" fill="#526c7c" font-weight="600" text-anchor="middle">C11</text><line x1="774.5" y1="77" x2="774.5" y2="396" stroke="#dce5ea" stroke-width="1"/><rect x="13" y="93" width="871" height="30" fill="#f5f8fa"/><text x="65" y="113.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C1</text><rect x="14" y="99" width="5" height="18" fill="#3789c2"/><circle cx="92" cy="108" r="7.001750204688379" fill="#b2182b" opacity="1"><title>C1 · Epha10
 Detected 76.6% (4845/6325)
 Mean log1p CP10k: 0.929
-Saved z: 2.771</title></circle><circle cx="131" cy="108" r="7.041379670773632" fill="#b2182b" opacity="1"><title>C1 · Stac
+Shared-reference display z: 2.771</title></circle><circle cx="131" cy="108" r="7.041379670773632" fill="#b2182b" opacity="1"><title>C1 · Stac
 Detected 77.5% (4900/6325)
 Mean log1p CP10k: 0.927
-Saved z: 2.620</title></circle><circle cx="170" cy="108" r="7.398750027963141" fill="#c75a68" opacity="1"><title>C1 · 4921539H07Rik
+Shared-reference display z: 2.620</title></circle><circle cx="170" cy="108" r="7.398750027963141" fill="#c75a68" opacity="1"><title>C1 · 4921539H07Rik
 Detected 85.5% (5410/6325)
 Mean log1p CP10k: 1.828
-Saved z: 1.598</title></circle><circle cx="209" cy="108" r="5.826476301072247" fill="#c9626e" opacity="1"><title>C1 · 1700007F19Rik
+Shared-reference display z: 1.598</title></circle><circle cx="209" cy="108" r="5.826476301072247" fill="#c9626e" opacity="1"><title>C1 · 1700007F19Rik
 Detected 53.0% (3355/6325)
 Mean log1p CP10k: 0.553
-Saved z: 1.555</title></circle><circle cx="248" cy="108" r="2.380420795165287" fill="#2166ac" opacity="1"><title>C1 · Itgbl1
+Shared-reference display z: 1.555</title></circle><circle cx="248" cy="108" r="2.380420795165287" fill="#2166ac" opacity="1"><title>C1 · Itgbl1
 Detected 8.9% (560/6325)
 Mean log1p CP10k: 0.068
-Saved z: -1.202</title></circle><circle cx="287" cy="108" r="2.719683776084498" fill="#2166ac" opacity="1"><title>C1 · Grik4
-Detected 11.6% (731/6325)
-Mean log1p CP10k: 0.099
-Saved z: -1.295</title></circle><circle cx="326" cy="108" r="4.057453006651558" fill="#2267ac" opacity="1"><title>C1 · Brinp3
-Detected 25.7% (1627/6325)
-Mean log1p CP10k: 0.248
-Saved z: -0.695</title></circle><circle cx="365" cy="108" r="1.9059300013275604" fill="#2166ac" opacity="1"><title>C1 · Pde11a
-Detected 5.7% (359/6325)
-Mean log1p CP10k: 0.051
-Saved z: -1.058</title></circle><circle cx="404" cy="108" r="2.5087357255620732" fill="#2166ac" opacity="1"><title>C1 · Mctp1
-Detected 9.8% (622/6325)
-Mean log1p CP10k: 0.078
-Saved z: -1.381</title></circle><circle cx="443" cy="108" r="2.607620331732824" fill="#2166ac" opacity="1"><title>C1 · Socs2
-Detected 10.6% (672/6325)
-Mean log1p CP10k: 0.080
-Saved z: -0.910</title></circle><circle cx="482" cy="108" r="4.60087635577253" fill="#5b8dc0" opacity="1"><title>C1 · Gpc6
+Shared-reference display z: -1.202</title></circle><circle cx="287" cy="108" r="4.60087635577253" fill="#5b8dc0" opacity="1"><title>C1 · Gpc6
 Detected 33.1% (2092/6325)
 Mean log1p CP10k: 0.387
-Saved z: -0.337</title></circle><circle cx="521" cy="108" r="1.0059113815390903" fill="#2166ac" opacity="1"><title>C1 · Adra1a
+Shared-reference display z: -0.337</title></circle><circle cx="326" cy="108" r="1.0059113815390903" fill="#2166ac" opacity="1"><title>C1 · Adra1a
 Detected 1.6% (100/6325)
 Mean log1p CP10k: 0.012
-Saved z: -0.744</title></circle><circle cx="560" cy="108" r="2.2038414180805823" fill="#417cb7" opacity="1"><title>C1 · Ndrg2
-Detected 7.6% (480/6325)
-Mean log1p CP10k: 0.056
-Saved z: -0.496</title></circle><circle cx="599" cy="108" r="3.1586258081715584" fill="#6292c3" opacity="1"><title>C1 · Gm19951
-Detected 15.6% (986/6325)
-Mean log1p CP10k: 0.114
-Saved z: -0.288</title></circle><circle cx="638" cy="108" r="2.0907475448850077" fill="#2d6eb0" opacity="1"><title>C1 · Cdh13
+Shared-reference display z: -0.744</title></circle><circle cx="365" cy="108" r="2.0907475448850077" fill="#2d6eb0" opacity="1"><title>C1 · Cdh13
 Detected 6.8% (432/6325)
 Mean log1p CP10k: 0.052
-Saved z: -0.627</title></circle><circle cx="677" cy="108" r="1.612598619713038" fill="#2166ac" opacity="1"><title>C1 · Rgs6
+Shared-reference display z: -0.627</title></circle><circle cx="404" cy="108" r="1.612598619713038" fill="#2166ac" opacity="1"><title>C1 · Rgs6
 Detected 4.1% (257/6325)
 Mean log1p CP10k: 0.034
-Saved z: -0.711</title></circle><circle cx="716" cy="108" r="1.1687634085384175" fill="#296caf" opacity="1"><title>C1 · Ppfibp1
+Shared-reference display z: -0.711</title></circle><circle cx="443" cy="108" r="2.719683776084498" fill="#2166ac" opacity="1"><title>C1 · Grik4
+Detected 11.6% (731/6325)
+Mean log1p CP10k: 0.099
+Shared-reference display z: -1.295</title></circle><circle cx="482" cy="108" r="2.5087357255620732" fill="#2166ac" opacity="1"><title>C1 · Mctp1
+Detected 9.8% (622/6325)
+Mean log1p CP10k: 0.078
+Shared-reference display z: -1.381</title></circle><circle cx="521" cy="108" r="2.607620331732824" fill="#2166ac" opacity="1"><title>C1 · Socs2
+Detected 10.6% (672/6325)
+Mean log1p CP10k: 0.080
+Shared-reference display z: -0.910</title></circle><circle cx="560" cy="108" r="1.1687634085384175" fill="#296caf" opacity="1"><title>C1 · Ppfibp1
 Detected 2.1% (135/6325)
 Mean log1p CP10k: 0.016
-Saved z: -0.648</title></circle><circle cx="755" cy="108" r="0.6969158482950026" fill="#3d79b6" opacity="1"><title>C1 · Dchs2
+Shared-reference display z: -0.648</title></circle><circle cx="599" cy="108" r="0.6969158482950026" fill="#3d79b6" opacity="1"><title>C1 · Dchs2
 Detected 0.8% (48/6325)
 Mean log1p CP10k: 0.006
-Saved z: -0.526</title></circle><circle cx="794" cy="108" r="2.4598595673145836" fill="#5388bd" opacity="1"><title>C1 · Tshz2
+Shared-reference display z: -0.526</title></circle><circle cx="638" cy="108" r="4.057453006651558" fill="#2267ac" opacity="1"><title>C1 · Brinp3
+Detected 25.7% (1627/6325)
+Mean log1p CP10k: 0.248
+Shared-reference display z: -0.695</title></circle><circle cx="677" cy="108" r="1.9059300013275604" fill="#2166ac" opacity="1"><title>C1 · Pde11a
+Detected 5.7% (359/6325)
+Mean log1p CP10k: 0.051
+Shared-reference display z: -1.058</title></circle><circle cx="716" cy="108" r="2.4598595673145836" fill="#5388bd" opacity="1"><title>C1 · Tshz2
 Detected 9.5% (598/6325)
 Mean log1p CP10k: 0.073
-Saved z: -0.387</title></circle><circle cx="833" cy="108" r="1.5968348139131052" fill="#296baf" opacity="1"><title>C1 · Cdh20
+Shared-reference display z: -0.387</title></circle><circle cx="755" cy="108" r="1.5968348139131052" fill="#296baf" opacity="1"><title>C1 · Cdh20
 Detected 4.0% (252/6325)
 Mean log1p CP10k: 0.031
-Saved z: -0.649</title></circle><circle cx="872" cy="108" r="1.4577040803162866" fill="#5d8ec1" opacity="1"><title>C1 · Mertk
+Shared-reference display z: -0.649</title></circle><circle cx="794" cy="108" r="1.4577040803162866" fill="#5d8ec1" opacity="1"><title>C1 · Mertk
 Detected 3.3% (210/6325)
 Mean log1p CP10k: 0.025
-Saved z: -0.324</title></circle><circle cx="911" cy="108" r="2.7289691693518137" fill="#6b98c6" opacity="1"><title>C1 · Tgfbr1
+Shared-reference display z: -0.324</title></circle><circle cx="833" cy="108" r="2.7289691693518137" fill="#6b98c6" opacity="1"><title>C1 · Tgfbr1
 Detected 11.6% (736/6325)
 Mean log1p CP10k: 0.088
-Saved z: -0.235</title></circle><text x="65" y="143.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C2</text><rect x="14" y="129" width="5" height="18" fill="#d53c57"/><circle cx="92" cy="138" r="4.489943001819529" fill="#86abd0" opacity="1"><title>C2 · Epha10
+Shared-reference display z: -0.235</title></circle><text x="65" y="143.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C2</text><rect x="14" y="129" width="5" height="18" fill="#d53c57"/><circle cx="92" cy="138" r="4.489943001819529" fill="#86abd0" opacity="1"><title>C2 · Epha10
 Detected 31.5% (1958/6216)
 Mean log1p CP10k: 0.276
-Saved z: -0.060</title></circle><circle cx="131" cy="138" r="5.455801111272823" fill="#f6f4f4" opacity="1"><title>C2 · Stac
+Shared-reference display z: -0.060</title></circle><circle cx="131" cy="138" r="5.455801111272823" fill="#f6f4f4" opacity="1"><title>C2 · Stac
 Detected 46.5% (2891/6216)
 Mean log1p CP10k: 0.451
-Saved z: 0.669</title></circle><circle cx="170" cy="138" r="7.741645557184592" fill="#b2182b" opacity="1"><title>C2 · 4921539H07Rik
+Shared-reference display z: 0.669</title></circle><circle cx="170" cy="138" r="7.741645557184592" fill="#b2182b" opacity="1"><title>C2 · 4921539H07Rik
 Detected 93.6% (5821/6216)
 Mean log1p CP10k: 2.161
-Saved z: 2.080</title></circle><circle cx="209" cy="138" r="6.460652114146508" fill="#b2182b" opacity="1"><title>C2 · 1700007F19Rik
+Shared-reference display z: 2.080</title></circle><circle cx="209" cy="138" r="6.460652114146508" fill="#b2182b" opacity="1"><title>C2 · 1700007F19Rik
 Detected 65.2% (4054/6216)
 Mean log1p CP10k: 0.707
-Saved z: 2.244</title></circle><circle cx="248" cy="138" r="3.55287329114178" fill="#2166ac" opacity="1"><title>C2 · Itgbl1
+Shared-reference display z: 2.244</title></circle><circle cx="248" cy="138" r="3.55287329114178" fill="#2166ac" opacity="1"><title>C2 · Itgbl1
 Detected 19.7% (1226/6216)
 Mean log1p CP10k: 0.161
-Saved z: -0.828</title></circle><circle cx="287" cy="138" r="3.7735105988167357" fill="#2166ac" opacity="1"><title>C2 · Grik4
-Detected 22.2% (1383/6216)
-Mean log1p CP10k: 0.196
-Saved z: -0.994</title></circle><circle cx="326" cy="138" r="3.8731494937953275" fill="#2166ac" opacity="1"><title>C2 · Brinp3
-Detected 23.4% (1457/6216)
-Mean log1p CP10k: 0.210
-Saved z: -0.822</title></circle><circle cx="365" cy="138" r="3.211946810985873" fill="#2166ac" opacity="1"><title>C2 · Pde11a
-Detected 16.1% (1002/6216)
-Mean log1p CP10k: 0.157
-Saved z: -0.825</title></circle><circle cx="404" cy="138" r="3.6528932839092554" fill="#2166ac" opacity="1"><title>C2 · Mctp1
-Detected 20.8% (1296/6216)
-Mean log1p CP10k: 0.188
-Saved z: -1.228</title></circle><circle cx="443" cy="138" r="1.6857339178229884" fill="#2166ac" opacity="1"><title>C2 · Socs2
-Detected 4.4% (276/6216)
-Mean log1p CP10k: 0.031
-Saved z: -1.165</title></circle><circle cx="482" cy="138" r="3.606086660614385" fill="#2669ae" opacity="1"><title>C2 · Gpc6
+Shared-reference display z: -0.828</title></circle><circle cx="287" cy="138" r="3.606086660614385" fill="#2669ae" opacity="1"><title>C2 · Gpc6
 Detected 20.3% (1263/6216)
 Mean log1p CP10k: 0.191
-Saved z: -0.670</title></circle><circle cx="521" cy="138" r="1.1022382750246043" fill="#2166ac" opacity="1"><title>C2 · Adra1a
+Shared-reference display z: -0.670</title></circle><circle cx="326" cy="138" r="1.1022382750246043" fill="#2166ac" opacity="1"><title>C2 · Adra1a
 Detected 1.9% (118/6216)
 Mean log1p CP10k: 0.015
-Saved z: -0.731</title></circle><circle cx="560" cy="138" r="2.3337929313864687" fill="#5c8ec1" opacity="1"><title>C2 · Ndrg2
-Detected 8.5% (529/6216)
-Mean log1p CP10k: 0.062
-Saved z: -0.327</title></circle><circle cx="599" cy="138" r="3.1910428049078536" fill="#6292c3" opacity="1"><title>C2 · Gm19951
-Detected 15.9% (989/6216)
-Mean log1p CP10k: 0.114
-Saved z: -0.288</title></circle><circle cx="638" cy="138" r="2.026846838838127" fill="#2b6db0" opacity="1"><title>C2 · Cdh13
+Shared-reference display z: -0.731</title></circle><circle cx="365" cy="138" r="2.026846838838127" fill="#2b6db0" opacity="1"><title>C2 · Cdh13
 Detected 6.4% (399/6216)
 Mean log1p CP10k: 0.047
-Saved z: -0.635</title></circle><circle cx="677" cy="138" r="1.6361426212169516" fill="#2166ac" opacity="1"><title>C2 · Rgs6
+Shared-reference display z: -0.635</title></circle><circle cx="404" cy="138" r="1.6361426212169516" fill="#2166ac" opacity="1"><title>C2 · Rgs6
 Detected 4.2% (260/6216)
 Mean log1p CP10k: 0.030
-Saved z: -0.718</title></circle><circle cx="716" cy="138" r="1.2260577079475106" fill="#2a6caf" opacity="1"><title>C2 · Ppfibp1
+Shared-reference display z: -0.718</title></circle><circle cx="443" cy="138" r="3.7735105988167357" fill="#2166ac" opacity="1"><title>C2 · Grik4
+Detected 22.2% (1383/6216)
+Mean log1p CP10k: 0.196
+Shared-reference display z: -0.994</title></circle><circle cx="482" cy="138" r="3.6528932839092554" fill="#2166ac" opacity="1"><title>C2 · Mctp1
+Detected 20.8% (1296/6216)
+Mean log1p CP10k: 0.188
+Shared-reference display z: -1.228</title></circle><circle cx="521" cy="138" r="1.6857339178229884" fill="#2166ac" opacity="1"><title>C2 · Socs2
+Detected 4.4% (276/6216)
+Mean log1p CP10k: 0.031
+Shared-reference display z: -1.165</title></circle><circle cx="560" cy="138" r="1.2260577079475106" fill="#2a6caf" opacity="1"><title>C2 · Ppfibp1
 Detected 2.3% (146/6216)
 Mean log1p CP10k: 0.017
-Saved z: -0.646</title></circle><circle cx="755" cy="138" r="0.8053872662568292" fill="#3d79b6" opacity="1"><title>C2 · Dchs2
+Shared-reference display z: -0.646</title></circle><circle cx="599" cy="138" r="0.8053872662568292" fill="#3d79b6" opacity="1"><title>C2 · Dchs2
 Detected 1.0% (63/6216)
 Mean log1p CP10k: 0.007
-Saved z: -0.522</title></circle><circle cx="794" cy="138" r="2.2937439397764656" fill="#5086bc" opacity="1"><title>C2 · Tshz2
+Shared-reference display z: -0.522</title></circle><circle cx="638" cy="138" r="3.8731494937953275" fill="#2166ac" opacity="1"><title>C2 · Brinp3
+Detected 23.4% (1457/6216)
+Mean log1p CP10k: 0.210
+Shared-reference display z: -0.822</title></circle><circle cx="677" cy="138" r="3.211946810985873" fill="#2166ac" opacity="1"><title>C2 · Pde11a
+Detected 16.1% (1002/6216)
+Mean log1p CP10k: 0.157
+Shared-reference display z: -0.825</title></circle><circle cx="716" cy="138" r="2.2937439397764656" fill="#5086bc" opacity="1"><title>C2 · Tshz2
 Detected 8.2% (511/6216)
 Mean log1p CP10k: 0.060
-Saved z: -0.407</title></circle><circle cx="833" cy="138" r="1.555494268572668" fill="#286baf" opacity="1"><title>C2 · Cdh20
+Shared-reference display z: -0.407</title></circle><circle cx="755" cy="138" r="1.555494268572668" fill="#286baf" opacity="1"><title>C2 · Cdh20
 Detected 3.8% (235/6216)
 Mean log1p CP10k: 0.029
-Saved z: -0.655</title></circle><circle cx="872" cy="138" r="1.7339074388314408" fill="#6393c3" opacity="1"><title>C2 · Mertk
+Shared-reference display z: -0.655</title></circle><circle cx="794" cy="138" r="1.7339074388314408" fill="#6393c3" opacity="1"><title>C2 · Mertk
 Detected 4.7% (292/6216)
 Mean log1p CP10k: 0.035
-Saved z: -0.282</title></circle><circle cx="911" cy="138" r="1.777885024650121" fill="#4e85bc" opacity="1"><title>C2 · Tgfbr1
+Shared-reference display z: -0.282</title></circle><circle cx="833" cy="138" r="1.777885024650121" fill="#4e85bc" opacity="1"><title>C2 · Tgfbr1
 Detected 4.9% (307/6216)
 Mean log1p CP10k: 0.034
-Saved z: -0.414</title></circle><rect x="13" y="153" width="949" height="30" fill="#f5f8fa"/><text x="65" y="173.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C3</text><rect x="14" y="159" width="5" height="18" fill="#d53c57"/><circle cx="92" cy="168" r="2.3225220760646783" fill="#2166ac" opacity="1"><title>C3 · Epha10
+Shared-reference display z: -0.414</title></circle><rect x="13" y="153" width="871" height="30" fill="#f5f8fa"/><text x="65" y="173.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C3</text><rect x="14" y="159" width="5" height="18" fill="#d53c57"/><circle cx="92" cy="168" r="2.3225220760646783" fill="#2166ac" opacity="1"><title>C3 · Epha10
 Detected 8.4% (392/4651)
 Mean log1p CP10k: 0.054
-Saved z: -1.023</title></circle><circle cx="131" cy="168" r="2.564665711717114" fill="#2166ac" opacity="1"><title>C3 · Stac
+Shared-reference display z: -1.023</title></circle><circle cx="131" cy="168" r="2.564665711717114" fill="#2166ac" opacity="1"><title>C3 · Stac
 Detected 10.3% (478/4651)
 Mean log1p CP10k: 0.087
-Saved z: -0.827</title></circle><circle cx="170" cy="168" r="4.610850691363084" fill="#3775b4" opacity="1"><title>C3 · 4921539H07Rik
+Shared-reference display z: -0.827</title></circle><circle cx="170" cy="168" r="4.610850691363084" fill="#3775b4" opacity="1"><title>C3 · 4921539H07Rik
 Detected 33.2% (1545/4651)
 Mean log1p CP10k: 0.334
-Saved z: -0.563</title></circle><circle cx="209" cy="168" r="2.6491216704026375" fill="#3573b3" opacity="1"><title>C3 · 1700007F19Rik
+Shared-reference display z: -0.563</title></circle><circle cx="209" cy="168" r="2.6491216704026375" fill="#3573b3" opacity="1"><title>C3 · 1700007F19Rik
 Detected 11.0% (510/4651)
 Mean log1p CP10k: 0.075
-Saved z: -0.576</title></circle><circle cx="248" cy="168" r="6.958673351273096" fill="#b2182b" opacity="1"><title>C3 · Itgbl1
+Shared-reference display z: -0.576</title></circle><circle cx="248" cy="168" r="6.958673351273096" fill="#b2182b" opacity="1"><title>C3 · Itgbl1
 Detected 75.7% (3519/4651)
 Mean log1p CP10k: 0.878
-Saved z: 2.068</title></circle><circle cx="287" cy="168" r="7.22069697787337" fill="#e0abb2" opacity="1"><title>C3 · Grik4
-Detected 81.5% (3789/4651)
-Mean log1p CP10k: 0.876
-Saved z: 1.107</title></circle><circle cx="326" cy="168" r="4.348206727095775" fill="#276aae" opacity="1"><title>C3 · Brinp3
-Detected 29.5% (1374/4651)
-Mean log1p CP10k: 0.259
-Saved z: -0.661</title></circle><circle cx="365" cy="168" r="6.087444208713111" fill="#dee6ee" opacity="1"><title>C3 · Pde11a
-Detected 57.9% (2693/4651)
-Mean log1p CP10k: 0.755
-Saved z: 0.493</title></circle><circle cx="404" cy="168" r="6.91901116815431" fill="#afc6de" opacity="1"><title>C3 · Mctp1
-Detected 74.8% (3479/4651)
-Mean log1p CP10k: 1.213
-Saved z: 0.196</title></circle><circle cx="443" cy="168" r="5.137373233582601" fill="#c8d7e6" opacity="1"><title>C3 · Socs2
-Detected 41.2% (1918/4651)
-Mean log1p CP10k: 0.323
-Saved z: 0.353</title></circle><circle cx="482" cy="168" r="4.3969849524058535" fill="#427cb8" opacity="1"><title>C3 · Gpc6
+Shared-reference display z: 2.068</title></circle><circle cx="287" cy="168" r="4.3969849524058535" fill="#427cb8" opacity="1"><title>C3 · Gpc6
 Detected 30.2% (1405/4651)
 Mean log1p CP10k: 0.295
-Saved z: -0.492</title></circle><circle cx="521" cy="168" r="3.8976366820176653" fill="#a6c0db" opacity="1"><title>C3 · Adra1a
+Shared-reference display z: -0.492</title></circle><circle cx="326" cy="168" r="3.8976366820176653" fill="#a6c0db" opacity="1"><title>C3 · Adra1a
 Detected 23.7% (1104/4651)
 Mean log1p CP10k: 0.189
-Saved z: 0.138</title></circle><circle cx="560" cy="168" r="2.28067140359408" fill="#286aae" opacity="1"><title>C3 · Ndrg2
-Detected 8.1% (378/4651)
-Mean log1p CP10k: 0.051
-Saved z: -0.658</title></circle><circle cx="599" cy="168" r="3.2018055538333616" fill="#3b78b5" opacity="1"><title>C3 · Gm19951
-Detected 16.0% (745/4651)
-Mean log1p CP10k: 0.101
-Saved z: -0.533</title></circle><circle cx="638" cy="168" r="3.1322872462178095" fill="#3c78b5" opacity="1"><title>C3 · Cdh13
+Shared-reference display z: 0.138</title></circle><circle cx="365" cy="168" r="3.1322872462178095" fill="#3c78b5" opacity="1"><title>C3 · Cdh13
 Detected 15.3% (713/4651)
 Mean log1p CP10k: 0.121
-Saved z: -0.533</title></circle><circle cx="677" cy="168" r="3.3220334520770534" fill="#417cb7" opacity="1"><title>C3 · Rgs6
+Shared-reference display z: -0.533</title></circle><circle cx="404" cy="168" r="3.3220334520770534" fill="#417cb7" opacity="1"><title>C3 · Rgs6
 Detected 17.2% (802/4651)
 Mean log1p CP10k: 0.145
-Saved z: -0.496</title></circle><circle cx="716" cy="168" r="3.6383489820818506" fill="#749ec9" opacity="1"><title>C3 · Ppfibp1
+Shared-reference display z: -0.496</title></circle><circle cx="443" cy="168" r="7.22069697787337" fill="#e0abb2" opacity="1"><title>C3 · Grik4
+Detected 81.5% (3789/4651)
+Mean log1p CP10k: 0.876
+Shared-reference display z: 1.107</title></circle><circle cx="482" cy="168" r="6.91901116815431" fill="#afc6de" opacity="1"><title>C3 · Mctp1
+Detected 74.8% (3479/4651)
+Mean log1p CP10k: 1.213
+Shared-reference display z: 0.196</title></circle><circle cx="521" cy="168" r="5.137373233582601" fill="#c8d7e6" opacity="1"><title>C3 · Socs2
+Detected 41.2% (1918/4651)
+Mean log1p CP10k: 0.323
+Shared-reference display z: 0.353</title></circle><circle cx="560" cy="168" r="3.6383489820818506" fill="#749ec9" opacity="1"><title>C3 · Ppfibp1
 Detected 20.7% (962/4651)
 Mean log1p CP10k: 0.148
-Saved z: -0.176</title></circle><circle cx="755" cy="168" r="2.25335698827773" fill="#5b8dc0" opacity="1"><title>C3 · Dchs2
+Shared-reference display z: -0.176</title></circle><circle cx="599" cy="168" r="2.25335698827773" fill="#5b8dc0" opacity="1"><title>C3 · Dchs2
 Detected 7.9% (369/4651)
 Mean log1p CP10k: 0.053
-Saved z: -0.333</title></circle><circle cx="794" cy="168" r="2.42682634978579" fill="#4f85bc" opacity="1"><title>C3 · Tshz2
+Shared-reference display z: -0.333</title></circle><circle cx="638" cy="168" r="4.348206727095775" fill="#276aae" opacity="1"><title>C3 · Brinp3
+Detected 29.5% (1374/4651)
+Mean log1p CP10k: 0.259
+Shared-reference display z: -0.661</title></circle><circle cx="677" cy="168" r="6.087444208713111" fill="#dee6ee" opacity="1"><title>C3 · Pde11a
+Detected 57.9% (2693/4651)
+Mean log1p CP10k: 0.755
+Shared-reference display z: 0.493</title></circle><circle cx="716" cy="168" r="2.42682634978579" fill="#4f85bc" opacity="1"><title>C3 · Tshz2
 Detected 9.2% (428/4651)
 Mean log1p CP10k: 0.059
-Saved z: -0.408</title></circle><circle cx="833" cy="168" r="3.7298588330715696" fill="#6393c3" opacity="1"><title>C3 · Cdh20
+Shared-reference display z: -0.408</title></circle><circle cx="755" cy="168" r="3.7298588330715696" fill="#6393c3" opacity="1"><title>C3 · Cdh20
 Detected 21.7% (1011/4651)
 Mean log1p CP10k: 0.193
-Saved z: -0.285</title></circle><circle cx="872" cy="168" r="1.6836446219652346" fill="#5f90c2" opacity="1"><title>C3 · Mertk
+Shared-reference display z: -0.285</title></circle><circle cx="794" cy="168" r="1.6836446219652346" fill="#5f90c2" opacity="1"><title>C3 · Mertk
 Detected 4.4% (206/4651)
 Mean log1p CP10k: 0.029
-Saved z: -0.308</title></circle><circle cx="911" cy="168" r="1.2414402688361361" fill="#447eb8" opacity="1"><title>C3 · Tgfbr1
+Shared-reference display z: -0.308</title></circle><circle cx="833" cy="168" r="1.2414402688361361" fill="#447eb8" opacity="1"><title>C3 · Tgfbr1
 Detected 2.4% (112/4651)
 Mean log1p CP10k: 0.015
-Saved z: -0.477</title></circle><text x="65" y="203.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C4</text><rect x="14" y="189" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="198" r="3.183855837798876" fill="#276aae" opacity="1"><title>C4 · Epha10
+Shared-reference display z: -0.477</title></circle><text x="65" y="203.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C4</text><rect x="14" y="189" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="198" r="3.183855837798876" fill="#276aae" opacity="1"><title>C4 · Epha10
 Detected 15.8% (539/3403)
 Mean log1p CP10k: 0.137
-Saved z: -0.661</title></circle><circle cx="131" cy="198" r="4.159612993142294" fill="#87abd0" opacity="1"><title>C4 · Stac
+Shared-reference display z: -0.661</title></circle><circle cx="131" cy="198" r="4.159612993142294" fill="#87abd0" opacity="1"><title>C4 · Stac
 Detected 27.0% (920/3403)
 Mean log1p CP10k: 0.274
-Saved z: -0.058</title></circle><circle cx="170" cy="198" r="6.351446740539797" fill="#d6e0eb" opacity="1"><title>C4 · 4921539H07Rik
+Shared-reference display z: -0.058</title></circle><circle cx="170" cy="198" r="6.351446740539797" fill="#d6e0eb" opacity="1"><title>C4 · 4921539H07Rik
 Detected 63.0% (2145/3403)
 Mean log1p CP10k: 1.027
-Saved z: 0.440</title></circle><circle cx="209" cy="198" r="4.098120667595212" fill="#aec5dd" opacity="1"><title>C4 · 1700007F19Rik
+Shared-reference display z: 0.440</title></circle><circle cx="209" cy="198" r="4.098120667595212" fill="#aec5dd" opacity="1"><title>C4 · 1700007F19Rik
 Detected 26.2% (893/3403)
 Mean log1p CP10k: 0.246
-Saved z: 0.187</title></circle><circle cx="248" cy="198" r="3.7506782617097643" fill="#2b6daf" opacity="1"><title>C4 · Itgbl1
+Shared-reference display z: 0.187</title></circle><circle cx="248" cy="198" r="3.7506782617097643" fill="#2b6daf" opacity="1"><title>C4 · Itgbl1
 Detected 22.0% (748/3403)
 Mean log1p CP10k: 0.208
-Saved z: -0.639</title></circle><circle cx="287" cy="198" r="4.164131857042089" fill="#2166ac" opacity="1"><title>C4 · Grik4
-Detected 27.1% (922/3403)
-Mean log1p CP10k: 0.257
-Saved z: -0.807</title></circle><circle cx="326" cy="198" r="6.49636531212543" fill="#d07883" opacity="1"><title>C4 · Brinp3
-Detected 65.9% (2244/3403)
-Mean log1p CP10k: 0.883
-Saved z: 1.417</title></circle><circle cx="365" cy="198" r="5.9509208289894415" fill="#e6ebf1" opacity="1"><title>C4 · Pde11a
-Detected 55.3% (1883/3403)
-Mean log1p CP10k: 0.778
-Saved z: 0.542</title></circle><circle cx="404" cy="198" r="4.521408896272011" fill="#2166ac" opacity="1"><title>C4 · Mctp1
-Detected 31.9% (1087/3403)
-Mean log1p CP10k: 0.367
-Saved z: -0.980</title></circle><circle cx="443" cy="198" r="1.6795952663053553" fill="#2166ac" opacity="1"><title>C4 · Socs2
-Detected 4.4% (150/3403)
-Mean log1p CP10k: 0.036
-Saved z: -1.139</title></circle><circle cx="482" cy="198" r="2.4608602334247602" fill="#2166ac" opacity="1"><title>C4 · Gpc6
+Shared-reference display z: -0.639</title></circle><circle cx="287" cy="198" r="2.4608602334247602" fill="#2166ac" opacity="1"><title>C4 · Gpc6
 Detected 9.5% (322/3403)
 Mean log1p CP10k: 0.088
-Saved z: -0.843</title></circle><circle cx="521" cy="198" r="1.8652836206863932" fill="#3875b4" opacity="1"><title>C4 · Adra1a
+Shared-reference display z: -0.843</title></circle><circle cx="326" cy="198" r="1.8652836206863932" fill="#3875b4" opacity="1"><title>C4 · Adra1a
 Detected 5.4% (185/3403)
 Mean log1p CP10k: 0.049
-Saved z: -0.557</title></circle><circle cx="560" cy="198" r="2.2988581407085493" fill="#79a2cb" opacity="1"><title>C4 · Ndrg2
-Detected 8.3% (281/3403)
-Mean log1p CP10k: 0.068
-Saved z: -0.142</title></circle><circle cx="599" cy="198" r="3.2044635340860252" fill="#91b2d3" opacity="1"><title>C4 · Gm19951
-Detected 16.0% (546/3403)
-Mean log1p CP10k: 0.131
-Saved z: 0.007</title></circle><circle cx="638" cy="198" r="1.7722184274432702" fill="#2a6caf" opacity="1"><title>C4 · Cdh13
+Shared-reference display z: -0.557</title></circle><circle cx="365" cy="198" r="1.7722184274432702" fill="#2a6caf" opacity="1"><title>C4 · Cdh13
 Detected 4.9% (167/3403)
 Mean log1p CP10k: 0.042
-Saved z: -0.642</title></circle><circle cx="677" cy="198" r="1.7669044171975448" fill="#2367ad" opacity="1"><title>C4 · Rgs6
+Shared-reference display z: -0.642</title></circle><circle cx="404" cy="198" r="1.7669044171975448" fill="#2367ad" opacity="1"><title>C4 · Rgs6
 Detected 4.9% (166/3403)
 Mean log1p CP10k: 0.045
-Saved z: -0.689</title></circle><circle cx="716" cy="198" r="1.7615743766457586" fill="#3876b4" opacity="1"><title>C4 · Ppfibp1
+Shared-reference display z: -0.689</title></circle><circle cx="443" cy="198" r="4.164131857042089" fill="#2166ac" opacity="1"><title>C4 · Grik4
+Detected 27.1% (922/3403)
+Mean log1p CP10k: 0.257
+Shared-reference display z: -0.807</title></circle><circle cx="482" cy="198" r="4.521408896272011" fill="#2166ac" opacity="1"><title>C4 · Mctp1
+Detected 31.9% (1087/3403)
+Mean log1p CP10k: 0.367
+Shared-reference display z: -0.980</title></circle><circle cx="521" cy="198" r="1.6795952663053553" fill="#2166ac" opacity="1"><title>C4 · Socs2
+Detected 4.4% (150/3403)
+Mean log1p CP10k: 0.036
+Shared-reference display z: -1.139</title></circle><circle cx="560" cy="198" r="1.7615743766457586" fill="#3876b4" opacity="1"><title>C4 · Ppfibp1
 Detected 4.8% (165/3403)
 Mean log1p CP10k: 0.043
-Saved z: -0.552</title></circle><circle cx="755" cy="198" r="1.7400909586069584" fill="#5287bd" opacity="1"><title>C4 · Dchs2
+Shared-reference display z: -0.552</title></circle><circle cx="599" cy="198" r="1.7400909586069584" fill="#5287bd" opacity="1"><title>C4 · Dchs2
 Detected 4.7% (161/3403)
 Mean log1p CP10k: 0.039
-Saved z: -0.393</title></circle><circle cx="794" cy="198" r="2.4106727137266963" fill="#5489be" opacity="1"><title>C4 · Tshz2
+Shared-reference display z: -0.393</title></circle><circle cx="638" cy="198" r="6.49636531212543" fill="#d07883" opacity="1"><title>C4 · Brinp3
+Detected 65.9% (2244/3403)
+Mean log1p CP10k: 0.883
+Shared-reference display z: 1.417</title></circle><circle cx="677" cy="198" r="5.9509208289894415" fill="#e6ebf1" opacity="1"><title>C4 · Pde11a
+Detected 55.3% (1883/3403)
+Mean log1p CP10k: 0.778
+Shared-reference display z: 0.542</title></circle><circle cx="716" cy="198" r="2.4106727137266963" fill="#5489be" opacity="1"><title>C4 · Tshz2
 Detected 9.1% (309/3403)
 Mean log1p CP10k: 0.079
-Saved z: -0.379</title></circle><circle cx="833" cy="198" r="1.5874915110571517" fill="#2a6caf" opacity="1"><title>C4 · Cdh20
+Shared-reference display z: -0.379</title></circle><circle cx="755" cy="198" r="1.5874915110571517" fill="#2a6caf" opacity="1"><title>C4 · Cdh20
 Detected 3.9% (134/3403)
 Mean log1p CP10k: 0.035
-Saved z: -0.642</title></circle><circle cx="872" cy="198" r="1.7880657034184746" fill="#6796c5" opacity="1"><title>C4 · Mertk
+Shared-reference display z: -0.642</title></circle><circle cx="794" cy="198" r="1.7880657034184746" fill="#6796c5" opacity="1"><title>C4 · Mertk
 Detected 5.0% (170/3403)
 Mean log1p CP10k: 0.041
-Saved z: -0.256</title></circle><circle cx="911" cy="198" r="2.1770042798396605" fill="#5c8ec1" opacity="1"><title>C4 · Tgfbr1
+Shared-reference display z: -0.256</title></circle><circle cx="833" cy="198" r="2.1770042798396605" fill="#5c8ec1" opacity="1"><title>C4 · Tgfbr1
 Detected 7.4% (252/3403)
 Mean log1p CP10k: 0.061
-Saved z: -0.325</title></circle><rect x="13" y="213" width="949" height="30" fill="#f5f8fa"/><text x="65" y="233.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C5</text><rect x="14" y="219" width="5" height="18" fill="#3789c2"/><circle cx="92" cy="228" r="5.757433563412904" fill="#f5f0f0" opacity="1"><title>C5 · Epha10
+Shared-reference display z: -0.325</title></circle><rect x="13" y="213" width="871" height="30" fill="#f5f8fa"/><text x="65" y="233.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C5</text><rect x="14" y="219" width="5" height="18" fill="#3789c2"/><circle cx="92" cy="228" r="5.757433563412904" fill="#f5f0f0" opacity="1"><title>C5 · Epha10
 Detected 51.8% (1256/2425)
 Mean log1p CP10k: 0.450
-Saved z: 0.694</title></circle><circle cx="131" cy="228" r="3.7890781731262626" fill="#5388bd" opacity="1"><title>C5 · Stac
+Shared-reference display z: 0.694</title></circle><circle cx="131" cy="228" r="3.7890781731262626" fill="#5388bd" opacity="1"><title>C5 · Stac
 Detected 22.4% (544/2425)
 Mean log1p CP10k: 0.194
-Saved z: -0.386</title></circle><circle cx="170" cy="228" r="5.41003268088534" fill="#6493c3" opacity="1"><title>C5 · 4921539H07Rik
+Shared-reference display z: -0.386</title></circle><circle cx="170" cy="228" r="5.41003268088534" fill="#6493c3" opacity="1"><title>C5 · 4921539H07Rik
 Detected 45.7% (1109/2425)
 Mean log1p CP10k: 0.530
-Saved z: -0.280</title></circle><circle cx="209" cy="228" r="3.364827165794716" fill="#5489be" opacity="1"><title>C5 · 1700007F19Rik
+Shared-reference display z: -0.280</title></circle><circle cx="209" cy="228" r="3.364827165794716" fill="#5489be" opacity="1"><title>C5 · 1700007F19Rik
 Detected 17.7% (429/2425)
 Mean log1p CP10k: 0.120
-Saved z: -0.377</title></circle><circle cx="248" cy="228" r="5.431940664389045" fill="#a8c1db" opacity="1"><title>C5 · Itgbl1
+Shared-reference display z: -0.377</title></circle><circle cx="248" cy="228" r="5.431940664389045" fill="#a8c1db" opacity="1"><title>C5 · Itgbl1
 Detected 46.1% (1118/2425)
 Mean log1p CP10k: 0.403
-Saved z: 0.150</title></circle><circle cx="287" cy="228" r="6.520514811122037" fill="#bfd1e3" opacity="1"><title>C5 · Grik4
-Detected 66.4% (1611/2425)
-Mean log1p CP10k: 0.614
-Saved z: 0.297</title></circle><circle cx="326" cy="228" r="4.719601590733876" fill="#4b82bb" opacity="1"><title>C5 · Brinp3
-Detected 34.8% (844/2425)
-Mean log1p CP10k: 0.325
-Saved z: -0.438</title></circle><circle cx="365" cy="228" r="3.1834624215923646" fill="#2166ac" opacity="1"><title>C5 · Pde11a
-Detected 15.8% (384/2425)
-Mean log1p CP10k: 0.160
-Saved z: -0.818</title></circle><circle cx="404" cy="228" r="7.393058878950503" fill="#f5f2f2" opacity="1"><title>C5 · Mctp1
-Detected 85.4% (2071/2425)
-Mean log1p CP10k: 1.564
-Saved z: 0.682</title></circle><circle cx="443" cy="228" r="6.186116814053336" fill="#d8949d" opacity="1"><title>C5 · Socs2
-Detected 59.8% (1450/2425)
-Mean log1p CP10k: 0.495
-Saved z: 1.248</title></circle><circle cx="482" cy="228" r="4.045106500197262" fill="#3775b4" opacity="1"><title>C5 · Gpc6
+Shared-reference display z: 0.150</title></circle><circle cx="287" cy="228" r="4.045106500197262" fill="#3775b4" opacity="1"><title>C5 · Gpc6
 Detected 25.6% (620/2425)
 Mean log1p CP10k: 0.254
-Saved z: -0.562</title></circle><circle cx="521" cy="228" r="2.4744467256213345" fill="#4d84bb" opacity="1"><title>C5 · Adra1a
+Shared-reference display z: -0.562</title></circle><circle cx="326" cy="228" r="2.4744467256213345" fill="#4d84bb" opacity="1"><title>C5 · Adra1a
 Detected 9.6% (232/2425)
 Mean log1p CP10k: 0.077
-Saved z: -0.422</title></circle><circle cx="560" cy="228" r="2.262741699796952" fill="#2166ac" opacity="1"><title>C5 · Ndrg2
-Detected 8.0% (194/2425)
-Mean log1p CP10k: 0.044
-Saved z: -0.856</title></circle><circle cx="599" cy="228" r="3.3372622893067403" fill="#2e6fb0" opacity="1"><title>C5 · Gm19951
-Detected 17.4% (422/2425)
-Mean log1p CP10k: 0.096
-Saved z: -0.621</title></circle><circle cx="638" cy="228" r="2.563502758288467" fill="#3171b1" opacity="1"><title>C5 · Cdh13
+Shared-reference display z: -0.422</title></circle><circle cx="365" cy="228" r="2.563502758288467" fill="#3171b1" opacity="1"><title>C5 · Cdh13
 Detected 10.3% (249/2425)
 Mean log1p CP10k: 0.071
-Saved z: -0.601</title></circle><circle cx="677" cy="228" r="3.548079195759509" fill="#4b83bb" opacity="1"><title>C5 · Rgs6
+Shared-reference display z: -0.601</title></circle><circle cx="404" cy="228" r="3.548079195759509" fill="#4b83bb" opacity="1"><title>C5 · Rgs6
 Detected 19.7% (477/2425)
 Mean log1p CP10k: 0.177
-Saved z: -0.434</title></circle><circle cx="716" cy="228" r="4.437144061519798" fill="#a9c2dc" opacity="1"><title>C5 · Ppfibp1
+Shared-reference display z: -0.434</title></circle><circle cx="443" cy="228" r="6.520514811122037" fill="#bfd1e3" opacity="1"><title>C5 · Grik4
+Detected 66.4% (1611/2425)
+Mean log1p CP10k: 0.614
+Shared-reference display z: 0.297</title></circle><circle cx="482" cy="228" r="7.393058878950503" fill="#f5f2f2" opacity="1"><title>C5 · Mctp1
+Detected 85.4% (2071/2425)
+Mean log1p CP10k: 1.564
+Shared-reference display z: 0.682</title></circle><circle cx="521" cy="228" r="6.186116814053336" fill="#d8949d" opacity="1"><title>C5 · Socs2
+Detected 59.8% (1450/2425)
+Mean log1p CP10k: 0.495
+Shared-reference display z: 1.248</title></circle><circle cx="560" cy="228" r="4.437144061519798" fill="#a9c2dc" opacity="1"><title>C5 · Ppfibp1
 Detected 30.8% (746/2425)
 Mean log1p CP10k: 0.241
-Saved z: 0.160</title></circle><circle cx="755" cy="228" r="4.702795834372763" fill="#f5eff0" opacity="1"><title>C5 · Dchs2
+Shared-reference display z: 0.160</title></circle><circle cx="599" cy="228" r="4.702795834372763" fill="#f5eff0" opacity="1"><title>C5 · Dchs2
 Detected 34.6% (838/2425)
 Mean log1p CP10k: 0.307
-Saved z: 0.697</title></circle><circle cx="794" cy="228" r="2.537634258293732" fill="#5086bc" opacity="1"><title>C5 · Tshz2
+Shared-reference display z: 0.697</title></circle><circle cx="638" cy="228" r="4.719601590733876" fill="#4b82bb" opacity="1"><title>C5 · Brinp3
+Detected 34.8% (844/2425)
+Mean log1p CP10k: 0.325
+Shared-reference display z: -0.438</title></circle><circle cx="677" cy="228" r="3.1834624215923646" fill="#2166ac" opacity="1"><title>C5 · Pde11a
+Detected 15.8% (384/2425)
+Mean log1p CP10k: 0.160
+Shared-reference display z: -0.818</title></circle><circle cx="716" cy="228" r="2.537634258293732" fill="#5086bc" opacity="1"><title>C5 · Tshz2
 Detected 10.1% (244/2425)
 Mean log1p CP10k: 0.061
-Saved z: -0.404</title></circle><circle cx="833" cy="228" r="3.599770897635559" fill="#5c8ec1" opacity="1"><title>C5 · Cdh20
+Shared-reference display z: -0.404</title></circle><circle cx="755" cy="228" r="3.599770897635559" fill="#5c8ec1" opacity="1"><title>C5 · Cdh20
 Detected 20.2% (491/2425)
 Mean log1p CP10k: 0.174
-Saved z: -0.327</title></circle><circle cx="872" cy="228" r="1.3688734174457806" fill="#588bbf" opacity="1"><title>C5 · Mertk
+Shared-reference display z: -0.327</title></circle><circle cx="794" cy="228" r="1.3688734174457806" fill="#588bbf" opacity="1"><title>C5 · Mertk
 Detected 2.9% (71/2425)
 Mean log1p CP10k: 0.018
-Saved z: -0.354</title></circle><circle cx="911" cy="228" r="3.017474877969203" fill="#6b98c6" opacity="1"><title>C5 · Tgfbr1
+Shared-reference display z: -0.354</title></circle><circle cx="833" cy="228" r="3.017474877969203" fill="#6b98c6" opacity="1"><title>C5 · Tgfbr1
 Detected 14.2% (345/2425)
 Mean log1p CP10k: 0.088
-Saved z: -0.234</title></circle><text x="65" y="263.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C6</text><rect x="14" y="249" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="258" r="4.583988073693231" fill="#88acd0" opacity="1"><title>C6 · Epha10
+Shared-reference display z: -0.234</title></circle><text x="65" y="263.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C6</text><rect x="14" y="249" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="258" r="4.583988073693231" fill="#88acd0" opacity="1"><title>C6 · Epha10
 Detected 32.8% (634/1931)
 Mean log1p CP10k: 0.278
-Saved z: -0.051</title></circle><circle cx="131" cy="258" r="4.327360474866949" fill="#719cc8" opacity="1"><title>C6 · Stac
+Shared-reference display z: -0.051</title></circle><circle cx="131" cy="258" r="4.327360474866949" fill="#719cc8" opacity="1"><title>C6 · Stac
 Detected 29.3% (565/1931)
 Mean log1p CP10k: 0.241
-Saved z: -0.194</title></circle><circle cx="170" cy="258" r="2.222245238387051" fill="#2166ac" opacity="1"><title>C6 · 4921539H07Rik
+Shared-reference display z: -0.194</title></circle><circle cx="170" cy="258" r="2.222245238387051" fill="#2166ac" opacity="1"><title>C6 · 4921539H07Rik
 Detected 7.7% (149/1931)
 Mean log1p CP10k: 0.053
-Saved z: -0.969</title></circle><circle cx="209" cy="258" r="0.9282939586920589" fill="#2166ac" opacity="1"><title>C6 · 1700007F19Rik
+Shared-reference display z: -0.969</title></circle><circle cx="209" cy="258" r="0.9282939586920589" fill="#2166ac" opacity="1"><title>C6 · 1700007F19Rik
 Detected 1.3% (26/1931)
 Mean log1p CP10k: 0.008
-Saved z: -0.873</title></circle><circle cx="248" cy="258" r="5.9216356719735685" fill="#f5f1f1" opacity="1"><title>C6 · Itgbl1
+Shared-reference display z: -0.873</title></circle><circle cx="248" cy="258" r="5.9216356719735685" fill="#f5f1f1" opacity="1"><title>C6 · Itgbl1
 Detected 54.8% (1058/1931)
 Mean log1p CP10k: 0.536
-Saved z: 0.688</title></circle><circle cx="287" cy="258" r="6.97290754768522" fill="#dca0a7" opacity="1"><title>C6 · Grik4
-Detected 76.0% (1467/1931)
-Mean log1p CP10k: 0.899
-Saved z: 1.178</title></circle><circle cx="326" cy="258" r="4.95238854016108" fill="#6a98c6" opacity="1"><title>C6 · Brinp3
-Detected 38.3% (740/1931)
-Mean log1p CP10k: 0.386
-Saved z: -0.237</title></circle><circle cx="365" cy="258" r="6.631844148496181" fill="#db9ba3" opacity="1"><title>C6 · Pde11a
-Detected 68.7% (1327/1931)
-Mean log1p CP10k: 1.080
-Saved z: 1.206</title></circle><circle cx="404" cy="258" r="6.733516036851744" fill="#bccfe2" opacity="1"><title>C6 · Mctp1
-Detected 70.8% (1368/1931)
-Mean log1p CP10k: 1.275
-Saved z: 0.281</title></circle><circle cx="443" cy="258" r="4.708818044309782" fill="#96b6d5" opacity="1"><title>C6 · Socs2
-Detected 34.6% (669/1931)
-Mean log1p CP10k: 0.263
-Saved z: 0.040</title></circle><circle cx="482" cy="258" r="7.7410177479586135" fill="#b2182b" opacity="1"><title>C6 · Gpc6
+Shared-reference display z: 0.688</title></circle><circle cx="287" cy="258" r="7.7410177479586135" fill="#b2182b" opacity="1"><title>C6 · Gpc6
 Detected 93.6% (1808/1931)
 Mean log1p CP10k: 1.882
-Saved z: 2.198</title></circle><circle cx="521" cy="258" r="6.782559044958092" fill="#b2182b" opacity="1"><title>C6 · Adra1a
+Shared-reference display z: 2.198</title></circle><circle cx="326" cy="258" r="6.782559044958092" fill="#b2182b" opacity="1"><title>C6 · Adra1a
 Detected 71.9% (1388/1931)
 Mean log1p CP10k: 0.719
-Saved z: 2.779</title></circle><circle cx="560" cy="258" r="2.435708802225491" fill="#417cb7" opacity="1"><title>C6 · Ndrg2
-Detected 9.3% (179/1931)
-Mean log1p CP10k: 0.056
-Saved z: -0.495</title></circle><circle cx="599" cy="258" r="3.2208538516859546" fill="#467fb9" opacity="1"><title>C6 · Gm19951
-Detected 16.2% (313/1931)
-Mean log1p CP10k: 0.105
-Saved z: -0.464</title></circle><circle cx="638" cy="258" r="6.743353172902948" fill="#f1e4e6" opacity="1"><title>C6 · Cdh13
+Shared-reference display z: 2.779</title></circle><circle cx="365" cy="258" r="6.743353172902948" fill="#f1e4e6" opacity="1"><title>C6 · Cdh13
 Detected 71.1% (1372/1931)
 Mean log1p CP10k: 1.070
-Saved z: 0.764</title></circle><circle cx="677" cy="258" r="6.332738213292434" fill="#eacbcf" opacity="1"><title>C6 · Rgs6
+Shared-reference display z: 0.764</title></circle><circle cx="404" cy="258" r="6.332738213292434" fill="#eacbcf" opacity="1"><title>C6 · Rgs6
 Detected 62.7% (1210/1931)
 Mean log1p CP10k: 0.875
-Saved z: 0.914</title></circle><circle cx="716" cy="258" r="4.5037529663579745" fill="#a8c1db" opacity="1"><title>C6 · Ppfibp1
+Shared-reference display z: 0.914</title></circle><circle cx="443" cy="258" r="6.97290754768522" fill="#dca0a7" opacity="1"><title>C6 · Grik4
+Detected 76.0% (1467/1931)
+Mean log1p CP10k: 0.899
+Shared-reference display z: 1.178</title></circle><circle cx="482" cy="258" r="6.733516036851744" fill="#bccfe2" opacity="1"><title>C6 · Mctp1
+Detected 70.8% (1368/1931)
+Mean log1p CP10k: 1.275
+Shared-reference display z: 0.281</title></circle><circle cx="521" cy="258" r="4.708818044309782" fill="#96b6d5" opacity="1"><title>C6 · Socs2
+Detected 34.6% (669/1931)
+Mean log1p CP10k: 0.263
+Shared-reference display z: 0.040</title></circle><circle cx="560" cy="258" r="4.5037529663579745" fill="#a8c1db" opacity="1"><title>C6 · Ppfibp1
 Detected 31.7% (612/1931)
 Mean log1p CP10k: 0.239
-Saved z: 0.151</title></circle><circle cx="755" cy="258" r="0.9102671172540583" fill="#3f7ab6" opacity="1"><title>C6 · Dchs2
+Shared-reference display z: 0.151</title></circle><circle cx="599" cy="258" r="0.9102671172540583" fill="#3f7ab6" opacity="1"><title>C6 · Dchs2
 Detected 1.3% (25/1931)
 Mean log1p CP10k: 0.009
-Saved z: -0.513</title></circle><circle cx="794" cy="258" r="3.1637511904428393" fill="#6393c3" opacity="1"><title>C6 · Tshz2
+Shared-reference display z: -0.513</title></circle><circle cx="638" cy="258" r="4.95238854016108" fill="#6a98c6" opacity="1"><title>C6 · Brinp3
+Detected 38.3% (740/1931)
+Mean log1p CP10k: 0.386
+Shared-reference display z: -0.237</title></circle><circle cx="677" cy="258" r="6.631844148496181" fill="#db9ba3" opacity="1"><title>C6 · Pde11a
+Detected 68.7% (1327/1931)
+Mean log1p CP10k: 1.080
+Shared-reference display z: 1.206</title></circle><circle cx="716" cy="258" r="3.1637511904428393" fill="#6393c3" opacity="1"><title>C6 · Tshz2
 Detected 15.6% (302/1931)
 Mean log1p CP10k: 0.141
-Saved z: -0.285</title></circle><circle cx="833" cy="258" r="5.949554901124239" fill="#eacdd1" opacity="1"><title>C6 · Cdh20
+Shared-reference display z: -0.285</title></circle><circle cx="755" cy="258" r="5.949554901124239" fill="#eacdd1" opacity="1"><title>C6 · Cdh20
 Detected 55.3% (1068/1931)
 Mean log1p CP10k: 0.718
-Saved z: 0.902</title></circle><circle cx="872" cy="258" r="2.2592235711599513" fill="#6e9ac7" opacity="1"><title>C6 · Mertk
+Shared-reference display z: 0.902</title></circle><circle cx="794" cy="258" r="2.2592235711599513" fill="#6e9ac7" opacity="1"><title>C6 · Mertk
 Detected 8.0% (154/1931)
 Mean log1p CP10k: 0.052
-Saved z: -0.212</title></circle><circle cx="911" cy="258" r="1.207605794772062" fill="#447eb8" opacity="1"><title>C6 · Tgfbr1
+Shared-reference display z: -0.212</title></circle><circle cx="833" cy="258" r="1.207605794772062" fill="#447eb8" opacity="1"><title>C6 · Tgfbr1
 Detected 2.3% (44/1931)
 Mean log1p CP10k: 0.015
-Saved z: -0.478</title></circle><rect x="13" y="273" width="949" height="30" fill="#f5f8fa"/><text x="65" y="293.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C7</text><rect x="14" y="279" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="288" r="2.5036056472842128" fill="#3473b3" opacity="1"><title>C7 · Epha10
-Detected 9.8% (95/970)
-Mean log1p CP10k: 0.155
-Saved z: -0.583</title></circle><circle cx="131" cy="288" r="3.082374235526091" fill="#759fc9" opacity="1"><title>C7 · Stac
-Detected 14.8% (144/970)
-Mean log1p CP10k: 0.246
-Saved z: -0.171</title></circle><circle cx="170" cy="288" r="4.715405766887061" fill="#94b4d4" opacity="1"><title>C7 · 4921539H07Rik
-Detected 34.7% (337/970)
-Mean log1p CP10k: 0.740
-Saved z: 0.024</title></circle><circle cx="209" cy="288" r="2.5298221281347035" fill="#77a0ca" opacity="1"><title>C7 · 1700007F19Rik
-Detected 10.0% (97/970)
-Mean log1p CP10k: 0.169
-Saved z: -0.158</title></circle><circle cx="248" cy="288" r="2.706235640184754" fill="#2166ac" opacity="1"><title>C7 · Itgbl1
-Detected 11.4% (111/970)
-Mean log1p CP10k: 0.191
-Saved z: -0.707</title></circle><circle cx="287" cy="288" r="3.568475951797448" fill="#3171b2" opacity="1"><title>C7 · Grik4
-Detected 19.9% (193/970)
-Mean log1p CP10k: 0.324
-Saved z: -0.599</title></circle><circle cx="326" cy="288" r="3.228736946244032" fill="#2d6eb0" opacity="1"><title>C7 · Brinp3
-Detected 16.3% (158/970)
-Mean log1p CP10k: 0.270
-Saved z: -0.623</title></circle><circle cx="365" cy="288" r="3.7134472827346676" fill="#5f90c2" opacity="1"><title>C7 · Pde11a
-Detected 21.5% (209/970)
-Mean log1p CP10k: 0.391
-Saved z: -0.308</title></circle><circle cx="404" cy="288" r="3.2994844958181466" fill="#2166ac" opacity="1"><title>C7 · Mctp1
-Detected 17.0% (165/970)
-Mean log1p CP10k: 0.327
-Saved z: -1.035</title></circle><circle cx="443" cy="288" r="2.022553250098631" fill="#2166ac" opacity="1"><title>C7 · Socs2
-Detected 6.4% (62/970)
-Mean log1p CP10k: 0.099
-Saved z: -0.811</title></circle><circle cx="482" cy="288" r="3.03926198312384" fill="#3876b4" opacity="1"><title>C7 · Gpc6
-Detected 14.4% (140/970)
-Mean log1p CP10k: 0.259
-Saved z: -0.554</title></circle><circle cx="521" cy="288" r="1.9392845954805193" fill="#568abf" opacity="1"><title>C7 · Adra1a
-Detected 5.9% (57/970)
-Mean log1p CP10k: 0.088
-Saved z: -0.367</title></circle><circle cx="560" cy="288" r="2.6445820904236816" fill="#b2182b" opacity="1"><title>C7 · Ndrg2
-Detected 10.9% (106/970)
-Mean log1p CP10k: 0.167
-Saved z: 2.737</title></circle><circle cx="599" cy="288" r="3.43661305333471" fill="#b2182b" opacity="1"><title>C7 · Gm19951
-Detected 18.5% (179/970)
-Mean log1p CP10k: 0.299
-Saved z: 3.058</title></circle><circle cx="638" cy="288" r="1.989664013495228" fill="#3b78b5" opacity="1"><title>C7 · Cdh13
-Detected 6.2% (60/970)
-Mean log1p CP10k: 0.120
-Saved z: -0.535</title></circle><circle cx="677" cy="288" r="1.9562219004272854" fill="#3573b3" opacity="1"><title>C7 · Rgs6
-Detected 6.0% (58/970)
-Mean log1p CP10k: 0.103
-Saved z: -0.577</title></circle><circle cx="716" cy="288" r="1.6245538642137904" fill="#437db8" opacity="1"><title>C7 · Ppfibp1
-Detected 4.1% (40/970)
-Mean log1p CP10k: 0.062
-Saved z: -0.483</title></circle><circle cx="755" cy="288" r="1.1487330537883809" fill="#4f85bc" opacity="1"><title>C7 · Dchs2
-Detected 2.1% (20/970)
-Mean log1p CP10k: 0.035
-Saved z: -0.410</title></circle><circle cx="794" cy="288" r="2.224511993280194" fill="#5e90c2" opacity="1"><title>C7 · Tshz2
-Detected 7.7% (75/970)
-Mean log1p CP10k: 0.123
-Saved z: -0.312</title></circle><circle cx="833" cy="288" r="1.51963099156192" fill="#3573b3" opacity="1"><title>C7 · Cdh20
-Detected 3.6% (35/970)
-Mean log1p CP10k: 0.064
-Saved z: -0.575</title></circle><circle cx="872" cy="288" r="1.359199279139145" fill="#6796c5" opacity="1"><title>C7 · Mertk
-Detected 2.9% (28/970)
-Mean log1p CP10k: 0.041
-Saved z: -0.257</title></circle><circle cx="911" cy="288" r="1.359199279139145" fill="#5489be" opacity="1"><title>C7 · Tgfbr1
-Detected 2.9% (28/970)
-Mean log1p CP10k: 0.045
-Saved z: -0.377</title></circle><text x="65" y="323.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C8</text><rect x="14" y="309" width="5" height="18" fill="#9065b6"/><circle cx="92" cy="318" r="3.8961488885947024" fill="#447eb8" opacity="1"><title>C8 · Epha10
+Shared-reference display z: -0.478</title></circle><rect x="13" y="273" width="871" height="30" fill="#f5f8fa"/><text x="65" y="293.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C8</text><rect x="14" y="279" width="5" height="18" fill="#9065b6"/><circle cx="92" cy="288" r="3.8961488885947024" fill="#447eb8" opacity="1"><title>C8 · Epha10
 Detected 23.7% (199/839)
 Mean log1p CP10k: 0.180
-Saved z: -0.477</title></circle><circle cx="131" cy="318" r="0.9160208293013566" fill="#2166ac" opacity="1"><title>C8 · Stac
+Shared-reference display z: -0.477</title></circle><circle cx="131" cy="288" r="0.9160208293013566" fill="#2166ac" opacity="1"><title>C8 · Stac
 Detected 1.3% (11/839)
 Mean log1p CP10k: 0.009
-Saved z: -1.146</title></circle><circle cx="170" cy="318" r="2.0668217353744973" fill="#2166ac" opacity="1"><title>C8 · 4921539H07Rik
+Shared-reference display z: -1.146</title></circle><circle cx="170" cy="288" r="2.0668217353744973" fill="#2166ac" opacity="1"><title>C8 · 4921539H07Rik
 Detected 6.7% (56/839)
 Mean log1p CP10k: 0.041
-Saved z: -0.987</title></circle><circle cx="209" cy="318" r="0.7811851880148383" fill="#2166ac" opacity="1"><title>C8 · 1700007F19Rik
+Shared-reference display z: -0.987</title></circle><circle cx="209" cy="288" r="0.7811851880148383" fill="#2166ac" opacity="1"><title>C8 · 1700007F19Rik
 Detected 1.0% (8/839)
 Mean log1p CP10k: 0.006
-Saved z: -0.885</title></circle><circle cx="248" cy="318" r="5.122573846502602" fill="#7da4cc" opacity="1"><title>C8 · Itgbl1
+Shared-reference display z: -0.885</title></circle><circle cx="248" cy="288" r="5.122573846502602" fill="#7da4cc" opacity="1"><title>C8 · Itgbl1
 Detected 41.0% (344/839)
 Mean log1p CP10k: 0.337
-Saved z: -0.118</title></circle><circle cx="287" cy="318" r="6.063627664436541" fill="#9cb9d7" opacity="1"><title>C8 · Grik4
-Detected 57.4% (482/839)
-Mean log1p CP10k: 0.542
-Saved z: 0.075</title></circle><circle cx="326" cy="318" r="4.224904876530715" fill="#2166ac" opacity="1"><title>C8 · Brinp3
-Detected 27.9% (234/839)
-Mean log1p CP10k: 0.244
-Saved z: -0.710</title></circle><circle cx="365" cy="318" r="3.6432051796364253" fill="#2166ac" opacity="1"><title>C8 · Pde11a
-Detected 20.7% (174/839)
-Mean log1p CP10k: 0.196
-Saved z: -0.738</title></circle><circle cx="404" cy="318" r="7.7185287030424465" fill="#eed9db" opacity="1"><title>C8 · Mctp1
-Detected 93.1% (781/839)
-Mean log1p CP10k: 1.672
-Saved z: 0.833</title></circle><circle cx="443" cy="318" r="4.917435109608562" fill="#a7c1db" opacity="1"><title>C8 · Socs2
-Detected 37.8% (317/839)
-Mean log1p CP10k: 0.283
-Saved z: 0.147</title></circle><circle cx="482" cy="318" r="6.382335574830714" fill="#cfdce9" opacity="1"><title>C8 · Gpc6
+Shared-reference display z: -0.118</title></circle><circle cx="287" cy="288" r="6.382335574830714" fill="#cfdce9" opacity="1"><title>C8 · Gpc6
 Detected 63.6% (534/839)
 Mean log1p CP10k: 0.820
-Saved z: 0.397</title></circle><circle cx="521" cy="318" r="2.7201626537639365" fill="#588bbf" opacity="1"><title>C8 · Adra1a
+Shared-reference display z: 0.397</title></circle><circle cx="326" cy="288" r="2.7201626537639365" fill="#588bbf" opacity="1"><title>C8 · Adra1a
 Detected 11.6% (97/839)
 Mean log1p CP10k: 0.090
-Saved z: -0.353</title></circle><circle cx="560" cy="318" r="2.209525375231121" fill="#2c6eb0" opacity="1"><title>C8 · Ndrg2
-Detected 7.6% (64/839)
-Mean log1p CP10k: 0.052
-Saved z: -0.629</title></circle><circle cx="599" cy="318" r="3.232728932775056" fill="#568abf" opacity="1"><title>C8 · Gm19951
-Detected 16.3% (137/839)
-Mean log1p CP10k: 0.110
-Saved z: -0.364</title></circle><circle cx="638" cy="318" r="7.913718268270548" fill="#b2182b" opacity="1"><title>C8 · Cdh13
+Shared-reference display z: -0.353</title></circle><circle cx="365" cy="288" r="7.913718268270548" fill="#b2182b" opacity="1"><title>C8 · Cdh13
 Detected 97.9% (821/839)
 Mean log1p CP10k: 2.316
-Saved z: 2.465</title></circle><circle cx="677" cy="318" r="7.77269448128537" fill="#b2182b" opacity="1"><title>C8 · Rgs6
+Shared-reference display z: 2.465</title></circle><circle cx="404" cy="288" r="7.77269448128537" fill="#b2182b" opacity="1"><title>C8 · Rgs6
 Detected 94.4% (792/839)
 Mean log1p CP10k: 1.819
-Saved z: 2.735</title></circle><circle cx="716" cy="318" r="3.4935663668342647" fill="#6b98c6" opacity="1"><title>C8 · Ppfibp1
+Shared-reference display z: 2.735</title></circle><circle cx="443" cy="288" r="6.063627664436541" fill="#9cb9d7" opacity="1"><title>C8 · Grik4
+Detected 57.4% (482/839)
+Mean log1p CP10k: 0.542
+Shared-reference display z: 0.075</title></circle><circle cx="482" cy="288" r="7.7185287030424465" fill="#eed9db" opacity="1"><title>C8 · Mctp1
+Detected 93.1% (781/839)
+Mean log1p CP10k: 1.672
+Shared-reference display z: 0.833</title></circle><circle cx="521" cy="288" r="4.917435109608562" fill="#a7c1db" opacity="1"><title>C8 · Socs2
+Detected 37.8% (317/839)
+Mean log1p CP10k: 0.283
+Shared-reference display z: 0.147</title></circle><circle cx="560" cy="288" r="3.4935663668342647" fill="#6b98c6" opacity="1"><title>C8 · Ppfibp1
 Detected 19.1% (160/839)
 Mean log1p CP10k: 0.131
-Saved z: -0.234</title></circle><circle cx="755" cy="318" r="1.5127586117426892" fill="#4880ba" opacity="1"><title>C8 · Dchs2
+Shared-reference display z: -0.234</title></circle><circle cx="599" cy="288" r="1.5127586117426892" fill="#4880ba" opacity="1"><title>C8 · Dchs2
 Detected 3.6% (30/839)
 Mean log1p CP10k: 0.023
-Saved z: -0.456</title></circle><circle cx="794" cy="318" r="4.41041134679229" fill="#97b6d6" opacity="1"><title>C8 · Tshz2
+Shared-reference display z: -0.456</title></circle><circle cx="638" cy="288" r="4.224904876530715" fill="#2166ac" opacity="1"><title>C8 · Brinp3
+Detected 27.9% (234/839)
+Mean log1p CP10k: 0.244
+Shared-reference display z: -0.710</title></circle><circle cx="677" cy="288" r="3.6432051796364253" fill="#2166ac" opacity="1"><title>C8 · Pde11a
+Detected 20.7% (174/839)
+Mean log1p CP10k: 0.196
+Shared-reference display z: -0.738</title></circle><circle cx="716" cy="288" r="4.41041134679229" fill="#97b6d6" opacity="1"><title>C8 · Tshz2
 Detected 30.4% (255/839)
 Mean log1p CP10k: 0.362
-Saved z: 0.047</title></circle><circle cx="833" cy="318" r="5.18915160677475" fill="#aac3dc" opacity="1"><title>C8 · Cdh20
+Shared-reference display z: 0.047</title></circle><circle cx="755" cy="288" r="5.18915160677475" fill="#aac3dc" opacity="1"><title>C8 · Cdh20
 Detected 42.1% (353/839)
 Mean log1p CP10k: 0.391
-Saved z: 0.162</title></circle><circle cx="872" cy="318" r="1.4873322863956617" fill="#5b8dc0" opacity="1"><title>C8 · Mertk
+Shared-reference display z: 0.162</title></circle><circle cx="794" cy="288" r="1.4873322863956617" fill="#5b8dc0" opacity="1"><title>C8 · Mertk
 Detected 3.5% (29/839)
 Mean log1p CP10k: 0.022
-Saved z: -0.336</title></circle><circle cx="911" cy="318" r="1.353052435761946" fill="#467fb9" opacity="1"><title>C8 · Tgfbr1
+Shared-reference display z: -0.336</title></circle><circle cx="833" cy="288" r="1.353052435761946" fill="#467fb9" opacity="1"><title>C8 · Tgfbr1
 Detected 2.9% (24/839)
 Mean log1p CP10k: 0.019
-Saved z: -0.465</title></circle><rect x="13" y="333" width="949" height="30" fill="#f5f8fa"/><text x="65" y="353.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C9</text><rect x="14" y="339" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="348" r="3.6203867196751234" fill="#2166ac" opacity="1"><title>C9 · Epha10
+Shared-reference display z: -0.465</title></circle><text x="65" y="323.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C9</text><rect x="14" y="309" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="318" r="3.6203867196751234" fill="#2166ac" opacity="1"><title>C9 · Epha10
 Detected 20.5% (128/625)
 Mean log1p CP10k: 0.125
-Saved z: -0.714</title></circle><circle cx="131" cy="348" r="1.1085125168440815" fill="#2166ac" opacity="1"><title>C9 · Stac
+Shared-reference display z: -0.714</title></circle><circle cx="131" cy="318" r="1.1085125168440815" fill="#2166ac" opacity="1"><title>C9 · Stac
 Detected 1.9% (12/625)
 Mean log1p CP10k: 0.013
-Saved z: -1.128</title></circle><circle cx="170" cy="348" r="3.5489716820510133" fill="#2166ac" opacity="1"><title>C9 · 4921539H07Rik
+Shared-reference display z: -1.128</title></circle><circle cx="170" cy="318" r="3.5489716820510133" fill="#2166ac" opacity="1"><title>C9 · 4921539H07Rik
 Detected 19.7% (123/625)
 Mean log1p CP10k: 0.140
-Saved z: -0.844</title></circle><circle cx="209" cy="348" r="1.781684596105607" fill="#2166ac" opacity="1"><title>C9 · 1700007F19Rik
+Shared-reference display z: -0.844</title></circle><circle cx="209" cy="318" r="1.781684596105607" fill="#2166ac" opacity="1"><title>C9 · 1700007F19Rik
 Detected 5.0% (31/625)
 Mean log1p CP10k: 0.027
-Saved z: -0.791</title></circle><circle cx="248" cy="348" r="6.455757120586244" fill="#cc6d79" opacity="1"><title>C9 · Itgbl1
+Shared-reference display z: -0.791</title></circle><circle cx="248" cy="318" r="6.455757120586244" fill="#cc6d79" opacity="1"><title>C9 · Itgbl1
 Detected 65.1% (407/625)
 Mean log1p CP10k: 0.733
-Saved z: 1.484</title></circle><circle cx="287" cy="348" r="7.599578935704267" fill="#b62436" opacity="1"><title>C9 · Grik4
-Detected 90.2% (564/625)
-Mean log1p CP10k: 1.142
-Saved z: 1.929</title></circle><circle cx="326" cy="348" r="6.742818401825753" fill="#e0adb3" opacity="1"><title>C9 · Brinp3
-Detected 71.0% (444/625)
-Mean log1p CP10k: 0.788
-Saved z: 1.100</title></circle><circle cx="365" cy="348" r="3.6062168542670863" fill="#2f6fb1" opacity="1"><title>C9 · Pde11a
-Detected 20.3% (127/625)
-Mean log1p CP10k: 0.253
-Saved z: -0.613</title></circle><circle cx="404" cy="348" r="7.961507394959826" fill="#bc3747" opacity="1"><title>C9 · Mctp1
-Detected 99.0% (619/625)
-Mean log1p CP10k: 2.378
-Saved z: 1.813</title></circle><circle cx="443" cy="348" r="6.825833282464493" fill="#b2182b" opacity="1"><title>C9 · Socs2
-Detected 72.8% (455/625)
-Mean log1p CP10k: 0.691
-Saved z: 2.270</title></circle><circle cx="482" cy="348" r="2.789695323866031" fill="#2166ac" opacity="1"><title>C9 · Gpc6
+Shared-reference display z: 1.484</title></circle><circle cx="287" cy="318" r="2.789695323866031" fill="#2166ac" opacity="1"><title>C9 · Gpc6
 Detected 12.2% (76/625)
 Mean log1p CP10k: 0.088
-Saved z: -0.844</title></circle><circle cx="521" cy="348" r="1.2393546707863734" fill="#2166ac" opacity="1"><title>C9 · Adra1a
+Shared-reference display z: -0.844</title></circle><circle cx="326" cy="318" r="1.2393546707863734" fill="#2166ac" opacity="1"><title>C9 · Adra1a
 Detected 2.4% (15/625)
 Mean log1p CP10k: 0.018
-Saved z: -0.713</title></circle><circle cx="560" cy="348" r="2.3946607275353227" fill="#5186bd" opacity="1"><title>C9 · Ndrg2
-Detected 9.0% (56/625)
-Mean log1p CP10k: 0.059
-Saved z: -0.399</title></circle><circle cx="599" cy="348" r="3.1189741903388684" fill="#2d6eb0" opacity="1"><title>C9 · Gm19951
-Detected 15.2% (95/625)
-Mean log1p CP10k: 0.096
-Saved z: -0.626</title></circle><circle cx="638" cy="348" r="2.0489997559785116" fill="#2a6caf" opacity="1"><title>C9 · Cdh13
+Shared-reference display z: -0.713</title></circle><circle cx="365" cy="318" r="2.0489997559785116" fill="#2a6caf" opacity="1"><title>C9 · Cdh13
 Detected 6.6% (41/625)
 Mean log1p CP10k: 0.039
-Saved z: -0.645</title></circle><circle cx="677" cy="348" r="6.196773353931867" fill="#e1e8ef" opacity="1"><title>C9 · Rgs6
+Shared-reference display z: -0.645</title></circle><circle cx="404" cy="318" r="6.196773353931867" fill="#e1e8ef" opacity="1"><title>C9 · Rgs6
 Detected 60.0% (375/625)
 Mean log1p CP10k: 0.667
-Saved z: 0.513</title></circle><circle cx="716" cy="348" r="7.4223446430356494" fill="#b2182b" opacity="1"><title>C9 · Ppfibp1
+Shared-reference display z: 0.513</title></circle><circle cx="443" cy="318" r="7.599578935704267" fill="#b62436" opacity="1"><title>C9 · Grik4
+Detected 90.2% (564/625)
+Mean log1p CP10k: 1.142
+Shared-reference display z: 1.929</title></circle><circle cx="482" cy="318" r="7.961507394959826" fill="#bc3747" opacity="1"><title>C9 · Mctp1
+Detected 99.0% (619/625)
+Mean log1p CP10k: 2.378
+Shared-reference display z: 1.813</title></circle><circle cx="521" cy="318" r="6.825833282464493" fill="#b2182b" opacity="1"><title>C9 · Socs2
+Detected 72.8% (455/625)
+Mean log1p CP10k: 0.691
+Shared-reference display z: 2.270</title></circle><circle cx="560" cy="318" r="7.4223446430356494" fill="#b2182b" opacity="1"><title>C9 · Ppfibp1
 Detected 86.1% (538/625)
 Mean log1p CP10k: 1.042
-Saved z: 3.037</title></circle><circle cx="755" cy="348" r="7.133918979074545" fill="#b2182b" opacity="1"><title>C9 · Dchs2
+Shared-reference display z: 3.037</title></circle><circle cx="599" cy="318" r="7.133918979074545" fill="#b2182b" opacity="1"><title>C9 · Dchs2
 Detected 79.5% (497/625)
 Mean log1p CP10k: 0.869
-Saved z: 2.986</title></circle><circle cx="794" cy="348" r="2.307552816296953" fill="#4d84bc" opacity="1"><title>C9 · Tshz2
+Shared-reference display z: 2.986</title></circle><circle cx="638" cy="318" r="6.742818401825753" fill="#e0adb3" opacity="1"><title>C9 · Brinp3
+Detected 71.0% (444/625)
+Mean log1p CP10k: 0.788
+Shared-reference display z: 1.100</title></circle><circle cx="677" cy="318" r="3.6062168542670863" fill="#2f6fb1" opacity="1"><title>C9 · Pde11a
+Detected 20.3% (127/625)
+Mean log1p CP10k: 0.253
+Shared-reference display z: -0.613</title></circle><circle cx="716" cy="318" r="2.307552816296953" fill="#4d84bc" opacity="1"><title>C9 · Tshz2
 Detected 8.3% (52/625)
 Mean log1p CP10k: 0.051
-Saved z: -0.419</title></circle><circle cx="833" cy="348" r="3.215960198758685" fill="#4e84bc" opacity="1"><title>C9 · Cdh20
+Shared-reference display z: -0.419</title></circle><circle cx="755" cy="318" r="3.215960198758685" fill="#4e84bc" opacity="1"><title>C9 · Cdh20
 Detected 16.2% (101/625)
 Mean log1p CP10k: 0.133
-Saved z: -0.419</title></circle><circle cx="872" cy="348" r="0.7155417527999327" fill="#4f85bc" opacity="1"><title>C9 · Mertk
+Shared-reference display z: -0.419</title></circle><circle cx="794" cy="318" r="0.7155417527999327" fill="#4f85bc" opacity="1"><title>C9 · Mertk
 Detected 0.8% (5/625)
 Mean log1p CP10k: 0.004
-Saved z: -0.412</title></circle><circle cx="911" cy="348" r="4.905507109361885" fill="#d3dfea" opacity="1"><title>C9 · Tgfbr1
+Shared-reference display z: -0.412</title></circle><circle cx="833" cy="318" r="4.905507109361885" fill="#d3dfea" opacity="1"><title>C9 · Tgfbr1
 Detected 37.6% (235/625)
 Mean log1p CP10k: 0.284
-Saved z: 0.423</title></circle><text x="65" y="383.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C10</text><rect x="14" y="369" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="378" r="4.009122018688205" fill="#5f90c2" opacity="1"><title>C10 · Epha10
+Shared-reference display z: 0.423</title></circle><rect x="13" y="333" width="871" height="30" fill="#f5f8fa"/><text x="65" y="353.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C10</text><rect x="14" y="339" width="5" height="18" fill="#f4a35f"/><circle cx="92" cy="348" r="4.009122018688205" fill="#5f90c2" opacity="1"><title>C10 · Epha10
 Detected 25.1% (55/219)
 Mean log1p CP10k: 0.218
-Saved z: -0.312</title></circle><circle cx="131" cy="378" r="4.650330179272834" fill="#c9d8e7" opacity="1"><title>C10 · Stac
+Shared-reference display z: -0.312</title></circle><circle cx="131" cy="348" r="4.650330179272834" fill="#c9d8e7" opacity="1"><title>C10 · Stac
 Detected 33.8% (74/219)
 Mean log1p CP10k: 0.376
-Saved z: 0.360</title></circle><circle cx="170" cy="378" r="2.860532887737263" fill="#2166ac" opacity="1"><title>C10 · 4921539H07Rik
+Shared-reference display z: 0.360</title></circle><circle cx="170" cy="348" r="2.860532887737263" fill="#2166ac" opacity="1"><title>C10 · 4921539H07Rik
 Detected 12.8% (28/219)
 Mean log1p CP10k: 0.118
-Saved z: -0.875</title></circle><circle cx="209" cy="378" r="1.529019144215989" fill="#2166ac" opacity="1"><title>C10 · 1700007F19Rik
+Shared-reference display z: -0.875</title></circle><circle cx="209" cy="348" r="1.529019144215989" fill="#2166ac" opacity="1"><title>C10 · 1700007F19Rik
 Detected 3.7% (8/219)
 Mean log1p CP10k: 0.027
-Saved z: -0.790</title></circle><circle cx="248" cy="378" r="2.960932840790421" fill="#2166ac" opacity="1"><title>C10 · Itgbl1
+Shared-reference display z: -0.790</title></circle><circle cx="248" cy="348" r="2.960932840790421" fill="#2166ac" opacity="1"><title>C10 · Itgbl1
 Detected 13.7% (30/219)
 Mean log1p CP10k: 0.123
-Saved z: -0.983</title></circle><circle cx="287" cy="378" r="3.8225478605399723" fill="#2166ac" opacity="1"><title>C10 · Grik4
-Detected 22.8% (50/219)
-Mean log1p CP10k: 0.211
-Saved z: -0.946</title></circle><circle cx="326" cy="378" r="6.419149433690946" fill="#b2182b" opacity="1"><title>C10 · Brinp3
-Detected 64.4% (141/219)
-Mean log1p CP10k: 1.114
-Saved z: 2.186</title></circle><circle cx="365" cy="378" r="7.412195307019803" fill="#b2182b" opacity="1"><title>C10 · Pde11a
-Detected 85.8% (188/219)
-Mean log1p CP10k: 1.595
-Saved z: 2.340</title></circle><circle cx="404" cy="378" r="7.702220518346771" fill="#e6c0c5" opacity="1"><title>C10 · Mctp1
-Detected 92.7% (203/219)
-Mean log1p CP10k: 1.780
-Saved z: 0.983</title></circle><circle cx="443" cy="378" r="4.117010042433431" fill="#93b3d4" opacity="1"><title>C10 · Socs2
-Detected 26.5% (58/219)
-Mean log1p CP10k: 0.259
-Saved z: 0.022</title></circle><circle cx="482" cy="378" r="7.412195307019803" fill="#bd3d4d" opacity="1"><title>C10 · Gpc6
+Shared-reference display z: -0.983</title></circle><circle cx="287" cy="348" r="7.412195307019803" fill="#bd3d4d" opacity="1"><title>C10 · Gpc6
 Detected 85.8% (188/219)
 Mean log1p CP10k: 1.633
-Saved z: 1.776</title></circle><circle cx="521" cy="378" r="4.7127535117063415" fill="#e7c5c9" opacity="1"><title>C10 · Adra1a
+Shared-reference display z: 1.776</title></circle><circle cx="326" cy="348" r="4.7127535117063415" fill="#e7c5c9" opacity="1"><title>C10 · Adra1a
 Detected 34.7% (76/219)
 Mean log1p CP10k: 0.353
-Saved z: 0.955</title></circle><circle cx="560" cy="378" r="2.5355913993173735" fill="#b0c7de" opacity="1"><title>C10 · Ndrg2
-Detected 10.0% (22/219)
-Mean log1p CP10k: 0.080
-Saved z: 0.203</title></circle><circle cx="599" cy="378" r="3.058038288431978" fill="#7ca4cc" opacity="1"><title>C10 · Gm19951
-Detected 14.6% (32/219)
-Mean log1p CP10k: 0.123
-Saved z: -0.124</title></circle><circle cx="638" cy="378" r="6.116076576863956" fill="#d68c95" opacity="1"><title>C10 · Cdh13
+Shared-reference display z: 0.955</title></circle><circle cx="365" cy="348" r="6.116076576863956" fill="#d68c95" opacity="1"><title>C10 · Cdh13
 Detected 58.4% (128/219)
 Mean log1p CP10k: 1.463
-Saved z: 1.300</title></circle><circle cx="677" cy="378" r="4.045404405452311" fill="#739dc9" opacity="1"><title>C10 · Rgs6
+Shared-reference display z: 1.300</title></circle><circle cx="404" cy="348" r="4.045404405452311" fill="#739dc9" opacity="1"><title>C10 · Rgs6
 Detected 25.6% (56/219)
 Mean log1p CP10k: 0.306
-Saved z: -0.185</title></circle><circle cx="716" cy="378" r="2.0936956903608546" fill="#407bb7" opacity="1"><title>C10 · Ppfibp1
+Shared-reference display z: -0.185</title></circle><circle cx="443" cy="348" r="3.8225478605399723" fill="#2166ac" opacity="1"><title>C10 · Grik4
+Detected 22.8% (50/219)
+Mean log1p CP10k: 0.211
+Shared-reference display z: -0.946</title></circle><circle cx="482" cy="348" r="7.702220518346771" fill="#e6c0c5" opacity="1"><title>C10 · Mctp1
+Detected 92.7% (203/219)
+Mean log1p CP10k: 1.780
+Shared-reference display z: 0.983</title></circle><circle cx="521" cy="348" r="4.117010042433431" fill="#93b3d4" opacity="1"><title>C10 · Socs2
+Detected 26.5% (58/219)
+Mean log1p CP10k: 0.259
+Shared-reference display z: 0.022</title></circle><circle cx="560" cy="348" r="2.0936956903608546" fill="#407bb7" opacity="1"><title>C10 · Ppfibp1
 Detected 6.8% (15/219)
 Mean log1p CP10k: 0.056
-Saved z: -0.505</title></circle><circle cx="755" cy="378" r="2.4175915408619977" fill="#6997c5" opacity="1"><title>C10 · Dchs2
+Shared-reference display z: -0.505</title></circle><circle cx="599" cy="348" r="2.4175915408619977" fill="#6997c5" opacity="1"><title>C10 · Dchs2
 Detected 9.1% (20/219)
 Mean log1p CP10k: 0.075
-Saved z: -0.243</title></circle><circle cx="794" cy="378" r="7.606774197952121" fill="#b2182b" opacity="1"><title>C10 · Tshz2
+Shared-reference display z: -0.243</title></circle><circle cx="638" cy="348" r="6.419149433690946" fill="#b2182b" opacity="1"><title>C10 · Brinp3
+Detected 64.4% (141/219)
+Mean log1p CP10k: 1.114
+Shared-reference display z: 2.186</title></circle><circle cx="677" cy="348" r="7.412195307019803" fill="#b2182b" opacity="1"><title>C10 · Pde11a
+Detected 85.8% (188/219)
+Mean log1p CP10k: 1.595
+Shared-reference display z: 2.340</title></circle><circle cx="716" cy="348" r="7.606774197952121" fill="#b2182b" opacity="1"><title>C10 · Tshz2
 Detected 90.4% (198/219)
 Mean log1p CP10k: 2.415
-Saved z: 3.134</title></circle><circle cx="833" cy="378" r="7.510114944794005" fill="#b2182b" opacity="1"><title>C10 · Cdh20
+Shared-reference display z: 3.134</title></circle><circle cx="755" cy="348" r="7.510114944794005" fill="#b2182b" opacity="1"><title>C10 · Cdh20
 Detected 88.1% (193/219)
 Mean log1p CP10k: 1.577
-Saved z: 2.842</title></circle><circle cx="872" cy="378" r="0.5405899027195887" fill="#4e85bc" opacity="1"><title>C10 · Mertk
+Shared-reference display z: 2.842</title></circle><circle cx="794" cy="348" r="0.5405899027195887" fill="#4e85bc" opacity="1"><title>C10 · Mertk
 Detected 0.5% (1/219)
 Mean log1p CP10k: 0.003
-Saved z: -0.415</title></circle><circle cx="911" cy="378" r="1.0811798054391775" fill="#447db8" opacity="1"><title>C10 · Tgfbr1
+Shared-reference display z: -0.415</title></circle><circle cx="833" cy="348" r="1.0811798054391775" fill="#447db8" opacity="1"><title>C10 · Tgfbr1
 Detected 1.8% (4/219)
 Mean log1p CP10k: 0.014
-Saved z: -0.482</title></circle><rect x="13" y="393" width="949" height="30" fill="#f5f8fa"/><text x="65" y="413.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C11 ‡</text><rect x="14" y="399" width="5" height="18" fill="#a5b3bc"/><circle cx="92" cy="408" r="5.27237895052886" fill="#d2deea" opacity="1"><title>C11 · Epha10
+Shared-reference display z: -0.482</title></circle><text x="65" y="383.1" font-size="15" fill="#183448" font-weight="600" text-anchor="end">C11 ‡</text><rect x="14" y="369" width="5" height="18" fill="#a5b3bc"/><circle cx="92" cy="378" r="5.27237895052886" fill="#d2deea" opacity="1"><title>C11 · Epha10
 Detected 43.4% (43/99)
 Mean log1p CP10k: 0.385
-Saved z: 0.415</title></circle><circle cx="131" cy="408" r="4.688261722621507" fill="#b9cde1" opacity="1"><title>C11 · Stac
+Shared-reference display z: 0.415</title></circle><circle cx="131" cy="378" r="4.688261722621507" fill="#b9cde1" opacity="1"><title>C11 · Stac
 Detected 34.3% (34/99)
 Mean log1p CP10k: 0.352
-Saved z: 0.261</title></circle><circle cx="170" cy="408" r="5.7979446027158295" fill="#cbd9e8" opacity="1"><title>C11 · 4921539H07Rik
+Shared-reference display z: 0.261</title></circle><circle cx="170" cy="378" r="5.7979446027158295" fill="#cbd9e8" opacity="1"><title>C11 · 4921539H07Rik
 Detected 52.5% (52/99)
 Mean log1p CP10k: 0.982
-Saved z: 0.375</title></circle><circle cx="209" cy="408" r="4.688261722621507" fill="#dae3ed" opacity="1"><title>C11 · 1700007F19Rik
+Shared-reference display z: 0.375</title></circle><circle cx="209" cy="378" r="4.688261722621507" fill="#dae3ed" opacity="1"><title>C11 · 1700007F19Rik
 Detected 34.3% (34/99)
 Mean log1p CP10k: 0.308
-Saved z: 0.465</title></circle><circle cx="248" cy="408" r="4.956375345517787" fill="#9ebad8" opacity="1"><title>C11 · Itgbl1
+Shared-reference display z: 0.465</title></circle><circle cx="248" cy="378" r="4.956375345517787" fill="#9ebad8" opacity="1"><title>C11 · Itgbl1
 Detected 38.4% (38/99)
 Mean log1p CP10k: 0.387
-Saved z: 0.086</title></circle><circle cx="287" cy="408" r="5.6853524361496115" fill="#99b7d6" opacity="1"><title>C11 · Grik4
-Detected 50.5% (50/99)
-Mean log1p CP10k: 0.536
-Saved z: 0.055</title></circle><circle cx="326" cy="408" r="4.254528187826484" fill="#3e7ab6" opacity="1"><title>C11 · Brinp3
-Detected 28.3% (28/99)
-Mean log1p CP10k: 0.302
-Saved z: -0.517</title></circle><circle cx="365" cy="408" r="4.618802153517006" fill="#6d99c7" opacity="1"><title>C11 · Pde11a
-Detected 33.3% (33/99)
-Mean log1p CP10k: 0.431
-Saved z: -0.222</title></circle><circle cx="404" cy="408" r="6.3309405368245315" fill="#76a0ca" opacity="1"><title>C11 · Mctp1
-Detected 62.6% (62/99)
-Mean log1p CP10k: 0.954
-Saved z: -0.164</title></circle><circle cx="443" cy="408" r="4.4038550605054425" fill="#87abd0" opacity="1"><title>C11 · Socs2
-Detected 30.3% (30/99)
-Mean log1p CP10k: 0.245
-Saved z: -0.053</title></circle><circle cx="482" cy="408" r="5.148305595538255" fill="#85aacf" opacity="1"><title>C11 · Gpc6
+Shared-reference display z: 0.086</title></circle><circle cx="287" cy="378" r="5.148305595538255" fill="#85aacf" opacity="1"><title>C11 · Gpc6
 Detected 41.4% (41/99)
 Mean log1p CP10k: 0.545
-Saved z: -0.069</title></circle><circle cx="521" cy="408" r="3.7712361663282534" fill="#92b3d4" opacity="1"><title>C11 · Adra1a
+Shared-reference display z: -0.069</title></circle><circle cx="326" cy="378" r="3.7712361663282534" fill="#92b3d4" opacity="1"><title>C11 · Adra1a
 Detected 22.2% (22/99)
 Mean log1p CP10k: 0.164
-Saved z: 0.015</title></circle><circle cx="560" cy="408" r="3.0084057323614197" fill="#e2b3b9" opacity="1"><title>C11 · Ndrg2
-Detected 14.1% (14/99)
-Mean log1p CP10k: 0.109
-Saved z: 1.061</title></circle><circle cx="599" cy="408" r="3.411211461689767" fill="#b6cbe0" opacity="1"><title>C11 · Gm19951
-Detected 18.2% (18/99)
-Mean log1p CP10k: 0.144
-Saved z: 0.242</title></circle><circle cx="638" cy="408" r="3.8559936292331796" fill="#5f90c2" opacity="1"><title>C11 · Cdh13
+Shared-reference display z: 0.015</title></circle><circle cx="365" cy="378" r="3.8559936292331796" fill="#5f90c2" opacity="1"><title>C11 · Cdh13
 Detected 23.2% (23/99)
 Mean log1p CP10k: 0.284
-Saved z: -0.311</title></circle><circle cx="677" cy="408" r="3.3151016560429922" fill="#588bbf" opacity="1"><title>C11 · Rgs6
+Shared-reference display z: -0.311</title></circle><circle cx="404" cy="378" r="3.3151016560429922" fill="#588bbf" opacity="1"><title>C11 · Rgs6
 Detected 17.2% (17/99)
 Mean log1p CP10k: 0.219
-Saved z: -0.352</title></circle><circle cx="716" cy="408" r="3.7712361663282534" fill="#80a6cd" opacity="1"><title>C11 · Ppfibp1
+Shared-reference display z: -0.352</title></circle><circle cx="443" cy="378" r="5.6853524361496115" fill="#99b7d6" opacity="1"><title>C11 · Grik4
+Detected 50.5% (50/99)
+Mean log1p CP10k: 0.536
+Shared-reference display z: 0.055</title></circle><circle cx="482" cy="378" r="6.3309405368245315" fill="#76a0ca" opacity="1"><title>C11 · Mctp1
+Detected 62.6% (62/99)
+Mean log1p CP10k: 0.954
+Shared-reference display z: -0.164</title></circle><circle cx="521" cy="378" r="4.4038550605054425" fill="#87abd0" opacity="1"><title>C11 · Socs2
+Detected 30.3% (30/99)
+Mean log1p CP10k: 0.245
+Shared-reference display z: -0.053</title></circle><circle cx="560" cy="378" r="3.7712361663282534" fill="#80a6cd" opacity="1"><title>C11 · Ppfibp1
 Detected 22.2% (22/99)
 Mean log1p CP10k: 0.168
-Saved z: -0.103</title></circle><circle cx="755" cy="408" r="2.412090756622109" fill="#6292c3" opacity="1"><title>C11 · Dchs2
+Shared-reference display z: -0.103</title></circle><circle cx="599" cy="378" r="2.412090756622109" fill="#6292c3" opacity="1"><title>C11 · Dchs2
 Detected 9.1% (9/99)
 Mean log1p CP10k: 0.065
-Saved z: -0.287</title></circle><circle cx="794" cy="408" r="3.411211461689767" fill="#739ec9" opacity="1"><title>C11 · Tshz2
+Shared-reference display z: -0.287</title></circle><circle cx="638" cy="378" r="4.254528187826484" fill="#3e7ab6" opacity="1"><title>C11 · Brinp3
+Detected 28.3% (28/99)
+Mean log1p CP10k: 0.302
+Shared-reference display z: -0.517</title></circle><circle cx="677" cy="378" r="4.618802153517006" fill="#6d99c7" opacity="1"><title>C11 · Pde11a
+Detected 33.3% (33/99)
+Mean log1p CP10k: 0.431
+Shared-reference display z: -0.222</title></circle><circle cx="716" cy="378" r="3.411211461689767" fill="#739ec9" opacity="1"><title>C11 · Tshz2
 Detected 18.2% (18/99)
 Mean log1p CP10k: 0.210
-Saved z: -0.181</title></circle><circle cx="833" cy="408" r="3.2161210088294787" fill="#588bbf" opacity="1"><title>C11 · Cdh20
+Shared-reference display z: -0.181</title></circle><circle cx="755" cy="378" r="3.2161210088294787" fill="#588bbf" opacity="1"><title>C11 · Cdh20
 Detected 16.2% (16/99)
 Mean log1p CP10k: 0.162
-Saved z: -0.354</title></circle><circle cx="872" cy="408" r="6.869637486208365" fill="#b2182b" opacity="1"><title>C11 · Mertk
+Shared-reference display z: -0.354</title></circle><circle cx="794" cy="378" r="6.869637486208365" fill="#b2182b" opacity="1"><title>C11 · Mertk
 Detected 73.7% (73/99)
 Mean log1p CP10k: 0.852
-Saved z: 3.156</title></circle><circle cx="911" cy="408" r="7.00937323384289" fill="#b2182b" opacity="1"><title>C11 · Tgfbr1
+Shared-reference display z: 3.156</title></circle><circle cx="833" cy="378" r="7.00937323384289" fill="#b2182b" opacity="1"><title>C11 · Tgfbr1
 Detected 76.8% (76/99)
 Mean log1p CP10k: 1.074
-Saved z: 3.064</title></circle><text x="96" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 96 444)">Epha10</text><text x="135" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 135 444)">Stac</text><text x="174" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 174 444)">4921539H07Rik</text><text x="213" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 213 444)">1700007F19Rik</text><text x="252" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 252 444)">Itgbl1</text><text x="291" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 291 444)">Grik4</text><text x="330" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 330 444)">Brinp3</text><text x="369" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 369 444)">Pde11a</text><text x="408" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 408 444)">Mctp1</text><text x="447" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 447 444)">Socs2</text><text x="486" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 486 444)">Gpc6</text><text x="525" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 525 444)">Adra1a</text><text x="564" y="444" font-size="15" fill="#81591a" font-weight="400" text-anchor="end" transform="rotate(-55 564 444)">Ndrg2 †</text><text x="603" y="444" font-size="15" fill="#81591a" font-weight="400" text-anchor="end" transform="rotate(-55 603 444)">Gm19951 †</text><text x="642" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 642 444)">Cdh13</text><text x="681" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 681 444)">Rgs6</text><text x="720" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 720 444)">Ppfibp1</text><text x="759" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 759 444)">Dchs2</text><text x="798" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 798 444)">Tshz2</text><text x="837" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 837 444)">Cdh20</text><text x="876" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 876 444)">Mertk</text><text x="915" y="444" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 915 444)">Tgfbr1</text><text x="24" y="576" font-size="13" fill="#526c7c" font-weight="400" text-anchor="start">Detected nuclei · dot area</text><circle cx="235" cy="572" r="2.5298221281347035" fill="#69869a" opacity="1"><title></title></circle><text x="250" y="576" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">10%</text><circle cx="315" cy="572" r="5.656854249492381" fill="#69869a" opacity="1"><title></title></circle><text x="330" y="576" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">50%</text><circle cx="395" cy="572" r="8" fill="#69869a" opacity="1"><title></title></circle><text x="410" y="576" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">100%</text><rect x="757" y="565" width="1.1" height="8" fill="#2166ac"/><rect x="758" y="565" width="1.1" height="8" fill="#2368ad"/><rect x="759" y="565" width="1.1" height="8" fill="#2669ae"/><rect x="760" y="565" width="1.1" height="8" fill="#286baf"/><rect x="761" y="565" width="1.1" height="8" fill="#2b6caf"/><rect x="762" y="565" width="1.1" height="8" fill="#2d6eb0"/><rect x="763" y="565" width="1.1" height="8" fill="#2f70b1"/><rect x="764" y="565" width="1.1" height="8" fill="#3271b2"/><rect x="765" y="565" width="1.1" height="8" fill="#3473b3"/><rect x="766" y="565" width="1.1" height="8" fill="#3775b4"/><rect x="767" y="565" width="1.1" height="8" fill="#3976b4"/><rect x="768" y="565" width="1.1" height="8" fill="#3b78b5"/><rect x="769" y="565" width="1.1" height="8" fill="#3e79b6"/><rect x="770" y="565" width="1.1" height="8" fill="#407bb7"/><rect x="771" y="565" width="1.1" height="8" fill="#427db8"/><rect x="772" y="565" width="1.1" height="8" fill="#457eb9"/><rect x="773" y="565" width="1.1" height="8" fill="#4780b9"/><rect x="774" y="565" width="1.1" height="8" fill="#4a82ba"/><rect x="775" y="565" width="1.1" height="8" fill="#4c83bb"/><rect x="776" y="565" width="1.1" height="8" fill="#4e85bc"/><rect x="777" y="565" width="1.1" height="8" fill="#5186bd"/><rect x="778" y="565" width="1.1" height="8" fill="#5388be"/><rect x="779" y="565" width="1.1" height="8" fill="#568abe"/><rect x="780" y="565" width="1.1" height="8" fill="#588bbf"/><rect x="781" y="565" width="1.1" height="8" fill="#5a8dc0"/><rect x="782" y="565" width="1.1" height="8" fill="#5d8fc1"/><rect x="783" y="565" width="1.1" height="8" fill="#5f90c2"/><rect x="784" y="565" width="1.1" height="8" fill="#6292c3"/><rect x="785" y="565" width="1.1" height="8" fill="#6493c3"/><rect x="786" y="565" width="1.1" height="8" fill="#6695c4"/><rect x="787" y="565" width="1.1" height="8" fill="#6997c5"/><rect x="788" y="565" width="1.1" height="8" fill="#6b98c6"/><rect x="789" y="565" width="1.1" height="8" fill="#6e9ac7"/><rect x="790" y="565" width="1.1" height="8" fill="#709bc8"/><rect x="791" y="565" width="1.1" height="8" fill="#729dc8"/><rect x="792" y="565" width="1.1" height="8" fill="#759fc9"/><rect x="793" y="565" width="1.1" height="8" fill="#77a0ca"/><rect x="794" y="565" width="1.1" height="8" fill="#79a2cb"/><rect x="795" y="565" width="1.1" height="8" fill="#7ca4cc"/><rect x="796" y="565" width="1.1" height="8" fill="#7ea5cd"/><rect x="797" y="565" width="1.1" height="8" fill="#81a7ce"/><rect x="798" y="565" width="1.1" height="8" fill="#83a8ce"/><rect x="799" y="565" width="1.1" height="8" fill="#85aacf"/><rect x="800" y="565" width="1.1" height="8" fill="#88acd0"/><rect x="801" y="565" width="1.1" height="8" fill="#8aadd1"/><rect x="802" y="565" width="1.1" height="8" fill="#8dafd2"/><rect x="803" y="565" width="1.1" height="8" fill="#8fb1d3"/><rect x="804" y="565" width="1.1" height="8" fill="#91b2d3"/><rect x="805" y="565" width="1.1" height="8" fill="#94b4d4"/><rect x="806" y="565" width="1.1" height="8" fill="#96b5d5"/><rect x="807" y="565" width="1.1" height="8" fill="#99b7d6"/><rect x="808" y="565" width="1.1" height="8" fill="#9bb9d7"/><rect x="809" y="565" width="1.1" height="8" fill="#9dbad8"/><rect x="810" y="565" width="1.1" height="8" fill="#a0bcd8"/><rect x="811" y="565" width="1.1" height="8" fill="#a2bdd9"/><rect x="812" y="565" width="1.1" height="8" fill="#a5bfda"/><rect x="813" y="565" width="1.1" height="8" fill="#a7c1db"/><rect x="814" y="565" width="1.1" height="8" fill="#a9c2dc"/><rect x="815" y="565" width="1.1" height="8" fill="#acc4dd"/><rect x="816" y="565" width="1.1" height="8" fill="#aec6dd"/><rect x="817" y="565" width="1.1" height="8" fill="#b0c7de"/><rect x="818" y="565" width="1.1" height="8" fill="#b3c9df"/><rect x="819" y="565" width="1.1" height="8" fill="#b5cae0"/><rect x="820" y="565" width="1.1" height="8" fill="#b8cce1"/><rect x="821" y="565" width="1.1" height="8" fill="#bacee2"/><rect x="822" y="565" width="1.1" height="8" fill="#bccfe2"/><rect x="823" y="565" width="1.1" height="8" fill="#bfd1e3"/><rect x="824" y="565" width="1.1" height="8" fill="#c1d3e4"/><rect x="825" y="565" width="1.1" height="8" fill="#c4d4e5"/><rect x="826" y="565" width="1.1" height="8" fill="#c6d6e6"/><rect x="827" y="565" width="1.1" height="8" fill="#c8d7e7"/><rect x="828" y="565" width="1.1" height="8" fill="#cbd9e7"/><rect x="829" y="565" width="1.1" height="8" fill="#cddbe8"/><rect x="830" y="565" width="1.1" height="8" fill="#d0dce9"/><rect x="831" y="565" width="1.1" height="8" fill="#d2deea"/><rect x="832" y="565" width="1.1" height="8" fill="#d4e0eb"/><rect x="833" y="565" width="1.1" height="8" fill="#d7e1ec"/><rect x="834" y="565" width="1.1" height="8" fill="#d9e3ed"/><rect x="835" y="565" width="1.1" height="8" fill="#dce4ed"/><rect x="836" y="565" width="1.1" height="8" fill="#dee6ee"/><rect x="837" y="565" width="1.1" height="8" fill="#e0e8ef"/><rect x="838" y="565" width="1.1" height="8" fill="#e3e9f0"/><rect x="839" y="565" width="1.1" height="8" fill="#e5ebf1"/><rect x="840" y="565" width="1.1" height="8" fill="#e7ecf2"/><rect x="841" y="565" width="1.1" height="8" fill="#eaeef2"/><rect x="842" y="565" width="1.1" height="8" fill="#ecf0f3"/><rect x="843" y="565" width="1.1" height="8" fill="#eff1f4"/><rect x="844" y="565" width="1.1" height="8" fill="#f1f3f5"/><rect x="845" y="565" width="1.1" height="8" fill="#f3f5f6"/><rect x="846" y="565" width="1.1" height="8" fill="#f6f6f7"/><rect x="847" y="565" width="1.1" height="8" fill="#f7f6f6"/><rect x="848" y="565" width="1.1" height="8" fill="#f6f3f4"/><rect x="849" y="565" width="1.1" height="8" fill="#f5f1f1"/><rect x="850" y="565" width="1.1" height="8" fill="#f4eeef"/><rect x="851" y="565" width="1.1" height="8" fill="#f4eced"/><rect x="852" y="565" width="1.1" height="8" fill="#f3e9ea"/><rect x="853" y="565" width="1.1" height="8" fill="#f2e7e8"/><rect x="854" y="565" width="1.1" height="8" fill="#f1e4e6"/><rect x="855" y="565" width="1.1" height="8" fill="#f0e2e4"/><rect x="856" y="565" width="1.1" height="8" fill="#f0dfe1"/><rect x="857" y="565" width="1.1" height="8" fill="#efdddf"/><rect x="858" y="565" width="1.1" height="8" fill="#eedadd"/><rect x="859" y="565" width="1.1" height="8" fill="#edd8db"/><rect x="860" y="565" width="1.1" height="8" fill="#edd5d8"/><rect x="861" y="565" width="1.1" height="8" fill="#ecd3d6"/><rect x="862" y="565" width="1.1" height="8" fill="#ebd0d4"/><rect x="863" y="565" width="1.1" height="8" fill="#eaced1"/><rect x="864" y="565" width="1.1" height="8" fill="#eacbcf"/><rect x="865" y="565" width="1.1" height="8" fill="#e9c9cd"/><rect x="866" y="565" width="1.1" height="8" fill="#e8c6cb"/><rect x="867" y="565" width="1.1" height="8" fill="#e7c4c8"/><rect x="868" y="565" width="1.1" height="8" fill="#e6c1c6"/><rect x="869" y="565" width="1.1" height="8" fill="#e6bfc4"/><rect x="870" y="565" width="1.1" height="8" fill="#e5bcc1"/><rect x="871" y="565" width="1.1" height="8" fill="#e4babf"/><rect x="872" y="565" width="1.1" height="8" fill="#e3b7bd"/><rect x="873" y="565" width="1.1" height="8" fill="#e3b5bb"/><rect x="874" y="565" width="1.1" height="8" fill="#e2b2b8"/><rect x="875" y="565" width="1.1" height="8" fill="#e1b0b6"/><rect x="876" y="565" width="1.1" height="8" fill="#e0adb4"/><rect x="877" y="565" width="1.1" height="8" fill="#dfabb1"/><rect x="878" y="565" width="1.1" height="8" fill="#dfa9af"/><rect x="879" y="565" width="1.1" height="8" fill="#dea6ad"/><rect x="880" y="565" width="1.1" height="8" fill="#dda4ab"/><rect x="881" y="565" width="1.1" height="8" fill="#dca1a8"/><rect x="882" y="565" width="1.1" height="8" fill="#dc9fa6"/><rect x="883" y="565" width="1.1" height="8" fill="#db9ca4"/><rect x="884" y="565" width="1.1" height="8" fill="#da9aa2"/><rect x="885" y="565" width="1.1" height="8" fill="#d9979f"/><rect x="886" y="565" width="1.1" height="8" fill="#d9959d"/><rect x="887" y="565" width="1.1" height="8" fill="#d8929b"/><rect x="888" y="565" width="1.1" height="8" fill="#d79098"/><rect x="889" y="565" width="1.1" height="8" fill="#d68d96"/><rect x="890" y="565" width="1.1" height="8" fill="#d58b94"/><rect x="891" y="565" width="1.1" height="8" fill="#d58892"/><rect x="892" y="565" width="1.1" height="8" fill="#d4868f"/><rect x="893" y="565" width="1.1" height="8" fill="#d3838d"/><rect x="894" y="565" width="1.1" height="8" fill="#d2818b"/><rect x="895" y="565" width="1.1" height="8" fill="#d27e88"/><rect x="896" y="565" width="1.1" height="8" fill="#d17c86"/><rect x="897" y="565" width="1.1" height="8" fill="#d07984"/><rect x="898" y="565" width="1.1" height="8" fill="#cf7782"/><rect x="899" y="565" width="1.1" height="8" fill="#cf747f"/><rect x="900" y="565" width="1.1" height="8" fill="#ce727d"/><rect x="901" y="565" width="1.1" height="8" fill="#cd6f7b"/><rect x="902" y="565" width="1.1" height="8" fill="#cc6d78"/><rect x="903" y="565" width="1.1" height="8" fill="#cb6a76"/><rect x="904" y="565" width="1.1" height="8" fill="#cb6874"/><rect x="905" y="565" width="1.1" height="8" fill="#ca6572"/><rect x="906" y="565" width="1.1" height="8" fill="#c9636f"/><rect x="907" y="565" width="1.1" height="8" fill="#c8606d"/><rect x="908" y="565" width="1.1" height="8" fill="#c85e6b"/><rect x="909" y="565" width="1.1" height="8" fill="#c75b69"/><rect x="910" y="565" width="1.1" height="8" fill="#c65966"/><rect x="911" y="565" width="1.1" height="8" fill="#c55664"/><rect x="912" y="565" width="1.1" height="8" fill="#c55462"/><rect x="913" y="565" width="1.1" height="8" fill="#c4515f"/><rect x="914" y="565" width="1.1" height="8" fill="#c34f5d"/><rect x="915" y="565" width="1.1" height="8" fill="#c24c5b"/><rect x="916" y="565" width="1.1" height="8" fill="#c14a59"/><rect x="917" y="565" width="1.1" height="8" fill="#c14756"/><rect x="918" y="565" width="1.1" height="8" fill="#c04554"/><rect x="919" y="565" width="1.1" height="8" fill="#bf4252"/><rect x="920" y="565" width="1.1" height="8" fill="#be404f"/><rect x="921" y="565" width="1.1" height="8" fill="#be3d4d"/><rect x="922" y="565" width="1.1" height="8" fill="#bd3b4b"/><rect x="923" y="565" width="1.1" height="8" fill="#bc3849"/><rect x="924" y="565" width="1.1" height="8" fill="#bb3646"/><rect x="925" y="565" width="1.1" height="8" fill="#ba3344"/><rect x="926" y="565" width="1.1" height="8" fill="#ba3142"/><rect x="927" y="565" width="1.1" height="8" fill="#b92e40"/><rect x="928" y="565" width="1.1" height="8" fill="#b82c3d"/><rect x="929" y="565" width="1.1" height="8" fill="#b7293b"/><rect x="930" y="565" width="1.1" height="8" fill="#b72739"/><rect x="931" y="565" width="1.1" height="8" fill="#b62436"/><rect x="932" y="565" width="1.1" height="8" fill="#b52234"/><rect x="933" y="565" width="1.1" height="8" fill="#b41f32"/><rect x="934" y="565" width="1.1" height="8" fill="#b41d30"/><rect x="935" y="565" width="1.1" height="8" fill="#b31a2d"/><rect x="936" y="565" width="1.1" height="8" fill="#b2182b"/><text x="757" y="556" font-size="13" fill="#526c7c" font-weight="400" text-anchor="start">Saved expression z-score</text><text x="757" y="591" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">-0.7</text><text x="937" y="591" font-size="12" fill="#526c7c" font-weight="400" text-anchor="end">2.0</text><text x="24" y="625" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">† C7 exploratory only.  ‡ C11 identity-conflicting.  Selection fixed from saved pooled markers.</text></svg>
+Shared-reference display z: 3.064</title></circle><text x="96" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 96 414)">Epha10</text><text x="135" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 135 414)">Stac</text><text x="174" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 174 414)">4921539H07Rik</text><text x="213" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 213 414)">1700007F19Rik</text><text x="252" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 252 414)">Itgbl1</text><text x="291" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 291 414)">Gpc6</text><text x="330" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 330 414)">Adra1a</text><text x="369" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 369 414)">Cdh13</text><text x="408" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 408 414)">Rgs6</text><text x="447" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 447 414)">Grik4</text><text x="486" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 486 414)">Mctp1</text><text x="525" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 525 414)">Socs2</text><text x="564" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 564 414)">Ppfibp1</text><text x="603" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 603 414)">Dchs2</text><text x="642" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 642 414)">Brinp3</text><text x="681" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 681 414)">Pde11a</text><text x="720" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 720 414)">Tshz2</text><text x="759" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 759 414)">Cdh20</text><text x="798" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 798 414)">Mertk</text><text x="837" y="414" font-size="15" fill="#183448" font-weight="400" text-anchor="end" transform="rotate(-55 837 414)">Tgfbr1</text><text x="24" y="546" font-size="13" fill="#526c7c" font-weight="400" text-anchor="start">Detected nuclei · dot area</text><circle cx="235" cy="542" r="2.5298221281347035" fill="#69869a" opacity="1"><title></title></circle><text x="250" y="546" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">10%</text><circle cx="315" cy="542" r="5.656854249492381" fill="#69869a" opacity="1"><title></title></circle><text x="330" y="546" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">50%</text><circle cx="395" cy="542" r="8" fill="#69869a" opacity="1"><title></title></circle><text x="410" y="546" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">100%</text><rect x="679" y="535" width="1.1" height="8" fill="#2166ac"/><rect x="680" y="535" width="1.1" height="8" fill="#2368ad"/><rect x="681" y="535" width="1.1" height="8" fill="#2669ae"/><rect x="682" y="535" width="1.1" height="8" fill="#286baf"/><rect x="683" y="535" width="1.1" height="8" fill="#2b6caf"/><rect x="684" y="535" width="1.1" height="8" fill="#2d6eb0"/><rect x="685" y="535" width="1.1" height="8" fill="#2f70b1"/><rect x="686" y="535" width="1.1" height="8" fill="#3271b2"/><rect x="687" y="535" width="1.1" height="8" fill="#3473b3"/><rect x="688" y="535" width="1.1" height="8" fill="#3775b4"/><rect x="689" y="535" width="1.1" height="8" fill="#3976b4"/><rect x="690" y="535" width="1.1" height="8" fill="#3b78b5"/><rect x="691" y="535" width="1.1" height="8" fill="#3e79b6"/><rect x="692" y="535" width="1.1" height="8" fill="#407bb7"/><rect x="693" y="535" width="1.1" height="8" fill="#427db8"/><rect x="694" y="535" width="1.1" height="8" fill="#457eb9"/><rect x="695" y="535" width="1.1" height="8" fill="#4780b9"/><rect x="696" y="535" width="1.1" height="8" fill="#4a82ba"/><rect x="697" y="535" width="1.1" height="8" fill="#4c83bb"/><rect x="698" y="535" width="1.1" height="8" fill="#4e85bc"/><rect x="699" y="535" width="1.1" height="8" fill="#5186bd"/><rect x="700" y="535" width="1.1" height="8" fill="#5388be"/><rect x="701" y="535" width="1.1" height="8" fill="#568abe"/><rect x="702" y="535" width="1.1" height="8" fill="#588bbf"/><rect x="703" y="535" width="1.1" height="8" fill="#5a8dc0"/><rect x="704" y="535" width="1.1" height="8" fill="#5d8fc1"/><rect x="705" y="535" width="1.1" height="8" fill="#5f90c2"/><rect x="706" y="535" width="1.1" height="8" fill="#6292c3"/><rect x="707" y="535" width="1.1" height="8" fill="#6493c3"/><rect x="708" y="535" width="1.1" height="8" fill="#6695c4"/><rect x="709" y="535" width="1.1" height="8" fill="#6997c5"/><rect x="710" y="535" width="1.1" height="8" fill="#6b98c6"/><rect x="711" y="535" width="1.1" height="8" fill="#6e9ac7"/><rect x="712" y="535" width="1.1" height="8" fill="#709bc8"/><rect x="713" y="535" width="1.1" height="8" fill="#729dc8"/><rect x="714" y="535" width="1.1" height="8" fill="#759fc9"/><rect x="715" y="535" width="1.1" height="8" fill="#77a0ca"/><rect x="716" y="535" width="1.1" height="8" fill="#79a2cb"/><rect x="717" y="535" width="1.1" height="8" fill="#7ca4cc"/><rect x="718" y="535" width="1.1" height="8" fill="#7ea5cd"/><rect x="719" y="535" width="1.1" height="8" fill="#81a7ce"/><rect x="720" y="535" width="1.1" height="8" fill="#83a8ce"/><rect x="721" y="535" width="1.1" height="8" fill="#85aacf"/><rect x="722" y="535" width="1.1" height="8" fill="#88acd0"/><rect x="723" y="535" width="1.1" height="8" fill="#8aadd1"/><rect x="724" y="535" width="1.1" height="8" fill="#8dafd2"/><rect x="725" y="535" width="1.1" height="8" fill="#8fb1d3"/><rect x="726" y="535" width="1.1" height="8" fill="#91b2d3"/><rect x="727" y="535" width="1.1" height="8" fill="#94b4d4"/><rect x="728" y="535" width="1.1" height="8" fill="#96b5d5"/><rect x="729" y="535" width="1.1" height="8" fill="#99b7d6"/><rect x="730" y="535" width="1.1" height="8" fill="#9bb9d7"/><rect x="731" y="535" width="1.1" height="8" fill="#9dbad8"/><rect x="732" y="535" width="1.1" height="8" fill="#a0bcd8"/><rect x="733" y="535" width="1.1" height="8" fill="#a2bdd9"/><rect x="734" y="535" width="1.1" height="8" fill="#a5bfda"/><rect x="735" y="535" width="1.1" height="8" fill="#a7c1db"/><rect x="736" y="535" width="1.1" height="8" fill="#a9c2dc"/><rect x="737" y="535" width="1.1" height="8" fill="#acc4dd"/><rect x="738" y="535" width="1.1" height="8" fill="#aec6dd"/><rect x="739" y="535" width="1.1" height="8" fill="#b0c7de"/><rect x="740" y="535" width="1.1" height="8" fill="#b3c9df"/><rect x="741" y="535" width="1.1" height="8" fill="#b5cae0"/><rect x="742" y="535" width="1.1" height="8" fill="#b8cce1"/><rect x="743" y="535" width="1.1" height="8" fill="#bacee2"/><rect x="744" y="535" width="1.1" height="8" fill="#bccfe2"/><rect x="745" y="535" width="1.1" height="8" fill="#bfd1e3"/><rect x="746" y="535" width="1.1" height="8" fill="#c1d3e4"/><rect x="747" y="535" width="1.1" height="8" fill="#c4d4e5"/><rect x="748" y="535" width="1.1" height="8" fill="#c6d6e6"/><rect x="749" y="535" width="1.1" height="8" fill="#c8d7e7"/><rect x="750" y="535" width="1.1" height="8" fill="#cbd9e7"/><rect x="751" y="535" width="1.1" height="8" fill="#cddbe8"/><rect x="752" y="535" width="1.1" height="8" fill="#d0dce9"/><rect x="753" y="535" width="1.1" height="8" fill="#d2deea"/><rect x="754" y="535" width="1.1" height="8" fill="#d4e0eb"/><rect x="755" y="535" width="1.1" height="8" fill="#d7e1ec"/><rect x="756" y="535" width="1.1" height="8" fill="#d9e3ed"/><rect x="757" y="535" width="1.1" height="8" fill="#dce4ed"/><rect x="758" y="535" width="1.1" height="8" fill="#dee6ee"/><rect x="759" y="535" width="1.1" height="8" fill="#e0e8ef"/><rect x="760" y="535" width="1.1" height="8" fill="#e3e9f0"/><rect x="761" y="535" width="1.1" height="8" fill="#e5ebf1"/><rect x="762" y="535" width="1.1" height="8" fill="#e7ecf2"/><rect x="763" y="535" width="1.1" height="8" fill="#eaeef2"/><rect x="764" y="535" width="1.1" height="8" fill="#ecf0f3"/><rect x="765" y="535" width="1.1" height="8" fill="#eff1f4"/><rect x="766" y="535" width="1.1" height="8" fill="#f1f3f5"/><rect x="767" y="535" width="1.1" height="8" fill="#f3f5f6"/><rect x="768" y="535" width="1.1" height="8" fill="#f6f6f7"/><rect x="769" y="535" width="1.1" height="8" fill="#f7f6f6"/><rect x="770" y="535" width="1.1" height="8" fill="#f6f3f4"/><rect x="771" y="535" width="1.1" height="8" fill="#f5f1f1"/><rect x="772" y="535" width="1.1" height="8" fill="#f4eeef"/><rect x="773" y="535" width="1.1" height="8" fill="#f4eced"/><rect x="774" y="535" width="1.1" height="8" fill="#f3e9ea"/><rect x="775" y="535" width="1.1" height="8" fill="#f2e7e8"/><rect x="776" y="535" width="1.1" height="8" fill="#f1e4e6"/><rect x="777" y="535" width="1.1" height="8" fill="#f0e2e4"/><rect x="778" y="535" width="1.1" height="8" fill="#f0dfe1"/><rect x="779" y="535" width="1.1" height="8" fill="#efdddf"/><rect x="780" y="535" width="1.1" height="8" fill="#eedadd"/><rect x="781" y="535" width="1.1" height="8" fill="#edd8db"/><rect x="782" y="535" width="1.1" height="8" fill="#edd5d8"/><rect x="783" y="535" width="1.1" height="8" fill="#ecd3d6"/><rect x="784" y="535" width="1.1" height="8" fill="#ebd0d4"/><rect x="785" y="535" width="1.1" height="8" fill="#eaced1"/><rect x="786" y="535" width="1.1" height="8" fill="#eacbcf"/><rect x="787" y="535" width="1.1" height="8" fill="#e9c9cd"/><rect x="788" y="535" width="1.1" height="8" fill="#e8c6cb"/><rect x="789" y="535" width="1.1" height="8" fill="#e7c4c8"/><rect x="790" y="535" width="1.1" height="8" fill="#e6c1c6"/><rect x="791" y="535" width="1.1" height="8" fill="#e6bfc4"/><rect x="792" y="535" width="1.1" height="8" fill="#e5bcc1"/><rect x="793" y="535" width="1.1" height="8" fill="#e4babf"/><rect x="794" y="535" width="1.1" height="8" fill="#e3b7bd"/><rect x="795" y="535" width="1.1" height="8" fill="#e3b5bb"/><rect x="796" y="535" width="1.1" height="8" fill="#e2b2b8"/><rect x="797" y="535" width="1.1" height="8" fill="#e1b0b6"/><rect x="798" y="535" width="1.1" height="8" fill="#e0adb4"/><rect x="799" y="535" width="1.1" height="8" fill="#dfabb1"/><rect x="800" y="535" width="1.1" height="8" fill="#dfa9af"/><rect x="801" y="535" width="1.1" height="8" fill="#dea6ad"/><rect x="802" y="535" width="1.1" height="8" fill="#dda4ab"/><rect x="803" y="535" width="1.1" height="8" fill="#dca1a8"/><rect x="804" y="535" width="1.1" height="8" fill="#dc9fa6"/><rect x="805" y="535" width="1.1" height="8" fill="#db9ca4"/><rect x="806" y="535" width="1.1" height="8" fill="#da9aa2"/><rect x="807" y="535" width="1.1" height="8" fill="#d9979f"/><rect x="808" y="535" width="1.1" height="8" fill="#d9959d"/><rect x="809" y="535" width="1.1" height="8" fill="#d8929b"/><rect x="810" y="535" width="1.1" height="8" fill="#d79098"/><rect x="811" y="535" width="1.1" height="8" fill="#d68d96"/><rect x="812" y="535" width="1.1" height="8" fill="#d58b94"/><rect x="813" y="535" width="1.1" height="8" fill="#d58892"/><rect x="814" y="535" width="1.1" height="8" fill="#d4868f"/><rect x="815" y="535" width="1.1" height="8" fill="#d3838d"/><rect x="816" y="535" width="1.1" height="8" fill="#d2818b"/><rect x="817" y="535" width="1.1" height="8" fill="#d27e88"/><rect x="818" y="535" width="1.1" height="8" fill="#d17c86"/><rect x="819" y="535" width="1.1" height="8" fill="#d07984"/><rect x="820" y="535" width="1.1" height="8" fill="#cf7782"/><rect x="821" y="535" width="1.1" height="8" fill="#cf747f"/><rect x="822" y="535" width="1.1" height="8" fill="#ce727d"/><rect x="823" y="535" width="1.1" height="8" fill="#cd6f7b"/><rect x="824" y="535" width="1.1" height="8" fill="#cc6d78"/><rect x="825" y="535" width="1.1" height="8" fill="#cb6a76"/><rect x="826" y="535" width="1.1" height="8" fill="#cb6874"/><rect x="827" y="535" width="1.1" height="8" fill="#ca6572"/><rect x="828" y="535" width="1.1" height="8" fill="#c9636f"/><rect x="829" y="535" width="1.1" height="8" fill="#c8606d"/><rect x="830" y="535" width="1.1" height="8" fill="#c85e6b"/><rect x="831" y="535" width="1.1" height="8" fill="#c75b69"/><rect x="832" y="535" width="1.1" height="8" fill="#c65966"/><rect x="833" y="535" width="1.1" height="8" fill="#c55664"/><rect x="834" y="535" width="1.1" height="8" fill="#c55462"/><rect x="835" y="535" width="1.1" height="8" fill="#c4515f"/><rect x="836" y="535" width="1.1" height="8" fill="#c34f5d"/><rect x="837" y="535" width="1.1" height="8" fill="#c24c5b"/><rect x="838" y="535" width="1.1" height="8" fill="#c14a59"/><rect x="839" y="535" width="1.1" height="8" fill="#c14756"/><rect x="840" y="535" width="1.1" height="8" fill="#c04554"/><rect x="841" y="535" width="1.1" height="8" fill="#bf4252"/><rect x="842" y="535" width="1.1" height="8" fill="#be404f"/><rect x="843" y="535" width="1.1" height="8" fill="#be3d4d"/><rect x="844" y="535" width="1.1" height="8" fill="#bd3b4b"/><rect x="845" y="535" width="1.1" height="8" fill="#bc3849"/><rect x="846" y="535" width="1.1" height="8" fill="#bb3646"/><rect x="847" y="535" width="1.1" height="8" fill="#ba3344"/><rect x="848" y="535" width="1.1" height="8" fill="#ba3142"/><rect x="849" y="535" width="1.1" height="8" fill="#b92e40"/><rect x="850" y="535" width="1.1" height="8" fill="#b82c3d"/><rect x="851" y="535" width="1.1" height="8" fill="#b7293b"/><rect x="852" y="535" width="1.1" height="8" fill="#b72739"/><rect x="853" y="535" width="1.1" height="8" fill="#b62436"/><rect x="854" y="535" width="1.1" height="8" fill="#b52234"/><rect x="855" y="535" width="1.1" height="8" fill="#b41f32"/><rect x="856" y="535" width="1.1" height="8" fill="#b41d30"/><rect x="857" y="535" width="1.1" height="8" fill="#b31a2d"/><rect x="858" y="535" width="1.1" height="8" fill="#b2182b"/><text x="679" y="526" font-size="13" fill="#526c7c" font-weight="400" text-anchor="start">Shared-reference expression z</text><text x="679" y="561" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">-0.7</text><text x="859" y="561" font-size="12" fill="#526c7c" font-weight="400" text-anchor="end">2.0</text><text x="24" y="595" font-size="12" fill="#526c7c" font-weight="400" text-anchor="start">C7 excluded. ‡ C11 identity-conflicting. Blocks: pooled peak-expression cluster.</text></svg>

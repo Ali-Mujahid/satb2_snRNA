@@ -2,10 +2,10 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const repo=path.resolve(__dirname,'..'),site=path.join(repo,'site'),pagePath='ca1_sublayers/top_markers/';
 const out=path.join(repo,'analysis/ca1_top_markers_20261127/browser_checks');fs.mkdirSync(out,{recursive:true});
 const sandbox={window:{}};vm.runInNewContext(fs.readFileSync(path.join(site,pagePath,'data.js'),'utf8'),sandbox);const D=sandbox.window.SATB2_CA1_TOP_MARKERS;
-assert.equal(D.markers.length,22);assert.equal(D.markers.filter(m=>m.supported).length,20);assert.deepEqual(Array.from(D.clusters,c=>c.id),Array.from({length:11},(_,i)=>String(i+1)));
-assert(D.markers.filter(m=>!m.supported).every(m=>m.source_cluster==='7'));assert.equal(D.clusters.find(c=>c.id==='8').program,'CA1-prosubiculum');
+assert.equal(D.markers.length,20);assert.equal(D.markers.filter(m=>m.supported).length,20);assert.deepEqual(Array.from(D.clusters,c=>c.id),Array.from({length:11},(_,i)=>String(i+1)).filter(id=>id!=='7'));
+assert(D.markers.every(m=>m.supported&&m.source_cluster!=='7'));assert(D.markers.every(m=>!['Ndrg2','Gm19951'].includes(m.gene_symbol)));assert.equal(D.clusters.find(c=>c.id==='8').program,'CA1-prosubiculum');
 const native=JSON.parse(zlib.gunzipSync(fs.readFileSync(path.join(site,'data/shards/markers__seurat__original_full__CA1_ProS.json.gz'))));
-let checked=0;for(const [condition,key] of [['ALL','rows'],['WT','WT_rows'],['cKO','cKO_rows']]){const source=new Map(native[key].map(r=>[r.cluster_id+'|'+r.gene_id,r]));assert.equal(D.rows[condition].length,242);for(const r of D.rows[condition])for(const [k,v] of Object.entries(r)){assert.deepEqual(v,source.get(r.cluster_id+'|'+r.gene_id)[k],condition+' '+k);checked++;}}
+let checked=0;for(const [condition,key] of [['ALL','rows'],['WT','WT_rows'],['cKO','cKO_rows']]){const source=new Map(native[key].map(r=>[r.cluster_id+'|'+r.gene_id,r]));assert.equal(D.rows[condition].length,200);for(const r of D.rows[condition])for(const [k,v] of Object.entries(r)){if(k.startsWith('display_'))continue;assert.deepEqual(v,source.get(r.cluster_id+'|'+r.gene_id)[k],condition+' '+k);checked++;}}
 console.log('PASS native values: '+checked+' fields, fixed selection, all clusters, C7 and C8 qualifications.');
 if(!process.argv.includes('--browser'))process.exit(0);
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/Users/mujahid357/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
@@ -14,22 +14,22 @@ const server=http.createServer((req,res)=>{let f=path.resolve(site,'.'+decodeURI
 (async()=>{await new Promise(r=>server.listen(0,'127.0.0.1',r));const host='http://127.0.0.1:'+server.address().port;
  const b=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'});const p=await b.newPage({viewport:{width:1380,height:1100},acceptDownloads:true});const errors=[];p.on('pageerror',e=>errors.push(String(e)));
  await p.goto(host+'/'+pagePath);await p.locator('.ctm-scroll svg').waitFor();await p.evaluate(()=>document.fonts.ready);
- assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'22');assert.equal(await p.locator('.ctm-scroll').getAttribute('data-cluster-count'),'11');
+ assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'20');assert.equal(await p.locator('.ctm-scroll').getAttribute('data-cluster-count'),'10');
  await p.locator('.ctm-scroll svg').screenshot({path:path.join(out,'default_dotplot.png')});
- await p.locator('[data-setting="supportedOnly"]').check();assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'20');
- await p.locator('[data-setting="condition"]').selectOption('WT');assert.match(await p.locator('svg').textContent(),/14,984 nuclei/);
- await p.locator('[data-setting="condition"]').selectOption('cKO');assert.match(await p.locator('svg').textContent(),/12,719 nuclei/);
+ const ordered=await p.evaluate(()=>window.SATB2_CA1_TOP_MARKERS_VIEW.chart.markers.map(m=>Number(m.display_peak_cluster)));assert.deepEqual(ordered,[...ordered].sort((a,b)=>a-b));
+ await p.locator('[data-setting="condition"]').selectOption('WT');assert.equal(await p.evaluate(()=>window.SATB2_CA1_TOP_MARKERS_VIEW.chart.n),14360);
+ await p.locator('[data-setting="condition"]').selectOption('cKO');assert.equal(await p.evaluate(()=>window.SATB2_CA1_TOP_MARKERS_VIEW.chart.n),12373);assert.equal(await p.locator('.ctm-scroll circle').count(),203);await p.locator('.ctm-scroll svg').screenshot({path:path.join(out,'cKO_dotplot.png')});
  await p.locator('[data-action="reset"]').click();
  await p.locator('[data-setting="font"]').fill('23');await p.locator('[data-setting="font"]').dispatchEvent('input');
  await p.locator('[data-setting="radius"]').fill('13');await p.locator('[data-setting="radius"]').dispatchEvent('input');
  await p.locator('.ctm-scroll svg').screenshot({path:path.join(out,'large_labels_dotplot.png')});
  await p.locator('[data-action="reset"]').click();
- await p.locator('summary').filter({hasText:'Choose genes to keep or remove'}).click();await p.locator('[data-gene]').first().uncheck();assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'21');
+ await p.locator('summary').filter({hasText:'Choose genes to keep or remove'}).click();await p.locator('[data-gene]').first().uncheck();assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'19');
  await p.locator('[data-action="reset"]').click();
  const downloads=[];for(const action of ['svg','pdf','png','values','genes','state']){const wait=p.waitForEvent('download');await p.locator('[data-action="'+action+'"]').click();const d=await wait;const file=path.join(out,d.suggestedFilename());await d.saveAs(file);assert(fs.statSync(file).size>100);downloads.push({action,file:path.basename(file),bytes:fs.statSync(file).size});}
  await p.locator('[data-setting="low"]').fill('#111111');await p.locator('[data-setting="low"]').dispatchEvent('input');assert((await p.evaluate(()=>window.SATB2_CA1_TOP_MARKERS_VIEW.state)).low==='#111111');
  await p.locator('[data-state-file]').setInputFiles(path.join(out,'Seurat_CA1_top2_plot_settings.json'));await p.waitForFunction(()=>window.SATB2_CA1_TOP_MARKERS_VIEW.state.low==='#2166ac');assert.equal((await p.evaluate(()=>window.SATB2_CA1_TOP_MARKERS_VIEW.state)).low,'#2166ac');
- await p.goto(host+'/ca1_sublayers/index.html#ca1-top-markers');await p.locator('.ctm-scroll svg').waitFor();assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'22');assert.equal(await p.locator('#umap').count(),1);
- assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'ACCEPTANCE.json'),JSON.stringify({native_fields_checked:checked,selection_candidates:22,supported:20,cluster_rows:11,WT_nuclei:14984,cKO_nuclei:12719,all_controls_and_downloads_pass:true,parent_embedded_plot_pass:true,page_errors:errors,downloads},null,2));
+ await p.goto(host+'/ca1_sublayers/index.html#ca1-top-markers');await p.locator('.ctm-scroll svg').waitFor();assert.equal(await p.locator('.ctm-scroll').getAttribute('data-gene-count'),'20');assert.equal(await p.locator('#umap').count(),1);
+ assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'ACCEPTANCE.json'),JSON.stringify({native_fields_checked:checked,selection_candidates:20,supported:20,cluster_rows:10,C7_excluded:true,column_order:'pooled peak-expression cluster ascending',WT_nuclei:14360,cKO_nuclei:12373,all_controls_and_downloads_pass:true,parent_embedded_plot_pass:true,page_errors:errors,downloads},null,2));
  await b.close();await new Promise(r=>server.close(r));console.log('PASS browser controls, all exports, settings roundtrip, embedded CA1 page.');
 })().catch(e=>{console.error(e);server.close();process.exit(1);});
