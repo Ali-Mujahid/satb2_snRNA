@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "checks": {
+    "in_c1": {
+      "small_pdf_points": [
+        360.0,
+        285.0
+      ],
+      "png_pixels": [
+        1440,
+        1140
+      ],
+      "png_dpi": [
+        288.0106,
+        288.0106
+      ],
+      "svg_mm": [
+        127,
+        100.54166666666667
+      ],
+      "DEG_list_rows": 27,
+      "focus_labels_found": [
+        "Nlgn1",
+        "Ptprz1",
+        "Grm7",
+        "Fstl5"
+      ]
+    },
+    "in_c6": {
+      "small_pdf_points": [
+        360.0,
+        285.0
+      ],
+      "png_pixels": [
+        1440,
+        1140
+      ],
+      "png_dpi": [
+        288.0106,
+        288.0106
+      ],
+      "svg_mm": [
+        127,
+        100.54166666666667
+      ],
+      "DEG_list_rows": 22,
+      "focus_labels_found": [
+        "Slit2",
+        "Cntn3",
+        "Robo1"
+      ]
+    }
+  }
+}

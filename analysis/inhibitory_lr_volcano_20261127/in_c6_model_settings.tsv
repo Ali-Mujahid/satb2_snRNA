@@ -1,0 +1,29 @@
+setting	value
+method	DESeq2
+endpoint	PRIMARY
+design	~condition
+numerator	cKO
+denominator	WT
+biological_unit	independent_mouse
+counts	original_CellRanger_integer_UMI_original_full
+min_nuclei_per_mouse	1
+min_mice_per_genotype	3
+min_residual_df	2
+primary_gene_count_cutoff	5
+primary_gene_required_mice	3
+gene_universe	fixed_original_primary_prefilter; endpoint_all_zero_genes_audited_and_removed
+p_adjustment	BH within this endpoint only
+alpha	0.05
+omitted_mouse	none
+independentFiltering	TRUE
+cooksCutoff	DESeq2_default; NA_retained
+automatic_count_replacement	disabled
+normalization	poscounts
+statistic	signed_Wald
+test	Wald
+fitType_requested	parametric
+betaPrior	FALSE
+parallel	FALSE
+export_fields	gene,baseMean,log2FoldChange,lfcSE,stat,pvalue,padj
+missing_symbol_policy	NA; stable IDs only in AUDIT
+duplicate_symbol_policy	separate modeled stable-ID rows retained

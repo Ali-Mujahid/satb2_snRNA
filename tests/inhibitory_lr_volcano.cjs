@@ -1,0 +1,53 @@
+const assert=require('assert'),fs=require('fs'),path=require('path'),zlib=require('zlib'),crypto=require('crypto');
+const root=path.join(__dirname,'..'),dir=path.join(root,'analysis/inhibitory_lr_volcano_20261127'),A=require('../site/ca1_layer_volcano/app.js'),M=JSON.parse(fs.readFileSync(path.join(dir,'PROVENANCE.json'))),L=JSON.parse(fs.readFileSync(path.join(dir,'LR_VIEW_DATA.json')));
+const hash=b=>crypto.createHash('sha256').update(b).digest('hex'),fits={};
+assert.equal(L.original_population_pair_rows,14);assert.equal(L.rows.length,28);assert.equal(new Set(L.rows.map(r=>r.row_id)).size,28);
+for(const r of L.rows)assert.deepEqual(Object.keys(r),Object.keys(L.rows[0]));
+for(const [key,expected]of Object.entries({in_c1:{counts:[27,11,16,12769],nuclei:1718,genes:['Fstl5','Grm7','Nlgn1','Ptprz1'],superficial:6,deep:1},in_c6:{counts:[22,4,18,8989],nuclei:501,genes:['Cntn3','Robo1','Slit2'],superficial:3,deep:4}})){
+ const packed=fs.readFileSync(path.join(dir,key+'.json.gz')),raw=zlib.gunzipSync(packed),fit=JSON.parse(raw),before=JSON.stringify(fit);fits[key]=fit;
+ assert.equal(hash(packed),M.fits[key].sha256);assert.equal(hash(raw),M.fits[key].payload_sha256);assert.equal(hash(zlib.gunzipSync(fs.readFileSync(path.join(dir,key+'_source.tsv.gz')))),fit.metadata.source_sha256);
+ assert.equal(hash(fs.readFileSync(path.join(dir,key+'_mouse_audit.tsv'))),fit.metadata.coverage_sha256);assert.equal(fit.metadata.compartment,'Inhibitory');assert.equal(fit.metadata.n_nuclei,expected.nuclei);
+ assert.equal(fit.mice.length,12);assert(fit.mice.every(r=>r.included_in_model==='TRUE'));assert.equal(fit.mice.filter(r=>r.condition==='WT').length,6);assert.equal(fit.mice.filter(r=>r.condition==='cKO').length,6);
+ const c=A.build(fit,{...A.defaults,fit:key},L.rows);assert.deepEqual([c.degs.length,c.up,c.down,c.rows.length],expected.counts);assert.equal(c.pairs.length,7);assert.deepEqual([...new Set(c.pairs.map(r=>r.plot_gene))].sort(),expected.genes);assert.equal(c.lrByGene.size,expected.genes.length);assert.equal(c.ops.filter(o=>o.role==='lr-outline').length,expected.genes.length);
+ for(const r of c.pairs){const g=c.rows.find(g=>g.gene_id===r.gene_id);assert.equal(r.gene_id,r.IN_gene_id);assert.equal(g.gene_symbol,r.IN_gene);assert.equal(g.log2FoldChange,r.IN_log2FC_exact);assert.equal(g.padj,r.IN_FDR_exact);assert.equal(r.plot_log2FC_exact,g.log2FoldChange);assert(g.padj<.05);assert.equal(r.partner_gene,r.CA1_gene);assert.equal(r.partner_log2FC,r.CA1_log2FC_exact);}
+ for(const [pop,n]of [['CA1_Superficial',expected.superficial],['CA1_Deep',expected.deep]])assert.equal(A.build(fit,{...A.defaults,fit:key,'lr-ca1':pop},L.rows).pairs.length,n);
+ for(const s of [{width:480,height:380,'show-title':false,'show-notes':false,labels:false},{width:1200,height:850}]){
+  const chart=A.build(fit,{...A.defaults,fit:key,...s},L.rows);assert.equal(chart.lrVisible.length,expected.genes.length);assert.equal(chart.visible.length,c.visible.length);assert(chart.ops.filter(o=>o.status).every(o=>o.r===2.4));assert(chart.ops.filter(o=>o.role==='gene-label').every(o=>o.size===15));assert.equal(chart.labelRows.length,chart.requested);assert.equal(chart.omitted,0);
+ }
+ const one=A.build(fit,{...A.defaults,fit:key,labels:false,'lr-label-genes':[c.pairs[0].gene_id]},L.rows);assert.equal(one.labelRows.length,1);assert.equal(one.labelRows[0].gene_id,c.pairs[0].gene_id);assert.equal(one.lrByGene.size,expected.genes.length);
+ assert.equal(JSON.stringify(fit),before);
+ console.log(key,`${c.degs.length} DEGs (${c.up} up / ${c.down} down); ${expected.genes.join(', ')}; 7 exact endpoint rows`);
+}
+const grm7=L.rows.filter(r=>r.layer==='in_c1'&&r.plot_gene==='Grm7');assert.equal(grm7.length,2);assert(grm7.every(r=>r.binding_status==='unverified'));
+assert(L.rows.filter(r=>r.layer==='in_c1'&&r.plot_gene==='Nlgn1').every(r=>r.synaptic_direction.includes('CA1 superficial')));
+assert(L.rows.filter(r=>r.layer==='in_c6').every(r=>r.plot_log2FC_exact<0));assert(L.rows.filter(r=>r.layer==='in_c1').every(r=>r.plot_log2FC_exact>0));
+console.log('PASS full-cohort IN provenance, exact endpoint values, same-layer partner filters, evidence flags, fixed-size reflow and label selection.');
+if(!process.argv.includes('--browser'))process.exit(0);
+(async()=>{
+ const {chromium}=require(process.env.PLAYWRIGHT_MODULE||'/Users/mujahid357/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'),http=require('http'),out=path.join(dir,'browser_checks');fs.mkdirSync(out,{recursive:true});
+ const server=http.createServer((req,res)=>{const p=path.join(root,'site',decodeURIComponent(req.url.split('?')[0]));try{const f=fs.statSync(p).isDirectory()?path.join(p,'index.html'):p;res.setHeader('Content-Type',f.endsWith('.js')?'application/javascript':f.endsWith('.css')?'text/css':'text/html');res.end(fs.readFileSync(f));}catch(e){res.statusCode=404;res.end('missing');}});await new Promise(ok=>server.listen(0,'127.0.0.1',ok));
+ const browser=await chromium.launch({headless:true,executablePath:'/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'}),page=await browser.newPage({viewport:{width:1500,height:1000},acceptDownloads:true}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+ for(const [tag,folder]of [[M.tag,'analysis/ca1_layer_volcano_20261127'],[M.extension_tag,'analysis/inhibitory_lr_volcano_20261127']])await page.route('https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/'+tag+'/**',route=>route.fulfill({body:fs.readFileSync(path.join(root,folder,path.basename(new URL(route.request().url()).pathname))),contentType:'application/gzip'}));
+ const download=async(kind,suffix)=>{const w=page.waitForEvent('download');await page.locator(`[data-export="${kind}"]`).click();const d=await w;assert(d.suggestedFilename().startsWith('Seurat_IN_'));await d.saveAs(path.join(out,suffix||d.suggestedFilename()));};
+ const wait=()=>page.waitForTimeout(200),report={};
+ try{
+  await page.goto(`http://127.0.0.1:${server.address().port}/ca1_layer_volcano/index.html#in_c1`);await page.waitForFunction(()=>window.CA1_LAYER_VOLCANO?.current);
+  for(const [key,n]of [['in_c1',4],['in_c6',3]]){
+   await page.locator('#fit').selectOption(key);await page.waitForFunction(k=>window.CA1_LAYER_VOLCANO?.ready&&window.CA1_LAYER_VOLCANO.state.fit===k&&window.CA1_LAYER_VOLCANO.current,key);
+   assert(await page.locator('#lr-in').isDisabled());assert(await page.locator('#lr-ca1').isEnabled());assert.equal(await page.locator('[data-role="lr-outline"]').count(),n);assert.equal(await page.locator('input[data-lr-gene]').count(),n);assert(!/C8 excluded/.test(await page.locator('#figure').innerText()));
+   await page.locator('#figure').screenshot({path:path.join(out,key+'_default.png')});await download('pdf',key+'_default.pdf');
+   await page.locator('#lr-ca1').selectOption('CA1_Deep');await wait();assert.equal(await page.locator('#lr-pair-table tbody tr').count(),key==='in_c1'?1:4);await page.locator('#lr-ca1').selectOption('all');await wait();
+   if(key==='in_c1'){assert.match(await page.locator('#lr-pair-table').innerText(),/Direct binding unverified/);await page.locator('#lr-evidence').selectOption('direct');await wait();assert(!/Grm7/.test(await page.locator('#lr-pair-table').innerText()));await page.locator('#lr-evidence').selectOption('all');await wait();}
+   await page.locator('#lr-only').click();await page.locator('#lr-select-none').click();assert.equal(await page.locator('[data-role="gene-label"]').count(),0);await page.locator('input[data-lr-gene]').first().check();assert.equal(await page.locator('[data-role="gene-label"]').count(),1);await page.locator('#lr-select-all').click();
+   await page.locator('[data-size="small"]').click();assert.equal(await page.locator('#dot-size').inputValue(),'2.4');assert.equal(await page.locator('#label-size').inputValue(),'15');assert.equal(await page.locator('[data-role="gene-label"]').count(),n);
+   for(const kind of ['pdf','svg','png','state','degs','all','labels','pairs'])await download(kind,key+'_small.'+({state:'json',degs:'degs.tsv',all:'all.tsv',labels:'labels.tsv',pairs:'pairs.tsv'}[kind]||kind));
+   await page.locator('#figure').screenshot({path:path.join(out,key+'_small_UI.png')});await page.locator('#lr-focus').click();assert.equal(await page.locator('[data-role="lr-outline"]').count(),n);await page.locator('#figure').screenshot({path:path.join(out,key+'_focus.png')});await download('pdf',key+'_focus.pdf');await download('svg',key+'_focus.svg');
+   await page.locator('#width-mm').fill('150');await wait();assert.equal(await page.locator('#width').inputValue(),'567');assert.deepEqual(await page.locator('circle[data-status]').evaluateAll(nodes=>[...new Set(nodes.map(n=>n.getAttribute('r')))]),['2.4']);
+   await page.locator('#state-file').setInputFiles(path.join(out,key+'_small.json'));await page.waitForFunction(()=>document.getElementById('width').value==='480');assert.equal(await page.locator('[data-role="lr-outline"]').count(),n);
+   await page.locator('#up').fill('#8040a0');await page.locator('#down').fill('#206f70');await page.locator('#ymax').fill('8');await page.locator('#boundary').uncheck();await wait();assert.equal(await page.locator('[data-role="plot-boundary"]').count(),0);assert.equal(await page.evaluate(()=>window.CA1_LAYER_VOLCANO.current.axes.ymax),8);
+   await page.locator('#reset').click();await page.locator('#lr-labels').uncheck();await wait();assert.equal(await page.locator('[data-role="gene-label"]').count(),10);report[key]={native_DEGs:M.fits[key].DEGs,up:M.fits[key].up,down:M.fits[key].down,LR_genes:n,downloads:8};
+  }
+  for(const [key,n]of [['superficial',7],['deep',5]]){await page.locator('#fit').selectOption(key);await page.waitForFunction(k=>window.CA1_LAYER_VOLCANO?.ready&&window.CA1_LAYER_VOLCANO.state.fit===k&&window.CA1_LAYER_VOLCANO.current,key);assert.equal(await page.locator('[data-role="lr-outline"]').count(),n);assert(await page.locator('#lr-ca1').isDisabled());assert(await page.locator('#lr-in').isEnabled());}
+  assert.deepEqual(errors,[]);fs.writeFileSync(path.join(out,'ACCEPTANCE.json'),JSON.stringify({status:'PASS',fits:report,checks:['native full 6/6 model provenance','correct inhibitory endpoint coordinates','CA1 layer partner filters','binding flags','selected labels','small-panel reflow with fixed dot/font sizes','all eight download options','settings roundtrip','CA1 regression panels'],page_errors:errors},null,2));console.log('PASS browser: IN C1/C6 plots, all eight exports, filters, exact highlights, label selection, reflow and CA1 regression.');
+ }finally{await browser.close();server.close();}
+})().catch(e=>{console.error(e);process.exit(1)});

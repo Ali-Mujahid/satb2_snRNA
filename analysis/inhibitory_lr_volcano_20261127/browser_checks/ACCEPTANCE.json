@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "fits": {
+    "in_c1": {
+      "native_DEGs": 27,
+      "up": 11,
+      "down": 16,
+      "LR_genes": 4,
+      "downloads": 8
+    },
+    "in_c6": {
+      "native_DEGs": 22,
+      "up": 4,
+      "down": 18,
+      "LR_genes": 3,
+      "downloads": 8
+    }
+  },
+  "checks": [
+    "native full 6/6 model provenance",
+    "correct inhibitory endpoint coordinates",
+    "CA1 layer partner filters",
+    "binding flags",
+    "selected labels",
+    "small-panel reflow with fixed dot/font sizes",
+    "all eight download options",
+    "settings roundtrip",
+    "CA1 regression panels"
+  ],
+  "page_errors": []
+}

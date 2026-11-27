@@ -1,0 +1,109 @@
+{
+  "schema": "satb2-ca1-layer-volcano-v1",
+  "contrast": "cKO / WT",
+  "tool": "Seurat",
+  "cohort": "original_full",
+  "models_refitted": false,
+  "tag": "atlas-v3.20-ca1-layer-volcano-20261127",
+  "fits": {
+    "superficial": {
+      "id": "superficial",
+      "label": "Superficial \u00b7 C2 + C3",
+      "clusters": [
+        2,
+        3
+      ],
+      "n_WT": 6,
+      "n_cKO": 6,
+      "n_nuclei": 10867,
+      "n_rows": 14206,
+      "DEGs": 1775,
+      "up": 938,
+      "down": 837,
+      "source_path": "/Users/mujahid357/Documents/codex_new/SATB2_CA1_EPHYS_PLANNING_20261125/superficial_C2_C3_DESeq2.tsv",
+      "source_sha256": "5a4c7bc93a205cbd5dab97042ce3da7a1799a9ac9218073cd5a57dfd97a33904",
+      "coverage_sha256": "018a30f9fb73a1cdf3226916546cb98ddb0a150b905a98e39beecbf1ba2c63d9",
+      "fit_date": "2026-11-25",
+      "C8_included": false,
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.20-ca1-layer-volcano-20261127/analysis/ca1_layer_volcano_20261127/superficial.json.gz",
+      "bytes": 881820,
+      "sha256": "cc278616a0ec65515e8f995d234e10be43b831507c1e6f360256cffcbae94232",
+      "payload_sha256": "57cea7c8cf5b015021e711c0003800feab33cb87efb74c46e1e10a792ee6d967"
+    },
+    "deep": {
+      "id": "deep",
+      "label": "Deep \u00b7 C1 + C5",
+      "clusters": [
+        1,
+        5
+      ],
+      "n_WT": 6,
+      "n_cKO": 6,
+      "n_nuclei": 8750,
+      "n_rows": 13439,
+      "DEGs": 742,
+      "up": 360,
+      "down": 382,
+      "source_path": "/Users/mujahid357/Documents/codex_new/SATB2_CA1_IN_EXPANDED_20261102/pseudobulk/audit/CA1_deep_C1_C5/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "source_sha256": "72601af31cd3aaf17c9ab1962e5da5bb3d31bfdad86fdf4643629cbae4caaa3e",
+      "coverage_sha256": "d38f5144c955cd632157a722c424e3df09dab5c6a1bc828e2b752428311ce6d7",
+      "fit_date": "archived original fit",
+      "C8_included": false,
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.20-ca1-layer-volcano-20261127/analysis/ca1_layer_volcano_20261127/deep.json.gz",
+      "bytes": 815167,
+      "sha256": "d6e59310983dcda38e3d26768d15ebf3f3c2aa8c66b3b71778effd9fa57437fc",
+      "payload_sha256": "827c0575fd3aad3150faad760cf675c6e4ea59ec42f703a14a24a03ee33984f3"
+    },
+    "in_c1": {
+      "id": "in_c1",
+      "label": "Inhibitory C1 \u00b7 PV reference",
+      "compartment": "Inhibitory",
+      "clusters": [
+        1
+      ],
+      "n_WT": 6,
+      "n_cKO": 6,
+      "n_nuclei": 1718,
+      "n_rows": 12769,
+      "DEGs": 27,
+      "up": 11,
+      "down": 16,
+      "source_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0140_seurat_Inhibitory_CLUSTER/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "source_sha256": "3fa864f4b828bbd1c7aef28f997519849789739c9f799b348977a0f92ead2ce3",
+      "coverage_sha256": "322ecde039ae679b54999894d24671e7b7db2bd487191f3621c08b3d2011ba7a",
+      "fit_date": "archived original full-cohort fit",
+      "export_stem": "Seurat_IN_C1_original_full_volcano",
+      "annotation_note": "Original parent cluster; the C6.0/C6.1/C6.2 subdivision and mouse-subset fits are not substituted.",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.22-inhibitory-lr-volcano-20261127/analysis/inhibitory_lr_volcano_20261127/in_c1.json.gz",
+      "bytes": 697799,
+      "sha256": "3bb6f668822912826febd02c8c2bab6898140a418993f2fa0767bdde9b50cd09",
+      "payload_sha256": "5101870fff3392106406a3bce603e5cbca1639fa3484b3dbbb313f8c4f419bcc"
+    },
+    "in_c6": {
+      "id": "in_c6",
+      "label": "Inhibitory C6 \u00b7 original SST cluster",
+      "compartment": "Inhibitory",
+      "clusters": [
+        6
+      ],
+      "n_WT": 6,
+      "n_cKO": 6,
+      "n_nuclei": 501,
+      "n_rows": 8989,
+      "DEGs": 22,
+      "up": 4,
+      "down": 18,
+      "source_path": "/Users/mujahid357/Documents/codex_new/SATB2_scanpy_seurat_mapmycells_20261014_revision/runs/20261014_v2_0_0/results/deseq2/original_full/seurat/P0145_seurat_Inhibitory_CLUSTER/PRIMARY/AUDIT/ALL_RESULTS_STABLE_ID_AUDIT.tsv",
+      "source_sha256": "cf985d87f0f442e83010f706a3386e067321008ac4416e818755f3a2f6cfb62f",
+      "coverage_sha256": "8dd5929189c1accd594d2d77e14915037ffd3f0d922ca3a015f6d80a3ef152bf",
+      "fit_date": "archived original full-cohort fit",
+      "export_stem": "Seurat_IN_C6_original_full_volcano",
+      "annotation_note": "Original parent cluster; the C6.0/C6.1/C6.2 subdivision and mouse-subset fits are not substituted.",
+      "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.22-inhibitory-lr-volcano-20261127/analysis/inhibitory_lr_volcano_20261127/in_c6.json.gz",
+      "bytes": 485504,
+      "sha256": "087614f4381f60996df8ffd84046e4d71665e9a406bce71dd5b7b6ea9b231133",
+      "payload_sha256": "263ac0e6a53d3dc95fc621d81a648ed5a7b761dcd52b2159a945a70b9ca3fbd5"
+    }
+  },
+  "extension_tag": "atlas-v3.22-inhibitory-lr-volcano-20261127"
+}
