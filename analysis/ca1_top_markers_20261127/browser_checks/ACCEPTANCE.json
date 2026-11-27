@@ -1,0 +1,43 @@
+{
+  "native_fields_checked": 10164,
+  "selection_candidates": 22,
+  "supported": 20,
+  "cluster_rows": 11,
+  "WT_nuclei": 14984,
+  "cKO_nuclei": 12719,
+  "all_controls_and_downloads_pass": true,
+  "parent_embedded_plot_pass": true,
+  "page_errors": [],
+  "downloads": [
+    {
+      "action": "svg",
+      "file": "Seurat_CA1_top2_ALL.svg",
+      "bytes": 63257
+    },
+    {
+      "action": "pdf",
+      "file": "Seurat_CA1_top2_ALL.pdf",
+      "bytes": 34014
+    },
+    {
+      "action": "png",
+      "file": "Seurat_CA1_top2_ALL.png",
+      "bytes": 489507
+    },
+    {
+      "action": "values",
+      "file": "Seurat_CA1_top2_ALL_values.tsv",
+      "bytes": 67901
+    },
+    {
+      "action": "genes",
+      "file": "Seurat_CA1_top2_selected_genes.tsv",
+      "bytes": 3019
+    },
+    {
+      "action": "state",
+      "file": "Seurat_CA1_top2_plot_settings.json",
+      "bytes": 975
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "previous_path": "site/ca1_sublayers/ca1_sublayers_offline_20261031.zip",
+  "current_path": "analysis/ca1_top_markers_20261127/archives/ca1_sublayers_offline_20261031.zip",
+  "url": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/main/analysis/ca1_top_markers_20261127/archives/ca1_sublayers_offline_20261031.zip",
+  "sha256": "0d8070db69b9f6488e93f681f52c075ed3e2d8f075e00ca82638492d45a9df2b",
+  "bytes": 1313761,
+  "contents_unchanged": true,
+  "reason": "Keep the existing 950 MB Pages budget while preserving the complete downloadable offline archive outside the deployed site."
+}

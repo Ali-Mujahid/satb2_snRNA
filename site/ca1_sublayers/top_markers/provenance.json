@@ -1,0 +1,34 @@
+{
+  "tool": "Seurat",
+  "branch": "original_full",
+  "cluster_scope": "original_frozen",
+  "population": "CA1_ProS",
+  "n_nuclei": 27703,
+  "n_mice": 12,
+  "genotypes": "6 WT + 6 cKO",
+  "selection": "Ranks 1 and 2 from the saved supported representative table. For C7 only, rank the existing candidate audit by detection difference versus rest, then mean log1p difference, then stable gene ID. C7 candidates fail the original support criteria.",
+  "universe": "Saved curated marker panel, not genome-wide marker discovery",
+  "condition_selection": "Gene selection fixed from pooled full-cohort summaries; WT/cKO controls change display only.",
+  "dot_area": "fraction of nuclei with nonzero source RNA counts",
+  "color": "saved scaled_expression_z; original equal-cluster reference, never rescaled when rows are hidden",
+  "expression": "mean log1p(10000 \u00d7 source counts / complete nucleus source library)",
+  "no_models_refitted": true,
+  "inputs": [
+    {
+      "file": "representative_markers.tsv",
+      "sha256": "96c2e00bd1188b0679a5f76c7ffce98c61c28fe74e315a56c98297c954ff75b9"
+    },
+    {
+      "file": "representative_candidate_audit.tsv.gz",
+      "sha256": "31e7a0c9197699e9a8cce885ee051c225fe37e67118237bf1fcbfeed956cc406"
+    },
+    {
+      "file": "representative_cluster_registry.tsv",
+      "sha256": "8d096ef5b0a4df73bd21cde2407e9e42185c4a7a8abbf5ef24094803d280098b"
+    },
+    {
+      "file": "markers__seurat__original_full__CA1_ProS.json.gz",
+      "sha256": "cf2dd6d1915aa566cf82322289806aa5e423004a792131bf02da4611fe251294"
+    }
+  ]
+}
