@@ -1,0 +1,104 @@
+{
+  "datasets": [
+    {
+      "dataset": "ca1_markers",
+      "markers": 88,
+      "available_clusters": 11,
+      "default_clusters": 10,
+      "source_nuclei": 26733,
+      "cluster_restore": true,
+      "gene_remove_restore": true,
+      "dot_outlines": true,
+      "plot_border": true,
+      "horizontal_vertical_guides": true,
+      "heatmap_switch": true,
+      "cKO_cells": true,
+      "settings_roundtrip": true,
+      "multipage_pdf": true,
+      "downloads": [
+        {
+          "kind": "svg",
+          "file": "Seurat_ca1_markers_heat_ALL.svg",
+          "bytes": 297012
+        },
+        {
+          "kind": "pdf",
+          "file": "Seurat_ca1_markers_heat_ALL.pdf",
+          "bytes": 15131
+        },
+        {
+          "kind": "png",
+          "file": "Seurat_ca1_markers_heat_ALL.png",
+          "bytes": 808130
+        },
+        {
+          "kind": "values",
+          "file": "Seurat_ca1_markers_heat_ALL_values.tsv",
+          "bytes": 363566
+        },
+        {
+          "kind": "genes",
+          "file": "Seurat_ca1_markers_heat_ALL_genes.tsv",
+          "bytes": 2997
+        },
+        {
+          "kind": "state",
+          "file": "Seurat_ca1_markers_heat_ALL_settings.json",
+          "bytes": 3104
+        }
+      ]
+    },
+    {
+      "dataset": "inhibitory_markers",
+      "markers": 73,
+      "available_clusters": 20,
+      "default_clusters": 20,
+      "source_nuclei": 8911,
+      "cluster_restore": true,
+      "gene_remove_restore": true,
+      "dot_outlines": true,
+      "plot_border": true,
+      "horizontal_vertical_guides": true,
+      "heatmap_switch": true,
+      "cKO_cells": true,
+      "settings_roundtrip": true,
+      "multipage_pdf": true,
+      "downloads": [
+        {
+          "kind": "svg",
+          "file": "Seurat_inhibitory_markers_heat_ALL.svg",
+          "bytes": 477408
+        },
+        {
+          "kind": "pdf",
+          "file": "Seurat_inhibitory_markers_heat_ALL.pdf",
+          "bytes": 19185
+        },
+        {
+          "kind": "png",
+          "file": "Seurat_inhibitory_markers_heat_ALL.png",
+          "bytes": 1091542
+        },
+        {
+          "kind": "values",
+          "file": "Seurat_inhibitory_markers_heat_ALL_values.tsv",
+          "bytes": 603806
+        },
+        {
+          "kind": "genes",
+          "file": "Seurat_inhibitory_markers_heat_ALL_genes.tsv",
+          "bytes": 2493
+        },
+        {
+          "kind": "state",
+          "file": "Seurat_inhibitory_markers_heat_ALL_settings.json",
+          "bytes": 2822
+        }
+      ]
+    }
+  ],
+  "parent_embed": true,
+  "original_umap_preserved": true,
+  "source_cells_checked": 7284,
+  "page_errors": []
+}

@@ -1,21 +1,89 @@
-source_cluster	source_rank	gene_id	gene_symbol	supported	selection_status	fraction_detected	detection_difference_vs_rest	mean_log1p_difference_vs_rest	mice_expression_supported	mice_eligible	display_peak_cluster	display_peak_mean_log1p
-1	1	ENSMUSG00000028876	Epha10	True	saved_supported_representative	0.7660079051383399	0.518136261392433	0.7173940723601321	12	12	1	0.928928186531868
-1	2	ENSMUSG00000032502	Stac	True	saved_supported_representative	0.7747035573122529	0.5093372929283069	0.672399913769427	12	12	1	0.9272463667270796
-2	1	ENSMUSG00000104586	4921539H07Rik	True	saved_supported_representative	0.9364543114543115	0.42665769024148514	1.2785262039251335	12	12	2	2.160890565126183
-2	2	ENSMUSG00000100666	1700007F19Rik	True	saved_supported_representative	0.6521879021879022	0.4012920116494371	0.46471109707571995	12	12	2	0.7070788782474988
-3	1	ENSMUSG00000032925	Itgbl1	True	saved_supported_representative	0.7566114814018491	0.5119472440254826	0.6546057669516079	12	12	3	0.8777250618076554
-3	2	ENSMUSG00000032017	Grik4	True	saved_supported_representative	0.8146635132229628	0.49135100237791685	0.5499788552518572	12	12	9	1.1421301295675264
-4	1	ENSMUSG00000035131	Brinp3	True	saved_supported_representative	0.6594181604466647	0.3694181604466647	0.6011390392356811	12	12	10	1.1136621925038726
-4	2	ENSMUSG00000075270	Pde11a	True	saved_supported_representative	0.5533352923890684	0.28601018950841	0.43339550105858476	12	12	10	1.5951852481430187
-5	1	ENSMUSG00000021596	Mctp1	True	saved_supported_representative	0.8540206185567011	0.4709998099484251	0.9820214068024247	12	12	9	2.378197397665042
-5	2	ENSMUSG00000020027	Socs2	True	saved_supported_representative	0.5979381443298969	0.41568480150214154	0.349144708339692	12	12	9	0.6911650249158798
-6	1	ENSMUSG00000058571	Gpc6	True	saved_supported_representative	0.9363024339720352	0.677067605475993	1.5979702012487746	12	12	6	1.8823567907231404
-6	2	ENSMUSG00000045875	Adra1a	True	saved_supported_representative	0.7187985499741066	0.6409621383646079	0.6543519916388856	12	12	6	0.7189329415009423
-8	1	ENSMUSG00000031841	Cdh13	True	saved_supported_representative	0.9785458879618594	0.8451331422799058	2.1648302593640874	12	12	8	2.31565167822491
-8	2	ENSMUSG00000021219	Rgs6	True	saved_supported_representative	0.9439809296781884	0.8070690773851568	1.6716096382691252	12	12	8	1.8186319624057419
-9	1	ENSMUSG00000016487	Ppfibp1	True	saved_supported_representative	0.8608	0.7498981608686018	0.9578485385092642	12	12	9	1.042173971698403
-9	2	ENSMUSG00000102692	Dchs2	True	saved_supported_representative	0.7952	0.7367392569613709	0.8213335076406552	12	12	9	0.8692309753404205
-10	1	ENSMUSG00000047907	Tshz2	True	saved_supported_representative	0.9041095890410958	0.8025232115123518	2.3318540498561746	12	12	10	2.4146420254182157
-10	2	ENSMUSG00000050840	Cdh20	True	saved_supported_representative	0.8812785388127854	0.7468002969265971	1.442748893283941	12	12	10	1.5769354997734208
-11	1	ENSMUSG00000014361	Mertk	True	saved_supported_representative	0.7373737373737373	0.6951334823382352	0.8212806846051333	10	10	11	0.8523773277981729
-11	2	ENSMUSG00000007613	Tgfbr1	True	saved_supported_representative	0.7676767676767676	0.6920717828919538	1.0184122534365951	10	10	11	1.0738102418094928
+screenshot_position	gene_symbol	gene_id	mapping
+1	Ndst4	ENSMUSG00000027971	exact_unique_source_symbol
+2	Col11a1	ENSMUSG00000027966	exact_unique_source_symbol
+3	Zfp804a	ENSMUSG00000070866	exact_unique_source_symbol
+4	Hdac9	ENSMUSG00000004698	exact_unique_source_symbol
+5	Kcnip4	ENSMUSG00000029088	exact_unique_source_symbol
+6	Prkca	ENSMUSG00000050965	exact_unique_source_symbol
+7	Pde10a	ENSMUSG00000023868	exact_unique_source_symbol
+8	Sorcs3	ENSMUSG00000063434	exact_unique_source_symbol
+9	Epha6	ENSMUSG00000055540	exact_unique_source_symbol
+10	Ntrk2	ENSMUSG00000055254	exact_unique_source_symbol
+11	Cdh10	ENSMUSG00000022321	exact_unique_source_symbol
+12	Stac	ENSMUSG00000032502	exact_unique_source_symbol
+13	Man1a	ENSMUSG00000003746	exact_unique_source_symbol
+14	Hunk	ENSMUSG00000053414	exact_unique_source_symbol
+15	Cacna2d3	ENSMUSG00000021991	exact_unique_source_symbol
+16	Nr3c2	ENSMUSG00000031618	exact_unique_source_symbol
+17	Brinp1	ENSMUSG00000028351	exact_unique_source_symbol
+18	R3hdm1	ENSMUSG00000056211	exact_unique_source_symbol
+19	Spock3	ENSMUSG00000054162	exact_unique_source_symbol
+20	Plekhg1	ENSMUSG00000040624	exact_unique_source_symbol
+21	Srgap1	ENSMUSG00000020121	exact_unique_source_symbol
+22	Slc24a2	ENSMUSG00000037996	exact_unique_source_symbol
+23	Enox1	ENSMUSG00000022012	exact_unique_source_symbol
+24	Garem1	ENSMUSG00000042680	exact_unique_source_symbol
+25	Sik3	ENSMUSG00000034135	exact_unique_source_symbol
+26	Ap2b1	ENSMUSG00000035152	exact_unique_source_symbol
+27	Dock4	ENSMUSG00000035954	exact_unique_source_symbol
+28	Stxbp5l	ENSMUSG00000022829	exact_unique_source_symbol
+29	Pip5k1b	ENSMUSG00000024867	exact_unique_source_symbol
+30	Nr4a1	ENSMUSG00000023034	exact_unique_source_symbol
+31	Fam189a1	ENSMUSG00000030518	exact_unique_source_symbol
+32	Zbtb16	ENSMUSG00000066687	exact_unique_source_symbol
+33	Adgrb3	ENSMUSG00000033569	exact_unique_source_symbol
+34	Ptprn	ENSMUSG00000026204	exact_unique_source_symbol
+35	Nr4a2	ENSMUSG00000026826	exact_unique_source_symbol
+36	Malat1	ENSMUSG00000092341	exact_unique_source_symbol
+37	Epha3	ENSMUSG00000052504	exact_unique_source_symbol
+38	Kcnab1	ENSMUSG00000027827	exact_unique_source_symbol
+39	Robo2	ENSMUSG00000052516	exact_unique_source_symbol
+40	March1	ENSMUSG00000036469	exact_unique_source_symbol
+41	Ppp3ca	ENSMUSG00000028161	exact_unique_source_symbol
+42	Arl15	ENSMUSG00000042348	exact_unique_source_symbol
+43	Adcy2	ENSMUSG00000021536	exact_unique_source_symbol
+44	Phactr1	ENSMUSG00000054728	exact_unique_source_symbol
+45	Thsd7b	ENSMUSG00000042581	exact_unique_source_symbol
+46	Ano3	ENSMUSG00000074968	exact_unique_source_symbol
+47	Grm1	ENSMUSG00000019828	exact_unique_source_symbol
+48	Kcnc2	ENSMUSG00000035681	exact_unique_source_symbol
+49	Tafa1	ENSMUSG00000059187	exact_unique_source_symbol
+50	Nlgn1	ENSMUSG00000063887	exact_unique_source_symbol
+51	Ralyl	ENSMUSG00000039717	exact_unique_source_symbol
+52	Mdga1	ENSMUSG00000043557	exact_unique_source_symbol
+53	Gpc5	ENSMUSG00000022112	exact_unique_source_symbol
+54	Galntl6	ENSMUSG00000096914	exact_unique_source_symbol
+55	Ntm	ENSMUSG00000059974	exact_unique_source_symbol
+56	Fras1	ENSMUSG00000034687	exact_unique_source_symbol
+57	Gabrg3	ENSMUSG00000055026	exact_unique_source_symbol
+58	Opcml	ENSMUSG00000062257	exact_unique_source_symbol
+59	Pde4d	ENSMUSG00000021699	exact_unique_source_symbol
+60	Pde1a	ENSMUSG00000059173	exact_unique_source_symbol
+61	Ccser1	ENSMUSG00000039578	exact_unique_source_symbol
+62	Plekha7	ENSMUSG00000045659	exact_unique_source_symbol
+63	Lingo2	ENSMUSG00000045083	exact_unique_source_symbol
+64	Pcdh7	ENSMUSG00000029108	exact_unique_source_symbol
+65	Ptprk	ENSMUSG00000019889	exact_unique_source_symbol
+66	Asic2	ENSMUSG00000020704	exact_unique_source_symbol
+67	Cntnap5a	ENSMUSG00000070695	exact_unique_source_symbol
+68	Alcam	ENSMUSG00000022636	exact_unique_source_symbol
+69	Dcc	ENSMUSG00000060534	exact_unique_source_symbol
+70	Ptprd	ENSMUSG00000028399	exact_unique_source_symbol
+71	Fstl4	ENSMUSG00000036264	exact_unique_source_symbol
+72	Sorbs2	ENSMUSG00000031626	exact_unique_source_symbol
+73	Fgf14	ENSMUSG00000025551	exact_unique_source_symbol
+74	Erc2	ENSMUSG00000040640	exact_unique_source_symbol
+75	Tenm4	ENSMUSG00000048078	exact_unique_source_symbol
+76	Ryr2	ENSMUSG00000021313	exact_unique_source_symbol
+77	Rora	ENSMUSG00000032238	exact_unique_source_symbol
+78	Nrg2	ENSMUSG00000060275	exact_unique_source_symbol
+79	Neto1	ENSMUSG00000050321	exact_unique_source_symbol
+80	Ak5	ENSMUSG00000039058	exact_unique_source_symbol
+81	Rab3c	ENSMUSG00000021700	exact_unique_source_symbol
+82	Agbl4	ENSMUSG00000061298	exact_unique_source_symbol
+83	Nav2	ENSMUSG00000052512	exact_unique_source_symbol
+84	Cntn4	ENSMUSG00000064293	exact_unique_source_symbol
+85	Arhgap26	ENSMUSG00000036452	exact_unique_source_symbol
+86	Zfpm2	ENSMUSG00000022306	exact_unique_source_symbol
+87	Zmat4	ENSMUSG00000037492	exact_unique_source_symbol
+88	Smad3	ENSMUSG00000032402	exact_unique_source_symbol

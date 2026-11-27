@@ -1,5 +1,7 @@
 # Seurat CA1 top-two marker dotplot
 
+> This documents the earlier top-two-only delivery. The current CA1 URL now uses the shared full marker editor; see `analysis/marker_explorers_20261127/README.md`. The original builder is retained under `source_v2/`.
+
 Published reader: `site/ca1_sublayers/top_markers/`. The same component is embedded near the top of the existing CA1 sublayer reader and linked from the main atlas.
 
 ## Selection and interpretation

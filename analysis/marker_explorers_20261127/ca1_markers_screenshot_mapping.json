@@ -1,0 +1,530 @@
+[
+  {
+    "screenshot_position": 1,
+    "gene_symbol": "Ndst4",
+    "gene_id": "ENSMUSG00000027971",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 2,
+    "gene_symbol": "Col11a1",
+    "gene_id": "ENSMUSG00000027966",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 3,
+    "gene_symbol": "Zfp804a",
+    "gene_id": "ENSMUSG00000070866",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 4,
+    "gene_symbol": "Hdac9",
+    "gene_id": "ENSMUSG00000004698",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 5,
+    "gene_symbol": "Kcnip4",
+    "gene_id": "ENSMUSG00000029088",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 6,
+    "gene_symbol": "Prkca",
+    "gene_id": "ENSMUSG00000050965",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 7,
+    "gene_symbol": "Pde10a",
+    "gene_id": "ENSMUSG00000023868",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 8,
+    "gene_symbol": "Sorcs3",
+    "gene_id": "ENSMUSG00000063434",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 9,
+    "gene_symbol": "Epha6",
+    "gene_id": "ENSMUSG00000055540",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 10,
+    "gene_symbol": "Ntrk2",
+    "gene_id": "ENSMUSG00000055254",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 11,
+    "gene_symbol": "Cdh10",
+    "gene_id": "ENSMUSG00000022321",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 12,
+    "gene_symbol": "Stac",
+    "gene_id": "ENSMUSG00000032502",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 13,
+    "gene_symbol": "Man1a",
+    "gene_id": "ENSMUSG00000003746",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 14,
+    "gene_symbol": "Hunk",
+    "gene_id": "ENSMUSG00000053414",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 15,
+    "gene_symbol": "Cacna2d3",
+    "gene_id": "ENSMUSG00000021991",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 16,
+    "gene_symbol": "Nr3c2",
+    "gene_id": "ENSMUSG00000031618",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 17,
+    "gene_symbol": "Brinp1",
+    "gene_id": "ENSMUSG00000028351",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 18,
+    "gene_symbol": "R3hdm1",
+    "gene_id": "ENSMUSG00000056211",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 19,
+    "gene_symbol": "Spock3",
+    "gene_id": "ENSMUSG00000054162",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 20,
+    "gene_symbol": "Plekhg1",
+    "gene_id": "ENSMUSG00000040624",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 21,
+    "gene_symbol": "Srgap1",
+    "gene_id": "ENSMUSG00000020121",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 22,
+    "gene_symbol": "Slc24a2",
+    "gene_id": "ENSMUSG00000037996",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 23,
+    "gene_symbol": "Enox1",
+    "gene_id": "ENSMUSG00000022012",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 24,
+    "gene_symbol": "Garem1",
+    "gene_id": "ENSMUSG00000042680",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 25,
+    "gene_symbol": "Sik3",
+    "gene_id": "ENSMUSG00000034135",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 26,
+    "gene_symbol": "Ap2b1",
+    "gene_id": "ENSMUSG00000035152",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 27,
+    "gene_symbol": "Dock4",
+    "gene_id": "ENSMUSG00000035954",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 28,
+    "gene_symbol": "Stxbp5l",
+    "gene_id": "ENSMUSG00000022829",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 29,
+    "gene_symbol": "Pip5k1b",
+    "gene_id": "ENSMUSG00000024867",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 30,
+    "gene_symbol": "Nr4a1",
+    "gene_id": "ENSMUSG00000023034",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 31,
+    "gene_symbol": "Fam189a1",
+    "gene_id": "ENSMUSG00000030518",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 32,
+    "gene_symbol": "Zbtb16",
+    "gene_id": "ENSMUSG00000066687",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 33,
+    "gene_symbol": "Adgrb3",
+    "gene_id": "ENSMUSG00000033569",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 34,
+    "gene_symbol": "Ptprn",
+    "gene_id": "ENSMUSG00000026204",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 35,
+    "gene_symbol": "Nr4a2",
+    "gene_id": "ENSMUSG00000026826",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 36,
+    "gene_symbol": "Malat1",
+    "gene_id": "ENSMUSG00000092341",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 37,
+    "gene_symbol": "Epha3",
+    "gene_id": "ENSMUSG00000052504",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 38,
+    "gene_symbol": "Kcnab1",
+    "gene_id": "ENSMUSG00000027827",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 39,
+    "gene_symbol": "Robo2",
+    "gene_id": "ENSMUSG00000052516",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 40,
+    "gene_symbol": "March1",
+    "gene_id": "ENSMUSG00000036469",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 41,
+    "gene_symbol": "Ppp3ca",
+    "gene_id": "ENSMUSG00000028161",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 42,
+    "gene_symbol": "Arl15",
+    "gene_id": "ENSMUSG00000042348",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 43,
+    "gene_symbol": "Adcy2",
+    "gene_id": "ENSMUSG00000021536",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 44,
+    "gene_symbol": "Phactr1",
+    "gene_id": "ENSMUSG00000054728",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 45,
+    "gene_symbol": "Thsd7b",
+    "gene_id": "ENSMUSG00000042581",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 46,
+    "gene_symbol": "Ano3",
+    "gene_id": "ENSMUSG00000074968",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 47,
+    "gene_symbol": "Grm1",
+    "gene_id": "ENSMUSG00000019828",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 48,
+    "gene_symbol": "Kcnc2",
+    "gene_id": "ENSMUSG00000035681",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 49,
+    "gene_symbol": "Tafa1",
+    "gene_id": "ENSMUSG00000059187",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 50,
+    "gene_symbol": "Nlgn1",
+    "gene_id": "ENSMUSG00000063887",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 51,
+    "gene_symbol": "Ralyl",
+    "gene_id": "ENSMUSG00000039717",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 52,
+    "gene_symbol": "Mdga1",
+    "gene_id": "ENSMUSG00000043557",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 53,
+    "gene_symbol": "Gpc5",
+    "gene_id": "ENSMUSG00000022112",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 54,
+    "gene_symbol": "Galntl6",
+    "gene_id": "ENSMUSG00000096914",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 55,
+    "gene_symbol": "Ntm",
+    "gene_id": "ENSMUSG00000059974",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 56,
+    "gene_symbol": "Fras1",
+    "gene_id": "ENSMUSG00000034687",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 57,
+    "gene_symbol": "Gabrg3",
+    "gene_id": "ENSMUSG00000055026",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 58,
+    "gene_symbol": "Opcml",
+    "gene_id": "ENSMUSG00000062257",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 59,
+    "gene_symbol": "Pde4d",
+    "gene_id": "ENSMUSG00000021699",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 60,
+    "gene_symbol": "Pde1a",
+    "gene_id": "ENSMUSG00000059173",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 61,
+    "gene_symbol": "Ccser1",
+    "gene_id": "ENSMUSG00000039578",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 62,
+    "gene_symbol": "Plekha7",
+    "gene_id": "ENSMUSG00000045659",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 63,
+    "gene_symbol": "Lingo2",
+    "gene_id": "ENSMUSG00000045083",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 64,
+    "gene_symbol": "Pcdh7",
+    "gene_id": "ENSMUSG00000029108",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 65,
+    "gene_symbol": "Ptprk",
+    "gene_id": "ENSMUSG00000019889",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 66,
+    "gene_symbol": "Asic2",
+    "gene_id": "ENSMUSG00000020704",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 67,
+    "gene_symbol": "Cntnap5a",
+    "gene_id": "ENSMUSG00000070695",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 68,
+    "gene_symbol": "Alcam",
+    "gene_id": "ENSMUSG00000022636",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 69,
+    "gene_symbol": "Dcc",
+    "gene_id": "ENSMUSG00000060534",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 70,
+    "gene_symbol": "Ptprd",
+    "gene_id": "ENSMUSG00000028399",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 71,
+    "gene_symbol": "Fstl4",
+    "gene_id": "ENSMUSG00000036264",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 72,
+    "gene_symbol": "Sorbs2",
+    "gene_id": "ENSMUSG00000031626",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 73,
+    "gene_symbol": "Fgf14",
+    "gene_id": "ENSMUSG00000025551",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 74,
+    "gene_symbol": "Erc2",
+    "gene_id": "ENSMUSG00000040640",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 75,
+    "gene_symbol": "Tenm4",
+    "gene_id": "ENSMUSG00000048078",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 76,
+    "gene_symbol": "Ryr2",
+    "gene_id": "ENSMUSG00000021313",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 77,
+    "gene_symbol": "Rora",
+    "gene_id": "ENSMUSG00000032238",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 78,
+    "gene_symbol": "Nrg2",
+    "gene_id": "ENSMUSG00000060275",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 79,
+    "gene_symbol": "Neto1",
+    "gene_id": "ENSMUSG00000050321",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 80,
+    "gene_symbol": "Ak5",
+    "gene_id": "ENSMUSG00000039058",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 81,
+    "gene_symbol": "Rab3c",
+    "gene_id": "ENSMUSG00000021700",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 82,
+    "gene_symbol": "Agbl4",
+    "gene_id": "ENSMUSG00000061298",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 83,
+    "gene_symbol": "Nav2",
+    "gene_id": "ENSMUSG00000052512",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 84,
+    "gene_symbol": "Cntn4",
+    "gene_id": "ENSMUSG00000064293",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 85,
+    "gene_symbol": "Arhgap26",
+    "gene_id": "ENSMUSG00000036452",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 86,
+    "gene_symbol": "Zfpm2",
+    "gene_id": "ENSMUSG00000022306",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 87,
+    "gene_symbol": "Zmat4",
+    "gene_id": "ENSMUSG00000037492",
+    "mapping": "exact_unique_source_symbol"
+  },
+  {
+    "screenshot_position": 88,
+    "gene_symbol": "Smad3",
+    "gene_id": "ENSMUSG00000032402",
+    "mapping": "exact_unique_source_symbol"
+  }
+]

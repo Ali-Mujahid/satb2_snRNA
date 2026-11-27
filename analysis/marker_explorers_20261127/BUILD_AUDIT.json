@@ -1,0 +1,42 @@
+{
+  "seurat_only": true,
+  "no_models_refitted": true,
+  "datasets": [
+    {
+      "id": "ca1_markers",
+      "screenshot_markers": 88,
+      "catalog_genes": 1055,
+      "clusters": 11,
+      "sources": [
+        {
+          "path": "data/shards/markers__seurat__original_full__CA1_ProS.json.gz",
+          "sha256": "cf2dd6d1915aa566cf82322289806aa5e423004a792131bf02da4611fe251294",
+          "payload_sha256": "fe49c886506d31d95593ba0a3101ed867f7aa1299ae6c05b773d49dba5c17651"
+        },
+        {
+          "path": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.4.0/marker_extensions_v34/markers_v34__seurat__original_full__CA1_ProS.json.gz",
+          "sha256": "a2e6e10b68bbbe3b49b992ab3e4129825f847b2ea32a4fab9ecda5036fb519a9",
+          "payload_sha256": "a7d4bef287de892b4bd98d924a2c18c5b99b6047c96984bbc58438911eb2c358"
+        }
+      ]
+    },
+    {
+      "id": "inhibitory_markers",
+      "screenshot_markers": 73,
+      "catalog_genes": 1055,
+      "clusters": 20,
+      "sources": [
+        {
+          "path": "data/shards/markers__seurat__original_full__Inhibitory.json.gz",
+          "sha256": "749c3d49386f41c5327ab911b4ed8cb3e9c040676a6b93f25906d9fdd6bd1b72",
+          "payload_sha256": "283ca32aed283b075f4b25e21720983fd40bf0c45203d3091af5fa95b69b9d48"
+        },
+        {
+          "path": "https://raw.githubusercontent.com/Ali-Mujahid/satb2_snRNA/atlas-v3.4.0/marker_extensions_v34/markers_v34__seurat__original_full__Inhibitory.json.gz",
+          "sha256": "7fc025437948c2b66a44f87e36487b2e9941c820bd2bc5c4fc2c36436cd1bccc",
+          "payload_sha256": "8eca352ad2924f3afd38f20f877e3d609f9154ee7893e9392f936a3b82a60109"
+        }
+      ]
+    }
+  ]
+}
